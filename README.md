@@ -10,16 +10,16 @@ demande (OTA) et les met en cache — voir `EventEzMobile/src/i18n/translations.
 ## URL servie
 
 ```
-https://flashcoder237.github.io/eventez-i18n/
+https://cdn.eventez.online/
 ```
 
-Chaque langue : `https://flashcoder237.github.io/eventez-i18n/{lang}.json`
+Chaque langue : `https://cdn.eventez.online/{lang}.json`
 (ex. `/es.json`, `/de.json`).
 
 À mettre dans l'app mobile (`.env` / EAS) :
 
 ```
-EXPO_PUBLIC_TRANSLATIONS_URL=https://flashcoder237.github.io/eventez-i18n
+EXPO_PUBLIC_TRANSLATIONS_URL=https://cdn.eventez.online
 ```
 
 (Le loader concatène `/{lang}.json`. fr/en restent bundlés dans l'app, **pas**
