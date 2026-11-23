@@ -41,6 +41,7 @@
     "close": "关闭",
     "clear": "清除",
     "back": "回来",
+    "home": "页 次",
     "next": "下一个",
     "previous": "上一个",
     "search": "搜索",
@@ -460,7 +461,8 @@
     "saved": "已保存",
     "messages": "信件",
     "tickets": "车票",
-    "profile": "简介"
+    "profile": "简介",
+    "organize": "组织"
   },
   "languagePicker": {
     "eyebrow": "欢迎",
@@ -581,7 +583,13 @@
     "notifyOnTitle": "你们都准备好了!",
     "notifyOnBody": "我们一开始就通知你",
     "notifyOffTitle": "撤销通知",
-    "notifyOffBody": "允许提醒设置中的通知 。"
+    "notifyOffBody": "允许提醒设置中的通知 。",
+    "organizersEyebrow": "组织者",
+    "organizersTitle": "幕后人员",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "已验证的组织者",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "物价等级",
@@ -616,7 +624,10 @@
     "invisibleHint": "你是隐形的——也让人看到。",
     "message": "消息",
     "connected": "已连接",
-    "empty": "还没有人看得见。 成为第一个打开网络的人!"
+    "empty": "还没有人看得见。 成为第一个打开网络的人!",
+    "scanOptInTitle": "让参展者扫描我的徽章",
+    "scanOptInSubtitle": "展览公司可以通过扫描您的徽章来保存您的姓名和联系方式,以便在活动结束后跟进.",
+    "scanOptInWithdrawNote": "你可以随时关掉它 显示器已保存的联系人不会自动删除 —— 您可以从您的隐私设置中请求删除它们 。"
   },
   "eventDetails": {
     "eyebrow": "活动",
@@ -680,7 +691,16 @@
     "shareWhatsappA11y": "共享于 WhatsApp",
     "closePreviewA11y": "关闭预览",
     "invalidCode": "无效的访问代码",
+    "accessButton": "输入",
+    "pendingPaymentBanner": "完成你的付款确认你的注册",
+    "onlineInfoAfterRegistration": "注册后可获取连接细节",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "扩大",
+    "playCoverVideo": "播放视频",
+    "videoPlayA11y": "播放带声音的视频",
+    "videoUnmuteA11y": "解密",
+    "videoMuteA11y": "静音",
+    "videoExpandA11y": "将视频扩展至全屏",
     "imagesCount": "{{current}}/{{total}}.",
     "videoConference": "视频会议平台",
     "openLinkError": "无法打开事件链接",
@@ -704,7 +724,12 @@
     "reviewSubmitError": "无法提交您的审查",
     "loginRequiredWaitlist": "签名加入等待列表",
     "invitationGateDesc": "这一活动是为受邀嘉宾保留的。 如果您收到邀请函,请接受邀请获取访问权限.",
-    "codeGateDesc": "输入显示全部细节的代码"
+    "codeGateDesc": "输入显示全部细节的代码",
+    "giftRegistryCta": "礼品注册",
+    "giftRegistrySubtitle": "如果你愿意,请看名单和芯片",
+    "cancelReasonTitle": "取消的原因",
+    "visioEnded": "这场活动的电视会议已经结束。",
+    "videoPauseA11y": "暂停视频"
   },
   "events": {
     "videoBadge": "视频",
@@ -852,6 +877,9 @@
     "noPastMessage": "你过去的事会在这里出现",
     "scanQR": "扫描 QR 代码",
     "showQR": "显示 QR 代码",
+    "viewQR": "查看 QR",
+    "receivedTransfers": "收到转账",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "您的 QR 代码",
     "qrSubtitle": "在入口处显示此代码",
     "ticketDetails": "车票详情",
@@ -1159,6 +1187,7 @@
     "paymentBack": "回来",
     "paymentGenericError": "付款时发生错误",
     "paymentErrorTitle": "付款错误",
+    "paymentBlockedTitle": "停止支付卡片",
     "paymentCancelledTitle": "付款已取消",
     "paymentNoPaymentInProgress": "无持续付款以核实",
     "paymentVerifyingTitle": "正在校验...",
@@ -1167,6 +1196,12 @@
     "paymentContinueWaiting": "继续等待",
     "paymentProcessing": "处理",
     "paymentTitle": "付款",
+    "checkoutStep": "步骤3/3 付款",
+    "noDoubleCharge": "你只充电一次,即使屏幕旋转一段时间。",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "我接受这个",
+    "termsLinkFull": "销售条件和退款政策",
+    "termsAcceptSuffixDot": "。 。 。 。",
     "paymentStepSelection": "选择",
     "paymentStepRecap": "标题",
     "paymentMethodFallback": "付款",
@@ -1259,7 +1294,9 @@
     "finalizeSoldOutBody": "你预留的门票已经没有了 你的订位到期了 你没有被起诉。",
     "finalizeBackToEvent": "返回活动",
     "paymentPushSentTitle": "电话确认",
-    "paymentPushSentMessage": "向您的电话发出了付款请求。 批准(Mobile Money PIN)完成."
+    "paymentPushSentMessage": "向您的电话发出了付款请求。 批准(Mobile Money PIN)完成.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "要求退款"
   },
   "memories": {
     "title": "我的记忆",
@@ -1276,7 +1313,11 @@
     "recapShare": "分享我的回忆",
     "recapEvents": "事件得以发生",
     "recapCities": "城市",
-    "recapFirst": "时间到达 # 1"
+    "recapFirst": "时间到达 # 1",
+    "oneYearAgo": "一年前,你在场。",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "好久不见",
+    "firstNote": "先来. 门几乎没打开。"
   },
   "profile": {
     "title": "简介",
@@ -1431,7 +1472,27 @@
     "logoutLabel": "签字",
     "logoutInProgress": "签名...",
     "appVersion": "事件Ez v 1.0.0",
-    "myQRTitle": "我的QR码"
+    "myQRTitle": "我的QR码",
+    "refundsMenu": "我的退钱",
+    "refundsSubtitle": "追踪你的钱位置",
+    "shareProfileButton": "分享我的档案",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "我的组织者简介",
+    "shareOrganizerA11y": "分享我的组织者简介",
+    "viewPublicProfileA11y": "看我的公众形象",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "不跟随?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "接下来",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "无结果",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "发现事件",
+    "followSearchPlaceholder": "搜索组织者"
   },
   "editProfile": {
     "title": "编辑配置文件",
@@ -1491,7 +1552,13 @@
     "sectionOrganization": "组织",
     "sectionSecurity": "警卫",
     "qrShareSubtitle": "扫描此代码以共享您的配置文件",
-    "countryPlaceholder": "选择一个国家"
+    "countryPlaceholder": "选择一个国家",
+    "orgLogoLabel": "日志",
+    "orgLogoAdd": "添加标志",
+    "orgLogoChange": "更改标志",
+    "orgWebsiteLabel": "网站",
+    "orgDescriptionLabel": "公开介绍",
+    "orgDescriptionPlaceholder": "介绍一下你的组织..."
   },
   "settings": {
     "whoCanContactCurrent": "安地·萨米姆",
@@ -1542,6 +1609,7 @@
     "themeDialogTitle": "主题",
     "themeDialogSubtitle": "选择主题",
     "timezoneDialogTitle": "时区",
+    "timezoneDetected": "检测",
     "timezoneDialogSubtitle": "选择您的时区",
     "preferencesTitle": "首选项",
     "headerEyebrow": "设置",
@@ -1645,7 +1713,32 @@
     "shortcutInvoices": "发票",
     "shortcutTaxes": "税收",
     "shortcutMyEvents": "我的事件",
-    "shortcutHelp": "帮助"
+    "shortcutHelp": "帮助",
+    "rowMyDataAtExhibitors": "我的数据被参展者掌握",
+    "rowLiveBanner": "直播活动横幅",
+    "rowLiveBannerSubtitle": "显示一个加入当前正在直播的事件的横幅 。",
+    "pushPermissionTitle": "此设备的通知已关闭",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "让我的亲戚知道",
+    "rowShareAttendanceSubtitle": "你的联系人可以看到你正在参加一个活动。 默认关闭; 绝不只为邀请事件 。",
+    "rowNotifyMemories": "“一年前”的通知",
+    "rowNotifyMemoriesSubtitle": "每周最多一次提醒, 在你参加的活动的周年纪念日。",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "你一年的私人回忆 十二月 没有人看到它。",
+    "madeInDouala": "在杜阿拉制造的 小心点",
+    "madeInDoualaSub": "谢谢你把你们的事情带给我们",
+    "rowUiSounds": "接口声音",
+    "rowUiSoundsSubtitle": "在确认书和收到通知时发出非常微妙的声音。 默认关闭。",
+    "vibrationsEyebrow": "图奇",
+    "rowVibrations": "振动",
+    "rowVibrationsSubtitle": "对关键动作的快速反馈:支付,扫描,最爱.",
+    "rowMotionGestures": "运动姿态",
+    "rowMotionGesturesSubtitle": "摇摆,翻翻或握起你的手机 一些动作。 按钮也随时可用。",
+    "notificationsEyebrowOngoing": "通知",
+    "rowOngoingEvent": "活动日罚单",
+    "rowOngoingEventSubtitle": "一个安静的通知,3小时 活动之前和期间, 与你的票和方向。",
+    "rowNotificationSounds": "通知声音",
+    "rowNotificationSoundsSubtitle": "在您的电话设置中选择每个类别的声音( 大瞬间、 销量、 信件...)"
   },
   "messages": {
     "title": "信件",
@@ -1747,7 +1840,13 @@
     "searchResultsSection": "结果",
     "noConnectionsEyebrow": "净值",
     "noConnectionsTitle": "尚未连接",
-    "noConnectionsCta": "通过 QR 连接"
+    "noConnectionsCta": "通过 QR 连接",
+    "emptyEyebrowArchived": "已感染艾滋病毒",
+    "emptyEyebrowEmpty": "隐形炸弹",
+    "archivedEmptyDesc": "你的存档对话会在这里降落",
+    "noConversationsDesc": "开始新的信息——我们会找人谈谈.",
+    "attachmentPreview": "[附",
+    "noMatchingMessage": "没有匹配的消息"
   },
   "notifications": {
     "title": "通知",
@@ -1793,6 +1892,16 @@
     "typeFollowRegistered": "正在连接",
     "typeConnectionsAtEvent": "您的连接",
     "eyebrowNetwork": "网络",
+    "eyebrowSoon": "马上",
+    "eyebrowReminder": "审议",
+    "eyebrowModeration": "模式",
+    "eyebrowToReview": "审议情况",
+    "eyebrowDiscovery": "失踪问题",
+    "eyebrowUrgent": "紧急事件",
+    "eyebrowWhatsNew": "新情况",
+    "filterReadTab": "读取",
+    "groupToday": "今天",
+    "groupYesterday": "当天",
     "tabAll": "全体",
     "tabNetwork": "网络",
     "typeDefault": "通知",
@@ -1810,7 +1919,26 @@
     "statTotal": "共计",
     "statUnread": "联合国",
     "statToday": "今天",
-    "viewDetails": "查看细节"
+    "viewDetails": "查看细节",
+    "actions": {
+      "showTicket": "出示我的票",
+      "directions": "方向",
+      "going": "и璶ǐ",
+      "viewTicket": "查看票",
+      "reply": "答复",
+      "replyPlaceholder": "你的留言...",
+      "replySubmit": "发送",
+      "markRead": "标记为已读",
+      "joinLive": "联合",
+      "payNow": "现在付钱吧",
+      "writeTo": "传话给他们",
+      "viewEvent": "查看事件",
+      "viewTickets": "看我的门票",
+      "viewRefund": "查看退款",
+      "viewProfile": "查看配置文件",
+      "summaryTitle": "信件",
+      "summaryBody": "新消息"
+    }
   },
   "dashboard": {
     "title": "盘子",
@@ -1854,7 +1982,8 @@
     "subscriptionSubtitle": "管理我的计划",
     "exportTitle": "导出",
     "exportSubtitle": "您的数据",
-    "settingsLink": "设置"
+    "settingsLink": "设置",
+    "greetingNight": "祝你晚上过得愉快"
   },
   "following": {
     "title": "我最喜欢的",
@@ -2067,7 +2196,8 @@
       "notFound": "我们找不到你要找的东西",
       "conflict": "此动作与当前状态相冲突 。 刷新再试一次",
       "tooManyRequests": "太多尝试。 请等一下再试一次",
-      "server": "我们的服务器现在有麻烦了 请几分钟后再试一次"
+      "server": "我们的服务器现在有麻烦了 请几分钟后再试一次",
+      "updating": "EventEz is updating. Please try again in a few seconds."
     },
     "codes": {
       "emailTaken": "此邮件已经链接到一个账户 。 签名或使用其他地址。",
@@ -2087,6 +2217,35 @@
       "payoutLocked": "由于处理已经开始,这种支付方式不能再被改变. 如果出现错误, 请联系支援 。",
       "planLimitReached": "你已经达到计划极限了 提升你的计划 继续。",
       "countryNotSupported": "这个国家还没有付款 您可以在支持的国家创建事件, 或者联系我们 。"
+    },
+    "tickets": {
+      "offline": "你现在下线了 已经加载的车票可以停机 回到网上再试一次",
+      "timeout": "你的车票要加载一段时间 没有什么损失:他们安全地被拯救了. 再试一会",
+      "server": "我们的服务器有点打嗝 你的车票在我们这边很安全 再试几分钟",
+      "notFound": "我们找不到这张票 你其他的票没受影响 刷新列表或检查您的确认邮件 。",
+      "forbidden": "这张票属于另一个账户. 你自己的车票没有问题 用购买用的账户签字。"
+    },
+    "messages": {
+      "offline": "你现在下线了 你的消息没有丢失:待发的消息一旦恢复上网就会发出. 网络返回时再试一次 。",
+      "timeout": "消息反应缓慢. 你的消息没有丢失。 再试一会",
+      "server": "我们这边有点打嗝 你们的对话完好无损 再试几分钟",
+      "notFound": "这种对话已不复存在。 你的其他谈话没有受到影响 回你的留言。",
+      "forbidden": "你再也不能接触这个话题了 您的其他谈话仍然可用。 回你的留言。"
+    },
+    "event": {
+      "offline": "你下线了,所以我们不能展示这个事件。 你的车票可以上网 回到网上再试一次",
+      "timeout": "此事件页面需要一段时间才能加载 。 你那边什么也没有变 再试一会",
+      "server": "短暂的打嗝使我们无法展示这一事件。 你的车票和注册证没有受到影响 再试几分钟",
+      "notFound": "此事件不再在线:组织者可能已删除. 任何你留在\"我的票\"的门票。 更多事件正在发现中等待。",
+      "forbidden": "这件事是私人的 你的账户不是问题所在 请求组织者邀请访问 。"
+    },
+    "upload": {
+      "offline": "上传无法启动:你下线了. 你的档案还在你的电话里 回到网上再试一次",
+      "timeout": "上传时间太长了 你的档案还在你的电话里 再试一次,理想的是在Wi-Fi上或用打火机的文件.",
+      "server": "服务器无法接收文件 。 手机上还是安全的 再试几分钟",
+      "notFound": "上传目的地已不存在 。 你的档案在手机上仍然安全 刷新屏幕再试一次 。",
+      "forbidden": "您不能上传此文件 。 手机上还是安全的 请检查date=中的日期值 (帮助)",
+      "tooLarge": "此文件太大无法上传 。 手机上还是安全的 选择一个更轻的文件或裁剪图像 。"
     }
   },
   "errorBoundary": {
@@ -2695,7 +2854,10 @@
     "successTitle": "祝贺你!",
     "successMessage": "你现在是一个组织者。 创建您的第一个活动!",
     "errorTitle": "错误",
-    "errorGeneric": "发生了错误"
+    "errorGeneric": "发生了错误",
+    "labelWebsite": "网站( 可选)",
+    "labelDescription": "描述( 可选)",
+    "placeholderDescription": "介绍一下你的组织..."
   },
   "verificationForm": {
     "pdfOpenError": "无法打开文档 。",
@@ -2856,7 +3018,9 @@
     "locHybrid": "混合",
     "priceAny": "全体",
     "priceFree": "免费",
-    "pricePaid": "已支付"
+    "pricePaid": "已支付",
+    "shareSearch": "共享此搜索",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "过滤器",
@@ -2920,7 +3084,11 @@
     "agendaTitle": "出版活动",
     "loadingEvents": "正在装入...",
     "noEvents": "没有公布事件",
-    "freeBadge": "自由主义"
+    "freeBadge": "自由主义",
+    "tabs": {
+      "upcoming": "即将",
+      "past": "过去"
+    }
   },
   "sessionDetails": {
     "title": "会议",
@@ -3282,17 +3450,17 @@
     "jMinus": "D -  - ",
     "todayAcronym": "今天",
     "monthsShort": [
+      "扬",
+      "FEB (法语)",
+      "马里",
+      "APR 保护",
+      "5月 (简体中文)",
       "简",
-      "FEB 联邦经济委员会",
-      "马尔",
-      "APR 保护程序",
-      "5月(简体中文)",
-      "琼",
       "朱尔",
       "奥古斯特",
       "9月9日,纽约",
-      "OCT (美国)",
-      "NOV 诺瓦",
+      "OCT 组织",
+      "NOV (英语).",
       "DEC 数据交换中心"
     ],
     "unfollowConfirmTitle": "未跟踪",
@@ -3389,7 +3557,16 @@
     "perm_view_analytics": "查看分析",
     "perm_view_registrations": "查看注册列表",
     "perm_edit_event": "编辑事件",
-    "perm_manage_team": "邀请其他成员"
+    "perm_manage_team": "邀请其他成员",
+    "role_co_organizer": "共同组织者",
+    "role_moderator": "主持人",
+    "role_scanner": "扫描机",
+    "role_analyst": "分析员",
+    "status_pending": "待决",
+    "status_accepted": "活动",
+    "status_declined": "已减少",
+    "status_revoked": "已撤销",
+    "status_expired": "过期"
   },
   "myTeamEvents": {
     "eyebrow": "在幕后",
@@ -3408,8 +3585,10 @@
     "willAttend": "我会去的",
     "wontAttend": "我赶不过来",
     "partySize": "额外嘉宾人数",
+    "partySizeHint": "况汝等乎. 比如2,如果你带2个人。",
     "dietary": "饮食要求/过敏",
     "note": "一言为定",
+    "noteOptional": "一对夫妇的单词(可选)",
     "submit": "发送我的答复",
     "thanksAccepted": "谢谢! 您的出席确认。",
     "thanksDeclined": "谢谢你让我们知道",
@@ -3421,7 +3600,18 @@
     "giftYourName": "你的名字",
     "giftMethod": "付款方法",
     "giftPay": "贡献",
-    "giftError": "付款不能开始。"
+    "giftThanks": "谢谢你的贡献!",
+    "giftRedirectNote": "你会被重新定位到一个安全的支付页面。 这是正常的。",
+    "giftError": "付款不能开始。",
+    "rsvpSubmitError": "你的回复无法发出 请再试一次",
+    "summaryTitle": "你的答复",
+    "summaryAccepted": "你确认你的出席。",
+    "summaryDeclined": "你拒绝了邀请。",
+    "summaryPartySize": "来宾与你同在",
+    "summaryHeadcount": "预留席位",
+    "summaryDietary": "饮食需要",
+    "summaryTable": "您的桌子,请坐",
+    "summaryTablePending": "您的桌子将在活动前共享 。"
   },
   "teamInvitation": {
     "eyebrow": "入境",
@@ -3743,7 +3933,21 @@
     "readOnlyLockMessage": "唯读讨论. 保存您的留言 。",
     "mutedLockMessage": "你在这次讨论中被组织者所忽视",
     "postingLockMessage": "只有组织者才能在讨论中发表。",
-    "defaultUserName": "此用户"
+    "defaultUserName": "此用户",
+    "someFilesQueuedForRetry": "一旦连接恢复,一些文件就会受到不满.",
+    "retrySend": "重试",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "向下滚动",
+    "tapToLoadImage": "磁带装入",
+    "reply": "答复",
+    "react": "反应",
+    "reactionToggleA11y": "反应 {{emoji}},{{count}}",
+    "readOnlyLockMessageShort": "唯读对话.",
+    "headerCollapseA11y": "隐藏横幅",
+    "headerExpandA11y": "显示横幅",
+    "headerCollapseLabel": "隐藏",
+    "headerExpandLabel": "事件详情"
   },
   "scanForm": {
     "loading": "正在装入...",
@@ -3810,7 +4014,8 @@
     "roleModerator": "主持人",
     "roleAdmin": "管理员",
     "fallbackEvent": "活动",
-    "fallbackUnknownUser": "用户"
+    "fallbackUnknownUser": "用户",
+    "statusUnknown": "未知状态"
   },
   "refundRequest": {
     "watermarkBack": "回来",
@@ -3970,7 +4175,13 @@
       "accessCodeLabel": "访问代码( 可选)",
       "accessCodeHint": "访客需要输入这个代码才能看到细节",
       "accessCodePlaceholder": "空出没有代码",
-      "featuredInfo": "您可以从“ 我的事件” 中请求在创建后展示您的活动 。"
+      "accessCodeKeepPlaceholder": "新代码( 留空以保留当前代码)",
+      "accessCodeActive": "访问码已激活 。",
+      "accessCodeWillBeRemoved": "保存时代码会被删除.",
+      "accessCodeRemove": "删除代码",
+      "accessCodeUndoRemove": "撤销",
+      "featuredInfo": "您可以从“ 我的事件” 中请求在创建后展示您的活动 。",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "日期和地点",
@@ -4188,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "关闭菜单",
       "cancel": "取消"
+    },
+    "venuePicker": {
+      "label": "使用保存的会场",
+      "hint": "字段自动填充 。 之后你可以调整它们。"
     }
   },
   "componentsCharts": {
@@ -4342,7 +4557,18 @@
     "ticketsAddedSuccess": "成功添加车票",
     "alreadyRegisteredConfirmTitle": "已登记",
     "alreadyRegisteredConfirmMessage": "您已经注册了此事件 。",
-    "createRegistrationError": "无法创建注册"
+    "createRegistrationError": "无法创建注册",
+    "accessMode": {
+      "in_person": "仅本人",
+      "online": "在线访问",
+      "hybrid": "亲自+在线"
+    },
+    "limitStock": "仅剩{{max}}此型的票.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "只剩一个地方了",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "采购暂停",
+    "suspendedByIncident": "采购因事件暂停。 跟踪状态页面的更新。"
   },
   "registrationDetails": {
     "headerInscription": "我的注册",
@@ -4541,6 +4767,7 @@
     "tipScanEntrance": "在入口处扫描QR码",
     "tipArriveLines": "及时赶来跳过线条",
     "validatedTitle": "有效车票",
+    "stampValidated": "报到",
     "validatedAt": "输入于 @% 0 @% 1 @% 1",
     "paymentPendingTitle": "待付款项",
     "paymentPendingDesc": "完成你的付款确认",
@@ -4570,7 +4797,15 @@
     "statusConfirmed": "确认",
     "statusPending": "待决",
     "statusCancelled": "已取消",
-    "statusValidated": "已验证"
+    "statusValidated": "已验证",
+    "pdfOnline": "在线活动",
+    "statusUnknown": "未知状态",
+    "presentHint": "点击以扩展代码,长压以证明有效性.",
+    "presentA11yAction": "扩大检查代码",
+    "proofA11yAction": "显示有效性证明",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "回到门票上",
+    "presentExitHint": "拍下来回去"
   },
   "offlineTickets": {
     "headerTitle": "离线",
@@ -4942,7 +5177,46 @@
     "virtualJoinLive": "加入现场",
     "virtualStartsInMinutes": "开始于% 0 分钟",
     "virtualUnavailableTitle": "无法使用视频",
-    "virtualUnavailableNote": "EventEz Video尚未为此事件活动 。 组织者将共享连接链接."
+    "virtualUnavailableNote": "EventEz Video尚未为此事件活动 。 组织者将共享连接链接.",
+    "virtualWaitingHostTitle": "直播还没有开始",
+    "virtualWaitingHostNote": "组织者一打开房间你就能加入",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "主会议室",
+      "session": "会议",
+      "breakout": "突破",
+      "networking": "联网",
+      "workshop": "讲习班"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "销售结束",
+    "ticketsSaleNotStarted": "马上就要卖了",
+    "peekSave": "保存",
+    "peekUnsave": "从保存中删除",
+    "peekShare": "份额",
+    "peekOpen": "打开",
+    "peekA11yHint": "按住预览",
+    "swipeSave": "要保存的释放",
+    "swipeUnsave": "要删除的释放",
+    "swipeHint": "要保存的刷新",
+    "swipeRemoved": "从保存中删除",
+    "swipeUndo": "撤销",
+    "swipeRemove": "删除",
+    "weather": {
+      "sunny": "阳光",
+      "partlySunny": "阳光咒语",
+      "cloudy": "云头",
+      "fog": "雾",
+      "rain": "风雨",
+      "snow": "雪",
+      "showers": "淋浴",
+      "thunderstorm": "暴风雨",
+      "variable": "可更改"
+    }
   },
   "componentsCommon": {
     "exportTitle": "选择格式",
@@ -5027,7 +5301,11 @@
     "followPrefsSave": "保存首选项",
     "followPrefsSaveA11y": "保存首选项",
     "inAppToastA11y": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}请按键",
-    "webviewVisioTitle": "视频通话"
+    "webviewVisioTitle": "视频通话",
+    "webviewOfflineTitle": "你下线了",
+    "webviewOfflineBody": "你的设备失去了连接。 网络一旦恢复,电话就会恢复。",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "检测到连接缓慢——视频可能退化并使用您的数据."
   },
   "messageRequests": {
     "eyebrow": "安地·萨米姆",
@@ -5075,6 +5353,17 @@
     "permissionTitle": "所需相机",
     "permissionSubtitle": "要扫描一个QR,事件Ez需要访问相机.",
     "permissionGrant": "允许相机"
+  },
+  "media": {
+    "sheetTitle": "你想怎么办?",
+    "saveToGallery": "保存到画廊",
+    "share": "份额",
+    "savedToGallery": "保存到画廊",
+    "permissionDeniedTitle": "权限被拒绝",
+    "permissionDeniedMessage": "在设置中启用图片访问以保存 。",
+    "sharingUnavailable": "此设备无法共享 。",
+    "downloadFailed": "下载失败 。 请再试一次",
+    "genericError": "出了点问题 请再试一次"
   },
   "componentsMessages": {
     "inputJoinFile": "附加一个文件",
@@ -5296,7 +5585,7 @@
     "messages": "内容",
     "suggestions": "二、建 议",
     "theme": "主题",
-    "timezoneSoon": "时空 很快",
+    "timezone": "时间 零",
     "soundEffects": "声音效果",
     "authSoon": "- 很快",
     "connectionsSoon": "连接——即刻",
@@ -5322,7 +5611,11 @@
     "tabSaved": "02 —— 获救",
     "tabMessages": "03) 内容",
     "tabTickets": "04 吨数",
-    "tabProfile": "05 概况"
+    "tabProfile": "05 概况",
+    "push": "推开",
+    "privacy": "隐私",
+    "memories": "回忆",
+    "yearInReview": "审查年份"
   },
   "organizer": {
     "common": {
@@ -5333,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "已选中",
-      "selectedCount_plural": "已选中",
+      "selectedCount_other": "{{count}} selected",
       "approve": "核准",
       "reject": "拒绝",
       "checkIn": "报到"
@@ -5432,7 +5725,7 @@
       "saved": "已保存计划",
       "saveError": "保存失败 。",
       "save": "保存",
-      "unsaved": "                                                                                                                                                                                                                                                                                                           ",
+      "unsaved": "{{count}} change(s)",
       "upToDate": "最新数据"
     },
     "seatingPlans": {
@@ -5791,6 +6084,7 @@
         "discountCodes": "宣传码",
         "linkSessions": "链接会议票",
         "addPhotos": "添加相片",
+        "startLive": "活下来吧",
         "volunteers": "志愿人员",
         "sponsors": "发起人",
         "seatingPlans": "席位计划",
@@ -5808,7 +6102,11 @@
         "deleteDesc": "不可逆转的行动",
         "invite": "请客",
         "inviteDescInviteOnly": "唯一允许访问此只邀请活动的方法",
-        "duplicatePastDesc": "从可编辑的副本开始"
+        "duplicatePastDesc": "从可编辑的副本开始",
+        "remindInvites": "提醒客人们",
+        "weddingGuests": "来宾和RSVP",
+        "weddingGifts": "登记和礼品",
+        "weddingTables": "席位计划"
       },
       "emptyEyebrowResults": "无结果",
       "emptyEyebrowCatalog": "喀麦隆",
@@ -5824,6 +6122,7 @@
       "cancelReasonPlaceholder": "例如,健康状况,地点不详...",
       "keepBtn": "保留",
       "cancelEventBtn": "取消事件",
+      "cancelHolding": "别动...",
       "recurrenceEyebrow": "重现",
       "recurrenceModalTitle": "计划表“ ++++ ”",
       "recurrenceModalBody": "从此事件创建多个事件 。 每个事件都是独立的新事件,您可以调整.",
@@ -5862,7 +6161,14 @@
       "inviteInvalidMessage": "请检查access-date=中的日期值 (帮助)",
       "inviteSentTitle": "发出的邀请",
       "inviteSentMessage": "QQ0QQ邀请函发出.",
-      "inviteError": "无法发送邀请 。"
+      "inviteError": "无法发送邀请 。",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "现在没有客人可以提醒",
+      "remindErrorTitle": "提醒失败",
+      "remindErrorMessage": "催复函无法发出. 请再试一次",
+      "remindPendingProgress": "正在发送提醒...",
+      "loadError": "无法加载你的事件。 检查你的连接。"
     },
     "volunteer": {
       "tabReceived": "收到({{count}})",
@@ -6133,7 +6439,35 @@
       "manualCodeInvalid": "无效代码:预期的UUID或参考代码(8-20个字符A-Z/0-9).",
       "sessionRecapTitle": "会议摘要",
       "sessionRecapBody": "扫描时间:% 1分\n已验证 。\nQQ 失败",
-      "sessionRecapQueue": "QQ0Q已下线"
+      "sessionRecapQueue": "QQ0Q已下线",
+      "manualModeBanner": "人工模式——每人1个窃听器",
+      "manualModeA11y": "手动模式开始 。 启动自动登录",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "这些人在网络倒闭时进入. 检查你的团队。",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "接受离线 通过此手机,拒绝同步。 如果另一个特工同时在扫描, 这些人两次进入。",
+      "voice": {
+        "valid": "有效罚单",
+        "validWarning": "有效, 需要检查",
+        "alreadyCheckedIn": "已登录",
+        "refused": "罚单被拒绝",
+        "enabled": "语音通知",
+        "toggleOn": "语音通知",
+        "toggleOff": "语音通知关闭",
+        "toggleA11y": "打开或关闭扫描结果语音通知"
+      }
     },
     "liveOps": {
       "live": "活着",
@@ -6158,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "你的影响",
       "headerTitle": "分析",
+      "errorTitle": "无法分析",
+      "errorBody": "无法装入数据。 检查一下你的连接 再试一次",
       "eventLabel": "活动",
       "kpiViews": "视图",
       "kpiRegistrations": "登记",
@@ -6179,7 +6515,8 @@
       "insightViewsHas": "您的活动已被观看了% 1 遍",
       "insightViewsNone": "共享您的活动以获取更多视图",
       "insightRegistered_one": "登记人数",
-      "insightRegistered_other": "登记人数"
+      "insightRegistered_other": "登记人数",
+      "actionBoxOffice": "票房"
     },
     "sessionsLink": {
       "headerEyebrow": "• 会议",
@@ -6281,6 +6618,10 @@
       "submitSuccess": "成功提交事件",
       "viewMyEvents": "查看我的事件",
       "createAnother": "创建另一个",
+      "submittedStamp": "正在审查",
+      "submittedEyebrow": "提交供审议",
+      "submittedBody": "我们的团队正在回顾你的活动 开机后立即通知你",
+      "submittedCtaEyebrow": "电线板",
       "edit": "编辑",
       "saved": "已保存",
       "back": "回来",
@@ -6449,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF 导出, 仪表板",
       "linkMyEventsTitle": "我的活动",
       "linkMyEventsSub": "每个事件"
+    },
+    "boxOffice": {
+      "openTitle": "打开车窗",
+      "openingFloatHelp": "组织者给了你多少变化? 没有它,今晚的计数将是错误的。",
+      "openDrawer": "打开车窗",
+      "openError": "无法打开",
+      "openErrorDetail": "检查一下你的连接 再试一次",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "关闭",
+      "cash": "现金",
+      "momo": "移动货币",
+      "giveBack": "还给我",
+      "saleError": "销售没有记录",
+      "saleErrorDetail": "不要重新进入销售:再试一次,它不会被收取两次.",
+      "a11y": {
+        "drawerOpened": "直到打开",
+        "openingFloatInput": "打开浮点数",
+        "openDrawer": "打开车窗",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "关门",
+        "tariff": "{{name}},{{price}},{{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "移动钱",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "手递",
+      "cashOnlyHint": "只有现金 移动钱不在你的包里",
+      "openingFloat": "打开浮点数",
+      "salesCount": "销售",
+      "countedLabel": "我数过了",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "这不是屏蔽。 解释一下下面的原因",
+      "reasonLabel": "解释(可选)",
+      "reasonPlaceholder": "比如,我给了500个太多的改变",
+      "confirmClose": "闭上眼睛",
+      "closedTitle": "直到关闭",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "关闭失败",
+      "closeErrorDetail": "请很快再试一次",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "计算数额",
+        "reasonInput": "差异解释",
+        "confirmClose": "确认关闭",
+        "closed": "直到关闭"
+      }
+    },
+    "documents": {
+      "title": "要打印的文档",
+      "a11y": "可打印文档",
+      "badges": "出席者徽章",
+      "badgesHint": "A6格式,每A4页4",
+      "attendanceSheet": "登录工作表",
+      "attendanceSheetHint": "在前台签字——活动前准备好",
+      "certificates": "出席证书",
+      "certificatesHint": "活动结束后,为报到的参与者"
+    },
+    "weddingGuests": {
+      "title": "来宾和RSVP",
+      "empty": "还没有客人。",
+      "remindOne": "提醒",
+      "remindOneSent": "发送提醒",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "无法发送提醒",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "编辑RSVP",
+      "editRsvpTitle": "编辑RSVP",
+      "rsvpUpdated": "更新RSVP",
+      "rsvpError": "无法保存 RSVP",
+      "partySize": "缔约方规模",
+      "dietary": "饮食要求",
+      "dietaryPlaceholder": "蔬菜,无脂...",
+      "note": "说明",
+      "stats": {
+        "invited": "邀请",
+        "accepted": "确认",
+        "pending": "待决",
+        "headcount": "人口统计"
+      },
+      "status": {
+        "pending": "待决",
+        "accepted": "确认",
+        "declined": "已减少",
+        "cancelled": "已取消"
+      }
+    },
+    "weddingGifts": {
+      "title": "登记和礼品",
+      "noRegistry": "没有此活动的礼品注册 。",
+      "create": "创建注册",
+      "registryCreated": "书记官处的创建",
+      "registryUpdated": "书记官处更新",
+      "editRegistry": "编辑登记册",
+      "registryTitle": "书记官处名称",
+      "registryDescription": "给来宾的信",
+      "visible": "书记官处可见",
+      "hidden": "隐藏",
+      "totalRaised": "筹集总额",
+      "share": "份额",
+      "addItem": "加个礼物",
+      "newItem": "新礼物",
+      "editItem": "编辑天赋",
+      "itemName": "名称",
+      "itemKind": "类型",
+      "targetAmount": "目标数额",
+      "externalUrl": "外部链接( 可选)",
+      "itemAdded": "添加礼品",
+      "itemUpdated": "更新礼品",
+      "itemDeleted": "礼品已删除",
+      "deleteItemTitle": "删除此礼物",
+      "deleteItemMessage": "从登记册中删除“{{name}}”?",
+      "reserved": "准备金",
+      "noItems": "还没有礼物 补一.",
+      "kind": {
+        "gift": "礼品(项目)",
+        "cash_fund": "现金基金"
+      },
+      "error": "出问题了"
+    },
+    "weddingTables": {
+      "title": "席位计划",
+      "noTables": "还没有桌子 创建一个。",
+      "addTable": "添加一个表格",
+      "newTable": "新建表格",
+      "editTable": "编辑表格",
+      "name": "表格名称",
+      "namePlaceholder": "1号桌,家庭...",
+      "capacity": "席位",
+      "created": "创建表格",
+      "updated": "更新的表格",
+      "deleted": "删除的表格",
+      "deleteTitle": "删除表格",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}}",
+      "available": "{{n}} seat(s)",
+      "full": "满",
+      "tableEmpty": "这桌没人",
+      "unassignedTitle": "到座({{count}}).",
+      "allSeated": "所有确认的客人都坐下",
+      "createFirst": "先创建一张桌子让客人坐好",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "请坐",
+      "unassign": "删除",
+      "unassigned": "来宾已删除",
+      "capacityError": "这桌座位不够",
+      "error": "出问题了"
     }
   },
   "moderation": {
@@ -7218,6 +7716,554 @@
     "payOrange": "橙子钱",
     "payCard": "纸牌",
     "paymentInitiated": "开始付款。 电话确认",
-    "payError": "无法启动摊位支付 。"
+    "payError": "无法启动摊位支付 。",
+    "captureLeads": "抓取联系人",
+    "viewLeads": "我的联系人"
+  },
+  "leadCapture": {
+    "title": "抓取联系人",
+    "hint": "指向访客徽章上的QR码.",
+    "permissionTitle": "允许相机访问",
+    "permissionBody": "相机仅用于读取同意联系的访客的徽章QR码.",
+    "permissionCta": "把摄像机打开",
+    "manualEntry": "输入引用",
+    "manualPlaceholder": "标签参考",
+    "unnamed": "联系人已保存",
+    "alreadyKnown": "已经见过——记录更新。",
+    "qualify": "限定此联系人",
+    "rating_hot": "热",
+    "rating_warm": "温暖",
+    "rating_cold": "凉",
+    "notesPlaceholder": "你说的是什么(可选)",
+    "next": "下次联系人",
+    "retry": "再次扫描",
+    "noConsentTitle": "这个客人不同意",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "未识别徽章",
+    "notFoundBody": "此徽章不属于此事件. 请检查在QR码下打印的参考文献.",
+    "errorTitle": "扫描失败",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "这名来访者没有同意与之联系。",
+    "a11yNotFound": "徽章没有识别。",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "现在",
+    "yesterday": "昨日来",
+    "justNow": "刚才",
+    "minutesShort": "{{count}}",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "发送",
+    "failed": "发送失败",
+    "sent": "发送",
+    "delivered": "已交付",
+    "read": "读取"
+  },
+  "myLeads": {
+    "title": "我的联系人",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "未命名的联系人",
+    "emptyTitle": "尚未联系人",
+    "emptyBody": "查查来宾的徽章 然后可以将完整列表导出为 CSV 。",
+    "errorTitle": "装不下",
+    "errorBody": "您的联系人已安全保存 。 检查一下你的连接 再试一次"
+  },
+  "myDataExhibitors": {
+    "title": "我的数据被参展者掌握",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "擦除",
+    "eraseAll": "全部删除",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "您的联系方式已被删除 。",
+    "eraseError": "擦掉的痕迹没有穿过。",
+    "confirmCta": "擦除",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "把每个参展者掌握的数据都抹掉?",
+    "confirmAllBody": "每个上市公司都会删除你的名字,电子邮件和电话号码. 这一点是无法消除的。",
+    "emptyTitle": "联系方式没有公司",
+    "emptyBody": "展览者只能通过扫描你的徽章来保存你的细节,并且只有你允许参加那个活动时才能保存."
+  },
+  "visio": {
+    "expandCall": "扩展视频通话",
+    "endCall": "结束呼叫",
+    "endCallConfirmTitle": "留下电话?",
+    "endCallConfirmMessage": "你即将离开正在进行的会议。",
+    "minimize": "最小化",
+    "liveNow": "活着",
+    "join": "联合",
+    "view": "视图",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "视图",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "调整大小"
+  },
+  "organize": {
+    "favorites": "我最喜欢的",
+    "eyebrow": "组织者空间",
+    "title": "组织",
+    "liveNow": "现在活着",
+    "nextEvent": "下次活动",
+    "registered": "登记",
+    "scan": "扫描",
+    "scanA11y": "扫描本次活动的门票",
+    "boxOffice": "票房",
+    "boxOfficeA11y": "打开本次活动的票房",
+    "viewStats": "查看数据",
+    "availableBalance": "可用余额",
+    "walletA11y": "打开我的钱包",
+    "noActiveEvent": "没有活动正在运行",
+    "noActiveEventHint": "创建一个事件或发布一个草案来在这里查看.",
+    "noStaffEventHint": "你加入团队的事件会在这里出现.",
+    "createEvent": "创建事件",
+    "myEvents": "我的活动",
+    "teamEvents": "工作人员",
+    "analytics": "分析",
+    "loadError": "无法加载你的空间。 检查你的连接。"
+  },
+  "moments": {
+    "checkin": {
+      "entered": "你进去了",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "一个星期后",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "门是打开的",
+    "onNow": "现在发生",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "离线可用车票",
+    "offlinePending": "开一次车票,不上网",
+    "sayImGoing": "说我要去",
+    "showTicket": "出示我的票",
+    "directions": "方向",
+    "viewTicket": "查看票",
+    "goThere": "走开",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "校准指南针:用手机绘制图8",
+    "compassHint": "跟着箭到会场"
+  },
+  "onSite": {
+    "eyebrow": "你在现场",
+    "now": "现在",
+    "next": "Next · {{time}}",
+    "qa": "现场直播",
+    "plan": "地图地点( E)",
+    "networking": "联网"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "你当时在场",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "先来",
+    "question": "你觉得呢?",
+    "thanks": "谢谢你的评分",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}}星",
+    "shareStory": "分享故事",
+    "later": "回头见"
+  },
+  "yearInReview": {
+    "eyebrow": "你这一年",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "参加的活动",
+    "s1Line_other": "参加的活动",
+    "citiesEyebrow": "在路边",
+    "categoryEyebrow": "你的这种活动",
+    "season": "月: {{month}}",
+    "firstEyebrow": "这一切开始于",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "总是准时",
+    "arrivalsLine_one": "时间先到",
+    "arrivalsLine_other": "第一次到达的时间",
+    "organizerEyebrow": "组织者",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "最喜欢的: {{title}}",
+    "share": "分享我的名片",
+    "tapHint": "继续播放"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "第一次出席者",
+      "someone": "有人吗",
+      "share": "份额促进销售",
+      "view": "视图",
+      "soldOutTitle": "卖了",
+      "soldOutLine": "每张票都不见了"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "卖掉",
+      "online": "活着"
+    },
+    "share": {
+      "cta": "分享事件",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "共享",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}}自{{when}}.",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "请求",
+      "approved": "核定数",
+      "sent": "发送",
+      "verifying": "与操作员核对",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "支付失败"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "以 {{count}} h 提供"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "地点几乎满了",
+      "newCount": "+{{count}}新."
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "班次结束",
+      "validated": "报到",
+      "cadence": "{{value}}/分钟",
+      "cadenceLabel": "颜色",
+      "refused": "拒绝",
+      "syncing": "正在同步...",
+      "synced": "同步",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "查看现场操作",
+      "resume": "继续",
+      "close": "完成"
+    },
+    "recap": {
+      "title": "标题",
+      "eyebrow": "行动",
+      "attended": "出席",
+      "attendedOf": "{{attended}} {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "收入",
+      "rating": "平均评级",
+      "reviews": "{{count}} reviews",
+      "noReviews": "尚未审查",
+      "best": "突出情况审查",
+      "latest": "最近审查",
+      "thank": "感谢与会者",
+      "funds": "查看资金",
+      "error": "现时无法复述",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "视图复刻"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "刚刚订的",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "在最后一小时订的",
+    "lastSaleToday": "今天订好了",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "卖了",
+    "soldOutCta": "售出... 没有座位了",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "你们的连线",
+    "someone": "有人吗",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "在线",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24小时",
+    "seatHeldTitle": "有个位子给你",
+    "seatHeldBody": "倒计时结束前的书:在那之后,它会到下一个人.",
+    "seatHeldCta": "给我订位子",
+    "seatHeldExpired": "时间到了:座位去了下一个人。",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "全部显示",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "反应",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "你的一个联系人来了",
+    "connectionArrivedCta": "传话给他们",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "现场销售",
+    "checkinPushed": "即时抵达"
+  },
+  "reminders": {
+    "channelName": "事件提醒",
+    "dayBeforeTitle": "提醒:明天",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "提醒: 1小时后",
+    "hourBeforeBody": "“{{title}}”很快开始。",
+    "hourBeforeBodyAt": "“{{title}}”很快于{{location}}开始。"
+  },
+  "quickActions": {
+    "discover": "发现",
+    "discoverSubtitle": "你身边的事",
+    "tickets": "我的车票",
+    "scan": "扫描一张票"
+  },
+  "ongoing": {
+    "channelName": "活动日",
+    "eventFallback": "你的活动",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "马上就开始",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "你的车票准备好了",
+    "scannerTitle": "值班扫描机"
+  },
+  "gestures": {
+    "undo": {
+      "title": "撤销最后的动作?",
+      "confirm": "撤销",
+      "keep": "保留",
+      "failed": "解脱未过. 检查一下你的连接 再试一次",
+      "unfollow": "将“{{title}}”放回你最喜欢的地方。",
+      "archive": "将对话移出归档 。"
+    },
+    "report": {
+      "title": "报告问题",
+      "subtitle": "测试构建(Test building):截图,屏幕和版本随您的消息一同发送.",
+      "noNote": "无评论的报告",
+      "blur": "模糊",
+      "noShot": "此屏幕上没有可用的截图 。",
+      "placeholder": "发生了什么事?",
+      "send": "发送",
+      "sent": "谢谢,你的报告已经发出",
+      "unavailable": "无法发送 : 错误跟踪在此架构上没有活动 。"
+    },
+    "applause": {
+      "hint": "坚持鼓掌的时间更长。",
+      "a11y": "热烈掌声"
+    },
+    "hush": {
+      "title": "麦克和摄像头关机了,而电话却脸朝下",
+      "reactivate": "拍到他们又打开了"
+    },
+    "lighter": {
+      "button": "更轻",
+      "off": "灭了它",
+      "alone": "举起你的电话,火焰跟着你的动作。",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "给我个惊喜",
+      "chipA11y": "提议随机事件",
+      "again": "又一个",
+      "none": "现在没有即将到来的事件可以说明"
+    },
+    "bump": {
+      "settingTitle": "抖动交换联系人",
+      "settingSubtitle": "在现场,一旦你的票被扫描:与其他人同时摇动以找到对方. 您的大致位置使用几秒钟来匹配您, 并且从未被存储 。 没有你的确认,一切都不会发生 默认关闭。",
+      "button": "通过摇晃交换",
+      "nearbyButton": "环顾四周",
+      "hint": "和另一个人同时摇动你的手机.",
+      "title": "交换联系人",
+      "searching": "寻找在你身边摇晃的人...",
+      "none": "没人找到 与他人同时摇摆,然后再试一次.",
+      "pick": "选对人. 未经你同意,任何事物都不能共享",
+      "connect": "连接?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "等待确认",
+      "connected": "已连接",
+      "openSettings": "打开设置",
+      "error": {
+        "disabled": "在您的设置中打开“ 通过摇晃移动联系人 ” 。",
+        "notCheckedIn": "您的车票在入口处扫描完毕即可使用。",
+        "clockSkew": "你的手机的时钟关闭。 设为自动再试一次.",
+        "rateLimited": "尝试太多。 再试一分钟。",
+        "expired": "交换到期了 再来一次",
+        "noLocation": "需要找到你身边的人",
+        "generic": "交换没有通过。 再试一次"
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "保存事件"
+    },
+    "torch": {
+      "onA11y": "打开火炬",
+      "offA11y": "把火把关掉",
+      "hint": "双拨观音器开启或关闭火炬."
+    },
+    "dragSelect": {
+      "select": "选择",
+      "hint": "或将两个手指拖下列表,以勾选几个参与者.",
+      "message": "信件选中的参与者",
+      "export": "导出选择",
+      "exportError": "导出选择失败 。",
+      "csvName": "名称",
+      "csvEmail": "电子邮件",
+      "csvReference": "参考",
+      "csvStatus": "状态",
+      "csvDate": "登记"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "正在取票...",
+      "favorites": "获取你最喜欢的...",
+      "notifications": "正在获取您的通知...",
+      "messages": "正在获取您的对话...",
+      "search": "正在寻找匹配事件...",
+      "event": "正在准备事件页面..."
+    },
+    "mobileMoney": {
+      "sent": "您的付款请求已发送给您的操作员 。",
+      "pin": "在接线员的催促下,您可以在手机上通过 PIN 。",
+      "operator": "操作员确认需要一点时间. 这很正常,",
+      "once": "你只会受到一次指控 即使等待还在继续"
+    },
+    "empty": {
+      "tickets": {
+        "v0": "您的车票会在这里 即刻登记一个活动。",
+        "v1": "音乐会,会议,工作坊? 皆从事起.",
+        "v2": "你下次出门可能已经上网了"
+      },
+      "favorites": {
+        "v0": "敲打事件的心脏 找到它并听到变化。",
+        "v1": "跟着一个事件,你永远不要错过它的消息。",
+        "v2": "一个心脏足以维持一个事件"
+      },
+      "notifications": {
+        "v0": "赛事的消息和你们追踪的组织者会在这里出现",
+        "v1": "了解新情况后,",
+        "v2": "事情一发生我们就通知你。"
+      },
+      "messages": {
+        "v0": "在活动上遇到什么人? 扫描他们的密码",
+        "v1": "您的事件连接显示在这里: 一个代码扫描就够了 。",
+        "v2": "通过扫描参与者的密码, 将联系方式交换到现场 。"
+      },
+      "discover": {
+        "v0": "关键词搜索有时会发现主页尚未显示的内容。",
+        "v1": "按城市或类别搜索:每周有新活动到场."
+      },
+      "exploreAction": "看情况",
+      "scanAction": "扫描代码",
+      "searchAction": "搜索一个事件",
+      "didYouMean": "你是说\"{{term}}\"?",
+      "widen": "宽到你周围50公里",
+      "clearFilters": "清除过滤器"
+    },
+    "greeting": {
+      "when": {
+        "today": "今日( E)",
+        "tomorrow": "明天见",
+        "dayAfter": "后天开始"
+      },
+      "there": "现场",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "生日快乐! 祝你今天过得愉快",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "国庆快乐!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "欢迎回来",
+      "subtitle_one": "上次你来后有件事",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "再来一次",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "隐藏",
+      "reason": {
+        "followed_organizer": "你跟踪组织者",
+        "new_edition": "新版的活动你参加了",
+        "other": "新设"
+      },
+      "byOrganizer": "由{{name}}."
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "为您服务 以您的口味",
+      "forYouTitle": "你也许也喜欢",
+      "loginCtaTitle": "专门针对你的建议"
+    },
+    "settings": {
+      "ritualsEyebrow": "小汤鸡",
+      "ritualsTitle": "一点点触摸",
+      "ritualsSubtitle": "在你的生日,你的帐号周年纪念日或国庆日,一天之内说一句话. 你的年龄从来没有显示, 没有通知。",
+      "forgetEyebrow": "建议",
+      "forgetTitle": "别管我的喜好了",
+      "forgetSubtitle": "消除了事件发生、登记和搜查后的情况,教了你的建议。",
+      "forgetConfirmTitle": "忘了你的喜好吗?",
+      "forgetConfirmMessage": "你的建议将从头开始 您的门票、最爱和随从不会改变。",
+      "forgetDone": "完成:你的建议从头开始。",
+      "forgetUnavailable": "此选项尚未可用 。 什么都没有被抹去。",
+      "forgetError": "您的偏好无法消除 。 它们是不变的;请稍候再试一次。"
+    },
+    "goingCard": {
+      "title": "等待时,请准备您的“我要走了”牌",
+      "subtitle": "付款一经确认,它将准备分享。",
+      "tintLabel": "背景情况",
+      "messageLabel": "消息",
+      "messages": {
+        "going": "我会去的",
+        "meetThere": "在那里看到你吗?",
+        "seeYou": "在那里见我"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "等待时打印出你的卡片",
+      "ready": "你的卡已经准备好了",
+      "share": "分享我的名片",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

@@ -41,6 +41,7 @@
     "close": "बंद",
     "clear": "स्पष्ट",
     "back": "वापस",
+    "home": "घर",
     "next": "अगला",
     "previous": "पिछला",
     "search": "खोज",
@@ -460,7 +461,8 @@
     "saved": "सेव",
     "messages": "संदेश",
     "tickets": "टिकट",
-    "profile": "प्रोफ़ाइल"
+    "profile": "प्रोफ़ाइल",
+    "organize": "आयोजन"
   },
   "languagePicker": {
     "eyebrow": "वेलकम",
@@ -581,7 +583,13 @@
     "notifyOnTitle": "आप सभी सेट कर रहे हैं!",
     "notifyOnBody": "जैसा कि पहले आयोजन रहते हैं, हम आपको बता देंगे।",
     "notifyOffTitle": "बंद अधिसूचनाएं",
-    "notifyOffBody": "सेटिंग्स में अधिसूचनाओं को सूचित करने में सक्षम करें।"
+    "notifyOffBody": "सेटिंग्स में अधिसूचनाओं को सूचित करने में सक्षम करें।",
+    "organizersEyebrow": "आयोजक",
+    "organizersTitle": "दृश्य के पीछे लोग",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "सत्यापित आयोजक",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "दाढ़ी",
@@ -616,7 +624,10 @@
     "invisibleHint": "आप अदृश्य हैं - पर भी देखा जा सकता है।",
     "message": "संदेश",
     "connected": "कनेक्ट",
-    "empty": "अभी तक कोई दृश्य नहीं है। अपने नेटवर्किंग को चालू करने वाले पहले व्यक्ति बनें!"
+    "empty": "अभी तक कोई दृश्य नहीं है। अपने नेटवर्किंग को चालू करने वाले पहले व्यक्ति बनें!",
+    "scanOptInTitle": "प्रदर्शकों ने अपने बैज को स्कैन किया",
+    "scanOptInSubtitle": "प्रदर्शनी कंपनियां अपने बैज को स्कैन करके अपने नाम और संपर्क विवरण को बचाने में सक्षम होंगी, इसलिए वे घटना के बाद पालन कर सकते हैं।",
+    "scanOptInWithdrawNote": "आप इसे किसी भी समय बंद कर सकते हैं। पहले से ही प्रदर्शकों द्वारा सहेजे गए संपर्कों को स्वचालित रूप से नष्ट नहीं किया जाता है - आप अपनी गोपनीयता सेटिंग्स से अपने मिटाने का अनुरोध कर सकते हैं।"
   },
   "eventDetails": {
     "eyebrow": "इवेंट",
@@ -680,7 +691,16 @@
     "shareWhatsappA11y": "Share on WhatsApp",
     "closePreviewA11y": "पूर्वावलोकन बंद करें",
     "invalidCode": "अवैध पहुँच कोड",
+    "accessButton": "प्रवेश",
+    "pendingPaymentBanner": "अपने पंजीकरण की पुष्टि करने के लिए अपना भुगतान पूरा करें",
+    "onlineInfoAfterRegistration": "आपके पंजीकरण के बाद कनेक्शन विवरण उपलब्ध होंगे",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "बढ़ाना",
+    "playCoverVideo": "वीडियो",
+    "videoPlayA11y": "ध्वनि के साथ वीडियो चलाएं",
+    "videoUnmuteA11y": "Unmute",
+    "videoMuteA11y": "म्यूट",
+    "videoExpandA11y": "पूर्ण स्क्रीन पर वीडियो का विस्तार करें",
     "imagesCount": "To make a good way.",
     "videoConference": "वीडियो कॉन्फ्रेंसिंग प्लेटफॉर्म",
     "openLinkError": "घटना लिंक नहीं खोल सका",
@@ -704,7 +724,12 @@
     "reviewSubmitError": "अपनी समीक्षा प्रस्तुत नहीं कर सका",
     "loginRequiredWaitlist": "प्रतीक्षा सूची में शामिल होने के लिए साइन इन करें",
     "invitationGateDesc": "यह घटना आमंत्रित मेहमानों के लिए आरक्षित है। यदि आप निमंत्रण प्राप्त करते हैं, तो कृपया इसे एक्सेस प्राप्त करने के लिए स्वीकार करें।",
-    "codeGateDesc": "पूरी जानकारी देखने के लिए कोड दर्ज करें"
+    "codeGateDesc": "पूरी जानकारी देखने के लिए कोड दर्ज करें",
+    "giftRegistryCta": "उपहार रजिस्ट्री",
+    "giftRegistrySubtitle": "यदि आप इसे पसंद करते हैं तो सूची और चिप देखें",
+    "cancelReasonTitle": "रद्द करने का कारण",
+    "visioEnded": "इस घटना के वीडियो सम्मेलन समाप्त हो गया है।",
+    "videoPauseA11y": "वीडियो"
   },
   "events": {
     "videoBadge": "वीडियो",
@@ -852,6 +877,9 @@
     "noPastMessage": "आपकी पिछली घटनाओं को यहां दिखाई देगा",
     "scanQR": "स्कैन QR कोड",
     "showQR": "QR कोड दिखाएं",
+    "viewQR": "QR देखें",
+    "receivedTransfers": "स्थानांतरण प्राप्त",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "आपका QR कोड",
     "qrSubtitle": "इस कोड को प्रवेश द्वार पर दिखाएं",
     "ticketDetails": "टिकट विवरण",
@@ -1159,6 +1187,7 @@
     "paymentBack": "वापस",
     "paymentGenericError": "भुगतान के दौरान त्रुटि हुई",
     "paymentErrorTitle": "भुगतान त्रुटि",
+    "paymentBlockedTitle": "कार्ड भुगतान अवरुद्ध",
     "paymentCancelledTitle": "भुगतान रद्द",
     "paymentNoPaymentInProgress": "सत्यापित करने के लिए चल रहे भुगतान नहीं",
     "paymentVerifyingTitle": "सत्यापित...",
@@ -1167,6 +1196,12 @@
     "paymentContinueWaiting": "इंतजार करना",
     "paymentProcessing": "प्रसंस्करण",
     "paymentTitle": "भुगतान",
+    "checkoutStep": "चरण 3 / 3 • भुगतान",
+    "noDoubleCharge": "आपको केवल एक बार चार्ज किया जाएगा, भले ही कुछ समय के लिए स्क्रीन स्पिन हो।",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "मैं स्वीकार करता हूँ",
+    "termsLinkFull": "बिक्री की शर्तें और वापसी नीति",
+    "termsAcceptSuffixDot": "।",
     "paymentStepSelection": "चयन",
     "paymentStepRecap": "पुनर्निर्माण",
     "paymentMethodFallback": "भुगतान",
@@ -1259,7 +1294,9 @@
     "finalizeSoldOutBody": "आपके द्वारा आरक्षित टिकट अब उपलब्ध नहीं हैं। आपका आरक्षण समाप्त हो गया। आप आरोपित नहीं थे।",
     "finalizeBackToEvent": "घटना वापस",
     "paymentPushSentTitle": "अपने फोन पर पुष्टि करें",
-    "paymentPushSentMessage": "एक भुगतान अनुरोध आपके फोन पर भेजा गया था। इसे पूरा करने के लिए (मोबाइल मनी पिन) को मंजूरी दें।"
+    "paymentPushSentMessage": "एक भुगतान अनुरोध आपके फोन पर भेजा गया था। इसे पूरा करने के लिए (मोबाइल मनी पिन) को मंजूरी दें।",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "अनुरोध किया"
   },
   "memories": {
     "title": "मेरी याद",
@@ -1276,7 +1313,11 @@
     "recapShare": "मेरे पुनर्निर्माण साझा करें",
     "recapEvents": "आयोजन",
     "recapCities": "शहर",
-    "recapFirst": "बार आया #1"
+    "recapFirst": "बार आया #1",
+    "oneYearAgo": "एक साल पहले, आप वहाँ थे।",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "एक आश्चर्य के लिए लंबे प्रेस",
+    "firstNote": "आने वाले पहले। दरवाजे मुश्किल से खुले थे।"
   },
   "profile": {
     "title": "प्रोफ़ाइल",
@@ -1431,7 +1472,27 @@
     "logoutLabel": "साइन आउट",
     "logoutInProgress": "साइन आउट",
     "appVersion": "इवेंट ईज़ v1.0.0",
-    "myQRTitle": "मेरा QR कोड"
+    "myQRTitle": "मेरा QR कोड",
+    "refundsMenu": "मेरी वापसी",
+    "refundsSubtitle": "जहां आपका पैसा खड़ा है ट्रैक",
+    "shareProfileButton": "मेरी प्रोफ़ाइल साझा करें",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "मेरे आयोजक प्रोफ़ाइल",
+    "shareOrganizerA11y": "मेरे आयोजक प्रोफ़ाइल साझा करें",
+    "viewPublicProfileA11y": "मेरी सार्वजनिक प्रोफ़ाइल देखें",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "अनफ़ॉलो?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "निम्नलिखित",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "कोई परिणाम नहीं",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "घटनाओं की खोज",
+    "followSearchPlaceholder": "एक आयोजक खोजें"
   },
   "editProfile": {
     "title": "प्रोफ़ाइल संपादित करें",
@@ -1491,7 +1552,13 @@
     "sectionOrganization": "संगठन",
     "sectionSecurity": "सुरक्षा",
     "qrShareSubtitle": "अपने प्रोफ़ाइल को साझा करने के लिए इस कोड को स्कैन करें",
-    "countryPlaceholder": "देश चुनें"
+    "countryPlaceholder": "देश चुनें",
+    "orgLogoLabel": "लोगो",
+    "orgLogoAdd": "एक लोगो जोड़ें",
+    "orgLogoChange": "लोगो बदलें",
+    "orgWebsiteLabel": "वेबसाइट",
+    "orgDescriptionLabel": "सार्वजनिक विवरण",
+    "orgDescriptionPlaceholder": "अपने संगठन का परिचय ..."
   },
   "settings": {
     "whoCanContactCurrent": "एंटी-एसपीएएम",
@@ -1542,6 +1609,7 @@
     "themeDialogTitle": "विषय",
     "themeDialogSubtitle": "अपनी थीम चुनें",
     "timezoneDialogTitle": "मौसम",
+    "timezoneDetected": "पता लगाना",
     "timezoneDialogSubtitle": "अपना टाइमज़ोन चुनें",
     "preferencesTitle": "प्राथमिकता",
     "headerEyebrow": "सेटिंग",
@@ -1645,7 +1713,32 @@
     "shortcutInvoices": "चालान",
     "shortcutTaxes": "कर",
     "shortcutMyEvents": "मेरी घटना",
-    "shortcutHelp": "सहायता"
+    "shortcutHelp": "सहायता",
+    "rowMyDataAtExhibitors": "प्रदर्शकों द्वारा आयोजित मेरा डेटा",
+    "rowLiveBanner": "लाइव इवेंट बैनर",
+    "rowLiveBannerSubtitle": "वर्तमान में रहने वाले घटना में शामिल होने के लिए बैनर दिखाएं।",
+    "pushPermissionTitle": "इस उपकरण के लिए अधिसूचनाएं बंद हैं",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "मेरे कनेक्शन को जानते हैं",
+    "rowShareAttendanceSubtitle": "आपका कनेक्शन आपको एक कार्यक्रम में भाग ले सकता है। डिफ़ॉल्ट रूप से बंद; कभी भी आमंत्रित घटनाओं के लिए।",
+    "rowNotifyMemories": "\"एक साल पहले\" अधिसूचना",
+    "rowNotifyMemoriesSubtitle": "एक सप्ताह में सबसे अधिक याद दिलाने वाला, एक घटना की सालगिरह पर आपने भाग लिया।",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "दिसंबर में, अपने वर्ष का एक निजी पुनर्निर्माण। कोई और उसे नहीं देखता।",
+    "madeInDouala": "Douala में निर्मित, देखभाल के साथ।",
+    "madeInDoualaSub": "अपनी घटनाओं को हमारे साथ जीवन में लाने के लिए धन्यवाद।",
+    "rowUiSounds": "इंटरफ़ेस ध्वनि",
+    "rowUiSoundsSubtitle": "पुष्टिकरण और आने वाली अधिसूचनाओं पर बहुत सूक्ष्म आवाज़। डिफ़ॉल्ट रूप से बंद",
+    "vibrationsEyebrow": "TOUCH",
+    "rowVibrations": "कंपन",
+    "rowVibrationsSubtitle": "प्रमुख कार्यों पर हैप्टिक प्रतिक्रिया: भुगतान, स्कैन, पसंदीदा।",
+    "rowMotionGestures": "मोशन इशारे",
+    "rowMotionGesturesSubtitle": "कुछ कार्यों के लिए अपने फोन को शेक, फ्लिप या आउट करें। एक बटन हमेशा उपलब्ध होता है।",
+    "notificationsEyebrowOngoing": "अधिसूचनाएं",
+    "rowOngoingEvent": "कार्यक्रम के दिन पिन्ड टिकट",
+    "rowOngoingEventSubtitle": "एक शांत अधिसूचना, पहले और घटना के दौरान, अपने टिकट और निर्देशों के साथ।",
+    "rowNotificationSounds": "अधिसूचना ध्वनि",
+    "rowNotificationSoundsSubtitle": "अपने फ़ोन सेटिंग्स में प्रत्येक श्रेणी (बिग पल, बिक्री, संदेश...) के लिए ध्वनि चुनें"
   },
   "messages": {
     "title": "संदेश",
@@ -1747,7 +1840,13 @@
     "searchResultsSection": "परिणाम",
     "noConnectionsEyebrow": "नेटवर्किंग",
     "noConnectionsTitle": "अभी तक कोई कनेक्शन नहीं",
-    "noConnectionsCta": "QR से कनेक्ट करें"
+    "noConnectionsCta": "QR से कनेक्ट करें",
+    "emptyEyebrowArchived": "ARCHIVED",
+    "emptyEyebrowEmpty": "EMPTY INBOX",
+    "archivedEmptyDesc": "आपकी संग्रहित बातचीत यहां उतरेगी।",
+    "noConversationsDesc": "एक नया संदेश शुरू करें - हम किसी से बात करने के लिए मिल जाएगा।",
+    "attachmentPreview": "[Attachment]",
+    "noMatchingMessage": "मेलिंग संदेश"
   },
   "notifications": {
     "title": "अधिसूचनाएं",
@@ -1793,6 +1892,16 @@
     "typeFollowRegistered": "कनेक्शन चल रहा है",
     "typeConnectionsAtEvent": "आपका कनेक्शन",
     "eyebrowNetwork": "नेटवर्क",
+    "eyebrowSoon": "सोन",
+    "eyebrowReminder": "अनुस्मारक",
+    "eyebrowModeration": "आधुनिकीकरण",
+    "eyebrowToReview": "समीक्षा करने के लिए",
+    "eyebrowDiscovery": "डिस्कवर",
+    "eyebrowUrgent": "निवासी",
+    "eyebrowWhatsNew": "What's New",
+    "filterReadTab": "पढ़ें",
+    "groupToday": "आज",
+    "groupYesterday": "आज",
     "tabAll": "सब",
     "tabNetwork": "नेटवर्क",
     "typeDefault": "अधिसूचना",
@@ -1810,7 +1919,26 @@
     "statTotal": "कुल",
     "statUnread": "Unread",
     "statToday": "आज",
-    "viewDetails": "विवरण देखें"
+    "viewDetails": "विवरण देखें",
+    "actions": {
+      "showTicket": "मेरा टिकट दिखाएँ",
+      "directions": "निर्देश",
+      "going": "मैं जा रहा हूँ",
+      "viewTicket": "टिकट देखें",
+      "reply": "जवाब दें",
+      "replyPlaceholder": "आपका संदेश...",
+      "replySubmit": "भेजें",
+      "markRead": "पढ़ना",
+      "joinLive": "शामिल हों",
+      "payNow": "अभी भुगतान करें",
+      "writeTo": "उन्हें संदेश दें",
+      "viewEvent": "घटना देखें",
+      "viewTickets": "मेरा टिकट देखें",
+      "viewRefund": "वापसी देखें",
+      "viewProfile": "प्रोफ़ाइल देखें",
+      "summaryTitle": "संदेश",
+      "summaryBody": "नया संदेश"
+    }
   },
   "dashboard": {
     "title": "डैशबोर्ड",
@@ -1854,7 +1982,8 @@
     "subscriptionSubtitle": "मेरी योजना प्रबंधित करें",
     "exportTitle": "निर्यात",
     "exportSubtitle": "आपका डेटा",
-    "settingsLink": "सेटिंग्स"
+    "settingsLink": "सेटिंग्स",
+    "greetingNight": "शुभ रात्रि"
   },
   "following": {
     "title": "मेरी पसंदीदा",
@@ -2067,7 +2196,8 @@
       "notFound": "हमें पता नहीं था कि आप क्या देख रहे थे।",
       "conflict": "यह कार्रवाई वर्तमान राज्य के साथ संघर्ष करती है। फिर से प्रयास करें।",
       "tooManyRequests": "बहुत सारे प्रयास। कृपया एक पल प्रतीक्षा करें और फिर से प्रयास करें।",
-      "server": "हमारे सर्वर अभी तक परेशान हैं। कुछ ही मिनटों में फिर से प्रयास करें।"
+      "server": "हमारे सर्वर अभी तक परेशान हैं। कुछ ही मिनटों में फिर से प्रयास करें।",
+      "updating": "EventEz is updating. Please try again in a few seconds."
     },
     "codes": {
       "emailTaken": "यह ईमेल पहले से ही एक खाते से जुड़ा हुआ है। साइन इन करें या किसी अन्य पते का उपयोग करें।",
@@ -2087,6 +2217,35 @@
       "payoutLocked": "यह भुगतान अब नहीं बदला जा सकता क्योंकि प्रसंस्करण पहले ही शुरू हो चुका है। अगर यह गलती है तो समर्थन से संपर्क करें।",
       "planLimitReached": "आप अपनी योजना की सीमा तक पहुंच गए हैं। अपनी योजना को जारी रखने के लिए अपग्रेड करें।",
       "countryNotSupported": "इस देश में अभी तक भुगतान उपलब्ध नहीं है। आप एक समर्थित देश में घटना बना सकते हैं, या हमसे संपर्क कर सकते हैं।"
+    },
+    "tickets": {
+      "offline": "अभी आप ऑफ़लाइन हैं। टिकट जो आपने पहले से ही ऑफ़लाइन उपलब्ध कराया है। जब आप ऑनलाइन वापस आ जाते हैं तो फिर से कोशिश करें।",
+      "timeout": "आपका टिकट लोड करने में थोड़ी देर लग रहा है। कुछ भी नहीं खोया है: वे सुरक्षित रूप से सहेजे जाते हैं। एक पल में फिर से प्रयास करें।",
+      "server": "हमारे सर्वरों में संक्षिप्त हिकअप होता है। आपका टिकट हमारी तरफ सुरक्षित है। कुछ ही मिनटों में फिर से प्रयास करें।",
+      "notFound": "हम इस टिकट नहीं पा सकते। आपकी अन्य टिकट प्रभावित नहीं हैं। सूची को ताज़ा करें या अपने पुष्टिकरण ईमेल की जांच करें।",
+      "forbidden": "यह टिकट दूसरे खाते से संबंधित है। आपकी खुद की टिकट असंतुलित है। खरीद के लिए इस्तेमाल किए गए खाते के साथ साइन इन करें।"
+    },
+    "messages": {
+      "offline": "अभी आप ऑफ़लाइन हैं। आपका संदेश खोया नहीं है: जब आप ऑनलाइन वापस आ जाते हैं तो लंबित लोग बाहर चले जाएंगे। जब नेटवर्क लौटता है तो फिर से कोशिश करें।",
+      "timeout": "संदेश देने के लिए धीमी गति से प्रतिक्रिया होती है। आपका संदेश खो गया नहीं है। एक पल में फिर से प्रयास करें।",
+      "server": "मैसेजिंग हमारे पक्ष में एक संक्षिप्त हिकअप है। आपकी बातचीत बरकरार है। कुछ ही मिनटों में फिर से प्रयास करें।",
+      "notFound": "यह बातचीत अब मौजूद नहीं है। आपकी दूसरी बातचीत प्रभावित नहीं है। अपने संदेश के लिए वापस जाएं।",
+      "forbidden": "अब आपको इस बातचीत तक पहुंच नहीं है। आपकी अन्य बातचीत अभी भी उपलब्ध है। अपने संदेश के लिए वापस जाएं।"
+    },
+    "event": {
+      "offline": "इसलिए हम इस घटना को नहीं दिखा सकते। आपका टिकट ऑफलाइन उपलब्ध है। जब आप ऑनलाइन वापस आ जाते हैं तो फिर से कोशिश करें।",
+      "timeout": "इस घटना पृष्ठ को लोड करने में थोड़ी देर लग रही है। कुछ भी नहीं बदल गया है। एक पल में फिर से प्रयास करें।",
+      "server": "एक संक्षिप्त hiccup हमें इस घटना को दिखाने से रोक रहा है। आपके टिकट और पंजीकरण प्रभावित नहीं होते हैं। कुछ ही मिनटों में फिर से प्रयास करें।",
+      "notFound": "यह घटना अब ऑनलाइन नहीं है: आयोजक ने इसे हटा दिया है। किसी भी टिकट आप \"मेरे टिकट\" में रहते हैं। अधिक घटनाओं खोज में इंतजार कर रहे हैं।",
+      "forbidden": "यह घटना निजी है। आपका खाता जारी नहीं है। प्रवेश पाने के लिए निमंत्रण के लिए आयोजक से पूछें।"
+    },
+    "upload": {
+      "offline": "अपलोड शुरू नहीं हो सका: आप ऑफ़लाइन हैं। आपकी फ़ाइल अभी भी आपके फोन पर है। जब आप ऑनलाइन वापस आ जाते हैं तो फिर से कोशिश करें।",
+      "timeout": "अपलोड बहुत लंबे समय तक लिया। आपकी फ़ाइल अभी भी आपके फोन पर है। फिर से कोशिश करें, आदर्श रूप से वाई-फाई पर या एक लाइटर फ़ाइल के साथ।",
+      "server": "सर्वर को फ़ाइल नहीं मिल सकती थी। यह अभी भी आपके फोन पर सुरक्षित है। कुछ ही मिनटों में फिर से प्रयास करें।",
+      "notFound": "अपलोड गंतव्य अब मौजूद नहीं है। आपकी फ़ाइल अभी भी आपके फोन पर सुरक्षित है। स्क्रीन को ताज़ा करें और फिर से कोशिश करें।",
+      "forbidden": "आपको इस फाइल को यहां अपलोड करने की अनुमति नहीं है। यह अभी भी आपके फोन पर सुरक्षित है। जाँच करें कि आप सही खाते के साथ साइन इन कर रहे हैं।",
+      "tooLarge": "यह फ़ाइल अपलोड करने के लिए बहुत बड़ी है। यह अभी भी आपके फोन पर सुरक्षित है। एक हल्का फ़ाइल चुनें या छवि को क्रॉप करें।"
     }
   },
   "errorBoundary": {
@@ -2695,7 +2854,10 @@
     "successTitle": "बधाई!",
     "successMessage": "अब आप एक आयोजक हैं। अपना पहला कार्यक्रम बनाएं!",
     "errorTitle": "त्रुटि",
-    "errorGeneric": "त्रुटि हुई"
+    "errorGeneric": "त्रुटि हुई",
+    "labelWebsite": "वेबसाइट (वैकल्पिक)",
+    "labelDescription": "विवरण (वैकल्पिक)",
+    "placeholderDescription": "अपने संगठन का परिचय ..."
   },
   "verificationForm": {
     "pdfOpenError": "दस्तावेज़ नहीं खोल सकता।",
@@ -2856,7 +3018,9 @@
     "locHybrid": "हाइब्रिड",
     "priceAny": "सब",
     "priceFree": "फ्री",
-    "pricePaid": "भुगतान"
+    "pricePaid": "भुगतान",
+    "shareSearch": "इस खोज को साझा करें",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "फिल्टर",
@@ -2920,7 +3084,11 @@
     "agendaTitle": "प्रकाशित कार्यक्रम",
     "loadingEvents": "लोड ...",
     "noEvents": "प्रकाशित",
-    "freeBadge": "मुफ्त"
+    "freeBadge": "मुफ्त",
+    "tabs": {
+      "upcoming": "आगामी",
+      "past": "पिछला"
+    }
   },
   "sessionDetails": {
     "title": "सत्र",
@@ -3389,7 +3557,16 @@
     "perm_view_analytics": "विश्लेषण देखें",
     "perm_view_registrations": "पंजीकरण सूची देखें",
     "perm_edit_event": "घटना संपादित करें",
-    "perm_manage_team": "अन्य टीम के सदस्यों को आमंत्रित करें"
+    "perm_manage_team": "अन्य टीम के सदस्यों को आमंत्रित करें",
+    "role_co_organizer": "Co-organizer",
+    "role_moderator": "मॉडरेटर",
+    "role_scanner": "स्कैनर",
+    "role_analyst": "विश्लेषक",
+    "status_pending": "लंबित",
+    "status_accepted": "सक्रिय",
+    "status_declined": "अस्वीकार",
+    "status_revoked": "रद्द करना",
+    "status_expired": "शीघ्र"
   },
   "myTeamEvents": {
     "eyebrow": "SCENES",
@@ -3408,8 +3585,10 @@
     "willAttend": "मैं वहाँ हूँ",
     "wontAttend": "मैं इसे नहीं बना सकता",
     "partySize": "अतिरिक्त मेहमानों की संख्या",
+    "partySizeHint": "आपके अलावा। उदाहरण के लिए, यदि आप 2 लोगों को ला रहे हैं।",
     "dietary": "आहार की आवश्यकताएं / एलर्जी",
     "note": "जोड़े के लिए एक शब्द",
+    "noteOptional": "जोड़े के लिए एक शब्द (वैकल्पिक)",
     "submit": "मेरी प्रतिक्रिया भेजें",
     "thanksAccepted": "धन्यवाद! आपकी उपस्थिति की पुष्टि की जाती है।",
     "thanksDeclined": "हमें बताने के लिए धन्यवाद।",
@@ -3421,7 +3600,18 @@
     "giftYourName": "आपका नाम",
     "giftMethod": "भुगतान विधि",
     "giftPay": "योगदान",
-    "giftError": "भुगतान शुरू नहीं हो सका।"
+    "giftThanks": "धन्यवाद!",
+    "giftRedirectNote": "आपको एक सुरक्षित भुगतान पृष्ठ पर पुनर्निर्देशित किया जाएगा। यह सामान्य है।",
+    "giftError": "भुगतान शुरू नहीं हो सका।",
+    "rsvpSubmitError": "आपकी प्रतिक्रिया नहीं भेजी जा सकती। फिर से प्रयास करें।",
+    "summaryTitle": "आपका जवाब",
+    "summaryAccepted": "आपने अपनी उपस्थिति की पुष्टि की।",
+    "summaryDeclined": "आपने निमंत्रण को अस्वीकार कर दिया।",
+    "summaryPartySize": "आप के साथ अतिथि",
+    "summaryHeadcount": "सीट आरक्षित",
+    "summaryDietary": "आहार की जरूरत",
+    "summaryTable": "आपका टेबल",
+    "summaryTablePending": "घटना से पहले आपकी तालिका साझा की जाएगी।"
   },
   "teamInvitation": {
     "eyebrow": "आमंत्रण",
@@ -3743,7 +3933,21 @@
     "readOnlyLockMessage": "केवल चर्चा। अपने संदेश सहेजें।",
     "mutedLockMessage": "आप इस चर्चा में आयोजक द्वारा muted किया गया है।",
     "postingLockMessage": "केवल आयोजक इस चर्चा में पोस्ट कर सकते हैं।",
-    "defaultUserName": "यह उपयोगकर्ता"
+    "defaultUserName": "यह उपयोगकर्ता",
+    "someFilesQueuedForRetry": "कुछ फ़ाइलों को एक बार फिर से भेजा जाएगा जब कनेक्शन वापस हो जाता है।",
+    "retrySend": "Retry",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "नीचे स्क्रॉल करें",
+    "tapToLoadImage": "लोड करने के लिए टैप",
+    "reply": "जवाब दें",
+    "react": "प्रतिक्रिया",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "केवल बातचीत।",
+    "headerCollapseA11y": "बैनर छुपाएं",
+    "headerExpandA11y": "बैनर दिखाएं",
+    "headerCollapseLabel": "छुपाना",
+    "headerExpandLabel": "घटना विवरण"
   },
   "scanForm": {
     "loading": "लोड ...",
@@ -3810,7 +4014,8 @@
     "roleModerator": "मॉडरेटर",
     "roleAdmin": "व्यवस्थापक",
     "fallbackEvent": "कार्यक्रम",
-    "fallbackUnknownUser": "उपयोगकर्ता"
+    "fallbackUnknownUser": "उपयोगकर्ता",
+    "statusUnknown": "अज्ञात स्थिति"
   },
   "refundRequest": {
     "watermarkBack": "BACK",
@@ -3970,7 +4175,13 @@
       "accessCodeLabel": "एक्सेस कोड (वैकल्पिक)",
       "accessCodeHint": "आगंतुकों को विवरण देखने के लिए इस कोड में प्रवेश करने की आवश्यकता होगी",
       "accessCodePlaceholder": "कोई कोड के लिए खाली छोड़ दें",
-      "featuredInfo": "आप \"मेरी घटनाओं\" से निर्माण के बाद अपनी घटना की सुविधा के लिए अनुरोध कर सकते हैं।"
+      "accessCodeKeepPlaceholder": "नया कोड (वर्तमान रखने के लिए खाली छोड़ दें)",
+      "accessCodeActive": "एक एक्सेस कोड सक्रिय है।",
+      "accessCodeWillBeRemoved": "जब आप बचाते हैं तो कोड हटा दिया जाएगा।",
+      "accessCodeRemove": "कोड निकालें",
+      "accessCodeUndoRemove": "हिन्दी",
+      "featuredInfo": "आप \"मेरी घटनाओं\" से निर्माण के बाद अपनी घटना की सुविधा के लिए अनुरोध कर सकते हैं।",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "तारीख और स्थान",
@@ -4188,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "बंद मेनू",
       "cancel": "रद्द करना"
+    },
+    "venuePicker": {
+      "label": "एक बचाया स्थल का उपयोग करें",
+      "hint": "फ़ील्ड स्वचालित रूप से भरती हैं। आप उन्हें बाद में समायोजित कर सकते हैं।"
     }
   },
   "componentsCharts": {
@@ -4342,7 +4557,18 @@
     "ticketsAddedSuccess": "टिकट सफलतापूर्वक जोड़ा गया",
     "alreadyRegisteredConfirmTitle": "पहले से पंजीकृत",
     "alreadyRegisteredConfirmMessage": "आप पहले से ही इस घटना के लिए पंजीकृत हैं।",
-    "createRegistrationError": "पंजीकरण नहीं बना सकता"
+    "createRegistrationError": "पंजीकरण नहीं बना सकता",
+    "accessMode": {
+      "in_person": "केवल",
+      "online": "ऑनलाइन पहुँच",
+      "hybrid": "ऑनलाइन"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "केवल एक ही स्थान",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "खरीददारी",
+    "suspendedByIncident": "किसी घटना के कारण खरीद को अस्थायी रूप से रोक दिया जाता है। स्टेटस पेज पर अपडेट का पालन करें।"
   },
   "registrationDetails": {
     "headerInscription": "मेरा पंजीकरण",
@@ -4541,6 +4767,7 @@
     "tipScanEntrance": "QR कोड को प्रवेश द्वार पर स्कैन किया जाएगा",
     "tipArriveLines": "समय पर चलिए",
     "validatedTitle": "टिकट मान्य",
+    "stampValidated": "जांच",
     "validatedAt": "To enter on a tumblr.",
     "paymentPendingTitle": "भुगतान लंबित",
     "paymentPendingDesc": "पुष्टि करने के लिए अपना भुगतान पूरा करें",
@@ -4570,7 +4797,15 @@
     "statusConfirmed": "पुष्टि",
     "statusPending": "लंबित",
     "statusCancelled": "रद्द करना",
-    "statusValidated": "मान्य"
+    "statusValidated": "मान्य",
+    "pdfOnline": "ऑनलाइन कार्यक्रम",
+    "statusUnknown": "अज्ञात स्थिति",
+    "presentHint": "कोड को बड़ा करने के लिए टैप करें, वैधता के सबूत के लिए लंबी प्रेस।",
+    "presentA11yAction": "चेक के लिए कोड बढ़ाना",
+    "proofA11yAction": "वैधता का प्रमाण दिखाएं",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "टिकट वापस",
+    "presentExitHint": "वापस जाने के लिए टैप करें"
   },
   "offlineTickets": {
     "headerTitle": "ऑफलाइन",
@@ -4942,7 +5177,46 @@
     "virtualJoinLive": "जीना",
     "virtualStartsInMinutes": "To start in the same time.",
     "virtualUnavailableTitle": "वीडियो कॉल अनुपलब्ध",
-    "virtualUnavailableNote": "इवेंट ईज़ी वीडियो अभी तक इस घटना के लिए सक्रिय नहीं है। आयोजक जुड़ना लिंक साझा करेगा।"
+    "virtualUnavailableNote": "इवेंट ईज़ी वीडियो अभी तक इस घटना के लिए सक्रिय नहीं है। आयोजक जुड़ना लिंक साझा करेगा।",
+    "virtualWaitingHostTitle": "अभी तक जीना शुरू नहीं हुआ है",
+    "virtualWaitingHostNote": "जैसे ही आयोजक कमरे को खोलता है, आप जुड़ सकते हैं।",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "मुख्य कमरा",
+      "session": "सत्र",
+      "breakout": "ब्रेकआउट",
+      "networking": "नेटवर्किंग",
+      "workshop": "कार्यशाला"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "बिक्री समाप्त",
+    "ticketsSaleNotStarted": "जल्द ही बिक्री पर",
+    "peekSave": "सहेजें",
+    "peekUnsave": "बचाया से निकालें",
+    "peekShare": "शेयर",
+    "peekOpen": "खुला",
+    "peekA11yHint": "एक पूर्वावलोकन के लिए पकड़ो",
+    "swipeSave": "बचाने के लिए",
+    "swipeUnsave": "हटाने के लिए रिलीज",
+    "swipeHint": "बचाने के लिए स्वाइप करें",
+    "swipeRemoved": "बचाया",
+    "swipeUndo": "हिन्दी",
+    "swipeRemove": "निकालें",
+    "weather": {
+      "sunny": "सनी",
+      "partlySunny": "सनी spells",
+      "cloudy": "क्लाउडी",
+      "fog": "कोहरा",
+      "rain": "रेन",
+      "snow": "बर्फ",
+      "showers": "बौछार",
+      "thunderstorm": "तूफान",
+      "variable": "परिवर्तनीय"
+    }
   },
   "componentsCommon": {
     "exportTitle": "प्रारूप चुनें",
@@ -5027,7 +5301,11 @@
     "followPrefsSave": "वरीयताओं को बचाओ",
     "followPrefsSaveA11y": "वरीयताओं को बचाओ",
     "inAppToastA11y": "To open in a computer.",
-    "webviewVisioTitle": "वीडियो कॉल"
+    "webviewVisioTitle": "वीडियो कॉल",
+    "webviewOfflineTitle": "आप ऑफ़लाइन हैं",
+    "webviewOfflineBody": "आपका डिवाइस अपने कनेक्शन को खो देता है। जैसे ही नेटवर्क वापस आता है, कॉल फिर से शुरू हो जाएगा।",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "वीडियो को डिग्रेड किया जा सकता है और अपने डेटा का उपयोग किया जा सकता है।"
   },
   "messageRequests": {
     "eyebrow": "एंटी-एसपीएएम",
@@ -5075,6 +5353,17 @@
     "permissionTitle": "आवश्यक कैमरा",
     "permissionSubtitle": "एक QR स्कैन करने के लिए, EventEz को कैमरे तक पहुंच की आवश्यकता होती है।",
     "permissionGrant": "कैमरा"
+  },
+  "media": {
+    "sheetTitle": "आप क्या करना चाहते हैं?",
+    "saveToGallery": "गैलरी",
+    "share": "शेयर",
+    "savedToGallery": "गैलरी में सहेजा गया",
+    "permissionDeniedTitle": "अनुमति इनकार",
+    "permissionDeniedMessage": "सेव करने के लिए सेटिंग्स में फोटो एक्सेस सक्षम करें।",
+    "sharingUnavailable": "इस उपकरण पर शेयरिंग उपलब्ध नहीं है।",
+    "downloadFailed": "डाउनलोड विफल रहा। फिर से प्रयास करें।",
+    "genericError": "कुछ गलत हो गया। फिर से प्रयास करें।"
   },
   "componentsMessages": {
     "inputJoinFile": "एक फ़ाइल संलग्न करें",
@@ -5296,7 +5585,7 @@
     "messages": "संदेश",
     "suggestions": "संघटन",
     "theme": "थीम",
-    "timezoneSoon": "TimeZone",
+    "timezone": "टाइम ज़ोन",
     "soundEffects": "ध्वनि EFFECTS",
     "authSoon": "प्रमाणीकरण · SOON",
     "connectionsSoon": "बातचीत · SOON",
@@ -5322,7 +5611,11 @@
     "tabSaved": "02 · सेव",
     "tabMessages": "03 · संदेश",
     "tabTickets": "04 · टिकट",
-    "tabProfile": "05 · प्रोफाइल"
+    "tabProfile": "05 · प्रोफाइल",
+    "push": "पुश",
+    "privacy": "गोपनीयता",
+    "memories": "स्मृति",
+    "yearInReview": "समीक्षा में वर्ष"
   },
   "organizer": {
     "common": {
@@ -5333,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "To make a way.",
-      "selectedCount_plural": "To make a way.",
+      "selectedCount_other": "{{count}} selected",
       "approve": "स्वीकृति",
       "reject": "अस्वीकृति",
       "checkIn": "चेक इन"
@@ -5791,6 +6084,7 @@
         "discountCodes": "प्रोमो कोड",
         "linkSessions": "सत्र के लिए लिंक टिकट",
         "addPhotos": "फ़ोटो जोड़ें",
+        "startLive": "जीना",
         "volunteers": "स्वयंसेवक",
         "sponsors": "प्रायोजक",
         "seatingPlans": "बैठने की योजना",
@@ -5808,7 +6102,11 @@
         "deleteDesc": "अपरिवर्तनीय कार्रवाई",
         "invite": "अतिथि",
         "inviteDescInviteOnly": "इस निमंत्रण-केवल घटना तक पहुंचने का एकमात्र तरीका",
-        "duplicatePastDesc": "एक संपादन योग्य प्रतिलिपि से प्रारंभ करें"
+        "duplicatePastDesc": "एक संपादन योग्य प्रतिलिपि से प्रारंभ करें",
+        "remindInvites": "मेहमान",
+        "weddingGuests": "अतिथि और आरएसवीपी",
+        "weddingGifts": "रजिस्ट्री और उपहार",
+        "weddingTables": "बैठने की योजना"
       },
       "emptyEyebrowResults": "कोई परिणाम",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5824,6 +6122,7 @@
       "cancelReasonPlaceholder": "उदाहरण के लिए स्वास्थ्य की स्थिति, स्थान अनुपलब्ध ...",
       "keepBtn": "रखना",
       "cancelEventBtn": "घटना रद्द करना",
+      "cancelHolding": "पकड़ो...",
       "recurrenceEyebrow": "पुनर्जागरण",
       "recurrenceModalTitle": "To make a good way.",
       "recurrenceModalBody": "इस घटना से कई घटनाओं का निर्माण। प्रत्येक घटना एक स्वतंत्र नई घटना है जिसे आप समायोजित कर सकते हैं।",
@@ -5862,7 +6161,14 @@
       "inviteInvalidMessage": "कृपया इन पते की जांच करें:",
       "inviteSentTitle": "भेजे गए निमंत्रण",
       "inviteSentMessage": "To make a निमंत्रण.",
-      "inviteError": "निमंत्रण नहीं भेज सकता।"
+      "inviteError": "निमंत्रण नहीं भेज सकता।",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "अभी याद दिलाने के लिए कोई मेहमान नहीं।",
+      "remindErrorTitle": "अनुस्मारक विफल",
+      "remindErrorMessage": "याद दिलाने वालों को नहीं भेजा जा सकता। फिर से प्रयास करें।",
+      "remindPendingProgress": "अनुस्मारक भेजना",
+      "loadError": "अपनी घटनाओं को लोड नहीं कर सका। अपने कनेक्शन की जाँच करें।"
     },
     "volunteer": {
       "tabReceived": "प्राप्त किया (to)",
@@ -6133,7 +6439,35 @@
       "manualCodeInvalid": "Invalid code: अपेक्षित UUID या संदर्भ कोड (8-20 अक्षर A-Z/0-9)।",
       "sessionRecapTitle": "सत्र सारांश",
       "sessionRecapBody": "To make a small nipple.\nTo make a set of a set of a set.\nTo make a good way.",
-      "sessionRecapQueue": "To make a queue of a queue."
+      "sessionRecapQueue": "To make a queue of a queue.",
+      "manualModeBanner": "मैनुअल मोड - 1 प्रति व्यक्ति टैप करें",
+      "manualModeA11y": "मैनुअल मोड पर। स्वचालित चेक-इन को वापस करने के लिए टैप करें।",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "इन लोगों ने प्रवेश किया जबकि नेटवर्क नीचे था। अपनी टीम के साथ जाँच करें।",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "इस फोन द्वारा ऑफ़लाइन स्वीकार किया गया, सिंक पर अस्वीकार कर दिया गया। यदि किसी अन्य एजेंट को उसी समय स्कैन किया गया था, तो इन लोगों को दो बार मिल गया।",
+      "voice": {
+        "valid": "मान्य टिकट",
+        "validWarning": "मान्य, जाँच की जरूरत",
+        "alreadyCheckedIn": "पहले से जांच",
+        "refused": "टिकट मना कर दिया",
+        "enabled": "वॉयस घोषणाओं पर",
+        "toggleOn": "वॉयस घोषणाओं पर",
+        "toggleOff": "वॉयस घोषणा",
+        "toggleA11y": "स्कैन परिणाम आवाज घोषणाओं को चालू या बंद करें"
+      }
     },
     "liveOps": {
       "live": "जीना",
@@ -6158,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "आपका प्रभाव",
       "headerTitle": "विश्लेषण",
+      "errorTitle": "एनालिटिक्स अनुपलब्ध",
+      "errorBody": "डेटा को लोड नहीं कर सका। अपने कनेक्शन की जाँच करें और फिर से प्रयास करें।",
       "eventLabel": "इवेंट",
       "kpiViews": "दृष्टिकोण",
       "kpiRegistrations": "पंजीकरण",
@@ -6179,7 +6515,8 @@
       "insightViewsHas": "आपकी घटना को देखा गया है, उदाहरण के लिए,",
       "insightViewsNone": "अपने विचार साझा करें",
       "insightRegistered_one": "A person who has been पंजीकृत.",
-      "insightRegistered_other": "To enter a new version."
+      "insightRegistered_other": "To enter a new version.",
+      "actionBoxOffice": "बॉक्स ऑफिस"
     },
     "sessionsLink": {
       "headerEyebrow": "ACCESS • सत्र",
@@ -6281,6 +6618,10 @@
       "submitSuccess": "सफलतापूर्वक प्रस्तुत",
       "viewMyEvents": "मेरी घटना देखें",
       "createAnother": "अन्य",
+      "submittedStamp": "समीक्षा",
+      "submittedEyebrow": "समीक्षा के लिए प्रस्तुत",
+      "submittedBody": "हमारी टीम आपके कार्यक्रम की समीक्षा कर रही है। जैसे ही यह लाइव हो जाता है, आपको सूचित किया जाएगा।",
+      "submittedCtaEyebrow": "डैशबोर्ड",
       "edit": "संपादित करें",
       "saved": "सेव",
       "back": "वापस",
@@ -6449,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF निर्यात, डैशबोर्ड",
       "linkMyEventsTitle": "मेरी घटना",
       "linkMyEventsSub": "प्रति घटना"
+    },
+    "boxOffice": {
+      "openTitle": "खुलने तक",
+      "openingFloatHelp": "कितना बदलाव आयोजक आपको शुरू करने के लिए देता है? इसके बिना, रात्रिभोज की गिनती गलत हो जाएगी।",
+      "openDrawer": "खुलने तक",
+      "openError": "जब तक खोला नहीं जा सकता",
+      "openErrorDetail": "अपने कनेक्शन की जाँच करें और फिर से प्रयास करें।",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "बंद",
+      "cash": "नकद",
+      "momo": "मोबाइल मनी",
+      "giveBack": "लाइव बैक",
+      "saleError": "बिक्री दर्ज नहीं की गई थी",
+      "saleErrorDetail": "बिक्री को फिर से दर्ज न करें: फिर से कोशिश करें, इसे दो बार चार्ज नहीं किया जाएगा।",
+      "a11y": {
+        "drawerOpened": "खुल गया",
+        "openingFloatInput": "फ्लोट राशि खोलना",
+        "openDrawer": "खुलने तक",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "जब तक",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "मोबाइल मनी",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "हाथ ओवर",
+      "cashOnlyHint": "केवल नकद - मोबाइल मनी आपके बैग में नहीं है।",
+      "openingFloat": "तैरना",
+      "salesCount": "बिक्री",
+      "countedLabel": "मैं गिना",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "यह अवरुद्ध नहीं है। जैसा कि नीचे बताया गया है।",
+      "reasonLabel": "स्पष्टीकरण (वैकल्पिक)",
+      "reasonPlaceholder": "उदाहरण के लिए मैंने 500 बहुत ज्यादा बदलाव किया",
+      "confirmClose": "मेरे पास",
+      "closedTitle": "टिल बंद",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "क्लोजिंग विफल",
+      "closeErrorDetail": "जल्द ही कोशिश करें।",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "गणना की गई राशि",
+        "reasonInput": "विविधता स्पष्टीकरण",
+        "confirmClose": "समापन की पुष्टि करें",
+        "closed": "टिल बंद"
+      }
+    },
+    "documents": {
+      "title": "प्रिंट करने के लिए दस्तावेज़",
+      "a11y": "प्रिंट करने योग्य दस्तावेज़",
+      "badges": "Attendee Badges",
+      "badgesHint": "A6 प्रारूप, 4 प्रति A4 पृष्ठ",
+      "attendanceSheet": "साइन-इन शीट",
+      "attendanceSheetHint": "फ्रंट डेस्क पर हस्ताक्षर करने के लिए - घटना से पहले तैयार",
+      "certificates": "उपस्थिति प्रमाणपत्र",
+      "certificatesHint": "घटना के बाद, चेक-इन उपस्थित लोगों के लिए"
+    },
+    "weddingGuests": {
+      "title": "अतिथि और आरएसवीपी",
+      "empty": "अभी तक कोई मेहमान नहीं।",
+      "remindOne": "याद",
+      "remindOneSent": "अनुस्मारक भेजा",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "अनुस्मारक नहीं भेज सकता",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "RSVP",
+      "editRsvpTitle": "RSVP",
+      "rsvpUpdated": "RSVP अद्यतन",
+      "rsvpError": "आरएसवीपी को नहीं बचा सकता",
+      "partySize": "पार्टी का आकार",
+      "dietary": "आहार की आवश्यकताएं",
+      "dietaryPlaceholder": "शाकाहारी, लस मुक्त ...",
+      "note": "नोट",
+      "stats": {
+        "invited": "आमंत्रित",
+        "accepted": "पुष्टि",
+        "pending": "लंबित",
+        "headcount": "शीर्षक"
+      },
+      "status": {
+        "pending": "लंबित",
+        "accepted": "पुष्टि",
+        "declined": "अस्वीकार",
+        "cancelled": "रद्द करना"
+      }
+    },
+    "weddingGifts": {
+      "title": "रजिस्ट्री और उपहार",
+      "noRegistry": "इस घटना के लिए कोई उपहार रजिस्ट्री नहीं है।",
+      "create": "रजिस्ट्री बनाएँ",
+      "registryCreated": "रजिस्ट्री",
+      "registryUpdated": "रजिस्ट्री अद्यतन",
+      "editRegistry": "registry",
+      "registryTitle": "रजिस्ट्री शीर्षक",
+      "registryDescription": "मेहमानों के लिए संदेश",
+      "visible": "रजिस्ट्री दृश्य",
+      "hidden": "छुपा",
+      "totalRaised": "कुल उठाया",
+      "share": "शेयर",
+      "addItem": "उपहार जोड़ें",
+      "newItem": "नया उपहार",
+      "editItem": "उपहार जोड़ें",
+      "itemName": "नाम",
+      "itemKind": "प्रकार",
+      "targetAmount": "लक्ष्य राशि",
+      "externalUrl": "बाहरी लिंक (वैकल्पिक)",
+      "itemAdded": "उपहार जोड़ा",
+      "itemUpdated": "उपहार अद्यतन",
+      "itemDeleted": "गिफ्ट डिलीट",
+      "deleteItemTitle": "इस उपहार को हटा दें",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "आरक्षण",
+      "noItems": "अभी तक कोई उपहार नहीं। एक जोड़ें",
+      "kind": {
+        "gift": "उपहार (item)",
+        "cash_fund": "कैश फंड"
+      },
+      "error": "कुछ गलत हो गया"
+    },
+    "weddingTables": {
+      "title": "बैठने की योजना",
+      "noTables": "अभी तक कोई टेबल नहीं है। एक बनाएँ।",
+      "addTable": "टेबल जोड़ें",
+      "newTable": "नई तालिका",
+      "editTable": "तालिका संपादित करें",
+      "name": "तालिका का नाम",
+      "namePlaceholder": "तालिका 1, परिवार...",
+      "capacity": "सीट",
+      "created": "तालिका बनाई गई",
+      "updated": "तालिका अद्यतन",
+      "deleted": "तालिका हटा दिया",
+      "deleteTitle": "तालिका हटाएं",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "पूर्ण",
+      "tableEmpty": "इस तालिका में कोई नहीं",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "सभी पुष्टि मेहमानों बैठे हैं।",
+      "createFirst": "अपने मेहमानों को बैठने के लिए पहले टेबल बनाएं।",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "अतिथि बैठे",
+      "unassign": "निकालें",
+      "unassigned": "गेस्ट हटा दिया",
+      "capacityError": "इस तालिका में पर्याप्त सीटें नहीं हैं।",
+      "error": "कुछ गलत हो गया"
     }
   },
   "moderation": {
@@ -7218,6 +7716,554 @@
     "payOrange": "ऑरेंज मनी",
     "payCard": "कार्ड",
     "paymentInitiated": "भुगतान शुरू किया गया। इसे अपने फोन पर पुष्टि करें।",
-    "payError": "बूथ भुगतान शुरू नहीं किया जा सकता।"
+    "payError": "बूथ भुगतान शुरू नहीं किया जा सकता।",
+    "captureLeads": "संपर्क कैप्चर करें",
+    "viewLeads": "मेरा संपर्क"
+  },
+  "leadCapture": {
+    "title": "संपर्क पर कब्जा",
+    "hint": "आगंतुक के बैज पर QR कोड पर अंकित करें।",
+    "permissionTitle": "कैमरा एक्सेस",
+    "permissionBody": "कैमरा केवल उन आगंतुकों के बैज क्यूआर कोड को पढ़ने के लिए उपयोग किया जाता है जो संपर्क करने के लिए सहमत थे।",
+    "permissionCta": "कैमरा चालू करें",
+    "manualEntry": "इसके बजाय संदर्भ टाइप करें",
+    "manualPlaceholder": "बैज संदर्भ",
+    "unnamed": "संपर्क बचाया",
+    "alreadyKnown": "पहले से ही मिले - रिकॉर्ड अद्यतन।",
+    "qualify": "इस संपर्क को योग्य बनाना",
+    "rating_hot": "गरम",
+    "rating_warm": "गरम",
+    "rating_cold": "ठंडा",
+    "notesPlaceholder": "आप क्या बात करते हैं (वैकल्पिक)",
+    "next": "अगला संपर्क",
+    "retry": "फिर से स्कैन करें",
+    "noConsentTitle": "यह आगंतुक सहमत नहीं है",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "बैज मान्यता प्राप्त नहीं है",
+    "notFoundBody": "यह बैज इस घटना से संबंधित नहीं है। QR कोड के तहत मुद्रित संदर्भ की जाँच करें।",
+    "errorTitle": "स्कैन विफल",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "यह आगंतुक संपर्क करने के लिए सहमत नहीं है।",
+    "a11yNotFound": "बैज मान्यता प्राप्त नहीं है।",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "आज",
+    "yesterday": "कल",
+    "justNow": "अभी",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "भेजना",
+    "failed": "भेजने में विफल",
+    "sent": "Sent",
+    "delivered": "वितरित",
+    "read": "पढ़ें"
+  },
+  "myLeads": {
+    "title": "मेरा संपर्क",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Unnamed contact",
+    "emptyTitle": "अभी तक कोई संपर्क नहीं है",
+    "emptyBody": "अपने बूथ से रुकने वाले आगंतुकों के बैज को स्कैन करें। फिर आप CSV के रूप में पूरी सूची निर्यात कर सकते हैं।",
+    "errorTitle": "भार नहीं",
+    "errorBody": "आपके संपर्क सुरक्षित रूप से सहेजे जाते हैं। अपने कनेक्शन की जाँच करें और फिर से प्रयास करें।"
+  },
+  "myDataExhibitors": {
+    "title": "प्रदर्शकों द्वारा आयोजित मेरा डेटा",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "एरेस",
+    "eraseAll": "सभी को मिटा दें",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "आपका संपर्क विवरण मिटा दिया गया है।",
+    "eraseError": "इरेज़र के माध्यम से जाना नहीं था।",
+    "confirmCta": "एरेस",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "प्रत्येक प्रदर्शक द्वारा आयोजित मेरे डेटा को मिटाएं?",
+    "confirmAllBody": "आपका नाम, ईमेल और फोन नंबर हर सूचीबद्ध कंपनी में हटा दिया जाएगा। यह नहीं हो सकता है।",
+    "emptyTitle": "कोई कंपनी आपका संपर्क विवरण रखती है",
+    "emptyBody": "Exhibitors केवल अपने बैज को स्कैन करके अपने विवरण को बचा सकता है, और केवल तभी जब आप उस घटना के लिए इसे अनुमति देते हैं।"
+  },
+  "visio": {
+    "expandCall": "वीडियो कॉल का विस्तार करें",
+    "endCall": "अंत कॉल",
+    "endCallConfirmTitle": "कॉल छोड़ दो?",
+    "endCallConfirmMessage": "आप चल रही बैठक छोड़ने के बारे में हैं।",
+    "minimize": "छोटा करना",
+    "liveNow": "जीना",
+    "join": "शामिल हों",
+    "view": "देखें",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "देखें",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "आकार"
+  },
+  "organize": {
+    "favorites": "मेरी पसंदीदा",
+    "eyebrow": "आयोजक अंतरिक्ष",
+    "title": "आयोजन",
+    "liveNow": "अब लाइव",
+    "nextEvent": "आगामी कार्यक्रम",
+    "registered": "पंजीकृत",
+    "scan": "स्कैन",
+    "scanA11y": "इस घटना के लिए टिकट स्कैन करें",
+    "boxOffice": "बॉक्स ऑफिस",
+    "boxOfficeA11y": "इस घटना के लिए बॉक्स ऑफिस खोलें",
+    "viewStats": "आँकड़े देखें",
+    "availableBalance": "उपलब्ध शेष",
+    "walletA11y": "मेरा वॉलेट खोलें",
+    "noActiveEvent": "कोई घटना नहीं चल रही",
+    "noActiveEventHint": "यहां देखने के लिए एक कार्यक्रम बनाएं या एक ड्राफ्ट प्रकाशित करें।",
+    "noStaffEventHint": "जहां आप टीम का हिस्सा हैं, वे यहां दिखाई देंगे।",
+    "createEvent": "एक घटना बनाएँ",
+    "myEvents": "मेरी घटना",
+    "teamEvents": "आयोजन I स्टाफ",
+    "analytics": "विश्लेषण",
+    "loadError": "अपने स्थान को लोड नहीं कर सका। अपने कनेक्शन की जाँच करें।"
+  },
+  "moments": {
+    "checkin": {
+      "entered": "आप में हैं",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "एक सप्ताह में",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "दरवाजे खुले हैं",
+    "onNow": "अब खोलना",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "ऑफलाइन उपलब्ध टिकट",
+    "offlinePending": "इसे ऑफ़लाइन रखने के लिए एक बार टिकट खोलें",
+    "sayImGoing": "मैं हूँ",
+    "showTicket": "मेरा टिकट दिखाएँ",
+    "directions": "निर्देश",
+    "viewTicket": "टिकट देखें",
+    "goThere": "जाओ",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "कम्पास को कैलिब्रेट करें: अपने फोन के साथ एक आंकड़ा 8 खींचें",
+    "compassHint": "जगह के लिए तीर का पालन करें"
+  },
+  "onSite": {
+    "eyebrow": "आप साइट पर हैं",
+    "now": "अब",
+    "next": "Next · {{time}}",
+    "qa": "लाइव क्यू एंड ए",
+    "plan": "नक्शा और स्थल",
+    "networking": "नेटवर्किंग"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "तुम वहाँ थे",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "पहली बार आना",
+    "question": "क्या आपने सोचा?",
+    "thanks": "आपकी रेटिंग के लिए धन्यवाद।",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "कहानी साझा करें",
+    "later": "बाद में"
+  },
+  "yearInReview": {
+    "eyebrow": "आपका साल",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "घटना में भाग लिया",
+    "s1Line_other": "घटनाओं में भाग लेना",
+    "citiesEyebrow": "सड़क पर",
+    "categoryEyebrow": "आपकी तरह की घटना",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "यह सब शुरू हुआ",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "हमेशा समय पर",
+    "arrivalsLine_one": "आने वाला समय",
+    "arrivalsLine_other": "आने वाला समय",
+    "organizerEyebrow": "आपका आयोजक",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "मेरा कार्ड शेयर करें",
+    "tapHint": "जारी रखने के लिए टैप करें"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "प्रथम उपस्थित",
+      "someone": "कोई",
+      "share": "बिक्री को बढ़ावा देने के लिए शेयर",
+      "view": "देखें",
+      "soldOutTitle": "बेच",
+      "soldOutLine": "प्रत्येक टिकट चला गया है"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "बाहर",
+      "online": "जीना"
+    },
+    "share": {
+      "cta": "घटना साझा करें",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "साझा",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "अनुरोध",
+      "approved": "स्वीकृत",
+      "sent": "Sent",
+      "verifying": "ऑपरेटर के साथ जांच",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "भुगतान विफल"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "लगभग पूर्ण",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "शिफ्ट का अंत",
+      "validated": "जांच",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "पेस",
+      "refused": "इनकार",
+      "syncing": "...",
+      "synced": "सिंक",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "लाइव ओप्स देखें",
+      "resume": "फिर से शुरू",
+      "close": "खत्म"
+    },
+    "recap": {
+      "title": "पुनर्निर्माण",
+      "eyebrow": "इवेंट",
+      "attended": "Attended",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "राजस्व",
+      "rating": "औसत रेटिंग",
+      "reviews": "{{count}} reviews",
+      "noReviews": "अभी तक कोई समीक्षा नहीं",
+      "best": "स्टैंडआउट समीक्षा",
+      "latest": "नवीनतम समीक्षाएं",
+      "thank": "उपस्थित होना",
+      "funds": "धन देखें",
+      "error": "अभी उपलब्ध नहीं है।",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "पुनरावर्तन देखें"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "अभी बुक",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "पिछले घंटे में बुकिंग",
+    "lastSaleToday": "आज बुक",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "बेच",
+    "soldOutCta": "बेच दिया",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "कौन जा रहा है",
+    "someone": "कोई",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "ऑनलाइन",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "आपके लिए एक सीट आयोजित की जा रही है",
+    "seatHeldBody": "इसके बाद, यह अगले व्यक्ति को जाता है।",
+    "seatHeldCta": "मेरी सीट बुक करें",
+    "seatHeldExpired": "समय ऊपर है: सीट अगले व्यक्ति के पास गया।",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "सब दिखाओ",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "प्रतिक्रिया",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "आपके कनेक्शन में से एक आ गया है",
+    "connectionArrivedCta": "उन्हें संदेश दें",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "लाइव बिक्री",
+    "checkinPushed": "लाइव आगमन"
+  },
+  "reminders": {
+    "channelName": "घटना अनुस्मारक",
+    "dayBeforeTitle": "Reminder: कल",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "अनुस्मारक: 1 घंटे में",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "खोज",
+    "discoverSubtitle": "आप के पास",
+    "tickets": "मेरा टिकट",
+    "scan": "टिकट स्कैन करें"
+  },
+  "ongoing": {
+    "channelName": "कार्यक्रम",
+    "eventFallback": "आपकी घटना",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "जल्दी शुरू",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "अब पर आपका टिकट तैयार है",
+    "scannerTitle": "ड्यूटी पर स्कैनर"
+  },
+  "gestures": {
+    "undo": {
+      "title": "आखिरी कार्रवाई क्या है?",
+      "confirm": "हिन्दी",
+      "keep": "रखना",
+      "failed": "Undo't go through. अपने कनेक्शन की जाँच करें और फिर से प्रयास करें।",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "बातचीत को संग्रह से बाहर ले जाएं।"
+    },
+    "report": {
+      "title": "एक समस्या की रिपोर्ट करें",
+      "subtitle": "टेस्ट बिल्ड: स्क्रीनशॉट, स्क्रीन और संस्करण आपके संदेश के साथ भेजा जाता है।",
+      "noNote": "बिना किसी टिप्पणी के रिपोर्ट करें",
+      "blur": "ब्लर",
+      "noShot": "इस स्क्रीन पर कोई स्क्रीनशॉट उपलब्ध नहीं है।",
+      "placeholder": "क्या हुआ?",
+      "send": "भेजें",
+      "sent": "धन्यवाद, आपकी रिपोर्ट भेजी गई है।",
+      "unavailable": "नहीं भेज सकते: त्रुटि ट्रैकिंग इस निर्माण पर सक्रिय नहीं है।"
+    },
+    "applause": {
+      "hint": "अब तक की सराहना करें।",
+      "a11y": "लंबे applause"
+    },
+    "hush": {
+      "title": "माइक और कैमरा बंद हो गया जबकि फोन का सामना करना पड़ा",
+      "reactivate": "उन्हें वापस करने के लिए टैप करें"
+    },
+    "lighter": {
+      "button": "लाइटर",
+      "off": "इसे बाहर रखें",
+      "alone": "अपने फोन को उठाएँ, लौ आपके चाल का अनुसरण करती है।",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "मुझे आश्चर्य",
+      "chipA11y": "एक यादृच्छिक घटना सुझाव",
+      "again": "अन्य",
+      "none": "अभी कोई आगामी कार्यक्रम नहीं है।"
+    },
+    "bump": {
+      "settingTitle": "Shaking द्वारा स्वैप संपर्क",
+      "settingSubtitle": "साइट पर, एक बार जब आपका टिकट स्कैन किया जाता है: एक ही समय में किसी और के रूप में एक दूसरे को खोजने के लिए हिला। आपका अनुमानित स्थान कुछ सेकंड के लिए आप से मेल खाने के लिए प्रयोग किया जाता है और कभी संग्रहीत नहीं होता है। आपकी पुष्टि के बिना कुछ भी नहीं होता। डिफ़ॉल्ट रूप से बंद",
+      "button": "Swap by shaking",
+      "nearbyButton": "मुझे देखो",
+      "hint": "अपने फोन को एक ही समय में दूसरे व्यक्ति के रूप में हिलाओ।",
+      "title": "स्वैप संपर्क",
+      "searching": "देखिए लोग आपके पास हैं ...",
+      "none": "कोई नहीं मिला। एक ही क्षण में दूसरे व्यक्ति के रूप में शेक करें, फिर फिर से कोशिश करें।",
+      "pick": "सही व्यक्ति चुनें। आपकी सहमति के बिना साझा नहीं किया जाता है।",
+      "connect": "कनेक्ट?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "उनकी पुष्टि के लिए प्रतीक्षा करना",
+      "connected": "कनेक्ट",
+      "openSettings": "ओपन सेटिंग्स",
+      "error": {
+        "disabled": "अपनी सेटिंग्स में \"स्वैप संपर्क हिलाकर\" को चालू करें।",
+        "notCheckedIn": "एक बार आपका टिकट प्रवेश द्वार पर स्कैन किया गया है।",
+        "clockSkew": "आपका फोन बंद है। इसे स्वचालित रूप से सेट करें और फिर से कोशिश करें।",
+        "rateLimited": "बहुत सारे प्रयास। एक मिनट में फिर से प्रयास करें।",
+        "expired": "स्वैप समाप्त हो गया। फिर से शुरू करें।",
+        "noLocation": "आपके पास व्यक्ति को ढूंढने के लिए स्थान की आवश्यकता है।",
+        "generic": "स्वैप के माध्यम से नहीं जा सका। फिर से कोशिश करो।"
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "घटना सहेजें"
+    },
+    "torch": {
+      "onA11y": "मशाल चालू करें",
+      "offA11y": "मशाल बंद करो",
+      "hint": "डबल टैप करें दर्शक मशाल को चालू या बंद करने के लिए।"
+    },
+    "dragSelect": {
+      "select": "चयन",
+      "hint": "या दो उंगलियों को कई उपस्थित लोगों के लिए नीचे खींचें।",
+      "message": "चयनित उपस्थिति संदेश",
+      "export": "चयन निर्यात करें",
+      "exportError": "चयन का निर्यात विफल रहा।",
+      "csvName": "नाम",
+      "csvEmail": "ईमेल",
+      "csvReference": "संदर्भ",
+      "csvStatus": "स्थिति",
+      "csvDate": "पंजीकृत"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "अपने टिकट ले लो...",
+      "favorites": "अपने पसंदीदा...",
+      "notifications": "अपनी सूचनाएं भेजना...",
+      "messages": "अपनी बातचीत को आकर्षित करना ...",
+      "search": "मिलान कार्यक्रमों की तलाश में...",
+      "event": "घटना पृष्ठ तैयार करना..."
+    },
+    "mobileMoney": {
+      "sent": "आपका भुगतान अनुरोध आपके ऑपरेटर को भेजा गया है।",
+      "pin": "इसे अपने फोन पर, अपने ऑपरेटर के प्रॉम्प्ट में अपने पिन के साथ अनुमोदित करें।",
+      "operator": "ऑपरेटर की पुष्टि थोड़ी देर हो सकती है। यह सामान्य है, कृपया इस पृष्ठ पर रहें।",
+      "once": "आपको केवल एक बार ही शुल्क लिया जाएगा, भले ही प्रतीक्षा चालू हो।"
+    },
+    "empty": {
+      "tickets": {
+        "v0": "जब तक आप किसी घटना के लिए पंजीकरण करते हैं तो आपका टिकट यहां दिखाई देगा।",
+        "v1": "एक समारोह, एक सम्मेलन, एक कार्यशाला? यह सब एक घटना के साथ शुरू होता है।",
+        "v2": "आपकी अगली आउटिंग पहले से ही ऑनलाइन हो सकती है।"
+      },
+      "favorites": {
+        "v0": "दिल को यहां खोजने और बदलावों के बारे में सुनने के लिए एक घटना पर टैप करें।",
+        "v1": "इसलिए आप अपनी खबर कभी नहीं याद करते।",
+        "v2": "एक दिल हाथ में एक घटना रखने के लिए पर्याप्त है।"
+      },
+      "notifications": {
+        "v0": "घटनाओं और आयोजकों से समाचार जिन्हें आप फॉलो करते हैं, यहां दिखाई देंगे।",
+        "v1": "क्या नया है, इसकी पुष्टि करने के लिए एक कार्यक्रम का पालन करें।",
+        "v2": "जैसे ही कुछ होता है, हम आपको बता देंगे।"
+      },
+      "messages": {
+        "v0": "किसी को एक घटना पर बैठो? कनेक्ट करने के लिए अपने कोड को स्कैन करें।",
+        "v1": "आपका इवेंट कनेक्शन यहां दिखाई देता है: एक कोड स्कैन पर्याप्त है।",
+        "v2": "साइट पर एक सहायक के कोड को स्कैन करके संपर्क विवरण स्वैप करें।"
+      },
+      "discover": {
+        "v0": "एक कीवर्ड खोज कभी कभी पता चलता है कि होम पेज अभी तक नहीं दिखा रहा है।",
+        "v1": "शहर या श्रेणी से खोजें: नए कार्यक्रम हर सप्ताह आते हैं।"
+      },
+      "exploreAction": "क्या है?",
+      "scanAction": "एक कोड स्कैन करें",
+      "searchAction": "एक घटना के लिए खोज",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "आपके आसपास 50 किमी तक चौड़ा",
+      "clearFilters": "साफ़ फिल्टर"
+    },
+    "greeting": {
+      "when": {
+        "today": "आज",
+        "tomorrow": "कल",
+        "dayAfter": "कल के बाद"
+      },
+      "there": "साइट पर",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "जन्मदिन मुबारक! एक प्यारा दिन है।",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "राष्ट्रीय दिवस मुबारक!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "आपका स्वागत है",
+      "subtitle_one": "आपकी पिछली यात्रा के बाद से एक नई बात।",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "और क्या आप अनुसरण करते हैं?",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "छुपाना",
+      "reason": {
+        "followed_organizer": "आप का पालन करें",
+        "new_edition": "एक घटना आप में भाग लेने के नए संस्करण",
+        "other": "नया"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "आपके लिए",
+      "forYouTitle": "आप भी पसंद कर सकते हैं",
+      "loginCtaTitle": "सिफारिशें आपके अनुरूप हैं"
+    },
+    "settings": {
+      "ritualsEyebrow": "छोटी चम्मच",
+      "ritualsTitle": "लिटिल टच",
+      "ritualsSubtitle": "आपके जन्मदिन पर एक शब्द, आपकी सालगिरह या राष्ट्रीय दिवस, दिन के दौरान एक बार। आपकी उम्र कभी नहीं दिखाई देती है, कोई अधिसूचना नहीं है।",
+      "forgetEyebrow": "सिफारिश",
+      "forgetTitle": "मेरी वरीयताओं को भूल जाओ",
+      "forgetSubtitle": "घटनाओं, पंजीकरण और खोजों के बाद क्या आपकी सिफारिशों को पढ़ाया जाता है।",
+      "forgetConfirmTitle": "अपनी वरीयताओं को भूल जाओ?",
+      "forgetConfirmMessage": "आपकी सिफारिशें स्क्रैच से शुरू होंगी। आपका टिकट, फेवरिट्स और उसके बाद बदल नहीं जाता है।",
+      "forgetDone": "आपकी सिफारिशें स्क्रैच से शुरू होती हैं।",
+      "forgetUnavailable": "यह विकल्प अभी तक उपलब्ध नहीं है। कुछ भी नहीं हुआ।",
+      "forgetError": "आपकी वरीयताओं को मिटा नहीं जा सकता। वे अपरिवर्तित हैं; कृपया एक पल में फिर से प्रयास करें।"
+    },
+    "goingCard": {
+      "title": "जबकि आप इंतजार करते हैं, अपने \"मैं जा रहा हूँ\" कार्ड तैयार करें",
+      "subtitle": "जैसे ही भुगतान की पुष्टि होती है, यह साझा करने के लिए तैयार होगा।",
+      "tintLabel": "पृष्ठभूमि",
+      "messageLabel": "संदेश",
+      "messages": {
+        "going": "मैं हूँ",
+        "meetThere": "तुम कहाँ हो?",
+        "seeYou": "मेरे पास"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "जब आप इंतजार करते हैं तो आपका कार्ड प्रिंट करता है।",
+      "ready": "आपका कार्ड तैयार है",
+      "share": "मेरा कार्ड शेयर करें",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

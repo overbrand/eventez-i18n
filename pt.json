@@ -41,6 +41,7 @@
     "close": "Fechar",
     "clear": "Limpar",
     "back": "Voltar",
+    "home": "Principal",
     "next": "Próxima",
     "previous": "Anterior",
     "search": "Procurar",
@@ -460,7 +461,8 @@
     "saved": "Gravado",
     "messages": "Mensagens",
     "tickets": "Bilhetes",
-    "profile": "Perfil"
+    "profile": "Perfil",
+    "organize": "Organizar"
   },
   "languagePicker": {
     "eyebrow": "BEM-VINDOS",
@@ -581,7 +583,13 @@
     "notifyOnTitle": "Está tudo pronto!",
     "notifyOnBody": "Avisaremos assim que os primeiros eventos forem ao vivo.",
     "notifyOffTitle": "Notificações desligadas",
-    "notifyOffBody": "Habilitar notificações nas configurações a serem alertadas."
+    "notifyOffBody": "Habilitar notificações nas configurações a serem alertadas.",
+    "organizersEyebrow": "Organizadores",
+    "organizersTitle": "As pessoas atrás da cena",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Organizador verificado",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Níveis de preços",
@@ -616,7 +624,10 @@
     "invisibleHint": "Você é invisível — comece a ser visto também.",
     "message": "Mensagem",
     "connected": "Ligado",
-    "empty": "Ainda ninguém está visível. Seja o primeiro a ligar sua rede!"
+    "empty": "Ainda ninguém está visível. Seja o primeiro a ligar sua rede!",
+    "scanOptInTitle": "Deixe os expositores escanear meu crachá",
+    "scanOptInSubtitle": "Exibindo empresas será capaz de salvar seu nome e dados de contato, digitalizando seu crachá, para que eles possam acompanhar após o evento.",
+    "scanOptInWithdrawNote": "Podes desligar isto a qualquer momento. Contatos já salvos por expositores não são apagados automaticamente — você pode solicitar seu apagamento de suas configurações de privacidade."
   },
   "eventDetails": {
     "eyebrow": "EVENTO",
@@ -680,7 +691,16 @@
     "shareWhatsappA11y": "Compartilhar no WhatsApp",
     "closePreviewA11y": "Fechar a antevisão",
     "invalidCode": "Código de acesso inválido",
+    "accessButton": "Digite",
+    "pendingPaymentBanner": "Complete seu pagamento para confirmar seu registro",
+    "onlineInfoAfterRegistration": "Os detalhes da conexão estarão disponíveis após o registro",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Aumentar",
+    "playCoverVideo": "Reproduzir vídeo",
+    "videoPlayA11y": "Reproduzir vídeo com som",
+    "videoUnmuteA11y": "Desmute",
+    "videoMuteA11y": "Mudo",
+    "videoExpandA11y": "Expandir o vídeo para o ecrã completo",
     "imagesCount": "Mais informações",
     "videoConference": "Plataforma de videoconferência",
     "openLinkError": "Não foi possível abrir o link do evento",
@@ -704,7 +724,12 @@
     "reviewSubmitError": "Não foi possível enviar a sua avaliação",
     "loginRequiredWaitlist": "Entre para se juntar à lista de espera",
     "invitationGateDesc": "Este evento é reservado para convidados. Se recebeu um convite, aceite-o para obter acesso.",
-    "codeGateDesc": "Digite o código para ver os detalhes completos"
+    "codeGateDesc": "Digite o código para ver os detalhes completos",
+    "giftRegistryCta": "Registo de presentes",
+    "giftRegistrySubtitle": "Veja a lista e entre se quiser.",
+    "cancelReasonTitle": "Motivo do cancelamento",
+    "visioEnded": "A videoconferência deste evento terminou.",
+    "videoPauseA11y": "Pausar o vídeo"
   },
   "events": {
     "videoBadge": "Vídeo",
@@ -852,6 +877,9 @@
     "noPastMessage": "Seus eventos passados aparecerão aqui",
     "scanQR": "Digitalizar o código QR",
     "showQR": "Mostrar o código QR",
+    "viewQR": "Ver QR",
+    "receivedTransfers": "Transferências recebidas",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "O seu código QR",
     "qrSubtitle": "Mostrar este código na entrada",
     "ticketDetails": "Detalhes do ticket",
@@ -1159,6 +1187,7 @@
     "paymentBack": "Voltar",
     "paymentGenericError": "Ocorreu um erro durante o pagamento",
     "paymentErrorTitle": "Erro de pagamento",
+    "paymentBlockedTitle": "Pagamento do cartão bloqueado",
     "paymentCancelledTitle": "Pagamento cancelado",
     "paymentNoPaymentInProgress": "Nenhum pagamento em curso para verificar",
     "paymentVerifyingTitle": "Verificando...",
@@ -1167,6 +1196,12 @@
     "paymentContinueWaiting": "Continue esperando",
     "paymentProcessing": "Processamento",
     "paymentTitle": "Pagamento",
+    "checkoutStep": "PAGAMENTO",
+    "noDoubleCharge": "Só será carregado uma vez, mesmo que o ecrã gire por um tempo.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Eu aceito o",
+    "termsLinkFull": "condições de venda e a política de reembolso",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Selecção",
     "paymentStepRecap": "Recapitular",
     "paymentMethodFallback": "Pagamento",
@@ -1259,7 +1294,9 @@
     "finalizeSoldOutBody": "Os bilhetes que tinha reservado já não estão disponíveis. A sua reserva expirou. Não foste acusado.",
     "finalizeBackToEvent": "Voltar ao evento",
     "paymentPushSentTitle": "Confirmar no seu telemóvel",
-    "paymentPushSentMessage": "Um pedido de pagamento foi enviado para o seu telefone. Aprovar (Mobile Money PIN) para completar."
+    "paymentPushSentMessage": "Um pedido de pagamento foi enviado para o seu telefone. Aprovar (Mobile Money PIN) para completar.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Montante das restituições pedidas"
   },
   "memories": {
     "title": "As minhas memórias",
@@ -1276,7 +1313,11 @@
     "recapShare": "Compartilhar minha recapitulação",
     "recapEvents": "eventos vividos",
     "recapCities": "cidades",
-    "recapFirst": "os tempos chegaram # 1"
+    "recapFirst": "os tempos chegaram # 1",
+    "oneYearAgo": "Há um ano, estavas lá.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Longa imprensa para uma surpresa",
+    "firstNote": "O primeiro a chegar. As portas mal estavam abertas."
   },
   "profile": {
     "title": "Perfil",
@@ -1431,7 +1472,27 @@
     "logoutLabel": "Sair",
     "logoutInProgress": "A assinar...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "O meu código QR"
+    "myQRTitle": "O meu código QR",
+    "refundsMenu": "Os meus reembolsos",
+    "refundsSubtitle": "Rastreie onde está o seu dinheiro",
+    "shareProfileButton": "Compartilhe meu perfil",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Meu perfil de organizador",
+    "shareOrganizerA11y": "Compartilhe meu perfil de organizador",
+    "viewPublicProfileA11y": "Ver o meu perfil público",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Não seguir?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Seguir",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Sem resultados",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Descubra eventos",
+    "followSearchPlaceholder": "Procurar um organizador"
   },
   "editProfile": {
     "title": "Editar perfil",
@@ -1491,7 +1552,13 @@
     "sectionOrganization": "Organização",
     "sectionSecurity": "Segurança",
     "qrShareSubtitle": "Examine este código para partilhar o seu perfil",
-    "countryPlaceholder": "Selecionar um país"
+    "countryPlaceholder": "Selecionar um país",
+    "orgLogoLabel": "Logotipo",
+    "orgLogoAdd": "Adicionar um logótipo",
+    "orgLogoChange": "Alterar logotipo",
+    "orgWebsiteLabel": "Sítio Web",
+    "orgDescriptionLabel": "Descrição pública",
+    "orgDescriptionPlaceholder": "Apresente a sua organização..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1542,6 +1609,7 @@
     "themeDialogTitle": "Tema",
     "themeDialogSubtitle": "Escolha seu tema",
     "timezoneDialogTitle": "Fuso horário",
+    "timezoneDetected": "detectado",
     "timezoneDialogSubtitle": "Escolha o seu fuso horário",
     "preferencesTitle": "Preferências",
     "headerEyebrow": "CONSTITUIÇÕES",
@@ -1645,7 +1713,32 @@
     "shortcutInvoices": "Facturas",
     "shortcutTaxes": "Taxas",
     "shortcutMyEvents": "Os Meus Eventos",
-    "shortcutHelp": "Ajuda"
+    "shortcutHelp": "Ajuda",
+    "rowMyDataAtExhibitors": "Meus dados detidos por expositores",
+    "rowLiveBanner": "Banner de eventos ao vivo",
+    "rowLiveBannerSubtitle": "Mostrar um banner para participar de um evento que está atualmente ao vivo.",
+    "pushPermissionTitle": "As notificações estão desligadas para este dispositivo",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Avisa as minhas ligações.",
+    "rowShareAttendanceSubtitle": "Os teus contactos podem ver que estás a assistir a um evento. Desligado por omissão; nunca para eventos apenas para convites.",
+    "rowNotifyMemories": "Notificações “Há um ano”",
+    "rowNotifyMemoriesSubtitle": "No máximo um lembrete por semana, no aniversário de um evento que você assistiu.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Uma recapitulação privada do seu ano, em Dezembro. Mais ninguém o vê.",
+    "madeInDouala": "Feito em Douala, com cuidado.",
+    "madeInDoualaSub": "Obrigado por trazeres os teus eventos à vida connosco.",
+    "rowUiSounds": "Sons de interface",
+    "rowUiSoundsSubtitle": "Sons muito sutis em confirmações e notificações recebidas. Desligado por omissão.",
+    "vibrationsEyebrow": "TOQUE",
+    "rowVibrations": "Vibrações",
+    "rowVibrationsSubtitle": "Feedback háptico sobre ações-chave: pagamento, digitalização, favoritos.",
+    "rowMotionGestures": "Gestos de movimento",
+    "rowMotionGesturesSubtitle": "Agitar, virar ou segurar o telefone para algumas ações. Um botão está sempre disponível também.",
+    "notificationsEyebrowOngoing": "Notificação",
+    "rowOngoingEvent": "Bilhete preso no dia do evento",
+    "rowOngoingEventSubtitle": "Uma notificação tranquila, 3 h antes e durante o evento, com o seu bilhete e instruções.",
+    "rowNotificationSounds": "Sons de notificação",
+    "rowNotificationSoundsSubtitle": "Escolha o som para cada categoria (grandes momentos, vendas, mensagens...) nas configurações do telefone"
   },
   "messages": {
     "title": "Mensagens",
@@ -1747,7 +1840,13 @@
     "searchResultsSection": "Resultados",
     "noConnectionsEyebrow": "REDE",
     "noConnectionsTitle": "Sem conexões ainda",
-    "noConnectionsCta": "Ligar através do QR"
+    "noConnectionsCta": "Ligar através do QR",
+    "emptyEyebrowArchived": "ARQUIVADO",
+    "emptyEyebrowEmpty": "INBOX EMPRESA",
+    "archivedEmptyDesc": "As vossas conversas arquivadas vão aterrar aqui.",
+    "noConversationsDesc": "Inicie uma nova mensagem — encontraremos alguém com quem conversar.",
+    "attachmentPreview": "[Anexo]",
+    "noMatchingMessage": "Sem mensagem correspondente"
   },
   "notifications": {
     "title": "Notificação",
@@ -1793,6 +1892,16 @@
     "typeFollowRegistered": "Está a decorrer uma ligação",
     "typeConnectionsAtEvent": "Suas conexões",
     "eyebrowNetwork": "REDE",
+    "eyebrowSoon": "Em breve.",
+    "eyebrowReminder": "REFERÊNCIA",
+    "eyebrowModeration": "MODERAÇÃO",
+    "eyebrowToReview": "REVISÃO",
+    "eyebrowDiscovery": "DESCUBRA",
+    "eyebrowUrgent": "URGENTE",
+    "eyebrowWhatsNew": "Qual é a novidade?",
+    "filterReadTab": "Ler",
+    "groupToday": "HOJE",
+    "groupYesterday": "ANTERIORMENTE",
     "tabAll": "Tudo",
     "tabNetwork": "Rede",
     "typeDefault": "Notificação",
@@ -1810,7 +1919,26 @@
     "statTotal": "TOTAL",
     "statUnread": "INTEGRAR",
     "statToday": "HOJE",
-    "viewDetails": "Ver detalhes"
+    "viewDetails": "Ver detalhes",
+    "actions": {
+      "showTicket": "Mostrar o meu ticket",
+      "directions": "Instruções",
+      "going": "Eu vou.",
+      "viewTicket": "Ver o ticket",
+      "reply": "Responder",
+      "replyPlaceholder": "A tua mensagem...",
+      "replySubmit": "Enviar",
+      "markRead": "Marcar como lido",
+      "joinLive": "Entrar",
+      "payNow": "Paga agora.",
+      "writeTo": "Mensagem deles",
+      "viewEvent": "Ver evento",
+      "viewTickets": "Ver os meus bilhetes",
+      "viewRefund": "Ver reembolso",
+      "viewProfile": "Ver perfil",
+      "summaryTitle": "Mensagens",
+      "summaryBody": "Novas mensagens"
+    }
   },
   "dashboard": {
     "title": "Painel",
@@ -1854,7 +1982,8 @@
     "subscriptionSubtitle": "Gerenciar meu plano",
     "exportTitle": "Exportação",
     "exportSubtitle": "Os seus dados",
-    "settingsLink": "Configurações"
+    "settingsLink": "Configurações",
+    "greetingNight": "Tenha uma boa noite."
   },
   "following": {
     "title": "Os meus favoritos",
@@ -2067,7 +2196,8 @@
       "notFound": "Não encontrámos o que procuravas.",
       "conflict": "Essa ação entra em conflito com o estado atual. Refresque e tente novamente.",
       "tooManyRequests": "Demasiadas tentativas. Por favor, espere um momento e tente novamente.",
-      "server": "Os nossos servidores estão com problemas neste momento. Por favor, tente novamente dentro de alguns minutos."
+      "server": "Os nossos servidores estão com problemas neste momento. Por favor, tente novamente dentro de alguns minutos.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
     },
     "codes": {
       "emailTaken": "Este e-mail já está ligado a uma conta. Entre ou use outro endereço.",
@@ -2087,6 +2217,35 @@
       "payoutLocked": "Este pagamento não pode mais ser alterado porque o processamento já começou. Contacte o suporte se isto for um erro.",
       "planLimitReached": "Chegaste ao limite do teu plano. Atualize seu plano para continuar.",
       "countryNotSupported": "Os pagamentos ainda não estão disponíveis neste país. Você pode criar o evento em um país suportado, ou entrar em contato conosco."
+    },
+    "tickets": {
+      "offline": "Estás offline agora. Bilhetes que você já carregou ficam disponíveis offline. Tenta outra vez quando estiveres online.",
+      "timeout": "Os teus bilhetes estão a demorar a carregar. Nada está perdido, estão salvos. Tente de novo daqui a pouco.",
+      "server": "Os nossos servidores estão a ter um pequeno problema. Os teus bilhetes estão seguros do nosso lado. Tente de novo daqui a uns minutos.",
+      "notFound": "Não conseguimos encontrar este bilhete. Os outros bilhetes não são afectados. Atualizar a lista ou verificar o seu email de confirmação.",
+      "forbidden": "Este ticket pertence a outra conta. Os seus bilhetes estão intocados. Entre com a conta usada para a compra."
+    },
+    "messages": {
+      "offline": "Estás offline agora. Suas mensagens não estão perdidas: as pendentes serão apagadas quando você estiver de volta online. Tente novamente quando a rede retornar.",
+      "timeout": "Mensagens são lentas para responder. As tuas mensagens não estão perdidas. Tente de novo daqui a pouco.",
+      "server": "Mensagens estão tendo um pequeno soluço do nosso lado. As vossas conversas estão intactas. Tente de novo daqui a uns minutos.",
+      "notFound": "Esta conversa já não existe. As outras conversas não são afectadas. Volta para as tuas mensagens.",
+      "forbidden": "Já não tens acesso a esta conversa. As outras conversas ainda estão disponíveis. Volta para as tuas mensagens."
+    },
+    "event": {
+      "offline": "Estás offline, por isso não podemos mostrar este evento. Os seus bilhetes ficam disponíveis offline. Tenta outra vez quando estiveres online.",
+      "timeout": "Esta página do evento está levando um tempo para carregar. Nada mudou do teu lado. Tente de novo daqui a pouco.",
+      "server": "Um breve soluço está nos impedindo de mostrar este evento. Os seus bilhetes e registos não são afectados. Tente de novo daqui a uns minutos.",
+      "notFound": "Este evento não está mais online: o organizador pode tê-lo removido. Quaisquer bilhetes que tenha, fique em \"Meus bilhetes\". Mais eventos estão esperando em Discover.",
+      "forbidden": "Este evento é privado. A tua conta não é o problema. Peça ao organizador um convite para obter acesso."
+    },
+    "upload": {
+      "offline": "O upload não pôde começar: você está offline. O teu ficheiro ainda está no teu telemóvel. Tenta outra vez quando estiveres online.",
+      "timeout": "O upload demorou muito. O teu ficheiro ainda está no teu telemóvel. Tente novamente, idealmente no Wi-Fi ou com um arquivo mais leve.",
+      "server": "O servidor não pôde receber o ficheiro. Ainda está seguro no teu telemóvel. Tente de novo daqui a uns minutos.",
+      "notFound": "O destino de envio já não existe. Seu arquivo ainda está seguro no seu telefone. Atualizar a tela e tentar novamente.",
+      "forbidden": "Não pode carregar este ficheiro aqui. Ainda está seguro no teu telemóvel. Verifica se estás com a conta certa.",
+      "tooLarge": "Este ficheiro é demasiado grande para carregar. Ainda está seguro no teu telemóvel. Escolha um arquivo mais leve ou corte a imagem."
     }
   },
   "errorBoundary": {
@@ -2695,7 +2854,10 @@
     "successTitle": "Parabéns!",
     "successMessage": "Agora és um organizador. Crie seu primeiro evento!",
     "errorTitle": "Erro",
-    "errorGeneric": "Ocorreu um erro"
+    "errorGeneric": "Ocorreu um erro",
+    "labelWebsite": "Sítio Web (opcional)",
+    "labelDescription": "Descrição (opcional)",
+    "placeholderDescription": "Apresente a sua organização..."
   },
   "verificationForm": {
     "pdfOpenError": "Não foi possível abrir o documento.",
@@ -2856,7 +3018,9 @@
     "locHybrid": "Híbrido",
     "priceAny": "Tudo",
     "priceFree": "Livre",
-    "pricePaid": "Pago"
+    "pricePaid": "Pago",
+    "shareSearch": "Partilhar esta pesquisa",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filtros",
@@ -2920,7 +3084,11 @@
     "agendaTitle": "Eventos publicados",
     "loadingEvents": "Carregando...",
     "noEvents": "Nenhum evento publicado",
-    "freeBadge": "LIVRE"
+    "freeBadge": "LIVRE",
+    "tabs": {
+      "upcoming": "Próximo",
+      "past": "Passado"
+    }
   },
   "sessionDetails": {
     "title": "Sessão",
@@ -3389,7 +3557,16 @@
     "perm_view_analytics": "Ver análise",
     "perm_view_registrations": "Ver a lista de registos",
     "perm_edit_event": "Editar o evento",
-    "perm_manage_team": "Convide outros membros da equipe"
+    "perm_manage_team": "Convide outros membros da equipe",
+    "role_co_organizer": "Co-organizador",
+    "role_moderator": "Moderador",
+    "role_scanner": "Scanner",
+    "role_analyst": "Analisador",
+    "status_pending": "Pendente",
+    "status_accepted": "Activo",
+    "status_declined": "Recusado",
+    "status_revoked": "Revogado",
+    "status_expired": "Expirado"
   },
   "myTeamEvents": {
     "eyebrow": "Atrás das cenas",
@@ -3408,8 +3585,10 @@
     "willAttend": "Eu estarei lá.",
     "wontAttend": "Não posso ir.",
     "partySize": "Número de hóspedes extras",
+    "partySizeHint": "Além de ti. E.g. 2 se você está trazendo duas pessoas.",
     "dietary": "Requisitos nutricionais / alergias",
     "note": "Uma palavra para o casal",
+    "noteOptional": "Uma palavra para o casal (opcional)",
     "submit": "Enviar a minha resposta",
     "thanksAccepted": "Obrigado! A sua presença está confirmada.",
     "thanksDeclined": "Obrigado por nos avisar.",
@@ -3421,7 +3600,18 @@
     "giftYourName": "O seu nome",
     "giftMethod": "Método de pagamento",
     "giftPay": "Contribuir",
-    "giftError": "O pagamento não pôde começar."
+    "giftThanks": "Obrigado pela sua contribuição!",
+    "giftRedirectNote": "Será redirecionado para uma página de pagamento segura. Isto é normal.",
+    "giftError": "O pagamento não pôde começar.",
+    "rsvpSubmitError": "A sua resposta não pôde ser enviada. Por favor, tente novamente.",
+    "summaryTitle": "A sua resposta",
+    "summaryAccepted": "Confirmaste a tua presença.",
+    "summaryDeclined": "Recusaste o convite.",
+    "summaryPartySize": "Convidados consigo.",
+    "summaryHeadcount": "Assentos reservados",
+    "summaryDietary": "Necessidades alimentares",
+    "summaryTable": "A sua mesa",
+    "summaryTablePending": "Sua mesa será compartilhada antes do evento."
   },
   "teamInvitation": {
     "eyebrow": "INQUÉRITO",
@@ -3743,7 +3933,21 @@
     "readOnlyLockMessage": "Discussão só de leitura. Guarda as tuas mensagens.",
     "mutedLockMessage": "Foi silenciado nesta discussão pelo organizador.",
     "postingLockMessage": "Somente o organizador pode postar nesta discussão.",
-    "defaultUserName": "este usuário"
+    "defaultUserName": "este usuário",
+    "someFilesQueuedForRetry": "Alguns arquivos ficarão ressentidos quando a conexão voltar.",
+    "retrySend": "Repetir",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Rolar para baixo",
+    "tapToLoadImage": "Toque em para carregar",
+    "reply": "Responder",
+    "react": "Reagir",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Conversa só de leitura.",
+    "headerCollapseA11y": "Esconder o banner",
+    "headerExpandA11y": "Mostrar banner",
+    "headerCollapseLabel": "Ocultar",
+    "headerExpandLabel": "Detalhes do evento"
   },
   "scanForm": {
     "loading": "Carregando...",
@@ -3810,7 +4014,8 @@
     "roleModerator": "Moderador",
     "roleAdmin": "Administrador",
     "fallbackEvent": "Evento",
-    "fallbackUnknownUser": "Utilizador"
+    "fallbackUnknownUser": "Utilizador",
+    "statusUnknown": "Estado desconhecido"
   },
   "refundRequest": {
     "watermarkBack": "VOLTAR",
@@ -3970,7 +4175,13 @@
       "accessCodeLabel": "Código de acesso (opcional)",
       "accessCodeHint": "Os visitantes terão de introduzir este código para ver os detalhes",
       "accessCodePlaceholder": "Deixar em branco sem código",
-      "featuredInfo": "Você pode solicitar para apresentar seu evento após a criação de \"Meus eventos\"."
+      "accessCodeKeepPlaceholder": "Novo código (deixar em branco para manter o actual)",
+      "accessCodeActive": "Um código de acesso está activo.",
+      "accessCodeWillBeRemoved": "O código será removido quando você salvar.",
+      "accessCodeRemove": "Remover o código",
+      "accessCodeUndoRemove": "Desfazer",
+      "featuredInfo": "Você pode solicitar para apresentar seu evento após a criação de \"Meus eventos\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Data e local",
@@ -4188,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Fechar o menu",
       "cancel": "Cancelar"
+    },
+    "venuePicker": {
+      "label": "Usar um local salvo",
+      "hint": "Os campos preenchem automaticamente. Pode ajustá-los depois."
     }
   },
   "componentsCharts": {
@@ -4342,7 +4557,18 @@
     "ticketsAddedSuccess": "Tickets adicionados com sucesso",
     "alreadyRegisteredConfirmTitle": "Já registado",
     "alreadyRegisteredConfirmMessage": "Você já está registrado para este evento.",
-    "createRegistrationError": "Não foi possível criar o registro"
+    "createRegistrationError": "Não foi possível criar o registro",
+    "accessMode": {
+      "in_person": "Apenas pessoalmente",
+      "online": "Acesso online",
+      "hybrid": "Em pessoa + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Só resta um lugar",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Compras pausadas",
+    "suspendedByIncident": "As compras são temporariamente pausadas devido a um incidente. Siga as atualizações na página Status."
   },
   "registrationDetails": {
     "headerInscription": "O meu registo.",
@@ -4541,6 +4767,7 @@
     "tipScanEntrance": "O código QR será digitalizado na entrada",
     "tipArriveLines": "Chegar a tempo de saltar as linhas",
     "validatedTitle": "Bilhete validado",
+    "stampValidated": "Registado",
     "validatedAt": "Introduzido em \"O\" em \"O\"",
     "paymentPendingTitle": "Pagamento pendente",
     "paymentPendingDesc": "Complete o seu pagamento para confirmar",
@@ -4570,7 +4797,15 @@
     "statusConfirmed": "Confirmado",
     "statusPending": "Pendente",
     "statusCancelled": "Cancelado",
-    "statusValidated": "Validado"
+    "statusValidated": "Validado",
+    "pdfOnline": "Evento online",
+    "statusUnknown": "Estado desconhecido",
+    "presentHint": "Toque para ampliar o código, long-press para provar a validade.",
+    "presentA11yAction": "Aumentar o código da verificação",
+    "proofA11yAction": "Mostrar prova de validade",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Voltar para o ticket",
+    "presentExitHint": "Toque para voltar"
   },
   "offlineTickets": {
     "headerTitle": "Desligado",
@@ -4942,7 +5177,46 @@
     "virtualJoinLive": "Junte-se ao vivo",
     "virtualStartsInMinutes": "Inicia- se em 1 min",
     "virtualUnavailableTitle": "Chamada de vídeo indisponível",
-    "virtualUnavailableNote": "EventEz Video ainda não está ativo para este evento. O organizador compartilhará o link de junção."
+    "virtualUnavailableNote": "EventEz Video ainda não está ativo para este evento. O organizador compartilhará o link de junção.",
+    "virtualWaitingHostTitle": "A vida ainda não começou.",
+    "virtualWaitingHostNote": "Poderás juntar-te assim que o organizador abrir a sala.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Sala principal",
+      "session": "Sessão",
+      "breakout": "Quebrar",
+      "networking": "Rede",
+      "workshop": "Oficina"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Vendas encerradas",
+    "ticketsSaleNotStarted": "Em breve.",
+    "peekSave": "Gravar",
+    "peekUnsave": "Remover do salvo",
+    "peekShare": "Partilha",
+    "peekOpen": "Abrir",
+    "peekA11yHint": "Aguarde para uma antevisão",
+    "swipeSave": "Lançar a gravar",
+    "swipeUnsave": "Lançar para remover",
+    "swipeHint": "Deslize para salvar",
+    "swipeRemoved": "Removido de salvo",
+    "swipeUndo": "Desfazer",
+    "swipeRemove": "Remover",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Feitiços de sol",
+      "cloudy": "Nublado",
+      "fog": "Nevoeiro",
+      "rain": "Chuva",
+      "snow": "Neve",
+      "showers": "Chuveiros",
+      "thunderstorm": "Trovoadas",
+      "variable": "Alterável"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Escolher formato",
@@ -5027,7 +5301,11 @@
     "followPrefsSave": "Salvar preferências",
     "followPrefsSaveA11y": "Salvar preferências",
     "inAppToastA11y": "Toque para abrir.",
-    "webviewVisioTitle": "Chamada de vídeo"
+    "webviewVisioTitle": "Chamada de vídeo",
+    "webviewOfflineTitle": "Você está offline",
+    "webviewOfflineBody": "O seu dispositivo perdeu a ligação. A chamada será retomada assim que a rede voltar.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Ligação lenta detectada — o vídeo pode ser degradado e usar seus dados."
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",
@@ -5075,6 +5353,17 @@
     "permissionTitle": "Câmera necessária",
     "permissionSubtitle": "Para digitalizar um QR, EventEz precisa de acesso à câmera.",
     "permissionGrant": "Permitir câmera"
+  },
+  "media": {
+    "sheetTitle": "O que gostarias de fazer?",
+    "saveToGallery": "Gravar na galeria",
+    "share": "Partilha",
+    "savedToGallery": "Gravado na galeria",
+    "permissionDeniedTitle": "Permissão negada",
+    "permissionDeniedMessage": "Activar o acesso à fotografia nas Definições para gravar.",
+    "sharingUnavailable": "O compartilhamento não está disponível neste dispositivo.",
+    "downloadFailed": "A transferência falhou. Por favor, tente novamente.",
+    "genericError": "Algo correu mal. Por favor, tente novamente."
   },
   "componentsMessages": {
     "inputJoinFile": "Anexar um arquivo",
@@ -5296,7 +5585,7 @@
     "messages": "MENSAGENS",
     "suggestions": "SUGESTÕES",
     "theme": "TEMA",
-    "timezoneSoon": "TIMEZONE · EM SÓ",
+    "timezone": "ZONA DO TEMPO",
     "soundEffects": "EFEITOS SÃO",
     "authSoon": "AUTENTICAÇÃO · EM SÓ",
     "connectionsSoon": "CONNECÇÕES · EM JOGO",
@@ -5322,7 +5611,11 @@
     "tabSaved": "02 · SAVED",
     "tabMessages": "03 · MENSAGEM",
     "tabTickets": "04 · FICHAS",
-    "tabProfile": "05 · PERFIL"
+    "tabProfile": "05 · PERFIL",
+    "push": "Empurre",
+    "privacy": "Privacidade",
+    "memories": "Memórias",
+    "yearInReview": "Ano de reexame"
   },
   "organizer": {
     "common": {
@@ -5333,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Seleccionado",
-      "selectedCount_plural": "Seleccionado",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Aprovar",
       "reject": "Rejeitar",
       "checkIn": "Check-in"
@@ -5791,6 +6084,7 @@
         "discountCodes": "Códigos promocionais",
         "linkSessions": "Link de tickets para sessões",
         "addPhotos": "Adicionar fotos",
+        "startLive": "Vai ao vivo.",
         "volunteers": "Voluntários",
         "sponsors": "Patrocinadores",
         "seatingPlans": "Planos de colocação",
@@ -5808,7 +6102,11 @@
         "deleteDesc": "Acção irreversível",
         "invite": "Convidar convidados",
         "inviteDescInviteOnly": "A única maneira de conceder acesso a este evento só para convidados",
-        "duplicatePastDesc": "Iniciar a partir de uma cópia editável"
+        "duplicatePastDesc": "Iniciar a partir de uma cópia editável",
+        "remindInvites": "Recordar os convidados",
+        "weddingGuests": "Convidados & RSVP",
+        "weddingGifts": "& Presentes de registro",
+        "weddingTables": "Plano de lugares"
       },
       "emptyEyebrowResults": "NÃO RESULTADOS",
       "emptyEyebrowCatalog": "CATÁLOGO EMPRESA",
@@ -5824,6 +6122,7 @@
       "cancelReasonPlaceholder": "Por exemplo, condições de saúde, local indisponível...",
       "keepBtn": "Manter",
       "cancelEventBtn": "Cancelar evento",
+      "cancelHolding": "Espera...",
       "recurrenceEyebrow": "REINCIDÊNCIA",
       "recurrenceModalTitle": "Agendar \"\"\"",
       "recurrenceModalBody": "Criar múltiplas ocorrências a partir deste evento. Cada ocorrência é um novo evento independente que você pode ajustar.",
@@ -5862,7 +6161,14 @@
       "inviteInvalidMessage": "Por favor, verifique estes endereços:",
       "inviteSentTitle": "Convites enviados",
       "inviteSentMessage": "Foi enviado o(s) convite(s).",
-      "inviteError": "Não foi possível enviar convites."
+      "inviteError": "Não foi possível enviar convites.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Não há convidado para lembrar agora.",
+      "remindErrorTitle": "Falha no lembrete",
+      "remindErrorMessage": "Os lembretes não puderam ser enviados. Por favor, tente novamente.",
+      "remindPendingProgress": "Enviando lembretes...",
+      "loadError": "Não consegui carregar os teus eventos. Verifica a tua ligação."
     },
     "volunteer": {
       "tabReceived": "Recebido",
@@ -6133,7 +6439,35 @@
       "manualCodeInvalid": "Código inválido: UUID esperado ou código de referência (8-20 caracteres A-Z/0-9).",
       "sessionRecapTitle": "Resumo da sessão",
       "sessionRecapBody": "Varredura (s) em 1 min\nValidada\nFalha ao executar a tarefa",
-      "sessionRecapQueue": "Off-line da fila de espera"
+      "sessionRecapQueue": "Off-line da fila de espera",
+      "manualModeBanner": "Modo manual — 1 toque por pessoa",
+      "manualModeA11y": "Modo manual ligado. Toque em para ligar o check-in automático.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Estas pessoas entraram enquanto a rede estava desligada. Verifica com a tua equipa.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Aceito offline por este telefone, rejeitado na sincronização. Se outro agente estava a analisar ao mesmo tempo, estas pessoas entraram duas vezes.",
+      "voice": {
+        "valid": "Bilhete válido",
+        "validWarning": "Válido, precisa de verificação",
+        "alreadyCheckedIn": "Já fiz o check-in",
+        "refused": "Bilhete recusado",
+        "enabled": "Anúncios de voz em",
+        "toggleOn": "Anúncios de voz em",
+        "toggleOff": "Anúncios de voz desligados",
+        "toggleA11y": "Activar ou desactivar os anúncios de voz do resultado da digitalização"
+      }
     },
     "liveOps": {
       "live": "VIVO",
@@ -6158,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "SEU IMPACTO",
       "headerTitle": "Análise",
+      "errorTitle": "Análise não disponível",
+      "errorBody": "Não consegui carregar os dados. Verifique sua conexão e tente novamente.",
       "eventLabel": "EVENTO",
       "kpiViews": "Vistas",
       "kpiRegistrations": "Registos",
@@ -6179,7 +6515,8 @@
       "insightViewsHas": "Seu evento foi visualizado vezes",
       "insightViewsNone": "Compartilhe seu evento para obter mais visualizações",
       "insightRegistered_one": "Pessoa registada",
-      "insightRegistered_other": "Pessoas registadas"
+      "insightRegistered_other": "Pessoas registadas",
+      "actionBoxOffice": "Caixas"
     },
     "sessionsLink": {
       "headerEyebrow": "ACESSO • SESSÕES",
@@ -6281,6 +6618,10 @@
       "submitSuccess": "Evento enviado com sucesso",
       "viewMyEvents": "Ver os meus eventos",
       "createAnother": "Criar outro",
+      "submittedStamp": "Em reexame",
+      "submittedEyebrow": "Apresentado para revisão",
+      "submittedBody": "A nossa equipa está a rever o seu evento. Você será notificado assim que estiver ao vivo.",
+      "submittedCtaEyebrow": "Painel",
       "edit": "Editar",
       "saved": "Gravado",
       "back": "Voltar",
@@ -6449,6 +6790,163 @@
       "linkReportsSub": "CSV, exportação de PDF, painéis",
       "linkMyEventsTitle": "Os meus eventos",
       "linkMyEventsSub": "Estatísticas por evento"
+    },
+    "boxOffice": {
+      "openTitle": "Abra a caixa",
+      "openingFloatHelp": "Quanta mudança o organizador lhe deu para começar? Sem ela, a contagem desta noite estará errada.",
+      "openDrawer": "Abra a caixa",
+      "openError": "A caixa não podia ser aberta",
+      "openErrorDetail": "Verifique sua conexão e tente novamente.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Fechar",
+      "cash": "Dinheiro",
+      "momo": "Dinheiro Móvel",
+      "giveBack": "VOLTAR",
+      "saleError": "A venda não foi registada",
+      "saleErrorDetail": "Não entre novamente na venda: tente novamente, não será cobrado duas vezes.",
+      "a11y": {
+        "drawerOpened": "Até ser aberto",
+        "openingFloatInput": "Montante flutuante de abertura",
+        "openDrawer": "Abra a caixa",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Feche a caixa",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Pegue o dinheiro móvel",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "Para entregar",
+      "cashOnlyHint": "Apenas dinheiro — O dinheiro móvel não está em sua bolsa.",
+      "openingFloat": "Abertura float",
+      "salesCount": "Vendas",
+      "countedLabel": "Eu contei.",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Isto não está a bloquear. Apenas explique por que abaixo.",
+      "reasonLabel": "Explicação (opcional)",
+      "reasonPlaceholder": "Por exemplo, dei 500 trocos a mais.",
+      "confirmClose": "Fecha a minha caixa.",
+      "closedTitle": "Até fechar",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Falha ao fechar",
+      "closeErrorDetail": "Por favor, tente novamente em breve.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Montante contado",
+        "reasonInput": "Explicação da variância",
+        "confirmClose": "Confirmar fechamento",
+        "closed": "Até fechar"
+      }
+    },
+    "documents": {
+      "title": "Documentos a imprimir",
+      "a11y": "Documentos para impressão",
+      "badges": "Emblemas dos participantes",
+      "badgesHint": "Formato A6, 4 por página A4",
+      "attendanceSheet": "Folha de entrada",
+      "attendanceSheetHint": "Assinar na recepção – pronto antes do evento",
+      "certificates": "Certificados de presença",
+      "certificatesHint": "Após o evento, para participantes check-in"
+    },
+    "weddingGuests": {
+      "title": "Convidados & RSVP",
+      "empty": "Ainda não há convidados.",
+      "remindOne": "Lembrar",
+      "remindOneSent": "Chamada de atenção enviada",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Não foi possível enviar o lembrete",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Editar RSVP",
+      "editRsvpTitle": "Editar RSVP",
+      "rsvpUpdated": "RSVP actualizado",
+      "rsvpError": "Não foi possível salvar o RSVP",
+      "partySize": "Dimensão da festa",
+      "dietary": "Requisitos nutricionais",
+      "dietaryPlaceholder": "Vegetariana, sem glúten...",
+      "note": "Nota",
+      "stats": {
+        "invited": "Convidado",
+        "accepted": "Confirmado",
+        "pending": "Pendente",
+        "headcount": "Contagem de Cabeçalhos"
+      },
+      "status": {
+        "pending": "Pendente",
+        "accepted": "Confirmado",
+        "declined": "Recusado",
+        "cancelled": "Cancelado"
+      }
+    },
+    "weddingGifts": {
+      "title": "& Presentes de registro",
+      "noRegistry": "Não há registo de presentes para este evento.",
+      "create": "Criar registro",
+      "registryCreated": "Registo criado",
+      "registryUpdated": "Registo actualizado",
+      "editRegistry": "Editar registro",
+      "registryTitle": "Título do registo",
+      "registryDescription": "Mensagem aos hóspedes",
+      "visible": "Registro visível",
+      "hidden": "Escondido",
+      "totalRaised": "Total aumentado",
+      "share": "Partilha",
+      "addItem": "Adicionar um presente",
+      "newItem": "Novo presente",
+      "editItem": "Editar o presente",
+      "itemName": "Nome",
+      "itemKind": "Tipo",
+      "targetAmount": "Montante-alvo",
+      "externalUrl": "Ligação externa (opcional)",
+      "itemAdded": "Presente adicionado",
+      "itemUpdated": "Presente actualizado",
+      "itemDeleted": "Presente apagado",
+      "deleteItemTitle": "Apagar este presente",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Reservado",
+      "noItems": "Ainda não há presentes. Adicione um.",
+      "kind": {
+        "gift": "Presente (itens)",
+        "cash_fund": "Fundos fiduciários"
+      },
+      "error": "Algo correu mal."
+    },
+    "weddingTables": {
+      "title": "Plano de lugares",
+      "noTables": "Ainda não há mesas. Criar um.",
+      "addTable": "Adicionar uma tabela",
+      "newTable": "Nova tabela",
+      "editTable": "Editar tabela",
+      "name": "Nome do quadro",
+      "namePlaceholder": "Tabela 1, Família...",
+      "capacity": "Assentos",
+      "created": "Tabela criada",
+      "updated": "Tabela actualizada",
+      "deleted": "Quadro suprimido",
+      "deleteTitle": "Apagar a tabela",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Completo",
+      "tableEmpty": "Ninguém nesta mesa",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Todos os convidados confirmados estão sentados.",
+      "createFirst": "Crie uma mesa primeiro para sentar seus convidados.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Convidado sentado",
+      "unassign": "Remover",
+      "unassigned": "Convidado removido",
+      "capacityError": "Não há lugares suficientes nesta mesa.",
+      "error": "Algo correu mal."
     }
   },
   "moderation": {
@@ -7218,6 +7716,554 @@
     "payOrange": "Dinheiro Laranja",
     "payCard": "Cartão",
     "paymentInitiated": "Pagamento iniciado. Confirma no teu telemóvel.",
-    "payError": "Não foi possível iniciar o pagamento da cabine."
+    "payError": "Não foi possível iniciar o pagamento da cabine.",
+    "captureLeads": "Capturar contatos",
+    "viewLeads": "Os meus contactos"
+  },
+  "leadCapture": {
+    "title": "Capturar um contato",
+    "hint": "Aponta para o código QR no crachá do visitante.",
+    "permissionTitle": "Permitir o acesso da câmera",
+    "permissionBody": "A câmera é usada apenas para ler o código QR emblemático dos visitantes que concordaram em ser contatados.",
+    "permissionCta": "Liga a câmara",
+    "manualEntry": "Digite a referência em vez disso",
+    "manualPlaceholder": "Referência do distintivo",
+    "unnamed": "Contacto gravado",
+    "alreadyKnown": "Já se encontrou — registro atualizado.",
+    "qualify": "Qualifique este contacto",
+    "rating_hot": "Quente",
+    "rating_warm": "Quente",
+    "rating_cold": "Frio",
+    "notesPlaceholder": "Sobre o que você falou (opcional)",
+    "next": "Próximo contato",
+    "retry": "Digitalizar novamente",
+    "noConsentTitle": "Este visitante não concordou",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Distintivo não reconhecido",
+    "notFoundBody": "Este crachá não pertence a este evento. Verifique a referência impressa no código QR.",
+    "errorTitle": "Falha na pesquisa",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Este visitante não concordou em ser contactado.",
+    "a11yNotFound": "Distintivo não reconhecido.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "justNow": "Agora mesmo.",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Enviando",
+    "failed": "Falha ao enviar",
+    "sent": "Enviado",
+    "delivered": "Administrado",
+    "read": "Ler"
+  },
+  "myLeads": {
+    "title": "Os meus contactos",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Contato sem nome",
+    "emptyTitle": "Sem contatos ainda",
+    "emptyBody": "Analise o crachá dos visitantes que passam na sua cabine. Você pode então exportar a lista completa como CSV.",
+    "errorTitle": "Não foi possível carregar",
+    "errorBody": "Os teus contactos estão salvos. Verifique sua conexão e tente novamente."
+  },
+  "myDataExhibitors": {
+    "title": "Meus dados detidos por expositores",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Apagar",
+    "eraseAll": "Apagar tudo",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Os seus dados de contacto foram apagados.",
+    "eraseError": "O apagamento não passou.",
+    "confirmCta": "Apagar",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Apagar os meus dados guardados por todos os expositores?",
+    "confirmAllBody": "Seu nome, e-mail e número de telefone serão excluídos em cada empresa listada. Isto não pode ser desfeito.",
+    "emptyTitle": "Nenhuma empresa detém seus dados de contato",
+    "emptyBody": "Expositores só podem salvar seus detalhes digitalizando seu crachá, e somente se você permitir esse evento."
+  },
+  "visio": {
+    "expandCall": "Expandir a chamada de vídeo",
+    "endCall": "Fim da chamada",
+    "endCallConfirmTitle": "Deixar a chamada?",
+    "endCallConfirmMessage": "Estás prestes a deixar a reunião.",
+    "minimize": "Minimizar",
+    "liveNow": "VIDA",
+    "join": "Entrar",
+    "view": "Ver",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Ver",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Redimensionar"
+  },
+  "organize": {
+    "favorites": "Os meus favoritos",
+    "eyebrow": "Espaço do organizador",
+    "title": "Organizar",
+    "liveNow": "Vivam agora.",
+    "nextEvent": "Próximo evento",
+    "registered": "registado",
+    "scan": "Digitalizar",
+    "scanA11y": "Procurar os tickets para este evento",
+    "boxOffice": "Caixas",
+    "boxOfficeA11y": "Abra a bilheteria para este evento",
+    "viewStats": "Ver estatísticas",
+    "availableBalance": "Saldo disponível",
+    "walletA11y": "Abre a minha carteira.",
+    "noActiveEvent": "Nenhum evento em execução",
+    "noActiveEventHint": "Criar um evento ou publicar um rascunho para vê-lo aqui.",
+    "noStaffEventHint": "Eventos em que faz parte da equipa aparecerão aqui.",
+    "createEvent": "Criar um evento",
+    "myEvents": "Os meus eventos",
+    "teamEvents": "Eventos I pessoal",
+    "analytics": "Análise",
+    "loadError": "Não conseguiste carregar o teu espaço. Verifica a tua ligação."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Estás dentro.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Em uma semana",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "As portas estão abertas",
+    "onNow": "Acontecendo agora",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Bilhete disponível offline",
+    "offlinePending": "Abra o ticket uma vez para mantê-lo offline",
+    "sayImGoing": "Diz que eu vou.",
+    "showTicket": "Mostrar o meu ticket",
+    "directions": "Instruções",
+    "viewTicket": "Ver o ticket",
+    "goThere": "Vai.",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Calibrar a bússola: desenhar uma figura 8 com o telefone",
+    "compassHint": "Siga a seta para o local"
+  },
+  "onSite": {
+    "eyebrow": "Estás no local.",
+    "now": "Agora.",
+    "next": "Next · {{time}}",
+    "qa": "Perguntas e respostas ao vivo",
+    "plan": "& Local do mapa",
+    "networking": "Rede"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Tu estavas lá.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Primeiro a chegar",
+    "question": "O que achaste?",
+    "thanks": "Obrigado pela sua avaliação.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Partilhar com a história",
+    "later": "Mais tarde."
+  },
+  "yearInReview": {
+    "eyebrow": "O teu ano",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "evento assistido",
+    "s1Line_other": "eventos presentes",
+    "citiesEyebrow": "Na estrada",
+    "categoryEyebrow": "O seu tipo de evento",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Tudo começou com",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Sempre a tempo",
+    "arrivalsLine_one": "tempo primeiro para chegar",
+    "arrivalsLine_other": "vezes primeiro para chegar",
+    "organizerEyebrow": "Seu organizador",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Compartilhe meu cartão",
+    "tapHint": "Toque em para continuar"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Primeiro participante",
+      "someone": "Alguém.",
+      "share": "Partilhar para impulsionar as vendas",
+      "view": "Ver",
+      "soldOutTitle": "Vendido",
+      "soldOutLine": "Cada bilhete se foi"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Vendido",
+      "online": "VIDA"
+    },
+    "share": {
+      "cta": "Partilhar o evento",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Partilhado",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Pedido",
+      "approved": "Aprovado",
+      "sent": "Enviado",
+      "verifying": "Verificação com o operador",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "A execução falhou"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Local quase cheio",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Fim do turno",
+      "validated": "Registado",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Recusado",
+      "syncing": "Sincronização...",
+      "synced": "Sincronizado",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Ver operações ao vivo",
+      "resume": "Continuar",
+      "close": "Terminar"
+    },
+    "recap": {
+      "title": "Recapitular",
+      "eyebrow": "RECURSO DO EVENTO",
+      "attended": "Assistido",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Receitas",
+      "rating": "Classificação média",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Sem avaliações ainda",
+      "best": "Revisão de destaque",
+      "latest": "Últimas revisões",
+      "thank": "Agradeça aos participantes",
+      "funds": "Ver fundos",
+      "error": "Recapitular indisponível neste momento.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Ver recapitular"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Reservei agora mesmo",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Reservado na última hora",
+    "lastSaleToday": "Reservado hoje",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Vendido",
+    "soldOutCta": "Vendido · nenhum assento deixado",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Suas conexões que estão indo",
+    "someone": "Alguém.",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "Um lugar está a ser ocupado para ti.",
+    "seatHeldBody": "Livro antes que a contagem regressiva termine: depois disso, vai para a próxima pessoa.",
+    "seatHeldCta": "Reserve o meu lugar.",
+    "seatHeldExpired": "Acabou o tempo: o assento foi para a próxima pessoa.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Mostrar tudo",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reações",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Chegou uma das tuas ligações.",
+    "connectionArrivedCta": "Mensagem deles",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Vendas ao vivo",
+    "checkinPushed": "Chegada ao vivo"
+  },
+  "reminders": {
+    "channelName": "Lembretes do evento",
+    "dayBeforeTitle": "Lembrete: amanhã",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Lembrete: em 1 hora",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Descobrir",
+    "discoverSubtitle": "Eventos perto de si",
+    "tickets": "Os meus bilhetes.",
+    "scan": "Analisar um ticket"
+  },
+  "ongoing": {
+    "channelName": "Dia do evento",
+    "eventFallback": "O seu evento",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "A começar em breve.",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Agora · seu ticket está pronto",
+    "scannerTitle": "Scanner em serviço"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Desfazer a última acção?",
+      "confirm": "Desfazer",
+      "keep": "Manter",
+      "failed": "O Desfazer não passou. Verifique sua conexão e tente novamente.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Tira a conversa do arquivo."
+    },
+    "report": {
+      "title": "Relatar um problema",
+      "subtitle": "Test build: a imagem, a tela e a versão são enviadas com sua mensagem.",
+      "noNote": "Relatório sem comentários",
+      "blur": "Borrão",
+      "noShot": "Nenhuma imagem disponível neste ecrã.",
+      "placeholder": "O que aconteceu?",
+      "send": "Enviar",
+      "sent": "Obrigado, o seu relatório foi enviado.",
+      "unavailable": "Não é possível enviar: o rastreamento de erros não está ativo nesta compilação."
+    },
+    "applause": {
+      "hint": "Aplaudam por mais tempo.",
+      "a11y": "Longos aplausos"
+    },
+    "hush": {
+      "title": "Mic e câmera desligado enquanto o telefone estava virado para baixo",
+      "reactivate": "Toque para os ligar de novo"
+    },
+    "lighter": {
+      "button": "Isqueiro",
+      "off": "Apaga isso.",
+      "alone": "Levanta o telefone, a chama segue os teus movimentos.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Surpreende-me.",
+      "chipA11y": "Sugerir um evento aleatório",
+      "again": "Outro",
+      "none": "Nenhum evento que venha sugerir agora."
+    },
+    "bump": {
+      "settingTitle": "Trocar os contactos por agitação",
+      "settingSubtitle": "No local, uma vez que o seu bilhete é digitalizado: agitar ao mesmo tempo que alguém para se encontrar. Sua localização aproximada é usada por alguns segundos para corresponder a você e nunca é armazenada. Nada acontece sem a tua confirmação. Desligado por omissão.",
+      "button": "Trocar por agitação",
+      "nearbyButton": "Olha à minha volta.",
+      "hint": "Agite o telefone ao mesmo tempo que a outra pessoa.",
+      "title": "Trocar contatos",
+      "searching": "À procura de pessoas a tremer perto de ti...",
+      "none": "Ninguém encontrou. Agitar no mesmo momento que a outra pessoa, em seguida, tentar novamente.",
+      "pick": "Escolhe a pessoa certa. Nada é partilhado sem o teu consentimento.",
+      "connect": "Ligar?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "À espera da confirmação deles",
+      "connected": "Ligado",
+      "openSettings": "Abrir configurações",
+      "error": {
+        "disabled": "Activar \"Contactos de troca por agitação\" nas definições.",
+        "notCheckedIn": "Disponível uma vez que o seu bilhete tenha sido digitalizado na entrada.",
+        "clockSkew": "O relógio do teu telemóvel está desligado. Defina para automático e tente novamente.",
+        "rateLimited": "Demasiadas tentativas. Tenta outra vez num minuto.",
+        "expired": "A troca expirou. Começa de novo.",
+        "noLocation": "A localização é necessária para encontrar a pessoa perto de você.",
+        "generic": "A troca não aconteceu. Tenta outra vez."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Gravar o evento"
+    },
+    "torch": {
+      "onA11y": "Liga a tocha.",
+      "offA11y": "Desliga a tocha.",
+      "hint": "Toque duas vezes no visor para ligar ou desligar a tocha."
+    },
+    "dragSelect": {
+      "select": "Selecionar",
+      "hint": "Ou arraste dois dedos para a lista para marcar vários participantes.",
+      "message": "Mensagem dos participantes selecionados",
+      "export": "Exportar a seleção",
+      "exportError": "A exportação da selecção falhou.",
+      "csvName": "Nome",
+      "csvEmail": "E- mail",
+      "csvReference": "Referência",
+      "csvStatus": "Estado",
+      "csvDate": "Registado"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "A ir buscar os teus bilhetes...",
+      "favorites": "Obtendo seus favoritos...",
+      "notifications": "A obter as suas notificações...",
+      "messages": "A buscar as tuas conversas...",
+      "search": "À procura de eventos correspondentes...",
+      "event": "Preparando a página do evento..."
+    },
+    "mobileMoney": {
+      "sent": "Seu pedido de pagamento foi enviado ao seu operador.",
+      "pin": "Aprove-o com o PIN no telemóvel, no prompt da sua operadora.",
+      "operator": "A confirmação do operador pode demorar um pouco. Isso é normal, por favor, fique nesta página.",
+      "once": "Só será cobrado uma vez, mesmo que a espera continue."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Os seus bilhetes aparecerão aqui assim que se registar para um evento.",
+        "v1": "Um concerto, uma conferência, uma oficina? Tudo começa com um evento.",
+        "v2": "Seu próximo passeio pode já estar online."
+      },
+      "favorites": {
+        "v0": "Toque no coração de um evento para encontrá-lo aqui e ouvir sobre mudanças.",
+        "v1": "Siga um evento para nunca perder as notícias.",
+        "v2": "Um coração é suficiente para manter um evento próximo."
+      },
+      "notifications": {
+        "v0": "As notícias dos eventos e organizadores que você segue aparecerão aqui.",
+        "v1": "Siga um evento para ser notificado do que há de novo.",
+        "v2": "Avisaremos assim que algo acontecer."
+      },
+      "messages": {
+        "v0": "Conheceu alguém num evento? Analise o código para se conectar.",
+        "v1": "Suas conexões de eventos aparecem aqui: uma varredura de código é suficiente.",
+        "v2": "Troque os detalhes de contato no site digitalizando o código de um participante."
+      },
+      "discover": {
+        "v0": "Uma busca por palavras-chave às vezes encontra o que a página inicial ainda não mostra.",
+        "v1": "Pesquisa por cidade ou categoria: novos eventos chegam todas as semanas."
+      },
+      "exploreAction": "Veja o que está acontecendo",
+      "scanAction": "Digitalizar um código",
+      "searchAction": "Procurar por um evento",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Ampliado a 50 km ao seu redor",
+      "clearFilters": "Limpar os filtros"
+    },
+    "greeting": {
+      "when": {
+        "today": "hoje",
+        "tomorrow": "amanhã",
+        "dayAfter": "depois de amanhã"
+      },
+      "there": "no local",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Feliz aniversário! Tenha um bom dia.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Feliz dia nacional!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Bem-vindo de volta.",
+      "subtitle_one": "Uma coisa nova desde a tua última visita.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "E mais um daquilo que segues.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Ocultar",
+      "reason": {
+        "followed_organizer": "Organizador que você segue",
+        "new_edition": "Nova edição de um evento em que participou",
+        "other": "Novo"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "PARA VOCÊ · BASEADO NO SEU TASTE",
+      "forYouTitle": "Você também pode gostar",
+      "loginCtaTitle": "Recomendações adaptadas a si"
+    },
+    "settings": {
+      "ritualsEyebrow": "Pequenos toques",
+      "ritualsTitle": "Pequenos toques",
+      "ritualsSubtitle": "Uma palavra sobre o seu aniversário, o seu aniversário de conta ou dia nacional, uma vez durante o dia. Sua idade nunca é mostrada, nenhuma notificação.",
+      "forgetEyebrow": "RECOMENDAÇÕES",
+      "forgetTitle": "Esquece as minhas preferências.",
+      "forgetSubtitle": "Apagar o que se seguiu a eventos, registros e pesquisas ensinou suas recomendações.",
+      "forgetConfirmTitle": "Esqueceste as tuas preferências?",
+      "forgetConfirmMessage": "Suas recomendações começarão do zero. Os seus bilhetes, favoritos e seguintes não mudam.",
+      "forgetDone": "Feito: suas recomendações começam do zero.",
+      "forgetUnavailable": "Esta opção ainda não está disponível. Nada foi apagado.",
+      "forgetError": "Suas preferências não puderam ser apagadas. Eles estão inalterados; por favor tente novamente em um momento."
+    },
+    "goingCard": {
+      "title": "Enquanto você espera, prepare seu cartão “Eu vou”",
+      "subtitle": "Estará pronto para compartilhar assim que o pagamento for confirmado.",
+      "tintLabel": "Contexto",
+      "messageLabel": "Mensagem",
+      "messages": {
+        "going": "EU VOU",
+        "meetThere": "Vemo-nos lá?",
+        "seeYou": "Encontre-me lá."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "As tuas impressões digitais enquanto esperas.",
+      "ready": "Seu cartão está pronto",
+      "share": "Compartilhe meu cartão",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

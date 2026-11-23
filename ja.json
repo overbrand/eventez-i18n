@@ -41,6 +41,7 @@
     "close": "ふりがな",
     "clear": "クリア",
     "back": "バックナンバー",
+    "home": "ホーム >",
     "next": "次へ",
     "previous": "新着情報",
     "search": "インフォメーション",
@@ -460,7 +461,8 @@
     "saved": "保存済み",
     "messages": "メッセージ",
     "tickets": "チケット",
-    "profile": "プロフィール"
+    "profile": "プロフィール",
+    "organize": "組織図"
   },
   "languagePicker": {
     "eyebrow": "ウェルカム",
@@ -581,7 +583,13 @@
     "notifyOnTitle": "お問い合わせ",
     "notifyOnBody": "初めてのイベントが始まるとすぐにお知らせします。",
     "notifyOffTitle": "通知オフ",
-    "notifyOffBody": "アラートされる設定で通知を有効にします。"
+    "notifyOffBody": "アラートされる設定で通知を有効にします。",
+    "organizersEyebrow": "組織図",
+    "organizersTitle": "舞台裏の人",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "認定オーガナイザー",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "価格の層",
@@ -616,7 +624,10 @@
     "invisibleHint": "目に見えないので、見すぎないようにしましょう。",
     "message": "メッセージ",
     "connected": "コネクテッド",
-    "empty": "誰も見えない。 まずはネットワークをオンに!"
+    "empty": "誰も見えない。 まずはネットワークをオンに!",
+    "scanOptInTitle": "出展者がバッジをスキャンする",
+    "scanOptInSubtitle": "出展企業は、バッジをスキャンして名前と連絡先の詳細を保存できるようにしますので、イベント後にフォローアップできます。",
+    "scanOptInWithdrawNote": "いつでもオフにすることができます。 出展者が保存した連絡先は自動削除されません。プライバシー設定から消去をリクエストできます。"
   },
   "eventDetails": {
     "eyebrow": "イベント",
@@ -680,7 +691,16 @@
     "shareWhatsappA11y": "WhatsAppで共有",
     "closePreviewA11y": "プレビューを閉じる",
     "invalidCode": "無効なアクセスコード",
+    "accessButton": "エントリー",
+    "pendingPaymentBanner": "お支払いを完了し、登録を確認",
+    "onlineInfoAfterRegistration": "ご登録後、コネクションの詳細をご覧いただけます。",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "採用情報",
+    "playCoverVideo": "ビデオを再生する",
+    "videoPlayA11y": "サウンドでビデオを再生する",
+    "videoUnmuteA11y": "ミュート",
+    "videoMuteA11y": "ミュート",
+    "videoExpandA11y": "ビデオをフルスクリーンに拡大する",
     "imagesCount": "  / ",
     "videoConference": "ビデオ会議プラットフォーム",
     "openLinkError": "イベントリンクを開くことができません",
@@ -704,7 +724,12 @@
     "reviewSubmitError": "あなたのレビューを提出することはできません",
     "loginRequiredWaitlist": "ウェイトリストに参加するためにサインイン",
     "invitationGateDesc": "招待された方には、このイベントをご予約ください。 招待状を受け取った方は、必ずご連絡下さい。",
-    "codeGateDesc": "完全な詳細を見るためにコードを入力してください"
+    "codeGateDesc": "完全な詳細を見るためにコードを入力してください",
+    "giftRegistryCta": "ギフトレジストリ",
+    "giftRegistrySubtitle": "気に入ったらリストとチップを参照してください。",
+    "cancelReasonTitle": "キャンセル理由",
+    "visioEnded": "本イベントのビデオ会議は終了しました。",
+    "videoPauseA11y": "Pause ビデオ"
   },
   "events": {
     "videoBadge": "ビデオ",
@@ -852,6 +877,9 @@
     "noPastMessage": "過去のイベントはこちら",
     "scanQR": "QRコードをスキャン",
     "showQR": "QRコードを表示する",
+    "viewQR": "QRを見る",
+    "receivedTransfers": "受信転送",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "QRコード",
     "qrSubtitle": "エントランスでこのコードを表示",
     "ticketDetails": "チケット詳細",
@@ -1159,6 +1187,7 @@
     "paymentBack": "バックナンバー",
     "paymentGenericError": "支払い中にエラーが発生しました",
     "paymentErrorTitle": "支払いエラー",
+    "paymentBlockedTitle": "カード決済ブロック",
     "paymentCancelledTitle": "キャンセル",
     "paymentNoPaymentInProgress": "確認のための継続的な支払いなし",
     "paymentVerifyingTitle": "検証...",
@@ -1167,6 +1196,12 @@
     "paymentContinueWaiting": "待たせ続ける",
     "paymentProcessing": "プロセス",
     "paymentTitle": "お支払い",
+    "checkoutStep": "ステップ3 / 3 • 支払い",
+    "noDoubleCharge": "画面がしばらく回転しても、一度だけ課金されます。",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "お問い合わせ",
+    "termsLinkFull": "販売および返金ポリシーの条件",
+    "termsAcceptSuffixDot": "お問い合わせ",
     "paymentStepSelection": "セレクション",
     "paymentStepRecap": "リキャップ",
     "paymentMethodFallback": "お支払い",
@@ -1259,7 +1294,9 @@
     "finalizeSoldOutBody": "予約したチケットはご利用いただけません。 予約期限が切れました。 お問い合わせ",
     "finalizeBackToEvent": "イベントに戻る",
     "paymentPushSentTitle": "お電話にて確認",
-    "paymentPushSentMessage": "お支払いはお電話にて承っております。 それを承認する(モバイルマネーPIN)完了します。"
+    "paymentPushSentMessage": "お支払いはお電話にて承っております。 それを承認する(モバイルマネーPIN)完了します。",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "返金リクエスト"
   },
   "memories": {
     "title": "私の思い出",
@@ -1276,7 +1313,11 @@
     "recapShare": "バックアップを共有する",
     "recapEvents": "イベントが住んでいた",
     "recapCities": "市町村",
-    "recapFirst": "タイム 到着 #1"
+    "recapFirst": "タイム 到着 #1",
+    "oneYearAgo": "1年前、そこにいた。",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "驚きのロングプレス",
+    "firstNote": "最初に到着します。 扉が開けた。"
   },
   "profile": {
     "title": "プロフィール",
@@ -1431,7 +1472,27 @@
     "logoutLabel": "サインアップ",
     "logoutInProgress": "サインアップ",
     "appVersion": "イベントEz v1.0.0",
-    "myQRTitle": "私のQRコード"
+    "myQRTitle": "私のQRコード",
+    "refundsMenu": "私の払い戻し",
+    "refundsSubtitle": "あなたのお金がどこに立つかを追跡",
+    "shareProfileButton": "プロフィールを共有する",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "主催者プロフィール",
+    "shareOrganizerA11y": "主催者プロフィールを共有する",
+    "viewPublicProfileA11y": "プロフィールを見る",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "フォロー解除",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "お問い合わせ",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "結果なし",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "イベント情報",
+    "followSearchPlaceholder": "主催者を検索する"
   },
   "editProfile": {
     "title": "プロファイルの編集",
@@ -1491,7 +1552,13 @@
     "sectionOrganization": "社会招聘",
     "sectionSecurity": "セキュリティ",
     "qrShareSubtitle": "プロフィールを共有するコードをスキャン",
-    "countryPlaceholder": "国を選択"
+    "countryPlaceholder": "国を選択",
+    "orgLogoLabel": "ロゴマーク",
+    "orgLogoAdd": "ロゴを追加",
+    "orgLogoChange": "ロゴ変更",
+    "orgWebsiteLabel": "サイトマップ",
+    "orgDescriptionLabel": "パブリック 説明",
+    "orgDescriptionPlaceholder": "組織紹介"
   },
   "settings": {
     "whoCanContactCurrent": "アンティスパム",
@@ -1542,6 +1609,7 @@
     "themeDialogTitle": "テーマ:",
     "themeDialogSubtitle": "テーマを選択してください",
     "timezoneDialogTitle": "タイムゾーン",
+    "timezoneDetected": "検出する",
     "timezoneDialogSubtitle": "タイムゾーンを選択する",
     "preferencesTitle": "リファレンス",
     "headerEyebrow": "設定",
@@ -1645,7 +1713,32 @@
     "shortcutInvoices": "インボイス",
     "shortcutTaxes": "税理士法人",
     "shortcutMyEvents": "私のイベント",
-    "shortcutHelp": "お問い合わせ"
+    "shortcutHelp": "お問い合わせ",
+    "rowMyDataAtExhibitors": "出展者によるマイデータ",
+    "rowLiveBanner": "ライブイベントバナー",
+    "rowLiveBannerSubtitle": "現在住んでいるイベントに参加するバナーを表示します。",
+    "pushPermissionTitle": "通知は、このデバイスのためにオフです",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "私の接続が知っているようにしましょう",
+    "rowShareAttendanceSubtitle": "イベントに参加しているコネクションが確認できます。 デフォルトでオフ; 招待のみのイベントでは使用しないでください。",
+    "rowNotifyMemories": "「1年前」通知",
+    "rowNotifyMemoriesSubtitle": "参加したイベントの記念日に、一週間の思い出に。",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "12月のプライベートリキャップ。 誰も見ていない。",
+    "madeInDouala": "Douala で作られて、気をつけて。",
+    "madeInDoualaSub": "皆様のお越しをお待ちしております。",
+    "rowUiSounds": "インターフェイスの音",
+    "rowUiSoundsSubtitle": "非常に微妙な音は確認および着信通知で鳴ります。 デフォルトでオフ。",
+    "vibrationsEyebrow": "トピックス",
+    "rowVibrations": "振動",
+    "rowVibrationsSubtitle": "重要な行動に関するハプティックフィードバック:支払い、スキャン、お気に入り。",
+    "rowMotionGestures": "モーションジェスチャー",
+    "rowMotionGesturesSubtitle": "シェイク、フリップ、またはいくつかの行動のためにあなたの携帯電話を保持します。 ボタンはいつでも利用できます。",
+    "notificationsEyebrowOngoing": "お知らせ",
+    "rowOngoingEvent": "イベント当日のチケット",
+    "rowOngoingEventSubtitle": "チケットと指示で、イベント前後の3時間、静かな通知。",
+    "rowNotificationSounds": "通知音",
+    "rowNotificationSoundsSubtitle": "各カテゴリ(大きな瞬間、販売、メッセージ...)の音を電話設定で選ぶ"
   },
   "messages": {
     "title": "メッセージ",
@@ -1747,7 +1840,13 @@
     "searchResultsSection": "結果発表",
     "noConnectionsEyebrow": "ネットワーク",
     "noConnectionsTitle": "接続はまだありません",
-    "noConnectionsCta": "QRで接続"
+    "noConnectionsCta": "QRで接続",
+    "emptyEyebrowArchived": "アーカイブ",
+    "emptyEyebrowEmpty": "コンパクトインボックス",
+    "archivedEmptyDesc": "アーカイブされた会話がここに上陸します。",
+    "noConversationsDesc": "新たなメッセージが始まります。",
+    "attachmentPreview": "[添付ファイル]",
+    "noMatchingMessage": "マッチングメッセージなし"
   },
   "notifications": {
     "title": "お知らせ",
@@ -1793,6 +1892,16 @@
     "typeFollowRegistered": "接続が進む",
     "typeConnectionsAtEvent": "あなたの接続",
     "eyebrowNetwork": "ネットワーク",
+    "eyebrowSoon": "ソノン",
+    "eyebrowReminder": "インフォメーション",
+    "eyebrowModeration": "ソリューション",
+    "eyebrowToReview": "お問い合わせ",
+    "eyebrowDiscovery": "ディスカバー",
+    "eyebrowUrgent": "ログイン",
+    "eyebrowWhatsNew": "新着情報",
+    "filterReadTab": "採用情報",
+    "groupToday": "定休日",
+    "groupYesterday": "昨日",
     "tabAll": "すべて",
     "tabNetwork": "ネットワーク",
     "typeDefault": "お知らせ",
@@ -1810,7 +1919,26 @@
     "statTotal": "トタル",
     "statUnread": "ログイン",
     "statToday": "定休日",
-    "viewDetails": "詳細を見る"
+    "viewDetails": "詳細を見る",
+    "actions": {
+      "showTicket": "チケットを表示",
+      "directions": "アクセス",
+      "going": "私は行く",
+      "viewTicket": "チケットを見る",
+      "reply": "スタッフ",
+      "replyPlaceholder": "お問い合わせ",
+      "replySubmit": "お問い合わせ",
+      "markRead": "マーク 読み込み",
+      "joinLive": "お問い合わせ",
+      "payNow": "今すぐ購入",
+      "writeTo": "メッセージ送信",
+      "viewEvent": "イベントを見る",
+      "viewTickets": "チケットを見る",
+      "viewRefund": "払い戻しを見る",
+      "viewProfile": "プロフィールを見る",
+      "summaryTitle": "メッセージ",
+      "summaryBody": "新しいメッセージ"
+    }
   },
   "dashboard": {
     "title": "ダッシュボード",
@@ -1854,7 +1982,8 @@
     "subscriptionSubtitle": "プランの管理",
     "exportTitle": "エクスポート",
     "exportSubtitle": "あなたのデータ",
-    "settingsLink": "コンテンツ"
+    "settingsLink": "コンテンツ",
+    "greetingNight": "素敵な夜を過ごす"
   },
   "following": {
     "title": "私のお気に入り",
@@ -2067,7 +2196,8 @@
       "notFound": "探していたものが見つかりませんでした。",
       "conflict": "このアクションは、現在の状態と競合します。 リフレッシュしてもう一度お試しください。",
       "tooManyRequests": "多くの試み。 しばらくお待ちください。",
-      "server": "弊社のサーバーは、今でもトラブルが発生しています。 しばらくお待ちください。"
+      "server": "弊社のサーバーは、今でもトラブルが発生しています。 しばらくお待ちください。",
+      "updating": "EventEz is updating. Please try again in a few seconds."
     },
     "codes": {
       "emailTaken": "このメールアドレスは既にアカウントにリンクされています。 サインインまたは別のアドレスを使用する。",
@@ -2087,6 +2217,35 @@
       "payoutLocked": "既に処理が開始されているため、この支払いは変更できません。 これは間違いであるかどうかサポートにお問い合わせください。",
       "planLimitReached": "プランの上限に達しました。 計画をアップグレードして継続します。",
       "countryNotSupported": "お支払いは、この国では利用できません。 サポートされている国でイベントを作成したり、当社にご連絡ください。"
+    },
+    "tickets": {
+      "offline": "今、あなたはオフラインです。 既に読み込まれたチケットはオフラインでご利用いただけます。 オンラインでもう一度お試しください。",
+      "timeout": "お持ちのチケットは、しばらくお待ちください。 何も失われません。安全に保存されます。 もう一度お試しください。",
+      "server": "当社のサーバーは、簡単なハイカップを持っています。 チケットは安全です。 数分でもう一度お試しください。",
+      "notFound": "チケットは見つかりません。 他のチケットは影響しません。 リストを更新するか、確認メールを確認してください。",
+      "forbidden": "このチケットは他のアカウントに帰属します。 自分のチケットは手つかずです。 購入に使用するアカウントでサインインします。"
+    },
+    "messages": {
+      "offline": "今、あなたはオフラインです。 あなたのメッセージは失われません:あなたがオンラインで戻っていたら終わるものは消えます。 ネットワークが戻ったらもう一度お試しください。",
+      "timeout": "応答が遅くなります。 あなたのメッセージは失われません。 もう一度お試しください。",
+      "server": "Messagingは私達の側面に短いhiccupがあります。 あなたの会話はそのままです。 数分でもう一度お試しください。",
+      "notFound": "この会話はもはや存在しません。 他の会話は影響しません。 メッセージに戻ります。",
+      "forbidden": "この会話にアクセスできなくなります。 その他の会話も利用できます。 メッセージに戻ります。"
+    },
+    "event": {
+      "offline": "オフラインなので、このイベントを表示できません。 チケットはオフラインでご利用いただけます。 オンラインでもう一度お試しください。",
+      "timeout": "こちらのイベントページはしばらくお待ちください。 あなたの側には何も変更されていません。 もう一度お試しください。",
+      "server": "このイベントを披露する際は、簡単なハイクアップを心がけています。 チケットと登録は影響しません。 数分でもう一度お試しください。",
+      "notFound": "主催者が削除する場合があります。 「マイチケット」に滞在しているチケット より多くのイベントがDiscoverで待っています。",
+      "forbidden": "このイベントはプライベートです。 アカウントは問題ではありません。 主催者に招待状を依頼して、アクセス権を取得してください。"
+    },
+    "upload": {
+      "offline": "アップロードは開始できませんでした:オフラインです。 あなたのファイルはあなたの携帯電話にまだあります。 オンラインでもう一度お試しください。",
+      "timeout": "アップロードが長すぎました。 あなたのファイルはあなたの携帯電話にまだあります。 Wi-Fi またはより軽いファイルで、もう一度お試しください。",
+      "server": "サーバはファイルを受信できませんでした。 電話ではまだ安全です。 数分でもう一度お試しください。",
+      "notFound": "アップロード先は存在しません。 あなたのファイルはあなたの携帯電話で安全です。 画面をリフレッシュしてもう一度お試しください。",
+      "forbidden": "このファイルをアップロードすることはできません。 電話ではまだ安全です。 正しいアカウントにサインインしていることを確認してください。",
+      "tooLarge": "アップロードが大きすぎます。 電話ではまだ安全です。 より軽いファイルを選ぶか、画像をクロップします。"
     }
   },
   "errorBoundary": {
@@ -2695,7 +2854,10 @@
     "successTitle": "おめでとうございます!",
     "successMessage": "主催者です。 最初のイベントを作成しましょう!",
     "errorTitle": "エラー",
-    "errorGeneric": "エラーが発生しました"
+    "errorGeneric": "エラーが発生しました",
+    "labelWebsite": "ウェブサイト(オプション)",
+    "labelDescription": "記述(任意)",
+    "placeholderDescription": "組織紹介"
   },
   "verificationForm": {
     "pdfOpenError": "書類を開封できません。",
@@ -2856,7 +3018,9 @@
     "locHybrid": "ハイブリッド",
     "priceAny": "すべて",
     "priceFree": "無料",
-    "pricePaid": "ペイド"
+    "pricePaid": "ペイド",
+    "shareSearch": "この検索を共有する",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "フィルター",
@@ -2920,7 +3084,11 @@
     "agendaTitle": "公開イベント",
     "loadingEvents": "ローディング...",
     "noEvents": "イベントが公開されていない",
-    "freeBadge": "無料"
+    "freeBadge": "無料",
+    "tabs": {
+      "upcoming": "アップカム",
+      "past": "新着情報"
+    }
   },
   "sessionDetails": {
     "title": "セッション",
@@ -3389,7 +3557,16 @@
     "perm_view_analytics": "アナリティクスを見る",
     "perm_view_registrations": "登録リストを見る",
     "perm_edit_event": "イベントの編集",
-    "perm_manage_team": "他のチームメンバーを招待する"
+    "perm_manage_team": "他のチームメンバーを招待する",
+    "role_co_organizer": "共催装置",
+    "role_moderator": "モデレータ",
+    "role_scanner": "スキャナ",
+    "role_analyst": "アナリスト",
+    "status_pending": "ペンディング",
+    "status_accepted": "アクティブ",
+    "status_declined": "デコレーション",
+    "status_revoked": "ログイン",
+    "status_expired": "有効期限"
   },
   "myTeamEvents": {
     "eyebrow": "聖徒に従う",
@@ -3408,8 +3585,10 @@
     "willAttend": "お問い合わせ",
     "wontAttend": "作らない",
     "partySize": "宿泊人数",
+    "partySizeHint": "あなたに加えて。 例2人がお持ちの場合",
     "dietary": "ダイエットの要件/アレルギー",
     "note": "夫婦の言葉",
+    "noteOptional": "夫婦の単語(オプション)",
     "submit": "応答を送信",
     "thanksAccepted": "お問い合わせ 受講者確認",
     "thanksDeclined": "お問い合わせ",
@@ -3421,7 +3600,18 @@
     "giftYourName": "あなたの名前",
     "giftMethod": "支払方法",
     "giftPay": "貢献する",
-    "giftError": "お支払いは開始できません。"
+    "giftThanks": "ありがとうございました!",
+    "giftRedirectNote": "安全な決済ページにリダイレクトされます。 これは正常です。",
+    "giftError": "お支払いは開始できません。",
+    "rsvpSubmitError": "回答は送信できません。 お問い合わせ",
+    "summaryTitle": "ご返信",
+    "summaryAccepted": "出席者確認",
+    "summaryDeclined": "招待状を落としました。",
+    "summaryPartySize": "ご宿泊のお客様",
+    "summaryHeadcount": "座席予約",
+    "summaryDietary": "ダイエットニーズ",
+    "summaryTable": "あなたのテーブル",
+    "summaryTablePending": "イベントの前にテーブルが共有されます。"
   },
   "teamInvitation": {
     "eyebrow": "導入事例",
@@ -3743,7 +3933,21 @@
     "readOnlyLockMessage": "読まれた議論。 メッセージを保存します。",
     "mutedLockMessage": "主催者がこの議論で突然変わりました。",
     "postingLockMessage": "主催者は、このディスカッションで投稿することができます。",
-    "defaultUserName": "このユーザ"
+    "defaultUserName": "このユーザ",
+    "someFilesQueuedForRetry": "接続が戻ったら、一部のファイルが再送されます。",
+    "retrySend": "リトリート",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "下にスクロール",
+    "tapToLoadImage": "タップしてロード",
+    "reply": "スタッフ",
+    "react": "リアクション",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "読まれた会話。",
+    "headerCollapseA11y": "バナーを隠す",
+    "headerExpandA11y": "バナーを表示",
+    "headerCollapseLabel": "ログイン",
+    "headerExpandLabel": "イベント詳細"
   },
   "scanForm": {
     "loading": "ローディング...",
@@ -3810,7 +4014,8 @@
     "roleModerator": "モデレータ",
     "roleAdmin": "アドミン",
     "fallbackEvent": "イベント",
-    "fallbackUnknownUser": "ユーザー登録"
+    "fallbackUnknownUser": "ユーザー登録",
+    "statusUnknown": "未知の状態"
   },
   "refundRequest": {
     "watermarkBack": "フィードバック",
@@ -3970,7 +4175,13 @@
       "accessCodeLabel": "アクセスコード(オプション)",
       "accessCodeHint": "訪問者は、詳細を見るために、このコードを入力する必要があります",
       "accessCodePlaceholder": "コード無しで空にして下さい",
-      "featuredInfo": "「マイイベント」から制作後、イベントをリクエストできます。"
+      "accessCodeKeepPlaceholder": "新しいコード(現在のコードを保つために空のリーブ)",
+      "accessCodeActive": "アクセスコードは有効です。",
+      "accessCodeWillBeRemoved": "保存時にコードが削除されます。",
+      "accessCodeRemove": "コードを削除",
+      "accessCodeUndoRemove": "ログイン",
+      "featuredInfo": "「マイイベント」から制作後、イベントをリクエストできます。",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "日付と場所",
@@ -4188,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "メニュー",
       "cancel": "キャンセル"
+    },
+    "venuePicker": {
+      "label": "保存された会場を使用する",
+      "hint": "フィールドは自動的に入力します。 後で調整できます。"
     }
   },
   "componentsCharts": {
@@ -4342,7 +4557,18 @@
     "ticketsAddedSuccess": "チケット追加",
     "alreadyRegisteredConfirmTitle": "すでに登録済み",
     "alreadyRegisteredConfirmMessage": "既に登録済みです。",
-    "createRegistrationError": "参加登録は出来ません"
+    "createRegistrationError": "参加登録は出来ません",
+    "accessMode": {
+      "in_person": "お一人様",
+      "online": "オンラインアクセス",
+      "hybrid": "人+オンライン"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "左1箇所のみ",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "購入パユース",
+    "suspendedByIncident": "購入は、事件により一時的に拒否されます。 ステータスページで更新してください。"
   },
   "registrationDetails": {
     "headerInscription": "私の登録",
@@ -4541,6 +4767,7 @@
     "tipScanEntrance": "エントランスにてQRコードをスキャン",
     "tipArriveLines": "線をスキップする時間に到着",
     "validatedTitle": "チケット検証済み",
+    "stampValidated": "チェックイン",
     "validatedAt": "   ",
     "paymentPendingTitle": "支払期限",
     "paymentPendingDesc": "ご入金確認完了",
@@ -4570,7 +4797,15 @@
     "statusConfirmed": "確認済み",
     "statusPending": "ペンディング",
     "statusCancelled": "キャンセル",
-    "statusValidated": "検証済み"
+    "statusValidated": "検証済み",
+    "pdfOnline": "オンラインイベント",
+    "statusUnknown": "未知の状態",
+    "presentHint": "タップして、コードを拡大し、有効性の証明を長押しします。",
+    "presentA11yAction": "チェックのコードを拡大する",
+    "proofA11yAction": "妥当性の証明を示す",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "チケットに戻る",
+    "presentExitHint": "タップして戻る"
   },
   "offlineTickets": {
     "headerTitle": "オフライン",
@@ -4942,7 +5177,46 @@
     "virtualJoinLive": "ライブに参加する",
     "virtualStartsInMinutes": "開演0 min min",
     "virtualUnavailableTitle": "ビデオ通話は利用できません",
-    "virtualUnavailableNote": "イベントEz Videoは、このイベントではまだ有効ではありません。 主催者が参加リンクを共有します。"
+    "virtualUnavailableNote": "イベントEz Videoは、このイベントではまだ有効ではありません。 主催者が参加リンクを共有します。",
+    "virtualWaitingHostTitle": "ライブはまだ始まりません",
+    "virtualWaitingHostNote": "主催者が部屋を開いたらすぐに参加できます。",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "本館",
+      "session": "セッション",
+      "breakout": "ブレイクアウト",
+      "networking": "ネットワーク",
+      "workshop": "ワークショップ"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "販売終了",
+    "ticketsSaleNotStarted": "売り切れ次第",
+    "peekSave": "保存する",
+    "peekUnsave": "保存から削除",
+    "peekShare": "シェア",
+    "peekOpen": "アクセス",
+    "peekA11yHint": "プレビューを保持する",
+    "swipeSave": "保存するリリース",
+    "swipeUnsave": "削除するリリース",
+    "swipeHint": "保存するスワイプ",
+    "swipeRemoved": "保存から削除",
+    "swipeUndo": "ログイン",
+    "swipeRemove": "削除",
+    "weather": {
+      "sunny": "サニー",
+      "partlySunny": "サニー呪文",
+      "cloudy": "ログイン",
+      "fog": "フォグ",
+      "rain": "ログイン",
+      "snow": "スノーボード",
+      "showers": "シャワー",
+      "thunderstorm": "雷雨",
+      "variable": "変更可能"
+    }
   },
   "componentsCommon": {
     "exportTitle": "フォーマットを選択する",
@@ -5027,7 +5301,11 @@
     "followPrefsSave": "設定を保存",
     "followPrefsSaveA11y": "設定を保存",
     "inAppToastA11y": "↑↓ ↑ ↑ ↑ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓",
-    "webviewVisioTitle": "ビデオ通話"
+    "webviewVisioTitle": "ビデオ通話",
+    "webviewOfflineTitle": "オフライン",
+    "webviewOfflineBody": "デバイスが接続を失いました。 ネットワークが戻ってくるとすぐに電話が再開されます。",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "遅い接続が検出され、ビデオが劣化し、データを使用する可能性があります。"
   },
   "messageRequests": {
     "eyebrow": "アンティスパム",
@@ -5075,6 +5353,17 @@
     "permissionTitle": "必要なカメラ",
     "permissionSubtitle": "QR をスキャンするには、EventEz はカメラへのアクセスが必要です。",
     "permissionGrant": "カメラの許可"
+  },
+  "media": {
+    "sheetTitle": "お問い合わせ",
+    "saveToGallery": "ギャラリーに保存",
+    "share": "シェア",
+    "savedToGallery": "ギャラリーに保存",
+    "permissionDeniedTitle": "許可拒否",
+    "permissionDeniedMessage": "[設定] で写真アクセスを有効にして保存します。",
+    "sharingUnavailable": "このデバイスでは共有はできません。",
+    "downloadFailed": "ダウンロードが失敗しました。 お問い合わせ",
+    "genericError": "何かが間違っていた。 お問い合わせ"
   },
   "componentsMessages": {
     "inputJoinFile": "ファイルの添付",
@@ -5296,7 +5585,7 @@
     "messages": "メッセージ",
     "suggestions": "ソリューション",
     "theme": "テーマ",
-    "timezoneSoon": "タイムゾーン・音",
+    "timezone": "タイムゾーン",
     "soundEffects": "サウンド・エフェクト",
     "authSoon": "家具・音",
     "connectionsSoon": "コネクティッド・ソノン",
@@ -5322,7 +5611,11 @@
     "tabSaved": "02・SAVED",
     "tabMessages": "03・メッセージ",
     "tabTickets": "04・チケット",
-    "tabProfile": "05・プロフィール"
+    "tabProfile": "05・プロフィール",
+    "push": "プッシュ",
+    "privacy": "プロフィール",
+    "memories": "メモリーズ",
+    "yearInReview": "レビューの年"
   },
   "organizer": {
     "common": {
@@ -5333,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "  ",
-      "selectedCount_plural": "  ",
+      "selectedCount_other": "{{count}} selected",
       "approve": "プロモーション",
       "reject": "リジェクト",
       "checkIn": "チェックイン"
@@ -5791,6 +6084,7 @@
         "discountCodes": "プロモーションコード",
         "linkSessions": "チケットをセッションにリンクする",
         "addPhotos": "写真を追加",
+        "startLive": "ライブ",
         "volunteers": "ボランティア",
         "sponsors": "スポンサー",
         "seatingPlans": "シートプラン",
@@ -5808,7 +6102,11 @@
         "deleteDesc": "恐ろしい行動",
         "invite": "ゲストを招待する",
         "inviteDescInviteOnly": "この招待イベントへのアクセスを許可する唯一の方法",
-        "duplicatePastDesc": "編集可能なコピーから始める"
+        "duplicatePastDesc": "編集可能なコピーから始める",
+        "remindInvites": "ご宿泊のお客様",
+        "weddingGuests": "ゲスト&RSVP",
+        "weddingGifts": "レジストリ&ギフト",
+        "weddingTables": "シートプラン"
       },
       "emptyEyebrowResults": "コメントはありません",
       "emptyEyebrowCatalog": "EMPTYカタログ",
@@ -5824,6 +6122,7 @@
       "cancelReasonPlaceholder": "E.g. 健康状態、会場利用不可...",
       "keepBtn": "お問い合わせ",
       "cancelEventBtn": "イベントのキャンセル",
+      "cancelHolding": "ホール...",
       "recurrenceEyebrow": "エグゼクティブ",
       "recurrenceModalTitle": "スケジュール「00」",
       "recurrenceModalBody": "このイベントから複数のイベントを作成します。 各イベントは独立した新しいイベントです。",
@@ -5862,7 +6161,14 @@
       "inviteInvalidMessage": "このページの先頭へ",
       "inviteSentTitle": "送信された招待状",
       "inviteSentMessage": "➡0招待状(s)が送られます。",
-      "inviteError": "招待状を送信できません。"
+      "inviteError": "招待状を送信できません。",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "ご宿泊のお客様は、今すぐご予約ください。",
+      "remindErrorTitle": "リマインダーの失敗",
+      "remindErrorMessage": "リマインダーは送信できませんでした。 お問い合わせ",
+      "remindPendingProgress": "リマインダーを送信...",
+      "loadError": "イベントをロードできません。 接続を確認してください。"
     },
     "volunteer": {
       "tabReceived": "受付(0)",
@@ -6133,7 +6439,35 @@
       "manualCodeInvalid": "無効なコード: UUID またはリファレンスコード (8-20 文字 A-Z/0-9) が期待されます。",
       "sessionRecapTitle": "セッション概要",
       "sessionRecapBody": "➡1 min 分\n✓ ↑2 validate検証済み\n➡3失敗",
-      "sessionRecapQueue": "注意 ➡0 オフライン"
+      "sessionRecapQueue": "注意 ➡0 オフライン",
+      "manualModeBanner": "マニュアルモード — 1人1回タップ",
+      "manualModeA11y": "手動モード。 タップして自動チェックインをオンにします。",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "ネットワークがダウンしている間に入力した人 チームでご確認ください。",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "この携帯電話でオフラインで受け入れられ、同期を拒否しました。 別のエージェントが同時にスキャンしていた場合、これらの人が2回に遭遇しました。",
+      "voice": {
+        "valid": "有効なチケット",
+        "validWarning": "有効な、点検する必要性",
+        "alreadyCheckedIn": "すでにチェックイン済み",
+        "refused": "チケット拒否",
+        "enabled": "音声発表について",
+        "toggleOn": "音声発表について",
+        "toggleOff": "音声発表オフ",
+        "toggleA11y": "スキャン結果のボイスアナウンスをオンまたはオフにします"
+      }
     },
     "liveOps": {
       "live": "ライブ",
@@ -6158,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "あなたの影響",
       "headerTitle": "アナリティクス",
+      "errorTitle": "アナリティクスが利用できなくなった",
+      "errorBody": "データをロードできません。 接続を確認してもう一度お試しください。",
       "eventLabel": "イベント",
       "kpiViews": "ニュース",
       "kpiRegistrations": "参加登録",
@@ -6179,7 +6515,8 @@
       "insightViewsHas": "次回も開催中のイベントをご覧いただけます。",
       "insightViewsNone": "イベントを共有して、より多くのビューを取得",
       "insightRegistered_one": "➡0 会員登録",
-      "insightRegistered_other": "➡0 会員登録"
+      "insightRegistered_other": "➡0 会員登録",
+      "actionBoxOffice": "ボックスオフィス"
     },
     "sessionsLink": {
       "headerEyebrow": "アクセス • セッション",
@@ -6281,6 +6618,10 @@
       "submitSuccess": "首尾よく提出されたイベント",
       "viewMyEvents": "イベントを見る",
       "createAnother": "別のものを作る",
+      "submittedStamp": "レビュー",
+      "submittedEyebrow": "レビューの提出",
+      "submittedBody": "弊社のチームはイベントをレビューしています。 ライブが始まるとすぐに通知されます。",
+      "submittedCtaEyebrow": "ダッシュボード",
       "edit": "編集",
       "saved": "保存済み",
       "back": "バックナンバー",
@@ -6449,6 +6790,163 @@
       "linkReportsSub": "CSV、PDFエクスポート、ダッシュボード",
       "linkMyEventsTitle": "イベント",
       "linkMyEventsSub": "イベントごとのステータス"
+    },
+    "boxOffice": {
+      "openTitle": "まで開けて下さい",
+      "openingFloatHelp": "主催者がどう変更したの? それなしでは、一晩のカウントが間違っています。",
+      "openDrawer": "まで開けて下さい",
+      "openError": "開くことができませんでした",
+      "openErrorDetail": "接続を確認してもう一度お試しください。",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "ふりがな",
+      "cash": "キャッシュ",
+      "momo": "モバイルマネー",
+      "giveBack": "ライブバック",
+      "saleError": "販売が記録されていない",
+      "saleErrorDetail": "販売を再入力しないでください:もう一度試してみてください、それは2回請求されません。",
+      "a11y": {
+        "drawerOpened": "チルオープン",
+        "openingFloatInput": "オープニングフロート量",
+        "openDrawer": "まで開けて下さい",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "まで閉じる",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "モバイルマネー",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "ハンドオーバーへ",
+      "cashOnlyHint": "現金のみ - モバイルマネーはあなたのバッグにはありません。",
+      "openingFloat": "オープニングフロート",
+      "salesCount": "営業品目",
+      "countedLabel": "カウント",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "これはブロックされていません。 以下について説明するだけです。",
+      "reasonLabel": "説明(任意)",
+      "reasonPlaceholder": "例:500 余りに変化した",
+      "confirmClose": "閉じる",
+      "closedTitle": "閉じる",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "終了 失敗",
+      "closeErrorDetail": "是非一度お試しください。",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "カウントされた金額",
+        "reasonInput": "バリエーションの説明",
+        "confirmClose": "終了確認",
+        "closed": "閉じる"
+      }
+    },
+    "documents": {
+      "title": "印刷する書類",
+      "a11y": "印刷可能な文書",
+      "badges": "出席者バッジ",
+      "badgesHint": "A6形式、A4ページあたり4ページ",
+      "attendanceSheet": "サインインシート",
+      "attendanceSheetHint": "イベントの前に準備が整ったフロントにサインする",
+      "certificates": "出席証明書",
+      "certificatesHint": "イベント終了後、チェックインの参加者"
+    },
+    "weddingGuests": {
+      "title": "ゲスト&RSVP",
+      "empty": "ご宿泊のお客様",
+      "remindOne": "ログイン",
+      "remindOneSent": "送信されたリマインダー",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "リマインダーを送信できません",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "編集 RSVP",
+      "editRsvpTitle": "編集 RSVP",
+      "rsvpUpdated": "RSVPアップデート",
+      "rsvpError": "RSVPを保存できません",
+      "partySize": "パーティーサイズ",
+      "dietary": "ダイエット要件",
+      "dietaryPlaceholder": "ベジタリアン、グルテンフリー...",
+      "note": "お問い合わせ",
+      "stats": {
+        "invited": "招待状",
+        "accepted": "確認済み",
+        "pending": "ペンディング",
+        "headcount": "ヘッドカウント"
+      },
+      "status": {
+        "pending": "ペンディング",
+        "accepted": "確認済み",
+        "declined": "デコレーション",
+        "cancelled": "キャンセル"
+      }
+    },
+    "weddingGifts": {
+      "title": "レジストリ&ギフト",
+      "noRegistry": "このイベントのギフトレジストリはありません。",
+      "create": "レジストリの作成",
+      "registryCreated": "作成したレジストリ",
+      "registryUpdated": "レジストリの更新",
+      "editRegistry": "レジストリの編集",
+      "registryTitle": "レジストリのタイトル",
+      "registryDescription": "お客様の声",
+      "visible": "レジストリ表示",
+      "hidden": "隠し",
+      "totalRaised": "調達総額",
+      "share": "シェア",
+      "addItem": "ギフトを追加",
+      "newItem": "新しいギフト",
+      "editItem": "ギフトの編集",
+      "itemName": "お名前 (必須)",
+      "itemKind": "タイプ:",
+      "targetAmount": "ターゲット量",
+      "externalUrl": "外部リンク(オプション)",
+      "itemAdded": "ギフト追加",
+      "itemUpdated": "ギフト更新",
+      "itemDeleted": "ギフト削除",
+      "deleteItemTitle": "このギフトを削除します。",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "2018年1月1日",
+      "noItems": "プレゼントはありません。 1 つを追加します。",
+      "kind": {
+        "gift": "ギフト(item)",
+        "cash_fund": "キャッシュファンド"
+      },
+      "error": "何かが間違っていた"
+    },
+    "weddingTables": {
+      "title": "シートプラン",
+      "noTables": "まだテーブルはありません。 1 つを作成します。",
+      "addTable": "テーブルを追加",
+      "newTable": "新しいテーブル",
+      "editTable": "編集テーブル",
+      "name": "テーブル名",
+      "namePlaceholder": "表1、家族...",
+      "capacity": "シート",
+      "created": "作成されたテーブル",
+      "updated": "テーブル更新",
+      "deleted": "削除されたテーブル",
+      "deleteTitle": "テーブルの削除",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "スタッフ",
+      "tableEmpty": "このテーブルに1つはありません",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "確認されたお客様全員に座席をつけます。",
+      "createFirst": "最初にテーブルを作成してゲストを席に。",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "ゲスト席",
+      "unassign": "削除",
+      "unassigned": "ゲスト削除",
+      "capacityError": "このテーブルでは十分な席はありません。",
+      "error": "何かが間違っていた"
     }
   },
   "moderation": {
@@ -7218,6 +7716,554 @@
     "payOrange": "オレンジマネー",
     "payCard": "カード",
     "paymentInitiated": "支払開始。 お電話にてご確認ください。",
-    "payError": "ブース決済を開始できません。"
+    "payError": "ブース決済を開始できません。",
+    "captureLeads": "連絡先のキャプチャ",
+    "viewLeads": "私の連絡先"
+  },
+  "leadCapture": {
+    "title": "連絡を取り込む",
+    "hint": "訪問者のバッジのQRコードのポイント。",
+    "permissionTitle": "カメラアクセスを許可する",
+    "permissionBody": "カメラは、連絡を受けた訪問者のバッジQコードを読むためにのみ使用されます。",
+    "permissionCta": "カメラをオンにする",
+    "manualEntry": "代わりに参照を入力してください",
+    "manualPlaceholder": "バッジの参照",
+    "unnamed": "保存された連絡先",
+    "alreadyKnown": "すでに会った — レコードの更新。",
+    "qualify": "この連絡先を認証する",
+    "rating_hot": "ホット",
+    "rating_warm": "ウォーム",
+    "rating_cold": "コールド",
+    "notesPlaceholder": "あなたが話したこと(オプション)",
+    "next": "次の連絡先",
+    "retry": "再びスキャン",
+    "noConsentTitle": "この訪問者は同意していません",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "バッジは認めていません",
+    "notFoundBody": "このバッジは本イベントに所属していません。 QRコードで印刷された参照を確認してください。",
+    "errorTitle": "スキャン失敗",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "お客様からのお問い合わせはお受けしておりません。",
+    "a11yNotFound": "バッジは認めません。",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "今日更新",
+    "yesterday": "昨日",
+    "justNow": "今すぐ登録",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "送信する",
+    "failed": "送信失敗",
+    "sent": "サインイン",
+    "delivered": "納入実績",
+    "read": "採用情報"
+  },
+  "myLeads": {
+    "title": "私の連絡先",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "連絡なし",
+    "emptyTitle": "連絡なし",
+    "emptyBody": "ブースで立ち寄る訪問者のバッジをスキャンします。 CSV として全リストをエクスポートできます。",
+    "errorTitle": "ロードできません",
+    "errorBody": "あなたの連絡先は安全に保存されます。 接続を確認してもう一度お試しください。"
+  },
+  "myDataExhibitors": {
+    "title": "出展者によるマイデータ",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "リリース",
+    "eraseAll": "すべて消去",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "連絡先の詳細が消去されました。",
+    "eraseError": "消去は通過しなかった。",
+    "confirmCta": "リリース",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "出展者全員が保有するデータを消去しますか?",
+    "confirmAllBody": "お名前、Eメール、電話番号は、各上場会社で削除されます。 これは元に戻すことができません。",
+    "emptyTitle": "会社の連絡先情報を保持しない",
+    "emptyBody": "出展者様は、バッジをスキャンして詳細を保存し、そのイベントに許可されている場合のみ保存することができます。"
+  },
+  "visio": {
+    "expandCall": "ビデオコールの拡大",
+    "endCall": "エンドコール",
+    "endCallConfirmTitle": "コールを残すか?",
+    "endCallConfirmMessage": "開催中のミーティングを離れることについて",
+    "minimize": "最小化",
+    "liveNow": "ライブ",
+    "join": "お問い合わせ",
+    "view": "ニュース",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "ニュース",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "リサイズ"
+  },
+  "organize": {
+    "favorites": "私のお気に入り",
+    "eyebrow": "主催者スペース",
+    "title": "組織図",
+    "liveNow": "今すぐライブ",
+    "nextEvent": "次のイベント",
+    "registered": "会員登録",
+    "scan": "スキャン",
+    "scanA11y": "このイベントのチケットをスキャン",
+    "boxOffice": "ボックスオフィス",
+    "boxOfficeA11y": "本イベントのボックスオフィスを開く",
+    "viewStats": "統計情報を見る",
+    "availableBalance": "利用可能な残高",
+    "walletA11y": "ウォレットを開く",
+    "noActiveEvent": "イベント運営なし",
+    "noActiveEventHint": "イベントを作成したり、草案を公開したりして、ここに表示します。",
+    "noStaffEventHint": "チームに所属するイベントはこちら",
+    "createEvent": "イベントの作成",
+    "myEvents": "イベント",
+    "teamEvents": "イベントIスタッフ",
+    "analytics": "アナリティクス",
+    "loadError": "スペースをロードできません。 接続を確認してください。"
+  },
+  "moments": {
+    "checkin": {
+      "entered": "お問い合わせ",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "週1回",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "ドアは開きます",
+    "onNow": "これからの幸せ",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "オフラインで利用できるチケット",
+    "offlinePending": "切符を一度開いて、オフラインに保つ",
+    "sayImGoing": "私は行くつもりだと言う",
+    "showTicket": "チケットを表示",
+    "directions": "アクセス",
+    "viewTicket": "チケットを見る",
+    "goThere": "おすすめ",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "コンパスをキャリブレーション:あなたの携帯電話で図8を描きます",
+    "compassHint": "会場に矢印を合わせる"
+  },
+  "onSite": {
+    "eyebrow": "サイトマップ",
+    "now": "詳しくはこちら",
+    "next": "Next · {{time}}",
+    "qa": "ライブQ&A",
+    "plan": "地図と会場",
+    "networking": "ネットワーク"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "お問い合わせ",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "最初に到着",
+    "question": "何を思いましたか?",
+    "thanks": "ありがとうございます。",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "ストーリーを共有する",
+    "later": "後で"
+  },
+  "yearInReview": {
+    "eyebrow": "あなたの年",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "イベント参加",
+    "s1Line_other": "イベント参加",
+    "citiesEyebrow": "道路上",
+    "categoryEyebrow": "あなたのイベント",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "始まりました。",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "常に時間",
+    "arrivalsLine_one": "初めて到着",
+    "arrivalsLine_other": "初めて到着",
+    "organizerEyebrow": "主催者",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "カードを共有する",
+    "tapHint": "タップして続行"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "初めての参加者",
+      "someone": "スタッフ",
+      "share": "販売を後押しするシェア",
+      "view": "ニュース",
+      "soldOutTitle": "売り切れ",
+      "soldOutLine": "すべてのチケットが消える"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "リリース",
+      "online": "ライブ"
+    },
+    "share": {
+      "cta": "イベントを共有する",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "シェアリング",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "リクエスト",
+      "approved": "承認済み",
+      "sent": "サインイン",
+      "verifying": "オペレーターとのチェック",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "ペイアウト失敗"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "ほぼ満席",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "シフト終了",
+      "validated": "チェックイン",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "パセア",
+      "refused": "リサイクル",
+      "syncing": "同期...",
+      "synced": "同期",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "ライブオプスを見る",
+      "resume": "ログイン",
+      "close": "フィニッシュ"
+    },
+    "recap": {
+      "title": "リキャップ",
+      "eyebrow": "イベント情報",
+      "attended": "参加申し込み",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "返品について",
+      "rating": "平均評価",
+      "reviews": "{{count}} reviews",
+      "noReviews": "レビューはまだありません",
+      "best": "スタンドアウトレビュー",
+      "latest": "最新のレビュー",
+      "thank": "ご来場ありがとうございました",
+      "funds": "ファンドを見る",
+      "error": "今すぐ利用できません。",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "リキャップを見る"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "今すぐご予約",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "直前予約",
+    "lastSaleToday": "今日予約",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "売り切れ",
+    "soldOutCta": "完売・残席なし",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "行っている接続",
+    "someone": "スタッフ",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "オンライン",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24時間",
+    "seatHeldTitle": "お席はお貸しいたします。",
+    "seatHeldBody": "カウントダウンの終了前の予約:その後、次の人に行きます。",
+    "seatHeldCta": "席を予約する",
+    "seatHeldExpired": "時間が上がる:座席は次の人に行ってきました。",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "すべて表示",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "リアクション",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "あなたの接続の1つが到着しました",
+    "connectionArrivedCta": "メッセージ送信",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "ライブ販売",
+    "checkinPushed": "ライブ到着"
+  },
+  "reminders": {
+    "channelName": "イベントリマインダー",
+    "dayBeforeTitle": "リマインダー:明日",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "リマインダー:1時間",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "詳しくはこちら",
+    "discoverSubtitle": "お近くのイベント",
+    "tickets": "チケット",
+    "scan": "チケットをスキャンする"
+  },
+  "ongoing": {
+    "channelName": "イベント当日",
+    "eventFallback": "イベント",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "早速スタート",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "当日・当日券が準備中",
+    "scannerTitle": "義務の走査器"
+  },
+  "gestures": {
+    "undo": {
+      "title": "最後のアクションを解く?",
+      "confirm": "ログイン",
+      "keep": "お問い合わせ",
+      "failed": "行っていません。 接続を確認してもう一度お試しください。",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "アーカイブから会話を移動します。"
+    },
+    "report": {
+      "title": "問題報告",
+      "subtitle": "テストビルド:スクリーンショット、画面、バージョンがメッセージで送信されます。",
+      "noNote": "コメントのないレポート",
+      "blur": "ログイン",
+      "noShot": "この画面でスクリーンショットは使用できません。",
+      "placeholder": "何が起こったのか?",
+      "send": "お問い合わせ",
+      "sent": "ありがとうございます。",
+      "unavailable": "送信できません。エラートラッキングはこのビルドでは有効ではありません。"
+    },
+    "applause": {
+      "hint": "長持ちする。",
+      "a11y": "長い拍手"
+    },
+    "hush": {
+      "title": "電話が直面している間、マイクとカメラがオフになりました",
+      "reactivate": "タップして、それらを戻ってオンにします"
+    },
+    "lighter": {
+      "button": "ライター",
+      "off": "お問い合わせ",
+      "alone": "携帯電話を上げて、炎が動きます。",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "サプライズ",
+      "chipA11y": "ランダムなイベントを提案する",
+      "again": "その他",
+      "none": "今後のイベントを今すぐ提案する予定はありません。"
+    },
+    "bump": {
+      "settingTitle": "シェーキングによるスワップコンタクト",
+      "settingSubtitle": "サイトで、チケットがスキャンされると、他の人がお互いを見つけるのと同じ時間でシェイクします。 おおよその場所は、数秒間保存されず、保存されません。 確認なしでは何も起こりません。 デフォルトでオフ。",
+      "button": "シェイクスワップ",
+      "nearbyButton": "お問い合わせ",
+      "hint": "他の人と同じ時間に電話を振る.",
+      "title": "スワップコンタクト",
+      "searching": "近辺で揺れる人を探して...",
+      "none": "誰も見つけませんでした。 他の人と同じ瞬間にシェイクして、もう一度試してください。",
+      "pick": "正しい人物を選ぶ 同意なしに共有されることはありません。",
+      "connect": "接続?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "確認待ち",
+      "connected": "コネクテッド",
+      "openSettings": "オープン設定",
+      "error": {
+        "disabled": "設定の「揺れによる連絡先をスワッピング」をオンにします。",
+        "notCheckedIn": "入場時にチケットがスキャンされたらご利用いただけます。",
+        "clockSkew": "携帯電話の時計は消えます。 それを自動に置き、再度試みて下さい。",
+        "rateLimited": "多くの試み。 もう一度お試しください。",
+        "expired": "スワップが期限切れになりました。 スタート。",
+        "noLocation": "近くの人を見つけるために場所が必要です。",
+        "generic": "スワップは行っていませんでした。 もう一度お試しください。"
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "イベントを保存"
+    },
+    "torch": {
+      "onA11y": "トーチをオンにする",
+      "offA11y": "トーチをオフにする",
+      "hint": "ビューファインダーをダブルタップしてトーチをオンまたはオフにします。"
+    },
+    "dragSelect": {
+      "select": "選択する",
+      "hint": "リストをドラッグすると、複数の参加者がチェックされます。",
+      "message": "参加者のメッセージ",
+      "export": "選択をエクスポートする",
+      "exportError": "選択のエクスポートが失敗しました。",
+      "csvName": "お名前 (必須)",
+      "csvEmail": "電子メール",
+      "csvReference": "参考文献",
+      "csvStatus": "ステータス",
+      "csvDate": "会員登録"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "チケットの受け取り",
+      "favorites": "お気に入りを見つける...",
+      "notifications": "通知の取得...",
+      "messages": "あなたの会話をフェッチ...",
+      "search": "マッチングイベントをお探しですか?",
+      "event": "イベントページの準備"
+    },
+    "mobileMoney": {
+      "sent": "お支払いは、お客様のご担当者様へご送付ください。",
+      "pin": "あなたの携帯電話であなたのPINでそれを承認します, あなたのオペレータのプロンプトで.",
+      "operator": "オペレーター確認はしばらくお待ちください。 詳しくはこちらをご覧ください。",
+      "once": "待ち時間が過ぎても一度だけ請求されます。"
+    },
+    "empty": {
+      "tickets": {
+        "v0": "チケットは、イベント登録後すぐに表示されます。",
+        "v1": "コンサート、会議、ワークショップ? イベントから始まります。",
+        "v2": "あなたの次のアウトプットは既にオンラインかもしれません。"
+      },
+      "favorites": {
+        "v0": "イベントでハートをタップして、ここで見つけ、変更について聞いてください。",
+        "v1": "イベントをフォローして、ニュースを見逃すことはありません。",
+        "v2": "イベントを手元に保つのに1つの心が十分です。"
+      },
+      "notifications": {
+        "v0": "フォローするイベントや主催者からのニュースは、こちらに表示されます。",
+        "v1": "新着情報をお知らせします。",
+        "v2": "何かが起きるとすぐに知らせます。"
+      },
+      "messages": {
+        "v0": "イベントで誰かを教えてください。 コードをスキャンして接続します。",
+        "v1": "あなたのイベントの接続はここに表示されます: 1つのコードスキャンは十分です。",
+        "v2": "出席者のコードをスキャンすることで、サイトの連絡先の詳細をスワップします。"
+      },
+      "discover": {
+        "v0": "キーワード検索では、ホームページがまだ表示されないことがあります。",
+        "v1": "都市やカテゴリで検索:毎週新しいイベントが到着します。"
+      },
+      "exploreAction": "新着情報",
+      "scanAction": "コードをスキャンする",
+      "searchAction": "イベントを探す",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "約50キロの距離",
+      "clearFilters": "フィルターをクリア"
+    },
+    "greeting": {
+      "when": {
+        "today": "今日更新",
+        "tomorrow": "明日から",
+        "dayAfter": "明日の翌日"
+      },
+      "there": "サイトマップ",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "ハッピーバースデー! 素敵な一日をお過ごしください。",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "ハッピーナショナルデー!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "歓迎の背部",
+      "subtitle_one": "最後の訪問以来の1つの新しいこと。",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "あなたがフォローしているものからもう1つ。",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "ログイン",
+      "reason": {
+        "followed_organizer": "フォローしている主催者",
+        "new_edition": "参加したイベントの新版",
+        "other": "ニュース"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "あなたのために · あなたの味に基づいて",
+      "forYouTitle": "また、",
+      "loginCtaTitle": "あなたに合わせた提言"
+    },
+    "settings": {
+      "ritualsEyebrow": "リトルツーチェス",
+      "ritualsTitle": "小さなタッチ",
+      "ritualsSubtitle": "お誕生日、お会計記念日、または当日に1回。 あなたの年齢は決して通知しません。",
+      "forgetEyebrow": "おすすめ商品",
+      "forgetTitle": "私の好みを忘れる",
+      "forgetSubtitle": "フォローされたイベント、登録、検索が推奨事項を教えたことを消去します。",
+      "forgetConfirmTitle": "あなたの好みを忘れますか。",
+      "forgetConfirmMessage": "推奨事項はゼロから始まります。 チケット、お気に入り、以下は変更しません。",
+      "forgetDone": "Done: 推奨事項はゼロから始まります。",
+      "forgetUnavailable": "このオプションはまだ使用できません。 何も消去されていない。",
+      "forgetError": "あなたの好みは消去できませんでした。 変更はありません。しばらくお待ちください。"
+    },
+    "goingCard": {
+      "title": "待たせながら「行く」カードをご用意",
+      "subtitle": "お支払いが確定次第、早急にご連絡いたします。",
+      "tintLabel": "プロフィール",
+      "messageLabel": "メッセージ",
+      "messages": {
+        "going": "お問い合わせ",
+        "meetThere": "お問い合わせ",
+        "seeYou": "お問い合わせ"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "待たずにカードプリントをプリントします。",
+      "ready": "あなたのカードは準備ができています",
+      "share": "カードを共有する",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

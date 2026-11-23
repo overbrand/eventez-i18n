@@ -41,6 +41,7 @@
     "close": "Закрыть",
     "clear": "Чисто.",
     "back": "Назад",
+    "home": "Домой",
     "next": "Следующий",
     "previous": "Предыдущий",
     "search": "Поиск",
@@ -460,7 +461,8 @@
     "saved": "Спасенный",
     "messages": "Сообщения",
     "tickets": "билеты",
-    "profile": "профиль"
+    "profile": "профиль",
+    "organize": "Организовать"
   },
   "languagePicker": {
     "eyebrow": "Добро пожаловать",
@@ -581,7 +583,13 @@
     "notifyOnTitle": "Все готово!",
     "notifyOnBody": "Мы сообщим вам, как только начнутся первые события.",
     "notifyOffTitle": "Уведомления отключены",
-    "notifyOffBody": "Включите уведомления в настройках для оповещения."
+    "notifyOffBody": "Включите уведомления в настройках для оповещения.",
+    "organizersEyebrow": "Организаторы",
+    "organizersTitle": "Люди за сценой",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Проверенный организатор",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Ценовые уровни",
@@ -616,7 +624,10 @@
     "invisibleHint": "Вы невидимы — включите, чтобы вас тоже видели.",
     "message": "Послание",
     "connected": "подключенный",
-    "empty": "Пока никого не видно. Будьте первым, кто включит вашу сеть!"
+    "empty": "Пока никого не видно. Будьте первым, кто включит вашу сеть!",
+    "scanOptInTitle": "Пусть экспоненты сканируют мой значок",
+    "scanOptInSubtitle": "Экспонирующие компании смогут сохранить ваше имя и контактные данные, сканируя ваш значок, чтобы они могли следить за событием.",
+    "scanOptInWithdrawNote": "Вы можете выключить это в любое время. Контакты, уже сохраненные экспонентами, не удаляются автоматически — вы можете запросить их удаление из ваших настроек конфиденциальности."
   },
   "eventDetails": {
     "eyebrow": "событие",
@@ -680,7 +691,16 @@
     "shareWhatsappA11y": "Поделиться в WhatsApp",
     "closePreviewA11y": "Близкий предварительный просмотр",
     "invalidCode": "Недействительный код доступа",
+    "accessButton": "Входить",
+    "pendingPaymentBanner": "Заполните платеж, чтобы подтвердить свою регистрацию",
+    "onlineInfoAfterRegistration": "Подробности подключения будут доступны после регистрации",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "расширять",
+    "playCoverVideo": "Играть видео",
+    "videoPlayA11y": "Играть видео со звуком",
+    "videoUnmuteA11y": "непоколебимый",
+    "videoMuteA11y": "Мут",
+    "videoExpandA11y": "Расширить видео до полного экрана",
     "imagesCount": "0  /  1 ",
     "videoConference": "Платформа видеоконференций",
     "openLinkError": "Не удалось открыть ссылку на мероприятие",
@@ -704,7 +724,12 @@
     "reviewSubmitError": "Вы не можете представить свой обзор",
     "loginRequiredWaitlist": "Войдите, чтобы присоединиться к листу ожидания",
     "invitationGateDesc": "Это мероприятие зарезервировано для приглашенных гостей. Если вы получили приглашение, пожалуйста, примите его для получения доступа.",
-    "codeGateDesc": "Введите код, чтобы увидеть полную информацию"
+    "codeGateDesc": "Введите код, чтобы увидеть полную информацию",
+    "giftRegistryCta": "Подарочный регистр",
+    "giftRegistrySubtitle": "Посмотрите список и чип, если вам это нравится",
+    "cancelReasonTitle": "Причина отмены",
+    "visioEnded": "Видеоконференция этого мероприятия завершилась.",
+    "videoPauseA11y": "Видео паузы"
   },
   "events": {
     "videoBadge": "Видео",
@@ -852,6 +877,9 @@
     "noPastMessage": "Ваши прошлые события появятся здесь",
     "scanQR": "Сканировать QR-код",
     "showQR": "Показать QR код",
+    "viewQR": "Посмотреть QR",
+    "receivedTransfers": "Полученные переводы",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Ваш QR-код",
     "qrSubtitle": "Покажите этот код на входе",
     "ticketDetails": "Подробности билетов",
@@ -1159,6 +1187,7 @@
     "paymentBack": "Назад",
     "paymentGenericError": "Во время оплаты произошла ошибка",
     "paymentErrorTitle": "Ошибка платежа",
+    "paymentBlockedTitle": "Оплата картой заблокирована",
     "paymentCancelledTitle": "Выплата отменена",
     "paymentNoPaymentInProgress": "Нет текущих платежей для проверки",
     "paymentVerifyingTitle": "Проверка...",
@@ -1167,6 +1196,12 @@
     "paymentContinueWaiting": "Продолжайте ждать",
     "paymentProcessing": "обработка",
     "paymentTitle": "платеж",
+    "checkoutStep": "Шаг 3 / 3 • Плата",
+    "noDoubleCharge": "Вы будете заряжаться только один раз, даже если экран вращается некоторое время.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Я принимаю",
+    "termsLinkFull": "Условия продажи и политика возврата",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Выбор",
     "paymentStepRecap": "Резюме",
     "paymentMethodFallback": "платеж",
@@ -1259,7 +1294,9 @@
     "finalizeSoldOutBody": "Билеты, которые вы забронировали, больше не доступны. Ваш заказ истек. Вам не предъявили обвинения.",
     "finalizeBackToEvent": "Вернуться к Событию",
     "paymentPushSentTitle": "Подтвердите на своем телефоне",
-    "paymentPushSentMessage": "На ваш телефон был отправлен платежный запрос. Одобрить его (Mobile Money PIN) для завершения."
+    "paymentPushSentMessage": "На ваш телефон был отправлен платежный запрос. Одобрить его (Mobile Money PIN) для завершения.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Запрошенный возврат"
   },
   "memories": {
     "title": "Мои воспоминания",
@@ -1276,7 +1313,11 @@
     "recapShare": "Поделитесь моим резюме",
     "recapEvents": "Прожитые события",
     "recapCities": "города",
-    "recapFirst": "Время пришло #1"
+    "recapFirst": "Время пришло #1",
+    "oneYearAgo": "Год назад ты был там.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Длинный пресс для сюрприза",
+    "firstNote": "Сначала приехать. Двери были едва открыты."
   },
   "profile": {
     "title": "профиль",
@@ -1431,7 +1472,27 @@
     "logoutLabel": "Подпишитесь",
     "logoutInProgress": "Подписаться...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Мой QR-код"
+    "myQRTitle": "Мой QR-код",
+    "refundsMenu": "Мой возврат",
+    "refundsSubtitle": "Отслеживайте, где находятся ваши деньги",
+    "shareProfileButton": "Поделитесь своим профилем",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Мой профиль организатора",
+    "shareOrganizerA11y": "Поделитесь своим профилем организатора",
+    "viewPublicProfileA11y": "Посмотреть мой публичный профиль",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Не следовать?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Следующий",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Нет результатов",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Откройте для себя события",
+    "followSearchPlaceholder": "Поиск организатора"
   },
   "editProfile": {
     "title": "Редактировать профиль",
@@ -1491,7 +1552,13 @@
     "sectionOrganization": "Организация",
     "sectionSecurity": "Безопасность",
     "qrShareSubtitle": "Сканируйте этот код, чтобы поделиться своим профилем",
-    "countryPlaceholder": "Выберите страну"
+    "countryPlaceholder": "Выберите страну",
+    "orgLogoLabel": "Логотип",
+    "orgLogoAdd": "Добавить логотип",
+    "orgLogoChange": "Изменить логотип",
+    "orgWebsiteLabel": "Сайт",
+    "orgDescriptionLabel": "Публичное описание",
+    "orgDescriptionPlaceholder": "Представьте свою организацию..."
   },
   "settings": {
     "whoCanContactCurrent": "Анти-спам",
@@ -1542,6 +1609,7 @@
     "themeDialogTitle": "Тема",
     "themeDialogSubtitle": "Выберите свою тему",
     "timezoneDialogTitle": "Таймзона",
+    "timezoneDetected": "обнаруженный",
     "timezoneDialogSubtitle": "Выберите часовой пояс",
     "preferencesTitle": "Предпочтения",
     "headerEyebrow": "Сеттинги",
@@ -1645,7 +1713,32 @@
     "shortcutInvoices": "счета-фактуры",
     "shortcutTaxes": "Налоги",
     "shortcutMyEvents": "Мои события",
-    "shortcutHelp": "Помощь"
+    "shortcutHelp": "Помощь",
+    "rowMyDataAtExhibitors": "Мои данные, хранящиеся у экспонентов",
+    "rowLiveBanner": "Живые события баннер",
+    "rowLiveBannerSubtitle": "Покажите баннер, чтобы присоединиться к событию, которое в настоящее время в прямом эфире.",
+    "pushPermissionTitle": "Уведомления отключены для этого устройства",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Пусть мои связи знают",
+    "rowShareAttendanceSubtitle": "Ваши связи могут видеть, что вы посещаете мероприятие. Выключено по умолчанию; никогда для событий только по приглашению.",
+    "rowNotifyMemories": "Уведомления «год назад»",
+    "rowNotifyMemoriesSubtitle": "Самое большее одно напоминание в неделю, в годовщину мероприятия, которое вы посетили.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Частный обзор вашего года, в декабре. Больше никто этого не видит.",
+    "madeInDouala": "Сделано в Дуале, с осторожностью.",
+    "madeInDoualaSub": "Спасибо, что оживили свои события вместе с нами.",
+    "rowUiSounds": "Звуки интерфейса",
+    "rowUiSoundsSubtitle": "Очень тонкие звуки на подтверждениях и входящих уведомлениях. По умолчанию.",
+    "vibrationsEyebrow": "Взять",
+    "rowVibrations": "Вибрации",
+    "rowVibrationsSubtitle": "Оперативная обратная связь по ключевым действиям: оплата, сканирование, фавориты.",
+    "rowMotionGestures": "Жесты движения",
+    "rowMotionGesturesSubtitle": "Встряхните, переверните или протяните телефон для некоторых действий. Кнопка также всегда доступна.",
+    "notificationsEyebrowOngoing": "Уведомления",
+    "rowOngoingEvent": "Билет в день мероприятия",
+    "rowOngoingEventSubtitle": "Тихое уведомление за 3 часа до и во время мероприятия с вашим билетом и инструкциями.",
+    "rowNotificationSounds": "Звуки уведомления",
+    "rowNotificationSoundsSubtitle": "Выберите звук для каждой категории (большие моменты, продажи, сообщения ...) в настройках телефона."
   },
   "messages": {
     "title": "Сообщения",
@@ -1747,7 +1840,13 @@
     "searchResultsSection": "Результаты",
     "noConnectionsEyebrow": "Интернет",
     "noConnectionsTitle": "Никаких связей.",
-    "noConnectionsCta": "Подключение через QR"
+    "noConnectionsCta": "Подключение через QR",
+    "emptyEyebrowArchived": "приобретенный",
+    "emptyEyebrowEmpty": "Прямая коробка",
+    "archivedEmptyDesc": "Ваши архивные разговоры будут здесь.",
+    "noConversationsDesc": "Начните новое сообщение — мы найдем кого-то, с кем можно поговорить.",
+    "attachmentPreview": "[Прикрепление]",
+    "noMatchingMessage": "Нет подходящего сообщения"
   },
   "notifications": {
     "title": "Уведомления",
@@ -1793,6 +1892,16 @@
     "typeFollowRegistered": "Соединение идет",
     "typeConnectionsAtEvent": "Ваши связи",
     "eyebrowNetwork": "Интернет",
+    "eyebrowSoon": "Сон",
+    "eyebrowReminder": "Напоминание",
+    "eyebrowModeration": "Совершенствование",
+    "eyebrowToReview": "Чтобы пересмотреть",
+    "eyebrowDiscovery": "Дискавер",
+    "eyebrowUrgent": "срочно",
+    "eyebrowWhatsNew": "Что нового?",
+    "filterReadTab": "Читать",
+    "groupToday": "Сегодня",
+    "groupYesterday": "Вчера",
     "tabAll": "Все",
     "tabNetwork": "Сеть",
     "typeDefault": "Уведомление",
@@ -1810,7 +1919,26 @@
     "statTotal": "полностью",
     "statUnread": "нечитанный",
     "statToday": "Сегодня",
-    "viewDetails": "Посмотреть детали"
+    "viewDetails": "Посмотреть детали",
+    "actions": {
+      "showTicket": "Показать билет",
+      "directions": "Направления",
+      "going": "Я иду",
+      "viewTicket": "Просмотреть билет",
+      "reply": "Ответить",
+      "replyPlaceholder": "Ваше сообщение...",
+      "replySubmit": "Отправить",
+      "markRead": "Марк читается",
+      "joinLive": "Присоединяйся",
+      "payNow": "Платить сейчас",
+      "writeTo": "Сообщите им",
+      "viewEvent": "Посмотреть событие",
+      "viewTickets": "Посмотреть билеты",
+      "viewRefund": "Посмотреть возврат",
+      "viewProfile": "Просмотр профиля",
+      "summaryTitle": "Сообщения",
+      "summaryBody": "Новые сообщения"
+    }
   },
   "dashboard": {
     "title": "приборная панель",
@@ -1854,7 +1982,8 @@
     "subscriptionSubtitle": "Управляй моим планом",
     "exportTitle": "экспорт",
     "exportSubtitle": "Ваши данные",
-    "settingsLink": "Настройки"
+    "settingsLink": "Настройки",
+    "greetingNight": "Приятного вечера."
   },
   "following": {
     "title": "Мои любимые",
@@ -2067,7 +2196,8 @@
       "notFound": "Мы не смогли найти то, что вы искали.",
       "conflict": "Это действие противоречит нынешнему состоянию. Освежьтесь и попробуйте снова.",
       "tooManyRequests": "Слишком много попыток Подождите минутку и попробуйте еще раз.",
-      "server": "У наших серверов сейчас проблемы. Попробуйте еще раз через несколько минут."
+      "server": "У наших серверов сейчас проблемы. Попробуйте еще раз через несколько минут.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
     },
     "codes": {
       "emailTaken": "Эта электронная почта уже связана с учетной записью. Войдите или используйте другой адрес.",
@@ -2087,6 +2217,35 @@
       "payoutLocked": "Эта выплата больше не может быть изменена, потому что обработка уже началась. Контактная поддержка, если это ошибка.",
       "planLimitReached": "Вы достигли предела своего плана. Обновите свой план, чтобы продолжить.",
       "countryNotSupported": "Платежи в этой стране пока недоступны. Вы можете создать мероприятие в поддерживаемой стране или связаться с нами."
+    },
+    "tickets": {
+      "offline": "Ты сейчас не в сети. Билеты, которые вы уже загрузили, доступны в автономном режиме. Попробуйте еще раз, когда вернетесь в интернет.",
+      "timeout": "Ваши билеты загружаются некоторое время. Ничего не потеряно: они спасены. Попробуй еще раз через минуту.",
+      "server": "У наших серверов короткая икота. Ваши билеты в безопасности на нашей стороне. Попробуйте еще раз через несколько минут.",
+      "notFound": "Мы не можем найти этот билет. Остальные билеты не пострадали. Обновите список или проверьте электронную почту подтверждения.",
+      "forbidden": "Этот билет принадлежит другому счету. Ваши билеты не тронуты. Войдите в учетную запись, используемую для покупки."
+    },
+    "messages": {
+      "offline": "Ты сейчас не в сети. Ваши сообщения не потеряны: ожидающие их будут отправлены, как только вы вернетесь в Интернет. Попробуйте еще раз, когда сеть вернется.",
+      "timeout": "Обмен сообщениями происходит медленно. Ваши сообщения не потеряны. Попробуй еще раз через минуту.",
+      "server": "Сообщения имеют короткий икота на нашей стороне. Ваши разговоры не пострадали. Попробуйте еще раз через несколько минут.",
+      "notFound": "Этот разговор больше не существует. Другие ваши разговоры не затронуты. Возвращайтесь к своим сообщениям.",
+      "forbidden": "У вас больше нет доступа к этому разговору. Другие ваши разговоры все еще доступны. Возвращайтесь к своим сообщениям."
+    },
+    "event": {
+      "offline": "Ты не в сети, поэтому мы не можем показать это событие. Ваши билеты остаются доступными в автономном режиме. Попробуйте еще раз, когда вернетесь в интернет.",
+      "timeout": "Эта страница события занимает некоторое время для загрузки. На вашей стороне ничего не изменилось. Попробуй еще раз через минуту.",
+      "server": "Короткая икота мешает нам показать это событие. Ваши билеты и регистрация не затронуты. Попробуйте еще раз через несколько минут.",
+      "notFound": "Это событие больше не онлайн: организатор, возможно, удалил его. Все билеты, которые у вас есть, находятся в разделе «Мои билеты». Больше событий ждут в Discover.",
+      "forbidden": "Это мероприятие является частным. Ваш аккаунт не является проблемой. Попросите у организатора приглашение получить доступ."
+    },
+    "upload": {
+      "offline": "Загрузка не могла начаться: вы отключены. Ваш файл все еще на вашем телефоне. Попробуйте еще раз, когда вернетесь в интернет.",
+      "timeout": "Загрузка заняла слишком много времени. Ваш файл все еще на вашем телефоне. Попробуйте еще раз, в идеале на Wi-Fi или с более легким файлом.",
+      "server": "Сервер не мог получить файл. На вашем телефоне все еще безопасно. Попробуйте еще раз через несколько минут.",
+      "notFound": "Пункт назначения загрузки больше не существует. Ваш файл в безопасности на вашем телефоне. Обновите экран и попробуйте еще раз.",
+      "forbidden": "Вам не разрешается загружать этот файл здесь. На вашем телефоне все еще безопасно. Проверьте, что вы вошли с правильным аккаунтом.",
+      "tooLarge": "Этот файл слишком велик для загрузки. На вашем телефоне все еще безопасно. Выберите более легкий файл или обрезайте изображение."
     }
   },
   "errorBoundary": {
@@ -2695,7 +2854,10 @@
     "successTitle": "Поздравляю!",
     "successMessage": "Теперь вы организатор. Создайте свое первое событие!",
     "errorTitle": "ошибка",
-    "errorGeneric": "Произошла ошибка"
+    "errorGeneric": "Произошла ошибка",
+    "labelWebsite": "Сайт (необязательно)",
+    "labelDescription": "Описание (факультативно)",
+    "placeholderDescription": "Представьте свою организацию..."
   },
   "verificationForm": {
     "pdfOpenError": "Не удалось открыть документ.",
@@ -2856,7 +3018,9 @@
     "locHybrid": "Гибридный",
     "priceAny": "Все",
     "priceFree": "бесплатно",
-    "pricePaid": "Оплаченный"
+    "pricePaid": "Оплаченный",
+    "shareSearch": "Поделитесь этим поиском",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Фильтры",
@@ -2920,7 +3084,11 @@
     "agendaTitle": "Опубликованные события",
     "loadingEvents": "Загрузка...",
     "noEvents": "Никаких событий не опубликовано",
-    "freeBadge": "бесплатно"
+    "freeBadge": "бесплатно",
+    "tabs": {
+      "upcoming": "приближающийся",
+      "past": "Прошлое"
+    }
   },
   "sessionDetails": {
     "title": "Заседание",
@@ -3389,7 +3557,16 @@
     "perm_view_analytics": "Посмотреть Аналитика",
     "perm_view_registrations": "Посмотреть список регистраций",
     "perm_edit_event": "Редактировать событие",
-    "perm_manage_team": "Пригласить других членов команды"
+    "perm_manage_team": "Пригласить других членов команды",
+    "role_co_organizer": "Соорганизатор",
+    "role_moderator": "модератор",
+    "role_scanner": "сканер",
+    "role_analyst": "аналитик",
+    "status_pending": "В ожидании",
+    "status_accepted": "Активный",
+    "status_declined": "пониженный",
+    "status_revoked": "отозванный",
+    "status_expired": "истекший"
   },
   "myTeamEvents": {
     "eyebrow": "За сценой",
@@ -3408,8 +3585,10 @@
     "willAttend": "Я буду там.",
     "wontAttend": "Я не могу сделать это",
     "partySize": "Количество дополнительных гостей",
+    "partySizeHint": "Кроме тебя. Например, 2, если вы привезете 2 человека.",
     "dietary": "Диетические требования / аллергия",
     "note": "Несколько слов для пары",
+    "noteOptional": "Слово для пары (необязательно)",
     "submit": "Отправить мой ответ",
     "thanksAccepted": "Спасибо! Ваше присутствие подтверждено.",
     "thanksDeclined": "Спасибо, что сообщили нам.",
@@ -3421,7 +3600,18 @@
     "giftYourName": "Твое имя",
     "giftMethod": "Способ оплаты",
     "giftPay": "содействовать",
-    "giftError": "Оплата не могла начаться."
+    "giftThanks": "Спасибо за ваш вклад!",
+    "giftRedirectNote": "Вы будете перенаправлены на защищенную страницу оплаты. Это нормально.",
+    "giftError": "Оплата не могла начаться.",
+    "rsvpSubmitError": "Ваш ответ не может быть отправлен. Пожалуйста, попробуйте еще раз.",
+    "summaryTitle": "Ваш ответ",
+    "summaryAccepted": "Вы подтвердили свое присутствие.",
+    "summaryDeclined": "Вы отклонили приглашение.",
+    "summaryPartySize": "Гости с вами",
+    "summaryHeadcount": "Зарезервированные места",
+    "summaryDietary": "Диетические потребности",
+    "summaryTable": "Твой стол",
+    "summaryTablePending": "Ваш стол будет разделен до начала мероприятия."
   },
   "teamInvitation": {
     "eyebrow": "Приглашение",
@@ -3743,7 +3933,21 @@
     "readOnlyLockMessage": "Дискуссия только для чтения. Сохраните свои сообщения.",
     "mutedLockMessage": "Вы были приглушены в этом обсуждении организатором.",
     "postingLockMessage": "Опубликовать в этом обсуждении может только организатор.",
-    "defaultUserName": "Этот пользователь"
+    "defaultUserName": "Этот пользователь",
+    "someFilesQueuedForRetry": "Некоторые файлы будут возмущаться, как только соединение вернется.",
+    "retrySend": "повторять",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Прокрутить вниз",
+    "tapToLoadImage": "Нажмите, чтобы загрузить",
+    "reply": "Ответить",
+    "react": "реагировать",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Разговор только для чтения.",
+    "headerCollapseA11y": "Спрятать баннер",
+    "headerExpandA11y": "Показать баннер",
+    "headerCollapseLabel": "прятаться",
+    "headerExpandLabel": "Подробности событий"
   },
   "scanForm": {
     "loading": "Загрузка...",
@@ -3810,7 +4014,8 @@
     "roleModerator": "модератор",
     "roleAdmin": "администратор",
     "fallbackEvent": "Событие",
-    "fallbackUnknownUser": "Пользователь"
+    "fallbackUnknownUser": "Пользователь",
+    "statusUnknown": "Неизвестный статус"
   },
   "refundRequest": {
     "watermarkBack": "Вернуться",
@@ -3970,7 +4175,13 @@
       "accessCodeLabel": "Код доступа (факультативно)",
       "accessCodeHint": "Посетители должны будут ввести этот код, чтобы увидеть детали.",
       "accessCodePlaceholder": "Оставьте пустой без кода",
-      "featuredInfo": "Вы можете запросить размещение вашего события после создания из «Мои события»."
+      "accessCodeKeepPlaceholder": "Новый код (оставьте пустой, чтобы сохранить текущий)",
+      "accessCodeActive": "Активен код доступа.",
+      "accessCodeWillBeRemoved": "Код будет удален при сохранении.",
+      "accessCodeRemove": "Удалить код",
+      "accessCodeUndoRemove": "Снять",
+      "featuredInfo": "Вы можете запросить размещение вашего события после создания из «Мои события».",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Дата и место",
@@ -4188,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Закрытое меню",
       "cancel": "отменить"
+    },
+    "venuePicker": {
+      "label": "Используйте сохраненное место",
+      "hint": "Поля заполняются автоматически. После этого их можно корректировать."
     }
   },
   "componentsCharts": {
@@ -4342,7 +4557,18 @@
     "ticketsAddedSuccess": "Билеты добавлены успешно",
     "alreadyRegisteredConfirmTitle": "Уже зарегистрирован",
     "alreadyRegisteredConfirmMessage": "Вы уже зарегистрированы на это мероприятие.",
-    "createRegistrationError": "Не удалось создать регистрацию"
+    "createRegistrationError": "Не удалось создать регистрацию",
+    "accessMode": {
+      "in_person": "Только лично",
+      "online": "Онлайн доступ",
+      "hybrid": "Лично + онлайн"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Осталось только одно место",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Покупки остановились",
+    "suspendedByIncident": "Покупки временно приостановлены из-за инцидента. Следите за обновлениями на странице Статус."
   },
   "registrationDetails": {
     "headerInscription": "Моя регистрация",
@@ -4541,6 +4767,7 @@
     "tipScanEntrance": "QR-код будет сканироваться на входе",
     "tipArriveLines": "Прибытие вовремя, чтобы пропустить линии",
     "validatedTitle": "Проверенный билет",
+    "stampValidated": "Проверено",
     "validatedAt": "Введите ed0ed в ed1ed",
     "paymentPendingTitle": "Оплата в ожидании",
     "paymentPendingDesc": "Заполните свой платеж, чтобы подтвердить",
@@ -4570,7 +4797,15 @@
     "statusConfirmed": "Подтверждено",
     "statusPending": "В ожидании",
     "statusCancelled": "отменено",
-    "statusValidated": "проверенный"
+    "statusValidated": "проверенный",
+    "pdfOnline": "Онлайн-событие",
+    "statusUnknown": "Неизвестный статус",
+    "presentHint": "Нажмите, чтобы увеличить код, нажмите для доказательства валидности.",
+    "presentA11yAction": "Увеличьте код для проверки",
+    "proofA11yAction": "Показать доказательство валидности",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Вернуться к билету",
+    "presentExitHint": "Прыжок назад"
   },
   "offlineTickets": {
     "headerTitle": "Оффлайн",
@@ -4942,7 +5177,46 @@
     "virtualJoinLive": "Присоединяйтесь к Live",
     "virtualStartsInMinutes": "Начало в s0s мин",
     "virtualUnavailableTitle": "Видеозвонок недоступен",
-    "virtualUnavailableNote": "EventEz Video пока не активен для этого мероприятия. Организатор поделится ссылкой."
+    "virtualUnavailableNote": "EventEz Video пока не активен для этого мероприятия. Организатор поделится ссылкой.",
+    "virtualWaitingHostTitle": "Жизнь еще не началась",
+    "virtualWaitingHostNote": "Вы сможете присоединиться, как только организатор откроет комнату.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Главная комната",
+      "session": "Заседание",
+      "breakout": "прорыв",
+      "networking": "Сеть",
+      "workshop": "Семинар"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Продажи закончились",
+    "ticketsSaleNotStarted": "В продаже скоро",
+    "peekSave": "Спасти",
+    "peekUnsave": "Удалить из спасенного",
+    "peekShare": "Доля",
+    "peekOpen": "Открыть",
+    "peekA11yHint": "Держитесь за предварительный просмотр",
+    "swipeSave": "Выпуск для сохранения",
+    "swipeUnsave": "Освобождение для удаления",
+    "swipeHint": "Swipe для сохранения",
+    "swipeRemoved": "Удалены из спасенных",
+    "swipeUndo": "Снять",
+    "swipeRemove": "Удалить",
+    "weather": {
+      "sunny": "солнечный",
+      "partlySunny": "Солнечные заклинания",
+      "cloudy": "облачный",
+      "fog": "туман",
+      "rain": "дождь",
+      "snow": "снег",
+      "showers": "душ",
+      "thunderstorm": "грозы",
+      "variable": "изменяемый"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Выберите формат",
@@ -5027,7 +5301,11 @@
     "followPrefsSave": "Сохранить предпочтения",
     "followPrefsSaveA11y": "Сохранить предпочтения",
     "inAppToastA11y": "Нажмите, чтобы открыть.",
-    "webviewVisioTitle": "Видеозвонок"
+    "webviewVisioTitle": "Видеозвонок",
+    "webviewOfflineTitle": "Вы оффлайн",
+    "webviewOfflineBody": "Ваше устройство потеряло связь. Звонок возобновится, как только сеть вернется.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Медленное обнаружение соединения — видео может быть деградировано и использовать ваши данные."
   },
   "messageRequests": {
     "eyebrow": "Анти-спам",
@@ -5075,6 +5353,17 @@
     "permissionTitle": "Камера требуется",
     "permissionSubtitle": "Чтобы сканировать QR, EventEz нужен доступ к камере.",
     "permissionGrant": "Разрешить камеру"
+  },
+  "media": {
+    "sheetTitle": "Что бы ты хотел сделать?",
+    "saveToGallery": "Спасти галерею",
+    "share": "Доля",
+    "savedToGallery": "Спасены в галерею",
+    "permissionDeniedTitle": "Разрешение отказано",
+    "permissionDeniedMessage": "Включите доступ к фотографиям в настройках для сохранения.",
+    "sharingUnavailable": "Совместное использование не доступно на этом устройстве.",
+    "downloadFailed": "Скачать не удалось. Пожалуйста, попробуйте еще раз.",
+    "genericError": "Что-то пошло не так. Пожалуйста, попробуйте еще раз."
   },
   "componentsMessages": {
     "inputJoinFile": "Прикрепить файл",
@@ -5296,7 +5585,7 @@
     "messages": "сообщения",
     "suggestions": "Замечания",
     "theme": "Тема",
-    "timezoneSoon": "TIMEZONE · SOON",
+    "timezone": "Зона времени",
     "soundEffects": "Звуковые эффекты",
     "authSoon": "Аутентификация · СУН",
     "connectionsSoon": "СОЕДИНЕНИЯ · ПОСЛЕ",
@@ -5322,7 +5611,11 @@
     "tabSaved": "02 Спасенный",
     "tabMessages": "03 · сообщения",
     "tabTickets": "04 · Пикеты",
-    "tabProfile": "05 · ПРОФИЛЬНО"
+    "tabProfile": "05 · ПРОФИЛЬНО",
+    "push": "Толкать",
+    "privacy": "конфиденциальность",
+    "memories": "Воспоминания",
+    "yearInReview": "Год в обзоре"
   },
   "organizer": {
     "common": {
@@ -5333,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Выбранный  0 ",
-      "selectedCount_plural": "Выбранный  0 ",
+      "selectedCount_other": "{{count}} selected",
       "approve": "одобрять",
       "reject": "отклонить",
       "checkIn": "Проверка"
@@ -5791,6 +6084,7 @@
         "discountCodes": "Промо-коды",
         "linkSessions": "Связать билеты на сеансы",
         "addPhotos": "Добавить фото",
+        "startLive": "Живи.",
         "volunteers": "Волонтеры",
         "sponsors": "Спонсоры",
         "seatingPlans": "Планирование мест",
@@ -5808,7 +6102,11 @@
         "deleteDesc": "Необратимые действия",
         "invite": "Пригласить гостей",
         "inviteDescInviteOnly": "Единственный способ предоставить доступ к этому событию только для приглашенных",
-        "duplicatePastDesc": "Начните с редактируемой копии"
+        "duplicatePastDesc": "Начните с редактируемой копии",
+        "remindInvites": "Напомнить гостям",
+        "weddingGuests": "Гости и RSVP",
+        "weddingGifts": "Реестр и подарки",
+        "weddingTables": "План размещения"
       },
       "emptyEyebrowResults": "Никаких результатов",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5824,6 +6122,7 @@
       "cancelReasonPlaceholder": "Например, состояние здоровья, место недоступно...",
       "keepBtn": "Держите",
       "cancelEventBtn": "Отменить мероприятие",
+      "cancelHolding": "Держи.",
       "recurrenceEyebrow": "Возвращение",
       "recurrenceModalTitle": "Расписание \"\"0\"\"",
       "recurrenceModalBody": "Создайте несколько событий из этого события. Каждое событие — это новое независимое событие, которое вы можете изменить.",
@@ -5862,7 +6161,14 @@
       "inviteInvalidMessage": "Пожалуйста, проверьте адреса:  0 ",
       "inviteSentTitle": "Присланные приглашения",
       "inviteSentMessage": ".0. приглашение(ы) отправлено.",
-      "inviteError": "Не смог прислать приглашений."
+      "inviteError": "Не смог прислать приглашений.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Ни один гость не должен сейчас напоминать.",
+      "remindErrorTitle": "Напоминание провалилось",
+      "remindErrorMessage": "Напоминания не могли быть отправлены. Пожалуйста, попробуйте еще раз.",
+      "remindPendingProgress": "Отправка напоминаний...",
+      "loadError": "Не смог загрузить ваши события. Проверьте свою связь."
     },
     "volunteer": {
       "tabReceived": "Получено ()0))",
@@ -6133,7 +6439,35 @@
       "manualCodeInvalid": "Недействительный код: ожидаемый UUID или ссылочный код (8-20 символов A-Z/0-9).",
       "sessionRecapTitle": "Резюме сессии",
       "sessionRecapBody": ")0) scan(s) в )1) мин.\n✓  2  валидированный\n3   неудачный",
-      "sessionRecapQueue": "0   в очереди в автономном режиме"
+      "sessionRecapQueue": "0   в очереди в автономном режиме",
+      "manualModeBanner": "Ручной режим — 1 кран на человека",
+      "manualModeA11y": "Ручной режим включен. Нажмите, чтобы включить автоматическую регистрацию обратно.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Эти люди вошли, когда сеть была отключена. Проверьте с вашей командой.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Принят в автономном режиме этим телефоном, отклонен по синхронизации. Если другой агент сканировал одновременно, эти люди попадали туда дважды.",
+      "voice": {
+        "valid": "Действительный билет",
+        "validWarning": "Действен, нуждается в проверке",
+        "alreadyCheckedIn": "Уже проверено",
+        "refused": "Билет отказали",
+        "enabled": "Голосовые объявления на",
+        "toggleOn": "Голосовые объявления на",
+        "toggleOff": "Голосовые объявления отключены",
+        "toggleA11y": "Включить или выключить голосовые объявления результатов сканирования"
+      }
     },
     "liveOps": {
       "live": "жить",
@@ -6158,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "Ваше влияние",
       "headerTitle": "Аналитика",
+      "errorTitle": "Аналитика недоступна",
+      "errorBody": "Не смог загрузить данные. Проверьте свою связь и попробуйте еще раз.",
       "eventLabel": "событие",
       "kpiViews": "Виды",
       "kpiRegistrations": "Регистрация",
@@ -6179,7 +6515,8 @@
       "insightViewsHas": "Ваше событие было просмотрено 0 раз",
       "insightViewsNone": "Поделитесь своим событием, чтобы получить больше просмотров",
       "insightRegistered_one": "0  зарегистрированное лицо",
-      "insightRegistered_other": "0  зарегистрированные лица"
+      "insightRegistered_other": "0  зарегистрированные лица",
+      "actionBoxOffice": "Кассовый офис"
     },
     "sessionsLink": {
       "headerEyebrow": "Доступность • Сессии",
@@ -6281,6 +6618,10 @@
       "submitSuccess": "Представленный успешно",
       "viewMyEvents": "Посмотреть мои события",
       "createAnother": "Создать другой",
+      "submittedStamp": "В обзоре",
+      "submittedEyebrow": "Представлено на рассмотрение",
+      "submittedBody": "Наша команда рассматривает ваше мероприятие. Вы будете уведомлены, как только он выйдет в эфир.",
+      "submittedCtaEyebrow": "приборная панель",
       "edit": "Редактировать",
       "saved": "Спасенный",
       "back": "Назад",
@@ -6449,6 +6790,163 @@
       "linkReportsSub": "CSV, экспорт PDF, панели инструментов",
       "linkMyEventsTitle": "Мои события",
       "linkMyEventsSub": "Статистика за событие"
+    },
+    "boxOffice": {
+      "openTitle": "Откройте кассу",
+      "openingFloatHelp": "Сколько изменений дал вам организатор, чтобы начать? Без этого сегодняшний подсчет будет неверным.",
+      "openDrawer": "Откройте кассу",
+      "openError": "Киль нельзя было открыть",
+      "openErrorDetail": "Проверьте свою связь и попробуйте еще раз.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Закрыть",
+      "cash": "наличные",
+      "momo": "Мобильные деньги",
+      "giveBack": "Вернуть назад",
+      "saleError": "Продажа не была зафиксирована",
+      "saleErrorDetail": "Не возвращайтесь в продажу: попробуйте еще раз, она не будет взиматься дважды.",
+      "a11y": {
+        "drawerOpened": "Пока не открылся",
+        "openingFloatInput": "Количество открытых поплавков",
+        "openDrawer": "Откройте кассу",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Закрой кассу",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Возьмите мобильные деньги",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "Держать в руках",
+      "cashOnlyHint": "Мобильные деньги не в вашей сумке.",
+      "openingFloat": "Открыть поплавок",
+      "salesCount": "продажи",
+      "countedLabel": "Я считал",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Это не блокировка. Объясните, почему ниже.",
+      "reasonLabel": "Пояснение (факультативно)",
+      "reasonPlaceholder": "Например, я дал 500 слишком много изменений",
+      "confirmClose": "Закрывай должок",
+      "closedTitle": "До закрытия",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Закрытие провалилось",
+      "closeErrorDetail": "Пожалуйста, попробуйте еще раз в ближайшее время.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Подсчитанная сумма",
+        "reasonInput": "Разнообразное объяснение",
+        "confirmClose": "Подтвердить закрытие",
+        "closed": "До закрытия"
+      }
+    },
+    "documents": {
+      "title": "Документы для печати",
+      "a11y": "Печатные документы",
+      "badges": "Знаки посетителей",
+      "badgesHint": "Формат А6, 4 на страницу А4",
+      "attendanceSheet": "Подпись",
+      "attendanceSheetHint": "Подписаться на стойке регистрации — готово до начала мероприятия",
+      "certificates": "Сертификаты о посещении",
+      "certificatesHint": "После мероприятия для зарегистрированных участников"
+    },
+    "weddingGuests": {
+      "title": "Гости и RSVP",
+      "empty": "Гостей пока нет.",
+      "remindOne": "Напоминать",
+      "remindOneSent": "Напоминание отправлено",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Напоминание не может быть",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Редактировать RSVP",
+      "editRsvpTitle": "Редактировать RSVP",
+      "rsvpUpdated": "РСВП обновился",
+      "rsvpError": "Не удалось спасти РСВП",
+      "partySize": "Размер партии",
+      "dietary": "Диетические требования",
+      "dietaryPlaceholder": "Вегетарианец, без глютена...",
+      "note": "Примечание",
+      "stats": {
+        "invited": "приглашенный",
+        "accepted": "Подтверждено",
+        "pending": "В ожидании",
+        "headcount": "Головной счет"
+      },
+      "status": {
+        "pending": "В ожидании",
+        "accepted": "Подтверждено",
+        "declined": "пониженный",
+        "cancelled": "отменено"
+      }
+    },
+    "weddingGifts": {
+      "title": "Реестр и подарки",
+      "noRegistry": "Никакого подарочного реестра на это мероприятие.",
+      "create": "Создать реестр",
+      "registryCreated": "Созданный реестр",
+      "registryUpdated": "Обновленный реестр",
+      "editRegistry": "Редактировать реестр",
+      "registryTitle": "Название реестра",
+      "registryDescription": "Сообщение для гостей",
+      "visible": "Видимый реестр",
+      "hidden": "скрытый",
+      "totalRaised": "Общий рост",
+      "share": "Доля",
+      "addItem": "Добавить подарок",
+      "newItem": "Новый подарок",
+      "editItem": "Редактировать подарок",
+      "itemName": "Имя",
+      "itemKind": "Тип",
+      "targetAmount": "Целевая сумма",
+      "externalUrl": "Внешняя ссылка (факультативно)",
+      "itemAdded": "Добавлен подарок",
+      "itemUpdated": "Обновленный подарок",
+      "itemDeleted": "Подарок удален",
+      "deleteItemTitle": "Удалить этот подарок",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Зарезервирован",
+      "noItems": "Подарков пока нет. Добавь одну.",
+      "kind": {
+        "gift": "Подарок (пункт)",
+        "cash_fund": "Денежный фонд"
+      },
+      "error": "Что-то пошло не так."
+    },
+    "weddingTables": {
+      "title": "План размещения",
+      "noTables": "Столов пока нет. Создайте один.",
+      "addTable": "Добавить стол",
+      "newTable": "Новый стол",
+      "editTable": "Редактировать таблицу",
+      "name": "Таблица",
+      "namePlaceholder": "Таблица 1, Семья...",
+      "capacity": "Места",
+      "created": "Созданный стол",
+      "updated": "Обновленная таблица",
+      "deleted": "Таблица удалена",
+      "deleteTitle": "Исключить таблицу",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Полный",
+      "tableEmpty": "Никто за этим столом",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Все подтвержденные гости сидят.",
+      "createFirst": "Сначала создайте стол, чтобы усадить гостей.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Гость сидит",
+      "unassign": "Удалить",
+      "unassigned": "Гость удален",
+      "capacityError": "Не хватает мест за этим столом.",
+      "error": "Что-то пошло не так."
     }
   },
   "moderation": {
@@ -7218,6 +7716,554 @@
     "payOrange": "Оранжевые деньги",
     "payCard": "Карта",
     "paymentInitiated": "Оплата началась. Подтвердите это на телефоне.",
-    "payError": "Не удалось инициировать оплату стенда."
+    "payError": "Не удалось инициировать оплату стенда.",
+    "captureLeads": "Захват контактов",
+    "viewLeads": "Мои контакты"
+  },
+  "leadCapture": {
+    "title": "Захватите контакт",
+    "hint": "Укажите QR-код на значке посетителя.",
+    "permissionTitle": "Разрешить доступ к камере",
+    "permissionBody": "Камера используется только для чтения QR-кода посетителей, которые согласились на контакт.",
+    "permissionCta": "Включи камеру.",
+    "manualEntry": "Вместо этого введите ссылку",
+    "manualPlaceholder": "Знак ссылки",
+    "unnamed": "Контакт сохранен",
+    "alreadyKnown": "Уже встречались — рекорд обновлен.",
+    "qualify": "Квалифицируйте этот контакт",
+    "rating_hot": "горячий",
+    "rating_warm": "теплый",
+    "rating_cold": "Холодный",
+    "notesPlaceholder": "О чем вы говорили (необязательно)",
+    "next": "Следующий контакт",
+    "retry": "Сканировать снова",
+    "noConsentTitle": "Этот посетитель не согласился",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Значок не признается",
+    "notFoundBody": "Этот значок не принадлежит этому событию. Проверьте ссылку, напечатанную под QR-кодом.",
+    "errorTitle": "Сканирование провалилось",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Этот посетитель не согласился на контакт.",
+    "a11yNotFound": "Значок не признается.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Сегодня",
+    "yesterday": "Вчера",
+    "justNow": "Только сейчас.",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Отправка",
+    "failed": "Не удалось отправить",
+    "sent": "отправленный",
+    "delivered": "доставленный",
+    "read": "Читать"
+  },
+  "myLeads": {
+    "title": "Мои контакты",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Безымянный контакт",
+    "emptyTitle": "Никаких контактов пока нет",
+    "emptyBody": "Сканируйте значок посетителей, которые останавливаются у вашего стенда. Вы можете экспортировать полный список как CSV.",
+    "errorTitle": "Не мог загрузить",
+    "errorBody": "Ваши контакты надежно сохранены. Проверьте свою связь и попробуйте еще раз."
+  },
+  "myDataExhibitors": {
+    "title": "Мои данные, хранящиеся у экспонентов",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "стирать",
+    "eraseAll": "Стирать все",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Ваши контактные данные были удалены.",
+    "eraseError": "Стирание не прошло.",
+    "confirmCta": "стирать",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Стирать мои данные, хранящиеся у каждого экспонента?",
+    "confirmAllBody": "Ваше имя, адрес электронной почты и номер телефона будут удалены в каждой зарегистрированной компании. Это нельзя отменить.",
+    "emptyTitle": "Ни одна компания не хранит ваши контактные данные",
+    "emptyBody": "Экспоненты могут сохранить ваши данные только путем сканирования вашего значка, и только если вы разрешили это для этого события."
+  },
+  "visio": {
+    "expandCall": "Расширение видеозвонков",
+    "endCall": "Конец связи",
+    "endCallConfirmTitle": "Оставить звонок?",
+    "endCallConfirmMessage": "Ты собираешься уйти с текущей встречи.",
+    "minimize": "Минимизировать",
+    "liveNow": "жить",
+    "join": "Присоединяйся",
+    "view": "Посмотреть",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Посмотреть",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "размер"
+  },
+  "organize": {
+    "favorites": "Мои любимые",
+    "eyebrow": "Пространство организатора",
+    "title": "Организовать",
+    "liveNow": "Живи сейчас",
+    "nextEvent": "Следующее событие",
+    "registered": "зарегистрированный",
+    "scan": "сканировать",
+    "scanA11y": "Сканировать билеты на это мероприятие",
+    "boxOffice": "Кассовый офис",
+    "boxOfficeA11y": "Откройте кассу для этого события",
+    "viewStats": "Посмотреть статистику",
+    "availableBalance": "Доступный баланс",
+    "walletA11y": "Открой кошелек",
+    "noActiveEvent": "Никаких событий",
+    "noActiveEventHint": "Создайте мероприятие или опубликуйте проект, чтобы увидеть его здесь.",
+    "noStaffEventHint": "События, в которых вы являетесь частью команды, покажутся здесь.",
+    "createEvent": "Создайте событие",
+    "myEvents": "Мои события",
+    "teamEvents": "События I Персонал",
+    "analytics": "Аналитика",
+    "loadError": "Не смог загрузить ваше пространство. Проверьте свою связь."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Ты в деле.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Через неделю",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Двери открыты",
+    "onNow": "Происходящее сейчас",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Билет доступен оффлайн",
+    "offlinePending": "Откройте билет один раз, чтобы сохранить его в автономном режиме",
+    "sayImGoing": "Скажи, что я иду",
+    "showTicket": "Показать билет",
+    "directions": "Направления",
+    "viewTicket": "Просмотреть билет",
+    "goThere": "Иди.",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Калибровка компаса: нарисуйте цифру 8 с помощью телефона",
+    "compassHint": "Следуйте за стрелой к месту проведения"
+  },
+  "onSite": {
+    "eyebrow": "Вы находитесь на сайте",
+    "now": "Теперь",
+    "next": "Next · {{time}}",
+    "qa": "Live Q&A",
+    "plan": "Карта и место проведения",
+    "networking": "Сеть"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Ты был там.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Сначала прибыть",
+    "question": "Что ты думаешь?",
+    "thanks": "Спасибо за ваш рейтинг.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Поделиться историей",
+    "later": "Позже"
+  },
+  "yearInReview": {
+    "eyebrow": "Твой год",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "Мероприятие посетили",
+    "s1Line_other": "Участие в мероприятиях",
+    "citiesEyebrow": "На дороге",
+    "categoryEyebrow": "Ваше мероприятие",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Все началось с",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Всегда вовремя",
+    "arrivalsLine_one": "Время прибыть первым",
+    "arrivalsLine_other": "Первый раз прибыть",
+    "organizerEyebrow": "Ваш организатор",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Поделитесь своей карточкой",
+    "tapHint": "Нажмите, чтобы продолжить"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Первый участник",
+      "someone": "Кто-то",
+      "share": "Доля для увеличения продаж",
+      "view": "Посмотреть",
+      "soldOutTitle": "Продано",
+      "soldOutLine": "Все билеты пропали"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Продано",
+      "online": "жить"
+    },
+    "share": {
+      "cta": "Поделитесь событием",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "общий",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Запрошенный",
+      "approved": "Утвержденный",
+      "sent": "отправленный",
+      "verifying": "Проверка с оператором",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Выплата не удалась"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Место почти полное",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Конец смены",
+      "validated": "Проверено",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "темп",
+      "refused": "отвергнутый",
+      "syncing": "Синхронизация...",
+      "synced": "синхронизированный",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Смотреть Live Ops",
+      "resume": "Резюме",
+      "close": "Закончить"
+    },
+    "recap": {
+      "title": "Резюме",
+      "eyebrow": "Событие",
+      "attended": "Внимание",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Выручка",
+      "rating": "Средний рейтинг",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Пока нет отзывов",
+      "best": "Выдающийся обзор",
+      "latest": "Последние отзывы",
+      "thank": "Благодарность присутствующим",
+      "funds": "Посмотреть фонды",
+      "error": "Отзыв недоступен прямо сейчас.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Посмотреть резюме"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Забронировано только сейчас",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Забронировано в последний час",
+    "lastSaleToday": "Забронировано сегодня",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Продано",
+    "soldOutCta": "Продано - не осталось мест",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Ваши связи, которые идут",
+    "someone": "Кто-то",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Онлайн",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 часа",
+    "seatHeldTitle": "Место для вас удерживается",
+    "seatHeldBody": "Книга до окончания отсчета: после этого она переходит к следующему человеку.",
+    "seatHeldCta": "Забронируйте место",
+    "seatHeldExpired": "Время вышло: место досталось следующему человеку.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Показать все",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Реакции",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Одно из ваших соединений прибыло",
+    "connectionArrivedCta": "Сообщите им",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Живые продажи",
+    "checkinPushed": "Живое прибытие"
+  },
+  "reminders": {
+    "channelName": "Напоминания о событиях",
+    "dayBeforeTitle": "Напоминание: завтра",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Напоминание: через 1 час",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Открыть",
+    "discoverSubtitle": "События рядом с тобой",
+    "tickets": "Мои билеты",
+    "scan": "Сканировать билет"
+  },
+  "ongoing": {
+    "channelName": "День событий",
+    "eventFallback": "Ваше событие",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Скоро начнется",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "На данный момент Ваш билет готов",
+    "scannerTitle": "Сканнер на дежурстве"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Отменить последнее действие?",
+      "confirm": "Снять",
+      "keep": "Держите",
+      "failed": "Ундо не прошел. Проверьте свою связь и попробуйте еще раз.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Выведите разговор из архива."
+    },
+    "report": {
+      "title": "Сообщить о проблеме",
+      "subtitle": "Тестовая сборка: скриншот, экран и версия отправляются с вашим сообщением.",
+      "noNote": "Отчет без комментариев",
+      "blur": "пятно",
+      "noShot": "Скриншотов на этом экране нет.",
+      "placeholder": "Что случилось?",
+      "send": "Отправить",
+      "sent": "Спасибо, ваш доклад отправлен.",
+      "unavailable": "Не могу отправить: отслеживание ошибок не работает на этой сборке."
+    },
+    "applause": {
+      "hint": "Аплодируйте дольше.",
+      "a11y": "Долгие аплодисменты"
+    },
+    "hush": {
+      "title": "Мик и камера выключились, пока телефон был лицом вниз",
+      "reactivate": "Нажмите, чтобы вернуть их обратно"
+    },
+    "lighter": {
+      "button": "легче",
+      "off": "Положи это.",
+      "alone": "Поднимите телефон, пламя будет следовать за вашими движениями.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Удиви меня.",
+      "chipA11y": "Предложите случайное событие",
+      "again": "Другой",
+      "none": "Никаких предстоящих событий, чтобы предложить прямо сейчас."
+    },
+    "bump": {
+      "settingTitle": "Своп контакты путем тряски",
+      "settingSubtitle": "На сайте, как только ваш билет просканирован: встряхните в то же время, как кто-то другой, чтобы найти друг друга. Ваше приблизительное местоположение используется в течение нескольких секунд, чтобы соответствовать вам и никогда не хранится. Ничего не происходит без вашего подтверждения. По умолчанию.",
+      "button": "Своп через тряску",
+      "nearbyButton": "Посмотри вокруг меня",
+      "hint": "Встряхните телефон одновременно с другим человеком.",
+      "title": "Своп контакты",
+      "searching": "Ищу людей, которые трясутся рядом с вами...",
+      "none": "Никто не нашел. Встряхнитесь в тот же момент, что и другой человек, а затем попробуйте еще раз.",
+      "pick": "Выберите правильного человека. Ничто не передается без вашего согласия.",
+      "connect": "Связь?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "В ожидании их подтверждения",
+      "connected": "подключенный",
+      "openSettings": "Открытые настройки",
+      "error": {
+        "disabled": "Включите «Swap Contacts by shaking» в настройках.",
+        "notCheckedIn": "Доступно после сканирования вашего билета на входе.",
+        "clockSkew": "Часы телефона выключены. Настройте его автоматически и попробуйте снова.",
+        "rateLimited": "Слишком много попыток Попробуй еще раз через минуту.",
+        "expired": "Своп истек. Начни сначала.",
+        "noLocation": "Местоположение необходимо, чтобы найти человека рядом с вами.",
+        "generic": "Своп не прошел. Попробуй еще раз."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Сохранить событие"
+    },
+    "torch": {
+      "onA11y": "Включи факел.",
+      "offA11y": "Выключи факел.",
+      "hint": "Дважды нажмите на видоискатель, чтобы включить или выключить факел."
+    },
+    "dragSelect": {
+      "select": "Выбрать",
+      "hint": "Или перетащите два пальца вниз по списку, чтобы пометить нескольких посетителей.",
+      "message": "Сообщение выбранным участникам",
+      "export": "Экспортировать выбор",
+      "exportError": "Экспортировать отбор не удалось.",
+      "csvName": "Имя",
+      "csvEmail": "Электронная почта",
+      "csvReference": "Ссылка",
+      "csvStatus": "статус",
+      "csvDate": "зарегистрированный"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Купить билеты...",
+      "favorites": "Выбирая своих любимых...",
+      "notifications": "Получение ваших уведомлений...",
+      "messages": "Привлекая свои разговоры...",
+      "search": "В поисках подходящих событий...",
+      "event": "Подготовка страницы мероприятия..."
+    },
+    "mobileMoney": {
+      "sent": "Ваш платежный запрос был отправлен вашему оператору.",
+      "pin": "Утвердить его с помощью PIN-кода на вашем телефоне в кратчайшие сроки вашего оператора.",
+      "operator": "Подтверждение оператора может занять некоторое время. Это нормально, пожалуйста, оставайтесь на этой странице.",
+      "once": "Вы будете обвинены только один раз, даже если ожидание продолжается."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Ваши билеты появятся здесь, как только вы зарегистрируетесь на мероприятие.",
+        "v1": "Концерт, конференция, семинар? Все начинается с события.",
+        "v2": "Ваш следующий выход уже может быть онлайн."
+      },
+      "favorites": {
+        "v0": "Нажмите на сердце на мероприятии, чтобы найти его здесь и услышать об изменениях.",
+        "v1": "Следуйте за событием, чтобы никогда не пропустить его новости.",
+        "v2": "Одного сердца достаточно, чтобы держать событие под рукой."
+      },
+      "notifications": {
+        "v0": "Новости о событиях и организаторах, за которыми вы следите, появятся здесь.",
+        "v1": "Следуйте за событием, чтобы получить уведомление о том, что нового.",
+        "v2": "Мы сообщим вам, как только что-то произойдет."
+      },
+      "messages": {
+        "v0": "Встретил кого-то на мероприятии? Сканируйте код для подключения.",
+        "v1": "Здесь отображаются ваши соединения с событиями: достаточно одного сканирования кода.",
+        "v2": "Обмен контактными данными на сайте путем сканирования кода посетителя."
+      },
+      "discover": {
+        "v0": "Поиск по ключевым словам иногда находит то, что домашняя страница еще не показывает.",
+        "v1": "Поиск по городу или категории: новые события приходят каждую неделю."
+      },
+      "exploreAction": "Посмотрите, что на",
+      "scanAction": "Сканировать код",
+      "searchAction": "Поиск события",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Расстояние до 50 км вокруг",
+      "clearFilters": "Чистые фильтры"
+    },
+    "greeting": {
+      "when": {
+        "today": "сегодня",
+        "tomorrow": "завтра",
+        "dayAfter": "Послезавтра послезавтра"
+      },
+      "there": "на сайте",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "С днем рождения! Приятного дня.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Счастливого национального дня!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "С возвращением.",
+      "subtitle_one": "Что-то новое после вашего последнего визита.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "И еще одно из того, за чем вы следуете.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "прятаться",
+      "reason": {
+        "followed_organizer": "Организатор, за которым вы следите",
+        "new_edition": "Новый выпуск мероприятия, которое вы посетили",
+        "other": "Новый"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "Для вас: основан на вашем вкусе",
+      "forYouTitle": "Также может нравиться",
+      "loginCtaTitle": "Рекомендации, адаптированные для вас"
+    },
+    "settings": {
+      "ritualsEyebrow": "Маленькие штучки",
+      "ritualsTitle": "Маленькие прикосновения",
+      "ritualsSubtitle": "Слово на ваш день рождения, день рождения вашего аккаунта или национальный день, один раз в течение дня. Ваш возраст никогда не показывается, никаких уведомлений.",
+      "forgetEyebrow": "Рекомендации",
+      "forgetTitle": "Забудьте о моих предпочтениях",
+      "forgetSubtitle": "Уничтожает то, что последовало за событиями, регистрациями и поисками, чему научили ваши рекомендации.",
+      "forgetConfirmTitle": "Забыли о своих предпочтениях?",
+      "forgetConfirmMessage": "Ваши рекомендации начнутся с нуля. Ваши билеты, любимые и последующие не меняются.",
+      "forgetDone": "Сделано: ваши рекомендации начинаются с нуля.",
+      "forgetUnavailable": "Этот вариант пока недоступен. Ничего не было стерто.",
+      "forgetError": "Ваши предпочтения не могут быть удалены. Они неизменны, пожалуйста, попробуйте еще раз."
+    },
+    "goingCard": {
+      "title": "Пока вы ждете, подготовьте свою карту «Я иду».",
+      "subtitle": "Он будет готов поделиться, как только платеж будет подтвержден.",
+      "tintLabel": "Предыстория",
+      "messageLabel": "Послание",
+      "messages": {
+        "going": "Я собираюсь",
+        "meetThere": "Увидимся там?",
+        "seeYou": "Встретимся там"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Карта отпечатывается, пока вы ждете.",
+      "ready": "Ваша карта готова",
+      "share": "Поделитесь своей карточкой",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }
