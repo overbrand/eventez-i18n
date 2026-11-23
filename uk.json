@@ -41,6 +41,7 @@
     "close": "Головна",
     "clear": "Очистити",
     "back": "Зареєструватися",
+    "home": "Головна",
     "next": "Про нас",
     "previous": "Попереднє",
     "search": "Пошук",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Код невірний або невірний",
     "loginError": "Логін",
     "registerError": "Повідомлення",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Облік вже існує",
     "registerEmailExistsDetail": "Цей обліковий запис вже існує з цією електронною поштою. Бажаєте зареєструватися?",
     "registerEmailExistsConfirm": "Увійти",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Ім'я",
     "emailRequired": "Обов'язковий лист",
     "emailInvalid": "Електронний лист",
+    "passwordRequired": "Необхідний пароль",
     "passwordTooShort": "Пароль занадто короткий (0,0 символів мінімум)",
+    "confirmPasswordRequired": "Для підтвердження пароля необхідно",
     "passwordsDontMatch": "Пароль не відповідає",
+    "usernameRequired": "Ім'я користувача",
     "usernameTooShort": "Ім'я користувача занадто короткий (тільки символів 0)",
     "usernameInvalid": "Ім'я користувача",
+    "phoneRequired": "Номер телефону необхідний",
     "phoneInvalid": "Номер мобільного телефону",
     "minLength": "Принаймні ",
     "maxLength": "Максимальна кількість символів"
@@ -449,7 +461,8 @@
     "saved": "Смоктати",
     "messages": "Повідомлення",
     "tickets": "Авіаквитки",
-    "profile": "Профіль"
+    "profile": "Профіль",
+    "organize": "Про нас"
   },
   "languagePicker": {
     "eyebrow": "ВЕЛИКО",
@@ -492,6 +505,7 @@
     "viewAction": "Переглянути",
     "viewEvent": "Переглянути захід",
     "share": "Поділитися",
+    "scrollToTop": "Повернутися до вершини",
     "freeEyebrow": "ЗЕРО КОСТ",
     "freeTitle": "Безкоштовно, немає рядків",
     "freeBadge": "Безкоштовно",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Ви все!",
     "notifyOnBody": "Якщо ви не знаєте, що перші події будуть жити.",
     "notifyOffTitle": "Повідомлення",
-    "notifyOffBody": "Увімкнути сповіщення в налаштуваннях, щоб бути оповіщеними."
+    "notifyOffBody": "Увімкнути сповіщення в налаштуваннях, щоб бути оповіщеними.",
+    "organizersEyebrow": "Організатори",
+    "organizersTitle": "За лаштунками",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Перевірений органайзер",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Ціна ярусів",
@@ -604,7 +624,10 @@
     "invisibleHint": "Ви невидимі — ввімкніть, щоб побачити занадто.",
     "message": "Новини",
     "connected": "Зв'язатися",
-    "empty": "Тексти пісень, а це означає: Ніхто не видно ще. Будьте першим, щоб повернути свої мережі!"
+    "empty": "Тексти пісень, а це означає: Ніхто не видно ще. Будьте першим, щоб повернути свої мережі!",
+    "scanOptInTitle": "Відскануйте свій значок",
+    "scanOptInSubtitle": "Компанії-ексгібіціоненти зможуть зберегти Ваше ім’я та контактні дані, скануючи свій значок, щоб вони могли слідувати після події.",
+    "scanOptInWithdrawNote": "Ви можете вимкнути це в будь-який час. Зв'язки, які вже збережені учасниками, не видаляються автоматично — ви можете запросити їх видалення з налаштування конфіденційності."
   },
   "eventDetails": {
     "eyebrow": "ВИСТАВКА",
@@ -628,6 +651,7 @@
     "onlineEvent": "Веб-сайт",
     "meetingId": "Дата проведення:",
     "meetingPasscode": "Паскод:",
+    "liveEngagement": "Живі Q&A та опитування",
     "joinEvent": "Приєднуйтесь",
     "joinOnline": "Приєднуйтесь",
     "registered": "Зареєструватися",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Поділитися на WhatsApp",
     "closePreviewA11y": "Закрити попередній перегляд",
     "invalidCode": "Код доступу",
+    "accessButton": "Увійти",
+    "pendingPaymentBanner": "Завершіть свій платіж для підтвердження реєстрації",
+    "onlineInfoAfterRegistration": "Деталі підключення будуть доступні після реєстрації",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Пробити",
+    "playCoverVideo": "Відео",
+    "videoPlayA11y": "Грати відео з звуком",
+    "videoUnmuteA11y": "Про нас",
+    "videoMuteA11y": "Мапа",
+    "videoExpandA11y": "Перегляд відео на повноекранному екрані",
     "imagesCount": "й",
     "videoConference": "Відеоконференція",
     "openLinkError": "Не відкривайте посилання на захід",
@@ -675,7 +708,28 @@
     "registeredStatus": "Зареєструватися",
     "pendingStatus": "Закінчення",
     "priceLabel": "Ціна",
-    "fromLabel": "Почати з"
+    "fromLabel": "Почати з",
+    "waitlistJoinedDetail": "Ви приєдналися до списку. Повідомляємо вас найближчим часом, як місце відкриється.",
+    "waitlistLeftMsg": "Ви залишили список",
+    "waitlistLeaveError": "Чи не залиште офіціантку",
+    "waitlistJoinError": "Не вдається приєднатися до",
+    "waitlistLeaveTitle": "Залишити коментар",
+    "waitlistLeaveConfirm": "Ви впевнені, що ви хочете залишити список очікування?",
+    "whatsappNotInstalled": "WhatsApp не встановлений на цьому пристрої",
+    "reviewRatingRange": "Виберіть рейтинг між 1 та 5",
+    "reviewThanksTitle": "Дякуємо!",
+    "reviewSubmitted": "Ваш відгук успішно подано",
+    "loginRequiredTitle": "Зареєструватися",
+    "loginRequiredReview": "Підписатися на розсилку",
+    "reviewSubmitError": "Подати відгук",
+    "loginRequiredWaitlist": "Підписатися на розсилку",
+    "invitationGateDesc": "Завітайте до нас! Якщо ви отримали запрошення, будь ласка, прийміть його, щоб отримати доступ.",
+    "codeGateDesc": "Введіть код, щоб побачити всі деталі",
+    "giftRegistryCta": "Подарунковий реєстр",
+    "giftRegistrySubtitle": "Дивитися список і чіп, якщо ви відчуваєте, як це",
+    "cancelReasonTitle": "Причини скасування",
+    "visioEnded": "Відеоконференція заходу завершилась.",
+    "videoPauseA11y": "Відео"
   },
   "events": {
     "videoBadge": "Відео",
@@ -823,6 +877,9 @@
     "noPastMessage": "Останні події",
     "scanQR": "Сканування QR коду",
     "showQR": "Показати QR-код",
+    "viewQR": "Переглянути QR",
+    "receivedTransfers": "Одержаний переказ",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Ваш QR код",
     "qrSubtitle": "Показати цей код на вході",
     "ticketDetails": "Деталі квитків",
@@ -930,7 +987,10 @@
     "monthNovember": "НОВИНКИ",
     "monthDecember": "Декомбер",
     "tapToShowQR": "Натисніть для перегляду QR коду",
-    "searchTitleRefVenue": "Назва, реф, місце..."
+    "searchTitleRefVenue": "Назва, реф, місце...",
+    "pendingPayment": "Кредитне кредитування",
+    "pendingExpired": "Закінчення події",
+    "statusExpired": "Зареєструватися"
   },
   "payment": {
     "title": "Оплата",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Зареєструватися",
     "paymentGenericError": "Похибка сталася при оплаті",
     "paymentErrorTitle": "Платіжна помилка",
+    "paymentBlockedTitle": "Плата за картковий платіж",
     "paymentCancelledTitle": "Відмінено платіж",
     "paymentNoPaymentInProgress": "Відсутність поточного платежу",
     "paymentVerifyingTitle": "Верифікація ...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Продовжити очікування",
     "paymentProcessing": "Переробка",
     "paymentTitle": "Оплата",
+    "checkoutStep": "СТЕП 3 / 3 • ПЛАН",
+    "noDoubleCharge": "Ви будете заряджати тільки один раз, навіть якщо екран спиниться протягом деякого часу.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Я приймаю",
+    "termsLinkFull": "умови продажу та політики повернення коштів",
+    "termsAcceptSuffixDot": "й",
     "paymentStepSelection": "Підбір",
     "paymentStepRecap": "Реквізити",
     "paymentMethodFallback": "Оплата",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Оплата",
     "myPaymentsFilterCompleted": "Виконаний",
     "myPaymentsFilterPending": "Закінчення",
-    "myPaymentsFilterFailed": "Змішані"
+    "myPaymentsFilterFailed": "Змішані",
+    "finalizeEndedTitle": "Цей захід завершився",
+    "finalizeEndedBody": "Ви не можете завершити реєстрацію: подія вже передається. Ви не були заряджені.",
+    "finalizeClosedTitle": "Реєстрація",
+    "finalizeClosedBody": "Закінчився період реєстрації цього заходу.",
+    "finalizeSoldOutTitle": "Авіаквитки продаються",
+    "finalizeSoldOutBody": "Заброньовані квитки не доступні. Ваше замовлення завершено. Ви не були заряджені.",
+    "finalizeBackToEvent": "Зворотній зв'язок",
+    "paymentPushSentTitle": "Підтвердження вашого телефону",
+    "paymentPushSentMessage": "Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації. Затвердити це (мобільна грошових коштів) для завершення.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Повернення коштів"
   },
   "memories": {
     "title": "Мої спогади",
@@ -1235,7 +1313,11 @@
     "recapShare": "Поділіться моїм",
     "recapEvents": "події",
     "recapCities": "Міста",
-    "recapFirst": "час прибуття #1"
+    "recapFirst": "час прибуття #1",
+    "oneYearAgo": "Рік тому ви там були.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Довгий прес для сюрпризу",
+    "firstNote": "Спочатку прибути. Відкриті двері."
   },
   "profile": {
     "title": "Профіль",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Увійти",
     "logoutInProgress": "Зареєструватися",
     "appVersion": "ПодіяEz v1.0.0",
-    "myQRTitle": "Мій QR-код"
+    "myQRTitle": "Мій QR-код",
+    "refundsMenu": "Моє повернення",
+    "refundsSubtitle": "Відстежуйте, де ваші гроші стоять",
+    "shareProfileButton": "Поділитися своїм профілем",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Профіль організатора",
+    "shareOrganizerA11y": "Просування профілю організатора",
+    "viewPublicProfileA11y": "Переглянути свій публічний профіль",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Недолло?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Зареєструватися",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Немає результатів",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Події",
+    "followSearchPlaceholder": "Пошук організатора"
   },
   "editProfile": {
     "title": "Редагування профілю",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Контакти",
     "sectionOrganization": "Організація",
     "sectionSecurity": "Безпека",
-    "qrShareSubtitle": "Сканувати цей код, щоб поділитися своїм профілем"
+    "qrShareSubtitle": "Сканувати цей код, щоб поділитися своїм профілем",
+    "countryPlaceholder": "Виберіть країну",
+    "orgLogoLabel": "Логін",
+    "orgLogoAdd": "Додати логотип",
+    "orgLogoChange": "Зміна логотипу",
+    "orgWebsiteLabel": "Веб-сайт",
+    "orgDescriptionLabel": "Опис громадськості",
+    "orgDescriptionPlaceholder": "Вступ вашої організації..."
   },
   "settings": {
     "whoCanContactCurrent": "АНТИ-СПАМ",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Головна",
     "themeDialogSubtitle": "Виберіть тему",
     "timezoneDialogTitle": "Розклад",
+    "timezoneDetected": "виявлений",
     "timezoneDialogSubtitle": "Оберіть Ваш час",
     "preferencesTitle": "Налаштування",
     "headerEyebrow": "Налаштування",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Підтвердження та повернення коштів",
     "rowNewConversations": "Нові розмови",
     "rowMarketing": "Рекомендації та акції",
+    "rowSocialEyebrow": "Соціальний",
+    "rowSocial": "Соціальна активність",
+    "rowSocialDesc": "Нові виконавці, нагадування, пошук запитів",
+    "newRegistrationsEyebrow": "Організатор",
+    "newRegistrationsTitle": "Нові реєстрації",
+    "newRegistrationsDescription": "Як часто ви по електронній пошті, коли хтось реєструє ваші події",
+    "newRegistrationsFreq": {
+      "realtime": "Реальний час",
+      "hourly": "Час",
+      "daily": "Щоденник",
+      "off": "Відправити"
+    },
+    "quietHoursEyebrow": "Не турбувати",
+    "quietHoursTitle": "Розклад",
+    "quietHoursDescription": "Застосувати непередбачувані push/SMS повідомлення на ніч. Повідомляємо про те, що вони завжди приходять.",
+    "quietHoursFrom": "З",
+    "quietHoursTo": "До",
     "rowSounds": "Звуки в ключові моменти",
     "rowSoundsSubtitle": "Грати звук на підтвердження платежу або QR сканування",
     "rowTwoFA": "Двофакторна автентитація",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Інвойси",
     "shortcutTaxes": "Податки",
     "shortcutMyEvents": "Події",
-    "shortcutHelp": "Допомогти"
+    "shortcutHelp": "Допомогти",
+    "rowMyDataAtExhibitors": "Моя інформація про учасників виставки",
+    "rowLiveBanner": "Онлайн-трансляція",
+    "rowLiveBannerSubtitle": "Покажіть банер, щоб приєднатися до заходу, який зараз живе.",
+    "pushPermissionTitle": "Повідомлення вимкнено для цього пристрою",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Нехай мої зв'язки знають",
+    "rowShareAttendanceSubtitle": "Ваші зв’язки можна побачити на заході. За замовчуванням, ніколи не запрошувати події.",
+    "rowNotifyMemories": "«А рік тому» повідомлення",
+    "rowNotifyMemoriesSubtitle": "Нагадуємо тиждень, на ювілей учасника заходу.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Приватний відбір року, в грудні. Нікому не бачить його.",
+    "madeInDouala": "Виготовлений в Довалі, з турботою.",
+    "madeInDoualaSub": "Ми можемо самі зателефонувати одержувачу.",
+    "rowUiSounds": "Звуки інтерфейсу",
+    "rowUiSoundsSubtitle": "Дуже тонкі звуки на підтвердження і вхідних повідомлень. За замовчуванням.",
+    "vibrationsEyebrow": "БУХ",
+    "rowVibrations": "Вібрації",
+    "rowVibrationsSubtitle": "Хаптичні відгуки про ключові дії: платіж, сканування, фаворити.",
+    "rowMotionGestures": "Жести руху",
+    "rowMotionGesturesSubtitle": "Зробіть свій телефон для деяких дій. Кнопка завжди доступна.",
+    "notificationsEyebrowOngoing": "Повідомлення",
+    "rowOngoingEvent": "Прикріплений квиток на день проведення",
+    "rowOngoingEventSubtitle": "Затишне повідомлення, 3 ч до і під час заходу, з квитком і напрямами.",
+    "rowNotificationSounds": "Звуки сповіщення",
+    "rowNotificationSoundsSubtitle": "Підберіть звук для кожної категорії (великі моменти, продажі, повідомлення...) в налаштуваннях телефону"
   },
   "messages": {
     "title": "Повідомлення",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Пошук контакту",
     "searchEyebrow": "ЗАМОВИТИ",
     "searchHint": "Тип пошуку",
-    "noOneFound": "Не знайдено"
+    "noOneFound": "Не знайдено",
+    "myConnectionsSection": "Мій зв'язок",
+    "searchResultsSection": "Результати",
+    "noConnectionsEyebrow": "МЕРЕЖІ",
+    "noConnectionsTitle": "Немає підключень",
+    "noConnectionsCta": "Підключення через QR",
+    "emptyEyebrowArchived": "АРХІВ",
+    "emptyEyebrowEmpty": "ЕМПТИ ІНБОК",
+    "archivedEmptyDesc": "У вас буде виставлятися архівні розмови.",
+    "noConversationsDesc": "Почати нове повідомлення — ми знайдемо когось, щоб поговорити.",
+    "attachmentPreview": "[Пошук]",
+    "noMatchingMessage": "Немає відповідного повідомлення"
   },
   "notifications": {
     "title": "Повідомлення",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Що нового",
     "typePendingModeration": "Огляд",
     "typeModerationReminder": "Перевірка модифікації",
+    "typeNewFollower": "Новий послідовник",
+    "typeFollowedOrganizerNewEvent": "Новий захід",
+    "typeFollowRegistered": "З'єднання йде",
+    "typeConnectionsAtEvent": "Ваше підключення",
+    "eyebrowNetwork": "NETWORK",
+    "eyebrowSoon": "Сонце",
+    "eyebrowReminder": "РЕМІНДЕР",
+    "eyebrowModeration": "СУЧАСНІ",
+    "eyebrowToReview": "ПЕРЕГЛЯД",
+    "eyebrowDiscovery": "ЗАМОВИТИ",
+    "eyebrowUrgent": "УРГЕНТ",
+    "eyebrowWhatsNew": "Що нового",
+    "filterReadTab": "Читати далі",
+    "groupToday": "П'ятниця",
+    "groupYesterday": "П'ятниця",
+    "tabAll": "Всі",
+    "tabNetwork": "Мережа",
     "typeDefault": "Повідомлення",
     "filterAllTab": "Всі",
     "filterUnreadTab": "Непрочитане",
@@ -1739,7 +1919,26 @@
     "statTotal": "Твитнуть",
     "statUnread": "ЗАМОВИТИ",
     "statToday": "П'ятниця",
-    "viewDetails": "Докладніше"
+    "viewDetails": "Докладніше",
+    "actions": {
+      "showTicket": "Показати квиток",
+      "directions": "Навігація",
+      "going": "Я йду",
+      "viewTicket": "Переглянути квиток",
+      "reply": "Відправити",
+      "replyPlaceholder": "Ваше повідомлення",
+      "replySubmit": "Відправити",
+      "markRead": "Як читати",
+      "joinLive": "Увійти",
+      "payNow": "Оплатити зараз",
+      "writeTo": "Повідомлення",
+      "viewEvent": "Переглянути захід",
+      "viewTickets": "Переглянути мої квитки",
+      "viewRefund": "Повернення коштів",
+      "viewProfile": "Переглянути профіль",
+      "summaryTitle": "Повідомлення",
+      "summaryBody": "Нові повідомлення"
+    }
   },
   "dashboard": {
     "title": "Ташборд",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Управління планом",
     "exportTitle": "Експорт",
     "exportSubtitle": "Ваші дані",
-    "settingsLink": "Налаштування"
+    "settingsLink": "Налаштування",
+    "greetingNight": "Гарний вечір"
   },
   "following": {
     "title": "Мій улюбленець",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Запрошення",
     "declineError": "Не відхилити запрошення.",
     "declineButton": "Деклін",
+    "declineConfirmTitle": "Замовити послугу",
+    "declineConfirmMessage": "Якщо ви хочете відмовитися від цього запрошення?",
     "fromLabel": "З",
     "toLabel": "РЕЦИПІТЕНТ",
     "organizerFallback": "Організатор",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Дата завантаження",
     "downloadFailed": "Завантажити не вдалося",
     "tryAgain": "Зареєструватися",
-    "contactSupport": "Контакти"
+    "contactSupport": "Контакти",
+    "timeout": "За запитом було занадто довго. Перевірити підключення і спробувати знову.",
+    "validation": "Деякі деталі недійсні. Виправлення виділених полів і спробуйте знову.",
+    "fields": {
+      "title": "Головна",
+      "subtitle": "Субтитри",
+      "message": "Новини",
+      "image": "Відео",
+      "cta_label": "мітка кнопки",
+      "cta_url": "посилання на кнопку",
+      "link_url": "Посилання",
+      "target_event": "Цільова подія",
+      "country": "Країна",
+      "city": "Місто",
+      "radius_km": "Радій",
+      "placement": "Місце",
+      "priority": "Головна",
+      "severity": "Сєвєвічність",
+      "audience": "Аудиторія",
+      "platform": "Платформи",
+      "valid_from": "Дійсно",
+      "valid_until": "Дійсно до"
+    },
+    "http": {
+      "badRequest": "Ми не можемо обробляти Ваш запит. Будь ласка, перевірте Ваші дані та спробуйте ще раз.",
+      "unauthorized": "Ваша сесія завершена. Будь ласка, вкажіть знову.",
+      "forbidden": "Ви не маєте дозволу на це.",
+      "notFound": "Ми не змогли знайти те, що ви шукаєте.",
+      "conflict": "Ця дія конфліктує з поточною державою. Відновити і спробувати знову.",
+      "tooManyRequests": "Занадто багато спроб. Будь ласка, почекайте момент і спробуйте знову.",
+      "server": "Наші сервери мають проблеми прямо зараз. Будь ласка, спробуйте ще кілька хвилин.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Ця електронна пошта вже пов'язана з обліковим записом. Зареєструватися або використовувати іншу адресу.",
+      "usernameTaken": "Що таке ім'я користувача вже прийнято, будь ласка, оберіть інший.",
+      "weakPassword": "Виберіть пароль принаймні 8 символів, які змішують листи і цифри.",
+      "invalidCredentials": "Невірний електронний лист або пароль. Спробуйте ще раз або скинути пароль.",
+      "resetLinkExpired": "Цей скидання посилюється. Запитати новий.",
+      "otpInvalid": "Цей код невірно або має закінчення. Перевірити або запросити новий.",
+      "otpSendFailed": "Ми не можемо надсилати SMS-код. Перевірити номер і спробувати ще раз, або зареєструватися в електронній пошті.",
+      "paymentMethodUnsupported": "Цей спосіб оплати не доступний для цього заходу. Будь ласка, оберіть інший.",
+      "paymentFailed": "Ваш платіж не може бути завершено. Ви не заряджали. Спробуйте ще один метод.",
+      "paymentNetwork": "З'єднання знизився під час оплати. Перевірте свій інтернет і спробуйте знову — ви не будете заряджені двічі.",
+      "paymentTimeout": "Ваш платіж більше, ніж очікуваний. Не оплачуйте знову — перевірте квитки за кілька хвилин, або зверніться до служби підтримки, якщо нічого не прибуває.",
+      "paymentVerifyFailed": "Ми не можемо підтвердити вашу оплату. Якщо ви заряджали, ваші квитки з'являться коротко — перевірте ще кілька хвилин.",
+      "refundFailed": "Ваш запит на повернення не може бути відправлений. Будь ласка, спробуйте знову або зв'яжіться з нами.",
+      "insufficientBalance": "Недостатній баланс для цієї операції.",
+      "payoutLocked": "Цей платіж не може бути змінений, оскільки процес вже розпочато. Якщо це помилка.",
+      "planLimitReached": "Ви досягнете ліміту плану. Оновити план продовжити.",
+      "countryNotSupported": "Платежі не доступні в цій країні. Ви можете створити захід за підтримки країни, або зв'язатися з нами."
+    },
+    "tickets": {
+      "offline": "Ти зараз. Квитки, які ви вже завантажили в автономному режимі. Спробуйте ще раз, коли ти повернувся онлайн.",
+      "timeout": "Ваші квитки збираються під час завантаження. Ніщо втрачено: вони безпечно збережені. Спробуйте ще раз.",
+      "server": "Наші сервери мають короткий час. Ваші квитки є безпечними для наших клієнтів. Спробуйте ще кілька хвилин.",
+      "notFound": "Ми не можемо знайти цей квиток. Ваші інші квитки не впливають. Перегляньте список або перевірте електронну пошту підтвердження.",
+      "forbidden": "Цей квиток належить до іншого облікового запису. Ваші квитки доручені. Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації."
+    },
+    "messages": {
+      "offline": "Ти зараз. Ваші повідомлення не загублені: ви будете виходити один раз, коли ви повернетесь онлайн. Спробуйте знову, коли мережа повертається.",
+      "timeout": "Відповідає повідомлення. Ваші повідомлення не загублені. Спробуйте ще раз.",
+      "server": "У нас є короткий час. Ваші розмови неможливі. Спробуйте ще кілька хвилин.",
+      "notFound": "Ця розмова не існує. Ваші інші розмови не впливають. Запишіться на повідомлення.",
+      "forbidden": "Ви більше не маєте доступу до цієї розмови. Ваші інші розмови ще доступні. Запишіться на повідомлення."
+    },
+    "event": {
+      "offline": "Ми не можемо показати цей захід. Ваші квитки доступні в автономному режимі. Спробуйте ще раз, коли ти повернувся онлайн.",
+      "timeout": "Ця сторінка заходу займає деякий час для завантаження. Ніщо не змінилося на боці. Спробуйте ще раз.",
+      "server": "Короткий прохід, який веде нас з показу цієї події. Ваші квитки та реєстрація не впливають. Спробуйте ще кілька хвилин.",
+      "notFound": "Ця подія вже не працює онлайн: організатор може видалити її. Будь-які квитки, які ви залишитеся в \"Мої квитки\". Більше подій очікується в Discover.",
+      "forbidden": "Цей захід є приватним. Ваш обліковий запис не існує. Запитати організатора для отримання доступу."
+    },
+    "upload": {
+      "offline": "Завантажити не вдалося: ви в автономному режимі. Ваш файл ще на вашому телефоні. Спробуйте ще раз, коли ти повернувся онлайн.",
+      "timeout": "Завантажити занадто довго. Ваш файл ще на вашому телефоні. Спробуйте знову, ідеально на Wi-Fi або з більш легким файлом.",
+      "server": "Сервер не може отримувати файл. Це все ще безпечно на телефоні. Спробуйте ще кілька хвилин.",
+      "notFound": "Завантажити не існує. Ваш файл є безпечним для вашого телефону. Відновити екран і спробувати знову.",
+      "forbidden": "Ви не можете завантажити цей файл тут. Це все ще безпечно на телефоні. Перевірити, що ви підписані в правому рахунку.",
+      "tooLarge": "Цей файл занадто великий для завантаження. Це все ще безпечно на телефоні. Підберіть більш легкий файл або обрізати зображення."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Гліття",
@@ -2572,7 +2854,10 @@
     "successTitle": "Вітаємо!",
     "successMessage": "Ти зараз організатор. Створіть свій перший захід!",
     "errorTitle": "Помилка",
-    "errorGeneric": "Помилки"
+    "errorGeneric": "Помилки",
+    "labelWebsite": "Веб-сайт (за бажанням)",
+    "labelDescription": "Опис (за бажанням)",
+    "placeholderDescription": "Вступ вашої організації..."
   },
   "verificationForm": {
     "pdfOpenError": "Не вдалося відкрити документ.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Гібрид",
     "priceAny": "Всі",
     "priceFree": "Безкоштовно",
-    "pricePaid": "Плеймейт"
+    "pricePaid": "Плеймейт",
+    "shareSearch": "Надіслати запит",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Фільтри",
@@ -2779,6 +3066,10 @@
     "statsRating": "ЗАМОВИТИ",
     "statsSince": "СИНЦЕ",
     "contactA11y": "Контакти",
+    "connectA11y": "Зв'язатися",
+    "connectedA11y": "Вже підключено",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Не з'єднатися. Будь ласка, спробуйте знову.",
     "bioEyebrow": "БІО",
     "bioTitle": "Про нас",
     "linksEyebrow": "Веб-сайт",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Анонс подій",
     "loadingEvents": "Завантаження",
     "noEvents": "Немає подій",
-    "freeBadge": "Безкоштовно"
+    "freeBadge": "Безкоштовно",
+    "tabs": {
+      "upcoming": "Доповнення",
+      "past": "Список"
+    }
   },
   "sessionDetails": {
     "title": "Сесія",
@@ -3160,7 +3455,7 @@
       "МАР",
       "АСП",
       "Мая",
-      "Яна",
+      "КУРСИ",
       "УКРАЇНСЬКА",
       "АУГ",
       "САП",
@@ -3223,7 +3518,12 @@
     "codeLabel": "КОД",
     "emptyEyebrow": "ЗАМОВИТИ",
     "emptyTitle": "Немає коду",
-    "emptySubtitle": "Ваші вихідні коди з’являються найближчим часом, оскільки вони доступні."
+    "emptySubtitle": "Ваші вихідні коди з’являються найближчим часом, оскільки вони доступні.",
+    "generateCta": "Генерація коду",
+    "generating": "Генерація",
+    "generateSuccess": "Реферальний код створений!",
+    "generateError": "Не генеруйте код. Будь ласка, спробуйте знову.",
+    "copySuccess": "Реферал посилання скопійовано"
   },
   "teamManagement": {
     "eyebrow": "КОМАНДА",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Перегляд аналітики",
     "perm_view_registrations": "Переглянути список реєстрацій",
     "perm_edit_event": "Редагування заходу",
-    "perm_manage_team": "Запрошення інших членів команди"
+    "perm_manage_team": "Запрошення інших членів команди",
+    "role_co_organizer": "Ко-організатор",
+    "role_moderator": "Модератор",
+    "role_scanner": "Сканер",
+    "role_analyst": "Аналіз",
+    "status_pending": "Закінчення",
+    "status_accepted": "Активний",
+    "status_declined": "Декольте",
+    "status_revoked": "Виклик",
+    "status_expired": "Зареєструватися"
   },
   "myTeamEvents": {
     "eyebrow": "ЗБЕРІГАЙТЕ СЦЕНИ",
@@ -3276,8 +3585,10 @@
     "willAttend": "Я там",
     "wontAttend": "Я не можу зробити це",
     "partySize": "Кількість додаткових гостей",
+    "partySizeHint": "На додаток до вас. Наприклад, якщо ви приносите 2 особи.",
     "dietary": "Дієтичні вимоги / алергії",
     "note": "Слово для пари",
+    "noteOptional": "Слово для пари (за бажанням)",
     "submit": "Відправити відгук",
     "thanksAccepted": "Дякуємо! Підтверджено Ваше звернення.",
     "thanksDeclined": "Дякуємо за те, що ми знаємо.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Ім'я",
     "giftMethod": "Спосіб оплати",
     "giftPay": "Сприяти",
-    "giftError": "Почати не можна."
+    "giftThanks": "Дякуємо за ваш внесок!",
+    "giftRedirectNote": "Ви будете переадресовані на захищену сторінку оплати. Це нормально.",
+    "giftError": "Почати не можна.",
+    "rsvpSubmitError": "Ваша відповідь не може бути відправлена. Будь ласка, спробуйте знову.",
+    "summaryTitle": "Ваша відповідь",
+    "summaryAccepted": "Ви підтверджуєте свою згоду.",
+    "summaryDeclined": "Ви загубили запрошення.",
+    "summaryPartySize": "Гостям пропонують відпочити з улюбленим напоєм",
+    "summaryHeadcount": "Шахрайство",
+    "summaryDietary": "Дієтичні потреби",
+    "summaryTable": "Ваш стіл",
+    "summaryTablePending": "Ваш стіл буде поділений до заходу."
   },
   "teamInvitation": {
     "eyebrow": "ІНВИТАЦІЯ",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Read-only обговорення. Збережіть свої повідомлення.",
     "mutedLockMessage": "Про це повідомляє організатор.",
     "postingLockMessage": "Тільки організатор може розміститися в цій дискусії.",
-    "defaultUserName": "Користувач"
+    "defaultUserName": "Користувач",
+    "someFilesQueuedForRetry": "Деякі файли будуть повторюватися після підключення.",
+    "retrySend": "птиця",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Скрол до дна",
+    "tapToLoadImage": "Навантаження",
+    "reply": "Відправити",
+    "react": "Редакція",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Прочитати розмову.",
+    "headerCollapseA11y": "Приховати банер",
+    "headerExpandA11y": "Показати банер",
+    "headerCollapseLabel": "Приват",
+    "headerExpandLabel": "Деталі заходу"
   },
   "scanForm": {
     "loading": "Завантаження",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Модератор",
     "roleAdmin": "Головна",
     "fallbackEvent": "Події",
-    "fallbackUnknownUser": "Користувач"
+    "fallbackUnknownUser": "Користувач",
+    "statusUnknown": "Невідомий статус"
   },
   "refundRequest": {
     "watermarkBack": "ЗАМОВИТИ",
     "watermarkOops": "СОНИ",
     "loadError": "Чи не завантажити реквізити оплати",
     "paymentNotFound": "Не знайдено",
+    "blockedNotOwner": "Цей платіж не пов'язаний з вашим обліковим записом, тому ви не можете вимагати повернення коштів за нього.",
+    "blockedNotCompleted": "Тільки підтверджені платежі можуть бути повернені. Цей платіж не є в поверненому стані.",
+    "blockedAlreadyRequested": "Заява про повернення коштів вже в процесі оплати.",
+    "blockedGeneric": "Цей платіж не має права на повернення коштів.",
     "back": "Зареєструватися",
     "closeA11y": "Головна",
     "eyebrow": "РЕФОНД • РЕФОНД",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Код доступу (за бажанням)",
       "accessCodeHint": "Відвідувачам необхідно ввести цей код, щоб побачити деталі",
       "accessCodePlaceholder": "Залиште порожній для коду",
-      "featuredInfo": "Ви можете скористатися Вашою подією після створення «Мої події»."
+      "accessCodeKeepPlaceholder": "Новий код (завантажити порожній, щоб зберегти поточний)",
+      "accessCodeActive": "Код доступу активний.",
+      "accessCodeWillBeRemoved": "Код буде видалено при збереженні.",
+      "accessCodeRemove": "Видалити код",
+      "accessCodeUndoRemove": "Недо",
+      "featuredInfo": "Ви можете скористатися Вашою подією після створення «Мої події».",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Дата та місце",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Виберіть на карті",
       "mapHint": "Для відображення події на карті та ввімкнути навігацію",
       "virtualLocationTitle": "Віртуальне розташування",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Вбудована відеоконференція — приміщення створюється автоматично, не потрібно зовнішнього посилання.",
       "platformLabel": "Платформи",
       "platformPlaceholder": "Ex: Зомбі, Google Meet, Команди",
       "connectionUrlLabel": "посилання підключення",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Початок продажів",
       "salesEndLabel": "Кінець продажів",
       "visibleLabel": "Вибрані",
+      "accessModeLabel": "Доступ, що надається цим квитком",
+      "accessInPerson": "У людини",
+      "accessOnline": "Інтернет",
+      "accessBoth": "І",
       "visibleDesc": "Відобразити цей квиток публічно",
       "addAnotherTicket": "Додати інший квиток",
       "registrationFormTitle": "Форма реєстрації (за бажанням)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Закрити меню",
       "cancel": "Зареєструватися"
+    },
+    "venuePicker": {
+      "label": "Використовуйте збережені місця",
+      "hint": "Заповнюємо поля автоматично. Ви можете відрегулювати їх після"
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Поломка типу події",
       "sourcePaymentMethods": "Способи оплати",
       "sourceGeographical": "Географія"
-    }
+    },
+    "widgetDataUnavailable": "Дані недоступні."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Попереднє",
       "next": "Про нас",
       "selectDatePlaceholder": "Виберіть дату",
-      "selectTimePlaceholder": "Виберіть час"
+      "selectTimePlaceholder": "Виберіть час",
+      "selectPlaceholder": "Вибрані",
+      "searchPlaceholder": "Пошук"
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Квитки додано успішно",
     "alreadyRegisteredConfirmTitle": "Вже зареєстровано",
     "alreadyRegisteredConfirmMessage": "Ви вже зареєстровані для цього заходу.",
-    "createRegistrationError": "Не вдалося створити реєстрацію"
+    "createRegistrationError": "Не вдалося створити реєстрацію",
+    "accessMode": {
+      "in_person": "У людини тільки",
+      "online": "Інтернет-доступ",
+      "hybrid": "Інтернет"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Тільки одне місце зліва",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Покупки пауті",
+    "suspendedByIncident": "Придбання тимчасово призупинені внаслідок інциденту. Дотримуйтесь оновлень на сторінці Статусу."
   },
   "registrationDetails": {
     "headerInscription": "Реєстрація",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Скасування",
     "statusInscriptionRejected": "Відхилено",
     "statusInscriptionValidated": "Досягнення",
-    "statusInscriptionUnknown": "Невідомо"
+    "statusInscriptionUnknown": "Невідомо",
+    "pdfEyebrow": "РЕЄСТРАЦІЯ СУМАР",
+    "pdfDate": "Дата",
+    "pdfPlace": "Виноград",
+    "pdfReference": "Посилання",
+    "pdfStatus": "Статус на сервери",
+    "pdfQrHint": "Показати цей QR-код на вході",
+    "pdfShareDialog": "Поділитися резюме",
+    "pdfError": "Не генеруйте PDF прямо зараз.",
+    "pdfA11y": "Експорт резюме у форматі PDF"
   },
   "qrCode": {
     "headerEyebrow": "ТИТЕТ · ",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR-код буде відскановано на вході",
     "tipArriveLines": "З часом пропустити лінії",
     "validatedTitle": "Квиток дійсний",
+    "stampValidated": "Перевірити",
     "validatedAt": "Вiдповiдальнiсть на 1",
     "paymentPendingTitle": "Кредитне кредитування",
     "paymentPendingDesc": "Поповнити платіж",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Підтвердження",
     "statusPending": "Закінчення",
     "statusCancelled": "Скасування",
-    "statusValidated": "Досягнення"
+    "statusValidated": "Досягнення",
+    "pdfOnline": "Веб-сайт",
+    "statusUnknown": "Невідомий статус",
+    "presentHint": "Натисніть для збільшення коду, тривалого тиску на доказ дії.",
+    "presentA11yAction": "Введіть код для перевірки",
+    "proofA11yAction": "Показати доказ дії",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Забронювати квиток",
+    "presentExitHint": "Натисніть, щоб повернутися назад"
   },
   "offlineTickets": {
     "headerTitle": "Оффлайн",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Ви хочете видалити цей квиток з автономного кешу?",
     "showQR": "Показати QR",
     "hideQR": "Приховати QR",
-    "pastBadge": "Список"
+    "pastBadge": "Список",
+    "download": "Завантажити квиток",
+    "pdfEyebrow": "КУРСИ",
+    "pdfReference": "Посилання",
+    "pdfType": "Тип квитків",
+    "pdfQuantity": "Кількість",
+    "pdfDate": "Дата",
+    "pdfShareDialog": "Зберегти / обміняти квиток",
+    "pdfError": "Чи не генерувати PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Трансфери",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Зареєструватися",
     "similarEventsEyebrow": "РЕКОМЕНДАЦІЇ",
     "similarEventsTitle": "Схожі події",
-    "similarEventA11y": "Переглянути "
+    "similarEventA11y": "Переглянути ",
+    "virtualLiveNow": "Зв'язатися з нами",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Приєднуйтесь",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Відеозв'язок 0",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "У прямому ефірі ще немає",
+    "virtualWaitingHostNote": "Ви зможете долучитись до найближчого організатора.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Головна",
+      "session": "Сесія",
+      "breakout": "Пробити",
+      "networking": "Партнерство",
+      "workshop": "Семінар"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Завершився продаж",
+    "ticketsSaleNotStarted": "На продажу",
+    "peekSave": "Зберегти",
+    "peekUnsave": "Видалити з збережених",
+    "peekShare": "Поділитися",
+    "peekOpen": "Відкрито",
+    "peekA11yHint": "Тримач для попереднього перегляду",
+    "swipeSave": "Збережіть",
+    "swipeUnsave": "Видалити",
+    "swipeHint": "Купуйте, щоб зберегти",
+    "swipeRemoved": "Видалити з збережених",
+    "swipeUndo": "Недо",
+    "swipeRemove": "Прибрати",
+    "weather": {
+      "sunny": "Сонячний",
+      "partlySunny": "Сонячні заклинання",
+      "cloudy": "Хмарно",
+      "fog": "Фог",
+      "rain": "Дощ",
+      "snow": "Сонце",
+      "showers": "Душа",
+      "thunderstorm": "Грім",
+      "variable": "Зміна"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Оберіть формат",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Коли цей організатор публікує новий захід",
     "followPrefsSave": "Зберегти налаштування",
     "followPrefsSaveA11y": "Зберегти налаштування",
-    "inAppToastA11y": "     "
+    "inAppToastA11y": "     ",
+    "webviewVisioTitle": "Відеозв'язок",
+    "webviewOfflineTitle": "Ви офлайн",
+    "webviewOfflineBody": "Ваш пристрій втратив його підключення. Зателефонувати буде відновлено, як тільки мережа повертається.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Виявлено з’єднання — відео може бути деградований і використовувати ваші дані."
   },
   "messageRequests": {
     "eyebrow": "АНТИ-СПАМ",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Камера обов'язкова",
     "permissionSubtitle": "Для сканування QR, EventEz потрібен доступ до камери.",
     "permissionGrant": "Камера Allow"
+  },
+  "media": {
+    "sheetTitle": "Що б ви хотіли зробити?",
+    "saveToGallery": "Зберегти в галереї",
+    "share": "Поділитися",
+    "savedToGallery": "Збережено до галереї",
+    "permissionDeniedTitle": "Відхилено",
+    "permissionDeniedMessage": "Увімкнути доступ до фото в налаштуваннях для збереження.",
+    "sharingUnavailable": "Шприц не доступний на цьому пристрої.",
+    "downloadFailed": "Завантажити не вдалося. Будь ласка, спробуйте знову.",
+    "genericError": "Хтось пішов неправильно. Будь ласка, спробуйте знову."
   },
   "componentsMessages": {
     "inputJoinFile": "Додати файл",
@@ -5127,7 +5585,7 @@
     "messages": "МАГАЗИНИ",
     "suggestions": "Закупи",
     "theme": "Головна",
-    "timezoneSoon": "ТИМЗОН · SOON",
+    "timezone": "ЧАС ЗОН",
     "soundEffects": "ЕЛЕФЕКТИВНІСТЬ",
     "authSoon": "Аудиторія · SOON",
     "connectionsSoon": "КОНКУРСИ · SOON",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · САВЕД",
     "tabMessages": "03 · ОБМЕЖЕННЯ",
     "tabTickets": "04 · ТИТКИ",
-    "tabProfile": "05 · ПРОФІЛЬ"
+    "tabProfile": "05 · ПРОФІЛЬ",
+    "push": "Кошик",
+    "privacy": "Контакти",
+    "memories": "Мапа",
+    "yearInReview": "Рік огляду"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "У",
-      "selectedCount_plural": "У",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Затвердження",
       "reject": "Відправити",
       "checkIn": "Зареєструватися"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Промокоди",
         "linkSessions": "Посилання на сеанси",
         "addPhotos": "Додати фотографії",
+        "startLive": "Головна",
         "volunteers": "Волонтери",
         "sponsors": "Спонсори",
         "seatingPlans": "Плани посадки",
@@ -5636,7 +6099,14 @@
         "duplicate": "Дублікат",
         "cancelEvent": "Скасувати захід",
         "cancelEventDesc": "Повідомити реєстраторів",
-        "deleteDesc": "Незламна дія"
+        "deleteDesc": "Незламна дія",
+        "invite": "Запрошення гостей",
+        "inviteDescInviteOnly": "Єдиний спосіб надання доступу до цього заходу",
+        "duplicatePastDesc": "Почати з редагованого копіювання",
+        "remindInvites": "Відповідні гості",
+        "weddingGuests": "Гостям і РСВП",
+        "weddingGifts": "Статус на сервери",
+        "weddingTables": "Планування сидіння"
       },
       "emptyEyebrowResults": "НЕ РЕЗУЛЬТАТИ",
       "emptyEyebrowCatalog": "EMPTY КАТАЛОГ",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "E.g. умови здоров'я, місце проживання 0",
       "keepBtn": "Зареєструватися",
       "cancelEventBtn": "Скасувати захід",
+      "cancelHolding": "Про нас",
       "recurrenceEyebrow": "РЕКУРСИ",
       "recurrenceModalTitle": "Графік роботи \"10.00\"",
       "recurrenceModalBody": "Створіть декілька випадків з цієї події. Кожна подія - незалежна нова подія, яку можна регулювати.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Цей захід живий. Якщо ви зміните критичні поля (title, дати, місце розташування, тип, ємність), вона буде відправлена назад до валідації та тимчасово заховані до повторного затвердження.",
       "editValidatedConfirm": "Редагувати будь-який шлях",
       "actionEditValidated": "Редагування",
-      "actionEditValidatedDesc": "Критичні поля → ревальвація"
+      "actionEditValidatedDesc": "Критичні поля → ревальвація",
+      "inviteEyebrow": "Контакти",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Відокремлений кома або новий рядок",
+      "inviteMessagePlaceholder": "Особисте повідомлення (необов'язково)",
+      "inviteSendBtn": "Надіслати запрошення",
+      "inviteEmptyTitle": "Немає електронної пошти",
+      "inviteEmptyMessage": "Введіть принаймні одну адресу електронної пошти.",
+      "inviteInvalidTitle": "Недійсні електронні листи",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Запрошення відправлено",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Не надсилати запрошення.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Немає гостя нагадувати зараз.",
+      "remindErrorTitle": "Не вдалося",
+      "remindErrorMessage": "Нагадки не можуть бути відправлені. Будь ласка, спробуйте знову.",
+      "remindPendingProgress": "Відправлення нагадування...",
+      "loadError": "Не завантажуйте ваші події. Перевірити підключення."
     },
     "volunteer": {
       "tabReceived": "Надійшла (ͼ)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації.",
       "sessionRecapTitle": "Реквізити сеансу",
       "sessionRecapBody": "  \nй\n浜у 涓 蹇",
-      "sessionRecapQueue": "й"
+      "sessionRecapQueue": "й",
+      "manualModeBanner": "Ручний режим — 1 тап з особи",
+      "manualModeA11y": "Ручний режим на. Натисніть, щоб повернути автоматичну перевірку.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Ці люди вийшли, поки мережа була вниз. Перевірте свою команду.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Прийнята в автономному режимі, відхилена на синхронізацію. Якщо інший агент був сканування одночасно, ці люди отримали двічі.",
+      "voice": {
+        "valid": "Дійсний квиток",
+        "validWarning": "Дійсно, потрібна перевірка",
+        "alreadyCheckedIn": "Вже зареєстровано",
+        "refused": "Відхилений квиток",
+        "enabled": "Голосові оголошення про",
+        "toggleOn": "Голосові оголошення про",
+        "toggleOff": "Голосові оголошення",
+        "toggleA11y": "Увімкніть голосові оголошення або вимкнено"
+      }
     },
     "liveOps": {
       "live": "ЖИТТЯ",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "ВАЖЛИВО",
       "headerTitle": "Аналітика",
+      "errorTitle": "Аналітика 0",
+      "errorBody": "Не завантажуйте дані. Перевірити підключення і спробувати знову.",
       "eventLabel": "ВИСТАВКА",
       "kpiViews": "Погляд",
       "kpiRegistrations": "Реєстрація",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Ваш захід був переглянутий ",
       "insightViewsNone": "Дізнайтеся більше про події",
       "insightRegistered_one": "У԰",
-      "insightRegistered_other": "  "
+      "insightRegistered_other": "  ",
+      "actionBoxOffice": "Офісні коробки"
     },
     "sessionsLink": {
       "headerEyebrow": "СЕСІЯ • СЕСІЇ",
@@ -6077,6 +6599,16 @@
       "emptyText": "Спонсори з'являться тут, коли додано партнерство."
     },
     "eventCreate": {
+      "aiAppliedMessage": "До форми застосовано пропозиції AI",
+      "aiTitleSuggestionsTitle": "Назва пропозиції",
+      "aiPricingSuggestionsTitle": "Пропозиції щодо ціноутворення AI",
+      "aiTicketsCreated": "Квитки, створені з пропозицій AI",
+      "aiDescGenerated": "Опис генерується AI",
+      "aiNeedTitleFirst": "Додайте назву першого, так що AI може генерувати опис.",
+      "galleryPermissionTitle": "Необхідний дозвіл",
+      "galleryPermissionMessage": "Будь ласка, надайте доступ до бібліотеки",
+      "videoTooLargeTitle": "Відео занадто великий",
+      "videoTooLargeMessage": "Відео повинно бути до 20 Мб.",
       "unsupportedCountryTitle": "Країна не доступна",
       "unsupportedCountryMessage": "EventEz не може обробляти платежі в цій країні, але (посилання 0). Створення заходу буде відхилено. Підтримувані країни: NotchPay, CinetPay і Stripe (46 країн).",
       "draftFoundTitle": "Знайдено",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Захід успішно подано",
       "viewMyEvents": "Переглянути події",
       "createAnother": "Створити ще",
+      "submittedStamp": "Огляд",
+      "submittedEyebrow": "Представлений для перегляду",
+      "submittedBody": "Наша команда переглядає ваш захід. Ви будете повідомлені, як тільки це буде жити.",
+      "submittedCtaEyebrow": "Ташборд",
       "edit": "Редагування",
       "saved": "Смоктати",
       "back": "Зареєструватися",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Квиток \"0\" макс. за замовлення повинні бути ≥ хв",
         "fieldLabelRequired": "Поле No0 мітки обов'язкове",
         "fieldOptionsRequired": "Варіанти обов’язкові для поля \"0\""
-      }
+      },
+      "loadFailedBlocksSave": "Дані події не можуть бути завантажені. Перезавантажити сторінку перед збереженням, в іншому випадку буде перезаписана інформація."
     },
     "eventRegistrations": {
       "title": "Реєстрація",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF експорт, панельи",
       "linkMyEventsTitle": "Події",
       "linkMyEventsSub": "Стати на заході"
+    },
+    "boxOffice": {
+      "openTitle": "Перейти до вмісту",
+      "openingFloatHelp": "Скільки змін зробив організатор? Без нього буде неправильно.",
+      "openDrawer": "Перейти до вмісту",
+      "openError": "Не вдалося відкрити",
+      "openErrorDetail": "Перевірити підключення і спробувати знову.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Закрити",
+      "cash": "Готівка",
+      "momo": "Мобільні гроші",
+      "giveBack": "ЖИТИ НАЗАД",
+      "saleError": "Продаж не було записано",
+      "saleErrorDetail": "Не перейменуйте продаж: спробуйте знову, він не буде заряджений двічі.",
+      "a11y": {
+        "drawerOpened": "Відкрито",
+        "openingFloatInput": "Відкриття float суми",
+        "openDrawer": "Перейти до вмісту",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Закрийте до",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Візьміть мобільний гроші",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "ЗАМОВИТИ",
+      "cashOnlyHint": "Тільки готівкою — Мобільні гроші не в сумці.",
+      "openingFloat": "Відкриття плавлення",
+      "salesCount": "Продаж",
+      "countedLabel": "Я рахував",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Це не блокує. Ось чому нижче.",
+      "reasonLabel": "Розширення (за бажанням)",
+      "reasonPlaceholder": "Наприклад, я дав 500 занадто багато змін",
+      "confirmClose": "Про нас",
+      "closedTitle": "Закрити",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Закриття не вдалося",
+      "closeErrorDetail": "Будь ласка, спробуйте ще раз.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Розрахункова сума",
+        "reasonInput": "Пояснення щодо змін",
+        "confirmClose": "Підтвердити закриття",
+        "closed": "Закрити"
+      }
+    },
+    "documents": {
+      "title": "Документи для друку",
+      "a11y": "Друковані документи",
+      "badges": "Attendee значки",
+      "badgesHint": "Формат А6, 4 на сторінку А4",
+      "attendanceSheet": "Вхідний лист",
+      "attendanceSheetHint": "Для реєстрації на передній стіл — готовий до заходу",
+      "certificates": "Сертифікати",
+      "certificatesHint": "Після проведення заходу для зареєстрованих учасників"
+    },
+    "weddingGuests": {
+      "title": "Гостям і РСВП",
+      "empty": "Немає гостей.",
+      "remindOne": "Ремінд",
+      "remindOneSent": "Відправлення відправлено",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Не відправляйте нагадування",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Редагування RSVP",
+      "editRsvpTitle": "Редагування RSVP",
+      "rsvpUpdated": "RSVP оновлений",
+      "rsvpError": "Не вдалося зберегти RSVP",
+      "partySize": "Розмір партії",
+      "dietary": "Дієтичні вимоги",
+      "dietaryPlaceholder": "Вегетаріанський, безглютеновий ...",
+      "note": "Зареєструватися",
+      "stats": {
+        "invited": "Запрошення",
+        "accepted": "Підтвердження",
+        "pending": "Закінчення",
+        "headcount": "Головна"
+      },
+      "status": {
+        "pending": "Закінчення",
+        "accepted": "Підтвердження",
+        "declined": "Декольте",
+        "cancelled": "Скасування"
+      }
+    },
+    "weddingGifts": {
+      "title": "Статус на сервери",
+      "noRegistry": "Для цього заходу немає реєстрів подарунків.",
+      "create": "Створення реєстру",
+      "registryCreated": "Статус на сервери",
+      "registryUpdated": "Статус на сервери",
+      "editRegistry": "Редагування реєстру",
+      "registryTitle": "Реєстрація",
+      "registryDescription": "Повідомлення гостям",
+      "visible": "Статус на сервери",
+      "hidden": "прихована",
+      "totalRaised": "Загальний збір",
+      "share": "Поділитися",
+      "addItem": "Додати подарунок",
+      "newItem": "Новий подарунок",
+      "editItem": "Редагувати подарунок",
+      "itemName": "Ім'я",
+      "itemKind": "Тип",
+      "targetAmount": "Цільова сума",
+      "externalUrl": "Зовнішні посилання (за бажанням)",
+      "itemAdded": "Подарунок",
+      "itemUpdated": "Оновлено",
+      "itemDeleted": "Подарунок видалено",
+      "deleteItemTitle": "Видалити цей подарунок",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Зареєструватися",
+      "noItems": "Немає подарунків. Додати",
+      "kind": {
+        "gift": "Подарунок (item)",
+        "cash_fund": "Фінансовий фонд"
+      },
+      "error": "Хтось пішов неправильно"
+    },
+    "weddingTables": {
+      "title": "Планування сидіння",
+      "noTables": "Ніяких таблиць. Створення одного.",
+      "addTable": "Додати таблицю",
+      "newTable": "Новий стіл",
+      "editTable": "Редагування таблиці",
+      "name": "Назва таблиці",
+      "namePlaceholder": "Стіл 1, Сім'я...",
+      "capacity": "Кошик",
+      "created": "Складання таблиці",
+      "updated": "Оновлення таблиці",
+      "deleted": "Видалити таблицю",
+      "deleteTitle": "Видалити таблицю",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Повна",
+      "tableEmpty": "Немає в таблиці",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Готель знаходиться в самому серці Києва.",
+      "createFirst": "Створіть столик першим, щоб розмістити гостей.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Гостьові будинки",
+      "unassign": "Прибрати",
+      "unassigned": "Прийняти",
+      "capacityError": "Не вистачає місць на цьому столі.",
+      "error": "Хтось пішов неправильно"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Події",
       "kpiRevenue": "Виноград",
       "kpiVerifications": "Верифікація",
+      "activityChartTitle": "Діяльність платформи",
+      "activityChartSubtitle": "Дії аудиту за останні 7 днів",
       "quickActions": "АКЦІЇ",
       "recentActivity": "АКТИВНІСТЬ",
       "noActivity": "Нещодавня діяльність",
       "viewAllAudit": "Переглянути всі журнали аудиту",
       "actions": {
         "users": "Користувачі",
+        "verifications": "Верифікація",
         "subscriptions": "Підписка",
         "audit": "Аудит",
         "announcements": "Анонси",
@@ -6369,6 +7066,30 @@
         "settings": "Налаштування",
         "treasury": "Спортивний"
       }
+    },
+    "verifications": {
+      "watermark": "КИЇВ",
+      "guardTitle": "Обмеження доступу",
+      "eyebrow": "Розсилка",
+      "title": "Перевірка запитів",
+      "typeOrg": "Організація",
+      "typeIndividual": "Індивідуальні",
+      "noDocuments": "Документи",
+      "approve": "Затвердження",
+      "reject": "Відправити",
+      "approveTitle": "Затвердження перевірки",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Підтвердити затвердження цієї перевірки",
+      "approveSuccess": "Організатор перевірений",
+      "rejectTitle": "За запитом",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Причина відмови",
+      "rejectReasonRequired": "Причина потрібна.",
+      "rejectSuccess": "Запит відхилений",
+      "actionError": "Не вдалося. Будь ласка, спробуйте знову.",
+      "loadError": "Помилки не перевіряють запити.",
+      "emptyTitle": "Відсутність запитань",
+      "emptySubtitle": "Тут з’являться нові запити організаторів."
     },
     "platformSettings": {
       "watermark": "БРГ",
@@ -6478,6 +7199,16 @@
       "loadError": "Неможливо завантажити користувача",
       "roleSection": "РОЛЬ",
       "actionsSection": "АКЦІЇ",
+      "profileSection": "Профілактика",
+      "fieldFirstName": "Ім'я",
+      "fieldLastName": "Ім'я",
+      "fieldEmail": "Веб-сайт",
+      "fieldPhone": "Зареєструватися",
+      "fieldCompany": "Компанія",
+      "saveProfile": "Зберегти профіль",
+      "profileUpdated": "Профіль оновлений",
+      "profileUpdateError": "Не можна оновити профіль.",
+      "emailRequired": "Обов'язковий лист.",
       "infoSection": "Контакти",
       "active": "Активний",
       "inactive": "Неактивний",
@@ -6670,6 +7401,21 @@
       "title": "Журнали аудиту",
       "target": "Мета",
       "user": "Користувач # ",
+      "detail": {
+        "guardTitle": "Детальніше",
+        "eyebrow": "Журнал аудиту",
+        "title": "Детальніше",
+        "action": "Дія",
+        "target": "Мета",
+        "user": "Користувач",
+        "system": "Система",
+        "timestamp": "Таймер",
+        "ip": "IP-адреса",
+        "userAgent": "Пристрої / браузер",
+        "changes": "Зміни",
+        "metadata": "Детальніше",
+        "loadError": "Не завантажуйте цей журнал."
+      },
       "stats": {
         "total": "Всього"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Гість електронної пошти",
     "delegateError": "Не відправляти запрошення.",
     "toCompleteBadge": "У "
+  },
+  "shareCard": {
+    "eyebrow": "Я БУТИ",
+    "button": "Поділитися з історією",
+    "dialogTitle": "Поділитися моїм",
+    "cta": "Забронювати місце →",
+    "errorTitle": "Поділитися",
+    "errorMessage": "Чи не генерувати картку прямо зараз."
+  },
+  "badges": {
+    "verified": "Перевірено",
+    "pioneer": "Піонер",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "ВИСТАВКА",
+    "title": "Застосовувати для кабіни",
+    "lead": "Введіть Ваше підприємство для запуску кабіни на цьому шоу. Організатор оцінить Ваш запит.",
+    "companyLabel": "Назва компанії",
+    "companyPlaceholder": "HYIP и SSL",
+    "categoryLabel": "Промисловість / категорія",
+    "categoryPlaceholder": "e.g. Технологія, харчування...",
+    "websiteLabel": "Веб-сайт (за бажанням)",
+    "pitchLabel": "Повідомлення організатору (за бажанням)",
+    "pitchPlaceholder": "Опишіть ваш бізнес, що ви покажете ...",
+    "boothLabel": "Накладний стенд (за бажанням)",
+    "submit": "Надіслати заявку",
+    "submitting": "Відправити",
+    "successTitle": "Додаток надіслано!",
+    "successSubtitle": "Організатор покаже його. Ви будете повідомлені про своє рішення.",
+    "goToMyBooth": "Переглянути мій стенд",
+    "alreadyApplied": "Ви вже звикли до цього шоу.",
+    "loginRequired": "Зареєструватися на стенд.",
+    "login": "Увійти",
+    "errorSubmit": "Не можна надсилати заявку.",
+    "ctaTitle": "Запуск кабіни на цьому шоу?",
+    "ctaSubtitle": "Застосувати за секундами.",
+    "ctaButton": "Стати учасником"
+  },
+  "myBoothMobile": {
+    "eyebrow": "ВИСТАВКА",
+    "title": "Мій стенд",
+    "empty": "Немає бронювання кабіни.",
+    "show": "Почати",
+    "accepted": "Умови приймаються.",
+    "acceptError": "Не приймати.",
+    "salesTitle": "Делеговані продажі",
+    "commission": "EventEz commission",
+    "hostShare": "Частка організатора",
+    "net": "Що ви зберігаєте",
+    "createEvent": "Створіть свій захід",
+    "acceptCta": "Я приймаю ці умови",
+    "statusPaid": "Плеймейт",
+    "statusPartial": "Депозитний платіж",
+    "statusPending": "Оплатити",
+    "amountDue": "Кількість чохла",
+    "amountRemaining": "Поповнення платежу",
+    "payBooth": "Оплатити свій стенд",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Карта сайту",
+    "paymentInitiated": "Плата ініціюється. Підтвердіть його на телефоні.",
+    "payError": "Не можна ініціювати оплату кабіни.",
+    "captureLeads": "Контакти",
+    "viewLeads": "Контакти"
+  },
+  "leadCapture": {
+    "title": "Захоплення контакту",
+    "hint": "Ставка на QR-код на значок відвідувачів.",
+    "permissionTitle": "Доступ до відеокамери",
+    "permissionBody": "Камера використовується тільки для читання значних QR-кодів відвідувачів, які погодилися контактувати.",
+    "permissionCta": "Поверніть на камеру",
+    "manualEntry": "Введіть посилання замість",
+    "manualPlaceholder": "Посилання",
+    "unnamed": "Контакти",
+    "alreadyKnown": "Вже зустрінеться — запис оновлений.",
+    "qualify": "Перевірити цей контакт",
+    "rating_hot": "Гарячий",
+    "rating_warm": "Теплий",
+    "rating_cold": "Холодний",
+    "notesPlaceholder": "Що ви говорили про (за бажанням)",
+    "next": "Зворотній зв'язок",
+    "retry": "Сканування знову",
+    "noConsentTitle": "Цей відвідувач не погодився",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Бадж не визнаний",
+    "notFoundBody": "Цей значок не належить до цієї події. Перевірити посилання на QR-код.",
+    "errorTitle": "Скасування не вдалося",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Цей відвідувач не погоджується з контактами.",
+    "a11yNotFound": "Бадж не визнаний.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Сьогодні",
+    "yesterday": "Погода",
+    "justNow": "Зараз",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Відправити",
+    "failed": "Відправити",
+    "sent": "Сент",
+    "delivered": "Закупівля",
+    "read": "Читати далі"
+  },
+  "myLeads": {
+    "title": "Контакти",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Контакти",
+    "emptyTitle": "Немає контактів",
+    "emptyBody": "Скануйте значок відвідувачів, які зупиняються на вашому стенді. Ви можете експортувати повний список як CSV.",
+    "errorTitle": "Не навантажувати",
+    "errorBody": "Ваші контакти безпечно збережені. Перевірити підключення і спробувати знову."
+  },
+  "myDataExhibitors": {
+    "title": "Моя інформація про учасників виставки",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Затирання",
+    "eraseAll": "Змазати всі",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Ваші контактні дані були вилучені.",
+    "eraseError": "Застава не ходила.",
+    "confirmCta": "Затирання",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Збережіть свої дані, що проводяться кожним експонентом?",
+    "confirmAllBody": "Введіть номер мобільного, який Ви вказали при укладаннi договору з нами Це не може бути неоновим.",
+    "emptyTitle": "Не компанія зберігає ваші контактні дані",
+    "emptyBody": "Ви можете зберегти ваші дані лише за допомогою сканування вашого значка, і тільки якщо це дозволено для цього заходу."
+  },
+  "visio": {
+    "expandCall": "Розширити відеозв'язок",
+    "endCall": "Зворотній дзвінок",
+    "endCallConfirmTitle": "Залишити коментар?",
+    "endCallConfirmMessage": "Про те, щоб залишити на постійній зустрічі.",
+    "minimize": "Мінімізації",
+    "liveNow": "ЖИТТЯ",
+    "join": "Увійти",
+    "view": "Переглянути",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Переглянути",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Розмір"
+  },
+  "organize": {
+    "favorites": "Мій улюбленець",
+    "eyebrow": "Організатор",
+    "title": "Про нас",
+    "liveNow": "Зв'язатися з нами",
+    "nextEvent": "Наступний захід",
+    "registered": "Реєстрація",
+    "scan": "Сканування",
+    "scanA11y": "Сканування квитків на цей захід",
+    "boxOffice": "Офісні коробки",
+    "boxOfficeA11y": "Відкрийте офіс для цього заходу",
+    "viewStats": "Перегляд статутів",
+    "availableBalance": "Доступний баланс",
+    "walletA11y": "Відкрийте свій гаманець",
+    "noActiveEvent": "Ні проведення заходу",
+    "noActiveEventHint": "Створіть захід або опишіть проект, щоб побачити його тут.",
+    "noStaffEventHint": "Заходи, де ви є частиною команди.",
+    "createEvent": "Створення заходу",
+    "myEvents": "Події",
+    "teamEvents": "Події",
+    "analytics": "Аналітика",
+    "loadError": "Не завантажуйте простір. Перевірити підключення."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Ви в",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "В тиждень",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Двері відкриті",
+    "onNow": "Захоплення зараз",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Квиток доступні в автономному режимі",
+    "offlinePending": "Відкрийте для себе квиток",
+    "sayImGoing": "Я збираюся",
+    "showTicket": "Показати квиток",
+    "directions": "Навігація",
+    "viewTicket": "Переглянути квиток",
+    "goThere": "Про нас",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Калібрувати компас: намалювати цифру 8 з телефоном",
+    "compassHint": "Дотримуйтесь стріли на місце"
+  },
+  "onSite": {
+    "eyebrow": "На сайті",
+    "now": "Віджети",
+    "next": "Next · {{time}}",
+    "qa": "Живий Q&A",
+    "plan": "Карта сайту",
+    "networking": "Партнерство"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Ти там",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Спочатку прибути",
+    "question": "Що ви думаєте?",
+    "thanks": "Дякую за ваш рейтинг.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Поділитися з історією",
+    "later": "Навігація"
+  },
+  "yearInReview": {
+    "eyebrow": "Ваш рік",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "участь у заході",
+    "s1Line_other": "події",
+    "citiesEyebrow": "На дорозі",
+    "categoryEyebrow": "Ваше свято",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Все почалося",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Погода",
+    "arrivalsLine_one": "перший раз, щоб прибути",
+    "arrivalsLine_other": "перший раз, щоб прибути",
+    "organizerEyebrow": "Ваш органайзер",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Надіслати картку",
+    "tapHint": "Натисніть, щоб продовжити"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Перший учасник",
+      "someone": "Хтось",
+      "share": "Поділитися з продажами",
+      "view": "Переглянути",
+      "soldOutTitle": "Продано",
+      "soldOutLine": "кожен квиток"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "ЗДОРОВ'Я",
+      "online": "ЖИТТЯ"
+    },
+    "share": {
+      "cta": "Поділитися учасником заходу",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Почати",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Подати заявку",
+      "approved": "Затвердження",
+      "sent": "Сент",
+      "verifying": "Перевірка оператора",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Не вдалося"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Вену практично повний",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Кінець зсуву",
+      "validated": "Перевірити",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Пейзаж",
+      "refused": "Відмова",
+      "syncing": "Синхронізація",
+      "synced": "Синхронізація",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Перегляд живих ops",
+      "resume": "Резюме",
+      "close": "Оздоблення"
+    },
+    "recap": {
+      "title": "Реквізити",
+      "eyebrow": "ВЕЛИКИЙ РЕКАП",
+      "attended": "Приват",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Виноград",
+      "rating": "Середній рейтинг",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Немає відгуків",
+      "best": "Огляд Standout",
+      "latest": "Останні відгуки",
+      "thank": "Дякуємо учасникам",
+      "funds": "Перегляд коштів",
+      "error": "Відстеження 1.00 прямо зараз.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Перегляд репакту"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Забронюйте зараз",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Заброньований в останній час",
+    "lastSaleToday": "Booked сьогодні",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Продано",
+    "soldOutCta": "Проданий · немає місць",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Ваші зв'язки, які збираються",
+    "someone": "Хтось",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Інтернет",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 час",
+    "seatHeldTitle": "Для Вас є місце для відпочинку",
+    "seatHeldBody": "Книга до закінчення відліку: після цього вона йде на наступну людину.",
+    "seatHeldCta": "Забронювати місце",
+    "seatHeldExpired": "Час: сидіння пішли на наступну людину.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Показати всі",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Редакція",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Один з ваших підключень прибув",
+    "connectionArrivedCta": "Повідомлення",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Живі продажі",
+    "checkinPushed": "Заїзд"
+  },
+  "reminders": {
+    "channelName": "Нагадування про події",
+    "dayBeforeTitle": "Нагадування: завтра",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Нагадування: в 1 годину",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Про нас",
+    "discoverSubtitle": "Події біля тебе",
+    "tickets": "Мій квиток",
+    "scan": "Сканування квитка"
+  },
+  "ongoing": {
+    "channelName": "День події",
+    "eventFallback": "Ваше свято",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Початок",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "На даний момент · Ваш квиток готовий",
+    "scannerTitle": "Сканер на миті"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Не останню дію?",
+      "confirm": "Недо",
+      "keep": "Зареєструватися",
+      "failed": "Не пропустіть. Перевірити підключення і спробувати знову.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Перемістити розмову з архівом."
+    },
+    "report": {
+      "title": "Звіт про проблему",
+      "subtitle": "Тест побудови: скріншот, екран і версія надсилаються з повідомленням.",
+      "noNote": "Звіт без коментаря",
+      "blur": "Бруней",
+      "noShot": "Ні скріншот, доступний на цьому екрані.",
+      "placeholder": "Що відбулося?",
+      "send": "Відправити",
+      "sent": "Дякуємо, що ваш звіт було надіслано.",
+      "unavailable": "Не можна надсилати: відстеження помилок не діє на цій будівлі."
+    },
+    "applause": {
+      "hint": "Тримайте на застібку довше.",
+      "a11y": "Довгий аплаз"
+    },
+    "hush": {
+      "title": "Мик і камера вимкнено, поки телефон був зіткнувся",
+      "reactivate": "Натисніть, щоб повернути їх назад"
+    },
+    "lighter": {
+      "button": "Лампи",
+      "off": "Поставити його",
+      "alone": "Зніміть свій телефон, полум'я перенесіть свої переміщення.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Сюрприз мене",
+      "chipA11y": "Найсвіжіші події",
+      "again": "Щебетати",
+      "none": "Відтепер не існує."
+    },
+    "bump": {
+      "settingTitle": "Обмін контактами по shaking",
+      "settingSubtitle": "На сайті, один раз, коли ваш квиток сканується: потріть в той же час, як хтось інший, щоб знайти один одного. Ваш приблизний розташування використовується протягом декількох секунд, щоб відповідати вам і не зберігатися. Ніщо відбувається без підтвердження. За замовчуванням.",
+      "button": "Обмін за допомогою гоління",
+      "nearbyButton": "Дивитися мене",
+      "hint": "Зробіть свій телефон одночасно, як і інші особи.",
+      "title": "Контакти",
+      "searching": "Шукаю людей похилого віку...",
+      "none": "Не знайдено. Знайте в той же момент, як і інша людина, потім спробуйте знову.",
+      "pick": "Підберіть праву людину. Немає нічого спільного без вашої згоди.",
+      "connect": "Зв'язатися",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Очікується підтвердження",
+      "connected": "Зв'язатися",
+      "openSettings": "Відкриті налаштування",
+      "error": {
+        "disabled": "Увімкніть «Замовити контакти шляхом гоління» у налаштуваннях.",
+        "notCheckedIn": "Після того, як квиток було відскановано на вході.",
+        "clockSkew": "Ваш телефонний годинник вимкнено. Налаштуйте його на автоматичний і знову спробуйте.",
+        "rateLimited": "Занадто багато спроб. Спробуйте знову в хвилину.",
+        "expired": "Розгортання. Почати знову.",
+        "noLocation": "Для того, щоб знайти людину біля вас.",
+        "generic": "Помилки не ходять. Спробуйте ще раз."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Заощаджуйте захід"
+    },
+    "torch": {
+      "onA11y": "Увімкніть факел на",
+      "offA11y": "Поверніть гачок",
+      "hint": "Подвійне замовлення, щоб повернути факел або вимкнути."
+    },
+    "dragSelect": {
+      "select": "Обрати",
+      "hint": "Або перетягніть два пальці внизу списку, щоб вирізати кілька учасників.",
+      "message": "Повідомлення обраних учасників",
+      "export": "Експортувати вибір",
+      "exportError": "Експортувати вибір не вдалося.",
+      "csvName": "Ім'я",
+      "csvEmail": "Веб-сайт",
+      "csvReference": "Посилання",
+      "csvStatus": "Статус на сервери",
+      "csvDate": "Реєстрація"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Вартість квитків",
+      "favorites": "Захоплення ваших улюблених...",
+      "notifications": "Захоплення повідомлень...",
+      "messages": "Захоплюючи ваші розмови...",
+      "search": "Шукайте відповідні події...",
+      "event": "Підготовка сторінки заходу..."
+    },
+    "mobileMoney": {
+      "sent": "Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації.",
+      "pin": "Затверджуйте свій PIN на телефоні, у зручний для вас час оператора.",
+      "operator": "Підтвердження Оператора може зайняти мало часу. На цій сторінці ми обов'язково дамо вам інформацію.",
+      "once": "Ви будете платити тільки один раз, навіть якщо очікування йде."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Ваші квитки з’являються найближчим часом, коли ви реєструєтесь на захід.",
+        "v1": "Концерт, конференція, майстер-клас Все починається з заходу.",
+        "v2": "Ваш наступний вихід вже може бути онлайн."
+      },
+      "favorites": {
+        "v0": "Почнете серце на заході, щоб знайти його тут і почути про зміни.",
+        "v1": "Ви ніколи не пропустили новини.",
+        "v2": "Одне серце досить зберегти захід під рукою."
+      },
+      "notifications": {
+        "v0": "Новини з подій та організаторів, які ви можете подивитися тут.",
+        "v1": "Дотримуйтесь повідомлення про те, що новий.",
+        "v2": "Ми можемо самі зателефонувати одержувачу."
+      },
+      "messages": {
+        "v0": "Чинити кого-небудь на заході? Сканування коду для підключення.",
+        "v1": "З'єднання вашого заходу, які випробували тут: достатньо одного сканування коду.",
+        "v2": "Обмін контактними даними на сайті шляхом сканування коду учасника."
+      },
+      "discover": {
+        "v0": "Пошук ключових фраз іноді знаходить те, що домашня сторінка ще не показує.",
+        "v1": "Пошук по місту або категорії: нові події прибувають щодня."
+      },
+      "exploreAction": "Дивитися те, що на",
+      "scanAction": "Сканування коду",
+      "searchAction": "Пошук заходу",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "До 50 км",
+      "clearFilters": "Очистити фільтри"
+    },
+    "greeting": {
+      "when": {
+        "today": "сьогодні",
+        "tomorrow": "до",
+        "dayAfter": "день після"
+      },
+      "there": "на сайті",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "З днем народження! У вас є прекрасний день.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "З днем народження!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Повернутися назад",
+      "subtitle_one": "По-новому, з моменту останнього візиту.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "І ще один від чого слідувати.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Приват",
+      "reason": {
+        "followed_organizer": "Організатор:",
+        "new_edition": "Нове видання заходу",
+        "other": "Нові"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "Для вас · ВАС НА ВАШУ ТАСТЮ",
+      "forYouTitle": "Ви також можете",
+      "loginCtaTitle": "Рекомендаційні рекомендації для Вас"
+    },
+    "settings": {
+      "ritualsEyebrow": "ЛІТАЛЕ БУЧКИ",
+      "ritualsTitle": "Маленькі штрихи",
+      "ritualsSubtitle": "Слово на день народження, ювілей вашого облікового запису або національний день, один раз в день. Ваш вік ніколи не відображається, без повідомлення.",
+      "forgetEyebrow": "РЕКОМЕНДАЦІЇ",
+      "forgetTitle": "Забудьте мої вподобання",
+      "forgetSubtitle": "Вивчіть, що слідують за подіями, реєстраціями та пошуками, які навчаються вашим рекомендаціям.",
+      "forgetConfirmTitle": "Забудьте налаштування?",
+      "forgetConfirmMessage": "Ваші рекомендації починають з нуля. Ваші квитки, улюблені і не зміняться.",
+      "forgetDone": "Починайте свої рекомендації з нуля.",
+      "forgetUnavailable": "Цей варіант ще не доступний. Ніщо не стиралася.",
+      "forgetError": "Ваші вподобання не можуть бути вилучені. Не можна забувати про те, що вони не зміняться."
+    },
+    "goingCard": {
+      "title": "Підготуйте картку «Я збираюся»",
+      "subtitle": "Після підтвердження платежу буде готовий поділитися найближчим часом.",
+      "tintLabel": "Підземелля",
+      "messageLabel": "Новини",
+      "messages": {
+        "going": "Я",
+        "meetThere": "ЗАМОВИТИ ВАМ?",
+        "seeYou": "ЗАМОВИТИ ЗАМОВЛЕННЯ"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Ваша картка друкується під час очікування.",
+      "ready": "Ваша картка готова",
+      "share": "Надіслати картку",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

@@ -41,6 +41,7 @@
     "close": "Đóng",
     "clear": "& Xoá",
     "back": "Lùi",
+    "home": "Nhà",
     "next": "Kế",
     "previous": "Lùi",
     "search": "Tìm kiếm",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Mã không đúng hoặc hết hạn",
     "loginError": "Lỗi đăng nhập",
     "registerError": "Lỗi đăng nhập",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Tài khoản đã có",
     "registerEmailExistsDetail": "Một tài khoản đã có với email này. Anh có muốn đăng ký không?",
     "registerEmailExistsConfirm": "Ký vào",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Cần phải có họ",
     "emailRequired": "Cần phải có thư điện tử",
     "emailInvalid": "Email không hợp lệ",
+    "passwordRequired": "Name",
     "passwordTooShort": "Mật khẩu quá ngắn (ít nhất 0 ký tự)",
+    "confirmPasswordRequired": "Cần thiết xác nhận mật khẩu",
     "passwordsDontMatch": "Mật khẩu không trùng",
+    "usernameRequired": "Cần thiết tên người dùng",
     "usernameTooShort": "Tên người dùng quá ngắn",
     "usernameInvalid": "Tên người dùng không hợp lệ",
+    "phoneRequired": "Cần phải có số điện thoại",
     "phoneInvalid": "Số điện thoại không hợp lệ",
     "minLength": "Ít nhất là 0 nhân vật",
     "maxLength": "Ký tự tối đa 1. 0"
@@ -449,7 +461,8 @@
     "saved": "Đã lưu",
     "messages": "Thông điệp",
     "tickets": "Vé",
-    "profile": "Hồ sơ"
+    "profile": "Hồ sơ",
+    "organize": "Tổ chức"
   },
   "languagePicker": {
     "eyebrow": "WLCOME",
@@ -492,6 +505,7 @@
     "viewAction": "Xem",
     "viewEvent": "Xem sự kiện",
     "share": "Chia sẻ",
+    "scrollToTop": "Quay lại đỉnh",
     "freeEyebrow": "COST ZERO",
     "freeTitle": "Tự do, không có dây",
     "freeBadge": "Tự do",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Xong hết rồi!",
     "notifyOnBody": "Chúng tôi sẽ thông báo ngay khi sự kiện đầu tiên được thực hiện.",
     "notifyOffTitle": "Thông báo tắt",
-    "notifyOffBody": "Cho phép thông báo trong thiết lập được cảnh báo."
+    "notifyOffBody": "Cho phép thông báo trong thiết lập được cảnh báo.",
+    "organizersEyebrow": "Tổ chức",
+    "organizersTitle": "Những người đứng đằng sau",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Bộ tổ chức đa dụng",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Số vòng hoa",
@@ -604,7 +624,10 @@
     "invisibleHint": "Bạn là người vô hình — hãy quay lại để được thấy.",
     "message": "Thông điệp",
     "connected": "Đã kết nối",
-    "empty": "Vẫn chưa thấy ai. Hãy là người đầu tiên bật mạng lưới của bạn!"
+    "empty": "Vẫn chưa thấy ai. Hãy là người đầu tiên bật mạng lưới của bạn!",
+    "scanOptInTitle": "Hãy để những người trưng bày quét phù hiệu của tôi",
+    "scanOptInSubtitle": "Các công ty triển khai sẽ có thể lưu tên và thông tin liên lạc của bạn bằng cách quét phù hiệu của bạn, để họ có thể tiếp tục sau sự kiện.",
+    "scanOptInWithdrawNote": "Anh có thể tắt nó bất cứ lúc nào. Không thể tự động xoá liên lạc đã được các nhà trưng bày lưu — bạn có thể yêu cầu họ xoá bỏ sự riêng tư của bạn."
   },
   "eventDetails": {
     "eyebrow": "evenT",
@@ -628,6 +651,7 @@
     "onlineEvent": "Comment",
     "meetingId": "ID buổi họp:",
     "meetingPasscode": "Mật mã:",
+    "liveEngagement": "Name",
     "joinEvent": "Tham gia sự kiện",
     "joinOnline": "Nhập vào trực tuyến",
     "registered": "Đăng ký",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Chia sẻ những gì được áp dụng",
     "closePreviewA11y": "Xem thử đóng",
     "invalidCode": "Mã truy cập không hợp lệ",
+    "accessButton": "Vào",
+    "pendingPaymentBanner": "Hoàn tất thanh toán của bạn để xác nhận đăng ký",
+    "onlineInfoAfterRegistration": "Chi tiết kết nối sẽ sẵn sàng sau khi bạn đăng ký",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Lớn hơn",
+    "playCoverVideo": "Phát phim",
+    "videoPlayA11y": "Chơi phim với âm thanh",
+    "videoUnmuteA11y": "Chưa phân",
+    "videoMuteA11y": "Mute",
+    "videoExpandA11y": "Mở rộng phim tới toàn màn hình",
     "imagesCount": "(Tiếng Ý)",
     "videoConference": "Name",
     "openLinkError": "Không thể mở liên kết sự kiện",
@@ -675,7 +708,28 @@
     "registeredStatus": "Đăng ký",
     "pendingStatus": "Đang đợi",
     "priceLabel": "Giá",
-    "fromLabel": "Bắt đầu từ"
+    "fromLabel": "Bắt đầu từ",
+    "waitlistJoinedDetail": "Bạn đã gia nhập danh sách chờ đợi. Chúng tôi sẽ thông báo ngay khi có chỗ trống.",
+    "waitlistLeftMsg": "Bạn đã rời danh sách chờ đợi",
+    "waitlistLeaveError": "Không thể rời danh sách chờ",
+    "waitlistJoinError": "Không thể nhập vào danh sách chờ",
+    "waitlistLeaveTitle": "Để lại danh sách chờ",
+    "waitlistLeaveConfirm": "Anh có chắc muốn rời khỏi danh sách chờ không?",
+    "whatsappNotInstalled": "Áp dụng cái gì chưa được cài đặt vào thiết bị này",
+    "reviewRatingRange": "Hãy chọn đánh giá giữa 1 và 5",
+    "reviewThanksTitle": "Cảm ơn!",
+    "reviewSubmitted": "Bài phê bình của bạn đã được gửi thành công",
+    "loginRequiredTitle": "Yêu cầu ký tên",
+    "loginRequiredReview": "Mời vào để lại bài phê bình.",
+    "reviewSubmitError": "Không thể đệ trình xem xét của bạn",
+    "loginRequiredWaitlist": "Đăng ký vào để gia nhập danh sách chờ",
+    "invitationGateDesc": "Sự kiện này dành riêng cho khách mời. Nếu bạn nhận được một lời mời, xin hãy nhận nó để có được quyền truy cập.",
+    "codeGateDesc": "Nhập mã để xem chi tiết đầy đủ",
+    "giftRegistryCta": "Danh sách quà tặng",
+    "giftRegistrySubtitle": "Xem danh sách và chip nếu bạn cảm thấy thích nó",
+    "cancelReasonTitle": "Lý do để hủy bỏ",
+    "visioEnded": "Hội nghị video của sự kiện này đã kết thúc.",
+    "videoPauseA11y": "Tạm dừng video"
   },
   "events": {
     "videoBadge": "Ảnh động",
@@ -823,6 +877,9 @@
     "noPastMessage": "Những sự kiện trong quá khứ sẽ xuất hiện ở đây",
     "scanQR": "Quét mã QR",
     "showQR": "Hiện mã QR",
+    "viewQR": "Xem QR",
+    "receivedTransfers": "Đã nhận tin nhắn",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Mã QR của bạn",
     "qrSubtitle": "Hiển thị mã này tại lối vào",
     "ticketDetails": "Chi tiết vé",
@@ -930,7 +987,10 @@
     "monthNovember": "Tháng Chín",
     "monthDecember": "NGÀY 12 THÁNG 12",
     "tapToShowQR": "Gõ vào mã QR",
-    "searchTitleRefVenue": "Tiêu đề, trọng tài, địa điểm..."
+    "searchTitleRefVenue": "Tiêu đề, trọng tài, địa điểm...",
+    "pendingPayment": "Đang chờ thanh toán",
+    "pendingExpired": "Sự kiện kết thúc",
+    "statusExpired": "Hạn dùng"
   },
   "payment": {
     "title": "Trả tiền",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Lùi",
     "paymentGenericError": "Gặp lỗi khi trả tiền",
     "paymentErrorTitle": "Lỗi thanh toán",
+    "paymentBlockedTitle": "Thẻ bị khóa",
     "paymentCancelledTitle": "Comment",
     "paymentNoPaymentInProgress": "Không có khoản thanh toán đang được thanh tra",
     "paymentVerifyingTitle": "Đang kiểm tra...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Tiếp tục đợi",
     "paymentProcessing": "Đang xử lý",
     "paymentTitle": "Trả tiền",
+    "checkoutStep": "GIÚP 3 / 3",
+    "noDoubleCharge": "Anh sẽ chỉ bị buộc một lần, ngay cả khi màn hình quay được một lúc.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Tôi chấp nhận",
+    "termsLinkFull": "điều khoản bán và chính sách hoàn trả",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Vùng chọn",
     "paymentStepRecap": "& Phục hồi",
     "paymentMethodFallback": "Trả tiền",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Trả tiền",
     "myPaymentsFilterCompleted": "Hoàn tất",
     "myPaymentsFilterPending": "Đang đợi",
-    "myPaymentsFilterFailed": "Thất bại"
+    "myPaymentsFilterFailed": "Thất bại",
+    "finalizeEndedTitle": "Sự kiện này đã kết thúc.",
+    "finalizeEndedBody": "Bạn không thể hoàn tất việc đăng ký nữa: sự kiện đã kết thúc. Anh không bị buộc tội.",
+    "finalizeClosedTitle": "Đăng ký đã đóng",
+    "finalizeClosedBody": "Thời gian đăng ký cho sự kiện này đã chấm dứt.",
+    "finalizeSoldOutTitle": "Vé bán hết rồi",
+    "finalizeSoldOutBody": "Số vé mà bạn đã đặt trước không còn nữa. Chỗ đặt hết hạn. Anh không bị buộc tội.",
+    "finalizeBackToEvent": "Về sự kiện",
+    "paymentPushSentTitle": "Xác nhận trên điện thoại của bạn",
+    "paymentPushSentMessage": "Yêu cầu thanh toán đã được gửi đến điện thoại của anh. Chấp nhận nó (PIN tiền bạc khó tính) để hoàn tất.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Yêu cầu từ chối"
   },
   "memories": {
     "title": "Ký ức của tôi",
@@ -1235,7 +1313,11 @@
     "recapShare": "Chia sẻ câu chuyện của tôi",
     "recapEvents": "sự kiện đã tồn tại",
     "recapCities": "Thành phố",
-    "recapFirst": "đến # 1"
+    "recapFirst": "đến # 1",
+    "oneYearAgo": "Một năm trước, anh đã ở đó.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "♪ Báo chí dài cho một bất ngờ ♪",
+    "firstNote": "Trước khi đến. Cửa vừa mới mở."
   },
   "profile": {
     "title": "Hồ sơ",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Ký đi.",
     "logoutInProgress": "Ký tên...",
     "appVersion": "Sự kiện v1.0.0",
-    "myQRTitle": "Mã QR của tôi"
+    "myQRTitle": "Mã QR của tôi",
+    "refundsMenu": "Của tôi được hoàn lại.",
+    "refundsSubtitle": "Theo dõi nơi tiền của bạn đứng",
+    "shareProfileButton": "Chia sẻ hồ sơ của tôi",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Hồ sơ tổ chức",
+    "shareOrganizerA11y": "Chia sẻ hồ sơ tổ chức của tôi",
+    "viewPublicProfileA11y": "Xem hồ sơ công chúng của tôi",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Không theo dõi?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Sau",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Không có kết quả",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Phát hiện sự kiện",
+    "followSearchPlaceholder": "Tìm kiếm một tổ chức"
   },
   "editProfile": {
     "title": "Sửa hồ sơ",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Địa chỉ",
     "sectionOrganization": "Tổ chức",
     "sectionSecurity": "Bảo mật",
-    "qrShareSubtitle": "Quét mã này để chia sẻ hồ sơ của bạn"
+    "qrShareSubtitle": "Quét mã này để chia sẻ hồ sơ của bạn",
+    "countryPlaceholder": "Chọn một nước",
+    "orgLogoLabel": "Logo",
+    "orgLogoAdd": "Thêm một logo",
+    "orgLogoChange": "Phố",
+    "orgWebsiteLabel": "Nơi Mạng",
+    "orgDescriptionLabel": "Mô tả công",
+    "orgDescriptionPlaceholder": "Giới thiệu tổ chức của anh..."
   },
   "settings": {
     "whoCanContactCurrent": "ASNI-PAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Sắc thái",
     "themeDialogSubtitle": "Chọn sắc thái",
     "timezoneDialogTitle": "múi giờ",
+    "timezoneDetected": "Phát hiện",
     "timezoneDialogSubtitle": "Chọn múi giờ",
     "preferencesTitle": "Tùy thích",
     "headerEyebrow": "Các diễn giả",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Xác nhận trả lại",
     "rowNewConversations": "Cuộc đối thoại mới",
     "rowMarketing": "Khuyên và thăng tiến",
+    "rowSocialEyebrow": "Xã hội",
+    "rowSocial": "Hoạt động xã hội",
+    "rowSocialDesc": "Những môn đồ mới, lời nhắc nhở, lời cầu xin ôn lại",
+    "newRegistrationsEyebrow": "Tổ chức",
+    "newRegistrationsTitle": "Đăng ký mới",
+    "newRegistrationsDescription": "Bao nhiêu lần bạn nhận được email khi ai đó đăng ký cho sự kiện của bạn",
+    "newRegistrationsFreq": {
+      "realtime": "Thời gian thực",
+      "hourly": "Theo giờ",
+      "daily": "Ngày",
+      "off": "Tắt"
+    },
+    "quietHoursEyebrow": "Đừng làm phiền",
+    "quietHoursTitle": "Giờ yên tĩnh",
+    "quietHoursDescription": "Dừng thông báo không cần thiết qua đêm. Cảnh báo quan trọng luôn luôn thông qua.",
+    "quietHoursFrom": "Từ",
+    "quietHoursTo": "Cho đến",
     "rowSounds": "Name",
     "rowSoundsSubtitle": "Chơi một âm thanh khi xác nhận thanh công cụ hay quét QR",
     "rowTwoFA": "Xác thực hai mặt",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Hóa đơn",
     "shortcutTaxes": "Thuế",
     "shortcutMyEvents": "Sự kiện của tôi",
-    "shortcutHelp": "Trợ giúp"
+    "shortcutHelp": "Trợ giúp",
+    "rowMyDataAtExhibitors": "Dữ liệu của tôi được lưu giữ bởi các nhà triển lãm",
+    "rowLiveBanner": "Băng cờ sự kiện trực tiếp",
+    "rowLiveBannerSubtitle": "Hiển thị một băng cờ để tham gia một sự kiện hiện đang được thực hiện.",
+    "pushPermissionTitle": "Thông báo đã tắt cho thiết bị này",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Hãy cho các mối quan hệ của tôi biết",
+    "rowShareAttendanceSubtitle": "Các mối quan hệ của anh có thể thấy anh đang tham dự một sự kiện. Bỏ theo mặc định; không bao giờ cho sự kiện chỉ khách mời.",
+    "rowNotifyMemories": "“ Cách đây một năm, người ta thông báo cho người khác",
+    "rowNotifyMemoriesSubtitle": "Hầu hết một lần nhắc nhở mỗi tuần, vào ngày kỷ niệm một sự kiện mà bạn đã tham dự.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Một bản tóm tắt cá nhân của năm, tháng 12. Không ai khác thấy nó.",
+    "madeInDouala": "Được làm ở Doula, với sự cẩn thận.",
+    "madeInDoualaSub": "Cảm ơn vì đã cho chúng tôi biết sự kiện.",
+    "rowUiSounds": "Âm thanh giao diện",
+    "rowUiSoundsSubtitle": "Những âm thanh rất tinh vi khi xác nhận và thông báo đến. Tắt theo mặc định.",
+    "vibrationsEyebrow": "TOUCH",
+    "rowVibrations": "Thu nhỏ",
+    "rowVibrationsSubtitle": "Phản hồi âm tính trên hành động quan trọng: thanh toán, quét, yêu thích.",
+    "rowMotionGestures": "Điệu bộ chuyển động",
+    "rowMotionGesturesSubtitle": "Lắc lư, lật người hoặc giữ điện thoại của bạn cho một số hành động. Một nút cũng luôn sẵn sàng.",
+    "notificationsEyebrowOngoing": "Thông báo Hệ thốngComment",
+    "rowOngoingEvent": "Vé phạt vào ngày sự kiện",
+    "rowOngoingEventSubtitle": "Một thông báo yên tĩnh, 3 giờ trước và trong suốt sự kiện, với vé và hướng dẫn của bạn.",
+    "rowNotificationSounds": "Thông báo âm thanh",
+    "rowNotificationSoundsSubtitle": "Chọn âm thanh cho mỗi loại ( khoảnh khắc lớn, doanh số, tin nhắn...) trong thiết lập điện thoại của bạn"
   },
   "messages": {
     "title": "Thông điệp",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Tìm liên lạc...",
     "searchEyebrow": "ĐÃ",
     "searchHint": "Kiểu để tìm kiếm",
-    "noOneFound": "Không ai tìm thấy"
+    "noOneFound": "Không ai tìm thấy",
+    "myConnectionsSection": "Kết nối",
+    "searchResultsSection": "Kết quả",
+    "noConnectionsEyebrow": "ĐÃ",
+    "noConnectionsTitle": "Chưa kết nối",
+    "noConnectionsCta": "Kết nối bằng QR",
+    "emptyEyebrowArchived": "MicrolepidopterA",
+    "emptyEyebrowEmpty": "(Tiếng Tây Ban Nha)",
+    "archivedEmptyDesc": "Cuộc nói chuyện lưu trữ của anh sẽ hạ cánh ở đây.",
+    "noConversationsDesc": "Bắt đầu một tin nhắn mới, chúng ta sẽ tìm ai đó để nói chuyện.",
+    "attachmentPreview": "[Atachment]",
+    "noMatchingMessage": "Không có tin nhắn khớp"
   },
   "notifications": {
     "title": "Thông báo Hệ thốngComment",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Có gì mới không?",
     "typePendingModeration": "Để xem lại",
     "typeModerationReminder": "Comment",
+    "typeNewFollower": "Người mới",
+    "typeFollowedOrganizerNewEvent": "Comment",
+    "typeFollowRegistered": "Name",
+    "typeConnectionsAtEvent": "Kết nối",
+    "eyebrowNetwork": "NEWORK",
+    "eyebrowSoon": "SOON",
+    "eyebrowReminder": "TIẾNG",
+    "eyebrowModeration": "CÔNG VIỆC",
+    "eyebrowToReview": "HÃY HÌNH",
+    "eyebrowDiscovery": "TIẾNG",
+    "eyebrowUrgent": "TIẾNG",
+    "eyebrowWhatsNew": "Có gì mới không?",
+    "filterReadTab": "Đọc",
+    "groupToday": "NGÀY NAY",
+    "groupYesterday": "Thứ Hai",
+    "tabAll": "Tất cả",
+    "tabNetwork": "Mạng",
     "typeDefault": "Thông báo Hệ thốngComment",
     "filterAllTab": "Tất cả",
     "filterUnreadTab": "Không đọc",
@@ -1739,7 +1919,26 @@
     "statTotal": "TOTAL",
     "statUnread": "UNRED",
     "statToday": "NGÀY NAY",
-    "viewDetails": "Xem chi tiết"
+    "viewDetails": "Xem chi tiết",
+    "actions": {
+      "showTicket": "Cho tôi xem vé.",
+      "directions": "Hướng",
+      "going": "Tôi đi đây.",
+      "viewTicket": "Xem vé",
+      "reply": "Trả lời",
+      "replyPlaceholder": "Tin nhắn của anh...",
+      "replySubmit": "Gởi",
+      "markRead": "Đánh dấu đang đọc",
+      "joinLive": "Tham gia",
+      "payNow": "Trả tiền đi",
+      "writeTo": "Thông điệp cho họ",
+      "viewEvent": "Xem sự kiện",
+      "viewTickets": "Xem vé của tôi",
+      "viewRefund": "Xem hoàn tất",
+      "viewProfile": "Xem hồ sơ",
+      "summaryTitle": "Thông điệp",
+      "summaryBody": "Comment"
+    }
   },
   "dashboard": {
     "title": "Bảng thông tin",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Quản lý kế hoạch của tôi",
     "exportTitle": "Xuất",
     "exportSubtitle": "Dữ liệu của bạn",
-    "settingsLink": "Thiết lập"
+    "settingsLink": "Thiết lập",
+    "greetingNight": "Chúc buổi tối vui vẻ."
   },
   "following": {
     "title": "Tôi thích nhất",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Lời mời bị từ chối.",
     "declineError": "Không thể từ chối lời mời.",
     "declineButton": "Xóa",
+    "declineConfirmTitle": "Giấy mời giải mã",
+    "declineConfirmMessage": "Bạn có chắc muốn từ chối lời mời này không?",
     "fromLabel": "TỪ",
     "toLabel": "CÂU HỎI",
     "organizerFallback": "Tổ chức",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Tải lên thất bại",
     "downloadFailed": "Tải về thất bại",
     "tryAgain": "Thử lại đi.",
-    "contactSupport": "Hỗ trợ liên lạc"
+    "contactSupport": "Hỗ trợ liên lạc",
+    "timeout": "Yêu cầu này mất quá nhiều thời gian. Kiểm tra kết nối và thử lại.",
+    "validation": "Một số chi tiết không hợp lệ. Sửa chữa những cánh đồng đã tô sáng và thử lại.",
+    "fields": {
+      "title": "Tựa",
+      "subtitle": "Phụ đề",
+      "message": "Thông điệp",
+      "image": "Ảnh",
+      "cta_label": "Nhãn nút",
+      "cta_url": "Nút",
+      "link_url": "Liên kết",
+      "target_event": "Sự kiện mục tiêu",
+      "country": "Nước",
+      "city": "Thành phố",
+      "radius_km": "Bán kính",
+      "placement": "Đặt & chỗ",
+      "priority": "Ưu tiên",
+      "severity": "Độ dốc",
+      "audience": "Khán giả",
+      "platform": "Nền tảng",
+      "valid_from": "Hợp lệ từ",
+      "valid_until": "Hợp lệ đến"
+    },
+    "http": {
+      "badRequest": "Chúng tôi không thể xử lý yêu cầu của anh. Vui lòng kiểm tra chi tiết và thử lại.",
+      "unauthorized": "Phiên họp của anh đã hết hạn. Xin hãy ký vào đây lần nữa.",
+      "forbidden": "Anh không được phép làm việc này.",
+      "notFound": "Chúng tôi không thể tìm thấy thứ anh đang tìm.",
+      "conflict": "Hành động này mâu thuẫn với trạng thái hiện thời. Thư giãn và thử lại.",
+      "tooManyRequests": "Quá nhiều nỗ lực. Xin hãy chờ một chút và thử lại.",
+      "server": "Máy chủ của chúng ta đang gặp rắc rối. Vui lòng thử lại trong vài phút nữa.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Email này đã được liên kết tới một tài khoản. Ký hoặc dùng địa chỉ khác.",
+      "usernameTaken": "Tên người dùng đó đã bị lấy đi, xin hãy chọn tên khác.",
+      "weakPassword": "Chọn mật khẩu chứa ít nhất 8 ký tự lẫn số.",
+      "invalidCredentials": "Không đúng email hay mật khẩu. Thử lại hoặc đặt lại mật khẩu.",
+      "resetLinkExpired": "Liên kết đặt lại này đã hết hạn. Yêu cầu một cái mới.",
+      "otpInvalid": "Mã này không đúng hoặc đã hết hạn. Kiểm tra hoặc yêu cầu một cái mới.",
+      "otpSendFailed": "Chúng tôi không thể gửi mã kết nối. Hãy kiểm tra số của bạn và thử lại, hoặc đăng ký với email của bạn.",
+      "paymentMethodUnsupported": "Phương pháp thanh toán này không có cho sự kiện này. Xin hãy chọn người khác.",
+      "paymentFailed": "Tiền của anh không thể hoàn tất. Anh chưa bị buộc tội. Thử lại hoặc dùng phương pháp khác.",
+      "paymentNetwork": "Kết nối bị giảm khi thanh toán. Kiểm tra internet và thử lại lần nữa.",
+      "paymentTimeout": "Tiền công của anh còn lâu hơn mong đợi. Đừng trả tiền nữa, kiểm tra vé trong vài phút nữa, hoặc hỗ trợ liên lạc nếu không có gì đến.",
+      "paymentVerifyFailed": "Chúng tôi chưa thể xác nhận tiền của anh. Nếu bị buộc tội, bạn sẽ sớm có vé — kiểm tra lại trong vài phút nữa.",
+      "refundFailed": "Yêu cầu hoàn trả của anh không thể gửi đi được. Vui lòng thử lại, hoặc hỗ trợ liên lạc.",
+      "insufficientBalance": "Không đủ cân bằng cho chiến dịch này.",
+      "payoutLocked": "Việc thanh toán này không thể thay đổi vì việc xử lý đã bắt đầu. Liên lạc hỗ trợ nếu có nhầm lẫn.",
+      "planLimitReached": "Bạn đã đạt đến giới hạn của kế hoạch. Nâng cấp kế hoạch để tiếp tục.",
+      "countryNotSupported": "Tiền lương vẫn chưa có ở đất nước này. Bạn có thể tạo ra sự kiện ở một nước hỗ trợ, hoặc liên lạc với chúng tôi."
+    },
+    "tickets": {
+      "offline": "Anh đang ngắt kết nối. Vé máy bay bạn đã nạp sẵn sàng ngoại tuyến. Hãy thử lại lần nữa khi bạn trở lại mạng.",
+      "timeout": "Vé của anh sẽ mất một lúc để nạp đạn. Không có gì bị mất: họ được cứu an toàn. Hãy thử lại lần nữa.",
+      "server": "Máy chủ của chúng ta đang bị trục trặc ngắn. Vé của anh an toàn ở phía chúng tôi. Vài phút nữa thử lại.",
+      "notFound": "Chúng ta không tìm thấy cái vé này. Mấy cái vé khác không bị ảnh hưởng. Cập nhật lại danh sách hoặc kiểm tra email xác nhận của bạn.",
+      "forbidden": "Cái vé này thuộc về một tài khoản khác. Vé của anh vẫn chưa bị phá. Ký tên vào với tài khoản dùng để mua."
+    },
+    "messages": {
+      "offline": "Anh đang ngắt kết nối. Tin nhắn của bạn không bị mất: chờ đợi một khi bạn đã online trở lại. Hãy thử lại khi mạng trở lại.",
+      "timeout": "Tin nhắn rất chậm để trả lời. Tin nhắn của anh không bị mất. Hãy thử lại lần nữa.",
+      "server": "Tin nhắn là một trục trặc nhỏ về phía chúng ta. Cuộc nói chuyện của anh vẫn nguyên vẹn. Vài phút nữa thử lại.",
+      "notFound": "Cuộc nói chuyện này không còn nữa. Những cuộc nói chuyện khác của anh không bị ảnh hưởng. Trở lại tin nhắn.",
+      "forbidden": "Anh không còn quyền tiếp cận cuộc nói chuyện này nữa. Những cuộc nói chuyện khác vẫn còn. Trở lại tin nhắn."
+    },
+    "event": {
+      "offline": "Anh đang ngoại tuyến, nên chúng tôi không thể cho anh thấy sự kiện này. Vé của anh vẫn còn trống. Hãy thử lại lần nữa khi bạn trở lại mạng.",
+      "timeout": "Trang sự kiện này sẽ mất một thời gian để tải. Không có gì thay đổi về phía anh. Hãy thử lại lần nữa.",
+      "server": "Một trục trặc nhỏ khiến chúng ta không thể trình bày sự kiện này. Vé và giấy đăng ký của anh không bị ảnh hưởng. Vài phút nữa thử lại.",
+      "notFound": "Sự kiện này không còn trực tuyến nữa: người tổ chức có thể đã xóa bỏ nó. Bất kỳ vé phạt nào anh có đều ghi là vé của tôi. Nhiều sự kiện đang chờ đợi trong việc khám phá.",
+      "forbidden": "Sự kiện này là riêng tư. Tài khoản của anh không phải là vấn đề. Hãy hỏi người tổ chức một lời mời để có được quyền truy cập."
+    },
+    "upload": {
+      "offline": "Việc tải lên không thể bắt đầu: bạn đang ngoại tuyến. Hồ sơ của anh vẫn còn trong điện thoại. Hãy thử lại lần nữa khi bạn trở lại mạng.",
+      "timeout": "Việc tải lên đã quá lâu. Hồ sơ của anh vẫn còn trong điện thoại. Thử lại lần nữa, lý tưởng là trên Wi-Fi hoặc với một tập tin nhẹ hơn.",
+      "server": "Máy phục vụ không nhận được tập tin. Trên điện thoại vẫn an toàn. Vài phút nữa thử lại.",
+      "notFound": "Địa điểm tải lên không còn tồn tại. Hồ sơ của anh vẫn an toàn trên điện thoại. Làm tươi màn hình và thử lại.",
+      "forbidden": "Bạn không được phép tải lên file này ở đây. Trên điện thoại vẫn an toàn. Kiểm tra xem anh đã ký hợp đồng với đúng tài khoản.",
+      "tooLarge": "Tập tin này quá lớn để tải lên. Trên điện thoại vẫn an toàn. Chọn tập tin nhẹ hơn hoặc xén ảnh."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Chúc mừng!",
     "successMessage": "Giờ anh là người tổ chức. Tạo sự kiện đầu tiên!",
     "errorTitle": "Lỗi",
-    "errorGeneric": "Name"
+    "errorGeneric": "Name",
+    "labelWebsite": "Màu Mạng (tùy chọn)",
+    "labelDescription": "Mô tả",
+    "placeholderDescription": "Giới thiệu tổ chức của anh..."
   },
   "verificationForm": {
     "pdfOpenError": "Không thể mở tài liệu.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "lai",
     "priceAny": "Tất cả",
     "priceFree": "Tự do",
-    "pricePaid": "Trả"
+    "pricePaid": "Trả",
+    "shareSearch": "Chia sẻ tìm kiếm này",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Lọc",
@@ -2779,6 +3066,10 @@
     "statsRating": "RAING",
     "statsSince": "TỪ",
     "contactA11y": "Tổ chức liên lạc",
+    "connectA11y": "Kết nối",
+    "connectedA11y": "Đã kết nối",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Không kết nối được. Xin hãy thử lại.",
     "bioEyebrow": "BAO",
     "bioTitle": "Giới thiệu",
     "linksEyebrow": "TẠI HÌNH",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Các sự kiện đã xuất",
     "loadingEvents": "Đang nạp...",
     "noEvents": "Comment",
-    "freeBadge": "Tự do"
+    "freeBadge": "Tự do",
+    "tabs": {
+      "upcoming": "Đang tới",
+      "past": "Quá khứ"
+    }
   },
   "sessionDetails": {
     "title": "Phiên chạy",
@@ -3223,7 +3518,12 @@
     "codeLabel": "CODE",
     "emptyEyebrow": "ĐANG",
     "emptyTitle": "Chưa có mã",
-    "emptySubtitle": "Mã thăm dò sẽ xuất hiện ở đây ngay khi có thể."
+    "emptySubtitle": "Mã thăm dò sẽ xuất hiện ở đây ngay khi có thể.",
+    "generateCta": "Tạo ra mã của tôi",
+    "generating": "Đang tạo ra...",
+    "generateSuccess": "Mã số đã được tạo ra!",
+    "generateError": "Không thể tạo ra mã. Xin hãy thử lại.",
+    "copySuccess": "Liên kết hướng dẫn được sao chép"
   },
   "teamManagement": {
     "eyebrow": "TEM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Xem phân tích ngữ pháp",
     "perm_view_registrations": "Xem danh sách đăng ký",
     "perm_edit_event": "Sửa sự kiện",
-    "perm_manage_team": "Mời các thành viên khác"
+    "perm_manage_team": "Mời các thành viên khác",
+    "role_co_organizer": "Hợp nhất",
+    "role_moderator": "Bộ điều giải",
+    "role_scanner": "Quét",
+    "role_analyst": "Phân tích",
+    "status_pending": "Đang đợi",
+    "status_accepted": "Hoạt động",
+    "status_declined": "Giải mã",
+    "status_revoked": "Hoàn nguyên",
+    "status_expired": "Hạn dùng"
   },
   "myTeamEvents": {
     "eyebrow": "BỐI CẢNH",
@@ -3276,8 +3585,10 @@
     "willAttend": "Tôi sẽ ở đó.",
     "wontAttend": "Tôi không thể làm được.",
     "partySize": "Số lượng khách dư",
+    "partySizeHint": "Ngoài anh ra. E.g. 2 nếu anh mang theo 2 người.",
     "dietary": "Yêu cầu ăn kiêng/ dị ứng",
     "note": "Một lời cho hai vợ chồng",
+    "noteOptional": "Một từ cho cặp đôi (tùy chọn)",
     "submit": "Name",
     "thanksAccepted": "Cảm ơn! Sự có mặt của anh đã được xác nhận.",
     "thanksDeclined": "Cảm ơn đã cho chúng tôi biết.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Tên",
     "giftMethod": "Phương pháp thanh toán",
     "giftPay": "Đóng góp",
-    "giftError": "Tiền không thể bắt đầu."
+    "giftThanks": "Cảm ơn vì đã đóng góp!",
+    "giftRedirectNote": "Anh sẽ được chuyển sang một trang thanh toán bảo mật. Chuyện này bình thường.",
+    "giftError": "Tiền không thể bắt đầu.",
+    "rsvpSubmitError": "Câu trả lời của anh không thể gửi đi được. Xin hãy thử lại.",
+    "summaryTitle": "Bạn trả lời",
+    "summaryAccepted": "Anh đã xác nhận mình có mặt.",
+    "summaryDeclined": "Anh từ chối lời mời.",
+    "summaryPartySize": "Khách mời đi cùng anh.",
+    "summaryHeadcount": "Nhà xuất bản",
+    "summaryDietary": "Nhu cầu ăn kiêng",
+    "summaryTable": "Bàn của bạn",
+    "summaryTablePending": "Bàn của bạn sẽ được chia sẻ trước sự kiện."
   },
   "teamInvitation": {
     "eyebrow": "BÀI HỌC",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Chỉ nói chuyện đọc thôi. Lưu tin nhắn đi.",
     "mutedLockMessage": "Anh đã bị câm trong cuộc thảo luận này bởi người tổ chức.",
     "postingLockMessage": "Chỉ có tổ chức mới có thể đăng trong cuộc thảo luận này.",
-    "defaultUserName": "người dùng này"
+    "defaultUserName": "người dùng này",
+    "someFilesQueuedForRetry": "Một số tập tin sẽ khó chịu khi kết nối trở lại.",
+    "retrySend": "Thử lại",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Cuộn xuống dưới",
+    "tapToLoadImage": "Gõ để tải",
+    "reply": "Trả lời",
+    "react": "Phản ứng",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Chỉ nói chuyện bằng đọc.",
+    "headerCollapseA11y": "Ẩn băng cờ",
+    "headerExpandA11y": "Hiện biểu ngữ",
+    "headerCollapseLabel": "Ẩn",
+    "headerExpandLabel": "Chi tiết sự kiện"
   },
   "scanForm": {
     "loading": "Đang nạp...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Bộ điều giải",
     "roleAdmin": "Quản trị",
     "fallbackEvent": "Sự kiện",
-    "fallbackUnknownUser": "Người dùng"
+    "fallbackUnknownUser": "Người dùng",
+    "statusUnknown": "Trạng thái lạ"
   },
   "refundRequest": {
     "watermarkBack": "Lùi",
     "watermarkOops": "Comment",
     "loadError": "Không thể tải chi tiết thanh toán",
     "paymentNotFound": "Không tìm thấy tiền trả",
+    "blockedNotOwner": "Thanh toán này không liên quan đến tài khoản của ông, nên ông không thể yêu cầu hoàn tiền.",
+    "blockedNotCompleted": "Chỉ có thể hoàn tiền trả lại. Số tiền này không thể hoàn trả lại được.",
+    "blockedAlreadyRequested": "Yêu cầu hoàn trả lại đã được tiến hành cho khoản thanh toán này.",
+    "blockedGeneric": "Khoản thanh toán này không đủ điều kiện để hoàn tiền.",
     "back": "Lùi",
     "closeA11y": "Đóng",
     "eyebrow": "ĐÃ KỂ LẠI",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Mã truy cập (tùy chọn)",
       "accessCodeHint": "Khách sẽ cần phải nhập mã này để xem chi tiết",
       "accessCodePlaceholder": "Bỏ trống không có mã",
-      "featuredInfo": "Bạn có thể yêu cầu nêu ra sự kiện của bạn sau khi được tạo ra từ \"Sự kiện của tôi\"."
+      "accessCodeKeepPlaceholder": "Mã mới (để trống để giữ điều hiện có)",
+      "accessCodeActive": "Mã truy cập được bật.",
+      "accessCodeWillBeRemoved": "Mật mã sẽ được xóa bỏ khi anh tiết kiệm.",
+      "accessCodeRemove": "Gỡ bỏ mã",
+      "accessCodeUndoRemove": "Hủy bước",
+      "featuredInfo": "Bạn có thể yêu cầu nêu ra sự kiện của bạn sau khi được tạo ra từ \"Sự kiện của tôi\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Ngày và Nơi",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Chọn trên bản đồ",
       "mapHint": "Để hiển thị sự kiện trên bản đồ và cho phép định vị",
       "virtualLocationTitle": "Vị trí ảo",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Kết nối video được xây dựng trong video - phòng được tạo ra tự động, không cần kết nối bên ngoài.",
       "platformLabel": "Nền tảng",
       "platformPlaceholder": "& Phóng to, Gặp Google",
       "connectionUrlLabel": "Kết nối",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Bắt đầu bán hàng",
       "salesEndLabel": "Comment",
       "visibleLabel": "Nhìn thấy",
+      "accessModeLabel": "Name",
+      "accessInPerson": "Gặp trực tiếp",
+      "accessOnline": "Trực tuyến",
+      "accessBoth": "Cả hai",
       "visibleDesc": "Hiển thị vé này công khai",
       "addAnotherTicket": "Thêm một vé",
       "registrationFormTitle": "Đơn đăng ký (tùy chọn)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Đóng thực đơn",
       "cancel": "Thôi"
+    },
+    "venuePicker": {
+      "label": "Dùng địa điểm đã lưu",
+      "hint": "Các cánh đồng tự động điền vào. Bạn có thể điều chỉnh chúng sau đó."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Comment",
       "sourcePaymentMethods": "Phương pháp thanh toán",
       "sourceGeographical": "Địa lý suy sụp"
-    }
+    },
+    "widgetDataUnavailable": "Không có dữ liệu."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Lùi",
       "next": "Kế",
       "selectDatePlaceholder": "Chọn ngày",
-      "selectTimePlaceholder": "Chọn thời gian"
+      "selectTimePlaceholder": "Chọn thời gian",
+      "selectPlaceholder": "Chọn...",
+      "searchPlaceholder": "Tìm kiếm..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Vé được thêm vào thành công",
     "alreadyRegisteredConfirmTitle": "Đã đăng ký",
     "alreadyRegisteredConfirmMessage": "Bạn đã đăng ký cho sự kiện này.",
-    "createRegistrationError": "Không thể tạo đăng ký"
+    "createRegistrationError": "Không thể tạo đăng ký",
+    "accessMode": {
+      "in_person": "Chỉ gặp trực tiếp",
+      "online": "Truy cập trực tuyến",
+      "hybrid": "Trên người + trực tuyến"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Chỉ còn một nơi",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Comment",
+    "suspendedByIncident": "Mua sắm tạm thời bị tạm dừng vì một sự cố. Theo cập nhật trên trang trạng thái."
   },
   "registrationDetails": {
     "headerInscription": "Tôi đăng ký",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Đã hủy",
     "statusInscriptionRejected": "Đã từ chối",
     "statusInscriptionValidated": "Đã thẩm tra",
-    "statusInscriptionUnknown": "Không rõ"
+    "statusInscriptionUnknown": "Không rõ",
+    "pdfEyebrow": "CÂU CHUYỆN",
+    "pdfDate": "Ngày",
+    "pdfPlace": "Name",
+    "pdfReference": "Tham chiếu",
+    "pdfStatus": "Trạng thái",
+    "pdfQrHint": "Hiển thị mã QR này tại lối vào",
+    "pdfShareDialog": "Tổng kết",
+    "pdfError": "Không thể tạo ra PDF ngay bây giờ.",
+    "pdfA11y": "Xuất bản tóm tắt dạng PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET    BAR ",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "Mã QR sẽ được quét ở lối vào",
     "tipArriveLines": "Đến đúng lúc để bỏ qua các dòng",
     "validatedTitle": "Comment",
+    "stampValidated": "Đã đăng ký",
     "validatedAt": "Đã nhập vào số 0 tại số 1",
     "paymentPendingTitle": "Đang đợi thanh toán",
     "paymentPendingDesc": "Hoàn tất thanh toán của bạn để xác nhận",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Xác nhận",
     "statusPending": "Đang đợi",
     "statusCancelled": "Đã hủy",
-    "statusValidated": "Đã thẩm tra"
+    "statusValidated": "Đã thẩm tra",
+    "pdfOnline": "Comment",
+    "statusUnknown": "Trạng thái lạ",
+    "presentHint": "Tap để mở rộng mật mã, dài dòng để chứng minh giá trị của nó.",
+    "presentA11yAction": "Phóng to mã để kiểm tra",
+    "proofA11yAction": "Hiển thị bằng chứng xác thực",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Trở lại với cái vé",
+    "presentExitHint": "Tôi phải quay lại."
   },
   "offlineTickets": {
     "headerTitle": "Comment",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Bạn có muốn gỡ bỏ tấm vé này khỏi bộ nhớ tạm đã tắt không?",
     "showQR": "Hiện QR",
     "hideQR": "Ẩn QR",
-    "pastBadge": "Quá khứ"
+    "pastBadge": "Quá khứ",
+    "download": "Tải về",
+    "pdfEyebrow": "TIẾNG",
+    "pdfReference": "Tham chiếu",
+    "pdfType": "Kiểu bảng chọn",
+    "pdfQuantity": "Số lượng",
+    "pdfDate": "Ngày",
+    "pdfShareDialog": "Lưu / vé chia sẻ",
+    "pdfError": "Không thể tạo ra PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Truyền:",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Thăm",
     "similarEventsEyebrow": "NHỮNG SỐ HỌC HỎI",
     "similarEventsTitle": "Sự kiện tương tự",
-    "similarEventA11y": "Xem  đờn bà"
+    "similarEventA11y": "Xem  đờn bà",
+    "virtualLiveNow": "Sống ngay bây giờ",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Tham gia trực tiếp",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Comment",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Cuộc sống vẫn chưa bắt đầu.",
+    "virtualWaitingHostNote": "Anh sẽ có thể tham gia ngay khi người tổ chức mở phòng.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Phòng chính.",
+      "session": "Phiên chạy",
+      "breakout": "Vượt ngục",
+      "networking": "Mạng",
+      "workshop": "Tiệm làm việc"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Hết bán hàng rồi.",
+    "ticketsSaleNotStarted": "Sắp bán xong rồi.",
+    "peekSave": "Lưu",
+    "peekUnsave": "Bỏ từ đã lưu",
+    "peekShare": "Chia sẻ",
+    "peekOpen": "Mở",
+    "peekA11yHint": "Giữ lại để xem thử",
+    "swipeSave": "Name",
+    "swipeUnsave": "Buông ra để gỡ bỏ",
+    "swipeHint": "Đánh dấu để lưu",
+    "swipeRemoved": "Đã gỡ bỏ khỏi lưu",
+    "swipeUndo": "Hủy bước",
+    "swipeRemove": "Bỏ",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Câu thần chú Sunny",
+      "cloudy": "Mây",
+      "fog": "Sương mù",
+      "rain": "Mưa",
+      "snow": "Tuyết",
+      "showers": "Tắm",
+      "thunderstorm": "Bão tố",
+      "variable": "Có thể thay đổi"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Chọn định dạng",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Khi tổ chức này công bố một sự kiện mới",
     "followPrefsSave": "Lưu tùy thích",
     "followPrefsSaveA11y": "Lưu tùy thích",
-    "inAppToastA11y": "Tôi mở cửa."
+    "inAppToastA11y": "Tôi mở cửa.",
+    "webviewVisioTitle": "Cuộc gọi phim",
+    "webviewOfflineTitle": "Bạn bị ngắt kết nối",
+    "webviewOfflineBody": "Thiết bị của anh mất kết nối. Cuộc gọi sẽ tiếp tục ngay khi mạng trở lại.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Phát hiện kết nối chậm — video có thể bị thoái hóa và sử dụng dữ liệu của bạn."
   },
   "messageRequests": {
     "eyebrow": "ASNI-PAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Cần thiết máy ảnh",
     "permissionSubtitle": "Để quét hệ thống QR, Hội đồng cần truy cập vào máy quay.",
     "permissionGrant": "Cho phép máy ảnh"
+  },
+  "media": {
+    "sheetTitle": "Anh muốn làm gì?",
+    "saveToGallery": "Lưu vào bộ trình bày",
+    "share": "Chia sẻ",
+    "savedToGallery": "Đã lưu vào phòng trưng bày",
+    "permissionDeniedTitle": "Không đủ quyền truy cập",
+    "permissionDeniedMessage": "Bật quyền truy cập ảnh trong thiết lập cần lưu.",
+    "sharingUnavailable": "Thiết bị này không có khả năng chia sẻ.",
+    "downloadFailed": "Tải về thất bại. Xin hãy thử lại.",
+    "genericError": "Có gì đó không ổn. Xin hãy thử lại."
   },
   "componentsMessages": {
     "inputJoinFile": "Đính kèm tập tin",
@@ -5127,7 +5585,7 @@
     "messages": "NHỮNG CÂU HỎI",
     "suggestions": "GỢI Ý",
     "theme": "HỌ",
-    "timezoneSoon": "(Tiếng Tây Ban Nha)",
+    "timezone": "(T.Anh)",
     "soundEffects": "NHỮNG CÂU CHUYỆN",
     "authSoon": "NHỮNG SỰ · SOON",
     "connectionsSoon": "NHỮNG CÂU · SOON",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 sáng tạo",
     "tabMessages": "; 3  NƠI",
     "tabTickets": "4 giờ sáng",
-    "tabProfile": "5 giờ chiều"
+    "tabProfile": "5 giờ chiều",
+    "push": "Đẩy",
+    "privacy": "Riêng tư",
+    "memories": "Ký ức",
+    "yearInReview": "Năm ôn lại"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "đã chọn",
-      "selectedCount_plural": "đã chọn",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Áp dụng",
       "reject": "Từ chối",
       "checkIn": "In"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Name",
         "linkSessions": "Liên kết vé tới phiên chạy",
         "addPhotos": "Thêm ảnh chụp",
+        "startLive": "Đi đi",
         "volunteers": "Tình nguyện",
         "sponsors": "Nhà tài trợ",
         "seatingPlans": "Kế hoạch dọn dẹp",
@@ -5636,7 +6099,14 @@
         "duplicate": "Lặp lại",
         "cancelEvent": "Thôi sự kiện",
         "cancelEventDesc": "Thông báo người quản trị",
-        "deleteDesc": "Hành động nghịch đảo"
+        "deleteDesc": "Hành động nghịch đảo",
+        "invite": "Mời khách",
+        "inviteDescInviteOnly": "Cách duy nhất để tiếp cận sự kiện chỉ được mời",
+        "duplicatePastDesc": "Bắt đầu từ bản sao có thể sửa",
+        "remindInvites": "Nhắc nhở khách",
+        "weddingGuests": "Khách & RSVP",
+        "weddingGifts": "Các & quà đăng ký",
+        "weddingTables": "Kế hoạch biển"
       },
       "emptyEyebrowResults": "KHÔNG CÂU HỎI",
       "emptyEyebrowCatalog": "(CATALOG)",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Điều kiện sức khỏe, địa điểm không có...",
       "keepBtn": "Giữ",
       "cancelEventBtn": "Thôi sự kiện",
+      "cancelHolding": "Khoan...",
       "recurrenceEyebrow": "CÂU HỎI",
       "recurrenceModalTitle": "Lên kế hoạch \"0 độ\"",
       "recurrenceModalBody": "Tạo nhiều lần gặp từ sự kiện này. Mỗi lần xuất hiện là một sự kiện mới độc lập mà bạn có thể điều chỉnh.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Sự kiện này trực tiếp. Nếu bạn thay đổi trường quan trọng ( tựa đề, ngày tháng, địa điểm, loại, khả năng), nó sẽ được gửi trở lại hiệu chỉnh và tạm thời bị ẩn cho đến khi tái chấp thuận.",
       "editValidatedConfirm": "Dù sao cũng sửa",
       "actionEditValidated": "Sửa (có thể sửa đổi)",
-      "actionEditValidatedDesc": "Name"
+      "actionEditValidatedDesc": "Name",
+      "inviteEyebrow": "BÀI HỌC",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Email được tách bởi dấu phẩy hay dòng mới",
+      "inviteMessagePlaceholder": "Thông điệp cá nhân (tùy chọn)",
+      "inviteSendBtn": "Gởi giấy mời",
+      "inviteEmptyTitle": "Không có thư",
+      "inviteEmptyMessage": "Nhập ít nhất một địa chỉ email.",
+      "inviteInvalidTitle": "Email không hợp lệ",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Comment",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Không gửi được giấy mời.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Bây giờ không có khách để nhắc nhở.",
+      "remindErrorTitle": "Lỗi nhắc nhở",
+      "remindErrorMessage": "Những lời nhắc nhở không thể gửi đi. Xin hãy thử lại.",
+      "remindPendingProgress": "Đang gửi các nhắc nhở...",
+      "loadError": "Không thể tải các sự kiện. Kiểm tra kết nối."
     },
     "volunteer": {
       "tabReceived": "Đã nhận",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Mã không hợp lệ: UUID hoặc mã tham chiếu (82- 20 ký tự A-Z/0-9).",
       "sessionRecapTitle": "Tóm tắt phiên chạy",
       "sessionRecapBody": "quét  0 (s) trong  đáp án 1 phút\nthể hiện  BAR 2 độ mạnh\nKhông thành công",
-      "sessionRecapQueue": "Đang xếp hàng"
+      "sessionRecapQueue": "Đang xếp hàng",
+      "manualModeBanner": "Chế độ thủ công — 1 lần chạm vào mỗi người",
+      "manualModeA11y": "Chế độ thủ công bật. Tôi sẽ kiểm tra lại.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Những người này vào trong khi mạng lưới bị tắt. Kiểm tra đội của anh đi.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Chấp nhận ngoại tuyến bằng điện thoại này, bị từ chối đồng bộ. Nếu một đặc vụ khác đã quét cùng một lúc, những người này đã vào hai lần.",
+      "voice": {
+        "valid": "Vé hợp lệ",
+        "validWarning": "Hợp lệ, cần kiểm tra",
+        "alreadyCheckedIn": "Đã kiểm tra rồi",
+        "refused": "Vé bị từ chối",
+        "enabled": "Comment",
+        "toggleOn": "Comment",
+        "toggleOff": "Comment",
+        "toggleA11y": "Bật/tắt thông báo giọng nói"
+      }
     },
     "liveOps": {
       "live": "Sống",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "CÂU HỎI CỦA BẠN",
       "headerTitle": "Phân tích",
+      "errorTitle": "Phân tích không sẵn sàng",
+      "errorBody": "Không thể tải dữ liệu. Kiểm tra kết nối và thử lại.",
       "eventLabel": "evenT",
       "kpiViews": "Xem",
       "kpiRegistrations": "Đăng ký",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Các sự kiện của anh đã được xem hàng chục lần.",
       "insightViewsNone": "Chia sẻ sự kiện của bạn để có được nhiều lượt xem",
       "insightRegistered_one": "người đăng ký",
-      "insightRegistered_other": "0 người đăng ký"
+      "insightRegistered_other": "0 người đăng ký",
+      "actionBoxOffice": "Văn phòng"
     },
     "sessionsLink": {
       "headerEyebrow": "THÀNH CÔNG",
@@ -6077,6 +6599,16 @@
       "emptyText": "Các nhà tài trợ sẽ xuất hiện ở đây khi cộng tác với nhau."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Các đề nghị AI đã được áp dụng cho mẫu này",
+      "aiTitleSuggestionsTitle": "Đề nghị tiêu đề",
+      "aiPricingSuggestionsTitle": "Yêu cầu giá tiền",
+      "aiTicketsCreated": "Vé được tạo từ gợi ý AI",
+      "aiDescGenerated": "Mô tả được tạo bởi AI",
+      "aiNeedTitleFirst": "Thêm tiêu đề để AI tạo ra mô tả.",
+      "galleryPermissionTitle": "Cần quyền",
+      "galleryPermissionMessage": "Vui lòng cho phép truy cập vào thư viện ảnh của bạn",
+      "videoTooLargeTitle": "Video quá lớn",
+      "videoTooLargeMessage": "Video phải dưới 20 MB.",
       "unsupportedCountryTitle": "Quốc gia không sẵn sàng",
       "unsupportedCountryMessage": "Sự kiện này chưa thể tiến hành thanh toán ở đất nước này. Sự kiện sáng tạo sẽ bị bác bỏ. Các nước được hỗ trợ: Noch Pay, Cinet chi trả và sọc (46 quốc gia).",
       "draftFoundTitle": "Tìm thấy",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Comment",
       "viewMyEvents": "Xem các sự kiện của tôi",
       "createAnother": "Tạo khác",
+      "submittedStamp": "Để ôn lại",
+      "submittedEyebrow": "Được gửi để ôn lại",
+      "submittedBody": "Đội chúng tôi đang xem lại sự kiện của anh. Anh sẽ được thông báo ngay khi nó được phát sóng.",
+      "submittedCtaEyebrow": "Bảng thông tin",
       "edit": "Sửa",
       "saved": "Đã lưu",
       "back": "Lùi",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Vé “0 tối đa mỗi đơn đặt hàng phải là phút",
         "fieldLabelRequired": "¢Ü Yêu cầu nhãn ¢Ü",
         "fieldOptionsRequired": "Cần có những sự lựa chọn cho lĩnh vực “Chuyến bay số 0"
-      }
+      },
+      "loadFailedBlocksSave": "Không thể tải dữ liệu sự kiện. Nạp lại trang trước khi lưu, nếu không thông tin hiện thời của bạn sẽ bị ghi đè."
     },
     "eventRegistrations": {
       "title": "Đăng ký",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, xuất PDF, bảng điều khiển",
       "linkMyEventsTitle": "Sự kiện của tôi",
       "linkMyEventsSub": "Comment"
+    },
+    "boxOffice": {
+      "openTitle": "Mở cửa ra",
+      "openingFloatHelp": "Người tổ chức đã cho anh bao nhiêu sự thay đổi? Không có nó, tối nay đếm sai rồi.",
+      "openDrawer": "Mở cửa ra",
+      "openError": "♪ The until could not be open Những thứ mới mẻ",
+      "openErrorDetail": "Kiểm tra kết nối và thử lại.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Đóng",
+      "cash": "Cash",
+      "momo": "Comment",
+      "giveBack": "Trả lại",
+      "saleError": "Kinh doanh không được ghi lại",
+      "saleErrorDetail": "Không tái bán: hãy thử lại, nó sẽ không được tính lại.",
+      "a11y": {
+        "drawerOpened": "Cho đến khi mở ra",
+        "openingFloatInput": "Mở tập tin trôi",
+        "openDrawer": "Mở cửa ra",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Đóng cửa lại",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Lấy tiền điện thoại di động",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "VỚI VỚI MỘT NGƯỜI",
+      "cashOnlyHint": "Tiền mặt không có trong túi.",
+      "openingFloat": "Nổi mở",
+      "salesCount": "Bán",
+      "countedLabel": "Tôi đếm",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Đây không phải là chặn. Chỉ cần giải thích tại sao bên dưới.",
+      "reasonLabel": "Giải thích (tùy chọn)",
+      "reasonPlaceholder": "E.g. Tôi đã thay đổi rất nhiều",
+      "confirmClose": "Đóng cửa cho đến khi",
+      "closedTitle": "Cho đến khi đóng cửa",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Đóng thất bại",
+      "closeErrorDetail": "Xin hãy thử lại lần nữa.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Số lượng đếm",
+        "reasonInput": "Giải thích biến thể",
+        "confirmClose": "Xác nhận đang đóng",
+        "closed": "Cho đến khi đóng cửa"
+      }
+    },
+    "documents": {
+      "title": "Tài liệu cần in",
+      "a11y": "Tài liệu có thể in",
+      "badges": "Huy hiệu Tham dự",
+      "badgesHint": "Định dạng A6, 4 trên trang A4",
+      "attendanceSheet": "Bảng ký",
+      "attendanceSheetHint": "Để ký tên tại quầy lễ tân — sẵn sàng trước khi sự kiện xảy ra",
+      "certificates": "Chứng nhận tham dự",
+      "certificatesHint": "Sau sự kiện, cho những người tham gia đăng ký"
+    },
+    "weddingGuests": {
+      "title": "Khách & RSVP",
+      "empty": "Chưa có khách.",
+      "remindOne": "Nhắc nhở",
+      "remindOneSent": "Nhắc nhở đã gửi",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Không thể gửi thư nhắc nhở",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Chỉnh sửa RSVP",
+      "editRsvpTitle": "Chỉnh sửa RSVP",
+      "rsvpUpdated": "Cập nhật RSVP",
+      "rsvpError": "Không thể lưu RSVP",
+      "partySize": "Kích cỡ Đảng",
+      "dietary": "Yêu cầu ăn kiêng",
+      "dietaryPlaceholder": "Ăn chay, ăn kiêng...",
+      "note": "Ghi chú",
+      "stats": {
+        "invited": "Mời",
+        "accepted": "Xác nhận",
+        "pending": "Đang đợi",
+        "headcount": "Số đếm đầu"
+      },
+      "status": {
+        "pending": "Đang đợi",
+        "accepted": "Xác nhận",
+        "declined": "Giải mã",
+        "cancelled": "Đã hủy"
+      }
+    },
+    "weddingGifts": {
+      "title": "Các & quà đăng ký",
+      "noRegistry": "Không có danh sách quà tặng cho sự kiện này.",
+      "create": "Tạo danh sách",
+      "registryCreated": "Đã tạo",
+      "registryUpdated": "Comment",
+      "editRegistry": "Sửa danh sách",
+      "registryTitle": "Tựa thẻ",
+      "registryDescription": "Comment",
+      "visible": "Nhìn thấy ký",
+      "hidden": "Ẩn",
+      "totalRaised": "Toàn bộ đã nâng lên",
+      "share": "Chia sẻ",
+      "addItem": "Thêm một món quà",
+      "newItem": "Món quà mới.",
+      "editItem": "Sửa đổi quà",
+      "itemName": "Tên",
+      "itemKind": "Kiểu",
+      "targetAmount": "Số lượng đích",
+      "externalUrl": "Liên kết bên ngoài (tùy chọn)",
+      "itemAdded": "Món quà thêm",
+      "itemUpdated": "Comment",
+      "itemDeleted": "Món quà đã được xoá",
+      "deleteItemTitle": "Xoá bỏ món quà này",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Đã lưu",
+      "noItems": "Vẫn chưa có quà. Thêm một cái nữa.",
+      "kind": {
+        "gift": "Quà ( món quà)",
+        "cash_fund": "Tiền mặt"
+      },
+      "error": "Có chuyện rồi."
+    },
+    "weddingTables": {
+      "title": "Kế hoạch biển",
+      "noTables": "Vẫn chưa bàn. Tạo ra một cái.",
+      "addTable": "Thêm bảng",
+      "newTable": "Bảng mới",
+      "editTable": "Sửa bảng",
+      "name": "Tên bảng",
+      "namePlaceholder": "Bàn 1, Gia đình...",
+      "capacity": "Ghế",
+      "created": "Bảng",
+      "updated": "Bảng đã cập nhật",
+      "deleted": "Bảng",
+      "deleteTitle": "Xoá bảng",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Đầy đủ",
+      "tableEmpty": "Không ai ở bàn này",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Tất cả khách được xác nhận đã ngồi.",
+      "createFirst": "Hãy đặt bàn trước để đặt chỗ cho khách.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Mời khách",
+      "unassign": "Bỏ",
+      "unassigned": "Khách bị gỡ bỏ",
+      "capacityError": "Không đủ chỗ ngồi ở bàn này.",
+      "error": "Có chuyện rồi."
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Sự kiện",
       "kpiRevenue": "Hoàn nguyên",
       "kpiVerifications": "Mở đích",
+      "activityChartTitle": "Comment",
+      "activityChartSubtitle": "Diễn viên hành động trong 7 ngày qua",
       "quickActions": "NHỮNG CÂU CHUYỆN",
       "recentActivity": "TRONG SỰ HIỆN TẠI",
       "noActivity": "Không có hoạt động gần đây",
       "viewAllAudit": "Xem mọi bản ghi kiểm tra",
       "actions": {
         "users": "Người dùng",
+        "verifications": "Mở đích",
         "subscriptions": "Đăng ký",
         "audit": "Audit",
         "announcements": "Thông báo",
@@ -6369,6 +7066,30 @@
         "settings": "Thiết lập",
         "treasury": "Kho"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Truy cập bị hạn chế",
+      "eyebrow": "Bộ điều khiển",
+      "title": "Yêu cầu xác thực",
+      "typeOrg": "Tổ chức",
+      "typeIndividual": "Cá nhân",
+      "noDocuments": "Không có tài liệu được cung cấp",
+      "approve": "Áp dụng",
+      "reject": "Từ chối",
+      "approveTitle": "Xác thực",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Xác nhận để chấp nhận xác thực này",
+      "approveSuccess": "Comment",
+      "rejectTitle": "Yêu cầu từ chối",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Lý do để từ chối...",
+      "rejectReasonRequired": "Cần có một lý do.",
+      "rejectSuccess": "Yêu cầu bị từ chối",
+      "actionError": "Hành động đã thất bại. Xin hãy thử lại.",
+      "loadError": "Không thể tải yêu cầu xác thực.",
+      "emptyTitle": "Không có yêu cầu chờ đợi",
+      "emptySubtitle": "Yêu cầu thẩm tra mới sẽ xuất hiện ở đây."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Không thể tải người dùng",
       "roleSection": "ROLE",
       "actionsSection": "hậu phương",
+      "profileSection": "PHI LUYỆN",
+      "fieldFirstName": "Tên",
+      "fieldLastName": "Tên",
+      "fieldEmail": "Email",
+      "fieldPhone": "Điện thoại",
+      "fieldCompany": "Công ti",
+      "saveProfile": "Lưu hồ sơ",
+      "profileUpdated": "Cập nhật hồ sơ",
+      "profileUpdateError": "Không thể cập nhật hồ sơ.",
+      "emailRequired": "Cần phải có email.",
       "infoSection": "MỤC ĐÃ",
       "active": "Hoạt động",
       "inactive": "Bị động",
@@ -6670,6 +7401,21 @@
       "title": "Bản ghi thử ra",
       "target": "Mục tiêu",
       "user": "Người dùng",
+      "detail": {
+        "guardTitle": "Chi tiết ghi lưu",
+        "eyebrow": "Bản ghi thử ra",
+        "title": "Chi tiết ghi lưu",
+        "action": "Hành động",
+        "target": "Mục tiêu",
+        "user": "Người dùng",
+        "system": "Hệ thống",
+        "timestamp": "Nhãn thời gian",
+        "ip": "Địa chỉ IP",
+        "userAgent": "Thiết bị/ Bộ duyệt",
+        "changes": "Thay đổi",
+        "metadata": "Chi tiết",
+        "loadError": "Không thể tải nhật ký."
+      },
       "stats": {
         "total": "Tổng"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Email của khách",
     "delegateError": "Không thể gửi giấy mời.",
     "toCompleteBadge": "hội nghị hoàn tất"
+  },
+  "shareCard": {
+    "eyebrow": "Tôi sẽ đến đó.",
+    "button": "Chia sẻ câu chuyện",
+    "dialogTitle": "Chia sẻ vị trí của tôi",
+    "cta": "Đặt chỗ",
+    "errorTitle": "Chia sẻ",
+    "errorMessage": "Không thể tạo thẻ ngay bây giờ."
+  },
+  "badges": {
+    "verified": "Đã tạo",
+    "pioneer": "Người tiên phong",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "Trích dẫn",
+    "title": "Áp dụng cho một quầy",
+    "lead": "Giới thiệu công ty của bạn để điều hành một quầy tại chương trình này. Người tổ chức sẽ xem lại yêu cầu của anh.",
+    "companyLabel": "Tên công ty",
+    "companyPlaceholder": "e.g. Acme Ltd",
+    "categoryLabel": "Công nghệ/ Loại",
+    "categoryPlaceholder": "E.g. Tech, Food...",
+    "websiteLabel": "Màu Mạng (tùy chọn)",
+    "pitchLabel": "Thông điệp cho người tổ chức (tùy chọn)",
+    "pitchPlaceholder": "Mô tả công việc của anh, những gì anh sẽ trình diễn...",
+    "boothLabel": "Bàn ưa thích (tùy chọn)",
+    "submit": "Gửi đơn của tôi",
+    "submitting": "Đang gửi...",
+    "successTitle": "Ứng dụng đã được gửi!",
+    "successSubtitle": "Người tổ chức sẽ xem xét nó. Anh sẽ được thông báo về quyết định của họ.",
+    "goToMyBooth": "Xem quầy của tôi",
+    "alreadyApplied": "Bạn đã áp dụng cho chương trình này.",
+    "loginRequired": "Ký đơn xin một quầy.",
+    "login": "Ký vào",
+    "errorSubmit": "Không thể gửi ứng dụng.",
+    "ctaTitle": "Điều hành một quầy ở chương trình này?",
+    "ctaSubtitle": "Áp dụng trong vài giây.",
+    "ctaButton": "Trở thành một triển lãm"
+  },
+  "myBoothMobile": {
+    "eyebrow": "Trích dẫn",
+    "title": "Bàn của tôi",
+    "empty": "Không đặt bàn.",
+    "show": "Hiện",
+    "accepted": "Thỏa thuận được chấp nhận.",
+    "acceptError": "Không thể chấp nhận.",
+    "salesTitle": "Bán hàng được ủy quyền",
+    "commission": "EventEz commission",
+    "hostShare": "Chia sẻ tổ chức",
+    "net": "Những gì bạn giữ",
+    "createEvent": "Tạo sự kiện của tôi",
+    "acceptCta": "Tôi chấp nhận những điều khoản này",
+    "statusPaid": "Trả",
+    "statusPartial": "Được trả tiền",
+    "statusPending": "Để trả tiền",
+    "amountDue": "Số lượng Booth",
+    "amountRemaining": "Vẫn phải trả giá",
+    "payBooth": "Trả tiền quầy cho tôi",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Thẻ",
+    "paymentInitiated": "Bắt đầu thanh toán. Xác nhận trên điện thoại.",
+    "payError": "Không thể khởi động thanh toán bàn.",
+    "captureLeads": "Contact & mới",
+    "viewLeads": "Name"
+  },
+  "leadCapture": {
+    "title": "Bắt liên lạc",
+    "hint": "Chỉ vào mã QR trên phù hiệu khách truy cập.",
+    "permissionTitle": "Cho phép truy cập máy ảnh",
+    "permissionBody": "Máy quay chỉ được dùng để đọc mã phù hiệu QR của những vị khách đồng ý liên lạc.",
+    "permissionCta": "Bật máy ảnh",
+    "manualEntry": "Nhập tham chiếu thay vào",
+    "manualPlaceholder": "Tham chiếu xấu",
+    "unnamed": "Contact & mới",
+    "alreadyKnown": "Đã gặp — kỷ lục được cập nhật.",
+    "qualify": "Điều chỉnh liên lạc này",
+    "rating_hot": "Nóng",
+    "rating_warm": "Ấm",
+    "rating_cold": "Lạnh",
+    "notesPlaceholder": "(tùy chọn)",
+    "next": "Contact & mới",
+    "retry": "Quét lại",
+    "noConsentTitle": "Khách này chưa đồng ý.",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Không nhận ra huy hiệu",
+    "notFoundBody": "Huy hiệu này không thuộc về sự kiện này. Kiểm tra tài liệu tham khảo được in dưới mã QR.",
+    "errorTitle": "Lỗi quét",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Vị khách này chưa đồng ý tiếp xúc.",
+    "a11yNotFound": "Không nhận ra huy hiệu.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "justNow": "Vừa nãy",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Đang gửi",
+    "failed": "Lỗi gửi",
+    "sent": "Gửi",
+    "delivered": "Đã giao",
+    "read": "Đọc"
+  },
+  "myLeads": {
+    "title": "Name",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Liên lạc không tên",
+    "emptyTitle": "Chưa kết nối",
+    "emptyBody": "Hãy quét phù hiệu của những vị khách ghé qua quầy của bạn. Sau đó bạn có thể xuất danh sách đầy đủ như là CSV.",
+    "errorTitle": "Không tải được",
+    "errorBody": "Các mối quan hệ của anh an toàn. Kiểm tra kết nối và thử lại."
+  },
+  "myDataExhibitors": {
+    "title": "Dữ liệu của tôi được lưu giữ bởi các nhà triển lãm",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Xóa",
+    "eraseAll": "Xóa hết",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Chi tiết liên lạc của anh đã bị xóa.",
+    "eraseError": "Việc cập nhật không được thông qua.",
+    "confirmCta": "Xóa",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Xóa dữ liệu của tôi được giữ bởi tất cả các nhà triển lãm?",
+    "confirmAllBody": "Tên, email và số điện thoại của bạn sẽ bị xóa ở mọi công ty được liệt kê. Chuyện này không thể thay đổi được.",
+    "emptyTitle": "Không công ty lưu giữ thông tin liên lạc của bạn",
+    "emptyBody": "Những người dẫn chứng chỉ có thể tiết kiệm chi tiết của bạn bằng cách scan phù hiệu của bạn, và chỉ khi bạn cho phép nó cho sự kiện đó."
+  },
+  "visio": {
+    "expandCall": "Mở rộng cuộc gọi phim",
+    "endCall": "Kết thúc cuộc gọi",
+    "endCallConfirmTitle": "Bỏ cuộc gọi?",
+    "endCallConfirmMessage": "Anh sắp rời khỏi cuộc họp.",
+    "minimize": "Thu nhỏ",
+    "liveNow": "Sống",
+    "join": "Tham gia",
+    "view": "Xem",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Xem",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Đổi cỡ"
+  },
+  "organize": {
+    "favorites": "Tôi thích nhất",
+    "eyebrow": "Miền màu",
+    "title": "Tổ chức",
+    "liveNow": "Sống ngay bây giờ",
+    "nextEvent": "Comment",
+    "registered": "đã đăng ký",
+    "scan": "Quét",
+    "scanA11y": "Quét vé cho sự kiện này",
+    "boxOffice": "Văn phòng",
+    "boxOfficeA11y": "Mở văn phòng hộp cho sự kiện này",
+    "viewStats": "Xem thống kê",
+    "availableBalance": "Cân bằng sẵn sàng",
+    "walletA11y": "Mở ví ra",
+    "noActiveEvent": "Comment",
+    "noActiveEventHint": "Tạo một sự kiện hoặc xuất bản một bản nháp để xem nó ở đây.",
+    "noStaffEventHint": "Những sự kiện mà anh là một phần của đội sẽ xuất hiện ở đây.",
+    "createEvent": "Tạo một sự kiện",
+    "myEvents": "Sự kiện của tôi",
+    "teamEvents": "Những sự kiện tôi làm",
+    "analytics": "Phân tích",
+    "loadError": "Không nạp đủ chỗ. Kiểm tra kết nối."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Anh tham gia",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Trong một tuần",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Cửa mở rồi.",
+    "onNow": "Đang xảy ra",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Bật tùy chọn lên",
+    "offlinePending": "Mở vé một lần để giữ nó tắt",
+    "sayImGoing": "Nói rằng tôi sẽ đi",
+    "showTicket": "Cho tôi xem vé.",
+    "directions": "Hướng",
+    "viewTicket": "Xem vé",
+    "goThere": "Đi",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Cân chỉnh la bàn: Vẽ một con số 8 với điện thoại của bạn",
+    "compassHint": "Theo mũi tên đến địa điểm"
+  },
+  "onSite": {
+    "eyebrow": "Bạn đang ở trang web",
+    "now": "Bây giờ",
+    "next": "Next · {{time}}",
+    "qa": "Live Q&A",
+    "plan": "Ánh & xạ",
+    "networking": "Mạng"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Anh đã ở đó.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Đến trước",
+    "question": "Anh nghĩ sao?",
+    "thanks": "Cảm ơn đã đánh giá.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Chia sẻ câu chuyện",
+    "later": "Sau này"
+  },
+  "yearInReview": {
+    "eyebrow": "Năm của bạn",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "sự kiện",
+    "s1Line_other": "sự kiện",
+    "citiesEyebrow": "♪ Trên đường ♪",
+    "categoryEyebrow": "Sự kiện của anh",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Tất cả bắt đầu với",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Luôn đúng giờ",
+    "arrivalsLine_one": "thời gian đầu tiên để đến",
+    "arrivalsLine_other": "thời gian đầu tiên để đến",
+    "organizerEyebrow": "Người tổ chức",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Chia sẻ bài của tôi",
+    "tapHint": "Gõ để tiếp tục"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Người tham dự đầu tiên",
+      "someone": "♪ Someone ♪",
+      "share": "Chia sẻ để tăng doanh thu",
+      "view": "Xem",
+      "soldOutTitle": "Bán hết",
+      "soldOutLine": "Mọi vé đều hết"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "SODED",
+      "online": "Sống"
+    },
+    "share": {
+      "cta": "Chia sẻ sự kiện",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Đã chia sẻ",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Đã yêu cầu",
+      "approved": "Được chấp nhận",
+      "sent": "Gửi",
+      "verifying": "Kiểm tra với tổng đài",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Comment"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Sắp hết rồi.",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Hết ca",
+      "validated": "Đã đăng ký",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Từ chối",
+      "syncing": "Đồng bộ hóa...",
+      "synced": "Đồng bộ hoá",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Xem trực tiếp hoạt động",
+      "resume": "Tiếp tục",
+      "close": "Kết thúc"
+    },
+    "recap": {
+      "title": "& Phục hồi",
+      "eyebrow": "CHỮNG CÂU DO",
+      "attended": "Đã tham dự",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Hoàn nguyên",
+      "rating": "Tỷ lệ trung bình",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Chưa có đánh giá",
+      "best": "Xem xét đứng dậy",
+      "latest": "phê bình mới nhất",
+      "thank": "Cảm ơn đã tham dự.",
+      "funds": "Xem tài trợ",
+      "error": "Không dùng lại được.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Xem lại"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Vừa đặt xong",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Được đặt vào giờ cuối cùng",
+    "lastSaleToday": "Đã đặt hôm nay",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Bán hết",
+    "soldOutCta": "Bán hết rồi, không còn chỗ ngồi nữa.",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Các mối quan hệ của bạn đang đi",
+    "someone": "♪ Someone ♪",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Trực tuyến",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "Một chỗ ngồi được giữ cho anh.",
+    "seatHeldBody": "Quyển sách trước khi kết thúc đếm ngược: sau đó, nó đi đến người tiếp theo.",
+    "seatHeldCta": "Đặt chỗ cho tôi.",
+    "seatHeldExpired": "Thời gian đã hết: chỗ ngồi đã đến chỗ người kế tiếp.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Hiện tất cả",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Phản ứng",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Một trong những mối quan hệ của anh đã đến.",
+    "connectionArrivedCta": "Thông điệp cho họ",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Bán trực tiếp",
+    "checkinPushed": "Cuộc sống đến"
+  },
+  "reminders": {
+    "channelName": "Những lời nhắc nhở về sự kiện",
+    "dayBeforeTitle": "Nhắc nhở: ngày mai",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Nhắc nhở: trong 1 giờ",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Khám phá",
+    "discoverSubtitle": "Những sự kiện gần anh",
+    "tickets": "Vé của tôi.",
+    "scan": "Quét vé"
+  },
+  "ongoing": {
+    "channelName": "Ngày nghỉ",
+    "eventFallback": "Sự kiện của anh",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Bắt đầu sớm",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Và bây giờ lá bài của bạn đã sẵn sàng",
+    "scannerTitle": "Đang quét"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Hủy bước cuối cùng?",
+      "confirm": "Hủy bước",
+      "keep": "Giữ",
+      "failed": "Hủy bỏ không được. Kiểm tra kết nối và thử lại.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Di chuyển cuộc nói chuyện ra khỏi kho lưu trữ."
+    },
+    "report": {
+      "title": "Báo cáo một vấn đề",
+      "subtitle": "Xây dựng thử nghiệm: ảnh chụp màn hình, màn hình và phiên bản được gửi với thông điệp của bạn.",
+      "noNote": "Báo cáo mà không có chú thích",
+      "blur": "Xanh",
+      "noShot": "Không có ảnh chụp màn hình nào trên màn hình này.",
+      "placeholder": "Chuyện gì đã xảy ra?",
+      "send": "Gởi",
+      "sent": "Cảm ơn, báo cáo của anh đã được gửi.",
+      "unavailable": "Không thể gửi: thiết bị theo dõi lỗi không hoạt động được."
+    },
+    "applause": {
+      "hint": "Giữ để vỗ tay lâu hơn.",
+      "a11y": "Vỗ tay lâu"
+    },
+    "hush": {
+      "title": "Mic và máy ảnh tắt máy trong khi điện thoại được mặt xuống",
+      "reactivate": "Tap để bật chúng trở lại"
+    },
+    "lighter": {
+      "button": "Làm sáng hơn",
+      "off": "Ném đi.",
+      "alone": "Đưa điện thoại lên, ngọn lửa theo sau bước đi của anh.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Làm tôi ngạc nhiên đi.",
+      "chipA11y": "Đề nghị một sự kiện ngẫu nhiên",
+      "again": "Khác",
+      "none": "Không có sự kiện sắp diễn ra."
+    },
+    "bump": {
+      "settingTitle": "Name",
+      "settingSubtitle": "Trên trang web, một khi vé của bạn đã được quét: lắc cùng lúc với người khác để tìm thấy nhau. Vị trí xấp xỉ của bạn được dùng trong vài giây để khớp với bạn và không bao giờ được cất giữ. Không có gì xảy ra mà không có xác nhận của anh. Tắt theo mặc định.",
+      "button": "Name",
+      "nearbyButton": "♪ Hãy nhìn quanh tôi ♪",
+      "hint": "Lắc điện thoại cùng lúc với người khác.",
+      "title": "Contact & mới",
+      "searching": "Đang tìm kiếm những người run rẩy gần anh...",
+      "none": "Không ai tìm thấy. Lắc cùng lúc với người khác, sau đó thử lại.",
+      "pick": "Chọn đúng người đi. Không có sự đồng ý của anh thì không có gì được chia sẻ.",
+      "connect": "Kết nối?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Đang chờ xác nhận.",
+      "connected": "Đã kết nối",
+      "openSettings": "Thiết lập",
+      "error": {
+        "disabled": "Bật lên “Những mối quan hệ mật thiết bằng cách lắc lư trong bối cảnh của bạn.",
+        "notCheckedIn": "Một khi vé của anh đã được quét ở lối vào.",
+        "clockSkew": "Đồng hồ điện thoại tắt rồi. Hãy tự động thử lại.",
+        "rateLimited": "Quá nhiều nỗ lực. Một phút nữa thử lại.",
+        "expired": "Việc trao đổi đã hết hạn. Bắt đầu lại.",
+        "noLocation": "Cần phải có địa điểm để tìm người ở gần bạn.",
+        "generic": "Vụ trao đổi không được thông qua. Thử lại đi."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Lưu sự kiện"
+    },
+    "torch": {
+      "onA11y": "Bật đèn lên",
+      "offA11y": "Tắt đèn đi.",
+      "hint": "Tăng gấp đôi tầm nhìn để bật hay tắt ngọn đuốc."
+    },
+    "dragSelect": {
+      "select": "Chọn",
+      "hint": "Hoặc kéo hai ngón tay xuống danh sách để đánh dấu một số người tham dự.",
+      "message": "Thông báo người tham dự đã chọn",
+      "export": "Xuất vùng chọn",
+      "exportError": "Xuất khẩu phần chọn đã thất bại.",
+      "csvName": "Tên",
+      "csvEmail": "Email",
+      "csvReference": "Tham chiếu",
+      "csvStatus": "Trạng thái",
+      "csvDate": "Đã đăng ký"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Lấy vé...",
+      "favorites": "Lấy những thứ yêu thích...",
+      "notifications": "Đang lấy thông báo...",
+      "messages": "Thu thập cuộc nói chuyện của bạn...",
+      "search": "Đang tìm sự kiện tương tự...",
+      "event": "Đang chuẩn bị trang sự kiện..."
+    },
+    "mobileMoney": {
+      "sent": "Yêu cầu thanh toán của anh đã được gửi đến tổng đài.",
+      "pin": "Hãy dùng điện thoại của bạn, theo dấu hiệu của người điều khiển.",
+      "operator": "Xác nhận tổng đài có thể mất một thời gian. Điều đó là bình thường, xin hãy ở lại trang này.",
+      "once": "Anh sẽ chỉ bị phạt một lần, ngay cả khi sự chờ đợi cứ tiếp diễn."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Vé của anh sẽ đến đây ngay khi anh đăng ký một sự kiện.",
+        "v1": "Một buổi hòa nhạc, một hội nghị, một xưởng? Tất cả bắt đầu với một sự kiện.",
+        "v2": "Cuộc hẹn tiếp theo có thể đã lên mạng rồi."
+      },
+      "favorites": {
+        "v0": "Hãy đập quả tim vào một sự kiện để tìm nó ở đây và nghe về những thay đổi.",
+        "v1": "Theo dõi một sự kiện để bạn không bao giờ bỏ lỡ tin tức của nó.",
+        "v2": "Một trái tim là đủ để giữ cho một sự kiện gần kề."
+      },
+      "notifications": {
+        "v0": "Tin tức từ các sự kiện và tổ chức bạn theo dõi sẽ xuất hiện ở đây.",
+        "v1": "Hãy theo dõi một biến cố để biết điều gì mới.",
+        "v2": "Chúng tôi sẽ cho anh biết ngay khi có chuyện xảy ra."
+      },
+      "messages": {
+        "v0": "Gặp ai đó tại một sự kiện? Quét mã để kết nối.",
+        "v1": "Kết nối sự kiện của bạn hiển thị ở đây: quét mã là đủ.",
+        "v2": "Thay đổi thông tin liên lạc trên trang web bằng cách quét mã của người tham dự."
+      },
+      "discover": {
+        "v0": "Thỉnh thoảng tìm từ khoá mà trang chủ chưa cho thấy.",
+        "v1": "Tìm kiếm theo thành phố hoặc phân loại: Những sự kiện mới đến mỗi tuần."
+      },
+      "exploreAction": "Xem có chuyện gì",
+      "scanAction": "Quét mã",
+      "searchAction": "Name",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Rộng đến 50km xung quanh bạn",
+      "clearFilters": "Xoá bộ lọc"
+    },
+    "greeting": {
+      "when": {
+        "today": "hôm nay",
+        "tomorrow": "ngày mai",
+        "dayAfter": "ngày kia"
+      },
+      "there": "nơi Mạng",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Chúc mừng sinh nhật! Chúc một ngày tốt lành.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Chúc mừng quốc gia!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Chào mừng trở lại.",
+      "subtitle_one": "Một điều mới từ lần cuối anh đến.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Và một lần nữa từ những gì anh theo đuổi.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Ẩn",
+      "reason": {
+        "followed_organizer": "Tổ chức bạn theo",
+        "new_edition": "Phiên bản mới của sự kiện bạn đã tham dự",
+        "other": "Mới"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "VỚI anh / Anh / chị sinh trên xe buýt",
+      "forYouTitle": "Bạn cũng có thể thích",
+      "loginCtaTitle": "Đề nghị phù hợp với bạn"
+    },
+    "settings": {
+      "ritualsEyebrow": "MỘT THÁNG nhỏ",
+      "ritualsTitle": "Chạm nhẹ thôi.",
+      "ritualsSubtitle": "Một từ vào ngày sinh nhật, ngày kỉ niệm tài khoản hay ngày quốc gia, một lần trong ngày. Tuổi của bạn không bao giờ được hiển thị, không thông báo.",
+      "forgetEyebrow": "SỐ HỌC HỎI",
+      "forgetTitle": "Hãy quên ưu tiên của tôi đi.",
+      "forgetSubtitle": "Xóa những gì xảy ra sau đó, đăng ký và tìm kiếm đã dạy cho bạn những lời khuyên.",
+      "forgetConfirmTitle": "Quên sở thích của mình đi?",
+      "forgetConfirmMessage": "Lời khuyên của anh sẽ bắt đầu từ đầu. Vé, vé ưa thích và theo dõi không thay đổi.",
+      "forgetDone": "Đề nghị của anh bắt đầu từ đầu.",
+      "forgetUnavailable": "Chưa có lựa chọn này. Không có gì bị xóa.",
+      "forgetError": "Sở thích của bạn không thể bị xóa bỏ. Chúng không thay đổi; xin hãy thử lại trong một thời điểm."
+    },
+    "goingCard": {
+      "title": "Trong khi bạn chờ đợi, hãy chuẩn bị “Tôi sẽ đi lấy danh thiếp",
+      "subtitle": "Nó sẽ sẵn sàng chia sẻ ngay khi thanh toán được xác nhận.",
+      "tintLabel": "Nền",
+      "messageLabel": "Thông điệp",
+      "messages": {
+        "going": "Tôi đi đây",
+        "meetThere": "Gặp anh ở đó nhé?",
+        "seeYou": "Gặp tôi ở đó."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Dấu vân tay trong khi chờ đợi.",
+      "ready": "Thẻ của anh đã sẵn sàng.",
+      "share": "Chia sẻ bài của tôi",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

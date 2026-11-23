@@ -41,6 +41,7 @@
     "close": "ปิด",
     "clear": "ล้าง",
     "back": "กลับ",
+    "home": "บ้าน",
     "next": "ต่อไป",
     "previous": "ก่อนหน้า",
     "search": "ค้นหา",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "รหัสไม่ถูกต้อง หรือหมดอายุแล้ว",
     "loginError": "การล็อกอินผิดพลาด",
     "registerError": "เกิดข้อผิดพลาดในการเซ็น",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "มีบัญชีผู้ใช้อยู่ก่อนแล้ว",
     "registerEmailExistsDetail": "มีบัญชีผู้ใช้กับอีเมลนี้อยู่แล้ว คุณอยากลงชื่อไหม",
     "registerEmailExistsConfirm": "เข้าสู่ระบบ",
@@ -436,10 +444,14 @@
     "lastNameRequired": "ต้องการนามสกุล",
     "emailRequired": "ต้องการอีเมล",
     "emailInvalid": "อีเมลไม่ถูกต้อง",
+    "passwordRequired": "ต้องการรหัสผ่าน",
     "passwordTooShort": "รหัสผ่านสั้นเกินไป (*)",
+    "confirmPasswordRequired": "ต้องการการยืนยันรหัสผ่าน",
     "passwordsDontMatch": "รหัสผ่านไม่ตรงกัน",
+    "usernameRequired": "ต้องการชื่อผู้ใช้",
     "usernameTooShort": "ชื่อผู้ใช้งานสั้นเกินไป (* 0)",
     "usernameInvalid": "ชื่อผู้ใช้ไม่ถูกต้อง",
+    "phoneRequired": "ต้องการหมายเลขโทรศัพท์",
     "phoneInvalid": "หมายเลขโทรศัพท์ไม่ถูกต้อง",
     "minLength": "แบบน้อยที่สุด",
     "maxLength": "ค่ามากที่สุด ○ 0) ตัวอักษร"
@@ -449,7 +461,8 @@
     "saved": "บันทึก",
     "messages": "จดหมาย",
     "tickets": "ตั๋ว",
-    "profile": "โพรไฟล์"
+    "profile": "โพรไฟล์",
+    "organize": "หมวดหมู่"
   },
   "languagePicker": {
     "eyebrow": "WELLCE",
@@ -492,6 +505,7 @@
     "viewAction": "แสดง",
     "viewEvent": "แสดงเหตุการณ์",
     "share": "ใช้ร่วมกัน",
+    "scrollToTop": "กลับไปยังด้านบน",
     "freeEyebrow": "ตอร์ปิโด",
     "freeTitle": "ฟรี, ไม่มีสตริง",
     "freeBadge": "อิสระ",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "คุณพร้อมแล้ว!",
     "notifyOnBody": "เราจะบอกคุณทันทีที่เหตุการณ์แรกเกิดขึ้น",
     "notifyOffTitle": "การแจ้งให้ทราบออก",
-    "notifyOffBody": "เปิดใช้การแจ้งเตือนในการตั้งค่า"
+    "notifyOffBody": "เปิดใช้การแจ้งเตือนในการตั้งค่า",
+    "organizersEyebrow": "ผู้ ประสานงาน",
+    "organizersTitle": "คนที่อยู่เบื้องหลัง",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "ตัวจัดการใบรับรอง",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "เหรียญราคา",
@@ -604,7 +624,10 @@
     "invisibleHint": "คุณ มอง ไม่ เห็น — หัน ไป มอง ด้วย.",
     "message": "จดหมาย",
     "connected": "เชื่อมต่อแล้ว",
-    "empty": "ยังไม่มีใครเห็น เปิด เน็ตเวิร์ค ของ คุณ ก่อน!"
+    "empty": "ยังไม่มีใครเห็น เปิด เน็ตเวิร์ค ของ คุณ ก่อน!",
+    "scanOptInTitle": "ให้ตัวแทนสแกนตราของฉัน",
+    "scanOptInSubtitle": "การดําเนินงาน บริษัท จะสามารถบันทึกชื่อของคุณ และรายละเอียดการติดต่อได้ โดยการสแกนตราของคุณ",
+    "scanOptInWithdrawNote": "คุณสามารถปิดมันเมื่อไหร่ก็ได้ การ ติด ต่อ ที่ ได้ รับ การ บันทึก ไว้ แล้ว"
   },
   "eventDetails": {
     "eyebrow": "ช่องสัญญาณ",
@@ -628,6 +651,7 @@
     "onlineEvent": "เหตุการณ์ออนไลน์",
     "meetingId": "หมายเลขการประชุม:",
     "meetingPasscode": "รหัสผ่าน:",
+    "liveEngagement": "สด Q&A และสํารวจ",
     "joinEvent": "เข้าร่วมเหตุการณ์",
     "joinOnline": "เข้าร่วมออนไลน์",
     "registered": "ลงทะเบียนแล้ว",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "ใช้ร่วมกันกับสิ่งอํานวยความสะดวก",
     "closePreviewA11y": "ปิดการแสดงตัวอย่าง",
     "invalidCode": "รหัสเข้าไม่ถูกต้อง",
+    "accessButton": "เข้า",
+    "pendingPaymentBanner": "จ่ายเงินเพื่อยืนยันการลงทะเบียน",
+    "onlineInfoAfterRegistration": "รายละเอียดการเชื่อมต่อจะปรากฎหลังจากทําการลงทะเบียน",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "ขยายขนาด",
+    "playCoverVideo": "เล่นวิดีโอ",
+    "videoPlayA11y": "เล่นวิดีโอด้วยเสียง",
+    "videoUnmuteA11y": "ไม่สนใจ",
+    "videoMuteA11y": "ตัดเสียง",
+    "videoExpandA11y": "ขยายวิดีโอให้เต็มจอ",
     "imagesCount": "○ 0 / {{total}}",
     "videoConference": "จัดเรียงวิดีโอ",
     "openLinkError": "ไม่สามารถเปิดการเชื่อมโยงของเหตุการณ์",
@@ -675,7 +708,28 @@
     "registeredStatus": "ลงทะเบียนแล้ว",
     "pendingStatus": "จํานวนครั้งที่เล่น",
     "priceLabel": "ค่า",
-    "fromLabel": "เริ่มตั้งแต่"
+    "fromLabel": "เริ่มตั้งแต่",
+    "waitlistJoinedDetail": "คุณได้เข้าร่วมการรอคอย เราจะแจ้งให้คุณทราบ ทันทีที่จุดเปิด",
+    "waitlistLeftMsg": "คุณทิ้งรายชื่อไว้",
+    "waitlistLeaveError": "ไม่สามารถออกจากรายการรอ",
+    "waitlistJoinError": "ไม่สามารถเข้าร่วมรายชื่อผู้รอรับได้",
+    "waitlistLeaveTitle": "ออกจากรายการรอ",
+    "waitlistLeaveConfirm": "คุณแน่ใจหรือไม่ที่จะออกจากรายชื่อผู้รอคอย?",
+    "whatsappNotInstalled": "สิ่งที่ App ไม่ได้ติดตั้งอยู่บนอุปกรณ์นี้",
+    "reviewRatingRange": "โปรดเลือกเรตติ้งระหว่าง 1 ถึง 5",
+    "reviewThanksTitle": "ขอบคุณ!",
+    "reviewSubmitted": "การทบทวนของคุณเสร็จสิ้น",
+    "loginRequiredTitle": "ต้องการลายเซ็น",
+    "loginRequiredReview": "เข้าสู่ระบบที่จะออกจากการทบทวน",
+    "reviewSubmitError": "ไม่สามารถส่งการทบทวนของคุณได้",
+    "loginRequiredWaitlist": "เข้าสู่ระบบเพื่อเข้าร่วมการรอเล่น",
+    "invitationGateDesc": "งาน นี้ สงวน ไว้ สําหรับ แขก ที่ ได้ รับ เชิญ. หาก คุณ ได้ รับ คํา เชิญ โปรด รับ คํา เชิญ เพื่อ จะ เข้า ถึง.",
+    "codeGateDesc": "เติมรหัสเพื่อดูรายละเอียดเต็ม",
+    "giftRegistryCta": "สัญญาอนุญาตสิทธิ์",
+    "giftRegistrySubtitle": "ดูรายการและชิปในถ้าคุณรู้สึกว่ามัน",
+    "cancelReasonTitle": "เหตุ ผล สําหรับ การ ยก เลิก",
+    "visioEnded": "การ ประชุม วี ดิ ทัศน์ นี้ จบ ลง แล้ว.",
+    "videoPauseA11y": "หยุดวิดีโอชั่วคราว"
   },
   "events": {
     "videoBadge": "วิดีโอ",
@@ -823,6 +877,9 @@
     "noPastMessage": "เหตุการณ์ในอดีตของคุณจะปรากฏขึ้นที่นี่",
     "scanQR": "ค้นหารหัส QR",
     "showQR": "แสดงรหัส QR",
+    "viewQR": "ดู QR",
+    "receivedTransfers": "ได้รับการถ่ายโอนแล้ว",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "รหัส QR ของคุณ",
     "qrSubtitle": "แสดงรหัสนี้ที่ทางเข้า",
     "ticketDetails": "รายละเอียดตั๋ว",
@@ -930,7 +987,10 @@
     "monthNovember": "เดือน พฤศจิกายน",
     "monthDecember": "ธันวาคม",
     "tapToShowQR": "ก๊อกเพื่อดูรหัส QR",
-    "searchTitleRefVenue": "ชื่อเพลง, กรรมการ, สถานที่..."
+    "searchTitleRefVenue": "ชื่อเพลง, กรรมการ, สถานที่...",
+    "pendingPayment": "การจ่ายค้าง",
+    "pendingExpired": "เหตุการณ์สิ้นสุด",
+    "statusExpired": "หมดอายุแล้ว"
   },
   "payment": {
     "title": "การจ่าย",
@@ -1127,6 +1187,7 @@
     "paymentBack": "กลับ",
     "paymentGenericError": "เกิดข้อผิดพลาดขึ้นระหว่างทําการชําระเงิน",
     "paymentErrorTitle": "การคํานวณผิดพลาด",
+    "paymentBlockedTitle": "บล็อคการจ่ายการ์ด",
     "paymentCancelledTitle": "ยกเลิกการจ่ายเงิน",
     "paymentNoPaymentInProgress": "ไม่มีการชําระเงินอย่างต่อเนื่องเพื่อตรวจสอบ",
     "paymentVerifyingTitle": "กําลังตรวจสอบ...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "รอต่อไป",
     "paymentProcessing": "กําลังประมวลผล",
     "paymentTitle": "การจ่าย",
+    "checkoutStep": "ขั้น ตอน ที่ 3 / 3",
+    "noDoubleCharge": "คุณจะถูกชาร์จครั้งเดียว ต่อให้หน้าจอหมุนไปสักพัก",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "ฉันยอมรับ",
+    "termsLinkFull": "เงื่อนไขการขายและนโยบายการคืนเงิน",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "การเลือก",
     "paymentStepRecap": "กลับด้าน",
     "paymentMethodFallback": "การจ่าย",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "การจ่าย",
     "myPaymentsFilterCompleted": "เสร็จสมบูรณ์แล้ว",
     "myPaymentsFilterPending": "จํานวนครั้งที่เล่น",
-    "myPaymentsFilterFailed": "ล้มเหลว"
+    "myPaymentsFilterFailed": "ล้มเหลว",
+    "finalizeEndedTitle": "เหตุการณ์นี้สิ้นสุดลงแล้ว",
+    "finalizeEndedBody": "คุณ ไม่ สามารถ ทํา การ จด ทะเบียน ให้ เสร็จ ได้ อีก ต่อ ไป: เหตุ การณ์ นั้น สิ้น สุด ลง แล้ว. คุณไม่ได้รับค่าใช้จ่าย",
+    "finalizeClosedTitle": "การลงทะเบียนปิด",
+    "finalizeClosedBody": "ระยะเวลาลงทะเบียนสําหรับเหตุการณ์นี้สิ้นสุดลงแล้ว",
+    "finalizeSoldOutTitle": "ตั๋วขายหมด",
+    "finalizeSoldOutBody": "ตั๋วเครื่องบินที่คุณจองไว้ ไม่มีเหลือแล้ว การจองของคุณหมดอายุ คุณไม่ได้รับค่าใช้จ่าย",
+    "finalizeBackToEvent": "กลับไปยังเหตุการณ์",
+    "paymentPushSentTitle": "ยืนยันในโทรศัพท์ของคุณ",
+    "paymentPushSentMessage": "การขอจ่ายถูกส่งไปที่โทรศัพท์ของคุณ ยอมรับมัน (Moble เงิน PIN) เพื่อเสร็จสมบูรณ์.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "ร้องขอใหม่"
   },
   "memories": {
     "title": "ความทรงจําของฉัน",
@@ -1235,7 +1313,11 @@
     "recapShare": "แชร์ของฉัน",
     "recapEvents": "เหตุการณ์ที่เกิดขึ้น",
     "recapCities": "เมือง",
-    "recapFirst": "เวลามาถึง #1"
+    "recapFirst": "เวลามาถึง #1",
+    "oneYearAgo": "ปีที่แล้ว คุณอยู่ที่นั่น",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "ยาวกดสําหรับแปลกใจ",
+    "firstNote": "มาถึงก่อน ประตูมันเปิดอยู่"
   },
   "profile": {
     "title": "โพรไฟล์",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "เซ็น",
     "logoutInProgress": "ลงทะเบียน...",
     "appVersion": "Ontez v1.0.",
-    "myQRTitle": "รหัส QR ของฉัน"
+    "myQRTitle": "รหัส QR ของฉัน",
+    "refundsMenu": "เงิน คืน",
+    "refundsSubtitle": "ตามรอยที่เงินของคุณ",
+    "shareProfileButton": "ใช้โพรไฟล์ร่วมกัน",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "โพรไฟล์การจัดการของฉัน",
+    "shareOrganizerA11y": "ใช้โพรไฟล์การจัดการร่วมกัน",
+    "viewPublicProfileA11y": "ดูโพรไฟล์สาธารณะของฉัน",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "ไม่ทําตามเหรอ?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "ต่อไปนี้",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "ไม่มีผล",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "ค้นหาเหตุการณ์ต่าง ๆ",
+    "followSearchPlaceholder": "ค้นหาตัวจัดการ"
   },
   "editProfile": {
     "title": "แก้ไขโพรไฟล์",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "ที่อยู่",
     "sectionOrganization": "องค์กร",
     "sectionSecurity": "ความปลอดภัย",
-    "qrShareSubtitle": "สแกนรหัสนี้เพื่อใช้โพรไฟล์ร่วมกัน"
+    "qrShareSubtitle": "สแกนรหัสนี้เพื่อใช้โพรไฟล์ร่วมกัน",
+    "countryPlaceholder": "เลือกประเทศ",
+    "orgLogoLabel": "ปูมบันทึก",
+    "orgLogoAdd": "เพิ่มโลโก้",
+    "orgLogoChange": "เปลี่ยนโลโก้",
+    "orgWebsiteLabel": "เว็บไซต์",
+    "orgDescriptionLabel": "รายละเอียดสาธารณะ",
+    "orgDescriptionPlaceholder": "แนะนําองค์กรของคุณ..."
   },
   "settings": {
     "whoCanContactCurrent": "STI- SSAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "ชุดตกแต่ง",
     "themeDialogSubtitle": "เลือกชุดตกแต่งของคุณ",
     "timezoneDialogTitle": "เขตเวลา",
+    "timezoneDetected": "พบ",
     "timezoneDialogSubtitle": "เลือกเขตเวลาของคุณ",
     "preferencesTitle": "ปรับแต่ง",
     "headerEyebrow": "การ ประชุม ภาค",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "การยืนยันและตอบกลับ",
     "rowNewConversations": "การสนทนาใหม่",
     "rowMarketing": "การปรับปรุงและแนะนํา",
+    "rowSocialEyebrow": "สังคม",
+    "rowSocial": "กิจกรรม สังคม",
+    "rowSocialDesc": "ผู้ติดตามใหม่, เตือนความจํา, ต้องการทบทวน",
+    "newRegistrationsEyebrow": "ผู้จัดทํา",
+    "newRegistrationsTitle": "ลงทะเบียนใหม่",
+    "newRegistrationsDescription": "กี่ครั้งที่คุณได้รับอีเมลเมื่อมีคนลงทะเบียนสําหรับเหตุการณ์ของคุณ",
+    "newRegistrationsFreq": {
+      "realtime": "ตามเวลาจริง",
+      "hourly": "ชั่วโมง",
+      "daily": "วัน",
+      "off": "ปิด"
+    },
+    "quietHoursEyebrow": "ไม่ต้องรบกวน",
+    "quietHoursTitle": "ชั่วโมงเงียบ",
+    "quietHoursDescription": "หยุดการผลักดัน/ SSMS ชั่วคราว แจ้งเตือนที่สําคัญเสมอมา",
+    "quietHoursFrom": "จาก",
+    "quietHoursTo": "ถึง",
     "rowSounds": "เสียงในช่วงเวลาที่สําคัญ",
     "rowSoundsSubtitle": "เล่นเสียงเมื่อยืนยันการชําระเงิน หรือ QR สแกน",
     "rowTwoFA": "การตรวจสอบสิทธิ์สองปัจจัย",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "ใบแจ้งหนี้",
     "shortcutTaxes": "ภาษี",
     "shortcutMyEvents": "เหตุการณ์ของฉัน",
-    "shortcutHelp": "ช่วยเหลือ"
+    "shortcutHelp": "ช่วยเหลือ",
+    "rowMyDataAtExhibitors": "ข้อมูลของฉันจัดขึ้นโดยผู้จัดแสดง",
+    "rowLiveBanner": "ป้ายเหตุการณ์ต่าง ๆ",
+    "rowLiveBannerSubtitle": "แสดงแถบป้ายแสดงเหตุการณ์ที่เกิดขึ้นในปัจจุบันด้วย",
+    "pushPermissionTitle": "การแจ้งให้ทราบบนอุปกรณ์นี้",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "บอกการเชื่อมต่อของฉัน",
+    "rowShareAttendanceSubtitle": "การเชื่อมต่อของคุณ จะเห็นคุณเข้าร่วมงาน ปิดโดยปริยาย ไม่ให้เลือกเฉพาะเหตุการณ์เท่านั้น",
+    "rowNotifyMemories": "แจ้งเตือนเมื่อ 1 ปีก่อน",
+    "rowNotifyMemoriesSubtitle": "ที่มากที่สุดเตือน สัปดาห์ในวันครบรอบของเหตุการณ์ที่คุณเข้าร่วม",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "เดือนธันวาคม พ.ศ. ไม่มีใครเห็นมัน",
+    "madeInDouala": "ที่ทําในโดอาต้า, ด้วยการดูแล",
+    "madeInDoualaSub": "ขอบคุณที่นําเหตุการณ์ของคุณมาสู่พวกเรา",
+    "rowUiSounds": "เสียงอินเทอร์เฟส",
+    "rowUiSoundsSubtitle": "เป็นเสียงที่ละเอียดอ่อนมาก จากคํายืนยัน และการแจ้งเข้ามา ปิดโดยปริยาย",
+    "vibrationsEyebrow": "คางคก",
+    "rowVibrations": "พื้นผิว",
+    "rowVibrationsSubtitle": "การตอบรับแบบ Haptic ในการกระทําที่สําคัญ: จ่าย, สแกน, ของโปรด",
+    "rowMotionGestures": "รูปแบบการย้ายภาพ",
+    "rowMotionGesturesSubtitle": "เขย่า พลิก หรือ กด โทรศัพท์ เพื่อ ทํา อะไร บาง อย่าง. ปุ่มมักจะใช้ได้เสมอ",
+    "notificationsEyebrowOngoing": "การแจ้งให้ทราบComment",
+    "rowOngoingEvent": "ติดบัตรในวันงาน",
+    "rowOngoingEventSubtitle": "การแจ้งอย่างเงียบ ๆ 3 h ก่อนและในระหว่างเหตุการณ์ กับตั๋วและทิศทางของคุณ",
+    "rowNotificationSounds": "การแจ้งให้ทราบComment",
+    "rowNotificationSoundsSubtitle": "เลือกเสียงในแต่ละหมวดหมู่ (ช่วงเวลาใหญ่, การขาย, ข้อความ...) ในการตั้งค่าโทรศัพท์ของคุณ"
   },
   "messages": {
     "title": "จดหมาย",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "ค้นหาที่อยู่ติดต่อ...",
     "searchEyebrow": "ข้อมูล",
     "searchHint": "พิมพ์ที่จะค้นหา",
-    "noOneFound": "ไม่พบ"
+    "noOneFound": "ไม่พบ",
+    "myConnectionsSection": "การเชื่อมต่อของฉัน",
+    "searchResultsSection": "ผลลัพธ์",
+    "noConnectionsEyebrow": "เครือข่าย NETWoring",
+    "noConnectionsTitle": "ยังไม่ได้เชื่อมต่อ",
+    "noConnectionsCta": "เชื่อมต่อผ่านทาง QR",
+    "emptyEyebrowArchived": "อารยสถาน",
+    "emptyEyebrowEmpty": "ระบบ อิเล็กทรอนิกส์",
+    "archivedEmptyDesc": "การสนทนาของคุณจะลงที่นี่",
+    "noConversationsDesc": "เริ่มข้อความใหม่ -- เราจะหาคนคุยด้วย",
+    "attachmentPreview": "[ประกาศ]",
+    "noMatchingMessage": "ไม่มีจดหมายที่เข้าคู่"
   },
   "notifications": {
     "title": "การแจ้งให้ทราบComment",
@@ -1724,6 +1887,23 @@
     "typeWinback": "มีอะไรใหม่",
     "typePendingModeration": "เพื่อทบทวน",
     "typeModerationReminder": "การจัดคิว",
+    "typeNewFollower": "ผู้ติดตามใหม่",
+    "typeFollowedOrganizerNewEvent": "จดหมายใหม่",
+    "typeFollowRegistered": "การเชื่อมต่อกําลังทํางานอยู่",
+    "typeConnectionsAtEvent": "การเชื่อมต่อของคุณ",
+    "eyebrowNetwork": "เน็ต วอร์ก",
+    "eyebrowSoon": "เร็ว",
+    "eyebrowReminder": "ความ มหัศจรรย์",
+    "eyebrowModeration": "ความ จริง",
+    "eyebrowToReview": "เพื่อ ทบทวน",
+    "eyebrowDiscovery": "ไม่สนใจ",
+    "eyebrowUrgent": "ยุโรป",
+    "eyebrowWhatsNew": "อะไรใหม่",
+    "filterReadTab": "อ่าน",
+    "groupToday": "วันนี้",
+    "groupYesterday": "วัน",
+    "tabAll": "ทั้งหมด",
+    "tabNetwork": "เครือข่าย",
     "typeDefault": "การแจ้งให้ทราบ",
     "filterAllTab": "ทั้งหมด",
     "filterUnreadTab": "ยังไม่ได้อ่าน",
@@ -1739,7 +1919,26 @@
     "statTotal": "โตตาล",
     "statUnread": "หมดอายุแล้ว",
     "statToday": "วันนี้",
-    "viewDetails": "แสดงรายละเอียด"
+    "viewDetails": "แสดงรายละเอียด",
+    "actions": {
+      "showTicket": "แสดงตั๋วของฉัน",
+      "directions": "ทิศทาง",
+      "going": "ฉันจะไป",
+      "viewTicket": "แสดงตั๋ว",
+      "reply": "ตอบกลับ",
+      "replyPlaceholder": "ข้อความของคุณ...",
+      "replySubmit": "ส่ง",
+      "markRead": "ทําเครื่องหมายว่าอ่านแล้ว",
+      "joinLive": "เข้าร่วม",
+      "payNow": "จ่ายเดี๋ยวนี้",
+      "writeTo": "ข้อความพวกเขา",
+      "viewEvent": "แสดงเหตุการณ์",
+      "viewTickets": "ดูตั๋วสิ",
+      "viewRefund": "แสดงเงินคืน",
+      "viewProfile": "โพรไฟล์มุมมอง",
+      "summaryTitle": "จดหมาย",
+      "summaryBody": "จดหมายใหม่"
+    }
   },
   "dashboard": {
     "title": "แดชบอร์ด",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "จัดการแผนของฉัน",
     "exportTitle": "ส่งออก",
     "exportSubtitle": "ข้อมูลของคุณ",
-    "settingsLink": "ตั้งค่า"
+    "settingsLink": "ตั้งค่า",
+    "greetingNight": "ขอให้มีค่ําคืนที่ดี"
   },
   "following": {
     "title": "ของโปรดฉัน",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "บัตรเชิญถูกปฏิเสธ",
     "declineError": "ปฎิเสธคําเชิญไม่ได้",
     "declineButton": "ปฏิเสธ",
+    "declineConfirmTitle": "ปฏิเสธการเชิญ",
+    "declineConfirmMessage": "คุณแน่ใจหรือว่าต้องการจะปฏิเสธการเชิญนี้?",
     "fromLabel": "จาก",
     "toLabel": "ตอบกลับ",
     "organizerFallback": "ผู้จัดทํา",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "การอัปโหลดล้มเหลว",
     "downloadFailed": "การดาวน์โหลดล้มเหลว",
     "tryAgain": "ลองอีกครั้ง",
-    "contactSupport": "รองรับที่อยู่ติดต่อ"
+    "contactSupport": "รองรับที่อยู่ติดต่อ",
+    "timeout": "การร้องขอใช้เวลานานเกินไป ตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่อีกครั้ง",
+    "validation": "รายละเอียดบางอย่างไม่ถูกต้อง แก้ไขพื้นที่เน้น แล้วลองใหม่อีกครั้ง",
+    "fields": {
+      "title": "ชื่อ",
+      "subtitle": "คําบรรยาย",
+      "message": "จดหมาย",
+      "image": "ภาพ",
+      "cta_label": "แถบป้ายปุ่ม",
+      "cta_url": "เชื่อมโยงปุ่ม",
+      "link_url": "เชื่อมโยง",
+      "target_event": "เหตุการณ์เป้าหมาย",
+      "country": "ประเทศ",
+      "city": "เมือง",
+      "radius_km": "รัศมี",
+      "placement": "ตําแหน่ง",
+      "priority": "สูง",
+      "severity": "ความจุ",
+      "audience": "ผู้ชม",
+      "platform": "แพลตฟอร์ม",
+      "valid_from": "ใช้ได้ตั้งแต่",
+      "valid_until": "ใช้ได้จนถึง"
+    },
+    "http": {
+      "badRequest": "เราไม่สามารถทําตามคําขอของคุณได้ กรุณาตรวจสอบรายละเอียดของคุณและลองอีกครั้ง",
+      "unauthorized": "การประชุมของคุณหมดอายุแล้ว กรุณาลงชื่ออีกครั้ง",
+      "forbidden": "คุณไม่ได้รับอนุญาตให้ทําแบบนี้",
+      "notFound": "เราหาสิ่งที่คุณตามหาไม่เจอ",
+      "conflict": "การกระทํานี้ขัดแย้งกับสถานะปัจจุบัน สดชื่นและลองอีกครั้ง",
+      "tooManyRequests": "มีความพยายามมากเกินไป โปรดรอสักครู่และลองอีกครั้ง",
+      "server": "ตอนนี้เซิร์ฟเวอร์ของเรากําลังมีปัญหา กรุณาลองอีกครั้งในอีกไม่กี่นาที",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "อีเมลนี้ถูกเชื่อมโยงไปยังบัญชีผู้ใช้แล้ว ลงชื่อหรือใช้ที่อยู่อื่น",
+      "usernameTaken": "ชื่อผู้ใช้ดังกล่าวได้ดําเนินการแล้ว โปรดเลือกอื่น",
+      "weakPassword": "เลือกรหัสผ่านของการผสมตัวอักษรและตัวเลขอย่างน้อย 8 ตัวอักษร",
+      "invalidCredentials": "อีเมลหรือรหัสผ่านไม่ถูกต้อง ลองใหม่หรือปรับค่ารหัสผ่านใหม่",
+      "resetLinkExpired": "การเชื่อมต่อที่รีเซ็ตนี้หมดอายุแล้ว ขออันใหม่",
+      "otpInvalid": "รหัสนี้ไม่ถูกต้อง หรือหมดอายุแล้ว ตรวจสอบหรือร้องขอใหม่",
+      "otpSendFailed": "เราไม่สามารถส่งรหัส SMS ได้ Check number แล้วลองใหม่อีกครั้ง หรือเซ็นต์ด้วยอีเมลของคุณ",
+      "paymentMethodUnsupported": "วิธีการจ่ายเงินนี้ไม่สามารถใช้ได้สําหรับเหตุการณ์นี้ ได้โปรดเลือกคนอื่นเถอะ",
+      "paymentFailed": "การชําระเงินของคุณ ไม่สําเร็จ คุณไม่ได้ถูกจับ ลองอีกครั้ง หรือใช้วิธีอื่น",
+      "paymentNetwork": "การเชื่อมต่อลดลงระหว่างจ่ายเงิน ตรวจอินเตอร์เน็ตของคุณและลองอีกครั้ง คุณจะไม่ถูกชาร์จสองครั้ง",
+      "paymentTimeout": "การจ่ายของคุณใช้เวลานานกว่าที่คาดไว้ อย่าจ่ายอีก ตรวจดูตั๋วในอีกไม่กี่นาทีนี้ หรือติดต่อติดต่อถ้าไม่มีอะไรมาถึง",
+      "paymentVerifyFailed": "เรายังยืนยันการชําระเงินของคุณไม่ได้ หาก คุณ ถูก คิด ค่า ตั๋ว ของ คุณ จะ ปรากฏ ขึ้น ใน ไม่ ช้า — เช็ค อีก ใน ไม่ กี่ นาที.",
+      "refundFailed": "การขอคืนของคุณไม่สามารถส่งได้ กรุณาลองอีกครั้ง หรือสนับสนุนการติดต่อ",
+      "insufficientBalance": "ดุลยภาพไม่เพียงพอสําหรับปฏิบัติการนี้",
+      "payoutLocked": "เงินนี้ไม่สามารถเปลี่ยนแปลงได้ เนื่องจากการประมวลผลได้เริ่มขึ้นแล้ว รองรับการติดต่อหากนี่เป็นความผิดพลาด",
+      "planLimitReached": "คุณถึงขีดจํากัดของแผนแล้ว ปรับรุ่นแผนของคุณที่จะดําเนินการต่อไป",
+      "countryNotSupported": "เงินสดไม่พอในประเทศนี้ คุณสามารถสร้างเหตุการณ์ในประเทศที่สนับสนุนหรือติดต่อเรา"
+    },
+    "tickets": {
+      "offline": "คุณกําลังออฟไลน์ในขณะนี้. ตั๋วที่คุณโหลดไว้ ออฟไลน์อยู่แล้ว ลองอีกครั้งเมื่อคุณกลับมาออนไลน์",
+      "timeout": "ตั๋วของคุณต้องใช้เวลาในการโหลด ไม่มีอะไรหายไป พวกเขาปลอดภัย ลองอีกครั้งในสักครู่",
+      "server": "เซิร์ฟเวอร์ของเรากําลังสั่น ตั๋วของคุณปลอดภัย ลองอีกครั้งในอีกไม่กี่นาที",
+      "notFound": "เราหาตั๋วนี่ไม่เจอ ตั๋วอื่นๆของคุณไม่ได้รับผลกระทบ ปรับปรุงรายการหรือตรวจสอบอีเมลยืนยันของคุณ",
+      "forbidden": "บัตรนี้เป็นของบัญชีอื่น ตั๋วของคุณไม่มีใครแตะต้อง ลง ชื่อ ใน บัญชี ที่ ใช้ ซื้อ."
+    },
+    "messages": {
+      "offline": "คุณกําลังออฟไลน์ในขณะนี้. ข้อความของคุณจะไม่หายไป: การรอฟังจะออกไปเมื่อคุณกลับมาออนไลน์ ลองใหม่อีกครั้งเมื่อเครือข่ายกลับมา",
+      "timeout": "การรบกวนช้าที่จะตอบสนอง ข้อความของคุณไม่ได้หายไป ลองอีกครั้งในสักครู่",
+      "server": "การรบกวนคือการหยุดงานชั่วคราว การสนทนาของคุณไม่เสียหาย ลองอีกครั้งในอีกไม่กี่นาที",
+      "notFound": "การสนทนาครั้งนี้ไม่มีอีกแล้ว การสนทนาอื่นของคุณไม่ได้รับผลกระทบ กลับไปที่ข้อความของคุณ",
+      "forbidden": "คุณไม่สามารถเข้าถึงการสนทนานี้ได้ การสนทนาอื่น ๆ ของคุณยังคงใช้ได้ กลับไปที่ข้อความของคุณ"
+    },
+    "event": {
+      "offline": "คุณออฟไลน์ ดังนั้นเราไม่สามารถแสดงเหตุการณ์นี้ได้ ตั๋วของคุณยังออฟไลน์อยู่ ลองอีกครั้งเมื่อคุณกลับมาออนไลน์",
+      "timeout": "หน้าเหตุการณ์นี้จะใช้เวลานานกว่าจะโหลด ไม่มีอะไรเปลี่ยนแปลงในด้านของคุณ ลองอีกครั้งในสักครู่",
+      "server": "การ หยุด พัก สั้น ๆ ทํา ให้ เรา ไม่ ได้ แสดง เหตุ การณ์ นี้. ตั๋วและทะเบียนของคุณไม่ได้รับผลกระทบ ลองอีกครั้งในอีกไม่กี่นาที",
+      "notFound": "เหตุการณ์นี้ไม่สามารถออนไลน์ได้อีกต่อไป: ผู้จัดอาจลบมันได้ ตั๋วเครื่องบินของคุณอยู่ใน \"ตั๋วของฉัน\" เหตุการณ์ที่เกิดขึ้นในการค้นพบ",
+      "forbidden": "งานนี้เป็นงานส่วนตัว บัญชีของคุณไม่ใช่ปัญหา ถามผู้จัดเพื่อเชิญให้เข้าถึง"
+    },
+    "upload": {
+      "offline": "การอัพโหลดเริ่มต้นไม่ได้ คุณออฟไลน์ แฟ้มของคุณยังอยู่ในโทรศัพท์ ลองอีกครั้งเมื่อคุณกลับมาออนไลน์",
+      "timeout": "การอัพโหลดใช้เวลานานเกินไป แฟ้มของคุณยังอยู่ในโทรศัพท์ ลองอีกครั้งตามอุดมคติของไวไฟ หรือด้วยไฟล์เบา",
+      "server": "เซิร์ฟเวอร์ไม่สามารถรับแฟ้มได้ มันยังคงปลอดภัยในโทรศัพท์ของคุณ ลองอีกครั้งในอีกไม่กี่นาที",
+      "notFound": "ไม่มีปลายทางที่จะอัปโหลดได้ แฟ้มของคุณยังปลอดภัยในโทรศัพท์ รีเฟรชหน้าจอและลองอีกครั้ง",
+      "forbidden": "คุณไม่ได้รับอนุญาตให้อัพโหลดแฟ้มที่นี่ มันยังคงปลอดภัยในโทรศัพท์ของคุณ ตรวจดูว่าคุณลงชื่อด้วยบัญชีที่ถูกต้อง",
+      "tooLarge": "แฟ้มนี้มีขนาดใหญ่เกินกว่าจะอัปโหลดได้ มันยังคงปลอดภัยในโทรศัพท์ของคุณ เลือกแฟ้มสว่างกว่าหรือค่อย ๆ ลดความเข้มสีของภาพ"
+    }
   },
   "errorBoundary": {
     "eyebrow": "กริชส์",
@@ -2572,7 +2854,10 @@
     "successTitle": "ยินดีด้วย!",
     "successMessage": "ตอนนี้คุณคือผู้จัดการ สร้างงานแรกของคุณ!",
     "errorTitle": "ผิดพลาด",
-    "errorGeneric": "เกิดข้อผิดพลาดขึ้น"
+    "errorGeneric": "เกิดข้อผิดพลาดขึ้น",
+    "labelWebsite": "เพิ่มช่อง",
+    "labelDescription": "คําอธิบาย (ตัวเลือกอื่น)",
+    "placeholderDescription": "แนะนําองค์กรของคุณ..."
   },
   "verificationForm": {
     "pdfOpenError": "ไม่สามารถเปิดเอกสารได้",
@@ -2733,7 +3018,9 @@
     "locHybrid": "ผสม",
     "priceAny": "ทั้งหมด",
     "priceFree": "ว่าง",
-    "pricePaid": "จ่าย"
+    "pricePaid": "จ่าย",
+    "shareSearch": "ใช้การค้นหานี้ร่วมกัน",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "ตัวกรอง",
@@ -2779,6 +3066,10 @@
     "statsRating": "การแบ่งประเภท",
     "statsSince": "ตั้งแต่",
     "contactA11y": "การจัดการที่อยู่ติดต่อ",
+    "connectA11y": "เชื่อมต่อ",
+    "connectedA11y": "เชื่อมต่อแล้ว",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "เชื่อมต่อไม่ได้ กรุณาลองอีกครั้ง",
     "bioEyebrow": "DIO",
     "bioTitle": "เกี่ยวกับ",
     "linksEyebrow": "ออนไลน์",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "เผยแพร่เหตุการณ์ต่าง ๆ",
     "loadingEvents": "กําลังโหลด...",
     "noEvents": "ไม่มีเหตุการณ์ที่ถูกตีพิมพ์",
-    "freeBadge": "อิสระ"
+    "freeBadge": "อิสระ",
+    "tabs": {
+      "upcoming": "กําลังขึ้น",
+      "past": "อดีต"
+    }
   },
   "sessionDetails": {
     "title": "วาระ",
@@ -3157,7 +3452,7 @@
     "monthsShort": [
       "จาง",
       "แบบ FEB",
-      "ขนาด",
+      "แต่งงาน",
       "APR",
       "พฤษภาคม",
       "มิถุนายน",
@@ -3165,7 +3460,7 @@
       "เอบีอาร์",
       "พ.ศ.",
       "OCT",
-      "นอฟ",
+      "จุด",
       "แก้ไข"
     ],
     "unfollowConfirmTitle": "ไม่ทําตาม",
@@ -3223,7 +3518,12 @@
     "codeLabel": "OCDE",
     "emptyEyebrow": "การพาเนล",
     "emptyTitle": "ยังไม่มีรหัส",
-    "emptySubtitle": "รหัสอ้างอิงของคุณจะปรากฏขึ้นที่นี่ทันทีที่มี"
+    "emptySubtitle": "รหัสอ้างอิงของคุณจะปรากฏขึ้นที่นี่ทันทีที่มี",
+    "generateCta": "สร้างรหัสของฉัน",
+    "generating": "กําลังสร้าง...",
+    "generateSuccess": "โค้ดอ้างอิงสร้างขึ้น!",
+    "generateError": "สร้างรหัสไม่ได้ กรุณาลองอีกครั้ง",
+    "copySuccess": "คัดลอกลิงก์อ้างอิง"
   },
   "teamManagement": {
     "eyebrow": "แธม",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "แสดงโพรไฟล์",
     "perm_view_registrations": "ดูรายการลงทะเบียน",
     "perm_edit_event": "แก้ไขเหตุการณ์",
-    "perm_manage_team": "เชิญสมาชิกในทีมอื่น ๆ"
+    "perm_manage_team": "เชิญสมาชิกในทีมอื่น ๆ",
+    "role_co_organizer": "ตัวร่วม",
+    "role_moderator": "ตัวหมุนโมเด็ม",
+    "role_scanner": "สแกนเนอร์",
+    "role_analyst": "วิเคราะห์",
+    "status_pending": "จํานวนครั้งที่เล่น",
+    "status_accepted": "ทํางาน",
+    "status_declined": "ปฏิเสธ",
+    "status_revoked": "ถูกเพิกถอน",
+    "status_expired": "หมดอายุแล้ว"
   },
   "myTeamEvents": {
     "eyebrow": "หลีก เลี่ยง ฉาก เหตุ การณ์",
@@ -3276,8 +3585,10 @@
     "willAttend": "ฉันจะอยู่ที่นั่น",
     "wontAttend": "ฉันไปไม่ได้",
     "partySize": "จํานวนแขกพิเศษ",
+    "partySizeHint": "นอกจากคุณ E.g. 2 ถ้าคุณจะพา 2 คนมา",
     "dietary": "ข้อ เรียก ร้อง ด้าน อาหาร / ภูมิ แพ้",
     "note": "คําสําหรับคู่",
+    "noteOptional": "คําสําหรับคู่รัก (ตัวเลือก)",
     "submit": "ส่งการตอบสนองของฉัน",
     "thanksAccepted": "ขอบคุณ! ยืนยันการเข้าร่วมของคุณ",
     "thanksDeclined": "ขอบคุณที่บอกให้เรารู้",
@@ -3289,7 +3600,18 @@
     "giftYourName": "ชื่อของคุณ",
     "giftMethod": "วิธีการจ่าย",
     "giftPay": "ผู้มีส่วนร่วม",
-    "giftError": "การชําระเงินเริ่มต้นไม่ได้"
+    "giftThanks": "ขอบคุณสําหรับความช่วยเหลือ",
+    "giftRedirectNote": "คุณจะถูกเปลี่ยน ไปเป็นหน้าจ่ายเงินที่ปลอดภัย มันเป็นเรื่องปกติ",
+    "giftError": "การชําระเงินเริ่มต้นไม่ได้",
+    "rsvpSubmitError": "การตอบสนองของคุณไม่สามารถส่ง กรุณาลองอีกครั้ง",
+    "summaryTitle": "คําตอบของคุณ",
+    "summaryAccepted": "คุณยืนยันการเข้าร่วมของคุณ",
+    "summaryDeclined": "คุณปฏิเสธคําเชิญ",
+    "summaryPartySize": "แขกกับคุณ",
+    "summaryHeadcount": "ที่นั่ง สงวน",
+    "summaryDietary": "ความ จําเป็น ด้าน อาหาร",
+    "summaryTable": "โต๊ะของคุณ",
+    "summaryTablePending": "โต๊ะของคุณจะถูกแบ่งก่อนเหตุการณ์"
   },
   "teamInvitation": {
     "eyebrow": "จดหมาย เหตุ",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "อ่านได้อย่างเดียว บันทึกข้อความของคุณ",
     "mutedLockMessage": "คุณได้รับการออกเสียงในการสนทนานี้โดยผู้จัดการ",
     "postingLockMessage": "เฉพาะ ผู้ จัด การ เท่า นั้น ที่ จะ จัด การ เรื่อง นี้ ได้.",
-    "defaultUserName": "ผู้ใช้นี้"
+    "defaultUserName": "ผู้ใช้นี้",
+    "someFilesQueuedForRetry": "บางแฟ้มจะไม่พอใจ เมื่อการเชื่อมต่อกลับมา",
+    "retrySend": "ลองใหม่",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "เลื่อนไปยังด้านล่าง",
+    "tapToLoadImage": "เคาะที่โหลด",
+    "reply": "ตอบกลับ",
+    "react": "ย้อนกลับ",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "แค่การสนทนา",
+    "headerCollapseA11y": "แบนเนอร์",
+    "headerExpandA11y": "แสดงแถบป้าย",
+    "headerCollapseLabel": "ซ่อน",
+    "headerExpandLabel": "รายละเอียดเหตุการณ์"
   },
   "scanForm": {
     "loading": "กําลังโหลด...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "ตัวหมุนโมเด็ม",
     "roleAdmin": "แอดมิน",
     "fallbackEvent": "เหตุการณ์",
-    "fallbackUnknownUser": "ผู้ใช้"
+    "fallbackUnknownUser": "ผู้ใช้",
+    "statusUnknown": "ไม่ทราบสถานะ"
   },
   "refundRequest": {
     "watermarkBack": "ย้อนกลับ",
     "watermarkOops": "OSS",
     "loadError": "ไม่สามารถโหลดรายละเอียดการจ่ายเงินได้",
     "paymentNotFound": "ไม่พบส่วนชําระเงิน",
+    "blockedNotOwner": "เงินนี้ไม่ได้เชื่อมโยงกับบัญชีของคุณ ดังนั้นคุณไม่สามารถขอเงินคืนได้",
+    "blockedNotCompleted": "การชําระเงินที่ยืนยันแล้วเท่านั้นสามารถคืนได้ เงินนี้ไม่ได้อยู่ในสถานะที่คืนเงินได้",
+    "blockedAlreadyRequested": "มี การ ขอ คืน เงิน คืน แล้ว สําหรับ การ ชําระ นี้.",
+    "blockedGeneric": "การชําระเงินครั้งนี้ ไม่เหมาะกับการคืนเงินตอนนี้",
     "back": "กลับ",
     "closeA11y": "ปิด",
     "eyebrow": "• กลับ บ้าน",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "รหัสเข้า (ตัวเลือกอื่น)",
       "accessCodeHint": "ผู้เข้าชมจะต้องป้อนรหัสนี้ ดูรายละเอียด",
       "accessCodePlaceholder": "ปล่อยว่างไว้โดยไม่มีรหัส",
-      "featuredInfo": "คุณสามารถร้องขอให้แสดงเหตุการณ์ของคุณหลังจากการสร้างจาก \"เหตุการณ์ของฉัน\""
+      "accessCodeKeepPlaceholder": "รหัสใหม่ (ปล่อยว่างไว้เก็บรหัสปัจจุบัน)",
+      "accessCodeActive": "ใช้งานรหัส",
+      "accessCodeWillBeRemoved": "รหัสจะถูกลบเมื่อคุณบันทึก",
+      "accessCodeRemove": "ลบรหัส",
+      "accessCodeUndoRemove": "เลิกทํา",
+      "featuredInfo": "คุณสามารถร้องขอให้แสดงเหตุการณ์ของคุณหลังจากการสร้างจาก \"เหตุการณ์ของฉัน\"",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "วันที่และสถานที่",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "เลือกบนแผนที่",
       "mapHint": "เพื่อแสดงเหตุการณ์บนแผนที่และเปิดใช้งานการนําทาง",
       "virtualLocationTitle": "ตําแหน่งเสมือน",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "การร่วมสร้างวิดีโอภายในห้อง สร้างขึ้นโดยอัตโนมัติ ไม่มีการเชื่อมโยงภายนอกที่ต้องการ",
       "platformLabel": "แพลตฟอร์ม",
       "platformPlaceholder": "ตัวอย่าง: ซูม, Google Meet, ทีม",
       "connectionUrlLabel": "การเชื่อมต่อ",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "เริ่มขาย",
       "salesEndLabel": "จบการขาย",
       "visibleLabel": "มองเห็นได้",
+      "accessModeLabel": "ได้รับตั๋วนี้",
+      "accessInPerson": "ส่วนตัว",
+      "accessOnline": "ออนไลน์",
+      "accessBoth": "ทั้งคู่",
       "visibleDesc": "แสดงตั๋วนี้อย่างเปิดเผย",
       "addAnotherTicket": "เพิ่มตั๋วอีกใบ",
       "registrationFormTitle": "รูปแบบการลงทะเบียน (ตัวเลือกเพิ่มเติม)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "เมนูปิด",
       "cancel": "ยกเลิก"
+    },
+    "venuePicker": {
+      "label": "ใช้ตําแหน่งที่บันทึกไว้",
+      "hint": "ช่องข้อมูลเติมข้อมูลโดยอัตโนมัติ คุณสามารถปรับตัวได้หลังจากนั้น"
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "ชนิดของเหตุการณ์",
       "sourcePaymentMethods": "วิธีการผ่อนส่ง",
       "sourceGeographical": "การ เสื่อม ถอย ทาง ภูมิศาสตร์"
-    }
+    },
+    "widgetDataUnavailable": "ไม่มีข้อมูล"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "ก่อนหน้า",
       "next": "ต่อไป",
       "selectDatePlaceholder": "เลือกวันที่",
-      "selectTimePlaceholder": "เลือกเวลา"
+      "selectTimePlaceholder": "เลือกเวลา",
+      "selectPlaceholder": "เลือก...",
+      "searchPlaceholder": "ค้นหา..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "เพิ่มตั๋วเรียบร้อยแล้ว",
     "alreadyRegisteredConfirmTitle": "ลงทะเบียนไว้แล้ว",
     "alreadyRegisteredConfirmMessage": "คุณลงทะเบียนสําหรับงานนี้แล้ว",
-    "createRegistrationError": "ไม่สามารถสร้างการลงทะเบียนได้"
+    "createRegistrationError": "ไม่สามารถสร้างการลงทะเบียนได้",
+    "accessMode": {
+      "in_person": "ส่วนตัวเท่านั้น",
+      "online": "การเข้าใช้ออนไลน์",
+      "hybrid": "ส่วนตัว + ออนไลน์"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "เหลืออีกที่เดียว",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "การซื้อหยุดชั่วคราว",
+    "suspendedByIncident": "การซื้อหยุดชั่วคราวเนื่องจากอุบัติเหตุ ติดตามความคืบหน้าในหน้าสถานะ"
   },
   "registrationDetails": {
     "headerInscription": "การ จด ทะเบียน",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "ยกเลิก",
     "statusInscriptionRejected": "ปฏิเสธ",
     "statusInscriptionValidated": "ตรวจสอบความถูกต้องแล้ว",
-    "statusInscriptionUnknown": "ไม่ทราบ"
+    "statusInscriptionUnknown": "ไม่ทราบ",
+    "pdfEyebrow": "การ กลับ ชาติ มา เกิด",
+    "pdfDate": "วันที่",
+    "pdfPlace": "ปรับเทียบข้อมูล",
+    "pdfReference": "อ้างอิง",
+    "pdfStatus": "สถานะ",
+    "pdfQrHint": "แสดงรหัส QR ที่ทางเข้า",
+    "pdfShareDialog": "สรุปการใช้ร่วมกัน",
+    "pdfError": "ไม่สามารถสร้าง PDF ได้ในตอนนี้",
+    "pdfA11y": "ส่งออกสรุปเป็น PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET THE   ",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "รหัส QR จะถูกสแกนที่ทางเข้า",
     "tipArriveLines": "มาตรงเวลาเพื่อข้ามเส้น",
     "validatedTitle": "ยืนยันตั๋ว",
+    "stampValidated": "ตรวจสอบแล้ว",
     "validatedAt": "Enter on {{date}} ที่ {{time}}",
     "paymentPendingTitle": "การชําระเงินค้าง",
     "paymentPendingDesc": "เสร็จสิ้นการจ่ายเงินของคุณเพื่อยืนยัน",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "ยืนยัน",
     "statusPending": "จํานวนครั้งที่เล่น",
     "statusCancelled": "ยกเลิก",
-    "statusValidated": "ตรวจสอบความถูกต้องแล้ว"
+    "statusValidated": "ตรวจสอบความถูกต้องแล้ว",
+    "pdfOnline": "เหตุการณ์ออนไลน์",
+    "statusUnknown": "ไม่ทราบสถานะ",
+    "presentHint": "การเคาะเพื่อขยายรหัส การกดยาวสําหรับพิสูจน์ความถูกต้อง",
+    "presentA11yAction": "ขยายรหัสสําหรับเช็ค",
+    "proofA11yAction": "แสดงการพิสูจน์ความถูกต้อง",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "กลับไปที่ตั๋ว",
+    "presentExitHint": "เคาะกลับไป"
   },
   "offlineTickets": {
     "headerTitle": "ออฟไลน์",
@@ -4448,7 +4837,15 @@
     "removeMessage": "คุณต้องการเอาตั๋วนี้ออกจากแคชหรือไม่?",
     "showQR": "แสดง QR",
     "hideQR": "ซ่อน QR",
-    "pastBadge": "อดีต"
+    "pastBadge": "อดีต",
+    "download": "ดาวน์โหลดตั๋ว",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "อ้างอิง",
+    "pdfType": "ชนิดตั๋ว",
+    "pdfQuantity": "ความจุ",
+    "pdfDate": "วันที่",
+    "pdfShareDialog": "บันทึก / ตั๋วร่วมกัน",
+    "pdfError": "ไม่สามารถสร้างเอกสาร PDF"
   },
   "pendingTransfers": {
     "headerTitle": "การถ่ายโอน",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "ไปยัง",
     "similarEventsEyebrow": "การ ประชุม ภาค",
     "similarEventsTitle": "เหตุการณ์คล้ายกัน",
-    "similarEventA11y": "ดู ○ 0)"
+    "similarEventA11y": "ดู ○ 0)",
+    "virtualLiveNow": "มีชีวิตต่อไป",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "เข้าร่วมการถ่ายทอดสด",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "ไม่มีเสียงเรียกวีดิทัศน์",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "การมีชีวิตยังไม่เริ่มต้น",
+    "virtualWaitingHostNote": "คุณจะสามารถเข้าร่วมทันทีที่ผู้จัดการเปิดห้อง",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "ห้องหลัก",
+      "session": "วาระ",
+      "breakout": "หยุดการทํางาน",
+      "networking": "ระบบเครือข่าย",
+      "workshop": "โรงงาน"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "จบการขาย",
+    "ticketsSaleNotStarted": "กําลังขายในเร็ว ๆ นี้",
+    "peekSave": "บันทึก",
+    "peekUnsave": "เอาออกจากการบันทึก",
+    "peekShare": "ใช้ร่วมกัน",
+    "peekOpen": "เปิด",
+    "peekA11yHint": "เก็บตัวอย่างไว้",
+    "swipeSave": "ปล่อยเพื่อบันทึก",
+    "swipeUnsave": "ปล่อยเพื่อลบ",
+    "swipeHint": "ซ่อนเพื่อบันทึก",
+    "swipeRemoved": "เอาออกจากการบันทึกแล้ว",
+    "swipeUndo": "เลิกทํา",
+    "swipeRemove": "ลบ",
+    "weather": {
+      "sunny": "ซันนี่",
+      "partlySunny": "มนต์สะกดซันนี่",
+      "cloudy": "เมฆ",
+      "fog": "ฟ็อก",
+      "rain": "ฝน",
+      "snow": "หิมะ",
+      "showers": "แสดง",
+      "thunderstorm": "พายุ ฟ้า คะนอง",
+      "variable": "เปลี่ยนได้"
+    }
   },
   "componentsCommon": {
     "exportTitle": "เลือกรูปแบบ",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "เมื่อผู้จัดนี้เผยแพร่เหตุการณ์ใหม่",
     "followPrefsSave": "บันทึกค่า",
     "followPrefsSaveA11y": "บันทึกค่า",
-    "inAppToastA11y": "{{title}} {{body}} เคาะเปิด"
+    "inAppToastA11y": "{{title}} {{body}} เคาะเปิด",
+    "webviewVisioTitle": "เรียกวิดีโอ",
+    "webviewOfflineTitle": "คุณกําลังออฟไลน์",
+    "webviewOfflineBody": "อุปกรณ์ของคุณเสียการเชื่อมต่อ จะติดต่อกลับไปทันทีที่เครือข่ายกลับมา",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "ตรวจ พบ การ เชื่อม ต่อ แบบ ช้า ๆ — วิดีโอ อาจ เสื่อม และ ใช้ ข้อมูล ของ คุณ."
   },
   "messageRequests": {
     "eyebrow": "STI- SSAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "ต้องการกล้อง",
     "permissionSubtitle": "เพื่อสแกน QR อีเวนเต้ต้องเข้าถึงกล้อง",
     "permissionGrant": "อนุญาตกล้อง"
+  },
+  "media": {
+    "sheetTitle": "คุณอยากทําอะไรล่ะ?",
+    "saveToGallery": "บันทึกไปยังคลังภาพ",
+    "share": "ใช้ร่วมกัน",
+    "savedToGallery": "บันทึกไปยังแกลเลอรี",
+    "permissionDeniedTitle": "ถูกปฏิเสธสิทธิ์",
+    "permissionDeniedMessage": "เปิดใช้การเข้าถึงภาพในการตั้งค่าที่จะทําการบันทึก",
+    "sharingUnavailable": "การใช้ร่วมกันไม่สามารถใช้งานได้บนอุปกรณ์นี้",
+    "downloadFailed": "การดาวน์โหลดล้มเหลว กรุณาลองอีกครั้ง",
+    "genericError": "มีบางอย่างผิดปกติ กรุณาลองอีกครั้ง"
   },
   "componentsMessages": {
     "inputJoinFile": "แนบแฟ้ม",
@@ -5127,7 +5585,7 @@
     "messages": "รายงาน",
     "suggestions": "คํา แนะ นํา",
     "theme": "พวกมัน",
-    "timezoneSoon": "Timesone คําในเร็ว ๆ นี้",
+    "timezone": "เวลา",
     "soundEffects": "เสียง",
     "authSoon": "(พ.ศ.",
     "connectionsSoon": "การเชื่อมต่อในเร็วๆนี้",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 – PDF",
     "tabMessages": "03 หม่อมเจ้า หม่อมเจ้า",
     "tabTickets": "04 – TICKETS",
-    "tabProfile": "05 ประวัติ"
+    "tabProfile": "05 ประวัติ",
+    "push": "ดัน",
+    "privacy": "พารามิเตอร์",
+    "memories": "ความทรงจํา",
+    "yearInReview": "ปี ใน การ ทบทวน"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "○ เลือก",
-      "selectedCount_plural": "○ เลือก",
+      "selectedCount_other": "{{count}} selected",
       "approve": "ยอมรับ",
       "reject": "ปฏิเสธ",
       "checkIn": "ตรวจสอบใน"
@@ -5622,6 +6084,7 @@
         "discountCodes": "รหัสโปรโม",
         "linkSessions": "เชื่อมโยงตั๋วไปยังวาระการใช้งาน",
         "addPhotos": "เพิ่มภาพต่าง ๆ",
+        "startLive": "ไปถ่ายทอดสด",
         "volunteers": "อาสาสมัคร",
         "sponsors": "สปอนเซอร์",
         "seatingPlans": "การ วาง แผน",
@@ -5636,7 +6099,14 @@
         "duplicate": "ทําซ้ํา",
         "cancelEvent": "ยกเลิกเหตุการณ์",
         "cancelEventDesc": "แจ้งให้ทราบ",
-        "deleteDesc": "การกระทําที่ไม่สามารถแก้ไขได้"
+        "deleteDesc": "การกระทําที่ไม่สามารถแก้ไขได้",
+        "invite": "เชิญแขก",
+        "inviteDescInviteOnly": "ทางเดียวที่จะอนุญาตให้เข้าถึงเหตุการณ์นี้ได้",
+        "duplicatePastDesc": "เริ่มจากสําเนาแก้ไขได้",
+        "remindInvites": "เตือนแขกด้วย",
+        "weddingGuests": "แขกรับเชิญ & RSSVP",
+        "weddingGifts": "การลงทะเบียนและให้ของขวัญ",
+        "weddingTables": "การ วาง แผน"
       },
       "emptyEyebrowResults": "ไม่ มี การ ตอบ โต้",
       "emptyEyebrowCatalog": "อีเอ็มพี",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "สภาวะสุขภาพ ไม่ว่าง",
       "keepBtn": "เก็บไว้",
       "cancelEventBtn": "ยกเลิกเหตุการณ์",
+      "cancelHolding": "เดี๋ยวก่อน...",
       "recurrenceEyebrow": "ผิดพลาด",
       "recurrenceModalTitle": "กําหนดการ \"0-0\"",
       "recurrenceModalBody": "สร้างการเกิดขึ้นอีกหลายครั้งจากเหตุการณ์นี้ แต่ละเหตุการณ์ที่เกิดขึ้นเป็นเหตุการณ์ใหม่อิสระ คุณสามารถปรับเปลี่ยนได้",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "เหตุการณ์นี้ถ่ายทอดสด หากคุณเปลี่ยนช่องข้อมูลที่สําคัญ (ชื่อวัน, วันที่, ตําแหน่ง, ประเภท, ความจุ) มันจะถูกส่งไปตรวจสอบความถูกต้อง และถูกซ่อนชั่วคราวจนกระทั่งมีการตอบโต้อีกครั้ง",
       "editValidatedConfirm": "แก้ไขต่อไป",
       "actionEditValidated": "แก้ไข (เป็นไปได้)",
-      "actionEditValidatedDesc": "ทุ่งกว้างวิกฤต ○ ก่อสร้างใหม่"
+      "actionEditValidatedDesc": "ทุ่งกว้างวิกฤต ○ ก่อสร้างใหม่",
+      "inviteEyebrow": "เชื้อ ชาติ",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "อีเมลแยกด้วยเครื่องหมายจุลภาคหรือบรรทัดใหม่",
+      "inviteMessagePlaceholder": "ข้อความส่วนตัว (ตัวเลือก)",
+      "inviteSendBtn": "ส่งการเชื้อเชิญ",
+      "inviteEmptyTitle": "ไม่มีอีเมล",
+      "inviteEmptyMessage": "ป้อนอย่างน้อยหนึ่งที่อยู่อีเมล",
+      "inviteInvalidTitle": "อีเมลไม่ถูกต้อง",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "ส่งการเชื้อเชิญ",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "ไม่สามารถส่งการเชื้อเชิญได้",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "ตอนนี้ไม่มีแขกมาเตือน",
+      "remindErrorTitle": "เตือนความจําล้มเหลว",
+      "remindErrorMessage": "ไม่สามารถส่งคําเตือนได้ กรุณาลองอีกครั้ง",
+      "remindPendingProgress": "กําลังส่งข้อความ...",
+      "loadError": "ไม่สามารถโหลดเหตุการณ์ของคุณ ตรวจสอบการเชื่อมต่อของคุณ"
     },
     "volunteer": {
       "tabReceived": "ได้รับ ()",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "รหัสไม่ถูกต้อง: คาดว่าจะเป็น UUID หรือรหัสอ้างอิง (8-20 ตัวอักษร A-Z/0-9)",
       "sessionRecapTitle": "สรุปกลุ่มงาน",
       "sessionRecapBody": "○ สแกน [s] ใน {{minutes}} นาที\n○ ○ ○ รับ การ ตรวจ สอบ\nราย ได้",
-      "sessionRecapQueue": "ราย ชื่อ รายการ ที่ ใช้ แล้ว"
+      "sessionRecapQueue": "ราย ชื่อ รายการ ที่ ใช้ แล้ว",
+      "manualModeBanner": "โหมด ใช้ มือ — 1 เคาะ ต่อ คน",
+      "manualModeA11y": "เปิดโหมดด้วยตนเอง เคาะเพื่อเปิดการตรวจสอบอัตโนมัติกลับมา",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "คนพวกนี้เข้ามาตอนที่เครือข่ายล่ม ตรวจสอบกับทีมของคุณ",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "รับการเชื่อมต่อทางโทรศัพท์นี้ ปฏิเสธเมื่อปรับเทียบ ถ้าเจ้าหน้าที่คนอื่นกําลังสแกนอยู่ ในเวลาเดียวกัน คนพวกนี้เข้าไป 2 ครั้ง",
+      "voice": {
+        "valid": "ตั๋วใช้ได้",
+        "validWarning": "ใช้ได้ ต้องตรวจสอบ",
+        "alreadyCheckedIn": "มีการตรวจสอบแล้ว",
+        "refused": "ปฏิเสธตั๋ว",
+        "enabled": "การประกาศเสียงบน",
+        "toggleOn": "การประกาศเสียงบน",
+        "toggleOff": "ประกาศปิดเสียง",
+        "toggleA11y": "เปิดเสียงสแกนเสียง"
+      }
     },
     "liveOps": {
       "live": "ชีวิต",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "คุณ คิด อย่าง ไร?",
       "headerTitle": "การ วิเคราะห์",
+      "errorTitle": "ไม่สามารถวิเคราะห์ได้",
+      "errorBody": "ไม่สามารถโหลดข้อมูล ตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่อีกครั้ง",
       "eventLabel": "ช่องสัญญาณ",
       "kpiViews": "มุมมอง",
       "kpiRegistrations": "การลงทะเบียน",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "เหตุ การณ์ ของ คุณ ได้ รับ การ มอง ว่า เป็น ○0 ครั้ง",
       "insightViewsNone": "แบ่งปันเหตุการณ์ของคุณเพื่อให้ได้มุมมองเพิ่มเติม",
       "insightRegistered_one": "○ คน ที่ ลง ทะเบียน",
-      "insightRegistered_other": "○ คน ที่ จด ทะเบียน"
+      "insightRegistered_other": "○ คน ที่ จด ทะเบียน",
+      "actionBoxOffice": "สํานักงานกล่อง"
     },
     "sessionsLink": {
       "headerEyebrow": "• คํา พยากรณ์",
@@ -6077,6 +6599,16 @@
       "emptyText": "สปอนเซอร์จะปรากฏตัวที่นี่ เมื่อมีการเพิ่มความร่วมมือ"
     },
     "eventCreate": {
+      "aiAppliedMessage": "AI ข้อเสนอแนะถูกนําไปใช้ในรูปแบบ",
+      "aiTitleSuggestionsTitle": "ข้อเสนอแนะของชื่อเรื่อง",
+      "aiPricingSuggestionsTitle": "ประเมินคําแนะนํา",
+      "aiTicketsCreated": "ตั๋ว ที่ สร้าง จาก ข้อ เสนอ แนะ ของ AI",
+      "aiDescGenerated": "คําบรรยายที่สร้างโดย AI",
+      "aiNeedTitleFirst": "เพิ่มชื่อเรื่องก่อน เพื่อให้ AI สามารถสร้างคําอธิบายได้",
+      "galleryPermissionTitle": "ต้องการสิทธิ์ที่อนุญาต",
+      "galleryPermissionMessage": "โปรดอนุญาตให้ใช้งานไลบรารีภาพถ่ายของคุณ",
+      "videoTooLargeTitle": "วิดีโอใหญ่เกินไป",
+      "videoTooLargeMessage": "วีดีโอต้องต่ํากว่า 20 MB",
       "unsupportedCountryTitle": "ไม่มีประเทศอยู่",
       "unsupportedCountryMessage": "อีเวนเตซไม่สามารถจ่ายเงินในประเทศนี้ได้ สิ่ง ทรง สร้าง ที่ เกิด ขึ้น จะ ถูก ปฏิเสธ. ประเทศ ที่ ได้ รับ การ สนับสนุน: นอตช์ เพ็ช, ซิ นเนต์ เพ็น เท อร์ และ สเกต (46 ประเทศ).",
       "draftFoundTitle": "พบฉบับร่าง",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "การส่งเหตุการณ์เรียบร้อยแล้ว",
       "viewMyEvents": "ดูเหตุการณ์ของฉัน",
       "createAnother": "สร้างใหม่",
+      "submittedStamp": "ใน การ ทบทวน",
+      "submittedEyebrow": "ส่งข้อมูลสําหรับทบทวน",
+      "submittedBody": "ทีมของเรากําลังทบทวนงานของคุณ คุณจะได้รับแจ้งทันทีที่มันออกอากาศ",
+      "submittedCtaEyebrow": "แดชบอร์ด",
       "edit": "แก้ไข",
       "saved": "บันทึก",
       "back": "กลับ",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "ตั๋ว “0-0-0\" สูงสุดต่ออันดับต้องเป็น ≥ นาที",
         "fieldLabelRequired": "ต้องการชื่อสนาม # 0'",
         "fieldOptionsRequired": "ตัวเลือกต่าง ๆ นั้นจําเป็นสําหรับช่องข้อมูล \")\""
-      }
+      },
+      "loadFailedBlocksSave": "ไม่สามารถโหลดข้อมูลเหตุการณ์ได้ เรียกหน้าใหม่อีกครั้งก่อนที่จะบันทึก หากไม่เช่นนั้นข้อมูลปัจจุบันของคุณจะถูกเขียนทับ"
     },
     "eventRegistrations": {
       "title": "การลงทะเบียน",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "แฟ้ม CSV, ส่งออกเป็น PDF",
       "linkMyEventsTitle": "เหตุการณ์ของฉัน",
       "linkMyEventsSub": "จํานวนตัวอักษรที่จะแทนที่"
+    },
+    "boxOffice": {
+      "openTitle": "เปิดถึง",
+      "openingFloatHelp": "ผู้ จัด การ ให้ คุณ เปลี่ยน แปลง มาก แค่ ไหน? ถ้าไม่มีมัน คืนนี้นับจะผิด",
+      "openDrawer": "เปิดถึง",
+      "openError": "ไม่สามารถเปิดแฟ้มได้",
+      "openErrorDetail": "ตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่อีกครั้ง",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "ปิด",
+      "cash": "เงิน",
+      "momo": "เงินเคลื่อนที่",
+      "giveBack": "ให้",
+      "saleError": "การขายยังไม่ถูกบันทึก",
+      "saleErrorDetail": "ไม่ต้องพิมพ์ใหม่: ลองอีกครั้ง จะไม่มีการคิดเงินซ้ําสอง",
+      "a11y": {
+        "drawerOpened": "เปิด",
+        "openingFloatInput": "ผลรวมการเปิดแผ่น",
+        "openDrawer": "เปิดถึง",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "ปิดจนถึง",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "รับ เงิน จาก โมบาย",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "เพื่อจัดการ",
+      "cashOnlyHint": "เงิน ไม่ ได้ อยู่ ใน กระเป๋า ของ คุณ.",
+      "openingFloat": "การเปิดแผ่น",
+      "salesCount": "การ ขาย",
+      "countedLabel": "ฉันนับแล้ว",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "นี่ไม่ใช่อุปสรรค แค่อธิบายว่าทําไมด้านล่าง",
+      "reasonLabel": "การอธิบาย (ตัวเลือก)",
+      "reasonPlaceholder": "E.g. ฉันให้ 500 เปลี่ยนแปลงมากเกินไป",
+      "confirmClose": "หลับตาลง",
+      "closedTitle": "ถึงปิด",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "การปิดล้มเหลว",
+      "closeErrorDetail": "กรุณาลองอีกครั้งในไม่ช้า",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "จํานวนนับ",
+        "reasonInput": "คํา อธิบาย เรื่อง ความ ยืดหยุ่น",
+        "confirmClose": "ยืนยันการปิด",
+        "closed": "ถึงปิด"
+      }
+    },
+    "documents": {
+      "title": "เอกสารที่จะพิมพ์",
+      "a11y": "เอกสารที่สามารถพิมพ์ได้",
+      "badges": "ตราผู้เข้าประชุม",
+      "badgesHint": "รูปแบบ A6, 4 ต่อ A4 หน้า",
+      "attendanceSheet": "เซ็นในแผ่น",
+      "attendanceSheetHint": "เพื่อ เซ็น ชื่อ ที่ โต๊ะ หน้า — พร้อม แล้ว ก่อน เหตุ การณ์ นั้น",
+      "certificates": "ใบรับรองผู้เข้าร่วม",
+      "certificatesHint": "หลังจากเหตุการณ์แล้ว สําหรับผู้เข้าร่วมตรวจสอบ"
+    },
+    "weddingGuests": {
+      "title": "แขกรับเชิญ & RSSVP",
+      "empty": "ยังไม่มีแขก",
+      "remindOne": "เตือน",
+      "remindOneSent": "เตือนความจําที่ส่งแล้ว",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "ไม่สามารถส่งการเตือนความจํา",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "แก้ไข RSSVP",
+      "editRsvpTitle": "แก้ไข RSSVP",
+      "rsvpUpdated": "ปรับปรุง RSSVP",
+      "rsvpError": "ไม่สามารถบันทึก RSSVP ได้",
+      "partySize": "ขนาดของปาร์ตี้",
+      "dietary": "การใช้งานดีที",
+      "dietaryPlaceholder": "พืชผัก , ไม่มีกลูเตน",
+      "note": "บันทึกย่อ",
+      "stats": {
+        "invited": "เชิญ",
+        "accepted": "ยืนยัน",
+        "pending": "จํานวนครั้งที่เล่น",
+        "headcount": "จํานวนตัวอักษรที่จะแทนที่"
+      },
+      "status": {
+        "pending": "จํานวนครั้งที่เล่น",
+        "accepted": "ยืนยัน",
+        "declined": "ปฏิเสธ",
+        "cancelled": "ยกเลิก"
+      }
+    },
+    "weddingGifts": {
+      "title": "การลงทะเบียนและให้ของขวัญ",
+      "noRegistry": "ยังไม่มีการลงทะเบียนสําหรับเหตุการณ์นี้",
+      "create": "สร้างการลงทะเบียน",
+      "registryCreated": "การลงทะเบียนสร้าง",
+      "registryUpdated": "ปรับปรุงสถานะการลงทะเบียน",
+      "editRegistry": "แก้ไขสัญญาอนุญาต",
+      "registryTitle": "การลงทะเบียนชื่อ",
+      "registryDescription": "ข้อความถึงแขก",
+      "visible": "การตรวจสอบจดหมาย",
+      "hidden": "ซ่อน",
+      "totalRaised": "รวมการยก",
+      "share": "ใช้ร่วมกัน",
+      "addItem": "เพิ่มของขวัญ",
+      "newItem": "ของขวัญใหม่",
+      "editItem": "แก้ไขของขวัญ",
+      "itemName": "ชื่อ",
+      "itemKind": "ชนิด",
+      "targetAmount": "จํานวนเป้าหมาย",
+      "externalUrl": "ส่วนเชื่อมโยงภายนอก (ตัวเลือกเสริม)",
+      "itemAdded": "เพิ่มของกํานัล",
+      "itemUpdated": "ปรับปรุงข้อมูลส่วนตัว",
+      "itemDeleted": "ลบของขวัญแล้ว",
+      "deleteItemTitle": "ลบของขวัญนี้",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "สงวน",
+      "noItems": "ยังไม่มีของขวัญ เพิ่มหนึ่ง",
+      "kind": {
+        "gift": "นําเสนอ (รายการ)",
+        "cash_fund": "กองทุนเงินสด"
+      },
+      "error": "มีบางอย่างผิดปกติ"
+    },
+    "weddingTables": {
+      "title": "การ วาง แผน",
+      "noTables": "ยังไม่ได้โต๊ะ สร้างใหม่",
+      "addTable": "เพิ่มตาราง",
+      "newTable": "สร้างตารางใหม่",
+      "editTable": "แก้ไขตาราง",
+      "name": "ชื่อตาราง",
+      "namePlaceholder": "ตารางที่ 1 ครอบครัว...",
+      "capacity": "จํานวนที่นั่ง",
+      "created": "ตารางที่ถูกสร้าง",
+      "updated": "ปรับปรุงตาราง",
+      "deleted": "ลบตาราง",
+      "deleteTitle": "ลบตาราง",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "เต็ม",
+      "tableEmpty": "ไม่มีใครที่โต๊ะนี้",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "แขกทุกคนที่นั่งแล้ว",
+      "createFirst": "สร้างโต๊ะสําหรับแขกก่อน",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "ที่นั่งรับแขก",
+      "unassign": "ลบ",
+      "unassigned": "เอาแขกออก",
+      "capacityError": "ที่นั่งนี้ไม่พอ",
+      "error": "มีบางอย่างผิดปกติ"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "เหตุการณ์",
       "kpiRevenue": "แก้ไขโครงการหลัก...",
       "kpiVerifications": "การตรวจสอบสิทธิ์",
+      "activityChartTitle": "แพลตฟอร์ม",
+      "activityChartSubtitle": "แสดงการกระทําเมื่อ 7 วันก่อน",
       "quickActions": "การ ติด เชื้อ",
       "recentActivity": "กิจกรรม เมื่อ เร็ว ๆ นี้",
       "noActivity": "ไม่มีกิจกรรมล่าสุด",
       "viewAllAudit": "ดูปูมบันทึกการตรวจสอบทั้งหมด",
       "actions": {
         "users": "ผู้ใช้",
+        "verifications": "การตรวจสอบสิทธิ์",
         "subscriptions": "สมาชิก",
         "audit": "โปรแกรม Audit",
         "announcements": "การ ประกาศ",
@@ -6369,6 +7066,30 @@
         "settings": "ตั้งค่า",
         "treasury": "เงิน"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "จํากัดการเข้าถึง",
+      "eyebrow": "การจัดอันดับ",
+      "title": "ต้องการการตรวจสอบสิทธิ์",
+      "typeOrg": "องค์กร",
+      "typeIndividual": "ส่วนบุคคล",
+      "noDocuments": "ยังไม่มีการกําหนดเอกสาร",
+      "approve": "ยอมรับ",
+      "reject": "ปฏิเสธ",
+      "approveTitle": "ยืนยัน",
+      "approveMessage": "ยืนยันการอนุมัติ {{name}} เป็นกรรมการตรวจสอบ?",
+      "approveBio": "ยืนยันการอนุมัติการตรวจสอบนี้",
+      "approveSuccess": "ยืนยันตัวจัดการ",
+      "rejectTitle": "ปฏิเสธการร้องขอ",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "เหตุผลสําหรับการปฏิเสธ...",
+      "rejectReasonRequired": "เหตุผลที่จําเป็น",
+      "rejectSuccess": "การร้องขอถูกปฏิเสธ",
+      "actionError": "การกระทําล้มเหลว กรุณาลองอีกครั้ง",
+      "loadError": "ไม่สามารถโหลดการร้องขอตรวจสอบ",
+      "emptyTitle": "ไม่มีการขอชั่วคราว",
+      "emptySubtitle": "การร้องขอให้มีการตรวจสอบใหม่ จะปรากฏที่นี่"
     },
     "platformSettings": {
       "watermark": "ขนาด CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "ไม่สามารถโหลดผู้ใช้ได้",
       "roleSection": "ROLE",
       "actionsSection": "รายการ",
+      "profileSection": "ประวัติ",
+      "fieldFirstName": "ชื่อแรก",
+      "fieldLastName": "นามสกุล",
+      "fieldEmail": "อีเมล",
+      "fieldPhone": "โทรศัพท์",
+      "fieldCompany": "บริษัท",
+      "saveProfile": "บันทึกโพรไฟล์",
+      "profileUpdated": "ปรับปรุงโพรไฟล์",
+      "profileUpdateError": "ไม่สามารถปรับปรุงโปรไฟล์ได้",
+      "emailRequired": "ต้องการอีเมล",
       "infoSection": "ข้อมูล",
       "active": "ทํางาน",
       "inactive": "ไม่ได้ทํางาน",
@@ -6670,6 +7401,21 @@
       "title": "ปูมบันทึกของ Audit",
       "target": "เป้าหมาย",
       "user": "ผู้ใช้ # 0)",
+      "detail": {
+        "guardTitle": "รายละเอียดปูมบันทึก",
+        "eyebrow": "ปูมบันทึกของ Audit",
+        "title": "รายละเอียดปูมบันทึก",
+        "action": "การกระทํา",
+        "target": "เป้าหมาย",
+        "user": "ผู้ใช้",
+        "system": "ระบบ",
+        "timestamp": "นาฬิกา",
+        "ip": "ที่อยู่ IP",
+        "userAgent": "อุปกรณ์ / เบราว์เซอร์",
+        "changes": "เปลี่ยน",
+        "metadata": "รายละเอียด",
+        "loadError": "ใส่บันทึกไม่ได้"
+      },
       "stats": {
         "total": "รวม"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "อีเมลของแขก",
     "delegateError": "ไม่สามารถส่งการเชื้อเชิญได้",
     "toCompleteBadge": "○ เพื่อทําให้สมบูรณ์"
+  },
+  "shareCard": {
+    "eyebrow": "ฉันจะอยู่ที่นั่น",
+    "button": "แบ่งปันข้อมูล",
+    "dialogTitle": "บอกตําแหน่งฉัน",
+    "cta": "จด ที่ อยู่ ของ คุณ",
+    "errorTitle": "ใช้ร่วมกัน",
+    "errorMessage": "ไม่สามารถสร้างไพ่ได้ในตอนนี้"
+  },
+  "badges": {
+    "verified": "การตรวจสอบสิทธิ์",
+    "pioneer": "ผู้บุกเบิก",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "ผู้ประกาศข่าว",
+    "title": "ปรับใช้สําหรับบูท",
+    "lead": "แนะนําบริษัทของคุณให้ดูแลบูธในโชว์นี้ ผู้จัดจะทบทวนคําขอของคุณ",
+    "companyLabel": "ชื่อบริษัท",
+    "companyPlaceholder": "I.g. Acme Ltd",
+    "categoryLabel": "อุตสาหกรรม / ประเภท",
+    "categoryPlaceholder": "E.g.tech, Food...",
+    "websiteLabel": "เพิ่มช่อง",
+    "pitchLabel": "จดหมายถึงผู้จัด (ตัวเลือก)",
+    "pitchPlaceholder": "อธิบายธุรกิจของคุณ สิ่งที่คุณจะแสดง",
+    "boothLabel": "บูทที่ควรใช้ (ตัวเลือกอื่น)",
+    "submit": "ส่งโปรแกรมของฉัน",
+    "submitting": "กําลังส่ง...",
+    "successTitle": "โปรแกรมส่งแล้ว!",
+    "successSubtitle": "ผู้จัดจะทบทวนมัน คุณจะได้รับแจ้งถึงการตัดสินใจของพวกเขา",
+    "goToMyBooth": "ดูบูธของฉัน",
+    "alreadyApplied": "คุณได้สมัครรับรายการนี้แล้ว",
+    "loginRequired": "ลงชื่อสมัครเป็นบูธ",
+    "login": "เข้าสู่ระบบ",
+    "errorSubmit": "ไม่สามารถส่งโปรแกรมได้",
+    "ctaTitle": "ทํางานในโชว์นี้",
+    "ctaSubtitle": "ปรับใช้ในวินาที",
+    "ctaButton": "เป็นพิธีกร"
+  },
+  "myBoothMobile": {
+    "eyebrow": "ผู้ประกาศข่าว",
+    "title": "บูทของฉัน",
+    "empty": "ไม่มีการจองโต๊ะ",
+    "show": "แสดง",
+    "accepted": "เป็นที่ยอมรับ",
+    "acceptError": "ไม่สามารถยอมรับได้",
+    "salesTitle": "การ ขาย ที่ รับ มอบ หมาย",
+    "commission": "EventEz commission",
+    "hostShare": "หุ้นของผู้จัดทํา",
+    "net": "สิ่งที่คุณเก็บไว้",
+    "createEvent": "สร้างเหตุการณ์ของฉัน",
+    "acceptCta": "ฉันยอมรับเงื่อนไขเหล่านี้",
+    "statusPaid": "จ่าย",
+    "statusPartial": "เงินฝากจ่ายแล้ว",
+    "statusPending": "เพื่อจ่าย",
+    "amountDue": "ปริมาณของบูธ",
+    "amountRemaining": "ยัง คง ต้อง จ่าย",
+    "payBooth": "จ่ายสําหรับตู้ของฉัน",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "การ์ด",
+    "paymentInitiated": "เริ่มจ่าย ยืนยันในโทรศัพท์ของคุณ",
+    "payError": "ไม่สามารถเริ่มการชําระเงินในบูทได้",
+    "captureLeads": "ที่อยู่ติดต่อ:",
+    "viewLeads": "ที่อยู่ติดต่อของฉัน"
+  },
+  "leadCapture": {
+    "title": "จับภาพที่อยู่ติดต่อ",
+    "hint": "ชี้รหัส QR บนตราผู้มาเยือน",
+    "permissionTitle": "อนุญาตให้ใช้กล้อง",
+    "permissionBody": "กล้องถูกใช้เพื่ออ่านรหัส QR ของผู้มาเยือนที่ตกลงที่จะติดต่อ",
+    "permissionCta": "เปิดกล้อง",
+    "manualEntry": "พิมพ์ส่วนอ้างอิงแทน",
+    "manualPlaceholder": "อ้างอิงแบดเจอร์",
+    "unnamed": "บันทึกที่อยู่ติดต่อแล้ว",
+    "alreadyKnown": "พบ กัน แล้ว — ปรับปรุง สถิติ.",
+    "qualify": "ปรับเทียบข้อมูลที่อยู่ติดต่อ",
+    "rating_hot": "ร้อน",
+    "rating_warm": "อุ่น",
+    "rating_cold": "เย็น",
+    "notesPlaceholder": "สิ่งที่คุณพูด (ตัวเลือก)",
+    "next": "ที่อยู่ติดต่อถัดไป",
+    "retry": "ค้นหาอีกครั้ง",
+    "noConsentTitle": "แขกคนนี้ไม่เห็นด้วย",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "ไม่สามารถจัดการ badge ได้",
+    "notFoundBody": "ตรานี้ไม่เหมาะกับงานนี้ ตรวจสอบอ้างอิงที่พิมพ์ภายใต้รหัส QR",
+    "errorTitle": "การค้นหาล้มเหลว",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "ผู้เข้าชมไม่ได้ตกลงที่จะติดต่อ",
+    "a11yNotFound": "แบดจ์ไม่ยอมรับ",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "วันนี้",
+    "yesterday": "เมื่อวานนี้",
+    "justNow": "ตอนนี้",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "กําลังส่ง",
+    "failed": "ล้มเหลวในการส่ง",
+    "sent": "ส่งแล้ว",
+    "delivered": "ส่งแล้ว",
+    "read": "อ่าน"
+  },
+  "myLeads": {
+    "title": "ที่อยู่ติดต่อของฉัน",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "ที่อยู่ติดต่อที่ยังไม่มีชื่อ",
+    "emptyTitle": "ยังไม่มีที่อยู่ติดต่อ",
+    "emptyBody": "สแกนตราผู้มาเยือน ที่แวะมาที่บูธของคุณ จากนั้นคุณสามารถส่งออกรายการทั้งหมดเป็น CSV",
+    "errorTitle": "โหลดไม่ได้",
+    "errorBody": "ผู้ติดต่อของคุณปลอดภัย ตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่อีกครั้ง"
+  },
+  "myDataExhibitors": {
+    "title": "ข้อมูลของฉันจัดขึ้นโดยผู้จัดแสดง",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "ลบ",
+    "eraseAll": "ลบทั้งหมด",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "รายละเอียดการติดต่อของคุณถูกลบออกไป",
+    "eraseError": "ผลการันตีไม่ผ่าน",
+    "confirmCta": "ลบ",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "ลบข้อมูลของฉันที่จัดขึ้นโดยตัวแทนทุกคน?",
+    "confirmAllBody": "ชื่อ อีเมล์ และหมายเลขโทรศัพท์ของคุณ จะถูกลบทิ้ง ที่ทุกบริษัทในรายชื่อ นี่ไม่สามารถยกเลิกได้",
+    "emptyTitle": "ไม่มีบริษัทใดถือรายละเอียดการติดต่อของคุณ",
+    "emptyBody": "ผู้จัดรายการสามารถบันทึกรายละเอียดของคุณได้เท่านั้น โดยการสแกนตราของคุณ และก็ต่อเมื่อคุณอนุญาต"
+  },
+  "visio": {
+    "expandCall": "ขยายการเรียกใช้วิดีโอ",
+    "endCall": "เรียกจบ",
+    "endCallConfirmTitle": "รับสายเหรอ?",
+    "endCallConfirmMessage": "คุณกําลังจะออกจากการประชุม",
+    "minimize": "ย่อหาย",
+    "liveNow": "ชีวิต",
+    "join": "เข้าร่วม",
+    "view": "แสดง",
+    "liveBannerA11y": "{{title}} ถ่ายทอดสด เคาะเพื่อเข้าร่วม",
+    "seeAll": "แสดง",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "ปรับขนาด"
+  },
+  "organize": {
+    "favorites": "ของโปรดฉัน",
+    "eyebrow": "ขอบเขตสี",
+    "title": "หมวดหมู่",
+    "liveNow": "มีชีวิตต่อไป",
+    "nextEvent": "ครั้งต่อไป",
+    "registered": "ลงทะเบียน",
+    "scan": "ค้นหา",
+    "scanA11y": "สแกนตั๋วสําหรับเหตุการณ์นี้",
+    "boxOffice": "สํานักงานกล่อง",
+    "boxOfficeA11y": "เปิดสํานักงานกล่องสําหรับเหตุการณ์นี้",
+    "viewStats": "แถบมุมมอง",
+    "availableBalance": "สมดุลที่มี",
+    "walletA11y": "เปิดกระเป๋าคุมข้อมูลของฉัน",
+    "noActiveEvent": "ไม่มีเหตุการณ์ที่กําลังทํางานอยู่",
+    "noActiveEventHint": "สร้างเหตุการณ์หรือตีพิมพ์ฉบับร่างเพื่อดูที่นี่",
+    "noStaffEventHint": "เหตุการณ์ที่คุณเป็นส่วนหนึ่งของทีม จะมาที่นี่",
+    "createEvent": "สร้างเหตุการณ์",
+    "myEvents": "เหตุการณ์ของฉัน",
+    "teamEvents": "เหตุการณ์ที่ I ทีมงาน",
+    "analytics": "วิเคราะห์",
+    "loadError": "ไม่สามารถใส่พื้นที่ของคุณ ตรวจสอบการเชื่อมต่อของคุณ"
+  },
+  "moments": {
+    "checkin": {
+      "entered": "คุณอยู่ใน",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "ภายใน 1 สัปดาห์",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "ประตูเปิดอยู่",
+    "onNow": "กําลังจะเกิดขึ้นตอนนี้",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "ตั๋วใช้ออฟไลน์",
+    "offlinePending": "เปิดตั๋วหนึ่งครั้งเพื่อให้มันออฟไลน์",
+    "sayImGoing": "พูดว่าฉันจะไป",
+    "showTicket": "แสดงตั๋วของฉัน",
+    "directions": "ทิศทาง",
+    "viewTicket": "แสดงตั๋ว",
+    "goThere": "ไป",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "กําหนด เข็ม ทิศ: วาด รูป 8 ด้วย โทรศัพท์",
+    "compassHint": "ตามลูกศรไปยังสถานที่"
+  },
+  "onSite": {
+    "eyebrow": "คุณอยู่ในเว็บไซต์",
+    "now": "ตอนนี้",
+    "next": "Next · {{time}}",
+    "qa": "สด Q&A",
+    "plan": "แผนที่และตําแหน่ง",
+    "networking": "ระบบเครือข่าย"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "คุณอยู่ที่นั่น",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "มาถึงครั้งแรก",
+    "question": "เธอคิดว่าไง?",
+    "thanks": "ขอบคุณสําหรับเรตติ้งนะ",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "แบ่งปันข้อมูล",
+    "later": "ทีหลัง"
+  },
+  "yearInReview": {
+    "eyebrow": "ปีของคุณ",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "เหตุการณ์ที่เข้าร่วม",
+    "s1Line_other": "เหตุการณ์ที่เข้าร่วม",
+    "citiesEyebrow": "บนถนน",
+    "categoryEyebrow": "ชนิดของเหตุการณ์ของคุณ",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "ทั้งหมดเริ่มจาก",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "ตรงเวลาเสมอ",
+    "arrivalsLine_one": "มาถึงก่อน",
+    "arrivalsLine_other": "มาถึงก่อน",
+    "organizerEyebrow": "ผู้จัดของคุณ",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "แชร์นามบัตรของฉัน",
+    "tapHint": "ก๊อกเพื่อดําเนินการต่อ"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "ผู้เข้าร่วมคนแรก",
+      "someone": "ใครบางคน",
+      "share": "ใช้ร่วมกันเพื่อเพิ่มยอดขาย",
+      "view": "แสดง",
+      "soldOutTitle": "ขายหมด",
+      "soldOutLine": "ตั๋วทุกใบหายไป"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "♪ Solt out",
+      "online": "ชีวิต"
+    },
+    "share": {
+      "cta": "ใช้ร่วมกัน",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "ใช้งานร่วมกัน",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "ต้องการ",
+      "approved": "ยอมรับแล้ว",
+      "sent": "ส่งแล้ว",
+      "verifying": "การตรวจสอบกับผู้ประกอบการ",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "การให้ล้มเหลว"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "เกือบเต็มแล้ว",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "จบการทํางาน",
+      "validated": "ตรวจสอบแล้ว",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "ปฏิเสธ",
+      "syncing": "กําลังปรับเทียบข้อมูล...",
+      "synced": "ปรับเทียบข้อมูลแล้ว",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "ดูรายการที่ถ่ายทอดสด",
+      "resume": "ทําต่อไป",
+      "close": "เสร็จสิ้น"
+    },
+    "recap": {
+      "title": "กลับด้าน",
+      "eyebrow": "เครือข่าย NFT",
+      "attended": "ผู้เข้าประชุม",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "แก้ไขโครงการหลัก...",
+      "rating": "เรตติ้งเฉลี่ย",
+      "reviews": "{{count}} reviews",
+      "noReviews": "ยังไม่มีการทบทวน",
+      "best": "การทบทวนstandout",
+      "latest": "การทบทวนล่าสุด",
+      "thank": "ขอบคุณผู้เข้าร่วม",
+      "funds": "กองทุนมุมมอง",
+      "error": "เชื่อมต่อไม่ได้ในขณะนี้",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "แสดงหัวเรื่อง"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "เพิ่งจองไว้",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "ถูกจองในชั่วโมงสุดท้าย",
+    "lastSaleToday": "เขียนวันนี้",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "ขายหมด",
+    "soldOutCta": "ขายหมด ไม่มีที่นั่ง",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "การเชื่อมต่อของคุณที่กําลังจะไป",
+    "someone": "ใครบางคน",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "ออนไลน์",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "ที่นั่งจะจัดขึ้นสําหรับคุณ",
+    "seatHeldBody": "หนังสือก่อนที่การนับถอยหลังจะจบลง: หลังจากนั้น มันจะไปยังบุคคลต่อไป",
+    "seatHeldCta": "จองที่นั่งให้ฉันด้วย",
+    "seatHeldExpired": "เวลาหมดลงแล้ว :",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "แสดงทั้งหมด",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "ปฏิกิริยา",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "การเชื่อมต่อของคุณมาถึง",
+    "connectionArrivedCta": "ข้อความพวกเขา",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "สด",
+    "checkinPushed": "ถ่ายทอดสด"
+  },
+  "reminders": {
+    "channelName": "แจ้งเตือนเหตุการณ์",
+    "dayBeforeTitle": "เตือนความจํา: พรุ่งนี้",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "เตือนความจํา: ภายใน 1 ชั่วโมง",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "พบ",
+    "discoverSubtitle": "เหตุการณ์ที่อยู่ใกล้คุณ",
+    "tickets": "ตั๋วของฉัน",
+    "scan": "สแกนตั๋ว"
+  },
+  "ongoing": {
+    "channelName": "วัน เกิด",
+    "eventFallback": "เหตุการณ์ของคุณ",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "เริ่มทํางานเร็ว ๆ นี้",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "ตอนนี้ ตั๋วพร้อมแล้ว",
+    "scannerTitle": "สแกนเนอร์ปฏิบัติหน้าที่"
+  },
+  "gestures": {
+    "undo": {
+      "title": "ยกเลิกการกระทําล่าสุดหรือไม่?",
+      "confirm": "เลิกทํา",
+      "keep": "เก็บไว้",
+      "failed": "เลิกทําไม่ได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่อีกครั้ง",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "ย้ายการสนทนาออกจากแฟ้มจัดเก็บ"
+    },
+    "report": {
+      "title": "รายงานปัญหา",
+      "subtitle": "การสร้างการทดสอบ: หน้าจอหน้าจอ, หน้าจอและเวอร์ชันจะถูกส่งไปยังจดหมายของคุณ",
+      "noNote": "รายงานโดยไม่มีความคิดเห็น",
+      "blur": "เบลอ",
+      "noShot": "ไม่มีภาพที่จับได้บนหน้าจอนี้",
+      "placeholder": "เกิดอะไรขึ้น?",
+      "send": "ส่ง",
+      "sent": "ขอบคุณ รายงานของคุณถูกส่งไปแล้ว",
+      "unavailable": "ไม่สามารถส่ง: การติดตามข้อผิดพลาด ไม่ได้ทํางานในอาคารนี้"
+    },
+    "applause": {
+      "hint": "ปรบมือให้นานขึ้น",
+      "a11y": "เสียงปรบมือยาว"
+    },
+    "hush": {
+      "title": "กล้องวงจรปิดและกล้องปิดขณะโทรศัพท์ถูกปิด",
+      "reactivate": "เคาะเพื่อเปิดมันกลับ"
+    },
+    "lighter": {
+      "button": "ตัวเบา",
+      "off": "เอามันออกมา",
+      "alone": "ยกโทรศัพท์ขึ้น เปลวไฟตามการเคลื่อนไหวของคุณ",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "เซอร์ไพรส์ฉัน",
+      "chipA11y": "แสดงถึงเหตุการณ์สุ่ม",
+      "again": "อีก",
+      "none": "ไม่มีเหตุการณ์ที่กําลังจะเกิดขึ้นที่จะแนะนําตอนนี้"
+    },
+    "bump": {
+      "settingTitle": "ที่อยู่ติดต่อแบบสลับที่ ด้วยการสั่น",
+      "settingSubtitle": "ใน บริเวณ นั้น เมื่อ มี การ สแกน ตั๋ว ของ คุณ แล้ว: เขย่า เวลา เดียว กัน กับ ที่ คน อื่น พบ กัน. ตําแหน่งโดยประมาณของคุณ จะถูกใช้ในไม่กี่วินาที เพื่อเข้าคู่กับคุณ และไม่เคยถูกเก็บไว้เลย ไม่มีอะไรเกิดขึ้นถ้าไม่ได้ยืนยัน ปิดโดยปริยาย",
+      "button": "สลับด้วยการสั่น",
+      "nearbyButton": "มองรอบตัวฉัน",
+      "hint": "สั่นโทรศัพท์เวลาเดียวกับคนอื่น",
+      "title": "เปลี่ยนที่อยู่ติดต่อ",
+      "searching": "มองหาผู้คนที่ตัวสั่นอยู่ใกล้คุณ...",
+      "none": "ไม่มีใครเจอ เขย่าในช่วงเวลาเดียวกับที่คนอื่น ๆ แล้วลองอีกครั้ง",
+      "pick": "เลือกคนที่ใช่ ไม่มีอะไรเหมือนกันเลย ถ้าพวกเธอไม่ยินยอม",
+      "connect": "เชื่อมต่อ?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "กําลังรอการยืนยัน",
+      "connected": "เชื่อมต่อแล้ว",
+      "openSettings": "เปิดการตั้งค่า",
+      "error": {
+        "disabled": "เปิดการใช้งาน “ตัวติดต่อของสวาป โดยการสั่น* ในการตั้งค่าของคุณ",
+        "notCheckedIn": "มีตั๋วที่ทางเข้าแล้ว",
+        "clockSkew": "นาฬิกาโทรศัพท์คุณเสีย ตั้งให้อัตโนมัติและลองใหม่อีกครั้ง",
+        "rateLimited": "มีความพยายามมากเกินไป ลองอีกครั้งในหนึ่งนาที",
+        "expired": "การแลกเปลี่ยนหมดอายุ เริ่มใหม่",
+        "noLocation": "จําเป็น ต้อง มี ที่ อยู่ เพื่อ จะ พบ คน ที่ อยู่ ใกล้ คุณ.",
+        "generic": "การแลกเปลี่ยนไม่ผ่าน ลองอีกที"
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "บันทึกเหตุการณ์"
+    },
+    "torch": {
+      "onA11y": "เปิดไฟฉาย",
+      "offA11y": "ปิดไฟฉาย",
+      "hint": "เปิดไฟหรือปิด"
+    },
+    "dragSelect": {
+      "select": "เลือก",
+      "hint": "หรือลากสองนิ้วลงมาเพื่อกระตุ้นผู้เข้าร่วมหลายคน",
+      "message": "ส่งข้อความไปยังผู้เข้าร่วมที่เลือกไว้",
+      "export": "ส่งออกส่วนที่เลือก",
+      "exportError": "การส่งออกรายการที่เลือกล้มเหลว",
+      "csvName": "ชื่อ",
+      "csvEmail": "อีเมล",
+      "csvReference": "อ้างอิง",
+      "csvStatus": "สถานะ",
+      "csvDate": "ลงทะเบียนแล้ว"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "เอาตั๋วมา...",
+      "favorites": "ดึงข้อมูลโปรดของคุณ...",
+      "notifications": "กําลังรับค่าการแจ้งให้ทราบของคุณ...",
+      "messages": "ดึงการสนทนาของคุณ...",
+      "search": "มองหาเหตุการณ์ที่สอดคล้องกัน...",
+      "event": "กําลังเตรียมหน้าเหตุการณ์..."
+    },
+    "mobileMoney": {
+      "sent": "คําสั่งจ่ายของคุณถูกส่งไปที่ผู้ดําเนินการของคุณ",
+      "pin": "จง ยอม รับ ใน เรื่อง นี้ โดย ทาง โทรศัพท์ ของ คุณ.",
+      "operator": "การยืนยันของโอเปอเรเตอร์ ต้องใช้เวลาสักหน่อย นี่ เป็น เรื่อง ปกติ.",
+      "once": "คุณจะถูกเรียกเก็บเงินครั้งเดียว แม้ว่าการรอคอยจะดําเนินต่อไป"
+    },
+    "empty": {
+      "tickets": {
+        "v0": "ตั๋วของคุณจะปรากฏขึ้นที่นี่ ทันทีที่คุณลงทะเบียนสําหรับเหตุการณ์",
+        "v1": "คอนเสิร์ต การประชุม เวิร์คช็อป ทุกอย่างเริ่มต้นด้วยเหตุการณ์",
+        "v2": "การออกไปข้างนอกครั้งต่อไปของคุณ อาจจะออนไลน์อยู่แล้ว"
+      },
+      "favorites": {
+        "v0": "กดหัวใจบนเหตุการณ์ที่พบที่นี่และได้ยินเกี่ยวกับการเปลี่ยนแปลง",
+        "v1": "ตามงานไป คุณจะได้ไม่พลาดข่าว",
+        "v2": "หัวใจดวงเดียวก็เพียงพอ ที่จะรักษาเหตุการณ์ไว้"
+      },
+      "notifications": {
+        "v0": "ข่าวจากเหตุการณ์และผู้จัดการที่คุณติดตามจะปรากฏขึ้นที่นี่",
+        "v1": "จง ติด ตาม เหตุ การณ์ ที่ จะ ได้ รับ การ แจ้ง ให้ ทราบ ถึง สิ่ง ใหม่ ๆ.",
+        "v2": "เรา จะ แจ้ง ให้ คุณ ทราบ ทันที ที่ มี อะไร เกิด ขึ้น."
+      },
+      "messages": {
+        "v0": "เจอคนที่งาน? สแกนรหัสเพื่อเชื่อมต่อ",
+        "v1": "การเชื่อมต่อเหตุการณ์ของคุณปรากฏขึ้นที่นี่ หนึ่งรหัสสแกนเพียงพอ",
+        "v2": "ราย ละเอียด เกี่ยว กับ การ ติด ต่อ สัมพันธ์ ใน เว็บไซต์ โดย การ สแกน รหัส ของ ผู้ เข้า ร่วม ประชุม."
+      },
+      "discover": {
+        "v0": "บาง ครั้ง การ ค้น หา ข้อ สําคัญ พบ สิ่ง ที่ หน้า แรก ยัง ไม่ ปรากฏ.",
+        "v1": "สืบค้นโดยเมืองหรือหมวดหมู่: เหตุการณ์ที่มาใหม่ทุกสัปดาห์"
+      },
+      "exploreAction": "ดู ว่า มี อะไร เกิด ขึ้น",
+      "scanAction": "ค้นหารหัส",
+      "searchAction": "ค้นหาเหตุการณ์",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "กว้าง ถึง 50 กิโลเมตร รอบ ตัว คุณ",
+      "clearFilters": "ล้างตัวกรอง"
+    },
+    "greeting": {
+      "when": {
+        "today": "วันนี้",
+        "tomorrow": "พรุ่งนี้",
+        "dayAfter": "วันมะรืนนี้"
+      },
+      "there": "บนเว็บไซต์",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "สุขสันต์วันเกิด! โชคดีนะ",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "สุขสันต์วันชาติ!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "ยินดีต้อนรับกลับมา",
+      "subtitle_one": "สิ่งใหม่ตั้งแต่คุณมาเยี่ยมครั้งสุดท้าย",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "และอีกหนึ่งจากสิ่งที่คุณติดตาม",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "ซ่อน",
+      "reason": {
+        "followed_organizer": "ผู้จัดที่คุณตาม",
+        "new_edition": "พิมพ์ใหม่ของเหตุการณ์ที่คุณเข้าร่วม",
+        "other": "สร้างนัดหมายใหม่New"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "สําหรับเธอ ที่นอนทับเธอ",
+      "forYouTitle": "คุณอาจชอบ",
+      "loginCtaTitle": "คํา แนะ นํา ที่ เหมาะ กับ คุณ"
+    },
+    "settings": {
+      "ritualsEyebrow": "เครื่องดื่มเล็กน้อย",
+      "ritualsTitle": "สัมผัสเล็กน้อย",
+      "ritualsSubtitle": "ในวันเกิดของคุณ วันครบรอบวันบัญชีของคุณ หรือวันชาติ ครั้งในระหว่างวัน อายุของคุณไม่เคยแสดง ไม่มีการแจ้ง",
+      "forgetEyebrow": "การ ประชุม ภาค",
+      "forgetTitle": "ลืมความชอบของฉัน",
+      "forgetSubtitle": "การ ลบ สิ่ง ที่ เกิด ขึ้น หลัง จาก นั้น, การ จด ทะเบียน และ การ ค้น หา สอน คํา แนะ นํา ของ คุณ.",
+      "forgetConfirmTitle": "ลืมของชอบเหรอ",
+      "forgetConfirmMessage": "คําแนะนําของคุณจะเริ่มต้นจากรอยขีดข่วน บัตร ที่ คุณ ชอบ และ ติด ตาม มา ไม่ เปลี่ยน.",
+      "forgetDone": "เรียบร้อย ข้อเสนอแนะของคุณเริ่มต้นตั้งแต่เริ่มต้น",
+      "forgetUnavailable": "ยัง ไม่ มี ทาง เลือก นี้. ไม่มีอะไรถูกลบ",
+      "forgetError": "ไม่สามารถลบค่าของคุณได้ มันเปลี่ยนแปลงไม่ได้ โปรดลองอีกครั้งในสักครู่"
+    },
+    "goingCard": {
+      "title": "ขณะ ที่ คุณ รอ อยู่ จง เตรียม บัตร “ฉัน จะ ไป ”",
+      "subtitle": "มันจะพร้อมที่จะแบ่งปันทันทีที่มีการยืนยันเงิน",
+      "tintLabel": "พื้นหลัง",
+      "messageLabel": "จดหมาย",
+      "messages": {
+        "going": "ฉัน จะ ไป",
+        "meetThere": "เจอกันที่นั่นนะ",
+        "seeYou": "เจอผมที่นั่น"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "ลายนิ้วมือบัตรของคุณในขณะที่คุณรอ",
+      "ready": "การ์ดของคุณพร้อม",
+      "share": "แชร์นามบัตรของฉัน",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

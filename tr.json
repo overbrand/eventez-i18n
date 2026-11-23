@@ -41,6 +41,7 @@
     "close": "Close Close Close Close",
     "clear": "Clear Clear Clear Clear",
     "back": "Geri dön",
+    "home": "Home Home Home Home Home",
     "next": "Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki",
     "previous": "Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki",
     "search": "Arama Arama",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Kod yanlış veya süresiz",
     "loginError": "Giriş hatası",
     "registerError": "Sign-up hatası",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Hesap zaten var",
     "registerEmailExistsDetail": "Bir hesap zaten bu e-posta ile var. İmzalamak ister misiniz?",
     "registerEmailExistsConfirm": "Sign in in Sign in",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Son isim gereklidir",
     "emailRequired": "E-posta gereklidir",
     "emailInvalid": "Invalid e-posta",
+    "passwordRequired": "Şifre gereklidir",
     "passwordTooShort": "Şifre çok kısa ({{min}} karakterleri minimum)",
+    "confirmPasswordRequired": "Şifre onayı gereklidir",
     "passwordsDontMatch": "Şifreler eşleşmez",
+    "usernameRequired": "Kullanıcı adı gereklidir",
     "usernameTooShort": "Kullanıcı adı çok kısa ({{min}} karakterleri minimum)",
     "usernameInvalid": "Invalid name",
+    "phoneRequired": "Telefon numarası gereklidir",
     "phoneInvalid": "Invalid telefon numarası",
     "minLength": "En azından {{min}} karakterleri",
     "maxLength": "maksimum {{max}} karakterleri"
@@ -449,7 +461,8 @@
     "saved": "Saved Saved",
     "messages": "Mesajlar",
     "tickets": "Bilet Bilet Biletleri Bilet",
-    "profile": "Profil Profili"
+    "profile": "Profil Profili",
+    "organize": "Organize Organize Organize Organize Organize"
   },
   "languagePicker": {
     "eyebrow": "WELCOME",
@@ -492,6 +505,7 @@
     "viewAction": "View View View View",
     "viewEvent": "View event event",
     "share": "Share Share Share",
+    "scrollToTop": "Back to top",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Ücretsiz, hiçbir dize yok",
     "freeBadge": "ÜCRETSİZ ÜCRETSİZ",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Hepiniz setsiniz!",
     "notifyOnBody": "En kısa zamanda ilk olaylar canlı olarak bilmenize izin vereceğiz.",
     "notifyOffTitle": "Bildirimler kapalı",
-    "notifyOffBody": "Ayarlanmak için ayarlardaki enable bildirimler."
+    "notifyOffBody": "Ayarlanmak için ayarlardaki enable bildirimler.",
+    "organizersEyebrow": "Organizörler",
+    "organizersTitle": "Sahnenin arkasındaki insanlar",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Gerçekleştirilmiş organizatör",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Fiyat tiers",
@@ -604,7 +624,10 @@
     "invisibleHint": "Görünmezsiniz - da görülmeye devam edin.",
     "message": "Mesaj",
     "connected": "Connected",
-    "empty": "Henüz kimse görünmez. Ağınızda ilk dönüş yapın!"
+    "empty": "Henüz kimse görünmez. Ağınızda ilk dönüş yapın!",
+    "scanOptInTitle": "Bırakın sergileyiciler kötümi tarayalım",
+    "scanOptInSubtitle": "Exhibiting şirketleri adınızı ve iletişim bilgilerinizi kötügenizi tarayarak kurtarabilecek, böylece olaydan sonra takip edebilecekler.",
+    "scanOptInWithdrawNote": "Bunu herhangi bir zamanda kapatabilirsiniz. Promosyonlar tarafından zaten kurtarılan İletişim otomatik olarak silinmezler - gizlilik ayarlarınızızden dönemlerini talep edebilirsiniz."
   },
   "eventDetails": {
     "eyebrow": "EVENT",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online etkinlik",
     "meetingId": "Toplantı ID:",
     "meetingPasscode": "Passcode:",
+    "liveEngagement": "Live Q&A ve anketler",
     "joinEvent": "Etkinliğe katılın",
     "joinOnline": "Online Üye Olun",
     "registered": "Kayıt",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "WhatsApp'ta Paylaş",
     "closePreviewA11y": "Close önizleme",
     "invalidCode": "Invalid access code",
+    "accessButton": "Enter Enter Enter Enter Enter Enter girin",
+    "pendingPaymentBanner": "Kayıtlarınızı doğrulamak için ödemenizi tamamlayın",
+    "onlineInfoAfterRegistration": "Bağlantı detayları kayıttan sonra kullanılabilir",
+    "alsoOnlineVia": "Ayrıca {{platform}} ile online olarak kullanılabilir",
     "imageEnlarge": "Enlarge",
+    "playCoverVideo": "Play video",
+    "videoPlayA11y": "Ses ile Play video",
+    "videoUnmuteA11y": "Unmute",
+    "videoMuteA11y": "Mute",
+    "videoExpandA11y": "Tam ekran için genişletilmiş video",
     "imagesCount": "0 / {{total}}",
     "videoConference": "Video konferans platformu",
     "openLinkError": "Olay bağlantısını açamaz",
@@ -675,7 +708,28 @@
     "registeredStatus": "Kayıt",
     "pendingStatus": "Pending Pending",
     "priceLabel": "Fiyatı",
-    "fromLabel": "Başlangıç"
+    "fromLabel": "Başlangıç",
+    "waitlistJoinedDetail": "Bekleme listesine katıldınız. Size bir nokta açılırken bildirimde bulunacağız.",
+    "waitlistLeftMsg": "Bekleme listesini bıraktın",
+    "waitlistLeaveError": "Bekleme listesini terk edemez",
+    "waitlistJoinError": "Bekleme listesine katılmak için güvenilmez",
+    "waitlistLeaveTitle": "Bekleme listesini bırak",
+    "waitlistLeaveConfirm": "Bekleme listesini bırakmak istediğinizden emin misiniz?",
+    "whatsappNotInstalled": "WhatsApp bu cihazda yüklü değil",
+    "reviewRatingRange": "Lütfen 1 ile 5 arasında bir puan seçin",
+    "reviewThanksTitle": "Teşekkür ederim!",
+    "reviewSubmitted": "İncelemeniz başarıyla gönderildi",
+    "loginRequiredTitle": "Sign-in gerekli",
+    "loginRequiredReview": "Bir inceleme bırakmak için oturum açın",
+    "reviewSubmitError": "Yorumunuzu sunabilir",
+    "loginRequiredWaitlist": "Wait in to join the waitlist",
+    "invitationGateDesc": "Bu olay davet edilen konuklar için ayrılmıştır. Bir davet aldıysanız lütfen erişim elde etmeyi kabul edin.",
+    "codeGateDesc": "Tüm ayrıntıları görmek için kodu girin",
+    "giftRegistryCta": "Hediye Kayıt Kaydı",
+    "giftRegistrySubtitle": "Listeyi ve çipi görün, sanki böyle hissediyorsanız",
+    "cancelReasonTitle": "İptal sebebi",
+    "visioEnded": "Bu olay video konferansı sona erdi.",
+    "videoPauseA11y": "Pause video"
   },
   "events": {
     "videoBadge": "Video Video Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Geçmiş olayların burada görünecek",
     "scanQR": "Scan QR kodu",
     "showQR": "Göster QR kodu",
+    "viewQR": "View QR",
+    "receivedTransfers": "Kabul edilen transferler",
+    "myTicketsFiltersActive": "Filtreler ({{count}} aktif)",
     "qrTitle": "QR kodunuz",
     "qrSubtitle": "Bu kodu girişte gösterin",
     "ticketDetails": "Bilet detayları",
@@ -930,7 +987,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "QR kodunu görüntülemek için Tap",
-    "searchTitleRefVenue": "Başlık, ref, yer..."
+    "searchTitleRefVenue": "Başlık, ref, yer...",
+    "pendingPayment": "Ödeme bekleme",
+    "pendingExpired": "Olay sona erdi",
+    "statusExpired": "Açıklama"
   },
   "payment": {
     "title": "Ödeme Ödeme",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Geri dön",
     "paymentGenericError": "Ödeme sırasında bir hata meydana geldi",
     "paymentErrorTitle": "Ödeme hatası",
+    "paymentBlockedTitle": "Kart ödeme engelledi bloke",
     "paymentCancelledTitle": "Ödeme iptali iptal edildi",
     "paymentNoPaymentInProgress": "doğrulama için devam eden ödeme yok",
     "paymentVerifyingTitle": "Verating...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Beklemeye devam et",
     "paymentProcessing": "İşleme",
     "paymentTitle": "Ödeme Ödeme",
+    "checkoutStep": "STEP 3 / 3 • ÖDEMİ",
+    "noDoubleCharge": "Sadece bir kez şarj edilecektir, ekran bir süre dönerse bile.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Kabul ediyorum,",
+    "termsLinkFull": "Satış ve geri ödeme politikası",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Seçme Seçme Seçme",
     "paymentStepRecap": "Recap",
     "paymentMethodFallback": "Ödeme Ödeme",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Ödeme Ödeme",
     "myPaymentsFilterCompleted": "Tamamlandı",
     "myPaymentsFilterPending": "Pending Pending",
-    "myPaymentsFilterFailed": "Başarısızlık"
+    "myPaymentsFilterFailed": "Başarısızlık",
+    "finalizeEndedTitle": "Bu olay sona erdi",
+    "finalizeEndedBody": "Artık kayıtlarınızı tamamlayamazsın: olay zaten bitti. Sen suçlanmadın.",
+    "finalizeClosedTitle": "Kayıt kapalı kapalı",
+    "finalizeClosedBody": "Bu olay için kayıt dönemi sona erdi.",
+    "finalizeSoldOutTitle": "Biletler satıldı",
+    "finalizeSoldOutBody": "Ayrılan biletler artık mevcut değildir. Rezervasyonunuz sona erdi. Sen suçlanmadın.",
+    "finalizeBackToEvent": "Back to event",
+    "paymentPushSentTitle": "Telefonunuzda onaylayın",
+    "paymentPushSentMessage": "Bir ödeme isteği telefonunuza gönderildi. Tamamlamak için (Mobile Money PIN) yapın.",
+    "firstTicket": "İlk EventEz biletiniz · {{date}}",
+    "refundAlreadyRequested": "Refund talep istedi"
   },
   "memories": {
     "title": "Anılarım",
@@ -1235,7 +1313,11 @@
     "recapShare": "Share my recap",
     "recapEvents": "olaylar yaşamış olaylar yaşamış",
     "recapCities": "şehirler şehirleri",
-    "recapFirst": "Zamanlar #1"
+    "recapFirst": "Zamanlar #1",
+    "oneYearAgo": "Bir yıl önce oradaydınız.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Bir sürpriz için uzun basın",
+    "firstNote": "Öncelikle gelmek için. Kapılar zar zor açıktı."
   },
   "profile": {
     "title": "Profil Profili",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Sign out",
     "logoutInProgress": "Çıkış...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "QR Kodum"
+    "myQRTitle": "QR Kodum",
+    "refundsMenu": "Geri ödemelerim",
+    "refundsSubtitle": "Paranızın nerede durduğunu takip et",
+    "shareProfileButton": "Profilimi Paylaş",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Benim organizatör profilim",
+    "shareOrganizerA11y": "Benim organizatör profilimi Paylaş",
+    "viewPublicProfileA11y": "Kamu profilimi Görüntüle",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Takip et?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Takip Et",
+    "followedCount_one": "{{formatted}} takip etti",
+    "followedCount_other": "{{formatted}} takip etti",
+    "followSearchEmptyTitle": "Sonuçlar yok",
+    "followSearchEmptyText": "Takip et organizatör maçları “{{query}}”",
+    "followDiscoverCta": "Olayları keşfedin",
+    "followSearchPlaceholder": "Bir organizatör arayın"
   },
   "editProfile": {
     "title": "Edit Profil",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Adres",
     "sectionOrganization": "Organizasyon Organizasyon Organizasyon",
     "sectionSecurity": "Güvenlik Güvenliği",
-    "qrShareSubtitle": "Bu kodu profilinizi paylaşmak için"
+    "qrShareSubtitle": "Bu kodu profilinizi paylaşmak için",
+    "countryPlaceholder": "Bir ülke seçin",
+    "orgLogoLabel": "Logo Logo Logo Logo",
+    "orgLogoAdd": "Bir logo ekle",
+    "orgLogoChange": "Logo Değiştir",
+    "orgWebsiteLabel": "Web Sitesi Web Sitesi Web Sitesi Web Sitesi Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Site Web Sitesi",
+    "orgDescriptionLabel": "Halk açıklaması",
+    "orgDescriptionPlaceholder": "Organizasyonunuzu tanıtmak..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Tema",
     "themeDialogSubtitle": "temanızı seçin",
     "timezoneDialogTitle": "Timezone",
+    "timezoneDetected": "tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit tespit edilen tespit tespit edilen tespit edilen tespit tespit tespit edilen tespit tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit tespit tespit tespit edilen tespit edilen tespit edilen tespit edilen tespit edilen tespit tespit tespit tespit edilen tespit edilen tespit edilen tespit tespit edilen tespit tespit",
     "timezoneDialogSubtitle": "Zaman bölgenizi seçin",
     "preferencesTitle": "Tercihler",
     "headerEyebrow": "^",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Onay ve geri ödeme",
     "rowNewConversations": "Yeni konuşmalar",
     "rowMarketing": "Tavsiyeler ve promosyonlar",
+    "rowSocialEyebrow": "Sosyal Sosyal Sosyal Sosyal",
+    "rowSocial": "Sosyal aktivite",
+    "rowSocialDesc": "Yeni takipçiler, hatırlatmalar, yorum talepleri",
+    "newRegistrationsEyebrow": "Organize organizatör",
+    "newRegistrationsTitle": "Yeni kayıtlar",
+    "newRegistrationsDescription": "Birinin olaylarına kaydolduğunda ne sıklıkta e-postalıyorsunuz",
+    "newRegistrationsFreq": {
+      "realtime": "Gerçek zaman",
+      "hourly": "Saatler",
+      "daily": "Daily Daily",
+      "off": "Off Off Off Off Off"
+    },
+    "quietHoursEyebrow": "rahatsız etmeyin",
+    "quietHoursTitle": "Sessiz saatler",
+    "quietHoursDescription": "Pause non-esential push/SMS bildirimleri bir gecede. Önemli uyarılar hep birlikte gelir.",
+    "quietHoursFrom": "From From From From From From From From From From From From From From From From From From From From From From From From From From From From",
+    "quietHoursTo": "olana kadar",
     "rowSounds": "Anahtar anlarda sesler",
     "rowSoundsSubtitle": "Ödeme onayı veya QR tarama hakkında bir ses",
     "rowTwoFA": "İki faktör doğrulama",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Faturalar",
     "shortcutTaxes": "Vergiler",
     "shortcutMyEvents": "Benim Etkinliklerim",
-    "shortcutHelp": "Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım"
+    "shortcutHelp": "Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım Yardım",
+    "rowMyDataAtExhibitors": "Promosyonlar tarafından tutulan verilerim",
+    "rowLiveBanner": "Canlı olaylar pankart",
+    "rowLiveBannerSubtitle": "Şu anda yaşayan bir etkinliğe katılmak için bir afiş gösterin.",
+    "pushPermissionTitle": "Bildirimler bu cihaz için kapalı",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Bağlantılarım bilmeme izin ver",
+    "rowShareAttendanceSubtitle": "Bağlantılarınız bir etkinliğe katıldığınızı görebilir. Varsayılan olarak; sadece davetli olaylar için asla.",
+    "rowNotifyMemories": "\"Bir yıl önce\" bildirimleri",
+    "rowNotifyMemoriesSubtitle": "Bir haftanın çoğu, katıldığınız bir olayın yıldönümünde.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Yılın özel bir recap, Aralık ayında. Kimse bunu görmüyor.",
+    "madeInDouala": "Douala'da, bakımla.",
+    "madeInDoualaSub": "Olaylarınızı bizimle hayata getirmek için teşekkürler.",
+    "rowUiSounds": "Interface sesler",
+    "rowUiSoundsSubtitle": "Çok ince onaylar ve gelen bildirimleri. Varsayılan olarak kapalı.",
+    "vibrationsEyebrow": "TOUCH",
+    "rowVibrations": "Titreşimler",
+    "rowVibrationsSubtitle": "Anahtar eylemlerde geri bildirim: ödeme, tarama, favoriler.",
+    "rowMotionGestures": "Hareket hareketleri",
+    "rowMotionGesturesSubtitle": "Shake, çevir ya da bazı eylemler için telefonunuzu tut. Bir düğme her zaman mevcuttur.",
+    "notificationsEyebrowOngoing": "Bildirimler",
+    "rowOngoingEvent": "Etkinlik günü Pinned bileti",
+    "rowOngoingEventSubtitle": "Sessiz bir bildirim, olay sırasında, bilet ve yollarınızla 3 h.",
+    "rowNotificationSounds": "Bildirim sesler geliyor",
+    "rowNotificationSoundsSubtitle": "Her kategori için ses alın (büyük anlar, satışlar, mesajlar...) telefonunuzda"
   },
   "messages": {
     "title": "Mesajlar",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Bir temas arayın...",
     "searchEyebrow": "SEARCH",
     "searchHint": "Aramak için Tip",
-    "noOneFound": "Kimse bulunamadı"
+    "noOneFound": "Kimse bulunamadı",
+    "myConnectionsSection": "Benim bağlantılarım",
+    "searchResultsSection": "Sonuçlar Sonuçlar Sonuçlar Sonuçlar",
+    "noConnectionsEyebrow": "NetWORKING",
+    "noConnectionsTitle": "Henüz bağlantı yok",
+    "noConnectionsCta": "QR ile bağlantı",
+    "emptyEyebrowArchived": "ARCHIVED",
+    "emptyEyebrowEmpty": "EMPTY INBOX",
+    "archivedEmptyDesc": "Arşivlenen konuşmalarınız burada yer alacak.",
+    "noConversationsDesc": "Yeni bir mesaj başlatın - konuşacak birini bulacağız.",
+    "attachmentPreview": "[Attachment]",
+    "noMatchingMessage": "eşleşen mesaj yok"
   },
   "notifications": {
     "title": "Bildirimler",
@@ -1724,6 +1887,23 @@
     "typeWinback": "What's new",
     "typePendingModeration": "gözden geçirmek için",
     "typeModerationReminder": "Moderasyon kuyruğu",
+    "typeNewFollower": "New follower",
+    "typeFollowedOrganizerNewEvent": "Yeni olay",
+    "typeFollowRegistered": "Bir bağlantı gidiyor",
+    "typeConnectionsAtEvent": "Bağlantılarınız",
+    "eyebrowNetwork": "NETWORK",
+    "eyebrowSoon": "SOON",
+    "eyebrowReminder": "REMINDER",
+    "eyebrowModeration": "MODERATION",
+    "eyebrowToReview": "TO REVIEW",
+    "eyebrowDiscovery": "DISCOVER",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "\"What'S NEW",
+    "filterReadTab": "Read Oku",
+    "groupToday": "TODAY TODAY",
+    "groupYesterday": "YEMDAY",
+    "tabAll": "Bütün Bütün Hepsi",
+    "tabNetwork": "Ağ Ağı Ağı",
     "typeDefault": "Bildirim Bildirim",
     "filterAllTab": "Bütün Bütün Hepsi",
     "filterUnreadTab": "Unread",
@@ -1739,7 +1919,26 @@
     "statTotal": "TOTAL",
     "statUnread": "UNREAD",
     "statToday": "TODAY TODAY",
-    "viewDetails": "View details"
+    "viewDetails": "View details",
+    "actions": {
+      "showTicket": "Biletimi göster",
+      "directions": "Yol Tarifi",
+      "going": "Ben gidiyorum",
+      "viewTicket": "View ticket",
+      "reply": "BeğenBeğen Cevap",
+      "replyPlaceholder": "Mesajınız...",
+      "replySubmit": "Send Send Send Gönder",
+      "markRead": "Mark as read reading",
+      "joinLive": "Katıl",
+      "payNow": "Pay now",
+      "writeTo": "Onlara Mesaj gönder",
+      "viewEvent": "View event event",
+      "viewTickets": "Biletlerimi görüntüle",
+      "viewRefund": "Fırsatları Görüntüle",
+      "viewProfile": "View profile",
+      "summaryTitle": "Mesajlar",
+      "summaryBody": "Yeni mesajlar"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Planımı Yönetin",
     "exportTitle": "İhracat İhracatı",
     "exportSubtitle": "Verileriniz",
-    "settingsLink": "Ayarlar"
+    "settingsLink": "Ayarlar",
+    "greetingNight": "Güzel bir akşam yemeği var"
   },
   "following": {
     "title": "En sevdiğimler",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Davet reddetti.",
     "declineError": "Daveti reddedebilir.",
     "declineButton": "Decline",
+    "declineConfirmTitle": "Decline davet",
+    "declineConfirmMessage": "Bu daveti azaltmak istediğinizden emin misiniz?",
     "fromLabel": "Çünkü sizden",
     "toLabel": "RECIPIENT",
     "organizerFallback": "Organize organizatör",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Kod başarısız oldu",
     "downloadFailed": "Download başarısız",
     "tryAgain": "Tekrar tekrar deneyin",
-    "contactSupport": "İletişim desteği"
+    "contactSupport": "İletişim desteği",
+    "timeout": "İstek çok uzun sürdü. bağlantınızı kontrol edin ve tekrar deneyin.",
+    "validation": "Bazı detaylar geçersizdir. Değerli alanları düzeltin ve tekrar deneyin.",
+    "fields": {
+      "title": "Başlık:",
+      "subtitle": "Subtitle",
+      "message": "Mesaj",
+      "image": "Image Image Image",
+      "cta_label": "Düğme etiket",
+      "cta_url": "Düğme linki",
+      "link_url": "Link Link Link Link",
+      "target_event": "Hedef olay",
+      "country": "Ülke Ülke Ülke Ülke Ülke",
+      "city": "Şehir Şehri",
+      "radius_km": "Radius",
+      "placement": "Placement",
+      "priority": "Öncelik",
+      "severity": "Şiddetlilık",
+      "audience": "Katılımcı",
+      "platform": "Platform",
+      "valid_from": "Valid from Valid from",
+      "valid_until": "Geçerli olana kadar"
+    },
+    "http": {
+      "badRequest": "İstekinizi yapamıyorduk. Lütfen ayrıntılarınızı kontrol edin ve tekrar deneyin.",
+      "unauthorized": "Oturumunuz sona erdi. Lütfen tekrar imzalayın.",
+      "forbidden": "Bunu yapmak için izniniz yok.",
+      "notFound": "Ne aradığınızı bulamadık.",
+      "conflict": "Bu eylem mevcut devletle çatışmaktadır. Tekrar yenileyin ve deneyin.",
+      "tooManyRequests": "Çok fazla deneme. Lütfen bir anı bekleyin ve tekrar deneyin.",
+      "server": "sunucularımız şu anda sorun yaşıyor. Lütfen birkaç dakika içinde tekrar deneyin.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Bu e-posta zaten bir hesapla bağlantılıdır. Giriş yapın veya başka bir adres kullanın.",
+      "usernameTaken": "Bu kullanıcı zaten alınır, lütfen başka bir tane seçin.",
+      "weakPassword": "En az 8 karakterin bir şifresini harfler ve sayıları karıştırın.",
+      "invalidCredentials": "Yanlış e-posta veya şifre. Tekrar deneyin veya şifrenizi sıfırlayın.",
+      "resetLinkExpired": "Bu sıfır bağlantı sona erdi. Yeni bir tane talep edin.",
+      "otpInvalid": "Bu kod yanlış veya sona ermiştir. Bunu kontrol edin veya yeni bir tane talep edin.",
+      "otpSendFailed": "SMS kodunu gönderemedik. Numaranızı kontrol edin ve tekrar deneyin veya e-postanızla oturum açın.",
+      "paymentMethodUnsupported": "Bu ödeme yöntemi bu olay için mevcut değildir. Lütfen başka birini seçin.",
+      "paymentFailed": "Ödemeniz tamamlanmadı. Sen suçlanmadın. Tekrar deneyin veya başka bir yöntem kullanın.",
+      "paymentNetwork": "Bağlantı ödeme sırasında düştü. İnternetinizi kontrol edin ve tekrar deneyin - iki kez şarj edilmeyeceksiniz.",
+      "paymentTimeout": "Ödemeniz beklenenden daha uzun sürüyor. Tekrar ödemeyin - biletlerinizi birkaç dakika içinde kontrol edin veya hiçbir şey gelmezse iletişim desteği ile iletişime geçin.",
+      "paymentVerifyFailed": "Henüz ödemenizi onaylamadık. Eğer suçlandıysanız, biletleriniz kısa bir süre görünecektir - birkaç dakika içinde tekrar kontrol edin.",
+      "refundFailed": "Para iadesi talebiniz gönderilmedi. Lütfen tekrar deneyin veya temas desteği.",
+      "insufficientBalance": "Bu işlem için yeterli bir denge.",
+      "payoutLocked": "Bu ödeme artık değiştirilemez çünkü işleme çoktan başladı. İletişim desteği eğer bu bir hataysa.",
+      "planLimitReached": "Planınızın limitine ulaştınız. Planınızı devam ettirin.",
+      "countryNotSupported": "Ödemeler henüz bu ülkede mevcut değil. Desteklenen bir ülkedeki olayı yaratabilir veya bizimle iletişime geçebilirsiniz."
+    },
+    "tickets": {
+      "offline": "Şu anda çevrimdışısın. Zaten yüklenen biletler çevrimdışı kalır. Online olarak geri döndüğünüzde tekrar deneyin.",
+      "timeout": "Biletleriniz yüklenecek bir süre alıyor. Hiçbir şey kaybolmaz: güvenle kurtarılırlar. Bir anda tekrar deneyin.",
+      "server": "sunucularımız kısa bir hiccup geçiriyor. Biletleriniz bizim tarafta güvenlidir. Birkaç dakika içinde tekrar deneyin.",
+      "notFound": "Bu bileti bulamazız. Diğer biletleriniz etkilenmez. Listeyi ya da onay e-postanızı kontrol edin.",
+      "forbidden": "Bu bilet başka bir hesaba aittir. Kendi biletleriniz iptal edilir. Satın almak için kullanılan hesapla oturum açın."
+    },
+    "messages": {
+      "offline": "Şu anda çevrimdışısın. Mesajlarınız kaybolmaz: bekleyenler bir kez online olarak geri döndüğünüz. Ağ geri döndüğünde tekrar deneyin.",
+      "timeout": "Messaging yanıt vermek için yavaştır. Mesajlarınız kaybolmaz. Bir anda tekrar deneyin.",
+      "server": "Messaging bizim tarafta kısa bir hiccup geçiriyor. Konuşmalarınız sağlam. Birkaç dakika içinde tekrar deneyin.",
+      "notFound": "Bu konuşma artık yok. Diğer konuşmalarınız etkilenmez. Mesajlarınıza geri dönün.",
+      "forbidden": "Artık bu sohbete erişiminiz yok. Diğer konuşmalarınız hala mevcut. Mesajlarınıza geri dönün."
+    },
+    "event": {
+      "offline": "çevrimdışısınız, bu yüzden bu olayı gösteremeyiz. Biletleriniz çevrimdışı kalıyor. Online olarak geri döndüğünüzde tekrar deneyin.",
+      "timeout": "Bu olay sayfası yüklemek için bir süre alıyor. Senin tarafında hiçbir şey değişmedi. Bir anda tekrar deneyin.",
+      "server": "Kısa bir hiccup bizi bu olayı göstermekten alıkoyuyor. Biletleriniz ve kayıtlarınız etkilenmez. Birkaç dakika içinde tekrar deneyin.",
+      "notFound": "Bu olay artık online değildir: organizatör onu kaldırabilir. \" Biletlerimde kalan herhangi bir bilet.\" Daha fazla olay Discover'te bekliyor.",
+      "forbidden": "Bu olay özeldir. Hesabınız sorun değil. Erişim almak için davet için organizatöre sorun."
+    },
+    "upload": {
+      "offline": "Yükleme başlamadı: çevrimdışısın. Dosyanız hala telefonunuzda. Online olarak geri döndüğünüzde tekrar deneyin.",
+      "timeout": "Yükleme çok uzun sürdü. Dosyanız hala telefonunuzda. Tekrar deneyin, Wi-Fi'de veya daha hafif bir dosya ile.",
+      "server": "Sunucu dosyayı alamazdı. Hala telefonunuzda güvende. Birkaç dakika içinde tekrar deneyin.",
+      "notFound": "Yükleme hedefi artık mevcut değildir. Dosyanız hala telefonunuzda güvenlidir. Ekranı yenileyin ve tekrar deneyin.",
+      "forbidden": "Bu dosyayı burada yüklemenize izin verilmez. Hala telefonunuzda güvende. Doğru hesapla imzaladığınızı kontrol edin.",
+      "tooLarge": "Bu dosya yüklemek için çok büyük. Hala telefonunuzda güvende. Daha hafif bir dosya veya görüntüyü ekleyin."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Tebrikler!",
     "successMessage": "Artık bir organizatörsün. İlk olayınızı yaratın!",
     "errorTitle": "Hata hatası",
-    "errorGeneric": "Bir hata oluştu"
+    "errorGeneric": "Bir hata oluştu",
+    "labelWebsite": "Web Sitesi (isteğenim)",
+    "labelDescription": "Açıklama (isteğen)",
+    "placeholderDescription": "Organizasyonunuzu tanıtmak..."
   },
   "verificationForm": {
     "pdfOpenError": "Belgeyi açabilir.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hybrid Hybrid Hybrid Hybrid",
     "priceAny": "Bütün Bütün Hepsi",
     "priceFree": "Ücretsiz Ücretsiz",
-    "pricePaid": "Ücretli Ücretli Ücretli"
+    "pricePaid": "Ücretli Ücretli Ücretli",
+    "shareSearch": "Share this search",
+    "shareMessage": "Bu olayları EventEz üzerinde kontrol edin"
   },
   "map": {
     "filtersTitle": "Filtreler",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINCE",
     "contactA11y": "İletişim organizatör",
+    "connectA11y": "Connect Connect Connect",
+    "connectedA11y": "Zaten zaten bağlantılı zaten bağlantılı",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Bağlanamaz. Lütfen tekrar deneyin.",
     "bioEyebrow": "BIO",
     "bioTitle": "About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Yayınlanmış olaylar",
     "loadingEvents": "Yükleniyor...",
     "noEvents": "Hiçbir olay yayınlanmadı",
-    "freeBadge": "ÜCRETSİZ ÜCRETSİZ"
+    "freeBadge": "ÜCRETSİZ ÜCRETSİZ",
+    "tabs": {
+      "upcoming": "Upcoming",
+      "past": "Geçmiş"
+    }
   },
   "sessionDetails": {
     "title": "Oturum Oturum",
@@ -3223,7 +3518,12 @@
     "codeLabel": "KOÇ KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO KO",
     "emptyEyebrow": "COM",
     "emptyTitle": "Henüz kod yok",
-    "emptySubtitle": "Öneri kodlarınız, mevcut oldukları sürece burada görünecektir."
+    "emptySubtitle": "Öneri kodlarınız, mevcut oldukları sürece burada görünecektir.",
+    "generateCta": "Genrate my code",
+    "generating": "Gening...",
+    "generateSuccess": "Referral kodu oluşturuldu!",
+    "generateError": "Kod oluşturamaz. Lütfen tekrar deneyin.",
+    "copySuccess": "Referral link kopyalandı"
   },
   "teamManagement": {
     "eyebrow": "TEAM TEAM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "View Analytics",
     "perm_view_registrations": "View Recordss listesi",
     "perm_edit_event": "Olayı analiz et",
-    "perm_manage_team": "Diğer takım üyelerini"
+    "perm_manage_team": "Diğer takım üyelerini",
+    "role_co_organizer": "Co-organizer",
+    "role_moderator": "Moderator",
+    "role_scanner": "Tarayıcı",
+    "role_analyst": "Analist",
+    "status_pending": "Pending Pending",
+    "status_accepted": "Aktif Aktif Aktif Aktif Aktif Aktif Aktif",
+    "status_declined": "Declined",
+    "status_revoked": "Revoked",
+    "status_expired": "Açıklama"
   },
   "myTeamEvents": {
     "eyebrow": "BE",
@@ -3276,8 +3585,10 @@
     "willAttend": "Orada olacağım",
     "wontAttend": "Bunu yapamam",
     "partySize": "Ekstra konuklar sayısı",
+    "partySizeHint": "Size ek olarak. E.g. 2 Eğer 2 kişiyi getiriyorsanız.",
     "dietary": "Diyet gereksinimleri / alerji",
     "note": "Çift için bir kelime",
+    "noteOptional": "Çift için bir kelime (isteğen)",
     "submit": "Cevabımı gönder",
     "thanksAccepted": "Teşekkür ederim! Katılımınız onaylanır.",
     "thanksDeclined": "Bize bilmemize izin vermek için teşekkürler.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Senin adın",
     "giftMethod": "Ödeme yöntemi",
     "giftPay": "Contribute",
-    "giftError": "Ödeme başlamadı."
+    "giftThanks": "Katkınız için teşekkür ederiz!",
+    "giftRedirectNote": "Güvenli bir ödeme sayfasına yönlendirileceksiniz. Bu normal.",
+    "giftError": "Ödeme başlamadı.",
+    "rsvpSubmitError": "Cevabınız gönderilemezdi. Lütfen tekrar deneyin.",
+    "summaryTitle": "Cevabınız Cevabınız",
+    "summaryAccepted": "Katılımınızı doğruladınız.",
+    "summaryDeclined": "Daveti reddettin.",
+    "summaryPartySize": "Konuklar seninle",
+    "summaryHeadcount": "Koltuklar ayrılmış",
+    "summaryDietary": "Diyetin ihtiyacı",
+    "summaryTable": "Masanın",
+    "summaryTablePending": "Masanız olaydan önce paylaşılacaktır."
   },
   "teamInvitation": {
     "eyebrow": "INVITATION",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Sadece tartışma okuyun. Mesajlarınızı kurtar.",
     "mutedLockMessage": "Bu tartışmada organizatör tarafından nefret edildiniz.",
     "postingLockMessage": "Sadece organizatör bu tartışmaya girebilir.",
-    "defaultUserName": "Bu kullanıcı"
+    "defaultUserName": "Bu kullanıcı",
+    "someFilesQueuedForRetry": "Bazı dosyalar bağlantı geri döndükten sonra kızgın olacaktır.",
+    "retrySend": "Retry",
+    "newMessagesBadge_one": "{{count}} yeni mesaj",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Aşağıya dön",
+    "tapToLoadImage": "Yüklemek için Musul",
+    "reply": "BeğenBeğen Cevap",
+    "react": "Reaktör",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Sadece konuşma okuyun.",
+    "headerCollapseA11y": "Gizle",
+    "headerExpandA11y": "Show banner",
+    "headerCollapseLabel": "Hide Hide Gizle",
+    "headerExpandLabel": "Olay detayları"
   },
   "scanForm": {
     "loading": "Yükleniyor...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderator",
     "roleAdmin": "Admin Admin",
     "fallbackEvent": "Event Event Event",
-    "fallbackUnknownUser": "Kullanıcı"
+    "fallbackUnknownUser": "Kullanıcı",
+    "statusUnknown": "Bilinmeyen durum"
   },
   "refundRequest": {
     "watermarkBack": "BACK",
     "watermarkOops": "OOPS",
     "loadError": "Ödeme ayrıntılarını yükleyemez",
     "paymentNotFound": "Ödeme bulunamadı",
+    "blockedNotOwner": "Bu ödeme hesabınızla bağlantılı değildir, bu yüzden bunun için bir geri ödeme talep edemezsiniz.",
+    "blockedNotCompleted": "Sadece onaylanmış ödemeler geri iade edilebilir. Bu ödeme, iade edilebilir bir durumda değildir.",
+    "blockedAlreadyRequested": "Bir geri ödeme talebi zaten bu ödeme için ilerliyor.",
+    "blockedGeneric": "Bu ödeme şu anda bir geri ödeme için uygun değildir.",
     "back": "Geri dön",
     "closeA11y": "Close Close Close Close",
     "eyebrow": "REFUND • REFUND",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Access code (optional)",
       "accessCodeHint": "Ziyaretçiler bu kodu ayrıntıları görmek için girmelidir",
       "accessCodePlaceholder": "Hiçbir kod için boş bırakın",
-      "featuredInfo": "Etkinlikinizi “Benim olaylardan” sonra sunmak isteyebilirsiniz."
+      "accessCodeKeepPlaceholder": "Yeni kod (Mevcut olanı tutmak için boş bırakın)",
+      "accessCodeActive": "Bir erişim kodu aktiftir.",
+      "accessCodeWillBeRemoved": "Kodu kurtardığınızda kaldırılacaktır.",
+      "accessCodeRemove": "Kaldır kod",
+      "accessCodeUndoRemove": "Undo",
+      "featuredInfo": "Etkinlikinizi “Benim olaylardan” sonra sunmak isteyebilirsiniz.",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Tarih ve Yer",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Haritada seçin",
       "mapHint": "Olayı haritada görüntülemek ve navigasyonu sağlamak",
       "virtualLocationTitle": "Sanal konum",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "yerleşik video konferans - oda otomatik olarak yaratılır, gerekli dış bağlantı yoktur.",
       "platformLabel": "Platform Platformu",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Teams",
       "connectionUrlLabel": "Bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı bağlantı link",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Satışlar başlıyor",
       "salesEndLabel": "Satış sonları",
       "visibleLabel": "Visible",
+      "accessModeLabel": "Bu bilet tarafından verilen erişim",
+      "accessInPerson": "Kişi içinde",
+      "accessOnline": "Online Online Online Online",
+      "accessBoth": "Her ikisi de",
       "visibleDesc": "Bu bileti halka açık olarak göster",
       "addAnotherTicket": "Başka bir bilet ekleyin",
       "registrationFormTitle": "Kayıt formu (optional)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Yakın menü",
       "cancel": "Cancel Cancel Cancel Cancel"
+    },
+    "venuePicker": {
+      "label": "Kurtarılmış bir yer kullanın",
+      "hint": "Alanlar otomatik olarak doldurur. Onları daha sonra ayarlayabilirsiniz."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Olay tipi arıza",
       "sourcePaymentMethods": "Ödeme yöntemleri",
       "sourceGeographical": "Coğrafi arıza"
-    }
+    },
+    "widgetDataUnavailable": "Veriler mevcut değildir."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki Önceki",
       "next": "Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki Sonraki",
       "selectDatePlaceholder": "Bir tarih seçin",
-      "selectTimePlaceholder": "Bir zaman seçin"
+      "selectTimePlaceholder": "Bir zaman seçin",
+      "selectPlaceholder": "Seç...",
+      "searchPlaceholder": "Arama..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Biletler başarıyla eklendi",
     "alreadyRegisteredConfirmTitle": "Daha şimdiden kayıtlı kayıtlı kayıtlı zaten kayıtlı kayıtlı kayıtlı kayıtlı",
     "alreadyRegisteredConfirmMessage": "Bu olay için zaten kayıtlısınız.",
-    "createRegistrationError": "Kayıt oluşturmayabilir"
+    "createRegistrationError": "Kayıt oluşturmayabilir",
+    "accessMode": {
+      "in_person": "Kişide sadece",
+      "online": "Online erişim",
+      "hybrid": "Kişi + Online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Sadece bir yer kaldı",
+    "onlyNLeft_other": "Sadece {{count}} yerler kaldı",
+    "ctaSuspended": "Satın almalar durakladı",
+    "suspendedByIncident": "Satın Almalar bir olay nedeniyle geçici olarak duraklanır. Durum sayfasındaki güncellemeler izleyin."
   },
   "registrationDetails": {
     "headerInscription": "Kayıtlarım",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Cancelled",
     "statusInscriptionRejected": "Rejected",
     "statusInscriptionValidated": "Geçerlilik",
-    "statusInscriptionUnknown": "Bilinmeyen Bilinmeyen Bilinmeyen Bilinmeyen Bilinmeyen"
+    "statusInscriptionUnknown": "Bilinmeyen Bilinmeyen Bilinmeyen Bilinmeyen Bilinmeyen",
+    "pdfEyebrow": "ÖĞRETİM SUMMARY",
+    "pdfDate": "Tarih Tarihi",
+    "pdfPlace": "Hotel",
+    "pdfReference": "Referans",
+    "pdfStatus": "Durum durumu",
+    "pdfQrHint": "Bu QR kodunu girişte göster",
+    "pdfShareDialog": "Share summary",
+    "pdfError": "Şu anda PDF oluşturamadı.",
+    "pdfA11y": "İhracat Özeti PDF olarak"
   },
   "qrCode": {
     "headerEyebrow": "TICKET · 0",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR kodu girişte taranacaktır",
     "tipArriveLines": "Çizgileri atlamak için zamanında gel",
     "validatedTitle": "Bilet Onaylandı",
+    "stampValidated": "Checked in",
     "validatedAt": "{{date}} at  at1",
     "paymentPendingTitle": "Ödeme bekleme",
     "paymentPendingDesc": "Ödemenizi onaylamayı onaylayın",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Onaylandı",
     "statusPending": "Pending Pending",
     "statusCancelled": "Cancelled",
-    "statusValidated": "Geçerlilik"
+    "statusValidated": "Geçerlilik",
+    "pdfOnline": "Online olay",
+    "statusUnknown": "Bilinmeyen durum",
+    "presentHint": "Geçerlilik kanıtı için kod, uzun baskı.",
+    "presentA11yAction": "Kontrol için kodu genişletin",
+    "proofA11yAction": "Geçerlilik kanıtı göster",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Bilete geri dön",
+    "presentExitHint": "Geri dönmek için Tap"
   },
   "offlineTickets": {
     "headerTitle": "Offline Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Bu bileti çevrimdışı önbellekten kaldırmak ister misiniz?",
     "showQR": "Göster QR",
     "hideQR": "Hide QR",
-    "pastBadge": "Geçmiş"
+    "pastBadge": "Geçmiş",
+    "download": "Download ticket",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Referans",
+    "pdfType": "Bilet tipi",
+    "pdfQuantity": "Sayı",
+    "pdfDate": "Tarih Tarihi",
+    "pdfShareDialog": "Save / share ticket",
+    "pdfError": "PDF oluşturmayabilir."
   },
   "pendingTransfers": {
     "headerTitle": "Transferler",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Ziyaret Ziyaret Ziyareti",
     "similarEventsEyebrow": "RECOMMENDATIONS",
     "similarEventsTitle": "Benzer olaylar",
-    "similarEventA11y": "View {{title}}"
+    "similarEventA11y": "View {{title}}",
+    "virtualLiveNow": "Canlı şimdi",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Canlıya katılın",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Video çağrısı kullanılamaz",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Canlı henüz başlamadı",
+    "virtualWaitingHostNote": "organizatörün odayı açtığı anda katılabilirsiniz.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Main Room",
+      "session": "Oturum Oturum",
+      "breakout": "Breakout",
+      "networking": "Ağlama Ağı",
+      "workshop": "Workshop Workshop"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Satışlar sona erdi",
+    "ticketsSaleNotStarted": "Yakında satışa çıktı",
+    "peekSave": "Kaydet Kaydet Kaydet",
+    "peekUnsave": "Kurtarın",
+    "peekShare": "Share Share Share",
+    "peekOpen": "Open Open Open Open",
+    "peekA11yHint": "Bir önizleme için tutun",
+    "swipeSave": "Kaydetmek için",
+    "swipeUnsave": "Kaldırmak için",
+    "swipeHint": "Swipe kurtarmak için",
+    "swipeRemoved": "Kurtarın",
+    "swipeUndo": "Undo",
+    "swipeRemove": "Kaldırın",
+    "weather": {
+      "sunny": "Sunny Sunny Sunny Sunny",
+      "partlySunny": "Sunny büyüleri",
+      "cloudy": "Cloudy",
+      "fog": "Fog Fog",
+      "rain": "Rain Rain",
+      "snow": "Snow Snow Snow",
+      "showers": "Duşlar",
+      "thunderstorm": "Thunder fırtınaları",
+      "variable": "değiştirilebilir"
+    }
   },
   "componentsCommon": {
     "exportTitle": "format seçin",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Bu organizatör yeni bir olay yayınlandığında",
     "followPrefsSave": "Kaydet tercihleri",
     "followPrefsSaveA11y": "Kaydet tercihleri",
-    "inAppToastA11y": ".0.. .1.. Açmak için."
+    "inAppToastA11y": ".0.. .1.. Açmak için.",
+    "webviewVisioTitle": "Video arama",
+    "webviewOfflineTitle": "çevrimdışısın",
+    "webviewOfflineBody": "Cihazınız bağlantısını kaybetti. Çağrı, ağ geri döndükçe yakında yeniden başlayacak.",
+    "webviewReconnectingIn": "{{seconds}}s'de yeniden bağlantı kurmak...",
+    "webviewSlowNetwork": "Yavaş bağlantı tespit edildi - video bozulabilir ve verilerinizi kullanabilir."
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Kamera Gerekli Kamera",
     "permissionSubtitle": "Bir QR taramak için, EventEz kameraya erişime ihtiyaç duyar.",
     "permissionGrant": "İzin verme kamera İzin İzin"
+  },
+  "media": {
+    "sheetTitle": "Ne yapmak istersiniz?",
+    "saveToGallery": "galeriye Kaydet",
+    "share": "Share Share Share",
+    "savedToGallery": "Galeriye Kurtarıldı",
+    "permissionDeniedTitle": "İzin reddedildi",
+    "permissionDeniedMessage": "Ayarlarda tasarruf etmek için kullanılabilir fotoğraf erişimi.",
+    "sharingUnavailable": "Paylaşım bu cihazda mevcut değildir.",
+    "downloadFailed": "İndirme başarısız oldu. Lütfen tekrar deneyin.",
+    "genericError": "Bir şey yanlış gitti. Lütfen tekrar deneyin."
   },
   "componentsMessages": {
     "inputJoinFile": "Bir dosyaya bir dosya ekleyin",
@@ -5127,7 +5585,7 @@
     "messages": "MESSAGES",
     "suggestions": "SUGGESTIONS",
     "theme": "THEME",
-    "timezoneSoon": "TIMEZONE · SOON",
+    "timezone": "Saat ZONE",
     "soundEffects": "SOUND EFFECTS",
     "authSoon": "AUTHENTICATION · SOON",
     "connectionsSoon": "· SOON",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 ·DD",
     "tabMessages": "03 · MESSAGES",
     "tabTickets": "04 • TICKETS",
-    "tabProfile": "05"
+    "tabProfile": "05",
+    "push": "Push Push Push",
+    "privacy": "Gizlilik",
+    "memories": "Anılar",
+    "yearInReview": "Yıl"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "{{count}} seçilmiş",
-      "selectedCount_plural": "{{count}} seçilmiş",
+      "selectedCount_other": "{{count}} seçilmiş",
       "approve": "Approve",
       "reject": "Reject",
       "checkIn": "Check-in"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promosyon kodları",
         "linkSessions": "Oturumlar için Link biletleri",
         "addPhotos": "Fotoğraflar ekle",
+        "startLive": "Go live",
         "volunteers": "Gönüllüler",
         "sponsors": "Sponsorlar",
         "seatingPlans": "Oturma planları",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplicate",
         "cancelEvent": "Cancel event",
         "cancelEventDesc": "Kayıt sahipleri",
-        "deleteDesc": "Irreversible action"
+        "deleteDesc": "Irreversible action",
+        "invite": "Invite konuklar",
+        "inviteDescInviteOnly": "Bu davetli etkinliğe erişim sağlamanın tek yolu",
+        "duplicatePastDesc": "Değiştirilebilir bir kopyadan başlayın",
+        "remindInvites": "Remind misafirler",
+        "weddingGuests": "Konuklar ve RSVP",
+        "weddingGifts": "Kayıt ve hediyeler",
+        "weddingTables": "Oturma planı"
       },
       "emptyEyebrowResults": "NO RESULTS",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "E.g. sağlık koşulları, mevcut değil...",
       "keepBtn": "Keep Keep Keep Keep",
       "cancelEventBtn": "Cancel event",
+      "cancelHolding": "Keep...",
       "recurrenceEyebrow": "RECURRENCE",
       "recurrenceModalTitle": "\"{{title}}\"",
       "recurrenceModalBody": "Bu olaydan birden fazla olay oluşturun. Her olay, ayarlayabileceğiniz bağımsız bir yeni olaydır.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Bu olay yaşıyor. Eleştirel alanları değiştirirseniz (başlangıç, tarihler, yer, tip, kapasite), geri dönüş ve geçici olarak geri iade edilir.",
       "editValidatedConfirm": "Edit her neyse",
       "actionEditValidated": "Edit (re-validation possible)",
-      "actionEditValidatedDesc": "Eleştirel alanlar → re-validation"
+      "actionEditValidatedDesc": "Eleştirel alanlar → re-validation",
+      "inviteEyebrow": "INVITATIONS",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "E-postalar komün veya yeni çizgi ile ayrılır",
+      "inviteMessagePlaceholder": "Kişisel mesaj (isteğen)",
+      "inviteSendBtn": "Davetler gönder",
+      "inviteEmptyTitle": "Hiçbir e-posta yok",
+      "inviteEmptyMessage": "En az bir e-posta adresi girin.",
+      "inviteInvalidTitle": "Invalid e-posta",
+      "inviteInvalidMessage": "Lütfen bu adresleri kontrol edin: {{emails}}",
+      "inviteSentTitle": "Davetler gönderildi",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Davet göndermeyebilir.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Şu anda hatırlatmak için misafir yok.",
+      "remindErrorTitle": "Hatırlanamadı",
+      "remindErrorMessage": "Uyarılar gönderilemezdi. Lütfen tekrar deneyin.",
+      "remindPendingProgress": "hatırlatmalar gönderin...",
+      "loadError": "Olaylarınızı yükleyemezdi. bağlantınızı kontrol edin."
     },
     "volunteer": {
       "tabReceived": "Alıcı (0)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Invalid kodu: UUID veya referans kodu (8-20 karakter A-Z/0-9).",
       "sessionRecapTitle": "Oturum Özeti",
       "sessionRecapBody": "in0 min tarama(s) in  in1 min min\n✓ 2 validate doğrulandı\n{{failed}} başarısız oldu",
-      "sessionRecapQueue": "0 queue çevrimdışı"
+      "sessionRecapQueue": "0 queue çevrimdışı",
+      "manualModeBanner": "Manual modu - 1 kişi başına dokun",
+      "manualModeA11y": "Kılavuz modu. Otomatik check-in geri dönmek için Tap.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} bileti zaten kontrol etti (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} biletleri zaten kontrol etti (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} bileti bulunamadı veya geçersiz",
+      "rejectedNotFound_other": "• {{count}} biletleri bulunamadı veya geçersiz",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Bu insanlar ağ aşağıyken girdiler. Ekibinizle kontrol edin.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} bileti zaten başka bir yerde tarandı (iki giriş)",
+      "conflictDuplicate_other": "• {{count}} biletleri zaten başka bir yerde tarandı (iki giriş)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Bu telefon tarafından çevrimdışı kabul edildi, senkronizasyonda reddedildi. Başka bir ajan aynı anda taransaydı, bu insanlar iki kez geldi.",
+      "voice": {
+        "valid": "Geçerli bilet",
+        "validWarning": "Geçerlilik, kontrol etme ihtiyacı",
+        "alreadyCheckedIn": "Zaten zaten kontrol etti",
+        "refused": "Bilet reddedildi",
+        "enabled": "Ses duyuruları",
+        "toggleOn": "Ses duyuruları",
+        "toggleOff": "Ses duyuruları",
+        "toggleA11y": "Tarama sonucu ses duyurularını veya kapat"
+      }
     },
     "liveOps": {
       "live": "LIVE",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "IMPACT",
       "headerTitle": "Analytics Analytics Analytics",
+      "errorTitle": "Analytics mevcut değildi",
+      "errorBody": "Verileri yükleyemez. bağlantınızı kontrol edin ve tekrar deneyin.",
       "eventLabel": "EVENT",
       "kpiViews": "Görüntüleme Görüntüleme",
       "kpiRegistrations": "Kayıtlar",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Etkinliğiniz {{count}} defa görülüyor",
       "insightViewsNone": "Daha fazla görüş almak için etkinliğini Paylaş",
       "insightRegistered_one": "{{count}} kayıtlı kişi kayıtlı",
-      "insightRegistered_other": "0 insanlar kayıtlı"
+      "insightRegistered_other": "0 insanlar kayıtlı",
+      "actionBoxOffice": "Box Office"
     },
     "sessionsLink": {
       "headerEyebrow": "ACCESS • SESSIONS",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsorlar bir ortaklık eklendiğinde burada görünecektir."
     },
     "eventCreate": {
+      "aiAppliedMessage": "AI önerileri forma uygulandı",
+      "aiTitleSuggestionsTitle": "Başlık önerileri",
+      "aiPricingSuggestionsTitle": "AI fiyatlandırma önerileri önerileri",
+      "aiTicketsCreated": "AI önerilerinden yaratılan biletler",
+      "aiDescGenerated": "AI tarafından yaratılan",
+      "aiNeedTitleFirst": "İlk önce bir başlık ekleyin, böylece AI bir açıklama üretebilir.",
+      "galleryPermissionTitle": "İzin gerekli",
+      "galleryPermissionMessage": "Lütfen fotoğraf kütüphanenize erişime izin verin",
+      "videoTooLargeTitle": "Video çok büyük büyük büyük",
+      "videoTooLargeMessage": "Video 20 MB altında olmalıdır.",
       "unsupportedCountryTitle": "Ülke mevcut değil",
       "unsupportedCountryMessage": "EventEz henüz bu ülkede ödeme yapamaz (0).). Etkinlik yaratımı reddedilecektir. Desteklenen ülkeler: NotchPay, CinetPay ve Stripe (46 ülke).",
       "draftFoundTitle": "Tasarı bulundu",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Olay başarıyla gönderildi",
       "viewMyEvents": "olaylarımı görüyorum",
       "createAnother": "Başka bir şey oluşturun",
+      "submittedStamp": "In review",
+      "submittedEyebrow": "İnceleme için",
+      "submittedBody": "Ekibimiz etkinliğini gözden geçiriyor. Yaşadığı sürece bilgilendirilecektir.",
+      "submittedCtaEyebrow": "Dashboard",
       "edit": "Edit",
       "saved": "Saved Saved",
       "back": "Geri dön",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Bilet \" the0 the\" sipariş başına maksimum ≥",
         "fieldLabelRequired": "Alan #{{n}} etiketi gereklidir",
         "fieldOptionsRequired": "Seçenekler “{{label}}” alanı için gereklidir."
-      }
+      },
+      "loadFailedBlocksSave": "Olay verileri yüklenmedi. Tasarruf etmeden önce sayfayı yeniden yükleyin, aksi takdirde mevcut bilgileriniz yazılacaktır."
     },
     "eventRegistrations": {
       "title": "Kayıtlar",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF ihracat, panolar",
       "linkMyEventsTitle": "Benim olaylarım",
       "linkMyEventsSub": "Olaya dair ipuçları"
+    },
+    "boxOffice": {
+      "openTitle": "Aç olana kadar",
+      "openingFloatHelp": "organizatör size başlamak için ne kadar değişiklik yaptı? Bu arada, bu sayı yanlış olacaktır.",
+      "openDrawer": "Aç olana kadar",
+      "openError": "olana kadar açılmadı",
+      "openErrorDetail": "bağlantınızı kontrol edin ve tekrar deneyin.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Close Close Close Close Close",
+      "cash": "Nakit Nakit Nakit",
+      "momo": "Mobile Money",
+      "giveBack": "GIVE BACK",
+      "saleError": "Satış kaydedildi",
+      "saleErrorDetail": "Satışı yeniden başlatma: Tekrar deneyin, iki kez ücret alınmayacaktır.",
+      "a11y": {
+        "drawerOpened": "açılana kadar",
+        "openingFloatInput": "Açılış yüz miktarı",
+        "openDrawer": "Aç olana kadar",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Yakın olana kadar",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} eklendi",
+        "remove": "Remove {{name}}",
+        "given": "Müşteri {{amount}} {{currency}} verir",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Mobile Money",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} satış (s) bekliyor · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "Zülcelal",
+      "cashOnlyHint": "Sadece nakit - Mobile Money çantanızda değil.",
+      "openingFloat": "Açılış yüz yüze",
+      "salesCount": "Satış Satış Satış Satış Satış Satış",
+      "countedLabel": "I count I count",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Bu engellemez. Sadece aşağıda neden açıklayın.",
+      "reasonLabel": "Açıklama (optional)",
+      "reasonPlaceholder": "E.g. 500 çok fazla değişiklik yaptım",
+      "confirmClose": "Yakın zamana kadar",
+      "closedTitle": "Kapalı olana kadar",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Kapanış başarısız oldu",
+      "closeErrorDetail": "Lütfen kısa bir süre sonra tekrar deneyin.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Konted miktar",
+        "reasonInput": "Variance Açıklama",
+        "confirmClose": "Tartışmayı Onaylayın",
+        "closed": "Kapalı olana kadar"
+      }
+    },
+    "documents": {
+      "title": "Belgeler yazdırmak için",
+      "a11y": "Yazdırılabilir belgeler",
+      "badges": "Giree badges",
+      "badgesHint": "A6 format, 4 per A4 page",
+      "attendanceSheet": "Sign-in page",
+      "attendanceSheetHint": "Ön masada imzalamak - olaydan önce hazır",
+      "certificates": "Sertifikalar",
+      "certificatesHint": "Olaydan sonra, kontrol edilen katılımcılar için"
+    },
+    "weddingGuests": {
+      "title": "Konuklar ve RSVP",
+      "empty": "Henüz konuklar yok.",
+      "remindOne": "Remind",
+      "remindOneSent": "Hatırlayın",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Hatırlayamadı",
+      "remindPending": "Remind {{count}} bekliyor",
+      "editRsvp": "Edit RSVP",
+      "editRsvpTitle": "Edit RSVP",
+      "rsvpUpdated": "RSVP güncellendi",
+      "rsvpError": "RSVP kurtarmayabilir",
+      "partySize": "Parti büyüklüğü",
+      "dietary": "Diyet gereksinimleri",
+      "dietaryPlaceholder": "Vejetaryen, glutensiz...",
+      "note": "Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not Not NotNote",
+      "stats": {
+        "invited": "Invited",
+        "accepted": "Onaylandı",
+        "pending": "Pending Pending",
+        "headcount": "Headcount"
+      },
+      "status": {
+        "pending": "Pending Pending",
+        "accepted": "Onaylandı",
+        "declined": "Declined",
+        "cancelled": "Cancelled"
+      }
+    },
+    "weddingGifts": {
+      "title": "Kayıt ve hediyeler",
+      "noRegistry": "Bu olay için hediye kayıt yok.",
+      "create": "Kayıt Kayıt Kayıt Kayıt Oluşturun",
+      "registryCreated": "Kayıt Oluşturan Kayıt",
+      "registryUpdated": "Kayıt Kayıtlı Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt Kayıt",
+      "editRegistry": "Kayıt Defteri",
+      "registryTitle": "Kayıt Defteri",
+      "registryDescription": "Konuklara Mesaj",
+      "visible": "Kayıt",
+      "hidden": "Gizli Gizli Gizli",
+      "totalRaised": "Toplam yükseltilmiş",
+      "share": "Share Share Share",
+      "addItem": "Bir hediye ekleyin",
+      "newItem": "Yeni hediye",
+      "editItem": "Edit hediye",
+      "itemName": "Name Name Name Name Name Name Name Name Name Name Name",
+      "itemKind": "Tipi Tipi Tipi Tipi",
+      "targetAmount": "Hedef miktarı",
+      "externalUrl": "Dış bağlantı (isteğenim)",
+      "itemAdded": "Hediye ekledi",
+      "itemUpdated": "Hediye güncellendi",
+      "itemDeleted": "Hediye silindi",
+      "deleteItemTitle": "Bu hediyeyi",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Özellikler",
+      "noItems": "Henüz hediye yok. Bir tane ekleyin.",
+      "kind": {
+        "gift": "Hediye (item)",
+        "cash_fund": "nakit fonu"
+      },
+      "error": "Bir şey yanlış gitti yanlış bir şey gitti"
+    },
+    "weddingTables": {
+      "title": "Oturma planı",
+      "noTables": "Henüz masa yok. Bir tane oluşturun.",
+      "addTable": "Bir masa ekleyin",
+      "newTable": "Yeni masa",
+      "editTable": "Edit masası",
+      "name": "Masa adı",
+      "namePlaceholder": "Masa 1, Family...",
+      "capacity": "Koltuklar",
+      "created": "Masa oluşturuldu",
+      "updated": "Masa güncellendi",
+      "deleted": "Masa silindi",
+      "deleteTitle": "Delete masası",
+      "deleteMessage": "Delete \"{{name}}\"? Konuklar atanmayacak.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Full Full Full Full Full Full Full Full Full Full",
+      "tableEmpty": "Bu masada kimse yok",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Tüm onaylanmış konuklar oturuyor.",
+      "createFirst": "Konuklarınızı ilk önce masa oluşturun.",
+      "assignGuest": "Koltuk {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Konuk",
+      "unassign": "Kaldırın",
+      "unassigned": "Konuk kaldırıldı",
+      "capacityError": "Bu masada yeterli koltuklar değil.",
+      "error": "Bir şey yanlış gitti yanlış bir şey gitti"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Etkinlikler Etkinlikler Etkinlikler",
       "kpiRevenue": "Gelir Gelir Gelir",
       "kpiVerifications": "Doğrulamalar",
+      "activityChartTitle": "Platform aktivitesi",
+      "activityChartSubtitle": "Son 7 gün içinde denetim eylemleri",
       "quickActions": "QUICK ACTIONS",
       "recentActivity": "ACTIVITY",
       "noActivity": "Son etkinlik yok",
       "viewAllAudit": "Tüm denetim günlüklerini görüntüle",
       "actions": {
         "users": "Kullanıcılar Kullanıcılar",
+        "verifications": "Doğrulamalar",
         "subscriptions": "Abonelik Aboneliği",
         "audit": "Denetim Denetim Denetimi",
         "announcements": "Duyurular Duyurular Duyurular",
@@ -6369,6 +7066,30 @@
         "settings": "Ayarlar",
         "treasury": "Hazine Hazine"
       }
+    },
+    "verifications": {
+      "watermark": "K",
+      "guardTitle": "Sınırlı erişim",
+      "eyebrow": "Moderasyon",
+      "title": "Doğrulama istekleri",
+      "typeOrg": "Organizasyon Organizasyon Organizasyon",
+      "typeIndividual": "Bireysel Bireysel",
+      "noDocuments": "Hiçbir belge bulunamadı",
+      "approve": "Approve",
+      "reject": "Reject",
+      "approveTitle": "Approve doğrulama",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Bu doğrulamayı onaylamayı onaylayın",
+      "approveSuccess": "organizatör doğrulandı",
+      "rejectTitle": "Reject request",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "reddedilme sebebi...",
+      "rejectReasonRequired": "Bir sebep gereklidir.",
+      "rejectSuccess": "İstek reddedildi",
+      "actionError": "Eylem başarısız oldu. Lütfen tekrar deneyin.",
+      "loadError": "doğrulama taleplerini yükleyemez.",
+      "emptyTitle": "Beklenmeyen talepler",
+      "emptySubtitle": "Yeni organizatör doğrulama talepleri burada görünecektir."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Kullanıcıyı yüklemek için kullanılamaz",
       "roleSection": "ROLE ROLE",
       "actionsSection": "ACTIONS",
+      "profileSection": "UPLE",
+      "fieldFirstName": "İlk adı",
+      "fieldLastName": "Son adı",
+      "fieldEmail": "E-posta e-posta e-posta",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Şirket Şirketi",
+      "saveProfile": "Kaydet profili",
+      "profileUpdated": "Profil güncellendi",
+      "profileUpdateError": "Profili güncelleyemezdi.",
+      "emailRequired": "E-posta gereklidir.",
       "infoSection": "BİLGİ BİLGİ BİLGİ",
       "active": "Aktif Aktif Aktif Aktif Aktif Aktif Aktif",
       "inactive": "Inaktif",
@@ -6670,6 +7401,21 @@
       "title": "Denetim logları",
       "target": "Hedef Hedef Hedef Hedef Hedef",
       "user": "Kullanıcı #{{id}}",
+      "detail": {
+        "guardTitle": "Log detay",
+        "eyebrow": "Denetimi",
+        "title": "Log detay",
+        "action": "Eylem",
+        "target": "Hedef Hedef Hedef Hedef Hedef",
+        "user": "Kullanıcı Kullanıcı",
+        "system": "Sistem Sistemi",
+        "timestamp": "Times",
+        "ip": "IP adresi",
+        "userAgent": "Cihaz / tarayıcı",
+        "changes": "Değişiklikler Değişiklikler Değişiklikler",
+        "metadata": "Detaylar",
+        "loadError": "Bu günü yükleyemezdi."
+      },
       "stats": {
         "total": "Toplam Toplam Toplam Toplam Toplam Toplam Toplam"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Guest's email",
     "delegateError": "Davet göndermeyebilir.",
     "toCompleteBadge": "0 to tamamlamak için"
+  },
+  "shareCard": {
+    "eyebrow": "Ben",
+    "button": "Hikayeye Paylaş",
+    "dialogTitle": "Share my spot",
+    "cta": "Yerinizi Kitabı →",
+    "errorTitle": "Share Share Share",
+    "errorMessage": "Şu anda kartı üretemezdi."
+  },
+  "badges": {
+    "verified": "Onaylandı",
+    "pioneer": "Öncü öncü öncü öncü",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Kurucu üye: fırlatmadan önce EventEz test etti"
+  },
+  "exhibitApply": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Bir stand için uygulayın",
+    "lead": "Şirketinizin bu şovda bir stand çalıştırmasını sağlayın. organizatör isteğinizi gözden geçirecek.",
+    "companyLabel": "Şirket adı",
+    "companyPlaceholder": "e.g. Acme Ltd",
+    "categoryLabel": "Endüstri / kategori",
+    "categoryPlaceholder": "e.g. Tech, Food...",
+    "websiteLabel": "Web Sitesi (isteğenim)",
+    "pitchLabel": "organizatöre Mesaj (isteğenim)",
+    "pitchPlaceholder": "İşinizi açıklayın, neyi gösterecektir...",
+    "boothLabel": "Tercih edilen stand (optional)",
+    "submit": "Uygulamamı gönderin",
+    "submitting": "Gönder...",
+    "successTitle": "Başvuru gönderildi!",
+    "successSubtitle": "organizatör bunu inceleyecek. Kararlarından haberdar olacaksınız.",
+    "goToMyBooth": "View My Waterfront",
+    "alreadyApplied": "Bu gösteriye zaten başvurdunuz.",
+    "loginRequired": "Bir stand için başvurmak için oturum açın.",
+    "login": "Sign in Sign in",
+    "errorSubmit": "Uygulamayı göndermeyebilir.",
+    "ctaTitle": "Bu gösteride bir standı çalıştırın mı?",
+    "ctaSubtitle": "saniyeler içinde uygulayın.",
+    "ctaButton": "Bir katılımcı ol"
+  },
+  "myBoothMobile": {
+    "eyebrow": "EXHIBITOR",
+    "title": "My Stand",
+    "empty": "Hiçbir kabin rezervasyonu yok.",
+    "show": "Show Show Show Show Show",
+    "accepted": "Şartlar kabul edildi.",
+    "acceptError": "Kabul edilemez.",
+    "salesTitle": "Delegated sales",
+    "commission": "EventEz komisyon",
+    "hostShare": "Organize Paylaş",
+    "net": "Ne tutuyorsun",
+    "createEvent": "Etkinliğimi oluşturun",
+    "acceptCta": "Bu terimleri kabul ediyorum",
+    "statusPaid": "Ücretli Ücretli Ücretli",
+    "statusPartial": "Deposit ücretli ücretli",
+    "statusPending": "ödemek için",
+    "amountDue": "Booth miktarı",
+    "amountRemaining": "Geri ödeme için",
+    "payBooth": "Standım için ödeme",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kart Kartı",
+    "paymentInitiated": "Ödeme başladı. Telefonunuzda onaylayın.",
+    "payError": "Kabin ödemesini başlatamaz.",
+    "captureLeads": "Yakalanan kişiler",
+    "viewLeads": "Benim bağlantılarım"
+  },
+  "leadCapture": {
+    "title": "Bir iletişim kurmak",
+    "hint": "Ziyaretçilerin kötüge üzerindeki QR koduna işaret edin.",
+    "permissionTitle": "İzin kamera girişi İzin",
+    "permissionBody": "Kamera sadece temasa geçen ziyaretçilerin kötü kodunu okumak için kullanılır.",
+    "permissionCta": "Kameraya dön",
+    "manualEntry": "Bunun yerine referans türü",
+    "manualPlaceholder": "Giriş referansı",
+    "unnamed": "İletişim kurtardı",
+    "alreadyKnown": "Zaten tanıştı - kayıt güncellendi.",
+    "qualify": "Qualify this contact",
+    "rating_hot": "Sıcak Sıcak Sıcak Sıcak",
+    "rating_warm": "Sıcak",
+    "rating_cold": "Soğuk Soğuk Soğuk",
+    "notesPlaceholder": "Konuştuğunuz şey (isteğenim)",
+    "next": "Sonraki temas",
+    "retry": "Tekrar tekrar çek",
+    "noConsentTitle": "Bu ziyaretçi kabul etmedi",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "İşaretler tanınmadı",
+    "notFoundBody": "Bu kötüge bu etkinliğe ait değildir. QR kodu altında yayınlanan referansı kontrol edin.",
+    "errorTitle": "Scan başarısız oldu",
+    "a11yCaptured": "İletişim kurtardı: {{name}}",
+    "a11yNoConsent": "Bu ziyaretçi temasa geçmeyi kabul etmedi.",
+    "a11yNotFound": "İşaretler tanınmadı.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Bugün Bugün Bugün Bugün Bugün Bugün Bugün Bugün Bugün",
+    "yesterday": "Dün Dün Dün Dün Dün Dün",
+    "justNow": "Sadece şimdi",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Sending",
+    "failed": "göndermek için başarısız oldu",
+    "sent": "Sent",
+    "delivered": "Teslimat teslim edildi",
+    "read": "Read Oku"
+  },
+  "myLeads": {
+    "title": "Benim bağlantılarım",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Unnamed contact",
+    "emptyTitle": "Henüz temas yok",
+    "emptyBody": "Standınız tarafından durduran ziyaretçilerin rozetini tarayın. Daha sonra tam listeyi CSV olarak ihraç edebilirsiniz.",
+    "errorTitle": "Cann'tload",
+    "errorBody": "İletişimleriniz güvenle kaydedilir. bağlantınızı kontrol edin ve tekrar deneyin."
+  },
+  "myDataExhibitors": {
+    "title": "Promosyonlar tarafından tutulan verilerim",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Erase",
+    "eraseAll": "Tüm zamanların",
+    "eraseOneA11y": "{{company}} tarafından tutulan verilerim",
+    "erased": "İletişim ayrıntılarınız silindi.",
+    "eraseError": "Çağlanma geçemedi.",
+    "confirmCta": "Erase",
+    "confirmOneTitle": "{{company}} tarafından tutulan verilerimi mi?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Her sergici tarafından tutulan verilerimi mi?",
+    "confirmAllBody": "Adınız, e-posta ve telefon numaranız her listedeki şirkette silinecektir. Bu geri alınmaz.",
+    "emptyTitle": "Hiçbir şirket iletişim bilgilerinizi tutar",
+    "emptyBody": "Exhibitors sadece kötügenizi tarayarak ayrıntılarınızı kurtarabilir ve sadece bu olay için izin verirseniz."
+  },
+  "visio": {
+    "expandCall": "Geniş video çağrısı",
+    "endCall": "End call",
+    "endCallConfirmTitle": "Çağrıyı bırakın?",
+    "endCallConfirmMessage": "Devam eden toplantıdan ayrılmak üzeresiniz.",
+    "minimize": "Miniksiyon",
+    "liveNow": "LIVE",
+    "join": "Katıl",
+    "view": "View View View View",
+    "liveBannerA11y": "{{title}} yaşıyor, katılmak için tıklayın",
+    "seeAll": "View View View View",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Resize"
+  },
+  "organize": {
+    "favorites": "En sevdiğimler",
+    "eyebrow": "Organize uzay",
+    "title": "Organize Organize Organize Organize Organize",
+    "liveNow": "Canlı şimdi",
+    "nextEvent": "Sonraki olay",
+    "registered": "kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı kayıtlı",
+    "scan": "Scan",
+    "scanA11y": "Bu olay için tarama biletleri",
+    "boxOffice": "Box Office",
+    "boxOfficeA11y": "Bu olay için kutu bürosu açın",
+    "viewStats": "View statss",
+    "availableBalance": "Mevcut denge dengesi",
+    "walletA11y": "Cüzdanımı aç",
+    "noActiveEvent": "Hiçbir olay koşma",
+    "noActiveEventHint": "Bir olay oluşturun veya burada görmek için bir taslak yayınlayın.",
+    "noStaffEventHint": "Ekibin bir parçası olduğunuz olaylar burada ortaya çıkacak.",
+    "createEvent": "Bir olay oluşturun",
+    "myEvents": "Benim olaylarım",
+    "teamEvents": "Etkinlikler I personel",
+    "analytics": "Analytics Analytics Analytics",
+    "loadError": "Uzayınızı yükleyemezdi. bağlantınızı kontrol edin."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Sen içindesin",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Bir hafta içinde",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Bugün · {{time}}",
+    "tonightShort": "Bu gece · {{time}}",
+    "doors": "Kapılar açık",
+    "onNow": "Şimdi",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Bilet mevcut çevrimdışı",
+    "offlinePending": "Bir kez çevrimdışı tutmak için bilet açın",
+    "sayImGoing": "Söyleyeceğim",
+    "showTicket": "Biletimi göster",
+    "directions": "Yol Tarifi",
+    "viewTicket": "View ticket",
+    "goThere": "Go Go Go Go",
+    "quickAction": "Biletim · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "compass'ı Kalibrate: 8 numarayı telefonunuzdan çizin",
+    "compassHint": "Konuma ok izleyin"
+  },
+  "onSite": {
+    "eyebrow": "Sitedesiniz",
+    "now": "Şimdi Şimdi Şimdi",
+    "next": "Sonraki · {{time}}",
+    "qa": "Live Q&A",
+    "plan": "Map & space",
+    "networking": "Ağlama Ağı"
+  },
+  "ambience": {
+    "program": "Program · {{count}} seansları"
+  },
+  "attended": {
+    "title": "Sen oradasın",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "İlk olarak gelmek için",
+    "question": "Ne düşünüyorsun?",
+    "thanks": "Puanınız için teşekkürler.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Hikayeye Paylaş",
+    "later": "Daha sonra daha sonra"
+  },
+  "yearInReview": {
+    "eyebrow": "Sizin yılınız",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "{{year}}",
+    "s1Line_one": "Olaya katıldı",
+    "s1Line_other": "Olaylara katılan olaylar katıldı",
+    "citiesEyebrow": "Yolda",
+    "categoryEyebrow": "Senin tür olay",
+    "season": "Ayınız: {{month}}",
+    "firstEyebrow": "Her şey ile başladı",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Her zaman zamanında",
+    "arrivalsLine_one": "Zaman önce gelmek için",
+    "arrivalsLine_other": "İlk kez gelmek için",
+    "organizerEyebrow": "organizatörünüz",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favori: {{title}}",
+    "share": "kartımı paylaşın",
+    "tapHint": "Tap devam etmeye devam etmek için"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "İlk katılımcı",
+      "someone": "Birisi birisi",
+      "share": "satışları artırmak için Paylaş",
+      "view": "View View View View",
+      "soldOutTitle": "Sold out",
+      "soldOutLine": "Her bilet gitti"
+    },
+    "chip": {
+      "count": "{{count}} kayıtlı"
+    },
+    "stamp": {
+      "soldOut": "SOLD OUT",
+      "online": "LIVE"
+    },
+    "share": {
+      "cta": "Olayı paylaşın",
+      "done": "{{app}} ile ortak",
+      "doneGeneric": "Paylaşılan Paylaşım Paylaşım",
+      "message": "{{title}} - Burada kitap: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "Dün {{time}}"
+    },
+    "payout": {
+      "requested": "İstekli",
+      "approved": "Onaylanmış Onaylanmış Onaylanmış Onay Onay Onaylandı",
+      "sent": "Sent",
+      "verifying": "Operatörle kontrol etmek",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Payout başarısız oldu"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} giriş / 15 dakika",
+      "nearlyFull": "Neredeyse tam tam dolu",
+      "newCount": "+{{count}} yeni"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Geçişin Sonu",
+      "validated": "Checked in",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Refüzyon",
+      "syncing": "Sening...",
+      "synced": "Sen",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "View live ops",
+      "resume": "Resume",
+      "close": "Sonunda bitirin"
+    },
+    "recap": {
+      "title": "Recap",
+      "eyebrow": "EVENT RECAP",
+      "attended": "Girdi",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% katılımı",
+      "revenue": "Gelir Gelir Gelir",
+      "rating": "Ortalama Puan",
+      "reviews": "{{count}} yorumları",
+      "noReviews": "Henüz yorum yok",
+      "best": "Standout review",
+      "latest": "Son yorumlar",
+      "thank": "Teşekkürler katılımcı",
+      "funds": "Fırsatları Görüntüle",
+      "error": "Recap şu anda mevcut değildi.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "View recap"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} kişi bu etkinliğe bakıyor",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Sadece şimdi Booked",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Son saat içinde kitaplandı",
+    "lastSaleToday": "Bugün Booked",
+    "onSite": "{{count}} insanlar zaten burada",
+    "onSiteAtLeast": "{{count}}+ insanlar zaten burada",
+    "soldOut": "Sold out",
+    "soldOutCta": "· Hiçbir koltuk bırakılmadı",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Kim olacak bağlantıların",
+    "someone": "Birisi birisi",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} kayıtlı kişi",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online Online Online Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} saat",
+    "durHours_other": "{{count}} saat",
+    "durDay": "24",
+    "seatHeldTitle": "Bir koltuk sizin için tutulur",
+    "seatHeldBody": "Hesap bitmeden önce kitap: bundan sonra bir sonraki kişiye gider.",
+    "seatHeldCta": "Benim koltuğum",
+    "seatHeldExpired": "Zaman yukarı: koltuk bir sonraki kişiye gitti.",
+    "seatHeldA11y": "Zaman kitaba ayrıldı: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} etkinliği canlı",
+    "cityLive_other": "{{count}} olaylar canlı",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} etrafınızda yaşıyor",
+    "liveAround_other": "{{count}} etrafınızda yaşıyor",
+    "liveAroundAll": "Hepsini göster",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reaksiyonlar",
+    "connectionArrived": "{{name}} geldi",
+    "connectionArrivedFallback": "Bağlantılarınızdan biri geldi",
+    "connectionArrivedCta": "Onlara Mesaj gönder",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Canlı satış",
+    "checkinPushed": "Canlı varış"
+  },
+  "reminders": {
+    "channelName": "Olay hatırlatmaları",
+    "dayBeforeTitle": "Hatırlatma: yarın",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Hatırlatıcı: 1 saat içinde",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Discover Discover Discover Discover Discover Discover",
+    "discoverSubtitle": "Size yakın Etkinlikler",
+    "tickets": "Biletlerim",
+    "scan": "Bir bilet"
+  },
+  "ongoing": {
+    "channelName": "Olay günü",
+    "eventFallback": "Etkinliğiniz",
+    "beforeBodyAt": "Yakında başlayın · {{place}}",
+    "beforeBody": "Yakında başlayın",
+    "duringSession": "Şimdi: {{session}}",
+    "duringBody": "Şu anda · biletiniz hazır",
+    "scannerTitle": "Tarayıcıda"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Son eylem mi?",
+      "confirm": "Undo",
+      "keep": "Keep Keep Keep Keep",
+      "failed": "Undo geçmedi. bağlantınızı kontrol edin ve tekrar deneyin.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Konuşmayı arşivden çıkarın."
+    },
+    "report": {
+      "title": "Rapor a problem",
+      "subtitle": "Test inşa: Ekran görüntüsü, ekran ve sürüm mesajınızla gönderilir.",
+      "noNote": "Bir yorum olmadan rapor",
+      "blur": "Blur",
+      "noShot": "Bu ekranda herhangi bir ekran görüntüsü mevcut değil.",
+      "placeholder": "Ne oldu?",
+      "send": "Send Send Send Gönder",
+      "sent": "Teşekkür ederim, raporunuz gönderildi.",
+      "unavailable": "gönderemez: hata izleme bu inşada aktif değildir."
+    },
+    "applause": {
+      "hint": "Daha uzun süre alkış tutun.",
+      "a11y": "Long applause"
+    },
+    "hush": {
+      "title": "Mic ve kamera, telefon yüz yüzeyken çıktı",
+      "reactivate": "Onları geri döndürün"
+    },
+    "lighter": {
+      "button": "Lighter",
+      "off": "Onu dışarı koyun",
+      "alone": "Telefonunuzu alın, alev hareketlerinizi takip eder.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Beni şaşırtın beni",
+      "chipA11y": "rastgele bir olay öner",
+      "again": "Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka Bir Başka",
+      "none": "Şu anda önermek için önümüzdeki olay yok."
+    },
+    "bump": {
+      "settingTitle": "Swap kontakları titreyerek",
+      "settingSubtitle": "Sitede, biletinizin tarandığı bir kez: birbirlerini bulmak için aynı anda sallayın. Yaklaşık yeriniz sizi eşleştirmek için birkaç saniye kullanılır ve asla depolanmaz. Onayınız olmadan hiçbir şey olmaz. Varsayılan olarak kapalı.",
+      "button": "Swap Tarafından Mix",
+      "nearbyButton": "Etrafımda bak",
+      "hint": "Telefonunuzu diğer kişi olarak aynı zamanda Shake your phone at the same time as the other person.",
+      "title": "Swap kontakları",
+      "searching": "İnsanlar seni yakınlaştırıyorlar...",
+      "none": "Kimse bulunamadı. Diğer kişi olarak aynı anda Shake, sonra tekrar deneyin.",
+      "pick": "Doğru kişiyi seçin. Onayınız olmadan hiçbir şey paylaşılmaz.",
+      "connect": "Connect?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Onların onayı için bekliyor",
+      "connected": "Connected",
+      "openSettings": "Açık ayarlar",
+      "error": {
+        "disabled": "ayarlarınızda “Swap kontakları” açın.",
+        "notCheckedIn": "Biletinizin girişte tarandığı bir kez kullanılabilir.",
+        "clockSkew": "Telefonunuzun saati kapalı. Otomatik olarak ayarlayın ve tekrar deneyin.",
+        "rateLimited": "Çok fazla deneme. Bir dakika içinde tekrar deneyin.",
+        "expired": "Değişim sona erdi. Tekrar başlayın.",
+        "noLocation": "Konum, yakınınızdaki kişiyi bulmak için gereklidir.",
+        "generic": "Değişim geçmedi. Tekrar deneyin."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Olayı Kurtarın"
+    },
+    "torch": {
+      "onA11y": "Öfkeye dön",
+      "offA11y": "Öfkeyi kapatın",
+      "hint": "Double-tap the viewfinder to turn theşa on or off."
+    },
+    "dragSelect": {
+      "select": "Select Select Select Select",
+      "hint": "Ya da birkaç katılımcıyı işaret etmek için listeyi iki parmağı sürükleyin.",
+      "message": "Seçilen katılımcılara Mesaj",
+      "export": "Seçeneğe ihracat",
+      "exportError": "Seçimin başarısız olması.",
+      "csvName": "Name Name Name Name Name Name Name Name Name Name Name",
+      "csvEmail": "E-posta e-posta e-posta",
+      "csvReference": "Referans",
+      "csvStatus": "Durum durumu",
+      "csvDate": "Kayıt"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Biletlerinizi Fetching...",
+      "favorites": "En sevdiğinizleri Fetching...",
+      "notifications": "bildirimlerinizi teşvik edin...",
+      "messages": "Konuşmalarınızı teşvik edin...",
+      "search": "eşleşen etkinliklere bakmak...",
+      "event": "Olay sayfasını hazırlamak..."
+    },
+    "mobileMoney": {
+      "sent": "Ödeme talebiniz operatörünüze gönderilir.",
+      "pin": "Telefonunuzda PIN ile Approve it with your PIN on your phone, in your operator's quick.",
+      "operator": "Operatör onayı biraz zaman alabilir. Bu normal, lütfen bu sayfada kalın.",
+      "once": "Sadece bir kez şarj edileceksiniz, bekleme devam ederse bile."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Biletleriniz bir olay için kayıt olduğunuz sürece burada görünecektir.",
+        "v1": "Bir konser, bir konferans, bir atölye? Her şey bir olayla başlar.",
+        "v2": "Bir sonraki kesintiniz zaten online olabilir."
+      },
+      "favorites": {
+        "v0": "Kalbi burada bulmak ve değişiklikler hakkında duymak için bir olay üzerine kapatın.",
+        "v1": "Bir olayı takip edin, böylece haberi asla kaçırmayacaksınız.",
+        "v2": "Bir kalbin elinde bir olayı tutmak yeterlidir."
+      },
+      "notifications": {
+        "v0": "Olaylardan haber ve takip ettiğiniz organizatörler burada ortaya çıkacak.",
+        "v1": "Yeni olanı haberdar olmak için bir olay izleyin.",
+        "v2": "Bir şey olduğu kadar yakında bilmenize izin vereceğiz."
+      },
+      "messages": {
+        "v0": "Bir olayda birini arayın? Kodlarını bağlantı kurmak için tarayın.",
+        "v1": "Etkinlik bağlantıları burada ortaya çıkıyor: bir kod taraması yeterlidir.",
+        "v2": "Swap, bir katılımcının kodunu tarayarak sitedeki ayrıntılarla iletişime geçin."
+      },
+      "discover": {
+        "v0": "Bir anahtar kelime arama bazen ev sayfasının henüz göstermediğini bulur.",
+        "v1": "Şehir veya kategoriye göre arama: yeni olaylar her hafta gelir."
+      },
+      "exploreAction": "Bakalım neler var",
+      "scanAction": "Bir kod",
+      "searchAction": "Bir olay için arama",
+      "didYouMean": "“{{term}}” anlamına mı geldin?",
+      "widen": "Etrafınızdaki 50 km",
+      "clearFilters": "Clear filtreler"
+    },
+    "greeting": {
+      "when": {
+        "today": "Bugün bugün bugün bugün bugün bugün bugün",
+        "tomorrow": "yarın yarın yarın yarın",
+        "dayAfter": "Ertesi gün yarın"
+      },
+      "there": "Sitede",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Mutlu doğum günü! Güzel bir gün var.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Mutlu ulusal gün!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Hoşgeldiniz back Back",
+      "subtitle_one": "Son ziyaretinizden beri yeni bir şey.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Ve takip ettiğiniz şeyden daha fazlası.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Hide Hide Gizle",
+      "reason": {
+        "followed_organizer": "Düzenle",
+        "new_edition": "Katıldığınız bir olayın yeni baskı",
+        "other": "Yeni Yeni Yeni Yeni Yeni Yeni Yeni"
+      },
+      "byOrganizer": "{{name}}"
+    },
+    "reco": {
+      "becauseOne": "Çünkü {{first}} gibisin",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "· Sizin TASTE",
+      "forYouTitle": "Ayrıca sevebilirsiniz",
+      "loginCtaTitle": "Size uygun öneriler"
+    },
+    "settings": {
+      "ritualsEyebrow": "LITTLE TOUCHES",
+      "ritualsTitle": "Küçük dokunuşlar",
+      "ritualsSubtitle": "Doğum gününüzde bir kelime, hesap yıldönümü veya ulusal gün, gün boyunca bir kez. Yaşınız asla gösterilmez, bildirim yoktur.",
+      "forgetEyebrow": "RECOMMENDATIONS",
+      "forgetTitle": "Tercihlerimi unutun",
+      "forgetSubtitle": "Olayları takip eden, kayıtları ve aramaları tavsiyelerinizi öğretti.",
+      "forgetConfirmTitle": "Tercihlerinizi unutun?",
+      "forgetConfirmMessage": "Önerileriniz sıfırdan başlayacak. Biletleriniz, favoriler ve değişmeyin.",
+      "forgetDone": "Done: Tavsiyeleriniz sıfırdan başlar.",
+      "forgetUnavailable": "Bu seçenek henüz mevcut değil. Hiçbir şey silinmedi.",
+      "forgetError": "Tercihleriniz silinemezdi. Onlar değişmez; lütfen bir anda tekrar deneyin."
+    },
+    "goingCard": {
+      "title": "Beklerken, “Ben gidiyorum” kartınızı hazırlayın",
+      "subtitle": "Ödeme onaylandıktan sonra paylaşmaya hazır olacaktır.",
+      "tintLabel": "Arka plan arka plan arka plan",
+      "messageLabel": "Mesaj",
+      "messages": {
+        "going": "I'M GOING",
+        "meetThere": "SEE YOU THERE?",
+        "seeYou": "MEET ME THERE"
+      },
+      "tintA11y": "Renk {{index}}",
+      "printing": "Kartınız beklerken yazdırır.",
+      "ready": "Kartınız hazır",
+      "share": "kartımı paylaşın",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

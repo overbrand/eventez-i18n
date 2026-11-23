@@ -41,6 +41,7 @@
     "close": "Sluiten",
     "clear": "Wissen",
     "back": "Terug",
+    "home": "Begin",
     "next": "Volgende",
     "previous": "Vorige",
     "search": "Zoeken",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Code is onjuist of verlopen",
     "loginError": "Aanmeldfout",
     "registerError": "Aanmeldingsfout",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Account bestaat al",
     "registerEmailExistsDetail": "Er bestaat al een account met deze e-mail. Wil je je inschrijven?",
     "registerEmailExistsConfirm": "Aanmelden",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Achternaam is vereist",
     "emailRequired": "E-mail is vereist",
     "emailInvalid": "Ongeldige e-mail",
+    "passwordRequired": "Wachtwoord is vereist",
     "passwordTooShort": "Wachtwoord te kort (minimum 0",
+    "confirmPasswordRequired": "Wachtwoordbevestiging is vereist",
     "passwordsDontMatch": "Wachtwoorden komen niet overeen",
+    "usernameRequired": "Gebruikersnaam is vereist",
     "usernameTooShort": "Gebruikersnaam is te kort (minimum 0",
     "usernameInvalid": "Ongeldige gebruikersnaam",
+    "phoneRequired": "Telefoonnummer is vereist",
     "phoneInvalid": "Ongeldig telefoonnummer",
     "minLength": "Tenminste ",
     "maxLength": "Maximum aantal tekens"
@@ -449,7 +461,8 @@
     "saved": "Opgeslagen",
     "messages": "Berichten",
     "tickets": "Tickets",
-    "profile": "Profiel"
+    "profile": "Profiel",
+    "organize": "Organiseren"
   },
   "languagePicker": {
     "eyebrow": "Welkom.",
@@ -492,6 +505,7 @@
     "viewAction": "Beeld",
     "viewEvent": "Agendanotitie weergeven",
     "share": "Delen",
+    "scrollToTop": "Terug naar boven",
     "freeEyebrow": "ZERO-KOSTEN",
     "freeTitle": "Vrij, zonder verplichtingen",
     "freeBadge": "GRATIS",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Je bent klaar!",
     "notifyOnBody": "We laten het je weten zodra de eerste gebeurtenissen live gaan.",
     "notifyOffTitle": "Kennisgevingen uit",
-    "notifyOffBody": "Notificatieberichten in te schakelen instellingen."
+    "notifyOffBody": "Notificatieberichten in te schakelen instellingen.",
+    "organizersEyebrow": "Organisaties",
+    "organizersTitle": "De mensen achter de schermen",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Geverifieerde organisator",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Prijsniveaus",
@@ -604,7 +624,10 @@
     "invisibleHint": "Jullie zijn onzichtbaar. Schakel aan om gezien te worden.",
     "message": "Bericht",
     "connected": "Verbonden",
-    "empty": "Niemand is nog zichtbaar. Wees de eerste om uw netwerk aan te zetten!"
+    "empty": "Niemand is nog zichtbaar. Wees de eerste om uw netwerk aan te zetten!",
+    "scanOptInTitle": "Laat exposanten mijn badge scannen.",
+    "scanOptInSubtitle": "Exhibiting bedrijven zullen in staat zijn om uw naam en contactgegevens op te slaan door het scannen van uw badge, zodat ze kunnen volgen na het evenement.",
+    "scanOptInWithdrawNote": "Je kunt dit op elk moment uitzetten. Contacten die al zijn opgeslagen door exposanten worden niet automatisch verwijderd "
   },
   "eventDetails": {
     "eyebrow": "GEBEURTENIS",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online-evenement",
     "meetingId": "Bijeenkomst-ID:",
     "meetingPasscode": "Passcode:",
+    "liveEngagement": "Levende vragen en peilingen",
     "joinEvent": "Gebeurtenis",
     "joinOnline": "Doe mee online",
     "registered": "Geregistreerd",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Delen op WhatsApp",
     "closePreviewA11y": "Voorbeeld sluiten",
     "invalidCode": "Ongeldige toegangscode",
+    "accessButton": "Enter",
+    "pendingPaymentBanner": "Voltooi uw betaling om uw registratie te bevestigen",
+    "onlineInfoAfterRegistration": "Verbindingsdetails zullen beschikbaar zijn nadat u zich hebt geregistreerd",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Vergroot",
+    "playCoverVideo": "Video afspelen",
+    "videoPlayA11y": "Video afspelen met geluid",
+    "videoUnmuteA11y": "Unmute",
+    "videoMuteA11y": "Dempen",
+    "videoExpandA11y": "Video uitbreiden naar volledig scherm",
     "imagesCount": "Vertaling:",
     "videoConference": "Videoconferentieplatform",
     "openLinkError": "Kon de agendanotitielink niet openen",
@@ -675,7 +708,28 @@
     "registeredStatus": "Geregistreerd",
     "pendingStatus": "In afwachting",
     "priceLabel": "Prijs",
-    "fromLabel": "Vanaf"
+    "fromLabel": "Vanaf",
+    "waitlistJoinedDetail": "Je bent bij de wachtlijst gegaan. We brengen je op de hoogte zodra er een plek vrij is.",
+    "waitlistLeftMsg": "Je hebt de wachtlijst verlaten.",
+    "waitlistLeaveError": "Kon wachtlijst niet verlaten",
+    "waitlistJoinError": "Kon niet bij de wachtlijst komen",
+    "waitlistLeaveTitle": "Laat de wachtlijst staan",
+    "waitlistLeaveConfirm": "Weet je zeker dat je de wachtlijst wilt verlaten?",
+    "whatsappNotInstalled": "WhatsApp is niet geïnstalleerd op dit apparaat",
+    "reviewRatingRange": "Selecteer een beoordeling tussen 1 en 5",
+    "reviewThanksTitle": "Dank je!",
+    "reviewSubmitted": "Uw beoordeling is succesvol ingediend",
+    "loginRequiredTitle": "Aanmelden vereist",
+    "loginRequiredReview": "Aanmelden om een beoordeling achter te laten",
+    "reviewSubmitError": "Kon uw beoordeling niet indienen",
+    "loginRequiredWaitlist": "Aanmelden om bij de wachtlijst te komen",
+    "invitationGateDesc": "Dit evenement is gereserveerd voor uitgenodigde gasten. Als u een uitnodiging hebt ontvangen, accepteer deze dan om toegang te krijgen.",
+    "codeGateDesc": "Voer de code in om de volledige details te zien",
+    "giftRegistryCta": "Geschenkregister",
+    "giftRegistrySubtitle": "Zie de lijst en chip in als je wilt",
+    "cancelReasonTitle": "Reden voor annulering",
+    "visioEnded": "Deze videoconferentie is afgelopen.",
+    "videoPauseA11y": "Video pauzeren"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Je verleden zal hier verschijnen.",
     "scanQR": "Scan QR-code",
     "showQR": "QR-code tonen",
+    "viewQR": "QR tonen",
+    "receivedTransfers": "Ontvangen overdrachten",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Uw QR-code",
     "qrSubtitle": "Deze code tonen bij de ingang",
     "ticketDetails": "Ticketgegevens",
@@ -930,7 +987,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "Tik op om QR-code te bekijken",
-    "searchTitleRefVenue": "Titel, scheids, locatie..."
+    "searchTitleRefVenue": "Titel, scheids, locatie...",
+    "pendingPayment": "Betaling in behandeling",
+    "pendingExpired": "Gebeurde gebeurtenis",
+    "statusExpired": "Verlopen"
   },
   "payment": {
     "title": "Betaling",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Terug",
     "paymentGenericError": "Er is een fout opgetreden tijdens de betaling",
     "paymentErrorTitle": "Betalingsfout",
+    "paymentBlockedTitle": "Kaartbetaling geblokkeerd",
     "paymentCancelledTitle": "Betaling geannuleerd",
     "paymentNoPaymentInProgress": "Geen lopende betaling om te verifiëren",
     "paymentVerifyingTitle": "Controleren...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Blijf wachten",
     "paymentProcessing": "Verwerking",
     "paymentTitle": "Betaling",
+    "checkoutStep": "STAP 3/3 • BETALING",
+    "noDoubleCharge": "Je wordt maar één keer opgeladen, zelfs als het scherm een tijdje draait.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Ik accepteer de",
+    "termsLinkFull": "verkoopvoorwaarden en het restitutiebeleid",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Selectie",
     "paymentStepRecap": "Samenvatting",
     "paymentMethodFallback": "Betaling",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Betaling",
     "myPaymentsFilterCompleted": "Voltooid",
     "myPaymentsFilterPending": "In afwachting",
-    "myPaymentsFilterFailed": "Mislukt"
+    "myPaymentsFilterFailed": "Mislukt",
+    "finalizeEndedTitle": "Dit evenement is afgelopen",
+    "finalizeEndedBody": "U kunt uw registratie niet meer voltooien: het evenement is al voorbij. Je bent niet aangeklaagd.",
+    "finalizeClosedTitle": "Registratie gesloten",
+    "finalizeClosedBody": "De registratieperiode voor dit evenement is afgelopen.",
+    "finalizeSoldOutTitle": "Tickets uitverkocht",
+    "finalizeSoldOutBody": "De tickets die u had gereserveerd zijn niet meer beschikbaar. Uw reservering is verlopen. Je bent niet aangeklaagd.",
+    "finalizeBackToEvent": "Terug naar evenement",
+    "paymentPushSentTitle": "Bevestigen op uw telefoon",
+    "paymentPushSentMessage": "Er is een betalingsverzoek naar uw telefoon gestuurd. Aanpassen (Mobile Money PIN) om te voltooien.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Bedrag van de restitutie"
   },
   "memories": {
     "title": "Mijn herinneringen",
@@ -1235,7 +1313,11 @@
     "recapShare": "Mijn samenvatting delen",
     "recapEvents": "Geleefde gebeurtenissen",
     "recapCities": "steden",
-    "recapFirst": "tijden aangekomen #1"
+    "recapFirst": "tijden aangekomen #1",
+    "oneYearAgo": "Een jaar geleden was je daar.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Lange pers voor een verrassing",
+    "firstNote": "De eerste die aankomt. De deuren waren nauwelijks open."
   },
   "profile": {
     "title": "Profiel",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Afmelden",
     "logoutInProgress": "Afmelden...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Mijn QR-code"
+    "myQRTitle": "Mijn QR-code",
+    "refundsMenu": "Mijn restitutie",
+    "refundsSubtitle": "Traceer waar je geld staat",
+    "shareProfileButton": "Mijn profiel delen",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Mijn organisatorsprofiel",
+    "shareOrganizerA11y": "Mijn organisatorsprofiel delen",
+    "viewPublicProfileA11y": "Bekijk mijn publieke profiel",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Onvolgbaar?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Volgende",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Geen resultaten",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Evenementen ontdekken",
+    "followSearchPlaceholder": "Een organisator doorzoeken"
   },
   "editProfile": {
     "title": "Profiel bewerken",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Adres",
     "sectionOrganization": "Organisatie",
     "sectionSecurity": "Beveiliging",
-    "qrShareSubtitle": "Scan deze code om uw profiel te delen"
+    "qrShareSubtitle": "Scan deze code om uw profiel te delen",
+    "countryPlaceholder": "Selecteer een land",
+    "orgLogoLabel": "Logo",
+    "orgLogoAdd": "Een logo toevoegen",
+    "orgLogoChange": "Logo wijzigen",
+    "orgWebsiteLabel": "website",
+    "orgDescriptionLabel": "Openbare beschrijving",
+    "orgDescriptionPlaceholder": "Stel je organisatie voor..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTISPA",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Thema",
     "themeDialogSubtitle": "Kies uw thema",
     "timezoneDialogTitle": "Tijdzone",
+    "timezoneDetected": "gedetecteerd",
     "timezoneDialogSubtitle": "Kies uw tijdzone",
     "preferencesTitle": "Voorkeuren",
     "headerEyebrow": "INSTELLINGEN",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Bevestigingen en terugbetalingen",
     "rowNewConversations": "Nieuwe gesprekken",
     "rowMarketing": "Aanbevelingen & promoties",
+    "rowSocialEyebrow": "Sociaal",
+    "rowSocial": "Sociale activiteiten",
+    "rowSocialDesc": "Nieuwe volgers, herinneringen, verzoeken om herziening",
+    "newRegistrationsEyebrow": "Organisator",
+    "newRegistrationsTitle": "Nieuwe registraties",
+    "newRegistrationsDescription": "Hoe vaak wordt u gemaild als iemand zich registreert voor uw evenementen?",
+    "newRegistrationsFreq": {
+      "realtime": "Real time",
+      "hourly": "Uur",
+      "daily": "Dagelijks",
+      "off": "Uit"
+    },
+    "quietHoursEyebrow": "Niet storen",
+    "quietHoursTitle": "Rustige uren",
+    "quietHoursDescription": "Niet-essentiële push/SMS meldingen overnachten pauzeren. Belangrijke waarschuwingen komen altijd door.",
+    "quietHoursFrom": "Van",
+    "quietHoursTo": "Tot",
     "rowSounds": "Geluiden op belangrijke momenten",
     "rowSoundsSubtitle": "Speelt een geluid af bij betalingsbevestiging of QR-scan",
     "rowTwoFA": "Two-factor authenticatie",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Facturen",
     "shortcutTaxes": "Belastingen",
     "shortcutMyEvents": "Mijn gebeurtenissen",
-    "shortcutHelp": "Hulp"
+    "shortcutHelp": "Hulp",
+    "rowMyDataAtExhibitors": "Mijn gegevens van exposanten",
+    "rowLiveBanner": "Live events banner",
+    "rowLiveBannerSubtitle": "Toon een banner om deel te nemen aan een evenement dat momenteel live is.",
+    "pushPermissionTitle": "Meldingen zijn uitgeschakeld voor dit apparaat",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Laat mijn connecties weten.",
+    "rowShareAttendanceSubtitle": "Je connecties kunnen zien dat je een evenement bijwoont. Standaard uitgeschakeld; nooit voor alleen uitnodigingen.",
+    "rowNotifyMemories": "Een jaar geleden...",
+    "rowNotifyMemoriesSubtitle": "Hoogstens één herinnering per week, op de verjaardag van een evenement dat je bezocht.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Een privé samenvatting van je jaar, in december. Niemand anders ziet het.",
+    "madeInDouala": "Gemaakt in Douala, met zorg.",
+    "madeInDoualaSub": "Bedankt dat je je gebeurtenissen tot leven hebt gebracht.",
+    "rowUiSounds": "Interfacegeluiden",
+    "rowUiSoundsSubtitle": "Zeer subtiele geluiden op bevestigingen en inkomende meldingen. Standaard uit.",
+    "vibrationsEyebrow": "Aanraak",
+    "rowVibrations": "Vibraties",
+    "rowVibrationsSubtitle": "Haptische feedback over belangrijke acties: betaling, scan, favorieten.",
+    "rowMotionGestures": "Bewegingsgebaren",
+    "rowMotionGesturesSubtitle": "Schudden, flippen of je telefoon vasthouden voor wat acties. Een knop is altijd beschikbaar.",
+    "notificationsEyebrowOngoing": "Kennisgevingen",
+    "rowOngoingEvent": "Gepind ticket op evenementdag",
+    "rowOngoingEventSubtitle": "Een rustige melding, 3 uur voor en tijdens het evenement, met uw ticket en routebeschrijving.",
+    "rowNotificationSounds": "Meldingsgeluiden",
+    "rowNotificationSoundsSubtitle": "Kies het geluid voor elke categorie (grote momenten, verkoop, berichten...) in uw telefooninstellingen"
   },
   "messages": {
     "title": "Berichten",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Een contact zoeken...",
     "searchEyebrow": "ZOEK",
     "searchHint": "Type om te zoeken",
-    "noOneFound": "Niemand gevonden."
+    "noOneFound": "Niemand gevonden.",
+    "myConnectionsSection": "Mijn verbindingen",
+    "searchResultsSection": "Resultaten",
+    "noConnectionsEyebrow": "NETWERKEN",
+    "noConnectionsTitle": "Nog geen verbindingen",
+    "noConnectionsCta": "Verbinden via QR",
+    "emptyEyebrowArchived": "GEARCHIEVEN",
+    "emptyEyebrowEmpty": "LEGTY INBOX",
+    "archivedEmptyDesc": "Uw gearchiveerde gesprekken zullen hier landen.",
+    "noConversationsDesc": "Start een nieuw bericht. We vinden wel iemand om mee te praten.",
+    "attachmentPreview": "[Attachment]",
+    "noMatchingMessage": "Geen passend bericht"
   },
   "notifications": {
     "title": "Kennisgevingen",
@@ -1699,7 +1862,7 @@
     "ticketConfirmed": "Uw ticket voor ",
     "paymentSuccess": "Betaling geslaagd voor ",
     "paymentFailed": "Betaling mislukt",
-    "eventCancelled": "",
+    "eventCancelled": "{{event}} has been cancelled",
     "eventUpdated": "is bijgewerkt",
     "moderationApproved": "Uw evenement is goedgekeurd",
     "moderationRejected": "Uw evenement is afgewezen",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Nieuw",
     "typePendingModeration": "Herziening",
     "typeModerationReminder": "Moderatiewachtrij",
+    "typeNewFollower": "Nieuwe volger",
+    "typeFollowedOrganizerNewEvent": "Nieuwe gebeurtenis",
+    "typeFollowRegistered": "Er is een verbinding.",
+    "typeConnectionsAtEvent": "Uw connecties",
+    "eyebrowNetwork": "NETWERK",
+    "eyebrowSoon": "Snel",
+    "eyebrowReminder": "HERINNEREN",
+    "eyebrowModeration": "MODERATIE",
+    "eyebrowToReview": "EVALUATIE",
+    "eyebrowDiscovery": "ONDERZOEK",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "Wat is nieuw?",
+    "filterReadTab": "Gelezen",
+    "groupToday": "VANDAAG",
+    "groupYesterday": "Gisteren",
+    "tabAll": "Alles",
+    "tabNetwork": "Netwerk",
     "typeDefault": "Kennisgeving",
     "filterAllTab": "Alles",
     "filterUnreadTab": "Ongelezen",
@@ -1739,7 +1919,26 @@
     "statTotal": "TOTAAL",
     "statUnread": "ONROOD",
     "statToday": "VANDAAG",
-    "viewDetails": "Details weergeven"
+    "viewDetails": "Details weergeven",
+    "actions": {
+      "showTicket": "Mijn ticket tonen",
+      "directions": "Routebeschrijving",
+      "going": "Ik ga.",
+      "viewTicket": "Bekijk ticket",
+      "reply": "Antwoord",
+      "replyPlaceholder": "Je bericht...",
+      "replySubmit": "Verzenden",
+      "markRead": "Markeren als gelezen",
+      "joinLive": "Sluiten",
+      "payNow": "Betaal nu",
+      "writeTo": "Bericht ze",
+      "viewEvent": "Agendanotitie weergeven",
+      "viewTickets": "Mijn tickets bekijken",
+      "viewRefund": "Teruggave weergeven",
+      "viewProfile": "Profiel tonen",
+      "summaryTitle": "Berichten",
+      "summaryBody": "Nieuwe berichten"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Mijn plan beheren",
     "exportTitle": "Uitvoer",
     "exportSubtitle": "Uw gegevens",
-    "settingsLink": "Instellingen"
+    "settingsLink": "Instellingen",
+    "greetingNight": "Nog een fijne avond."
   },
   "following": {
     "title": "Mijn favorieten",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Uitnodiging geweigerd.",
     "declineError": "Ik kon de uitnodiging niet weigeren.",
     "declineButton": "Afwijzen",
+    "declineConfirmTitle": "Uitnodiging afwijzen",
+    "declineConfirmMessage": "Weet u zeker dat u deze uitnodiging wilt weigeren?",
     "fromLabel": "VAN",
     "toLabel": "HULPSTOFFEN",
     "organizerFallback": "Organisator",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Uploaden mislukt",
     "downloadFailed": "Downloaden mislukt",
     "tryAgain": "Probeer opnieuw",
-    "contactSupport": "Contactondersteuning"
+    "contactSupport": "Contactondersteuning",
+    "timeout": "Het verzoek duurde te lang. Controleer je verbinding en probeer het opnieuw.",
+    "validation": "Sommige details zijn ongeldig. Herstel de gemarkeerde velden en probeer het opnieuw.",
+    "fields": {
+      "title": "Titel",
+      "subtitle": "Ondertiteling",
+      "message": "Bericht",
+      "image": "Afbeelding",
+      "cta_label": "Knoppenlabel",
+      "cta_url": "Knopkoppeling",
+      "link_url": "Verband",
+      "target_event": "Doelgebeurtenis",
+      "country": "Land",
+      "city": "Stad",
+      "radius_km": "Straal",
+      "placement": "Plaatsing",
+      "priority": "Prioriteit",
+      "severity": "Severity",
+      "audience": "Publiek",
+      "platform": "Platform",
+      "valid_from": "Geldig van",
+      "valid_until": "Geldig tot"
+    },
+    "http": {
+      "badRequest": "We konden je verzoek niet behandelen. Controleer uw gegevens en probeer het opnieuw.",
+      "unauthorized": "Uw sessie is verlopen. Meld u alstublieft opnieuw aan.",
+      "forbidden": "Je hebt hier geen toestemming voor.",
+      "notFound": "We konden niet vinden wat je zocht.",
+      "conflict": "Deze actie is in strijd met de huidige staat. Vernieuwen en opnieuw proberen.",
+      "tooManyRequests": "Te veel pogingen. Wacht even en probeer het opnieuw.",
+      "server": "Onze servers hebben nu problemen. Probeer het over een paar minuten opnieuw.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Deze e-mail is al gekoppeld aan een account. Aanmelden of een ander adres gebruiken.",
+      "usernameTaken": "Die gebruikersnaam is al genomen, kies een andere.",
+      "weakPassword": "Kies een wachtwoord met ten minste 8 tekens die letters en cijfers mengen.",
+      "invalidCredentials": "Onjuiste e-mail of wachtwoord. Probeer het opnieuw of reset uw wachtwoord.",
+      "resetLinkExpired": "Deze reset-link is verlopen. Verzoek om een nieuwe.",
+      "otpInvalid": "Deze code is onjuist of is verlopen. Controleer het of vraag een nieuwe.",
+      "otpSendFailed": "We konden de SMS-code niet versturen. Controleer je nummer en probeer het opnieuw, of meld je aan met je e-mail.",
+      "paymentMethodUnsupported": "Deze betaalmethode is niet beschikbaar voor dit evenement. Kies een andere.",
+      "paymentFailed": "Je betaling kon niet worden voltooid. Je bent niet aangeklaagd. Probeer het opnieuw of gebruik een andere methode.",
+      "paymentNetwork": "De verbinding viel tijdens de betaling. Controleer uw internet en probeer het opnieuw.U wordt niet twee keer opgeladen.",
+      "paymentTimeout": "Uw betaling duurt langer dan verwacht. Betaal niet opnieuw, controleer uw tickets in een paar minuten, of contacteer ondersteuning als er niets aankomt.",
+      "paymentVerifyFailed": "We konden je betaling nog niet bevestigen. Als u in rekening gebracht, uw tickets zullen binnenkort verschijnen ..check opnieuw in een paar minuten.",
+      "refundFailed": "Je terugbetalingsverzoek kon niet verstuurd worden. Probeer het opnieuw, of contacteer ondersteuning.",
+      "insufficientBalance": "Onvoldoende evenwicht voor deze operatie.",
+      "payoutLocked": "Deze uitbetaling kan niet meer worden gewijzigd omdat de verwerking al is begonnen. Contacteer ondersteuning als dit een fout is.",
+      "planLimitReached": "Je hebt de limiet van je plan bereikt. Upgrade uw plan om door te gaan.",
+      "countryNotSupported": "Betalingen zijn nog niet beschikbaar in dit land. U kunt het evenement maken in een ondersteund land, of contact met ons opnemen."
+    },
+    "tickets": {
+      "offline": "Je bent nu offline. Tickets die je al hebt geladen blijven offline beschikbaar. Probeer het nog eens als je weer online bent.",
+      "timeout": "Je tickets zijn een tijdje aan het laden. Ze zijn veilig gered. Probeer het zo nog eens.",
+      "server": "Onze servers hebben een korte hik. Je tickets zijn veilig aan onze kant. Probeer het over een paar minuten nog eens.",
+      "notFound": "We kunnen dit kaartje niet vinden. Je andere tickets zijn niet aangetast. Vernieuw de lijst of controleer uw bevestigingsmail.",
+      "forbidden": "Dit ticket behoort tot een ander account. Je eigen tickets zijn onaangeroerd. Meld je aan bij de account die gebruikt wordt voor de aankoop."
+    },
+    "messages": {
+      "offline": "Je bent nu offline. Je berichten zijn niet verloren: wachtende berichten gaan uit zodra je weer online bent. Probeer het opnieuw als het netwerk terugkeert.",
+      "timeout": "Berichten reageren langzaam. Je berichten zijn niet verloren. Probeer het zo nog eens.",
+      "server": "Messaging heeft een korte hik aan onze kant. Je gesprekken zijn intact. Probeer het over een paar minuten nog eens.",
+      "notFound": "Dit gesprek bestaat niet meer. Je andere gesprekken worden niet beïnvloed. Ga terug naar je berichten.",
+      "forbidden": "Je hebt geen toegang meer tot dit gesprek. Je andere gesprekken zijn nog steeds beschikbaar. Ga terug naar je berichten."
+    },
+    "event": {
+      "offline": "Je bent offline, dus we kunnen dit evenement niet laten zien. Uw tickets blijven offline beschikbaar. Probeer het nog eens als je weer online bent.",
+      "timeout": "Deze evenement pagina duurt een tijdje om te laden. Er is niets veranderd aan jouw kant. Probeer het zo nog eens.",
+      "server": "Een korte hik houdt ons tegen om dit evenement te laten zien. Uw tickets en registraties zijn niet aangetast. Probeer het over een paar minuten nog eens.",
+      "notFound": "Dit evenement is niet meer online: de organisator kan het verwijderd hebben. Alle tickets die je in \"Mijn tickets\" hebt. Meer evenementen wachten in Discover.",
+      "forbidden": "Dit evenement is privé. Je rekening is niet het probleem. Vraag de organisator om een uitnodiging om toegang te krijgen."
+    },
+    "upload": {
+      "offline": "De upload kon niet beginnen: je bent offline. Je dossier staat nog op je telefoon. Probeer het nog eens als je weer online bent.",
+      "timeout": "De upload duurde te lang. Je dossier staat nog op je telefoon. Probeer het opnieuw, ideaal op Wi-Fi of met een lichter bestand.",
+      "server": "De server kon het bestand niet ontvangen. Het is nog steeds veilig op je telefoon. Probeer het over een paar minuten nog eens.",
+      "notFound": "De uploadbestemming bestaat niet meer. Je dossier is nog steeds veilig op je telefoon. Vernieuw het scherm en probeer het opnieuw.",
+      "forbidden": "Je mag dit bestand hier niet uploaden. Het is nog steeds veilig op je telefoon. Controleer of je bent aangemeld bij de juiste account.",
+      "tooLarge": "Dit bestand is te groot om te uploaden. Het is nog steeds veilig op je telefoon. Kies een lichter bestand of snijd de afbeelding bij."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Gefeliciteerd!",
     "successMessage": "Je bent nu een organisator. Maak uw eerste evenement!",
     "errorTitle": "Fout",
-    "errorGeneric": "Er is een fout opgetreden"
+    "errorGeneric": "Er is een fout opgetreden",
+    "labelWebsite": "Website (facultatief)",
+    "labelDescription": "Beschrijving (facultatief)",
+    "placeholderDescription": "Stel je organisatie voor..."
   },
   "verificationForm": {
     "pdfOpenError": "Kon het document niet openen.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hybride",
     "priceAny": "Alles",
     "priceFree": "Vrij",
-    "pricePaid": "Betaald"
+    "pricePaid": "Betaald",
+    "shareSearch": "Deze zoekopdracht delen",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filters",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINDS",
     "contactA11y": "Contactorganizer",
+    "connectA11y": "Verbinden",
+    "connectedA11y": "Reeds verbonden",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Kon geen verbinding maken. Probeer het nog eens.",
     "bioEyebrow": "BIO",
     "bioTitle": "Info",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Gepubliceerde evenementen",
     "loadingEvents": "Laden...",
     "noEvents": "Geen evenementen gepubliceerd",
-    "freeBadge": "GRATIS"
+    "freeBadge": "GRATIS",
+    "tabs": {
+      "upcoming": "Binnenkort",
+      "past": "Verleden"
+    }
   },
   "sessionDetails": {
     "title": "Directoraat",
@@ -3223,7 +3518,12 @@
     "codeLabel": "CODE",
     "emptyEyebrow": "Komende",
     "emptyTitle": "Nog geen code",
-    "emptySubtitle": "Uw verwijzingscodes zullen hier verschijnen zodra ze beschikbaar zijn."
+    "emptySubtitle": "Uw verwijzingscodes zullen hier verschijnen zodra ze beschikbaar zijn.",
+    "generateCta": "Mijn code genereren",
+    "generating": "Aanmaken...",
+    "generateSuccess": "Referral code aangemaakt!",
+    "generateError": "Kon de code niet genereren. Probeer het nog eens.",
+    "copySuccess": "Verwijzingskoppeling gekopieerd"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Analyse bekijken",
     "perm_view_registrations": "Lijst met registraties bekijken",
     "perm_edit_event": "De agendanotitie bewerken",
-    "perm_manage_team": "Nodig andere teamleden uit"
+    "perm_manage_team": "Nodig andere teamleden uit",
+    "role_co_organizer": "Coorganisator",
+    "role_moderator": "Moderator",
+    "role_scanner": "Scanner",
+    "role_analyst": "Analist",
+    "status_pending": "In afwachting",
+    "status_accepted": "Actief",
+    "status_declined": "Afgewezen",
+    "status_revoked": "Ingetrokken",
+    "status_expired": "Verlopen"
   },
   "myTeamEvents": {
     "eyebrow": "VOOR DE SCENES",
@@ -3276,8 +3585,10 @@
     "willAttend": "Ik zal er zijn.",
     "wontAttend": "Ik kan het niet halen.",
     "partySize": "Aantal extra gasten",
+    "partySizeHint": "Naast jou. Bijvoorbeeld 2 als je 2 mensen meeneemt.",
     "dietary": "Voedingseisen / allergieën",
     "note": "Een woord voor het paar",
+    "noteOptional": "Een woord voor het koppel (facultatief)",
     "submit": "Stuur mijn antwoord",
     "thanksAccepted": "Dank je! Uw aanwezigheid is bevestigd.",
     "thanksDeclined": "Bedankt om het ons te laten weten.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Uw naam",
     "giftMethod": "Betalingsmethode",
     "giftPay": "Bijdragen",
-    "giftError": "De betaling kon niet beginnen."
+    "giftThanks": "Dank u voor uw bijdrage!",
+    "giftRedirectNote": "U wordt doorgestuurd naar een beveiligde betaalpagina. Dit is normaal.",
+    "giftError": "De betaling kon niet beginnen.",
+    "rsvpSubmitError": "Je antwoord kon niet verstuurd worden. Probeer het nog eens.",
+    "summaryTitle": "Uw antwoord",
+    "summaryAccepted": "Je hebt je aanwezigheid bevestigd.",
+    "summaryDeclined": "Je weigerde de uitnodiging.",
+    "summaryPartySize": "Gasten met je mee",
+    "summaryHeadcount": "Aantal gereserveerde zetels",
+    "summaryDietary": "Voedingsbehoeften",
+    "summaryTable": "Uw tafel",
+    "summaryTablePending": "Uw tafel wordt gedeeld voor het evenement."
   },
   "teamInvitation": {
     "eyebrow": "VERZOEKING",
@@ -3546,7 +3868,7 @@
     "bulkDeleteConfirmMessage": "Berichten verwijderen? Deze actie is onomkeerbaar.",
     "bulkDeleteError": "Kon berichten niet verwijderen.",
     "bulkDeleteSuccess_one": "Bericht verwijderd",
-    "bulkDeleteSuccess_other": "",
+    "bulkDeleteSuccess_other": "{{count}} messages deleted",
     "readOnlyDiscussionTitle": "Alleen-lezen discussie",
     "readOnlyDiscussionMessage": "Sla uw berichten op, het gesprek wordt binnenkort verwijderd.",
     "dmBlocked": {
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Alleen-lezen discussie. Bewaar je berichten.",
     "mutedLockMessage": "U bent gedempt in deze discussie door de organisator.",
     "postingLockMessage": "Alleen de organisator kan in deze discussie posten.",
-    "defaultUserName": "deze gebruiker"
+    "defaultUserName": "deze gebruiker",
+    "someFilesQueuedForRetry": "Sommige bestanden zullen wrok hebben als de verbinding terug is.",
+    "retrySend": "Opnieuw proberen",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Naar onder schuiven",
+    "tapToLoadImage": "Tik om te laden",
+    "reply": "Antwoord",
+    "react": "Reageren",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Alleen-lezen gesprek.",
+    "headerCollapseA11y": "Banner verbergen",
+    "headerExpandA11y": "Banner tonen",
+    "headerCollapseLabel": "Verbergen",
+    "headerExpandLabel": "Gebeurtenissendetails"
   },
   "scanForm": {
     "loading": "Laden...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderator",
     "roleAdmin": "Beheerder",
     "fallbackEvent": "Gebeurtenis",
-    "fallbackUnknownUser": "Gebruiker"
+    "fallbackUnknownUser": "Gebruiker",
+    "statusUnknown": "Onbekende status"
   },
   "refundRequest": {
     "watermarkBack": "Terug",
     "watermarkOops": "OOPS",
     "loadError": "Kon betaalgegevens niet laden",
     "paymentNotFound": "Betaling niet gevonden",
+    "blockedNotOwner": "Deze betaling is niet gekoppeld aan uw account, dus u kunt er geen restitutie voor aanvragen.",
+    "blockedNotCompleted": "Alleen bevestigde betalingen kunnen worden terugbetaald. Deze betaling is niet terug te betalen.",
+    "blockedAlreadyRequested": "Voor deze betaling is al een restitutieverzoek in behandeling.",
+    "blockedGeneric": "Deze betaling komt nu niet in aanmerking voor restitutie.",
     "back": "Terug",
     "closeA11y": "Sluiten",
     "eyebrow": "REFUND REFUND",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Toegangscode (facultatief)",
       "accessCodeHint": "Bezoekers moeten deze code invoeren om de details te zien",
       "accessCodePlaceholder": "Laat leeg voor geen code",
-      "featuredInfo": "U kunt vragen om uw evenement na het maken van \"Mijn evenementen\" te laten zien."
+      "accessCodeKeepPlaceholder": "Nieuwe code (laat leeg om de huidige te behouden)",
+      "accessCodeActive": "Een toegangscode is actief.",
+      "accessCodeWillBeRemoved": "De code wordt verwijderd wanneer u opslaat.",
+      "accessCodeRemove": "Code verwijderen",
+      "accessCodeUndoRemove": "Ongedaan maken",
+      "featuredInfo": "U kunt vragen om uw evenement na het maken van \"Mijn evenementen\" te laten zien.",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Datum en plaats",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Kies op kaart",
       "mapHint": "Het evenement op de kaart weergeven en navigatie inschakelen",
       "virtualLocationTitle": "Virtuele locatie",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Ingebouwde videoconferenties De kamer wordt automatisch aangemaakt, geen externe link nodig.",
       "platformLabel": "Platform",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Teams",
       "connectionUrlLabel": "Verbindingsverbinding",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Verkoop begint",
       "salesEndLabel": "Einde verkoop",
       "visibleLabel": "Zichtbaar",
+      "accessModeLabel": "Toegang verleend door dit ticket",
+      "accessInPerson": "In persoon",
+      "accessOnline": "Online",
+      "accessBoth": "Beide",
       "visibleDesc": "Dit ticket publiekelijk tonen",
       "addAnotherTicket": "Nog een ticket toevoegen",
       "registrationFormTitle": "Registratieformulier (facultatief)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Menu sluiten",
       "cancel": "Annuleren"
+    },
+    "venuePicker": {
+      "label": "Een opgeslagen locatie gebruiken",
+      "hint": "De velden vullen automatisch in. Je kunt ze achteraf aanpassen."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Opsplitsing van gebeurtenistype",
       "sourcePaymentMethods": "Betalingsmethoden",
       "sourceGeographical": "Geografische verdeling"
-    }
+    },
+    "widgetDataUnavailable": "Gegevens niet beschikbaar."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Vorige",
       "next": "Volgende",
       "selectDatePlaceholder": "Een datum selecteren",
-      "selectTimePlaceholder": "Een tijd selecteren"
+      "selectTimePlaceholder": "Een tijd selecteren",
+      "selectPlaceholder": "Selecteren...",
+      "searchPlaceholder": "Doorzoeken..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Tickets succesvol toegevoegd",
     "alreadyRegisteredConfirmTitle": "Reeds geregistreerd",
     "alreadyRegisteredConfirmMessage": "U bent al geregistreerd voor dit evenement.",
-    "createRegistrationError": "Kon registratie niet aanmaken"
+    "createRegistrationError": "Kon registratie niet aanmaken",
+    "accessMode": {
+      "in_person": "Alleen persoonlijk",
+      "online": "Online toegang",
+      "hybrid": "In persoon + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Nog maar één plek over.",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Aankopen gepauzeerd",
+    "suspendedByIncident": "De aankopen worden tijdelijk onderbroken door een incident. Volg updates op de Status pagina."
   },
   "registrationDetails": {
     "headerInscription": "Mijn registratie",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Geannuleerd",
     "statusInscriptionRejected": "Verworpen",
     "statusInscriptionValidated": "Gevalideerd",
-    "statusInscriptionUnknown": "Onbekend"
+    "statusInscriptionUnknown": "Onbekend",
+    "pdfEyebrow": "SAMENVATTING",
+    "pdfDate": "Datum",
+    "pdfPlace": "Plaats",
+    "pdfReference": "Rubrieknummer",
+    "pdfStatus": "Status",
+    "pdfQrHint": "Deze QR-code tonen bij de ingang",
+    "pdfShareDialog": "Samenvatting delen",
+    "pdfError": "Kon de PDF nu niet aanmaken.",
+    "pdfA11y": "Overzicht exporteren als PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "De QR-code wordt gescand bij de ingang.",
     "tipArriveLines": "Op tijd arriveren om de regels over te slaan",
     "validatedTitle": "Ticket gevalideerd",
+    "stampValidated": "Ingecheckt",
     "validatedAt": "Ingevoerd op ",
     "paymentPendingTitle": "Betaling in behandeling",
     "paymentPendingDesc": "Voltooi uw betaling om te bevestigen",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Bevestigd",
     "statusPending": "In afwachting",
     "statusCancelled": "Geannuleerd",
-    "statusValidated": "Gevalideerd"
+    "statusValidated": "Gevalideerd",
+    "pdfOnline": "Online-evenement",
+    "statusUnknown": "Onbekende status",
+    "presentHint": "Tik om de code te vergroten, long-press voor bewijs van geldigheid.",
+    "presentA11yAction": "Vergroot de code voor de controle",
+    "proofA11yAction": "Bewijs van geldigheid tonen",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Terug naar het ticket",
+    "presentExitHint": "Tik om terug te gaan"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Wilt u dit ticket uit de offline cache verwijderen?",
     "showQR": "QR tonen",
     "hideQR": "QR verbergen",
-    "pastBadge": "Verleden"
+    "pastBadge": "Verleden",
+    "download": "Download ticket",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Rubrieknummer",
+    "pdfType": "Type ticket",
+    "pdfQuantity": "Hoeveelheid",
+    "pdfDate": "Datum",
+    "pdfShareDialog": "Ticket opslaan / delen",
+    "pdfError": "Kon de PDF niet aanmaken."
   },
   "pendingTransfers": {
     "headerTitle": "Overdrachten",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Bezoek",
     "similarEventsEyebrow": "AANBEVELINGEN",
     "similarEventsTitle": "Soortgelijke gebeurtenissen",
-    "similarEventA11y": "Weergeven"
+    "similarEventA11y": "Weergeven",
+    "virtualLiveNow": "Leef nu",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Word live lid",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Videogesprek niet beschikbaar",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "De live is nog niet begonnen.",
+    "virtualWaitingHostNote": "Je kunt meedoen zodra de organisator de kamer opent.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Hoofdruimte",
+      "session": "Directoraat",
+      "breakout": "Uitbraak",
+      "networking": "Netwerken",
+      "workshop": "Workshop"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Verkoop beëindigd",
+    "ticketsSaleNotStarted": "Binnenkort te koop",
+    "peekSave": "Opslaan",
+    "peekUnsave": "Verwijderen uit opgeslagen",
+    "peekShare": "Delen",
+    "peekOpen": "Open",
+    "peekA11yHint": "Wacht voor een voorbeeld",
+    "swipeSave": "Loslaten om op te slaan",
+    "swipeUnsave": "Loslaten om te verwijderen",
+    "swipeHint": "Vegen om op te slaan",
+    "swipeRemoved": "Verwijderd uit opgeslagen",
+    "swipeUndo": "Ongedaan maken",
+    "swipeRemove": "Verwijderen",
+    "weather": {
+      "sunny": "Zonnig",
+      "partlySunny": "Zonnige spreuken",
+      "cloudy": "Bewolkt",
+      "fog": "Mist",
+      "rain": "Regen",
+      "snow": "Sneeuw",
+      "showers": "Douches",
+      "thunderstorm": "Onweer",
+      "variable": "Veranderbaar"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Opmaak kiezen",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Wanneer deze organisator een nieuw evenement publiceert",
     "followPrefsSave": "Voorkeuren opslaan",
     "followPrefsSaveA11y": "Voorkeuren opslaan",
-    "inAppToastA11y": "Tik om te openen."
+    "inAppToastA11y": "Tik om te openen.",
+    "webviewVisioTitle": "Videogesprek",
+    "webviewOfflineTitle": "Je bent offline.",
+    "webviewOfflineBody": "Je apparaat is de verbinding kwijt. De oproep wordt hervat zodra het netwerk terug is.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Langzame verbinding gedetecteerde video kan worden afgebroken en uw gegevens gebruiken."
   },
   "messageRequests": {
     "eyebrow": "ANTISPA",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Camera vereist",
     "permissionSubtitle": "Om een QR te scannen, moet EventEz toegang hebben tot de camera.",
     "permissionGrant": "Camera toestaan"
+  },
+  "media": {
+    "sheetTitle": "Wat wil je doen?",
+    "saveToGallery": "Opslaan in galerij",
+    "share": "Delen",
+    "savedToGallery": "Opgeslagen in galerij",
+    "permissionDeniedTitle": "Toestemming geweigerd",
+    "permissionDeniedMessage": "Schakel foto-toegang in instellingen in om op te slaan.",
+    "sharingUnavailable": "Delen is niet beschikbaar op dit apparaat.",
+    "downloadFailed": "Downloaden is mislukt. Probeer het nog eens.",
+    "genericError": "Er ging iets mis. Probeer het nog eens."
   },
   "componentsMessages": {
     "inputJoinFile": "Een bestand toevoegen",
@@ -5127,7 +5585,7 @@
     "messages": "BERICHTEN",
     "suggestions": "OPDRACHTEN",
     "theme": "ONDERWERP",
-    "timezoneSoon": "TIMEZONE · Snel",
+    "timezone": "TIME ZONE",
     "soundEffects": "GELUIDS GEVOLGEN",
     "authSoon": "AUTHENTICATIE · Snel",
     "connectionsSoon": "CONNECTIONS · Snel",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · SAVED",
     "tabMessages": "03 · BERICHTEN",
     "tabTickets": "04 · TICKETS",
-    "tabProfile": "05 · PROFIEL"
+    "tabProfile": "05 · PROFIEL",
+    "push": "Persen",
+    "privacy": "Privacy",
+    "memories": "Herinneringen",
+    "yearInReview": "Jaar in overzicht"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Geselecteerd",
-      "selectedCount_plural": "Geselecteerd",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Goedkeuring",
       "reject": "Weigeren",
       "checkIn": "Inchecken"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promocodes",
         "linkSessions": "Koppel tickets naar sessies",
         "addPhotos": "Foto's toevoegen",
+        "startLive": "Ga live",
         "volunteers": "Vrijwilligers",
         "sponsors": "Sponsors",
         "seatingPlans": "Zitplannen",
@@ -5636,7 +6099,14 @@
         "duplicate": "Dupliceren",
         "cancelEvent": "Evenement annuleren",
         "cancelEventDesc": "Aanmelden van registranten",
-        "deleteDesc": "Onomkeerbare werking"
+        "deleteDesc": "Onomkeerbare werking",
+        "invite": "Nodig gasten uit",
+        "inviteDescInviteOnly": "De enige manier om toegang te verlenen tot dit alleen-uitnodigingsevenement",
+        "duplicatePastDesc": "Beginnen vanaf een bewerkbare kopie",
+        "remindInvites": "Herinner de gasten",
+        "weddingGuests": "Gasten & RSVP",
+        "weddingGifts": "Registratie en geschenken",
+        "weddingTables": "Zitplan"
       },
       "emptyEyebrowResults": "GEEN RESULTATEN",
       "emptyEyebrowCatalog": "CATALOGIE VOOR HET LEKKEN",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Bijvoorbeeld gezondheidsvoorwaarden, locatie niet beschikbaar...",
       "keepBtn": "Bewaar",
       "cancelEventBtn": "Evenement annuleren",
+      "cancelHolding": "Wacht...",
       "recurrenceEyebrow": "HERHALING",
       "recurrenceModalTitle": "Schema \"",
       "recurrenceModalBody": "Meerdere gebeurtenissen van deze gebeurtenis aanmaken. Elke gebeurtenis is een onafhankelijke nieuwe gebeurtenis die u kunt aanpassen.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Dit evenement is live. Als u kritieke velden (titel, datum, locatie, type, capaciteit) verandert, wordt het teruggestuurd naar validatie en tijdelijk verborgen totdat het opnieuw wordt goedgekeurd.",
       "editValidatedConfirm": "Toch bewerken",
       "actionEditValidated": "Bewerken (hervalidatie mogelijk)",
-      "actionEditValidatedDesc": "Kritieke velden → hervalidatie"
+      "actionEditValidatedDesc": "Kritieke velden → hervalidatie",
+      "inviteEyebrow": "VERZOEKEN",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "E-mails gescheiden door komma of nieuwe regel",
+      "inviteMessagePlaceholder": "Persoonlijk bericht (facultatief)",
+      "inviteSendBtn": "Uitnodigingen versturen",
+      "inviteEmptyTitle": "Geen e-mail",
+      "inviteEmptyMessage": "Voer ten minste één e-mailadres in.",
+      "inviteInvalidTitle": "Ongeldige e-mails",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Uitnodigingen verzonden",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Kon uitnodigingen niet versturen.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Geen gast om aan te herinneren.",
+      "remindErrorTitle": "Herinnering mislukt",
+      "remindErrorMessage": "De herinneringen konden niet verstuurd worden. Probeer het nog eens.",
+      "remindPendingProgress": "Herinneringen versturen...",
+      "loadError": "Kon je gebeurtenissen niet laden. Controleer je verbinding."
     },
     "volunteer": {
       "tabReceived": "Ontvangen",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Ongeldige code: verwachte UUID of referentiecode (8-20 tekens A-Z/0-9).",
       "sessionRecapTitle": "Samenvatting van de zittingen",
       "sessionRecapBody": "Gevalideerd\nHet is mislukt.",
-      "sessionRecapQueue": "Offline in de wachtrij"
+      "sessionRecapQueue": "Offline in de wachtrij",
+      "manualModeBanner": "Handmatige modus 1 tik per persoon",
+      "manualModeA11y": "Handmatige modus aan. Tik om automatisch in te checken.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Deze mensen kwamen binnen terwijl het netwerk plat lag. Neem contact op met je team.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Offline geaccepteerd door deze telefoon, afgewezen op synchronisatie. Als een andere agent tegelijkertijd scande, kwamen deze mensen twee keer binnen.",
+      "voice": {
+        "valid": "Geldig ticket",
+        "validWarning": "Geldig, moet gecontroleerd worden",
+        "alreadyCheckedIn": "Reeds ingecheckt",
+        "refused": "Ticket geweigerd",
+        "enabled": "Voice aankondigingen op",
+        "toggleOn": "Voice aankondigingen op",
+        "toggleOff": "Spraakmeldingen uit",
+        "toggleA11y": "Scan het resultaat van de stem aankondigingen aan of uit zetten"
+      }
     },
     "liveOps": {
       "live": "LEVEN",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "UW EFFECT",
       "headerTitle": "Analyse",
+      "errorTitle": "Analytics niet beschikbaar",
+      "errorBody": "Kon de data niet laden. Controleer je verbinding en probeer het opnieuw.",
       "eventLabel": "GEBEURTENIS",
       "kpiViews": "Weergaven",
       "kpiRegistrations": "Registratie",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Uw event is bekeken op 0",
       "insightViewsNone": "Deel uw evenement om meer weergaven te krijgen",
       "insightRegistered_one": "Ingeschreven persoon",
-      "insightRegistered_other": "Mensen geregistreerd"
+      "insightRegistered_other": "Mensen geregistreerd",
+      "actionBoxOffice": "Vak kantoor"
     },
     "sessionsLink": {
       "headerEyebrow": "TOEGANG - ZITTINGEN",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsors zullen hier verschijnen als er een partnerschap wordt toegevoegd."
     },
     "eventCreate": {
+      "aiAppliedMessage": "AI suggesties zijn toegepast op het formulier",
+      "aiTitleSuggestionsTitle": "Titelvoorstellen",
+      "aiPricingSuggestionsTitle": "AI-prijsvoorstellen",
+      "aiTicketsCreated": "Tickets gemaakt van de AI suggesties",
+      "aiDescGenerated": "Beschrijving gegenereerd door AI",
+      "aiNeedTitleFirst": "Voeg eerst een titel toe zodat de AI een beschrijving kan genereren.",
+      "galleryPermissionTitle": "Toestemming vereist",
+      "galleryPermissionMessage": "Geeft u toegang tot uw fotobibliotheek",
+      "videoTooLargeTitle": "Video te groot",
+      "videoTooLargeMessage": "De video moet onder de 20 MB.",
       "unsupportedCountryTitle": "Land niet beschikbaar",
       "unsupportedCountryMessage": "EventEz kan de betalingen in dit land nog niet verwerken. Aanmaak van gebeurtenissen wordt afgewezen. Ondersteunde landen: NotchPay, CinetPay en Stripe (46 landen).",
       "draftFoundTitle": "Ontwerp gevonden",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Gesprek succesvol verzonden",
       "viewMyEvents": "Mijn gebeurtenissen bekijken",
       "createAnother": "Maak een andere",
+      "submittedStamp": "In behandeling",
+      "submittedEyebrow": "Voor een nieuw onderzoek ingediend",
+      "submittedBody": "Ons team bekijkt uw evenement. Je wordt ingelicht zodra het live gaat.",
+      "submittedCtaEyebrow": "Dashboard",
       "edit": "Bewerken",
       "saved": "Opgeslagen",
       "back": "Terug",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Tickets moeten maximaal ≥ de min bedragen",
         "fieldLabelRequired": "Veld #",
         "fieldOptionsRequired": "Er zijn opties nodig voor veld "
-      }
+      },
+      "loadFailedBlocksSave": "De gebeurtenisgegevens konden niet geladen worden. Herlaad de pagina voor het opslaan, anders zou uw huidige informatie worden overschreven."
     },
     "eventRegistrations": {
       "title": "Registratie",
@@ -6157,7 +6694,7 @@
       "rejectSuccess": "Registratie afgewezen",
       "rejectError": "Kan registratie niet weigeren",
       "rejectReasonRequired": "Geef een reden voor afwijzing",
-      "bulkApproveSuccess": "",
+      "bulkApproveSuccess": "{{count}} registration(s) approved",
       "bulkApproveError": "Kan registraties niet goedkeuren",
       "bulkRejectSuccess": "Inschrijvingen afgewezen",
       "bulkRejectError": "Kan registraties niet weigeren",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF-export, dashboards",
       "linkMyEventsTitle": "Mijn gebeurtenissen",
       "linkMyEventsSub": "Statistieken per gebeurtenis"
+    },
+    "boxOffice": {
+      "openTitle": "Open de kassa",
+      "openingFloatHelp": "Hoeveel verandering gaf de organisator je om te beginnen? Zonder dat, zal de telling van vanavond verkeerd zijn.",
+      "openDrawer": "Open de kassa",
+      "openError": "De kassa kon niet geopend worden",
+      "openErrorDetail": "Controleer je verbinding en probeer het opnieuw.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Sluiten",
+      "cash": "Kasmiddelen",
+      "momo": "Mobiel geld",
+      "giveBack": "Geef terug.",
+      "saleError": "De verkoop werd niet geregistreerd",
+      "saleErrorDetail": "Ga niet terug naar de verkoop: probeer het opnieuw, het zal niet twee keer worden aangerekend.",
+      "a11y": {
+        "drawerOpened": "Totdat geopend",
+        "openingFloatInput": "Openen van variabele bedrag",
+        "openDrawer": "Open de kassa",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Sluit de kassa",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Mobiel geld nemen",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "Om over te dragen.",
+      "cashOnlyHint": "Alleen contant geld is niet in uw tas.",
+      "openingFloat": "Float openen",
+      "salesCount": "Verkoop",
+      "countedLabel": "Ik heb geteld.",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Dit blokkeert niet. Leg uit waarom hieronder.",
+      "reasonLabel": "Toelichting (facultatief)",
+      "reasonPlaceholder": "Ik heb 500 te veel wisselgeld gegeven.",
+      "confirmClose": "Sluit mijn kassa",
+      "closedTitle": "Tot sluitingstijd",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Sluiten mislukt",
+      "closeErrorDetail": "Probeer het snel opnieuw.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Telbedrag",
+        "reasonInput": "Variantieverklaring",
+        "confirmClose": "Sluiten bevestigen",
+        "closed": "Tot sluitingstijd"
+      }
+    },
+    "documents": {
+      "title": "Te bedrukken documenten",
+      "a11y": "Afdrukbare documenten",
+      "badges": "Aanwezige badges",
+      "badgesHint": "A6-formaat, 4 per A4-pagina",
+      "attendanceSheet": "Aanmeldblad",
+      "attendanceSheetHint": "Te tekenen bij de receptie ",
+      "certificates": "Deelnamecertificaten",
+      "certificatesHint": "Na het evenement, voor ingecheckte bezoekers"
+    },
+    "weddingGuests": {
+      "title": "Gasten & RSVP",
+      "empty": "Nog geen gasten.",
+      "remindOne": "Herinnering",
+      "remindOneSent": "Herinnering verzonden",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Kon herinnering niet versturen",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "RSVP bewerken",
+      "editRsvpTitle": "RSVP bewerken",
+      "rsvpUpdated": "RSVP bijgewerkt",
+      "rsvpError": "Kon RSVP niet opslaan",
+      "partySize": "Partijgrootte",
+      "dietary": "Dieetvoorschriften",
+      "dietaryPlaceholder": "Vegetarisch, glutenvrij...",
+      "note": "Opmerking",
+      "stats": {
+        "invited": "Uitgenodigd",
+        "accepted": "Bevestigd",
+        "pending": "In afwachting",
+        "headcount": "Aantal personen"
+      },
+      "status": {
+        "pending": "In afwachting",
+        "accepted": "Bevestigd",
+        "declined": "Afgewezen",
+        "cancelled": "Geannuleerd"
+      }
+    },
+    "weddingGifts": {
+      "title": "Registratie en geschenken",
+      "noRegistry": "Geen gift register voor deze gebeurtenis.",
+      "create": "Register aanmaken",
+      "registryCreated": "Aangemaakt register",
+      "registryUpdated": "Register bijgewerkt",
+      "editRegistry": "Register bewerken",
+      "registryTitle": "Registratietitel",
+      "registryDescription": "Bericht aan gasten",
+      "visible": "Register zichtbaar",
+      "hidden": "Verborgen",
+      "totalRaised": "Totaal",
+      "share": "Delen",
+      "addItem": "Een geschenk toevoegen",
+      "newItem": "Nieuw geschenk",
+      "editItem": "Cadeau bewerken",
+      "itemName": "Naam",
+      "itemKind": "Type",
+      "targetAmount": "Streefbedrag",
+      "externalUrl": "Externe koppeling (facultatief)",
+      "itemAdded": "Cadeau toegevoegd",
+      "itemUpdated": "Geschenk bijgewerkt",
+      "itemDeleted": "Geschenk verwijderd",
+      "deleteItemTitle": "Verwijder dit geschenk",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Gereserveerd",
+      "noItems": "Nog geen cadeaus. Voeg er een toe.",
+      "kind": {
+        "gift": "Cadeau (item)",
+        "cash_fund": "Kasmiddelenfonds"
+      },
+      "error": "Er ging iets mis."
+    },
+    "weddingTables": {
+      "title": "Zitplan",
+      "noTables": "Nog geen tafels. Maak er een.",
+      "addTable": "Een tabel toevoegen",
+      "newTable": "Nieuwe tabel",
+      "editTable": "Tabel bewerken",
+      "name": "Tabelnaam",
+      "namePlaceholder": "Tafel 1, familie...",
+      "capacity": "Stoelen",
+      "created": "Tabel aangemaakt",
+      "updated": "Tabel bijgewerkt",
+      "deleted": "Tabel geschrapt",
+      "deleteTitle": "Tabel verwijderen",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Vol",
+      "tableEmpty": "Niemand aan deze tafel.",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Alle bevestigde gasten zitten.",
+      "createFirst": "Maak eerst een tafel om uw gasten te plaatsen.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Gast zit",
+      "unassign": "Verwijderen",
+      "unassigned": "Gast verwijderd",
+      "capacityError": "Niet genoeg plaatsen aan deze tafel.",
+      "error": "Er ging iets mis."
     }
   },
   "moderation": {
@@ -6333,7 +7027,7 @@
     "changesTemplateDeadline": "Ontbrekende registratietermijn",
     "changesTemplateContact": "Contactinformatie toevoegen",
     "bulkRejectModalEyebrow": "BULK · REJECT",
-    "bulkRejectModalTitle": "",
+    "bulkRejectModalTitle": "{{count}} event(s)",
     "bulkRejectModalDescription": "Deze reden zal naar alle relevante organisatoren worden gestuurd.",
     "bulkRejectInputPlaceholder": "Gemeenschappelijke reden voor afwijzing...",
     "bulkRejectAction": "Bulk verwerpen",
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Gebeurtenissen",
       "kpiRevenue": "Ontvangsten",
       "kpiVerifications": "Verificaties",
+      "activityChartTitle": "Platformactiviteit",
+      "activityChartSubtitle": "Controle van de laatste 7 dagen",
       "quickActions": "Snelwerkende ACTIES",
       "recentActivity": "RECENTE ACTIVITEIT",
       "noActivity": "Geen recente activiteit",
       "viewAllAudit": "Alle auditlogboeken bekijken",
       "actions": {
         "users": "Gebruikers",
+        "verifications": "Verificaties",
         "subscriptions": "Abonnementen",
         "audit": "Controle",
         "announcements": "Mededelingen",
@@ -6369,6 +7066,30 @@
         "settings": "Instellingen",
         "treasury": "Financiën"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Beperkte toegang",
+      "eyebrow": "Moderatie",
+      "title": "Verificatieverzoeken",
+      "typeOrg": "Organisatie",
+      "typeIndividual": "Persoon",
+      "noDocuments": "Geen documenten verstrekt",
+      "approve": "Goedkeuring",
+      "reject": "Weigeren",
+      "approveTitle": "Controle van de goedkeuring",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Bevestigen dat deze verificatie wordt goedgekeurd",
+      "approveSuccess": "Organisator geverifieerd",
+      "rejectTitle": "Verzoek verwerpen",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Reden voor afwijzing...",
+      "rejectReasonRequired": "Er is een reden nodig.",
+      "rejectSuccess": "Verzoek afgewezen",
+      "actionError": "De actie is mislukt. Probeer het nog eens.",
+      "loadError": "Kon geen verificatieverzoeken laden.",
+      "emptyTitle": "Geen lopende verzoeken",
+      "emptySubtitle": "Nieuwe verificatieverzoeken voor organisatoren zullen hier verschijnen."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6458,10 +7179,10 @@
         "verifySuccess": "Gecontroleerd",
         "deactivateTitle": "Selectie uitschakelen",
         "deactivateConfirm": "Accounts deactiveren? Gebruikers kunnen zich niet langer aanmelden.",
-        "deactivateSuccess": "",
+        "deactivateSuccess": "{{count}} account(s) deactivated",
         "activateTitle": "Selectie heractiveren",
         "activateConfirm": "Accounts heractiveren?",
-        "activateSuccess": "",
+        "activateSuccess": "{{count}} account(s) reactivated",
         "partial": "Gedeeltelijke actie",
         "partialDetail": "Verwerkte 0 Probeer het later opnieuw voor de mislukte gebruikers.",
         "selected_one": "Geselecteerd",
@@ -6478,6 +7199,16 @@
       "loadError": "Kan gebruiker niet laden",
       "roleSection": "ROL",
       "actionsSection": "ACTIES",
+      "profileSection": "PROFIEL",
+      "fieldFirstName": "Voornaam",
+      "fieldLastName": "Achternaam",
+      "fieldEmail": "E-mail",
+      "fieldPhone": "Telefoon",
+      "fieldCompany": "Onderneming",
+      "saveProfile": "Profiel opslaan",
+      "profileUpdated": "Profiel bijgewerkt",
+      "profileUpdateError": "Kon het profiel niet bijwerken.",
+      "emailRequired": "E-mail is vereist.",
       "infoSection": "MEDEDELINGEN",
       "active": "Actief",
       "inactive": "Inactief",
@@ -6670,6 +7401,21 @@
       "title": "Auditlogboeken",
       "target": "Doel",
       "user": "Gebruiker #",
+      "detail": {
+        "guardTitle": "Loggegevens",
+        "eyebrow": "Auditlog",
+        "title": "Loggegevens",
+        "action": "Actie",
+        "target": "Doel",
+        "user": "Gebruiker",
+        "system": "Systeem",
+        "timestamp": "Tijdstempel",
+        "ip": "IP-adres",
+        "userAgent": "Apparaat / browser",
+        "changes": "Wijzigingen",
+        "metadata": "Gegevens",
+        "loadError": "Kon dit logboek niet laden."
+      },
       "stats": {
         "total": "Totaal"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "E-mail van gast",
     "delegateError": "Kon de uitnodiging niet versturen.",
     "toCompleteBadge": "Te voltooien"
+  },
+  "shareCard": {
+    "eyebrow": "Ik zal er zijn.",
+    "button": "Delen naar verhaal",
+    "dialogTitle": "Deel mijn plek",
+    "cta": "Boek uw plaats →",
+    "errorTitle": "Delen",
+    "errorMessage": "Kan de kaart nu niet aanmaken."
+  },
+  "badges": {
+    "verified": "Geverifieerd",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Een stand aanvragen",
+    "lead": "Stel uw bedrijf voor om een stand te runnen bij deze show. De organisator zal uw verzoek herzien.",
+    "companyLabel": "Bedrijfsnaam",
+    "companyPlaceholder": "Acme Ltd",
+    "categoryLabel": "Industrie / categorie",
+    "categoryPlaceholder": "Bijvoorbeeld Tech, Food...",
+    "websiteLabel": "Website (facultatief)",
+    "pitchLabel": "Bericht aan de organisator (facultatief)",
+    "pitchPlaceholder": "Beschrijf uw bedrijf, wat u zal laten zien...",
+    "boothLabel": "Voorkeurskraam (facultatief)",
+    "submit": "Stuur mijn aanvraag",
+    "submitting": "Verzenden...",
+    "successTitle": "Aanvraag verzonden!",
+    "successSubtitle": "De organisator zal het bekijken. Je wordt op de hoogte gebracht van hun beslissing.",
+    "goToMyBooth": "Mijn stand bekijken",
+    "alreadyApplied": "Je hebt je al aangemeld voor deze show.",
+    "loginRequired": "Meld je aan om een stand aan te vragen.",
+    "login": "Aanmelden",
+    "errorSubmit": "Kon het programma niet versturen.",
+    "ctaTitle": "Een standje draaien bij deze show?",
+    "ctaSubtitle": "Solliciteer in seconden.",
+    "ctaButton": "Een exposant worden"
+  },
+  "myBoothMobile": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Mijn stand",
+    "empty": "Geen stand reservering.",
+    "show": "Tonen",
+    "accepted": "Voorwaarden aanvaard.",
+    "acceptError": "Kan niet accepteren.",
+    "salesTitle": "Gedelegeerde verkoop",
+    "commission": "EventEz commission",
+    "hostShare": "Aandeel organisator",
+    "net": "Wat je bewaart",
+    "createEvent": "Mijn evenement aanmaken",
+    "acceptCta": "Ik accepteer deze voorwaarden.",
+    "statusPaid": "Betaald",
+    "statusPartial": "Betaling",
+    "statusPending": "Te betalen",
+    "amountDue": "Booth-hoeveelheid",
+    "amountRemaining": "Nog te betalen",
+    "payBooth": "Betaal mijn hokje.",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kaart",
+    "paymentInitiated": "Betaling gestart. Bevestig het op je telefoon.",
+    "payError": "Kon de standbetaling niet starten.",
+    "captureLeads": "Contacten vastleggen",
+    "viewLeads": "Mijn contacten"
+  },
+  "leadCapture": {
+    "title": "Een contact vastleggen",
+    "hint": "Richt op de QR-code op de bezoekersbadge.",
+    "permissionTitle": "Toegang tot de camera toestaan",
+    "permissionBody": "De camera wordt alleen gebruikt voor het lezen van de badge QR-code van bezoekers die akkoord gingen om gecontacteerd te worden.",
+    "permissionCta": "Zet de camera aan",
+    "manualEntry": "Typ de referentie in plaats daarvan",
+    "manualPlaceholder": "Referentie badge",
+    "unnamed": "Contact opgeslagen",
+    "alreadyKnown": "Reeds voldaan aan de record bijgewerkt.",
+    "qualify": "Kwalificeren van dit contact",
+    "rating_hot": "Heet",
+    "rating_warm": "Warm",
+    "rating_cold": "Koud",
+    "notesPlaceholder": "Waar je het over had (facultatief)",
+    "next": "Volgende contact",
+    "retry": "Opnieuw scannen",
+    "noConsentTitle": "Deze bezoeker is het niet eens.",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Badge niet herkend",
+    "notFoundBody": "Deze badge hoort niet bij dit evenement. Controleer de referentie onder de QR-code.",
+    "errorTitle": "Scannen is mislukt",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Deze bezoeker heeft geen contact opgenomen.",
+    "a11yNotFound": "Badge niet herkend.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Vandaag",
+    "yesterday": "Gisteren",
+    "justNow": "Net",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Verzenden",
+    "failed": "Versturen mislukt",
+    "sent": "Verzonden",
+    "delivered": "Geleverd",
+    "read": "Gelezen"
+  },
+  "myLeads": {
+    "title": "Mijn contacten",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Naamloos contact",
+    "emptyTitle": "Nog geen contacten",
+    "emptyBody": "Scan de badge van de bezoekers die langs je stand komen. U kunt dan de volledige lijst exporteren als CSV.",
+    "errorTitle": "Kon niet laden",
+    "errorBody": "Uw contacten zijn veilig bewaard. Controleer je verbinding en probeer het opnieuw."
+  },
+  "myDataExhibitors": {
+    "title": "Mijn gegevens van exposanten",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Wissen",
+    "eraseAll": "Alles wissen",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Uw contactgegevens zijn gewist.",
+    "eraseError": "Het wissen ging niet door.",
+    "confirmCta": "Wissen",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Mijn gegevens wissen bij elke exposant?",
+    "confirmAllBody": "Uw naam, e-mail en telefoonnummer worden verwijderd bij elke beursgenoteerde onderneming. Dit kan niet ongedaan worden gemaakt.",
+    "emptyTitle": "Geen enkele onderneming heeft uw contactgegevens",
+    "emptyBody": "Exposanten kunnen alleen uw gegevens opslaan door uw badge te scannen, en alleen als u het voor dat evenement toestaat."
+  },
+  "visio": {
+    "expandCall": "Videogesprek uitvouwen",
+    "endCall": "Einde gesprek",
+    "endCallConfirmTitle": "Het gesprek verlaten?",
+    "endCallConfirmMessage": "Je gaat zo de vergadering verlaten.",
+    "minimize": "Minimaliseren",
+    "liveNow": "LEVEN",
+    "join": "Sluiten",
+    "view": "Beeld",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Beeld",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Grootte wijzigen"
+  },
+  "organize": {
+    "favorites": "Mijn favorieten",
+    "eyebrow": "Organisatorruimte",
+    "title": "Organiseren",
+    "liveNow": "Leef nu",
+    "nextEvent": "Volgende gebeurtenis",
+    "registered": "geregistreerd",
+    "scan": "Scannen",
+    "scanA11y": "Scan tickets voor dit evenement",
+    "boxOffice": "Vak kantoor",
+    "boxOfficeA11y": "Open de kassa voor dit evenement",
+    "viewStats": "Beeldstatistieken",
+    "availableBalance": "Beschikbaar saldo",
+    "walletA11y": "Open mijn portemonnee",
+    "noActiveEvent": "Geen activiteit uitgevoerd",
+    "noActiveEventHint": "Maak een evenement aan of publiceer een concept om het hier te zien.",
+    "noStaffEventHint": "Evenementen waar je deel van het team bent zullen hier verschijnen.",
+    "createEvent": "Een gebeurtenis aanmaken",
+    "myEvents": "Mijn gebeurtenissen",
+    "teamEvents": "Personeel Evenementen I",
+    "analytics": "Analyse",
+    "loadError": "Kon je ruimte niet laden. Controleer je verbinding."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Je bent binnen.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Over een week.",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Deuren zijn open.",
+    "onNow": "Dat gebeurt nu.",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Ticket beschikbaar offline",
+    "offlinePending": "Open het ticket eenmaal om het offline te houden",
+    "sayImGoing": "Zeg dat ik ga.",
+    "showTicket": "Mijn ticket tonen",
+    "directions": "Routebeschrijving",
+    "viewTicket": "Bekijk ticket",
+    "goThere": "Ga",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibreer het kompas: trek een figuur 8 met uw telefoon",
+    "compassHint": "Volg de pijl naar de locatie"
+  },
+  "onSite": {
+    "eyebrow": "Je bent ter plaatse.",
+    "now": "Nu",
+    "next": "Next · {{time}}",
+    "qa": "Live Q&A",
+    "plan": "Kaartlocatie",
+    "networking": "Netwerken"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Jij was erbij.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Eerste om te arriveren",
+    "question": "Wat vond je ervan?",
+    "thanks": "Bedankt voor je waardering.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Delen naar verhaal",
+    "later": "Later"
+  },
+  "yearInReview": {
+    "eyebrow": "Jouw jaar",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "evenement bijgewoond",
+    "s1Line_other": "bijgewoonde evenementen",
+    "citiesEyebrow": "Op de weg",
+    "categoryEyebrow": "Jouw soort evenement",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Het begon allemaal met",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Altijd op tijd",
+    "arrivalsLine_one": "eerst aangekomen",
+    "arrivalsLine_other": "keer als eerste aangekomen",
+    "organizerEyebrow": "Uw organisator",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Deel mijn kaart",
+    "tapHint": "Tik om verder te gaan"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Eerste bezoeker",
+      "someone": "Iemand",
+      "share": "Aandeel om de verkoop te stimuleren",
+      "view": "Beeld",
+      "soldOutTitle": "Uitverkocht",
+      "soldOutLine": "Elk ticket is weg."
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Uitverkocht",
+      "online": "LEVEN"
+    },
+    "share": {
+      "cta": "De gebeurtenis delen",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Delen",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Verzoek",
+      "approved": "Goedgekeurd",
+      "sent": "Verzonden",
+      "verifying": "Controleren bij de exploitant",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Uitbetaling mislukt"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Plaats bijna vol",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Einde van de dienst",
+      "validated": "Ingecheckt",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Afgewezen",
+      "syncing": "Synchroniseren...",
+      "synced": "Gesynchroniseerd",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Bekijk live ops",
+      "resume": "Hervatten",
+      "close": "Afmaken"
+    },
+    "recap": {
+      "title": "Samenvatting",
+      "eyebrow": "RESULTAAT",
+      "attended": "Aanwezig",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Ontvangsten",
+      "rating": "Gemiddelde rating",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Nog geen beoordelingen",
+      "best": "Stand-out beoordeling",
+      "latest": "Laatste beoordelingen",
+      "thank": "Bedank de aanwezigen",
+      "funds": "Bekijk fondsen",
+      "error": "Recap is nu niet beschikbaar.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Samenvatting weergeven"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Gereserveerd.",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Gereserveerd in het laatste uur",
+    "lastSaleToday": "Vandaag geboekt",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Uitverkocht",
+    "soldOutCta": "Uitverkocht · geen stoelen meer over",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Je connecties die gaan",
+    "someone": "Iemand",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 uur",
+    "seatHeldTitle": "Er wordt een stoel voor je vastgehouden.",
+    "seatHeldBody": "Boek voor het aftellen eindigt: daarna gaat het naar de volgende persoon.",
+    "seatHeldCta": "Boek mijn stoel",
+    "seatHeldExpired": "De tijd is om: de stoel ging naar de volgende persoon.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Alles tonen",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reacties",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Een van je connecties is er.",
+    "connectionArrivedCta": "Bericht ze",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Levende verkoop",
+    "checkinPushed": "Levende aankomst"
+  },
+  "reminders": {
+    "channelName": "Gebeurtenisherinnering",
+    "dayBeforeTitle": "Herinnering: morgen",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Herinnering: over 1 uur",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Ontdekken",
+    "discoverSubtitle": "Evenementen in uw buurt",
+    "tickets": "Mijn tickets",
+    "scan": "Scan een ticket"
+  },
+  "ongoing": {
+    "channelName": "Dag van de gebeurtenis",
+    "eventFallback": "Uw evenement",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Binnenkort starten",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Op dit moment · is uw ticket klaar",
+    "scannerTitle": "Scanner tijdens dienst"
+  },
+  "gestures": {
+    "undo": {
+      "title": "De laatste actie ongedaan maken?",
+      "confirm": "Ongedaan maken",
+      "keep": "Houden",
+      "failed": "Ongedaan maken ging niet door. Controleer je verbinding en probeer het opnieuw.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Verplaats het gesprek uit het archief."
+    },
+    "report": {
+      "title": "Rapporteer een probleem",
+      "subtitle": "Test build: de screenshot, het scherm en de versie worden verzonden met uw bericht.",
+      "noNote": "Rapporteer zonder commentaar",
+      "blur": "Vervagen",
+      "noShot": "Geen screenshot beschikbaar op dit scherm.",
+      "placeholder": "Wat is er gebeurd?",
+      "send": "Verzenden",
+      "sent": "Dank u, uw rapport is verzonden.",
+      "unavailable": "Kan niet versturen: error tracking is niet actief op deze build."
+    },
+    "applause": {
+      "hint": "Hou vol om langer te applaudisseren.",
+      "a11y": "Lang applaus"
+    },
+    "hush": {
+      "title": "Mic en camera uitgeschakeld terwijl de telefoon naar beneden was",
+      "reactivate": "Tik om ze weer aan te zetten"
+    },
+    "lighter": {
+      "button": "Lichter",
+      "off": "Doe het uit.",
+      "alone": "Verhoog je telefoon, de vlam volgt je bewegingen.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Verras me.",
+      "chipA11y": "Een willekeurige gebeurtenis voorstellen",
+      "again": "Nog een",
+      "none": "Geen aankomende gebeurtenis om nu te suggereren."
+    },
+    "bump": {
+      "settingTitle": "Contacten wisselen door schudden",
+      "settingSubtitle": "Op de site, zodra uw ticket is gescand: schudden op hetzelfde moment als iemand anders om elkaar te vinden. Uw geschatte locatie wordt gebruikt voor een paar seconden om bij u te passen en wordt nooit opgeslagen. Er gebeurt niets zonder jouw bevestiging. Standaard uit.",
+      "button": "Wisselen door schudden",
+      "nearbyButton": "Kijk om me heen.",
+      "hint": "Schud je telefoon tegelijk met de andere persoon.",
+      "title": "Contacten wisselen",
+      "searching": "Op zoek naar mensen die in je buurt trillen...",
+      "none": "Niemand gevonden. Schudden op hetzelfde moment als de andere persoon, probeer het dan opnieuw.",
+      "pick": "Kies de juiste persoon. Niets wordt gedeeld zonder uw toestemming.",
+      "connect": "Verbinden?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Wachten op hun bevestiging",
+      "connected": "Verbonden",
+      "openSettings": "Instellingen openen",
+      "error": {
+        "disabled": "Schakel contacten in door te schudden in uw instellingen.",
+        "notCheckedIn": "Beschikbaar zodra uw ticket is gescand bij de ingang.",
+        "clockSkew": "De klok van je telefoon staat uit. Zet het op automatisch en probeer het opnieuw.",
+        "rateLimited": "Te veel pogingen. Probeer het zo nog eens.",
+        "expired": "De ruil is verlopen. Begin opnieuw.",
+        "noLocation": "Locatie is nodig om de persoon in je buurt te vinden.",
+        "generic": "De ruil ging niet door. Probeer het nog eens."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "De agendanotitie opslaan"
+    },
+    "torch": {
+      "onA11y": "Zet de fakkel aan.",
+      "offA11y": "Zet de fakkel uit.",
+      "hint": "Double-tap de zoeker om de fakkel aan of uit te zetten."
+    },
+    "dragSelect": {
+      "select": "Selecteren",
+      "hint": "Of sleep twee vingers naar beneden om meerdere aanwezigen aan te vinken.",
+      "message": "Bericht van de geselecteerde deelnemers",
+      "export": "Selectie exporteren",
+      "exportError": "Exporteren van de selectie is mislukt.",
+      "csvName": "Naam",
+      "csvEmail": "E-mail",
+      "csvReference": "Rubrieknummer",
+      "csvStatus": "Status",
+      "csvDate": "Geregistreerd"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Je tickets halen...",
+      "favorites": "Je favorieten ophalen...",
+      "notifications": "Uw meldingen ophalen...",
+      "messages": "Je gesprekken ophalen...",
+      "search": "Op zoek naar overeenkomende evenementen...",
+      "event": "De agendanotitie pagina voorbereiden..."
+    },
+    "mobileMoney": {
+      "sent": "Uw betalingsaanvraag is naar uw exploitant verzonden.",
+      "pin": "Instemming met uw pincode op uw telefoon, in uw operator.",
+      "operator": "De bevestiging kan even duren. Dat is normaal, blijf op deze pagina.",
+      "once": "Je wordt maar één keer aangeklaagd, zelfs als het wachten doorgaat."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Uw tickets verschijnen hier zodra u zich registreert voor een evenement.",
+        "v1": "Een concert, een conferentie, een workshop? Het begint allemaal met een gebeurtenis.",
+        "v2": "Je volgende uitje is misschien al online."
+      },
+      "favorites": {
+        "v0": "Tik op het hart op een evenement om het hier te vinden en te horen over veranderingen.",
+        "v1": "Volg een evenement zodat je het nieuws nooit mist.",
+        "v2": "Eén hart is genoeg om een gebeurtenis bij de hand te houden."
+      },
+      "notifications": {
+        "v0": "Nieuws van de evenementen en organisatoren die u volgt zal hier verschijnen.",
+        "v1": "Volg een gebeurtenis om te worden geïnformeerd over wat nieuw is.",
+        "v2": "We laten het je weten zodra er iets gebeurt."
+      },
+      "messages": {
+        "v0": "Iemand ontmoet op een evenement? Scan hun code om verbinding te maken.",
+        "v1": "Uw event connecties verschijnen hier: één code scan is genoeg.",
+        "v2": "Swap contactgegevens ter plaatse door een bezoekerscode te scannen."
+      },
+      "discover": {
+        "v0": "Een zoekwoord vindt soms wat de startpagina nog niet laat zien.",
+        "v1": "Zoeken op stad of categorie: elke week komen er nieuwe evenementen."
+      },
+      "exploreAction": "Zien wat er aan de hand is",
+      "scanAction": "Scan een code",
+      "searchAction": "Zoek naar een evenement",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Widen tot 50 km om u heen",
+      "clearFilters": "Filters wissen"
+    },
+    "greeting": {
+      "when": {
+        "today": "vandaag",
+        "tomorrow": "morgen",
+        "dayAfter": "overmorgen"
+      },
+      "there": "ter plaatse",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Gefeliciteerd. Nog een fijne dag.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Fijne nationale dag!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Welkom terug.",
+      "subtitle_one": "Een nieuw ding sinds je laatste bezoek.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "En nog één uit wat je volgt.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Verbergen",
+      "reason": {
+        "followed_organizer": "Organisator die u volgt",
+        "new_edition": "Nieuwe editie van een evenement dat u bezocht",
+        "other": "Nieuw"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "Voor u · op basis van uw smaak",
+      "forYouTitle": "Je zou ook graag",
+      "loginCtaTitle": "Op u afgestemde aanbevelingen"
+    },
+    "settings": {
+      "ritualsEyebrow": "Kleine touchjes",
+      "ritualsTitle": "Kleine aanrakingen",
+      "ritualsSubtitle": "Een woord op je verjaardag, je account jubileum of nationale dag, één keer overdag. Je leeftijd wordt nooit getoond, geen melding.",
+      "forgetEyebrow": "AANBEVELINGEN",
+      "forgetTitle": "Vergeet mijn voorkeuren",
+      "forgetSubtitle": "Wis wat volgde op evenementen, registraties en zoekopdrachten leerde uw aanbevelingen.",
+      "forgetConfirmTitle": "Je voorkeuren vergeten?",
+      "forgetConfirmMessage": "Uw aanbevelingen beginnen vanaf nul. Uw tickets, favorieten en volgt niet veranderen.",
+      "forgetDone": "Gedaan: uw aanbevelingen beginnen vanaf nul.",
+      "forgetUnavailable": "Deze optie is nog niet beschikbaar. Er is niets gewist.",
+      "forgetError": "Uw voorkeuren konden niet gewist worden. Ze zijn ongewijzigd; probeer het opnieuw in een moment."
+    },
+    "goingCard": {
+      "title": "Terwijl u wacht, bereiden uw ",
+      "subtitle": "Het zal klaar zijn om te delen zodra de betaling is bevestigd.",
+      "tintLabel": "Achtergrond",
+      "messageLabel": "Bericht",
+      "messages": {
+        "going": "Ik ga.",
+        "meetThere": "Zie je daar?",
+        "seeYou": "Ontmoet me daar."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Je kaart afdrukken terwijl je wacht.",
+      "ready": "Uw kaart is klaar.",
+      "share": "Deel mijn kaart",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }
