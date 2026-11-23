@@ -41,6 +41,7 @@
     "close": "Zavřít",
     "clear": "Vyčistit",
     "back": "Zpět",
+    "home": "Domů",
     "next": "Další",
     "previous": "Předchozí",
     "search": "Hledat",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Kód je nesprávný nebo platný",
     "loginError": "Chyba přihlášení",
     "registerError": "Chyba sign- up",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Účet již existuje",
     "registerEmailExistsDetail": "S tímto emailem již existuje účet. Chcete se zapsat?",
     "registerEmailExistsConfirm": "Přihlaste se.",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Příjmení je povinné",
     "emailRequired": "E-mail je vyžadován",
     "emailInvalid": "Neplatný e-mail",
+    "passwordRequired": "Heslo je vyžadováno",
     "passwordTooShort": "Heslo příliš krátké (minimálně 0 znaků)",
+    "confirmPasswordRequired": "Je vyžadováno potvrzení hesla",
     "passwordsDontMatch": "Hesla se neshodují.",
+    "usernameRequired": "Vyžaduje se uživatelské jméno",
     "usernameTooShort": "Uživatelské jméno příliš krátké (minimálně 0 znaků)",
     "usernameInvalid": "Neplatné uživatelské jméno",
+    "phoneRequired": "Vyžaduje se telefonní číslo",
     "phoneInvalid": "Neplatné telefonní číslo",
     "minLength": "Nejméně 1 / 0 znaků",
     "maxLength": "Maximální počet znaků"
@@ -449,7 +461,8 @@
     "saved": "Uložené",
     "messages": "Zprávy",
     "tickets": "Vstupenky",
-    "profile": "Profil"
+    "profile": "Profil",
+    "organize": "Organizovat"
   },
   "languagePicker": {
     "eyebrow": "Vítejte.",
@@ -492,6 +505,7 @@
     "viewAction": "Pohled",
     "viewEvent": "Zobrazit událost",
     "share": "Sdílet",
+    "scrollToTop": "Zpět na začátek",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Volný, bez závazků",
     "freeBadge": "ZDARMA",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Všechno je připraveno!",
     "notifyOnBody": "Dáme vám vědět, jakmile budou první události živé.",
     "notifyOffTitle": "Vypnutí oznámení",
-    "notifyOffBody": "Povolit upozornění v nastaveních, které mají být upozorněny."
+    "notifyOffBody": "Povolit upozornění v nastaveních, které mají být upozorněny.",
+    "organizersEyebrow": "Organizátoři",
+    "organizersTitle": "Lidé za scénou",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Ověřený pořadatel",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Ceny",
@@ -604,7 +624,10 @@
     "invisibleHint": "Jste neviditelní - zapněte se, aby vás viděli.",
     "message": "Zpráva",
     "connected": "Připojeno",
-    "empty": "Nikdo není viditelný. Buďte první, kdo zapne vaše sítě!"
+    "empty": "Nikdo není viditelný. Buďte první, kdo zapne vaše sítě!",
+    "scanOptInTitle": "Nechte vystavovatele skenovat můj odznak.",
+    "scanOptInSubtitle": "Výstavní společnosti budou moci uložit vaše jméno a kontaktní údaje skenováním vašeho odznaku, takže mohou sledovat po události.",
+    "scanOptInWithdrawNote": "Můžeš to kdykoliv vypnout. Kontakty již uložené vystavovateli nejsou smazány automaticky - můžete požádat o jejich vymazání z nastavení Vašeho soukromí."
   },
   "eventDetails": {
     "eyebrow": "PŘÍPAD",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online událost",
     "meetingId": "Identifikace setkání:",
     "meetingPasscode": "Heslo:",
+    "liveEngagement": "Live Q & A a průzkumy",
     "joinEvent": "Připojit událost",
     "joinOnline": "Připojte se online",
     "registered": "Zaevidováno",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Sdílet na WhatsApp",
     "closePreviewA11y": "Zavřít náhled",
     "invalidCode": "Neplatný přístupový kód",
+    "accessButton": "Zadejte",
+    "pendingPaymentBanner": "Vyplňte platbu pro potvrzení registrace",
+    "onlineInfoAfterRegistration": "Podrobnosti o připojení budou k dispozici po registraci",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Zvětšit",
+    "playCoverVideo": "Přehrát video",
+    "videoPlayA11y": "Přehrát video se zvukem",
+    "videoUnmuteA11y": "Neněmý",
+    "videoMuteA11y": "Ztlumit",
+    "videoExpandA11y": "Rozbalit video na celou obrazovku",
     "imagesCount": "1",
     "videoConference": "Video konferenční platforma",
     "openLinkError": "Nelze otevřít odkaz na událost",
@@ -675,7 +708,28 @@
     "registeredStatus": "Zaevidováno",
     "pendingStatus": "Probíhá",
     "priceLabel": "Cena",
-    "fromLabel": "Od"
+    "fromLabel": "Od",
+    "waitlistJoinedDetail": "Přidal ses k číšníkovi. Dáme vám vědět, jakmile se místo otevře.",
+    "waitlistLeftMsg": "Opustil jsi seznam číšníků.",
+    "waitlistLeaveError": "Nelze opustit seznam číšníků",
+    "waitlistJoinError": "Nelze se připojit k seznamu číšníků",
+    "waitlistLeaveTitle": "Nech tu seznam číšníků.",
+    "waitlistLeaveConfirm": "Jsi si jistý, že chceš opustit seznam číšníků?",
+    "whatsappNotInstalled": "WhatsApp není nainstalován na tomto zařízení",
+    "reviewRatingRange": "Vyberte prosím rating mezi 1 a 5",
+    "reviewThanksTitle": "Díky!",
+    "reviewSubmitted": "Váš přezkum byl úspěšně předložen",
+    "loginRequiredTitle": "Požadovaný signál",
+    "loginRequiredReview": "Přihlásit se k zanechání přezkumu",
+    "reviewSubmitError": "Nelze předložit recenzi",
+    "loginRequiredWaitlist": "Zaregistrujte se a připojte se k pořadníku.",
+    "invitationGateDesc": "Tato akce je vyhrazena pro pozvané hosty. Pokud jste obdrželi pozvánku, prosím, přijměte ji pro získání přístupu.",
+    "codeGateDesc": "Zadejte kód pro zobrazení podrobností",
+    "giftRegistryCta": "Registr dárků",
+    "giftRegistrySubtitle": "Podívej se na seznam a přidej se, jestli chceš.",
+    "cancelReasonTitle": "Důvod zrušení",
+    "visioEnded": "Video konference této akce skončila.",
+    "videoPauseA11y": "Pozastavit video"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Vaše minulé události se objeví zde.",
     "scanQR": "Kód QR skenování",
     "showQR": "Zobrazit QR kód",
+    "viewQR": "Zobrazit QR",
+    "receivedTransfers": "Přijaté převody",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "QR kód",
     "qrSubtitle": "Zobrazit tento kód u vchodu",
     "ticketDetails": "Údaje o vstupence",
@@ -930,7 +987,10 @@
     "monthNovember": "LISTOPAD",
     "monthDecember": "PROSINCE",
     "tapToShowQR": "Klepněte na možnost Zobrazit QR kód",
-    "searchTitleRefVenue": "Titul, rozhodčí, místo..."
+    "searchTitleRefVenue": "Titul, rozhodčí, místo...",
+    "pendingPayment": "Probíhající platba",
+    "pendingExpired": "Událost ukončena",
+    "statusExpired": "Propuštěn"
   },
   "payment": {
     "title": "Platba",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Zpět",
     "paymentGenericError": "Při platbě došlo k chybě",
     "paymentErrorTitle": "Chyba platby",
+    "paymentBlockedTitle": "Zablokovaná platba kartou",
     "paymentCancelledTitle": "Zrušená platba",
     "paymentNoPaymentInProgress": "Žádná probíhající platba k ověření",
     "paymentVerifyingTitle": "Ověřuji...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Pokračujte v čekání.",
     "paymentProcessing": "Zpracování",
     "paymentTitle": "Platba",
+    "checkoutStep": "KROK 3 / 3 • PLATBA",
+    "noDoubleCharge": "Budeš nabitá jen jednou, i když se obrazovka na chvíli otočí.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Přijímám",
+    "termsLinkFull": "podmínky prodeje a zásady vrácení",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Výběr",
     "paymentStepRecap": "Rekapitulace",
     "paymentMethodFallback": "Platba",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Platba",
     "myPaymentsFilterCompleted": "Dokončeno",
     "myPaymentsFilterPending": "Probíhá",
-    "myPaymentsFilterFailed": "Selhalo"
+    "myPaymentsFilterFailed": "Selhalo",
+    "finalizeEndedTitle": "Tato událost skončila",
+    "finalizeEndedBody": "Nemůžete již dokončit registraci: událost již skončila. Nebyl jste obviněn.",
+    "finalizeClosedTitle": "Registrace ukončena",
+    "finalizeClosedBody": "Doba registrace pro tuto událost skončila.",
+    "finalizeSoldOutTitle": "Lístky vyprodané",
+    "finalizeSoldOutBody": "Lístky, které jste si rezervovali, už nejsou k dispozici. Vaše rezervace vypršela. Nebyl jste obviněn.",
+    "finalizeBackToEvent": "Zpět na událost",
+    "paymentPushSentTitle": "Potvrdit na telefonu",
+    "paymentPushSentMessage": "Na váš telefon byla odeslána žádost o platbu. Schválit pro dokončení (PIN Mobile Money).",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Požadovaná náhrada"
   },
   "memories": {
     "title": "Mé vzpomínky",
@@ -1235,7 +1313,11 @@
     "recapShare": "Sdílet můj rekapitulaci",
     "recapEvents": "události žily",
     "recapCities": "města",
-    "recapFirst": "čas dorazil # 1"
+    "recapFirst": "čas dorazil # 1",
+    "oneYearAgo": "Před rokem jsi tam byl.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Dlouhý tisk pro překvapení",
+    "firstNote": "První, kdo dorazí. Dveře byly sotva otevřené."
   },
   "profile": {
     "title": "Profil",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Odhlásit se",
     "logoutInProgress": "Odhlásit se...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Můj QR kód"
+    "myQRTitle": "Můj QR kód",
+    "refundsMenu": "Moje náhrady",
+    "refundsSubtitle": "Sledujte, kde stojí vaše peníze",
+    "shareProfileButton": "Sdílet můj profil",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Můj profil organizátora",
+    "shareOrganizerA11y": "Sdílet můj profil organizátora",
+    "viewPublicProfileA11y": "Zobrazit můj veřejný profil",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Nesledujeme?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Následující",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Žádné výsledky",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Objevte události",
+    "followSearchPlaceholder": "Hledat pořadatele"
   },
   "editProfile": {
     "title": "Upravit profil",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Adresa",
     "sectionOrganization": "Organizace",
     "sectionSecurity": "Bezpečnost",
-    "qrShareSubtitle": "Naskenujte tento kód pro sdílení vašeho profilu"
+    "qrShareSubtitle": "Naskenujte tento kód pro sdílení vašeho profilu",
+    "countryPlaceholder": "Vyberte zemi",
+    "orgLogoLabel": "Logo",
+    "orgLogoAdd": "Přidat logo",
+    "orgLogoChange": "Změnit logo",
+    "orgWebsiteLabel": "Internetová stránka",
+    "orgDescriptionLabel": "Veřejný popis",
+    "orgDescriptionPlaceholder": "Představte svou organizaci..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTISPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Téma",
     "themeDialogSubtitle": "Vyberte si téma",
     "timezoneDialogTitle": "Timezon",
+    "timezoneDetected": "detekováno",
     "timezoneDialogSubtitle": "Vyberte si časovou zónu",
     "preferencesTitle": "Předvolby",
     "headerEyebrow": "SETTINGS",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Potvrzení a náhrady",
     "rowNewConversations": "Nové rozhovory",
     "rowMarketing": "Doporučení a propagace",
+    "rowSocialEyebrow": "Sociální",
+    "rowSocial": "Sociální činnost",
+    "rowSocialDesc": "Noví následovníci, upomínky, žádosti o přezkum",
+    "newRegistrationsEyebrow": "Organizátor",
+    "newRegistrationsTitle": "Nové registrace",
+    "newRegistrationsDescription": "Jak často jste emailem, když se někdo registruje na vaše události",
+    "newRegistrationsFreq": {
+      "realtime": "Reálný čas",
+      "hourly": "Hodiny",
+      "daily": "Denně",
+      "off": "Vypnout"
+    },
+    "quietHoursEyebrow": "Nerušit",
+    "quietHoursTitle": "Tiché hodiny",
+    "quietHoursDescription": "Pauza non-zásadní push / SMS oznámení přes noc. Důležité varování se vždy objeví.",
+    "quietHoursFrom": "Od",
+    "quietHoursTo": "Dokud",
     "rowSounds": "Zní to v klíčových momentech.",
     "rowSoundsSubtitle": "Přehrává zvuk při potvrzení platby nebo QR skenování",
     "rowTwoFA": "Ověření faktoru T2",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Faktury",
     "shortcutTaxes": "Daně",
     "shortcutMyEvents": "Moje akce",
-    "shortcutHelp": "Nápověda"
+    "shortcutHelp": "Nápověda",
+    "rowMyDataAtExhibitors": "Moje údaje v držení vystavovatelů",
+    "rowLiveBanner": "Live events banner",
+    "rowLiveBannerSubtitle": "Ukázat banner připojit událost, která je v současné době živá.",
+    "pushPermissionTitle": "Oznámení jsou pro toto zařízení vypnuta.",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Dej vědět mým kontaktům.",
+    "rowShareAttendanceSubtitle": "Vaše konexe vidí, že se účastníte akce. Vypnuto ve výchozím nastavení; nikdy pro invita- pouze události.",
+    "rowNotifyMemories": "\"Před rokem\" oznámení",
+    "rowNotifyMemoriesSubtitle": "Nanejvýš jedna připomínka za týden k výročí akce, které jste se zúčastnili.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Soukromá rekapitulace vašeho roku v prosinci. Nikdo jiný to nevidí.",
+    "madeInDouala": "Vyrobeno v Douale, s péčí.",
+    "madeInDoualaSub": "Díky, že jste s námi oživila své události.",
+    "rowUiSounds": "Zvuky rozhraní",
+    "rowUiSoundsSubtitle": "Velmi jemné zvuky na potvrzení a příchozí oznámení. Vypnuto.",
+    "vibrationsEyebrow": "Touch",
+    "rowVibrations": "Vibrace",
+    "rowVibrationsSubtitle": "Haptická zpětná vazba na klíčové akce: platby, skenování, oblíbené.",
+    "rowMotionGestures": "Pohybové gesty",
+    "rowMotionGesturesSubtitle": "Protřepat, otočit nebo podržet telefon pro některé akce. Tlačítko je také vždy dostupné.",
+    "notificationsEyebrowOngoing": "Oznámení",
+    "rowOngoingEvent": "Vypsaná jízdenka v den události",
+    "rowOngoingEventSubtitle": "Tiché oznámení, 3 hodiny před a během akce, s jízdenkou a pokyny.",
+    "rowNotificationSounds": "Zvuky oznámení",
+    "rowNotificationSoundsSubtitle": "Vyberte si zvuk pro každou kategorii (velké okamžiky, prodej, zprávy...) v nastavení telefonu"
   },
   "messages": {
     "title": "Zprávy",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Vyhledej kontakt...",
     "searchEyebrow": "Hledání",
     "searchHint": "Typ k vyhledávání",
-    "noOneFound": "Nikdo ho nenašel."
+    "noOneFound": "Nikdo ho nenašel.",
+    "myConnectionsSection": "Moje konexe",
+    "searchResultsSection": "Výsledky",
+    "noConnectionsEyebrow": "SÍTĚ",
+    "noConnectionsTitle": "Zatím žádné spojení.",
+    "noConnectionsCta": "Připojení přes QR",
+    "emptyEyebrowArchived": "USPOŘÁDÁNÍ",
+    "emptyEyebrowEmpty": "SKLÁDAČKA EMPTY",
+    "archivedEmptyDesc": "Vaše archivované rozhovory přistanou tady.",
+    "noConversationsDesc": "Začneme novou zprávu - najdeme si někoho, s kým si promluvíme.",
+    "attachmentPreview": "[Příloha]",
+    "noMatchingMessage": "Žádná odpovídající zpráva"
   },
   "notifications": {
     "title": "Oznámení",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Co je nového?",
     "typePendingModeration": "Přezkum",
     "typeModerationReminder": "Moderační fronta",
+    "typeNewFollower": "Nový následovník",
+    "typeFollowedOrganizerNewEvent": "Nová událost",
+    "typeFollowRegistered": "Spojení jde",
+    "typeConnectionsAtEvent": "Vaše konexe",
+    "eyebrowNetwork": "SÍTĚ",
+    "eyebrowSoon": "SOUČASNOST",
+    "eyebrowReminder": "PŘIPOMÍNKY",
+    "eyebrowModeration": "VZOR",
+    "eyebrowToReview": "PŘEZKUM",
+    "eyebrowDiscovery": "DISCOVER",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "CO JE NOVÉ",
+    "filterReadTab": "Čtení",
+    "groupToday": "DNES",
+    "groupYesterday": "Včerejší den",
+    "tabAll": "Všechny",
+    "tabNetwork": "Síť",
     "typeDefault": "Oznámení",
     "filterAllTab": "Všechny",
     "filterUnreadTab": "Nepřečtené",
@@ -1739,7 +1919,26 @@
     "statTotal": "CELKEM",
     "statUnread": "NEČTĚT",
     "statToday": "DNES",
-    "viewDetails": "Zobrazit detaily"
+    "viewDetails": "Zobrazit detaily",
+    "actions": {
+      "showTicket": "Zobrazit můj lístek",
+      "directions": "Instrukce",
+      "going": "Už jdu.",
+      "viewTicket": "Zobrazit tiket",
+      "reply": "Odpověď",
+      "replyPlaceholder": "Vaše zpráva...",
+      "replySubmit": "Odeslat",
+      "markRead": "Označit jako přečtené",
+      "joinLive": "Připojit",
+      "payNow": "Zaplaťte hned.",
+      "writeTo": "Napiš jim.",
+      "viewEvent": "Zobrazit událost",
+      "viewTickets": "Zobrazit mé lístky",
+      "viewRefund": "Zobrazit vrácení",
+      "viewProfile": "Zobrazit profil",
+      "summaryTitle": "Zprávy",
+      "summaryBody": "Nové zprávy"
+    }
   },
   "dashboard": {
     "title": "Přístrojová deska",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Spravuj můj plán.",
     "exportTitle": "Vývoz",
     "exportSubtitle": "Vaše údaje",
-    "settingsLink": "Nastavení"
+    "settingsLink": "Nastavení",
+    "greetingNight": "Hezký večer."
   },
   "following": {
     "title": "Moje oblíbené",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Pozvánka odmítla.",
     "declineError": "Nemohl jsem odmítnout pozvání.",
     "declineButton": "Pokles",
+    "declineConfirmTitle": "Odmítnutí pozvání",
+    "declineConfirmMessage": "Jsi si jistý, že chceš odmítnout pozvání?",
     "fromLabel": "Z",
     "toLabel": "RECIPIENT",
     "organizerFallback": "Organizátor",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Odeslání selhalo",
     "downloadFailed": "Stáhnout selhalo",
     "tryAgain": "Zkus to znovu.",
-    "contactSupport": "Kontaktní podpora"
+    "contactSupport": "Kontaktní podpora",
+    "timeout": "Žádost trvala příliš dlouho. Zkontrolujte spojení a zkuste to znovu.",
+    "validation": "Některé detaily jsou neplatné. Opravit zvýrazněná pole a zkuste to znovu.",
+    "fields": {
+      "title": "Název",
+      "subtitle": "Subtitle",
+      "message": "Zpráva",
+      "image": "Obrázek",
+      "cta_label": "Štítek tlačítka",
+      "cta_url": "Tlačítko",
+      "link_url": "Odkaz",
+      "target_event": "Cílová událost",
+      "country": "Země",
+      "city": "Město",
+      "radius_km": "Poloměr",
+      "placement": "Umístění",
+      "priority": "Priorita",
+      "severity": "Závažnost",
+      "audience": "Publikum",
+      "platform": "Platforma",
+      "valid_from": "Platné od",
+      "valid_until": "Platí do"
+    },
+    "http": {
+      "badRequest": "Nemohli jsme zpracovat vaši žádost. Prosím zkontrolujte své údaje a zkuste to znovu.",
+      "unauthorized": "Vaše sezení skončilo. Prosím, zapište se znovu.",
+      "forbidden": "Na to nemáte povolení.",
+      "notFound": "Nemohli jsme najít to, co jste hledali.",
+      "conflict": "Tato akce je v rozporu se současným státem. Obnovit a zkusit to znovu.",
+      "tooManyRequests": "Příliš mnoho pokusů. Počkejte chvíli a zkuste to znovu.",
+      "server": "Naše servery mají teď problémy. Prosím, zkuste to za pár minut.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Tento e-mail je již připojen k účtu. Přihlaste se nebo použijte jinou adresu.",
+      "usernameTaken": "To uživatelské jméno už je zabrané, vyberte si prosím jiné.",
+      "weakPassword": "Vyberte heslo alespoň 8 znaků míchajících písmena a čísla.",
+      "invalidCredentials": "Nesprávný e-mail nebo heslo. Zkuste to znovu nebo resetujte heslo.",
+      "resetLinkExpired": "Toto resetovací spojení vypršelo. Vyžádej si novou.",
+      "otpInvalid": "Tento kód je nesprávný nebo vypršel. Zkontrolujte to nebo požádejte o novou.",
+      "otpSendFailed": "Nemohli jsme poslat SMS kód. Zkontrolujte své číslo a zkuste to znovu, nebo se přihlaste e-mailem.",
+      "paymentMethodUnsupported": "Tato platební metoda není k dispozici pro tuto událost. Prosím, vyberte si jinou.",
+      "paymentFailed": "Vaše platba nemohla být dokončena. Nebyl jste obviněn. Zkuste to znovu nebo použijte jinou metodu.",
+      "paymentNetwork": "Spojení upadlo během platby. Zkontrolujte si internet a zkuste to znovu - nebudete účtováni dvakrát.",
+      "paymentTimeout": "Vaše platba trvá déle, než se očekávalo. Neplaťte znovu - zkontrolujte si jízdenky za pár minut, nebo kontaktujte podporu, pokud nic nepřijde.",
+      "paymentVerifyFailed": "Ještě jsme nemohli potvrdit vaši platbu. Pokud jste byli účtováni, vaše vstupenky se objeví brzy - zkontrolujte znovu za pár minut.",
+      "refundFailed": "Vaše žádost o vrácení peněz nemohla být zaslána. Zkuste to znovu, nebo kontaktujte podporu.",
+      "insufficientBalance": "Nedostatečná bilance pro tuto operaci.",
+      "payoutLocked": "Tuto výplatu již nelze změnit, protože zpracování již začalo. Kontaktujte podporu, pokud je to chyba.",
+      "planLimitReached": "Dosáhl jsi svého plánu. Aktualizuj svůj plán, aby pokračoval.",
+      "countryNotSupported": "V této zemi ještě nejsou platby k dispozici. Můžete vytvořit událost v podporované zemi, nebo nás kontaktujte."
+    },
+    "tickets": {
+      "offline": "Jsi offline. Vstupenky, které jste již nahrál, zůstávají dostupné offline. Zkus to znovu, až budeš zase online.",
+      "timeout": "Vaše lístky chvíli trvají, než je naložíte. Nic se neztratilo: jsou bezpečně zachráněni. Za chvíli to zkus znovu.",
+      "server": "Naše servery mají krátký zádrhel. Vaše lístky jsou na naší straně v bezpečí. Zkuste to za pár minut.",
+      "notFound": "Nemůžeme najít ten lístek. Ostatní lístky nejsou ovlivněny. Obnovte seznam nebo zkontrolujte potvrzující e-mail.",
+      "forbidden": "Ten lístek patří jinému účtu. Vaše vlastní lístky jsou nedotčené. Přihlaste se k účtu použitému k nákupu."
+    },
+    "messages": {
+      "offline": "Jsi offline. Vaše zprávy nejsou ztraceny: ty, které čekají, půjdou ven, jakmile jste zpět online. Zkuste to znovu, až se síť vrátí.",
+      "timeout": "Zprávy jsou pomalé. Vaše zprávy se neztratily. Za chvíli to zkus znovu.",
+      "server": "Zprávy jsou na naší straně. Vaše rozhovory jsou nedotčené. Zkuste to za pár minut.",
+      "notFound": "Tenhle rozhovor už neexistuje. Vaše ostatní rozhovory nejsou ovlivněny. Vraťte se ke svým zprávám.",
+      "forbidden": "Už nemáš přístup k této konverzaci. Vaše další konverzace jsou stále k dispozici. Vraťte se ke svým zprávám."
+    },
+    "event": {
+      "offline": "Jsi offline, takže to nemůžeme ukázat. Vaše vstupenky zůstávají dostupné offline. Zkus to znovu, až budeš zase online.",
+      "timeout": "Tato stránka události chvíli trvá, než se načte. Na tvé straně se nic nezměnilo. Za chvíli to zkus znovu.",
+      "server": "Krátký zádrhel nám brání ukázat tuto událost. Vaše vstupenky a registrace nejsou ovlivněny. Zkuste to za pár minut.",
+      "notFound": "Tato událost již není online: organizátor ji možná odstranil. Všechny lístky, které máte, zůstanou v \"Moje lístky\". Více událostí čeká v Discover.",
+      "forbidden": "Tahle událost je soukromá. Váš účet není problém. Požádejte pořadatele o pozvání k získání přístupu."
+    },
+    "upload": {
+      "offline": "Nahrávání nemohlo začít: jste offline. Vaše složka je stále v telefonu. Zkus to znovu, až budeš zase online.",
+      "timeout": "Nahrávání trvalo příliš dlouho. Vaše složka je stále v telefonu. Zkuste to znovu, ideálně na Wi-Fi nebo se zapalovačem.",
+      "server": "Server nemohl ten soubor přijmout. Pořád je to bezpečné. Zkuste to za pár minut.",
+      "notFound": "Cíl nahrávání již neexistuje. Váš soubor je stále v bezpečí ve vašem telefonu. Obnovte obrazovku a zkuste to znovu.",
+      "forbidden": "Nemáte dovoleno nahrávat tento soubor. Pořád je to bezpečné. Zkontrolujte, že jste se přihlásil se správným účtem.",
+      "tooLarge": "Tento soubor je příliš velký na nahrávání. Pořád je to bezpečné. Vyberte si lehčí soubor nebo ořízněte obrázek."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Chyba",
@@ -2572,7 +2854,10 @@
     "successTitle": "Gratuluji!",
     "successMessage": "Teď jsi organizátor. Vytvořte první událost!",
     "errorTitle": "Chyba",
-    "errorGeneric": "Nastala chyba"
+    "errorGeneric": "Nastala chyba",
+    "labelWebsite": "Internetové stránky (nepovinné)",
+    "labelDescription": "Popis (nepovinné)",
+    "placeholderDescription": "Představte svou organizaci..."
   },
   "verificationForm": {
     "pdfOpenError": "Nelze otevřít dokument.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hybrid",
     "priceAny": "Všechny",
     "priceFree": "bez",
-    "pricePaid": "Placené"
+    "pricePaid": "Placené",
+    "shareSearch": "Sdílet toto hledání",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filtry",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINCE",
     "contactA11y": "Kontaktní organizátor",
+    "connectA11y": "Připojit",
+    "connectedA11y": "Již připojeno",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Nemohl jsem se spojit. Prosím, zkuste to znovu.",
     "bioEyebrow": "BIO",
     "bioTitle": "O",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Zveřejněné události",
     "loadingEvents": "Načítám...",
     "noEvents": "Nebyly zveřejněny žádné události",
-    "freeBadge": "ZDARMA"
+    "freeBadge": "ZDARMA",
+    "tabs": {
+      "upcoming": "Nahoru",
+      "past": "Minulost"
+    }
   },
   "sessionDetails": {
     "title": "Sezení",
@@ -3159,7 +3454,7 @@
       "FEB",
       "MAR",
       "APR",
-      "MOŽNÁ",
+      "MŮŽE",
       "JUN",
       "JUL",
       "AUG",
@@ -3223,7 +3518,12 @@
     "codeLabel": "Kód",
     "emptyEyebrow": "Už jdu.",
     "emptyTitle": "Zatím žádný kód.",
-    "emptySubtitle": "Vaše kódy se zde objeví, jakmile budou k dispozici."
+    "emptySubtitle": "Vaše kódy se zde objeví, jakmile budou k dispozici.",
+    "generateCta": "Vygenerovat můj kód",
+    "generating": "Generování...",
+    "generateSuccess": "Vytvořený referralový kód!",
+    "generateError": "Nedokázal vytvořit kód. Prosím, zkuste to znovu.",
+    "copySuccess": "Comment"
   },
   "teamManagement": {
     "eyebrow": "Tým",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Zobrazit analytiku",
     "perm_view_registrations": "Zobrazit seznam registrací",
     "perm_edit_event": "Upravit událost",
-    "perm_manage_team": "Pozvat další členy týmu"
+    "perm_manage_team": "Pozvat další členy týmu",
+    "role_co_organizer": "Koorganizátor",
+    "role_moderator": "Moderátor",
+    "role_scanner": "Skener",
+    "role_analyst": "Analytik",
+    "status_pending": "Probíhá",
+    "status_accepted": "Aktivní",
+    "status_declined": "Zrušeno",
+    "status_revoked": "Zrušeno",
+    "status_expired": "Propuštěn"
   },
   "myTeamEvents": {
     "eyebrow": "Za scénami",
@@ -3276,8 +3585,10 @@
     "willAttend": "Budu tam.",
     "wontAttend": "Nezvládnu to.",
     "partySize": "Počet dalších hostů",
+    "partySizeHint": "Kromě tebe. Např. 2, když přivedeš 2 lidi.",
     "dietary": "Dietní požadavky / alergie",
     "note": "Slovo pro pár.",
+    "noteOptional": "Slovo pro pár (nepovinné)",
     "submit": "Odeslat mou odpověď",
     "thanksAccepted": "Díky! Vaše účast je potvrzena.",
     "thanksDeclined": "Díky, že jste nám dal vědět.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Vaše jméno",
     "giftMethod": "Způsob platby",
     "giftPay": "Příspěvek",
-    "giftError": "Platba nemohla začít."
+    "giftThanks": "Děkuji za váš příspěvek!",
+    "giftRedirectNote": "Budete přesměrováni na bezpečnou platební stránku. Tohle je normální.",
+    "giftError": "Platba nemohla začít.",
+    "rsvpSubmitError": "Vaše odpověď nemohla být odeslána. Prosím, zkuste to znovu.",
+    "summaryTitle": "Vaše odpověď",
+    "summaryAccepted": "Potvrdil jste svou účast.",
+    "summaryDeclined": "Odmítl jsi pozvání.",
+    "summaryPartySize": "Hosté s vámi",
+    "summaryHeadcount": "Místa vyhrazena",
+    "summaryDietary": "Dietní potřeby",
+    "summaryTable": "Váš stůl",
+    "summaryTablePending": "Váš stůl bude rozdělen před akcí."
   },
   "teamInvitation": {
     "eyebrow": "ŠETŘENÍ",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Čtu, jen diskuzi. Šetři si vzkazy.",
     "mutedLockMessage": "V této diskuzi vás ztlumil organizátor.",
     "postingLockMessage": "V této diskusi může psát pouze pořadatel.",
-    "defaultUserName": "Tento uživatel"
+    "defaultUserName": "Tento uživatel",
+    "someFilesQueuedForRetry": "Některé soubory budou nepříjemné, až se spojení vrátí.",
+    "retrySend": "Znovu",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Posunout dolů",
+    "tapToLoadImage": "Klepněte na možnost načíst",
+    "reply": "Odpověď",
+    "react": "Reakce",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Čtu jen rozhovor.",
+    "headerCollapseA11y": "Skrýt banner",
+    "headerExpandA11y": "Zobrazit banner",
+    "headerCollapseLabel": "Skrýt",
+    "headerExpandLabel": "Údaje o události"
   },
   "scanForm": {
     "loading": "Načítám...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderátor",
     "roleAdmin": "Admin",
     "fallbackEvent": "Událost",
-    "fallbackUnknownUser": "Uživatel"
+    "fallbackUnknownUser": "Uživatel",
+    "statusUnknown": "Neznámý status"
   },
   "refundRequest": {
     "watermarkBack": "Zpět",
     "watermarkOops": "OOPS",
     "loadError": "Nelze načíst platební údaje",
     "paymentNotFound": "Platba nenalezena",
+    "blockedNotOwner": "Tato platba není spojena s vaším účtem, takže za ni nemůžete požadovat vrácení.",
+    "blockedNotCompleted": "Pouze potvrzené platby mohou být vráceny. Tato platba není vratná.",
+    "blockedAlreadyRequested": "Žádost o vrácení plateb již probíhá.",
+    "blockedGeneric": "Tato platba teď není způsobilá pro vrácení.",
     "back": "Zpět",
     "closeA11y": "Zavřít",
     "eyebrow": "REFUND • REFUND",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Přístupový kód (nepovinné)",
       "accessCodeHint": "Návštěvníci budou muset zadat tento kód vidět podrobnosti",
       "accessCodePlaceholder": "Zanechat prázdné pro žádný kód",
-      "featuredInfo": "Můžete požádat o funkci vaší události po vytvoření z \"My events\"."
+      "accessCodeKeepPlaceholder": "Nový kód (ponechat prázdný pro zachování aktuální)",
+      "accessCodeActive": "Přístupový kód je aktivní.",
+      "accessCodeWillBeRemoved": "Kód bude odstraněn, když uložíte.",
+      "accessCodeRemove": "Odstranit kód",
+      "accessCodeUndoRemove": "Zpět",
+      "featuredInfo": "Můžete požádat o funkci vaší události po vytvoření z \"My events\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Datum a místo",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Vyberte si na mapě",
       "mapHint": "Zobrazení události na mapě a možnost navigace",
       "virtualLocationTitle": "Virtuální poloha",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Built- ve videokonferenci - místnost je vytvořena automaticky, žádný externí odkaz potřeba.",
       "platformLabel": "Platforma",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Týmy",
       "connectionUrlLabel": "Spojovací spojení",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Zahájení prodeje",
       "salesEndLabel": "Konec prodeje",
       "visibleLabel": "Viditelné",
+      "accessModeLabel": "Přístup udělený touto jízdenkou",
+      "accessInPerson": "Osobně",
+      "accessOnline": "Online",
+      "accessBoth": "Oba",
       "visibleDesc": "Zobrazit tento lístek veřejně",
       "addAnotherTicket": "Přidat další tip",
       "registrationFormTitle": "Registrační formulář (nepovinné)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Zavřít menu",
       "cancel": "Zrušit"
+    },
+    "venuePicker": {
+      "label": "Použít uložené místo",
+      "hint": "Pole automaticky vyplní. Pak je můžete upravit."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Členění podle typu události",
       "sourcePaymentMethods": "Platební metody",
       "sourceGeographical": "Zeměpisné členění"
-    }
+    },
+    "widgetDataUnavailable": "Data nejsou k dispozici."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Předchozí",
       "next": "Další",
       "selectDatePlaceholder": "Vybrat datum",
-      "selectTimePlaceholder": "Vybrat čas"
+      "selectTimePlaceholder": "Vybrat čas",
+      "selectPlaceholder": "Vybrat...",
+      "searchPlaceholder": "Hledat..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Vstupenky přidány úspěšně",
     "alreadyRegisteredConfirmTitle": "Již registrované",
     "alreadyRegisteredConfirmMessage": "Na tuto událost jste již registrováni.",
-    "createRegistrationError": "Nelze vytvořit registraci"
+    "createRegistrationError": "Nelze vytvořit registraci",
+    "accessMode": {
+      "in_person": "Pouze osobně",
+      "online": "Online přístup",
+      "hybrid": "Osobně + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Zbývá už jen jedno místo.",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Zastavení nákupů",
+    "suspendedByIncident": "Nákupy jsou dočasně pozastaveny kvůli incidentu. Sledujte aktualizace na stránce Status."
   },
   "registrationDetails": {
     "headerInscription": "Moje registrace",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Zrušeno",
     "statusInscriptionRejected": "Zamítnuto",
     "statusInscriptionValidated": "Potvrzeno",
-    "statusInscriptionUnknown": "Neznámé"
+    "statusInscriptionUnknown": "Neznámé",
+    "pdfEyebrow": "SHRNUTÍ REGISTRACE",
+    "pdfDate": "Datum",
+    "pdfPlace": "Místo",
+    "pdfReference": "Odkaz",
+    "pdfStatus": "Stav",
+    "pdfQrHint": "Zobrazit tento QR kód u vchodu",
+    "pdfShareDialog": "Souhrn sdílení",
+    "pdfError": "Nelze vytvořit PDF právě teď.",
+    "pdfA11y": "Souhrn vývozů ve formátu PDF"
   },
   "qrCode": {
     "headerEyebrow": "VSTUP",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR kód bude skenován u vchodu",
     "tipArriveLines": "Přijeďte včas, abyste přeskočili linky.",
     "validatedTitle": "Potvrzení vstupenky",
+    "stampValidated": "Zaškrtnuto",
     "validatedAt": "Vstoupil na1.",
     "paymentPendingTitle": "Probíhající platba",
     "paymentPendingDesc": "Dokončit platbu potvrdit",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Potvrzeno",
     "statusPending": "Probíhá",
     "statusCancelled": "Zrušeno",
-    "statusValidated": "Potvrzeno"
+    "statusValidated": "Potvrzeno",
+    "pdfOnline": "Online událost",
+    "statusUnknown": "Neznámý status",
+    "presentHint": "Klepněte na tlačítko zvětšit kód, long-press pro důkaz platnosti.",
+    "presentA11yAction": "Zvětšit kód pro kontrolu",
+    "proofA11yAction": "Doklad o platnosti",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Zpět na lístek",
+    "presentExitHint": "Klepněte na možnost vrátit se"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Chcete odstranit tento tip z offline cache?",
     "showQR": "Zobrazit QR",
     "hideQR": "Skrýt QR",
-    "pastBadge": "Minulost"
+    "pastBadge": "Minulost",
+    "download": "Stáhnout tiket",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Odkaz",
+    "pdfType": "Typ tipu",
+    "pdfQuantity": "Množství",
+    "pdfDate": "Datum",
+    "pdfShareDialog": "Uložit / sdílet tiket",
+    "pdfError": "Nelze vytvořit PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Převody",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Návštěva",
     "similarEventsEyebrow": "DOPORUČENÍ",
     "similarEventsTitle": "Podobné události",
-    "similarEventA11y": "Zobrazit"
+    "similarEventA11y": "Zobrazit",
+    "virtualLiveNow": "Žij teď.",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Připojit se živě",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Video volání není k dispozici",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Život ještě nezačal.",
+    "virtualWaitingHostNote": "Budete se moci připojit, jakmile organizátor otevře místnost.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Hlavní pokoj",
+      "session": "Sezení",
+      "breakout": "Breakout",
+      "networking": "Síť",
+      "workshop": "Workshop"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Prodej skončil.",
+    "ticketsSaleNotStarted": "Na prodej brzy",
+    "peekSave": "Uložit",
+    "peekUnsave": "Odstranit ze uložení",
+    "peekShare": "Podíl",
+    "peekOpen": "Otevřít",
+    "peekA11yHint": "Zastavit pro náhled",
+    "swipeSave": "Uvolnit pro uložení",
+    "swipeUnsave": "Uvolnit k odstranění",
+    "swipeHint": "Přepnout pro uložení",
+    "swipeRemoved": "Odstraněno ze záchrany",
+    "swipeUndo": "Zpět",
+    "swipeRemove": "Odstranit",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Sluneční kouzla",
+      "cloudy": "Cloudy",
+      "fog": "Mlha",
+      "rain": "Déšť",
+      "snow": "Sníh",
+      "showers": "přeháňky",
+      "thunderstorm": "Bouře",
+      "variable": "Měnitelné"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Vybrat formát",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Když tento organizátor zveřejní novou událost",
     "followPrefsSave": "Uložit preference",
     "followPrefsSaveA11y": "Uložit preference",
-    "inAppToastA11y": "Klepněte na možnost otevřít."
+    "inAppToastA11y": "Klepněte na možnost otevřít.",
+    "webviewVisioTitle": "Video volání",
+    "webviewOfflineTitle": "Jste offline",
+    "webviewOfflineBody": "Vaše zařízení ztratilo spojení. Hovor bude pokračovat, jakmile se síť vrátí.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Zjištěné pomalé spojení - video může být degradováno a použít vaše data."
   },
   "messageRequests": {
     "eyebrow": "ANTISPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Požadovaná kamera",
     "permissionSubtitle": "Pro skenování QR potřebuje EventEz přístup k kameře.",
     "permissionGrant": "Povolit kameru"
+  },
+  "media": {
+    "sheetTitle": "Co bys chtěl dělat?",
+    "saveToGallery": "Uložit do galerie",
+    "share": "Podíl",
+    "savedToGallery": "Uloženo do galerie",
+    "permissionDeniedTitle": "Povolení zamítnuto",
+    "permissionDeniedMessage": "Povolit přístup k fotografii v Nastavení pro uložení.",
+    "sharingUnavailable": "Sdílení není na tomto zařízení dostupné.",
+    "downloadFailed": "Stáhnout selhalo. Prosím, zkuste to znovu.",
+    "genericError": "Něco se pokazilo. Prosím, zkuste to znovu."
   },
   "componentsMessages": {
     "inputJoinFile": "Připojit soubor",
@@ -5127,7 +5585,7 @@
     "messages": "ZPRÁVY",
     "suggestions": "NÁHRADY",
     "theme": "THEME",
-    "timezoneSoon": "TIMEZONE",
+    "timezone": "TIME ZONE",
     "soundEffects": "Zvukové účinky",
     "authSoon": "PRAVDĚPODOBNOST",
     "connectionsSoon": "SOUVISLOSTI",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · BEZPEČNOST",
     "tabMessages": "03 · ZPRÁVY",
     "tabTickets": "04 · KONTROLY",
-    "tabProfile": "05 · PROFILE"
+    "tabProfile": "05 · PROFILE",
+    "push": "Tlačit",
+    "privacy": "Ochrana soukromí",
+    "memories": "Vzpomínky",
+    "yearInReview": "Rok přezkumu"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Vybrané",
-      "selectedCount_plural": "Vybrané",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Schválení",
       "reject": "Odmítnout",
       "checkIn": "Check-in"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Kódy promo",
         "linkSessions": "Propojení vstupenek na sezení",
         "addPhotos": "Přidat fotografie",
+        "startLive": "Žij.",
         "volunteers": "Dobrovolníci",
         "sponsors": "Sponzoři",
         "seatingPlans": "Pořadové plány",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplikovat",
         "cancelEvent": "Zrušit událost",
         "cancelEventDesc": "Oznámit žadatele o registraci",
-        "deleteDesc": "Nevratný účinek"
+        "deleteDesc": "Nevratný účinek",
+        "invite": "Pozvat hosty",
+        "inviteDescInviteOnly": "Jediný způsob, jak poskytnout přístup k této události",
+        "duplicatePastDesc": "Spustit z editovatelné kopie",
+        "remindInvites": "Připomeň hostům",
+        "weddingGuests": "Hosté & RSVP",
+        "weddingGifts": "Registr & dárky",
+        "weddingTables": "Plán sezení"
       },
       "emptyEyebrowResults": "NEVÝSLEDKY",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Např. zdravotní podmínky, místo nedostupné...",
       "keepBtn": "Ponechat",
       "cancelEventBtn": "Zrušit událost",
+      "cancelHolding": "Vydrž...",
       "recurrenceEyebrow": "OPAKOVÁNÍ",
       "recurrenceModalTitle": "Harmonogram \"CLAS0\"",
       "recurrenceModalBody": "Vytvořit více událostí z této události. Každá událost je nezávislá nová událost, kterou můžete upravit.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Tato událost je živě. Pokud změníte kritická pole (název, data, umístění, typ, kapacita), bude odeslána zpět k potvrzení a dočasně skryta až do nového schválení.",
       "editValidatedConfirm": "Upravit stejně",
       "actionEditValidated": "Upravit (možné prodloužení platnosti)",
-      "actionEditValidatedDesc": "Kritická pole → prodloužení platnosti"
+      "actionEditValidatedDesc": "Kritická pole → prodloužení platnosti",
+      "inviteEyebrow": "NAVRACENÍ",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Emaily oddělené čárkou nebo novou řádkou",
+      "inviteMessagePlaceholder": "Osobní zpráva (nepovinné)",
+      "inviteSendBtn": "Poslat pozvánky",
+      "inviteEmptyTitle": "Žádný email",
+      "inviteEmptyMessage": "Zadejte alespoň jednu emailovou adresu.",
+      "inviteInvalidTitle": "Neplatné e-maily",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Odeslané pozvánky",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Nelze poslat pozvánky.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Není tu žádný host, který by ti to připomněl.",
+      "remindErrorTitle": "Upomínka selhala",
+      "remindErrorMessage": "Upomínky nelze odeslat. Prosím, zkuste to znovu.",
+      "remindPendingProgress": "Posílání upomínek...",
+      "loadError": "Nemohl jsem načíst vaše události. Zkontrolujte spojení."
     },
     "volunteer": {
       "tabReceived": "Vloženo (RRRR)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Neplatný kód: očekávaný UUID nebo referenční kód (8-20 znaků A-Z / 0-9).",
       "sessionRecapTitle": "Shrnutí zasedání",
       "sessionRecapBody": "CLASSI0 CLASSIC in CLAS1 CLASSImin\n2\nNepodařilo se",
-      "sessionRecapQueue": "Offline"
+      "sessionRecapQueue": "Offline",
+      "manualModeBanner": "Ruční režim - 1 tap na osobu",
+      "manualModeA11y": "Ruční režim zapnut. Klepnutím zapnete automatickou kontrolu.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Tito lidé vstoupili, když byla síť vypnutá. Spojte se se svým týmem.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Přijato offline tímto telefonem, zamítnuto na synchronizaci. Pokud jiný agent skenoval ve stejnou dobu, tito lidé se dostali dvakrát.",
+      "voice": {
+        "valid": "Platný tiket",
+        "validWarning": "Platné, potřebuje zkontrolovat",
+        "alreadyCheckedIn": "Již zaškrtnuto",
+        "refused": "Lístek odmítl",
+        "enabled": "Hlasová hlášení zapnuta",
+        "toggleOn": "Hlasová hlášení zapnuta",
+        "toggleOff": "Vypnout hlasová hlášení",
+        "toggleA11y": "Zapněte nebo vypněte hlasové hlášení"
+      }
     },
     "liveOps": {
       "live": "ŽIVOT",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "VÁŠ DOPAD",
       "headerTitle": "Analytika",
+      "errorTitle": "Analytika nejsou k dispozici",
+      "errorBody": "Nemohl jsem načíst data. Zkontrolujte spojení a zkuste to znovu.",
       "eventLabel": "PŘÍPAD",
       "kpiViews": "Náhledy",
       "kpiRegistrations": "Registrace",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Vaše akce byla shlédnuta",
       "insightViewsNone": "Sdílet svou událost získat více zobrazení",
       "insightRegistered_one": "Registrovaná osoba",
-      "insightRegistered_other": "Př"
+      "insightRegistered_other": "Př",
+      "actionBoxOffice": "Box office"
     },
     "sessionsLink": {
       "headerEyebrow": "Přístup • Sekce",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponzoři se zde objeví, když je přidáno partnerství."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Návrhy AI byly uplatněny na formulář",
+      "aiTitleSuggestionsTitle": "Návrhy hlavy",
+      "aiPricingSuggestionsTitle": "Návrhy cen AI",
+      "aiTicketsCreated": "Vstupenky vytvořené z návrhů AI",
+      "aiDescGenerated": "Popis generovaný AI",
+      "aiNeedTitleFirst": "Nejprve přidejte název, aby AI mohl generovat popis.",
+      "galleryPermissionTitle": "Požadované povolení",
+      "galleryPermissionMessage": "Povolte prosím přístup do vaší fotografické knihovny",
+      "videoTooLargeTitle": "Video příliš velké",
+      "videoTooLargeMessage": "Video musí být pod 20 MB.",
       "unsupportedCountryTitle": "Země není k dispozici",
       "unsupportedCountryMessage": "EventEz zatím nemůže provádět platby v této zemi (CLAS0). Vytvoření událostí bude zamítnuto. Podporované země: NotchPay, CinetPay a Stripe (46 zemí).",
       "draftFoundTitle": "Zjištěný návrh",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Událost úspěšně předložena",
       "viewMyEvents": "Zobrazit mé události",
       "createAnother": "Vytvořit další",
+      "submittedStamp": "Při přezkumu",
+      "submittedEyebrow": "Předloženo k přezkumu",
+      "submittedBody": "Náš tým přezkoumává vaši událost. Oznámíte to, jakmile to začne vysílat.",
+      "submittedCtaEyebrow": "Přístrojová deska",
       "edit": "Upravit",
       "saved": "Uložené",
       "back": "Zpět",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Jízdenka \"DOPLŇKOVÉ\" max. na objednávku musí být ≥ min",
         "fieldLabelRequired": "Pole # CLAS0",
         "fieldOptionsRequired": "Možnosti jsou potřebné pro pole \"CLAS0 CLASSI0\""
-      }
+      },
+      "loadFailedBlocksSave": "Nelze načíst data událostí. Obnovit stránku před uložením, jinak by vaše aktuální informace byly přepsány."
     },
     "eventRegistrations": {
       "title": "Registrace",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF export, palubní desky",
       "linkMyEventsTitle": "Moje události",
       "linkMyEventsSub": "Hodnoty na událost"
+    },
+    "boxOffice": {
+      "openTitle": "Otevři pokladnu.",
+      "openingFloatHelp": "Kolik změn vám pořadatel dal na začátek? Bez něj bude dnešní počet špatný.",
+      "openDrawer": "Otevři pokladnu.",
+      "openError": "pokladna nemohla být otevřena",
+      "openErrorDetail": "Zkontrolujte spojení a zkuste to znovu.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Zavřít",
+      "cash": "Hotovost",
+      "momo": "Mobilní peníze",
+      "giveBack": "Vrať mi to.",
+      "saleError": "Prodej nebyl zaznamenán",
+      "saleErrorDetail": "Nevracejte se do prodeje: zkuste to znovu, nebude účtován dvakrát.",
+      "a11y": {
+        "drawerOpened": "Till open",
+        "openingFloatInput": "1 písm. b) nařízení o kapitálových požadavcích.",
+        "openDrawer": "Otevři pokladnu.",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Zavřít pokladnu",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Vezměte si mobilní peníze",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "POHYB",
+      "cashOnlyHint": "Pouze hotovost - Mobilní peníze nejsou v tašce.",
+      "openingFloat": "Otevírací plovák",
+      "salesCount": "Prodej",
+      "countedLabel": "Počítal jsem",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Tohle není blokování. Jen mi vysvětli, proč tam dole.",
+      "reasonLabel": "Vysvětlení (nepovinné)",
+      "reasonPlaceholder": "Např. jsem dal 500 příliš mnoho změn",
+      "confirmClose": "Zavři mi pokladnu.",
+      "closedTitle": "Až do zavření",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Ukončení selhalo",
+      "closeErrorDetail": "Prosím, zkuste to brzy znovu.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Odpočet",
+        "reasonInput": "Vysvětlení rozdílů",
+        "confirmClose": "Potvrdit uzavření",
+        "closed": "Až do zavření"
+      }
+    },
+    "documents": {
+      "title": "Dokumenty k tisku",
+      "a11y": "Tiskařské dokumenty",
+      "badges": "Odznaky účasti",
+      "badgesHint": "A6 formát, 4 na A4 stránku",
+      "attendanceSheet": "Sign- in list",
+      "attendanceSheetHint": "Podepsat na recepci - připraven před akcí",
+      "certificates": "Osvědčení o účasti",
+      "certificatesHint": "Po akci, pro zaškrtnuté účastníky"
+    },
+    "weddingGuests": {
+      "title": "Hosté & RSVP",
+      "empty": "Zatím žádní hosté.",
+      "remindOne": "Připomeň",
+      "remindOneSent": "Odeslané upozornění",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Nelze odeslat upomínku",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Upravit RSVP",
+      "editRsvpTitle": "Upravit RSVP",
+      "rsvpUpdated": "RSVP aktualizováno",
+      "rsvpError": "Nelze uložit RSVP",
+      "partySize": "Velikost strany",
+      "dietary": "Dietní požadavky",
+      "dietaryPlaceholder": "Vegetariáni, bez glutenů...",
+      "note": "Poznámka",
+      "stats": {
+        "invited": "Pozván",
+        "accepted": "Potvrzeno",
+        "pending": "Probíhá",
+        "headcount": "Počet zaměstnanců"
+      },
+      "status": {
+        "pending": "Probíhá",
+        "accepted": "Potvrzeno",
+        "declined": "Zrušeno",
+        "cancelled": "Zrušeno"
+      }
+    },
+    "weddingGifts": {
+      "title": "Registr & dárky",
+      "noRegistry": "Pro tuto událost žádný registr dárků.",
+      "create": "Vytvořit registr",
+      "registryCreated": "Vytvořený registr",
+      "registryUpdated": "Rejstřík aktualizován",
+      "editRegistry": "Upravit registr",
+      "registryTitle": "Název rejstříku",
+      "registryDescription": "Zpráva pro hosty",
+      "visible": "Viditelný registr",
+      "hidden": "Skryté",
+      "totalRaised": "Celkem zvýšeno",
+      "share": "Podíl",
+      "addItem": "Přidat dárek",
+      "newItem": "Nový dárek",
+      "editItem": "Upravit dárek",
+      "itemName": "Název",
+      "itemKind": "Typ",
+      "targetAmount": "Cílová částka",
+      "externalUrl": "Vnější spojení (nepovinné)",
+      "itemAdded": "Přidán dar",
+      "itemUpdated": "Dárek aktualizován",
+      "itemDeleted": "Dárek smazán",
+      "deleteItemTitle": "Smazat tento dárek",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Vyhrazeno",
+      "noItems": "Zatím žádné dárky. Přidej jeden.",
+      "kind": {
+        "gift": "Dárek (položka)",
+        "cash_fund": "Peněžní prostředky"
+      },
+      "error": "Něco se pokazilo."
+    },
+    "weddingTables": {
+      "title": "Plán sezení",
+      "noTables": "Zatím žádné stoly. Vytvořit jeden.",
+      "addTable": "Přidat tabulku",
+      "newTable": "Nový stůl",
+      "editTable": "Upravit tabulku",
+      "name": "Název tabulky",
+      "namePlaceholder": "Tabulka 1, rodina...",
+      "capacity": "Sedadla",
+      "created": "Vytvořená tabulka",
+      "updated": "Tabulka aktualizována",
+      "deleted": "Tabulka zrušena",
+      "deleteTitle": "Smazat tabulku",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Plné",
+      "tableEmpty": "Nikdo u tohoto stolu",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Všichni potvrzeni hosté sedí.",
+      "createFirst": "Vytvořte stůl jako první usadit své hosty.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Host sedí",
+      "unassign": "Odstranit",
+      "unassigned": "Odebrán host",
+      "capacityError": "U tohoto stolu není dost míst.",
+      "error": "Něco se pokazilo."
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Události",
       "kpiRevenue": "Příjmy",
       "kpiVerifications": "Ověřování",
+      "activityChartTitle": "Činnosti platformy",
+      "activityChartSubtitle": "Auditní akce za posledních 7 dní",
       "quickActions": "Rychlé kroky",
       "recentActivity": "PŘÍSTUP K ČINNOSTI",
       "noActivity": "Žádná nedávná aktivita",
       "viewAllAudit": "Zobrazit všechny záznamy auditů",
       "actions": {
         "users": "Uživatelé",
+        "verifications": "Ověřování",
         "subscriptions": "Předplatné",
         "audit": "Audit",
         "announcements": "Oznámení",
@@ -6369,6 +7066,30 @@
         "settings": "Nastavení",
         "treasury": "Státní pokladna"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Omezený přístup",
+      "eyebrow": "Modernizace",
+      "title": "Žádosti o ověření",
+      "typeOrg": "Organizace",
+      "typeIndividual": "Individuální",
+      "noDocuments": "Bez dokladů",
+      "approve": "Schválení",
+      "reject": "Odmítnout",
+      "approveTitle": "Schválení ověření",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Potvrdit schválení tohoto ověření",
+      "approveSuccess": "Organizátor ověřen",
+      "rejectTitle": "Žádost o zamítnutí",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Důvod odmítnutí...",
+      "rejectReasonRequired": "Je třeba důvod.",
+      "rejectSuccess": "Žádost zamítnuta",
+      "actionError": "Akce selhala. Prosím, zkuste to znovu.",
+      "loadError": "Nemohli jsme načíst požadavky na ověření.",
+      "emptyTitle": "Žádné nevyřízené žádosti",
+      "emptySubtitle": "Zde se objeví nové žádosti o ověření organizátora."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Nelze načíst uživatele",
       "roleSection": "ROLE",
       "actionsSection": "AKCE",
+      "profileSection": "PROFIL",
+      "fieldFirstName": "Jméno",
+      "fieldLastName": "Jméno",
+      "fieldEmail": "E-mail",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Společnost",
+      "saveProfile": "Uložit profil",
+      "profileUpdated": "Aktualizovaný profil",
+      "profileUpdateError": "Nemohl jsem aktualizovat profil.",
+      "emailRequired": "E-mail je vyžadován.",
       "infoSection": "INFORMACE",
       "active": "Aktivní",
       "inactive": "Neaktivní",
@@ -6670,6 +7401,21 @@
       "title": "Účetní záznamy",
       "target": "Cíl",
       "user": "Uživatel",
+      "detail": {
+        "guardTitle": "Detaily záznamu",
+        "eyebrow": "Auditní deník",
+        "title": "Detaily záznamu",
+        "action": "Akce",
+        "target": "Cíl",
+        "user": "Uživatel",
+        "system": "Systém",
+        "timestamp": "Časový údaj",
+        "ip": "IP adresa",
+        "userAgent": "Zařízení / prohlížeč",
+        "changes": "Změny",
+        "metadata": "Podrobnosti",
+        "loadError": "Nemohl jsem načíst ten deník."
+      },
       "stats": {
         "total": "Celkem"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "E-mail hosta",
     "delegateError": "Nelze poslat pozvánku.",
     "toCompleteBadge": "Př"
+  },
+  "shareCard": {
+    "eyebrow": "Budu tam.",
+    "button": "Sdílet příběh",
+    "dialogTitle": "Sdílet mé místo",
+    "cta": "Rezervujte si místo →",
+    "errorTitle": "Podíl",
+    "errorMessage": "Teď tu kartu nemůžu vygenerovat."
+  },
+  "badges": {
+    "verified": "Ověřeno",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Zažádat o stánek",
+    "lead": "Představte svou společnost, aby vedla stánek na této show. Organizátor přezkoumá vaši žádost.",
+    "companyLabel": "Název společnosti",
+    "companyPlaceholder": "např. Acme Ltd.",
+    "categoryLabel": "Průmysl / kategorie",
+    "categoryPlaceholder": "např. Tech, Food...",
+    "websiteLabel": "Internetové stránky (nepovinné)",
+    "pitchLabel": "Zpráva organizátorovi (nepovinné)",
+    "pitchPlaceholder": "Popište své podnikání, co předvedete...",
+    "boothLabel": "Preferovaný box (nepovinné)",
+    "submit": "Odeslat mou žádost",
+    "submitting": "Posílám...",
+    "successTitle": "Žádost odeslána!",
+    "successSubtitle": "Organizátor to přezkoumá. Budete informováni o jejich rozhodnutí.",
+    "goToMyBooth": "Zobrazit můj box",
+    "alreadyApplied": "Už jste se přihlásil na tuto show.",
+    "loginRequired": "Přihlaste se k žádosti o stánek.",
+    "login": "Přihlaste se.",
+    "errorSubmit": "Nelze odeslat žádost.",
+    "ctaTitle": "Řídit stánek v téhle show?",
+    "ctaSubtitle": "Aplikujte za pár vteřin.",
+    "ctaButton": "Stát se vystavovatelem"
+  },
+  "myBoothMobile": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Můj stánek.",
+    "empty": "Žádná rezervace.",
+    "show": "Zobrazit",
+    "accepted": "Podmínky přijaty.",
+    "acceptError": "Nelze přijmout.",
+    "salesTitle": "Prodej v přenesené pravomoci",
+    "commission": "EventEz commission",
+    "hostShare": "Podíl organizátora",
+    "net": "What you keep",
+    "createEvent": "Vytvořit svou událost",
+    "acceptCta": "Přijímám tyto podmínky.",
+    "statusPaid": "Placené",
+    "statusPartial": "Placené zálohy",
+    "statusPending": "Zaplatit",
+    "amountDue": "Částka",
+    "amountRemaining": "Zůstává platit",
+    "payBooth": "Zaplať za můj stánek.",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Karta",
+    "paymentInitiated": "Platba zahájena. Potvrďte to na telefonu.",
+    "payError": "Nelze iniciovat platbu.",
+    "captureLeads": "Zachycovat kontakty",
+    "viewLeads": "Moje kontakty"
+  },
+  "leadCapture": {
+    "title": "Zachytit kontakt",
+    "hint": "Ukaž kód QR na návštěvnickém odznaku.",
+    "permissionTitle": "Povolit přístup kamery",
+    "permissionBody": "Kamera se používá pouze ke čtení odznaku QR kódu návštěvníků, kteří souhlasili s kontaktováním.",
+    "permissionCta": "Zapni kameru.",
+    "manualEntry": "Napište místo toho odkaz",
+    "manualPlaceholder": "Odkaz na odznak",
+    "unnamed": "Kontakt uložen",
+    "alreadyKnown": "Již se setkali - záznam aktualizován.",
+    "qualify": "Kvalifikovat tento kontakt",
+    "rating_hot": "Horké",
+    "rating_warm": "Teplá",
+    "rating_cold": "Studená",
+    "notesPlaceholder": "O čem jste mluvili (nepovinné)",
+    "next": "Další kontakt",
+    "retry": "Znovu skenovat",
+    "noConsentTitle": "Tento návštěvník nesouhlasil",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Odznak neuznaný",
+    "notFoundBody": "Tento odznak nepatří k této události. Zkontrolujte odkaz vytištěný pod kódem QR.",
+    "errorTitle": "Vyhledání selhalo",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Tento návštěvník nesouhlasil s kontaktováním.",
+    "a11yNotFound": "Odznak nepoznán.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Dnes",
+    "yesterday": "Včera",
+    "justNow": "Právě teď.",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Odesílám",
+    "failed": "Nepodařilo se odeslat",
+    "sent": "Odesláno",
+    "delivered": "Podávané",
+    "read": "Čtení"
+  },
+  "myLeads": {
+    "title": "Moje kontakty",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Nepojmenovaný kontakt",
+    "emptyTitle": "Zatím žádné kontakty.",
+    "emptyBody": "Prohledejte odznak návštěvníků, kteří se zastaví u vašeho stánku. Pak můžete celý seznam exportovat jako CSV.",
+    "errorTitle": "Nelze načíst",
+    "errorBody": "Vaše kontakty jsou bezpečně zachráněny. Zkontrolujte spojení a zkuste to znovu."
+  },
+  "myDataExhibitors": {
+    "title": "Moje údaje v držení vystavovatelů",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Smazat",
+    "eraseAll": "Smazat vše",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Vaše kontaktní údaje byly vymazány.",
+    "eraseError": "Vymazání neprošlo.",
+    "confirmCta": "Smazat",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Vymazat data všech vystavovatelů?",
+    "confirmAllBody": "Vaše jméno, e-mail a telefonní číslo budou smazány v každé uvedené společnosti. To se nedá odčinit.",
+    "emptyTitle": "Žádná společnost nemá vaše kontaktní údaje",
+    "emptyBody": "Vystavovatelé mohou uložit vaše údaje pouze skenováním vašeho odznaku, a to pouze tehdy, pokud jste to povolili pro tuto událost."
+  },
+  "visio": {
+    "expandCall": "Rozšířit video hovor",
+    "endCall": "Konec volání",
+    "endCallConfirmTitle": "Opustit hovor?",
+    "endCallConfirmMessage": "Chystáte se opustit probíhající schůzku.",
+    "minimize": "Minimalizovat",
+    "liveNow": "ŽIVÁ",
+    "join": "Připojit",
+    "view": "Pohled",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Pohled",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Změnit velikost"
+  },
+  "organize": {
+    "favorites": "Moje oblíbené",
+    "eyebrow": "Organizační prostor",
+    "title": "Organizovat",
+    "liveNow": "Žij teď.",
+    "nextEvent": "Další událost",
+    "registered": "registrované",
+    "scan": "Skenovat",
+    "scanA11y": "Vyhledat vstupenky na tuto událost",
+    "boxOffice": "Box office",
+    "boxOfficeA11y": "Otevřete pokladnu pro tuto událost",
+    "viewStats": "Zobrazit statistiky",
+    "availableBalance": "Dostupný zůstatek",
+    "walletA11y": "Otevři mi peněženku.",
+    "noActiveEvent": "Neběží žádná událost",
+    "noActiveEventHint": "Vytvořit událost nebo zveřejnit návrh vidět zde.",
+    "noStaffEventHint": "Události, kde jste součástí týmu se objeví zde.",
+    "createEvent": "Vytvořit událost",
+    "myEvents": "Moje události",
+    "teamEvents": "Zaměstnanci akcí I",
+    "analytics": "Analytika",
+    "loadError": "Nemohl jsi načíst prostor. Zkontrolujte spojení."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Jsi tam.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Za týden",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Dveře jsou otevřené.",
+    "onNow": "Už se to děje.",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Dostupný tiket offline",
+    "offlinePending": "Otevřete lístek jednou, aby byl vypnutý",
+    "sayImGoing": "Řekni, že jdu.",
+    "showTicket": "Zobrazit můj lístek",
+    "directions": "Instrukce",
+    "viewTicket": "Zobrazit tiket",
+    "goThere": "Běž.",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibrujte kompas: nakreslete obrázek 8 telefonem",
+    "compassHint": "Následujte šipku na místo konání"
+  },
+  "onSite": {
+    "eyebrow": "Jsi na místě.",
+    "now": "Teď",
+    "next": "Next · {{time}}",
+    "qa": "Live Q & A",
+    "plan": "Mapa a místo konání",
+    "networking": "Síť"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Byl jsi tam.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "První na cestě.",
+    "question": "Co sis myslel?",
+    "thanks": "Díky za hodnocení.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Sdílet příběh",
+    "later": "Později."
+  },
+  "yearInReview": {
+    "eyebrow": "Tvůj rok",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "událost",
+    "s1Line_other": "akce",
+    "citiesEyebrow": "Na silnici",
+    "categoryEyebrow": "Váš druh události",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Všechno to začalo",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Vždy na čas.",
+    "arrivalsLine_one": "čas první na cestě",
+    "arrivalsLine_other": "časy první, které dorazí",
+    "organizerEyebrow": "Váš pořadatel",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Poděl se o mou kartu.",
+    "tapHint": "Klepněte na možnost pokračovat"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "První účastník",
+      "someone": "Někdo",
+      "share": "Podíl na zvýšení prodeje",
+      "view": "Pohled",
+      "soldOutTitle": "Vyprodáno",
+      "soldOutLine": "Každý lístek je pryč."
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Vydáno",
+      "online": "ŽIVÁ"
+    },
+    "share": {
+      "cta": "Sdílet událost",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Sdílené",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Požadováno",
+      "approved": "Schváleno",
+      "sent": "Odesláno",
+      "verifying": "Kontrola s provozovatelem",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Výplata selhala"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Místo téměř plné",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Konec směny",
+      "validated": "Zaškrtnuto",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pece",
+      "refused": "Odmítnuto",
+      "syncing": "Synchronizovat...",
+      "synced": "Synchronizovat",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Zobrazit živé ops",
+      "resume": "Pokračovat",
+      "close": "Dokončit"
+    },
+    "recap": {
+      "title": "Rekapitulace",
+      "eyebrow": "RECAP PŘÍPADŮ",
+      "attended": "Dosažen",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Příjmy",
+      "rating": "Průměrné hodnocení",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Dosud žádné recenze",
+      "best": "Přezkum stavu",
+      "latest": "Poslední recenze",
+      "thank": "Poděkování účastníkům",
+      "funds": "Zobrazit fondy",
+      "error": "Rekapitulace je momentálně nedostupná.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Zobrazit rekapitulaci"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Právě teď jsem zabookoval",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Zamluvený v poslední hodině",
+    "lastSaleToday": "Zamluvený dnes",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Vyprodáno",
+    "soldOutCta": "Vyprodáno.",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Vaše konexe, kteří jdou",
+    "someone": "Někdo",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "Drží vám místo.",
+    "seatHeldBody": "Kniha před koncem odpočítávání: poté, to jde na další osobu.",
+    "seatHeldCta": "Zarezervujte mi místo.",
+    "seatHeldExpired": "Čas vypršel: sedadlo přešlo na další osobu.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Zobrazit vše",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reakce",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Jedna z tvých kontaktů dorazila.",
+    "connectionArrivedCta": "Napiš jim.",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Živý prodej",
+    "checkinPushed": "Živý příjezd"
+  },
+  "reminders": {
+    "channelName": "Události",
+    "dayBeforeTitle": "Připomínka: zítra",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Připomínka: za 1 hodinu",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Objevte",
+    "discoverSubtitle": "Události blízko tebe",
+    "tickets": "Moje lístky.",
+    "scan": "Vyhledej lístek."
+  },
+  "ongoing": {
+    "channelName": "Den události",
+    "eventFallback": "Vaše událost",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Začínáme brzy.",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Nyní · Váš lístek je připraven",
+    "scannerTitle": "Skener ve službě"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Zrušit poslední akci?",
+      "confirm": "Zpět",
+      "keep": "Ponechat",
+      "failed": "Zpátečka neprošla. Zkontrolujte spojení a zkuste to znovu.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Přesuňte rozhovor z archivu."
+    },
+    "report": {
+      "title": "Nahlásit problém",
+      "subtitle": "Test build: screenshot, obrazovka a verze jsou zaslány s vaší zprávou.",
+      "noNote": "Zpráva bez komentáře",
+      "blur": "Rozmazání",
+      "noShot": "Na obrazovce není žádný screenshot.",
+      "placeholder": "Co se stalo?",
+      "send": "Odeslat",
+      "sent": "Děkuji, vaše zpráva byla odeslána.",
+      "unavailable": "Nelze odeslat: sledování chyb není aktivní na této konstrukci."
+    },
+    "applause": {
+      "hint": "Ještě chvíli tleskejte.",
+      "a11y": "Dlouhý potlesk."
+    },
+    "hush": {
+      "title": "Mikrofon a kamera se vypnuly, zatímco telefon byl tváří dolů",
+      "reactivate": "Klepněte na tlačítko a zapněte je."
+    },
+    "lighter": {
+      "button": "Světlejší",
+      "off": "Uhas to.",
+      "alone": "Zvedni telefon, plamen následuje tvé pohyby.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Překvap mě.",
+      "chipA11y": "Navrhnout náhodnou událost",
+      "again": "Další",
+      "none": "Žádná nadcházející událost, kterou bych teď navrhoval."
+    },
+    "bump": {
+      "settingTitle": "Prohodit kontakty třepáním",
+      "settingSubtitle": "Na místě, jakmile je váš lístek skenován: třepat ve stejnou dobu jako někdo jiný najít navzájem. Přibližná poloha se používá na několik sekund, aby odpovídala vám a není nikdy uložen. Nic se nestane bez vašeho potvrzení. Vypnuto.",
+      "button": "Výměna třepáním",
+      "nearbyButton": "Rozhlédni se kolem mě.",
+      "hint": "Zatřeste telefonem ve stejnou dobu jako ta druhá osoba.",
+      "title": "Výměna kontaktů",
+      "searching": "Hledám lidi, co se kolem tebe třesou...",
+      "none": "Nikdo ho nenašel. Protřepat ve stejnou chvíli jako ta druhá osoba, pak to zkusit znovu.",
+      "pick": "Vyber si toho pravého. Nic není sdíleno bez vašeho souhlasu.",
+      "connect": "Spojit?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Čekají na potvrzení.",
+      "connected": "Připojeno",
+      "openSettings": "Otevřít nastavení",
+      "error": {
+        "disabled": "Zapněte \"Swap kontakty shake\" ve vašem nastavení.",
+        "notCheckedIn": "K dispozici po naskenování vstupenky u vchodu.",
+        "clockSkew": "Máš vypnuté hodiny. Nastavte to na automatiku a zkuste to znovu.",
+        "rateLimited": "Příliš mnoho pokusů. Zkuste to znovu za minutu.",
+        "expired": "Výměna vypršela. Začni znovu.",
+        "noLocation": "Poloha je potřebná k nalezení osoby poblíž vás.",
+        "generic": "Výměna neprošla. Zkus to znovu."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Uložit událost"
+    },
+    "torch": {
+      "onA11y": "Zapni pochodeň.",
+      "offA11y": "Vypni tu pochodeň.",
+      "hint": "Dvakrát klepněte na hledáček a zapněte nebo vypněte baterku."
+    },
+    "dragSelect": {
+      "select": "Vybrat",
+      "hint": "Nebo zatáhnou dva prsty do seznamu, aby označili několik účastníků.",
+      "message": "Zpráva pro vybrané účastníky",
+      "export": "Exportovat výběr",
+      "exportError": "Vyloučení výběru selhalo.",
+      "csvName": "Název",
+      "csvEmail": "E-mail",
+      "csvReference": "Odkaz",
+      "csvStatus": "Stav",
+      "csvDate": "Zaevidováno"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Vyzvedávám lístky...",
+      "favorites": "Skládám tvé oblíbené...",
+      "notifications": "Skládám vaše oznámení...",
+      "messages": "Sledování vašich rozhovorů...",
+      "search": "Hledám odpovídající události...",
+      "event": "Příprava stránky události..."
+    },
+    "mobileMoney": {
+      "sent": "Vaše žádost o platbu byla zaslána vašemu operátorovi.",
+      "pin": "Schválit to s vaším PIN v telefonu, na pokyn vašeho operátora.",
+      "operator": "Potvrzení operátora může chvíli trvat. To je normální, prosím, zůstaňte na této stránce.",
+      "once": "Budete obviněn jen jednou, i když čekání pokračuje."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Vaše vstupenky se zde objeví, jakmile se zaregistrujete na akci.",
+        "v1": "Koncert, konference, workshop? Všechno to začíná událostí.",
+        "v2": "Váš další výlet už může být online."
+      },
+      "favorites": {
+        "v0": "Klepněte na srdce na událost najít zde a slyšet o změnách.",
+        "v1": "Sledujte událost, abyste nikdy nezmeškali její zprávy.",
+        "v2": "Jedno srdce je dost, aby udrželo událost na dosah ruky."
+      },
+      "notifications": {
+        "v0": "Zprávy z událostí a organizátorů, které sledujete, se objeví zde.",
+        "v1": "Sledujte událost, která má být oznámena o tom, co je nové.",
+        "v2": "Dáme vám vědět, jakmile se něco stane."
+      },
+      "messages": {
+        "v0": "Potkala jsi někoho na akci? Naskenujte jejich kód, aby se spojili.",
+        "v1": "Vaše kontakty se tu ukážou: jeden sken kódu stačí.",
+        "v2": "Vyměňte kontaktní údaje na místě skenováním kódu účastníka."
+      },
+      "discover": {
+        "v0": "Hledání klíčových slov někdy najde to, co domovská stránka ještě neukazuje.",
+        "v1": "Hledání podle města nebo kategorie: každý týden přijíždějí nové akce."
+      },
+      "exploreAction": "Uvidíme, co bude.",
+      "scanAction": "Vyhledat kód",
+      "searchAction": "Hledat událost",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Widen na 50 km kolem vás",
+      "clearFilters": "Filtry čiré"
+    },
+    "greeting": {
+      "when": {
+        "today": "dnes",
+        "tomorrow": "zítra",
+        "dayAfter": "Pozítří"
+      },
+      "there": "na místě",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Všechno nejlepší! Hezký den.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Šťastný národní den!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Vítej zpátky.",
+      "subtitle_one": "Jedna nová věc od vaší poslední návštěvy.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "A ještě jeden z toho, co sledujete.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Skrýt",
+      "reason": {
+        "followed_organizer": "Pořadatel, kterého následujete",
+        "new_edition": "Nové vydání události, které jste se zúčastnili",
+        "other": "Nový"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "Pro tebe",
+      "forYouTitle": "Taky by se ti mohlo líbit.",
+      "loginCtaTitle": "Doporučení na míru"
+    },
+    "settings": {
+      "ritualsEyebrow": "DOBŘE",
+      "ritualsTitle": "Malé doteky",
+      "ritualsSubtitle": "Jedno slovo k narozeninám, výročí vašeho účtu nebo národní den, jednou za den. Tvůj věk se nikdy neukáže, žádné oznámení.",
+      "forgetEyebrow": "DOPORUČENÍ",
+      "forgetTitle": "Zapomeň na moje preference.",
+      "forgetSubtitle": "Vymaže to, co následovalo po událostech, registracích a vyhledávání, poučilo vaše doporučení.",
+      "forgetConfirmTitle": "Zapomenout na své preference?",
+      "forgetConfirmMessage": "Vaše doporučení začnou od nuly. Vaše lístky, oblíbené a následující se nemění.",
+      "forgetDone": "Vaše doporučení začínají od nuly.",
+      "forgetUnavailable": "Tato možnost ještě není k dispozici. Nic nebylo vymazáno.",
+      "forgetError": "Vaše preference nemohly být smazány. Jsou nezměněny, zkuste to prosím za chvíli znovu."
+    },
+    "goingCard": {
+      "title": "Zatímco budete čekat, připravte si vizitku \"Jdu\".",
+      "subtitle": "Bude připravena se podělit, jakmile bude platba potvrzena.",
+      "tintLabel": "Pozadí",
+      "messageLabel": "Zpráva",
+      "messages": {
+        "going": "Už jdu.",
+        "meetThere": "Uvidíme se tam?",
+        "seeYou": "Sejdeme se tam."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Vaše karta tiskne, zatímco čekáte.",
+      "ready": "Vaše karta je připravena.",
+      "share": "Poděl se o mou kartu.",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

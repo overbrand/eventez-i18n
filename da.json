@@ -41,6 +41,7 @@
     "close": "Luk",
     "clear": "Ryd",
     "back": "Tilbage",
+    "home": "Hjem",
     "next": "Næste",
     "previous": "Forrige",
     "search": "Søg",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Kode er ukorrekt eller udløbet",
     "loginError": "Login fejl",
     "registerError": "Fejl ved tilmelding",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Konto eksisterer allerede",
     "registerEmailExistsDetail": "En konto findes allerede med denne e-mail. Vil du skrive dig ind?",
     "registerEmailExistsConfirm": "Log ind",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Efternavn er påkrævet",
     "emailRequired": "E-mail er påkrævet",
     "emailInvalid": "Ugyldig e- mail",
+    "passwordRequired": "Adgangskode er påkrævet",
     "passwordTooShort": "Adgangskode for kort (minimum 0 tegn)",
+    "confirmPasswordRequired": "Bekræftelse af adgangskode er påkrævet",
     "passwordsDontMatch": "Passwords matcher ikke",
+    "usernameRequired": "Brugernavn er påkrævet",
     "usernameTooShort": "Brugernavn for kort (minimum 0 tegn)",
     "usernameInvalid": "Ugyldigt brugernavn",
+    "phoneRequired": "Telefonnummer er påkrævet",
     "phoneInvalid": "Ugyldigt telefonnummer",
     "minLength": "Mindst 0 tegn",
     "maxLength": "Maksimalt antal tegn"
@@ -449,7 +461,8 @@
     "saved": "Gemt",
     "messages": "Meddelelser",
     "tickets": "Billetter",
-    "profile": "Profil"
+    "profile": "Profil",
+    "organize": "Organiser"
   },
   "languagePicker": {
     "eyebrow": "VELKOMMEN",
@@ -492,6 +505,7 @@
     "viewAction": "Vis",
     "viewEvent": "Vis begivenhed",
     "share": "Del",
+    "scrollToTop": "Tilbage til toppen",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Fri, ingen strenge",
     "freeBadge": "GRATIS",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Du er klar!",
     "notifyOnBody": "Vi giver besked, så snart de første begivenheder er i live.",
     "notifyOffTitle": "Meddelelser fra",
-    "notifyOffBody": "Aktivér meddelelser i indstillinger der skal alarmeres."
+    "notifyOffBody": "Aktivér meddelelser i indstillinger der skal alarmeres.",
+    "organizersEyebrow": "Organisatorer",
+    "organizersTitle": "Folk bag scenen",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Verificeret organisator",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Prisniveauer",
@@ -604,7 +624,10 @@
     "invisibleHint": "Du er usynlig - drej til at blive set også.",
     "message": "Meddelelse",
     "connected": "Forbundet",
-    "empty": "Ingen er synlige endnu. Vær den første til at tænde dit netværk!"
+    "empty": "Ingen er synlige endnu. Vær den første til at tænde dit netværk!",
+    "scanOptInTitle": "Lad udstillere scanne mit skilt",
+    "scanOptInSubtitle": "Beviser virksomheder vil være i stand til at gemme dit navn og kontaktoplysninger ved at scanne dit skilt, så de kan følge op efter begivenheden.",
+    "scanOptInWithdrawNote": "Du kan slukke det når som helst. Kontakter, der allerede er gemt af udstillere, slettes ikke automatisk - du kan bede om deres sletning fra dine personlige indstillinger."
   },
   "eventDetails": {
     "eyebrow": "EVENT",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online begivenhed",
     "meetingId": "MødeID:",
     "meetingPasscode": "Adgangskode:",
+    "liveEngagement": "Live Q & A og meningsmålinger",
     "joinEvent": "Deltag i begivenhed",
     "joinOnline": "Deltag online",
     "registered": "Registreret",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Del på WhatsApp",
     "closePreviewA11y": "Luk forhåndsvisning",
     "invalidCode": "Ugyldig adgangskode",
+    "accessButton": "Indtast",
+    "pendingPaymentBanner": "Udfyld din betaling for at bekræfte din registrering",
+    "onlineInfoAfterRegistration": "Forbindelsesdetaljer vil være tilgængelige, når du tilmelder dig",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Forstør",
+    "playCoverVideo": "Afspil video",
+    "videoPlayA11y": "Spil video med lyd",
+    "videoUnmuteA11y": "Opløs",
+    "videoMuteA11y": "Lydløs",
+    "videoExpandA11y": "Udvid video til fuldskærm",
     "imagesCount": "0 = 1",
     "videoConference": "Videokonferenceplatform",
     "openLinkError": "Kunne ikke åbne begivenhedslinket",
@@ -675,7 +708,28 @@
     "registeredStatus": "Registreret",
     "pendingStatus": "Afventer",
     "priceLabel": "Pris",
-    "fromLabel": "fra"
+    "fromLabel": "fra",
+    "waitlistJoinedDetail": "Du er kommet med på servitricen. Vi giver besked, så snart der er plads.",
+    "waitlistLeftMsg": "Du har forladt servitricen.",
+    "waitlistLeaveError": "Kunne ikke forlade ventelisten",
+    "waitlistJoinError": "Kan ikke deltage i servitricen",
+    "waitlistLeaveTitle": "Efterlad venteliste",
+    "waitlistLeaveConfirm": "Er du sikker på, du vil forlade servitricen?",
+    "whatsappNotInstalled": "WhatsApp er ikke installeret på denne enhed",
+    "reviewRatingRange": "Vælg en rating mellem 1 og 5",
+    "reviewThanksTitle": "Tak!",
+    "reviewSubmitted": "Din gennemgang blev indsendt med succes",
+    "loginRequiredTitle": "Underskrift påkrævet",
+    "loginRequiredReview": "Log ind for at forlade en anmeldelse",
+    "reviewSubmitError": "Kunne ikke indsende din anmeldelse",
+    "loginRequiredWaitlist": "Log ind for at deltage i servitricen",
+    "invitationGateDesc": "Denne begivenhed er forbeholdt inviterede gæster. Hvis du har modtaget en invitation, bedes du acceptere den for at få adgang.",
+    "codeGateDesc": "Indtast koden for at se alle detaljer",
+    "giftRegistryCta": "Gaveregister",
+    "giftRegistrySubtitle": "Se listen og chip i hvis du har lyst",
+    "cancelReasonTitle": "Begrundelse for annullering",
+    "visioEnded": "Denne event videokonference er slut.",
+    "videoPauseA11y": "Pause video"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Dine tidligere begivenheder vil vise sig her",
     "scanQR": "Scan QR-kode",
     "showQR": "Vis QR- kode",
+    "viewQR": "Vis QR",
+    "receivedTransfers": "Modtagne overførsler",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Din QR-kode",
     "qrSubtitle": "Vis denne kode ved indgangen",
     "ticketDetails": "Billetoplysninger",
@@ -930,7 +987,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "Tryk på for at se QR-kode",
-    "searchTitleRefVenue": "Titel, dommer, mødested..."
+    "searchTitleRefVenue": "Titel, dommer, mødested...",
+    "pendingPayment": "Udestående betaling",
+    "pendingExpired": "Begivenhed afsluttet",
+    "statusExpired": "Udløb"
   },
   "payment": {
     "title": "Betaling",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Tilbage",
     "paymentGenericError": "En fejl opstod under betalingen",
     "paymentErrorTitle": "Betalingsfejl",
+    "paymentBlockedTitle": "Kortbetaling blokeret",
     "paymentCancelledTitle": "Betaling annulleret",
     "paymentNoPaymentInProgress": "Ingen løbende betaling for at verificere",
     "paymentVerifyingTitle": "Verificerer...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Fortsæt venter",
     "paymentProcessing": "Forarbejdning",
     "paymentTitle": "Betaling",
+    "checkoutStep": "TRIN 3 / 3 • BETALING",
+    "noDoubleCharge": "Du vil kun blive opladet én gang, selvom skærmen drejer et stykke tid.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Jeg accepterer",
+    "termsLinkFull": "salgsbetingelser og tilbagebetalingspolitik",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Valg",
     "paymentStepRecap": "Genoptag",
     "paymentMethodFallback": "Betaling",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Betaling",
     "myPaymentsFilterCompleted": "Færdig",
     "myPaymentsFilterPending": "Afventer",
-    "myPaymentsFilterFailed": "Mislykkedes"
+    "myPaymentsFilterFailed": "Mislykkedes",
+    "finalizeEndedTitle": "Denne begivenhed er slut",
+    "finalizeEndedBody": "Du kan ikke længere udfylde din registrering: begivenheden er allerede forbi. Du blev ikke sigtet.",
+    "finalizeClosedTitle": "Registrering lukket",
+    "finalizeClosedBody": "Registreringsperioden for denne begivenhed er udløbet.",
+    "finalizeSoldOutTitle": "Billetter udsolgt",
+    "finalizeSoldOutBody": "De billetter, du havde reserveret, er ikke længere tilgængelige. Din reservation er udløbet. Du blev ikke sigtet.",
+    "finalizeBackToEvent": "Tilbage til begivenheden",
+    "paymentPushSentTitle": "Bekræft på din telefon",
+    "paymentPushSentMessage": "Der blev sendt en betalingsanmodning til din telefon. Godkend det (Mobile Money PIN) at fuldføre.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Anmodning om restitution"
   },
   "memories": {
     "title": "Mine minder",
@@ -1235,7 +1313,11 @@
     "recapShare": "Del min anmeldelse",
     "recapEvents": "begivenheder overlevede",
     "recapCities": "byer",
-    "recapFirst": "gange ankom # 1"
+    "recapFirst": "gange ankom # 1",
+    "oneYearAgo": "For et år siden var du der.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Lang presse for en overraskelse",
+    "firstNote": "Først at ankomme. Dørene var knap nok åbne."
   },
   "profile": {
     "title": "Profil",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Log ud",
     "logoutInProgress": "Signerer...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Min QR-kode"
+    "myQRTitle": "Min QR-kode",
+    "refundsMenu": "Mine restitutioner",
+    "refundsSubtitle": "Spor hvor dine penge står",
+    "shareProfileButton": "Del min profil",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Min organisatorprofil",
+    "shareOrganizerA11y": "Del min organisatorprofil",
+    "viewPublicProfileA11y": "Vis min offentlige profil",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Ufølge?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Følgende",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Ingen resultater",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Oplev begivenheder",
+    "followSearchPlaceholder": "Søg efter en arrangør"
   },
   "editProfile": {
     "title": "Redigér profil",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Adresse",
     "sectionOrganization": "Organisation",
     "sectionSecurity": "Sikkerhed",
-    "qrShareSubtitle": "Scan denne kode for at dele din profil"
+    "qrShareSubtitle": "Scan denne kode for at dele din profil",
+    "countryPlaceholder": "Vælg et land",
+    "orgLogoLabel": "Logo",
+    "orgLogoAdd": "Tilføj et logo",
+    "orgLogoChange": "Skift logo",
+    "orgWebsiteLabel": "Hjemmeside",
+    "orgDescriptionLabel": "Offentlig beskrivelse",
+    "orgDescriptionPlaceholder": "Introducer din organisation..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI- SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Tema",
     "themeDialogSubtitle": "Vælg dit tema",
     "timezoneDialogTitle": "Tidszone",
+    "timezoneDetected": "detekteret",
     "timezoneDialogSubtitle": "Vælg din tidszone",
     "preferencesTitle": "Indstillinger",
     "headerEyebrow": "SPØRGSMÅL",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Bekræfter og tilbagebetalinger",
     "rowNewConversations": "Nye samtaler",
     "rowMarketing": "Anbefalinger og kampagner",
+    "rowSocialEyebrow": "Sociale",
+    "rowSocial": "Sociale aktiviteter",
+    "rowSocialDesc": "Nye følgere, påmindelser, anmeldelser",
+    "newRegistrationsEyebrow": "Organizer",
+    "newRegistrationsTitle": "Nye registreringer",
+    "newRegistrationsDescription": "Hvor ofte bliver du sendt, når nogen registrerer dine begivenheder?",
+    "newRegistrationsFreq": {
+      "realtime": "Realtid",
+      "hourly": "Timeløn",
+      "daily": "Daglig",
+      "off": "Fra"
+    },
+    "quietHoursEyebrow": "Må ikke forstyrres",
+    "quietHoursTitle": "Stille timer",
+    "quietHoursDescription": "Pause ikke-essentielle push / SMS meddelelser natten over. Vigtige advarsler kommer altid igennem.",
+    "quietHoursFrom": "Fra",
+    "quietHoursTo": "Indtil",
     "rowSounds": "Lyder på vigtige øjeblikke",
     "rowSoundsSubtitle": "Afspiller en lyd ved betalingsbekræftelse eller QR scanning",
     "rowTwoFA": "Twofaktorgodkendelse",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Fakturaer",
     "shortcutTaxes": "Skatter",
     "shortcutMyEvents": "Mine begivenheder",
-    "shortcutHelp": "Hjælp"
+    "shortcutHelp": "Hjælp",
+    "rowMyDataAtExhibitors": "Mine data hos udstillere",
+    "rowLiveBanner": "Banner til levende begivenheder",
+    "rowLiveBannerSubtitle": "Vis et banner til at deltage i en begivenhed, der er i øjeblikket live.",
+    "pushPermissionTitle": "Anmeldelser er slået fra for denne enhed",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Lad mine forbindelser vide",
+    "rowShareAttendanceSubtitle": "Dine forbindelser kan se, at du deltager i en begivenhed. Off som standard; aldrig for invitations- kun begivenheder.",
+    "rowNotifyMemories": "\"Et år siden\" meddelelser",
+    "rowNotifyMemoriesSubtitle": "Højst en påmindelse om ugen, på årsdagen for en begivenhed du deltog i.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "En privat sammenfatning af dit år, i december. Ingen andre ser det.",
+    "madeInDouala": "Lavet i Douala, med omhu.",
+    "madeInDoualaSub": "Tak for at bringe dine begivenheder til live med os.",
+    "rowUiSounds": "Interface lyde",
+    "rowUiSoundsSubtitle": "Meget subtile lyde på bekræftelser og indgående meddelelser. Fra som standard.",
+    "vibrationsEyebrow": "I ALT",
+    "rowVibrations": "Vibrationer",
+    "rowVibrationsSubtitle": "Haptic feedback på nøglehandlinger: betaling, scanning, favoritter.",
+    "rowMotionGestures": "Bevægelsesgestus",
+    "rowMotionGesturesSubtitle": "Ryst, flip eller hold din telefon ud for nogle handlinger. En knap er altid tilgængelig også.",
+    "notificationsEyebrowOngoing": "Meddelelser",
+    "rowOngoingEvent": "Fundet billet på eventdag",
+    "rowOngoingEventSubtitle": "En stille meddelelse, 3 timer før og under arrangementet, med din billet og retninger.",
+    "rowNotificationSounds": "Anmeldelseslyde",
+    "rowNotificationSoundsSubtitle": "Vælg lyden for hver kategori (store øjeblikke, salg, beskeder...) i dine telefonindstillinger"
   },
   "messages": {
     "title": "Meddelelser",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Søg i en kontakt...",
     "searchEyebrow": "Side",
     "searchHint": "Type der skal søges",
-    "noOneFound": "Ingen fundet"
+    "noOneFound": "Ingen fundet",
+    "myConnectionsSection": "Mine forbindelser",
+    "searchResultsSection": "Resultater",
+    "noConnectionsEyebrow": "NETVÆRK",
+    "noConnectionsTitle": "Ingen forbindelser endnu",
+    "noConnectionsCta": "Forbind via QR",
+    "emptyEyebrowArchived": "ARKIVERET",
+    "emptyEyebrowEmpty": "FRITAGELSE INBOX",
+    "archivedEmptyDesc": "Dine arkiverede samtaler vil lande her.",
+    "noConversationsDesc": "Start en ny besked - vi finder en at tale med.",
+    "attachmentPreview": "[Bilag]",
+    "noMatchingMessage": "Ingen matchende meddelelse"
   },
   "notifications": {
     "title": "Meddelelser",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Hvad er nyt?",
     "typePendingModeration": "At revidere",
     "typeModerationReminder": "Moderat kø",
+    "typeNewFollower": "Ny følger",
+    "typeFollowedOrganizerNewEvent": "Ny begivenhed",
+    "typeFollowRegistered": "En forbindelse er på vej",
+    "typeConnectionsAtEvent": "Dine forbindelser",
+    "eyebrowNetwork": "NETVÆRK",
+    "eyebrowSoon": "SOON",
+    "eyebrowReminder": "REMINDER",
+    "eyebrowModeration": "MODERATION",
+    "eyebrowToReview": "OVERSIGT",
+    "eyebrowDiscovery": "DÆKNING",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "HVAD ER NY?",
+    "filterReadTab": "Læs",
+    "groupToday": "I DAG",
+    "groupYesterday": "TIDLIGERE",
+    "tabAll": "Alle",
+    "tabNetwork": "Netværk",
     "typeDefault": "Meddelelse",
     "filterAllTab": "Alle",
     "filterUnreadTab": "Ulæst",
@@ -1739,7 +1919,26 @@
     "statTotal": "I ALT",
     "statUnread": "UNREAD",
     "statToday": "I DAG",
-    "viewDetails": "Vis detaljer"
+    "viewDetails": "Vis detaljer",
+    "actions": {
+      "showTicket": "Vis min billet",
+      "directions": "Retninger",
+      "going": "Jeg går nu.",
+      "viewTicket": "Vis billet",
+      "reply": "Svar",
+      "replyPlaceholder": "Din besked...",
+      "replySubmit": "Send",
+      "markRead": "Markér som læst",
+      "joinLive": "Deltag",
+      "payNow": "Betal nu",
+      "writeTo": "Besked dem",
+      "viewEvent": "Vis begivenhed",
+      "viewTickets": "Se mine billetter",
+      "viewRefund": "Vis refusion",
+      "viewProfile": "Vis profil",
+      "summaryTitle": "Meddelelser",
+      "summaryBody": "Nye meddelelser"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Administrer min plan",
     "exportTitle": "Eksport",
     "exportSubtitle": "Dine data",
-    "settingsLink": "Indstillinger"
+    "settingsLink": "Indstillinger",
+    "greetingNight": "Hav en god aften."
   },
   "following": {
     "title": "Mine favoritter",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Invitation afvist.",
     "declineError": "Jeg kunne ikke afslå invitationen.",
     "declineButton": "Fald",
+    "declineConfirmTitle": "Tilbagekaldelse",
+    "declineConfirmMessage": "Er du sikker på, du vil afvise invitationen?",
     "fromLabel": "FRA",
     "toLabel": "RECIPIENT",
     "organizerFallback": "Organizer",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Upload mislykkedes",
     "downloadFailed": "Download mislykkedes",
     "tryAgain": "Prøv igen",
-    "contactSupport": "Kontaktstøtte"
+    "contactSupport": "Kontaktstøtte",
+    "timeout": "Anmodningen tog for lang tid. Tjek din forbindelse og prøv igen.",
+    "validation": "Nogle detaljer er ugyldige. Fix de fremhævede felter og prøv igen.",
+    "fields": {
+      "title": "Titel",
+      "subtitle": "Undertekst",
+      "message": "Meddelelse",
+      "image": "Billede",
+      "cta_label": "Knapetiket",
+      "cta_url": "Knaplink",
+      "link_url": "Link",
+      "target_event": "Målhændelse",
+      "country": "Land",
+      "city": "By",
+      "radius_km": "Radius",
+      "placement": "Placering",
+      "priority": "Prioriteret",
+      "severity": "Sværhedsgrad",
+      "audience": "Publikum",
+      "platform": "Platform",
+      "valid_from": "Gyldig fra",
+      "valid_until": "Gyldig indtil"
+    },
+    "http": {
+      "badRequest": "Vi kunne ikke behandle din anmodning. Tjek venligst dine detaljer og prøv igen.",
+      "unauthorized": "Din session er udløbet. Skriv dig ind igen.",
+      "forbidden": "Du har ikke tilladelse til det her.",
+      "notFound": "Vi kunne ikke finde det, du ledte efter.",
+      "conflict": "Denne handling er i modstrid med den nuværende tilstand. Genopfrisk og prøv igen.",
+      "tooManyRequests": "For mange forsøg. Vent et øjeblik og prøv igen.",
+      "server": "Vores servere har problemer lige nu. Prøv igen om få minutter.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Denne e-mail er allerede knyttet til en konto. Log ind eller brug en anden adresse.",
+      "usernameTaken": "Brugernavnet er allerede taget, vælg et andet.",
+      "weakPassword": "Vælg en adgangskode på mindst 8 tegn, der blander bogstaver og tal.",
+      "invalidCredentials": "Forkert e-mail eller adgangskode. Prøv igen eller nulstil din adgangskode.",
+      "resetLinkExpired": "Dette reset link er udløbet. Anmoder om en ny.",
+      "otpInvalid": "Denne kode er forkert eller udløbet. Tjek den eller anmod om en ny.",
+      "otpSendFailed": "Vi kunne ikke sende SMS-koden. Tjek dit nummer og prøv igen, eller login med din e-mail.",
+      "paymentMethodUnsupported": "Denne betalingsmetode er ikke tilgængelig for denne begivenhed. Vælg en anden.",
+      "paymentFailed": "Din betaling kunne ikke fuldføres. Du er ikke blevet sigtet. Prøv igen eller brug en anden metode.",
+      "paymentNetwork": "Forbindelsen faldt under betalingen. Tjek dit internet og prøv igen - du vil ikke blive opkrævet to gange.",
+      "paymentTimeout": "Din betaling tager længere tid end forventet. Betal ikke igen - tjek dine billetter om få minutter, eller kontakt support, hvis intet ankommer.",
+      "paymentVerifyFailed": "Vi kunne ikke bekræfte din betaling endnu. Hvis du blev sigtet, vil dine billetter dukke op snart - tjek igen om et par minutter.",
+      "refundFailed": "Din anmodning om tilbagebetaling kunne ikke sendes. Prøv igen, eller kontakt support.",
+      "insufficientBalance": "Utilstrækkelig balance til denne operation.",
+      "payoutLocked": "Denne udbetaling kan ikke længere ændres, fordi behandlingen allerede er startet. Kontakt support, hvis dette er en fejl.",
+      "planLimitReached": "Du har nået din plans grænse. Opgrader din plan om at fortsætte.",
+      "countryNotSupported": "Betalingerne er ikke tilgængelige i dette land endnu. Du kan oprette begivenheden i et understøttet land, eller kontakte os."
+    },
+    "tickets": {
+      "offline": "Du er offline lige nu. Billetter du allerede har indlæst ophold tilgængelig offline. Prøv igen, når du er online igen.",
+      "timeout": "Dine billetter tager tid at laste. Intet er tabt: De er sikkert reddet. Prøv igen om et øjeblik.",
+      "server": "Vores servere har et lille problem. Dine billetter er sikre på vores side. Prøv igen om et par minutter.",
+      "notFound": "Vi kan ikke finde billetten. Dine andre billetter er ikke berørt. Genopfrisk listen eller tjek din bekræftelse e-mail.",
+      "forbidden": "Denne billet tilhører en anden konto. Dine egne billetter er urørte. Log ind med den konto, der bruges til købet."
+    },
+    "messages": {
+      "offline": "Du er offline lige nu. Dine beskeder er ikke tabt: verserende dem vil gå ud, når du er tilbage online. Prøv igen, når netværket vender tilbage.",
+      "timeout": "Beskeden er langsom. Dine beskeder er ikke tabt. Prøv igen om et øjeblik.",
+      "server": "Beskeder er at have en kort hikke på vores side. Dine samtaler er intakte. Prøv igen om et par minutter.",
+      "notFound": "Denne samtale eksisterer ikke længere. Dine andre samtaler er ikke påvirket. Gå tilbage til dine beskeder.",
+      "forbidden": "Du har ikke længere adgang til denne samtale. Dine andre samtaler er stadig tilgængelige. Gå tilbage til dine beskeder."
+    },
+    "event": {
+      "offline": "Du er offline, så vi kan ikke vise det her. Dine billetter forbliver tilgængelige offline. Prøv igen, når du er online igen.",
+      "timeout": "Denne begivenhed side tager et stykke tid at indlæse. Intet har ændret sig på din side. Prøv igen om et øjeblik.",
+      "server": "Et kort hak forhindrer os i at vise denne begivenhed. Dine billetter og registreringer er ikke berørt. Prøv igen om et par minutter.",
+      "notFound": "Denne begivenhed er ikke længere online: arrangøren kan have fjernet det. Alle billetter du har i \"Mine billetter\". Flere begivenheder venter i Discover.",
+      "forbidden": "Denne begivenhed er privat. Din konto er ikke problemet. Bed arrangøren om en invitation til at få adgang."
+    },
+    "upload": {
+      "offline": "Du er offline. Din fil er stadig på din telefon. Prøv igen, når du er online igen.",
+      "timeout": "Det tog for lang tid at uploade. Din fil er stadig på din telefon. Prøv igen, ideelt på Wi- Fi eller med en lettere fil.",
+      "server": "Serveren kunne ikke modtage filen. Det er stadig sikkert på din telefon. Prøv igen om et par minutter.",
+      "notFound": "Den upload destination eksisterer ikke længere. Din fil er stadig sikker på telefonen. Genopfrisk skærmen og prøv igen.",
+      "forbidden": "Du må ikke uploade filen her. Det er stadig sikkert på din telefon. Tjek, at du er logget ind med den rigtige konto.",
+      "tooLarge": "Denne fil er for stor til at uploade. Det er stadig sikkert på din telefon. Vælg en lettere fil eller beskære billedet."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Tillykke!",
     "successMessage": "Du er nu organisator. Opret din første begivenhed!",
     "errorTitle": "Fejl",
-    "errorGeneric": "En fejl opstod"
+    "errorGeneric": "En fejl opstod",
+    "labelWebsite": "Websted (valgfrit)",
+    "labelDescription": "Beskrivelse (valgfrit)",
+    "placeholderDescription": "Introducer din organisation..."
   },
   "verificationForm": {
     "pdfOpenError": "Kunne ikke åbne dokumentet.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hybrid",
     "priceAny": "Alle",
     "priceFree": "Fri",
-    "pricePaid": "Betalt"
+    "pricePaid": "Betalt",
+    "shareSearch": "Del denne søgning",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filtre",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINCE",
     "contactA11y": "Kontaktarrangør",
+    "connectA11y": "Forbind",
+    "connectedA11y": "Allerede forbundet",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Kunne ikke forbinde. Prøv igen.",
     "bioEyebrow": "BIO",
     "bioTitle": "Om",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Offentliggjorte begivenheder",
     "loadingEvents": "Indlæser...",
     "noEvents": "Ingen begivenheder offentliggjort",
-    "freeBadge": "GRATIS"
+    "freeBadge": "GRATIS",
+    "tabs": {
+      "upcoming": "Kommende",
+      "past": "Tidligere"
+    }
   },
   "sessionDetails": {
     "title": "Session",
@@ -3223,7 +3518,12 @@
     "codeLabel": "KODE",
     "emptyEyebrow": "SAMLING",
     "emptyTitle": "Ingen kode endnu",
-    "emptySubtitle": "Deres henvisningskoder vil blive offentliggjort her, så snart de er tilgængelige."
+    "emptySubtitle": "Deres henvisningskoder vil blive offentliggjort her, så snart de er tilgængelige.",
+    "generateCta": "Generér min kode",
+    "generating": "Genererer...",
+    "generateSuccess": "Henvisningskode oprettet!",
+    "generateError": "Kunne ikke generere koden. Prøv igen.",
+    "copySuccess": "Kopieret henvisningslink"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Vis analytics",
     "perm_view_registrations": "Vis registreringsliste",
     "perm_edit_event": "Redigér begivenheden",
-    "perm_manage_team": "Inviter andre teammedlemmer"
+    "perm_manage_team": "Inviter andre teammedlemmer",
+    "role_co_organizer": "Medarrangør",
+    "role_moderator": "Moderator",
+    "role_scanner": "Scanner",
+    "role_analyst": "Analytiker",
+    "status_pending": "Afventer",
+    "status_accepted": "Aktiv",
+    "status_declined": "Afslået",
+    "status_revoked": "Genbehandlet",
+    "status_expired": "Udløb"
   },
   "myTeamEvents": {
     "eyebrow": "BEHIND THE SCENES",
@@ -3276,8 +3585,10 @@
     "willAttend": "Jeg kommer.",
     "wontAttend": "Jeg kan ikke klare det",
     "partySize": "Antal ekstra gæster",
+    "partySizeHint": "Ud over dig. F.eks. 2, hvis du medbringer 2 personer.",
     "dietary": "Kostkrav / allergier",
     "note": "Et ord til parret",
+    "noteOptional": "Et ord til parret (valgfrit)",
     "submit": "Send mit svar",
     "thanksAccepted": "Tak! Deres tilstedeværelse er bekræftet.",
     "thanksDeclined": "Tak, fordi vi fik det at vide.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Dit navn",
     "giftMethod": "Betalingsmetode",
     "giftPay": "Bidrag",
-    "giftError": "Betalingen kunne ikke begynde."
+    "giftThanks": "Tak for Deres bidrag!",
+    "giftRedirectNote": "Du bliver omdirigeret til en sikker betalingsside. Det er normalt.",
+    "giftError": "Betalingen kunne ikke begynde.",
+    "rsvpSubmitError": "Dit svar kunne ikke sendes. Prøv igen.",
+    "summaryTitle": "Dit svar",
+    "summaryAccepted": "Du bekræftede dit fremmøde.",
+    "summaryDeclined": "Du afviste invitationen.",
+    "summaryPartySize": "Gæster hos dig",
+    "summaryHeadcount": "Reserverede pladser",
+    "summaryDietary": "Kostbehov",
+    "summaryTable": "Dit bord",
+    "summaryTablePending": "Dit bord vil blive delt før begivenheden."
   },
   "teamInvitation": {
     "eyebrow": "INVITATION",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Kun diskussion. Gem dine beskeder.",
     "mutedLockMessage": "Du er blevet slået ned i denne diskussion af arrangøren.",
     "postingLockMessage": "Det er kun arrangøren, der kan skrive under på denne diskussion.",
-    "defaultUserName": "denne bruger"
+    "defaultUserName": "denne bruger",
+    "someFilesQueuedForRetry": "Nogle filer vil være vrede, når forbindelsen er tilbage.",
+    "retrySend": "Prøv igen",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Rul til bunden",
+    "tapToLoadImage": "Tryk på for at indlæse",
+    "reply": "Svar",
+    "react": "Reagerer",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Kun samtale.",
+    "headerCollapseA11y": "Skjul banner",
+    "headerExpandA11y": "Vis banner",
+    "headerCollapseLabel": "Skjul",
+    "headerExpandLabel": "Begivenhedsoplysninger"
   },
   "scanForm": {
     "loading": "Indlæser...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderator",
     "roleAdmin": "Admin",
     "fallbackEvent": "Begivenhed",
-    "fallbackUnknownUser": "Bruger"
+    "fallbackUnknownUser": "Bruger",
+    "statusUnknown": "Ukendt status"
   },
   "refundRequest": {
     "watermarkBack": "BACK",
     "watermarkOops": "OOPS",
     "loadError": "Kunne ikke indlæse betalingsdetaljer",
     "paymentNotFound": "Betaling ikke fundet",
+    "blockedNotOwner": "Denne betaling er ikke knyttet til din konto, så du kan ikke anmode om en refusion for det.",
+    "blockedNotCompleted": "Kun bekræftede betalinger kan refunderes. Denne betaling er ikke i en refunderbar tilstand.",
+    "blockedAlreadyRequested": "En anmodning om tilbagebetaling er allerede i gang for denne betaling.",
+    "blockedGeneric": "Denne betaling kan ikke refunderes lige nu.",
     "back": "Tilbage",
     "closeA11y": "Luk",
     "eyebrow": "RESTITUTION • RESTITUTION",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Adgangskode (valgfrit)",
       "accessCodeHint": "Besøgende skal indtaste denne kode for at se detaljerne",
       "accessCodePlaceholder": "Efterlad tom for ingen kode",
-      "featuredInfo": "Du kan anmode om at indspille din begivenhed efter oprettelsen fra \"Mine begivenheder\"."
+      "accessCodeKeepPlaceholder": "Ny kode (lad tom for at beholde den nuværende)",
+      "accessCodeActive": "En adgangskode er aktiv.",
+      "accessCodeWillBeRemoved": "Koden vil blive fjernet når du gemmer.",
+      "accessCodeRemove": "Fjern kode",
+      "accessCodeUndoRemove": "Fortryd",
+      "featuredInfo": "Du kan anmode om at indspille din begivenhed efter oprettelsen fra \"Mine begivenheder\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Dato og sted",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Vælg på kort",
       "mapHint": "For at vise begivenheden på kortet og aktivere navigation",
       "virtualLocationTitle": "Virtuel placering",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Byg-i video konference - rummet er oprettet automatisk, ingen eksterne link behov.",
       "platformLabel": "Platform",
       "platformPlaceholder": "Ex: Zoom, Google Meet, hold",
       "connectionUrlLabel": "Forbindelsesforbindelse",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Salgsstart",
       "salesEndLabel": "Salgssted",
       "visibleLabel": "Synlig",
+      "accessModeLabel": "Adgang indrømmet af denne billet",
+      "accessInPerson": "Personligt",
+      "accessOnline": "Online",
+      "accessBoth": "Begge",
       "visibleDesc": "Vis denne billet offentligt",
       "addAnotherTicket": "Tilføj en anden billet",
       "registrationFormTitle": "Registreringsformular (fakultativ)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Luk menu",
       "cancel": "Annullér"
+    },
+    "venuePicker": {
+      "label": "Brug et gemt sted",
+      "hint": "Felterne udfyldes automatisk. Du kan justere dem bagefter."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Opdeling efter hændelsestype",
       "sourcePaymentMethods": "Betalingsmetoder",
       "sourceGeographical": "Geografisk fordeling"
-    }
+    },
+    "widgetDataUnavailable": "Data ikke tilgængelige."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Forrige",
       "next": "Næste",
       "selectDatePlaceholder": "Vælg en dato",
-      "selectTimePlaceholder": "Vælg et tidspunkt"
+      "selectTimePlaceholder": "Vælg et tidspunkt",
+      "selectPlaceholder": "Vælg...",
+      "searchPlaceholder": "Søg..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Billetter tilføjet med succes",
     "alreadyRegisteredConfirmTitle": "Allerede registreret",
     "alreadyRegisteredConfirmMessage": "Du er allerede registreret til denne begivenhed.",
-    "createRegistrationError": "Kunne ikke oprette registreringen"
+    "createRegistrationError": "Kunne ikke oprette registreringen",
+    "accessMode": {
+      "in_person": "Kun personligt",
+      "online": "Online adgang",
+      "hybrid": "Personlig + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Kun et sted tilbage",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Indkøb på pause",
+    "suspendedByIncident": "Køb er midlertidigt pause på grund af en hændelse. Følg opdateringer på statussiden."
   },
   "registrationDetails": {
     "headerInscription": "Min registrering",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Annulleret",
     "statusInscriptionRejected": "Afvist",
     "statusInscriptionValidated": "Valideret",
-    "statusInscriptionUnknown": "Ukendt"
+    "statusInscriptionUnknown": "Ukendt",
+    "pdfEyebrow": "REGISTRERINGSOVERSIGT",
+    "pdfDate": "Dato",
+    "pdfPlace": "Venue",
+    "pdfReference": "Henvisning",
+    "pdfStatus": "Status",
+    "pdfQrHint": "Vis denne QR kode ved indgangen",
+    "pdfShareDialog": "Del oversigt",
+    "pdfError": "Kunne ikke generere PDF lige nu.",
+    "pdfA11y": "Eksportér resumé som PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR koden vil blive scannet ved indgangen",
     "tipArriveLines": "Ankom til tiden for at springe linjerne over",
     "validatedTitle": "Billetvalideret",
+    "stampValidated": "Checket ind",
     "validatedAt": "Indgået på 0 = 1",
     "paymentPendingTitle": "Udestående betaling",
     "paymentPendingDesc": "Udfyld din betaling for at bekræfte",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Bekræftet",
     "statusPending": "Afventer",
     "statusCancelled": "Annulleret",
-    "statusValidated": "Valideret"
+    "statusValidated": "Valideret",
+    "pdfOnline": "Online begivenhed",
+    "statusUnknown": "Ukendt status",
+    "presentHint": "Tryk på for at forstørre koden, lang-tryk for bevis for gyldighed.",
+    "presentA11yAction": "Forstør koden for kontrollen",
+    "proofA11yAction": "Vis bevis for gyldighed",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Tilbage til billetten",
+    "presentExitHint": "Tryk på for at gå tilbage"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Vil du fjerne denne billet fra offline cache?",
     "showQR": "Vis QR",
     "hideQR": "Skjul QR",
-    "pastBadge": "Tidligere"
+    "pastBadge": "Tidligere",
+    "download": "Download billet",
+    "pdfEyebrow": "TICKET",
+    "pdfReference": "Henvisning",
+    "pdfType": "Billettype",
+    "pdfQuantity": "Mængde",
+    "pdfDate": "Dato",
+    "pdfShareDialog": "Gem / del billet",
+    "pdfError": "Kunne ikke generere PDF 'en."
   },
   "pendingTransfers": {
     "headerTitle": "Overførsler",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Besøg",
     "similarEventsEyebrow": "ANBEFALINGER",
     "similarEventsTitle": "Lignende hændelser",
-    "similarEventA11y": "Vis% 0"
+    "similarEventA11y": "Vis% 0",
+    "virtualLiveNow": "Lev nu",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Deltag live",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Videoopkald ikke tilgængelig",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Liget er ikke begyndt endnu",
+    "virtualWaitingHostNote": "Du vil være i stand til at deltage, så snart arrangøren åbner rummet.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Hovedrum",
+      "session": "Session",
+      "breakout": "Breakout",
+      "networking": "Netværksarbejde",
+      "workshop": "Workshop"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Salg afsluttet",
+    "ticketsSaleNotStarted": "Til salg snart",
+    "peekSave": "Gem",
+    "peekUnsave": "Fjern fra gemt",
+    "peekShare": "Del",
+    "peekOpen": "Åbn",
+    "peekA11yHint": "Hold for en forhåndsvisning",
+    "swipeSave": "Frigivelse for at gemme",
+    "swipeUnsave": "Frigivelse at fjerne",
+    "swipeHint": "Stryg for at gemme",
+    "swipeRemoved": "Fjernet fra gemt",
+    "swipeUndo": "Fortryd",
+    "swipeRemove": "Fjern",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Solrige besværgelser",
+      "cloudy": "Skyet",
+      "fog": "Tåge",
+      "rain": "Regn",
+      "snow": "Sne",
+      "showers": "Brusere",
+      "thunderstorm": "Tordenvejr",
+      "variable": "Udskiftelig"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Vælg format",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Når denne arrangør udgiver en ny begivenhed",
     "followPrefsSave": "Gem præferencer",
     "followPrefsSaveA11y": "Gem præferencer",
-    "inAppToastA11y": "Tap på for at åbne."
+    "inAppToastA11y": "Tap på for at åbne.",
+    "webviewVisioTitle": "Videoopkald",
+    "webviewOfflineTitle": "Du er offline",
+    "webviewOfflineBody": "Din enhed mistede forbindelsen. Opkaldet genoptages, så snart netværket er tilbage.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Langsom forbindelse opdaget - video kan nedbrydes og bruge dine data."
   },
   "messageRequests": {
     "eyebrow": "ANTI- SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Krævet kamera",
     "permissionSubtitle": "For at scanne en QR, EventEz har brug for adgang til kameraet.",
     "permissionGrant": "Tillad kamera"
+  },
+  "media": {
+    "sheetTitle": "Hvad vil du gøre?",
+    "saveToGallery": "Gem til galleri",
+    "share": "Del",
+    "savedToGallery": "Reddet til galleri",
+    "permissionDeniedTitle": "Tilladelse nægtet",
+    "permissionDeniedMessage": "Aktivér fotoadgang i Indstillinger for at gemme.",
+    "sharingUnavailable": "Deling er ikke tilgængelig på denne enhed.",
+    "downloadFailed": "Download mislykkedes. Prøv igen.",
+    "genericError": "Noget gik galt. Prøv igen."
   },
   "componentsMessages": {
     "inputJoinFile": "Vedlæg en fil",
@@ -5127,7 +5585,7 @@
     "messages": "MESSAGER",
     "suggestions": "TILSKUD",
     "theme": "THEME",
-    "timezoneSoon": "TIMEZON · SOON",
+    "timezone": "TIDSZONE",
     "soundEffects": "FØDEVARER",
     "authSoon": "AUTENTICATION · SOON",
     "connectionsSoon": "FORBINDELSER",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · SAVET",
     "tabMessages": "03 · MESSAGE",
     "tabTickets": "04 · TIKKER",
-    "tabProfile": "05 · PROFIL"
+    "tabProfile": "05 · PROFIL",
+    "push": "Skub",
+    "privacy": "Privatliv",
+    "memories": "Minder",
+    "yearInReview": "Gennemgang af året"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Foretaget",
-      "selectedCount_plural": "Foretaget",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Godkendt",
       "reject": "Afvis",
       "checkIn": "Check-in"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promokoder",
         "linkSessions": "Link billetter til sessioner",
         "addPhotos": "Tilføj fotos",
+        "startLive": "Gå live",
         "volunteers": "Frivillige",
         "sponsors": "Sponsorer",
         "seatingPlans": "Referenceplaner",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplikér",
         "cancelEvent": "Annullér begivenhed",
         "cancelEventDesc": "Underret registranter",
-        "deleteDesc": "Irreversibel virkning"
+        "deleteDesc": "Irreversibel virkning",
+        "invite": "Inviter gæster",
+        "inviteDescInviteOnly": "Den eneste måde at give adgang til denne invitation-eneste begivenhed",
+        "duplicatePastDesc": "Start fra en redigerbar kopi",
+        "remindInvites": "Mind gæster",
+        "weddingGuests": "Gæster og RSVP",
+        "weddingGifts": "Registreringsgaver",
+        "weddingTables": "Referenceplan"
       },
       "emptyEyebrowResults": "INGEN RESULTATER",
       "emptyEyebrowCatalog": "AFGIFTSKATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "F.eks. helbredsforhold, mødested utilgængelig...",
       "keepBtn": "Behold",
       "cancelEventBtn": "Annullér begivenhed",
+      "cancelHolding": "Vent...",
       "recurrenceEyebrow": "MODTAGELSE",
       "recurrenceModalTitle": "Skema:",
       "recurrenceModalBody": "Opret flere forekomster fra denne begivenhed. Hver hændelse er en uafhængig ny begivenhed, du kan justere.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Denne begivenhed er direkte. Hvis du ændrer kritiske felter (titel, datoer, placering, type, kapacitet), vil det blive sendt tilbage til validering og midlertidigt skjult indtil gengodkendelse.",
       "editValidatedConfirm": "Redigér alligevel",
       "actionEditValidated": "Redigér (genvalidering mulig)",
-      "actionEditValidatedDesc": "Kritiske felter → genvalidering"
+      "actionEditValidatedDesc": "Kritiske felter → genvalidering",
+      "inviteEyebrow": "INVITATIONER",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Emails adskilt af kommaer eller nye linjer",
+      "inviteMessagePlaceholder": "Personlig meddelelse (valgfrit)",
+      "inviteSendBtn": "Send invitationer",
+      "inviteEmptyTitle": "Ingen e-mail",
+      "inviteEmptyMessage": "Indtast mindst én e-mailadresse.",
+      "inviteInvalidTitle": "Ugyldige e-mails",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Sendte opfordringer",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Kunne ikke sende invitationer.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Ingen gæst at minde lige nu.",
+      "remindErrorTitle": "Påmindelse mislykkedes",
+      "remindErrorMessage": "Rygterne kunne ikke sendes. Prøv igen.",
+      "remindPendingProgress": "At sende påmindelser...",
+      "loadError": "Kunne ikke indlæse dine begivenheder. Tjek din forbindelse."
     },
     "volunteer": {
       "tabReceived": "Modtagne beløb",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Ugyldig kode: forventet UUID eller referencekode (8-20 tegn A-Z / 0-9).",
       "sessionRecapTitle": "Sessionsresumé",
       "sessionRecapBody": "Scan (r) i min\nName\n3% mislykkedes",
-      "sessionRecapQueue": "Oversat af:"
+      "sessionRecapQueue": "Oversat af:",
+      "manualModeBanner": "Manuel tilstand - 1 tap pr. person",
+      "manualModeA11y": "Manuel tilstand tændt. Tryk på for at slå automatisk check-in tilbage på.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "De kom ind, mens netværket var nede. Tjek med dit hold.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Accepteret offline af denne telefon, afvist på synkronisering. Hvis en anden agent scannede på samme tid, kom de to ind.",
+      "voice": {
+        "valid": "Gyldig billet",
+        "validWarning": "Gyldig, skal kontrolleres",
+        "alreadyCheckedIn": "Allerede tjekket i",
+        "refused": "Billetafslag",
+        "enabled": "Stemmemeddelelser",
+        "toggleOn": "Stemmemeddelelser",
+        "toggleOff": "Stemmemeddelelser slukkes",
+        "toggleA11y": "Tænd eller sluk for scaneresultater"
+      }
     },
     "liveOps": {
       "live": "LIVE",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "DERES EFFEKT",
       "headerTitle": "Analytics",
+      "errorTitle": "Analytikere ikke tilgængelige",
+      "errorBody": "Kunne ikke indlæse data. Tjek din forbindelse og prøv igen.",
       "eventLabel": "EVENT",
       "kpiViews": "Visninger",
       "kpiRegistrations": "Registreringer",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Din begivenhed er blevet set 0 gange",
       "insightViewsNone": "Del din begivenhed for at få flere visninger",
       "insightRegistered_one": "0 Indregistreret person",
-      "insightRegistered_other": "Antal registrerede"
+      "insightRegistered_other": "Antal registrerede",
+      "actionBoxOffice": "Kartotek"
     },
     "sessionsLink": {
       "headerEyebrow": "ADGANG • SESSIONER",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsorer vil optræde her, når et partnerskab tilføjes."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Al forslag er blevet anvendt på formularen",
+      "aiTitleSuggestionsTitle": "Forslag til afsnit",
+      "aiPricingSuggestionsTitle": "AI prisfastsættelsesforslag",
+      "aiTicketsCreated": "Billetter lavet af AI forslag",
+      "aiDescGenerated": "Beskrivelse genereret af AI",
+      "aiNeedTitleFirst": "Tilføj en titel først, så AI kan generere en beskrivelse.",
+      "galleryPermissionTitle": "Påkrævet tilladelse",
+      "galleryPermissionMessage": "Giv adgang til dit fotobibliotek",
+      "videoTooLargeTitle": "Video for stor",
+      "videoTooLargeMessage": "Videoen skal være under 20 MB.",
       "unsupportedCountryTitle": "Land ikke tilgængeligt",
       "unsupportedCountryMessage": "EventEz kan endnu ikke behandle betalinger i dette land. Begivenhedsskabelse vil blive afvist. Støttede lande: NotchPay, CinetPay og Stripe (46 lande).",
       "draftFoundTitle": "Udkast fundet",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Begivenhed indsendt med succes",
       "viewMyEvents": "Vis mine begivenheder",
       "createAnother": "Opret en anden",
+      "submittedStamp": "Revideret",
+      "submittedEyebrow": "Indsendt til revision",
+      "submittedBody": "Vores hold gennemgår din begivenhed. Du får besked, så snart det bliver levende.",
+      "submittedCtaEyebrow": "Dashboard",
       "edit": "Redigér",
       "saved": "Gemt",
       "back": "Tilbage",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Billetten skal være ≥ min.",
         "fieldLabelRequired": "Feltet # # # skal udfyldes",
         "fieldOptionsRequired": "Indstillinger er påkrævet for felt \"MR\""
-      }
+      },
+      "loadFailedBlocksSave": "Begivenhedsdata kunne ikke indlæses. Genindlæs siden før du gemmer, ellers ville dine aktuelle oplysninger blive overskrevet."
     },
     "eventRegistrations": {
       "title": "Registreringer",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF eksport, dashboards",
       "linkMyEventsTitle": "Mine begivenheder",
       "linkMyEventsSub": "Stats pr. begivenhed"
+    },
+    "boxOffice": {
+      "openTitle": "Åbn kassen",
+      "openingFloatHelp": "Hvor meget ændring gav arrangøren dig til at starte med? Uden den vil aftenens optælling være forkert.",
+      "openDrawer": "Åbn kassen",
+      "openError": "Tilslutningen kunne ikke åbnes",
+      "openErrorDetail": "Tjek din forbindelse og prøv igen.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Luk",
+      "cash": "Kontanter",
+      "momo": "Mobilpenge",
+      "giveBack": "GIVE BACK",
+      "saleError": "Salget blev ikke registreret",
+      "saleErrorDetail": "Gå ikke tilbage til salget: Prøv igen, det vil ikke blive opkrævet to gange.",
+      "a11y": {
+        "drawerOpened": "Til åben",
+        "openingFloatInput": "Åbningsbeløb",
+        "openDrawer": "Åbn kassen",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Luk till",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Tag mobile penge",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "HVER",
+      "cashOnlyHint": "Kun kontanter - Mobilpenge er ikke i din taske.",
+      "openingFloat": "Åbner float",
+      "salesCount": "Salg",
+      "countedLabel": "Jeg talte",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Det blokerer ikke. Bare forklar hvorfor nedenfor.",
+      "reasonLabel": "Forklaring (fakultativ)",
+      "reasonPlaceholder": "F.eks. gav jeg 500 for meget forandring.",
+      "confirmClose": "Luk min till",
+      "closedTitle": "Til lukket",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Lukning mislykkedes",
+      "closeErrorDetail": "Prøv igen om lidt.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Registreret beløb",
+        "reasonInput": "Variansforklaring",
+        "confirmClose": "Bekræft lukning",
+        "closed": "Til lukket"
+      }
+    },
+    "documents": {
+      "title": "Dokumenter der skal udskrives",
+      "a11y": "Udskrevne dokumenter",
+      "badges": "Attendeebadges",
+      "badgesHint": "A6 format, 4 per A4 side",
+      "attendanceSheet": "Signal- i ark",
+      "attendanceSheetHint": "At underskrive i receptionen - klar før begivenheden",
+      "certificates": "Deltagelsescertifikater",
+      "certificatesHint": "Efter begivenheden, for checked- in deltagere"
+    },
+    "weddingGuests": {
+      "title": "Gæster og RSVP",
+      "empty": "Ingen gæster endnu.",
+      "remindOne": "Minder",
+      "remindOneSent": "Sendt påmindelse",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Kunne ikke sende påmindelse",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Redigér RSVP",
+      "editRsvpTitle": "Redigér RSVP",
+      "rsvpUpdated": "RSVP opdateret",
+      "rsvpError": "Kunne ikke gemme RSVP",
+      "partySize": "Partikelstørrelse",
+      "dietary": "Kostkrav",
+      "dietaryPlaceholder": "Vegetarisk, glutenfri...",
+      "note": "Bemærkning",
+      "stats": {
+        "invited": "Inviteret",
+        "accepted": "Bekræftet",
+        "pending": "Afventer",
+        "headcount": "Antal"
+      },
+      "status": {
+        "pending": "Afventer",
+        "accepted": "Bekræftet",
+        "declined": "Afslået",
+        "cancelled": "Annulleret"
+      }
+    },
+    "weddingGifts": {
+      "title": "Registreringsgaver",
+      "noRegistry": "Ingen gaveregister til denne begivenhed.",
+      "create": "Opret register",
+      "registryCreated": "Registreringsfil oprettet",
+      "registryUpdated": "Registret opdateret",
+      "editRegistry": "Redigér register",
+      "registryTitle": "Registreringstitel",
+      "registryDescription": "Meddelelse til gæsterne",
+      "visible": "Registreringsfil synlig",
+      "hidden": "Skjult",
+      "totalRaised": "Forhøjet i alt",
+      "share": "Del",
+      "addItem": "Tilføj en gave",
+      "newItem": "Ny gave",
+      "editItem": "Redigér gave",
+      "itemName": "Navn",
+      "itemKind": "Type",
+      "targetAmount": "Målbeløb",
+      "externalUrl": "Eksterne link (valgfrit)",
+      "itemAdded": "Tilsat gave",
+      "itemUpdated": "Gave opdateret",
+      "itemDeleted": "Gave slettet",
+      "deleteItemTitle": "Slet denne gave",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Reserveret",
+      "noItems": "Ingen gaver endnu. Tilføj en.",
+      "kind": {
+        "gift": "Gave (element)",
+        "cash_fund": "Kontantfond"
+      },
+      "error": "Noget gik galt"
+    },
+    "weddingTables": {
+      "title": "Referenceplan",
+      "noTables": "Ingen borde endnu. Lav en.",
+      "addTable": "Tilføj en tabel",
+      "newTable": "Nyt skema",
+      "editTable": "Redigér tabel",
+      "name": "Tabelnavn",
+      "namePlaceholder": "Bord 1, familie...",
+      "capacity": "Sæder",
+      "created": "Tabel oprettet",
+      "updated": "Tabel opdateret",
+      "deleted": "Tabel slettet",
+      "deleteTitle": "Slet tabel",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Fuld",
+      "tableEmpty": "Ingen ved dette bord",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Alle bekræftede gæster sidder ned.",
+      "createFirst": "Opret et bord først for at sætte dine gæster.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Gæst siddende",
+      "unassign": "Fjern",
+      "unassigned": "Gæst fjernet",
+      "capacityError": "Der er ikke nok pladser ved dette bord.",
+      "error": "Noget gik galt"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Begivenheder",
       "kpiRevenue": "Indtægter",
       "kpiVerifications": "Kontrol",
+      "activityChartTitle": "Platform",
+      "activityChartSubtitle": "Revision inden for de sidste 7 dage",
       "quickActions": "KVIKKE FORANSTALTNINGER",
       "recentActivity": "DEN SENESTE AKTIVITET",
       "noActivity": "Ingen nyere aktivitet",
       "viewAllAudit": "Vis alle revisionslogfiler",
       "actions": {
         "users": "Brugere",
+        "verifications": "Kontrol",
         "subscriptions": "Abonnementer",
         "audit": "Revision",
         "announcements": "Meddelelser",
@@ -6369,6 +7066,30 @@
         "settings": "Indstillinger",
         "treasury": "Finansministeriet"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Begrænset adgang",
+      "eyebrow": "Moderering",
+      "title": "Verifikationsanmodninger",
+      "typeOrg": "Organisation",
+      "typeIndividual": "Individuel",
+      "noDocuments": "Ingen dokumenter",
+      "approve": "Godkendt",
+      "reject": "Afvis",
+      "approveTitle": "Godkendt verifikation",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Bekræft godkendelse af denne kontrol",
+      "approveSuccess": "Organizer verificeret",
+      "rejectTitle": "Afvis anmodning",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Begrundelse for afvisning...",
+      "rejectReasonRequired": "Der er brug for en grund.",
+      "rejectSuccess": "Anmodning afvist",
+      "actionError": "Handlingen mislykkedes. Prøv igen.",
+      "loadError": "Kunne ikke indlæse verifikationsanmodninger.",
+      "emptyTitle": "Ingen verserende anmodninger",
+      "emptySubtitle": "Ny organisator verifikationsanmodning vises her."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Kan ikke indlæse bruger",
       "roleSection": "ROL",
       "actionsSection": "FORANSTALTNINGER",
+      "profileSection": "PROFIL",
+      "fieldFirstName": "Fornavn",
+      "fieldLastName": "Efternavn",
+      "fieldEmail": "E- mail",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Virksomhed",
+      "saveProfile": "Gem profil",
+      "profileUpdated": "Profil opdateret",
+      "profileUpdateError": "Kunne ikke opdatere profilen.",
+      "emailRequired": "E-mail er påkrævet.",
       "infoSection": "OPLYSNINGER",
       "active": "Aktiv",
       "inactive": "Inaktiv",
@@ -6670,6 +7401,21 @@
       "title": "Revisionslogfiler",
       "target": "Mål",
       "user": "Bruger # cg 0",
+      "detail": {
+        "guardTitle": "Logdetaljer",
+        "eyebrow": "Revisionslog",
+        "title": "Logdetaljer",
+        "action": "Handling",
+        "target": "Mål",
+        "user": "Bruger",
+        "system": "System",
+        "timestamp": "Tidsstempel",
+        "ip": "IP- adresse",
+        "userAgent": "Enhed / browser",
+        "changes": "Ændringer",
+        "metadata": "Detaljer",
+        "loadError": "Kunne ikke indlæse denne log."
+      },
       "stats": {
         "total": "I alt"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Gæstens e-mail",
     "delegateError": "Kunne ikke sende invitationen.",
     "toCompleteBadge": "< 0 skal udfyldes"
+  },
+  "shareCard": {
+    "eyebrow": "Jeg er der.",
+    "button": "Del til historien",
+    "dialogTitle": "Del min plads",
+    "cta": "Book din plads →",
+    "errorTitle": "Del",
+    "errorMessage": "Kunne ikke generere kortet lige nu."
+  },
+  "badges": {
+    "verified": "Verificeret",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "UDØVELSE",
+    "title": "Ansøgning om en stand",
+    "lead": "Introducer din virksomhed til at køre en stand på dette show. Arrangøren vil gennemgå din anmodning.",
+    "companyLabel": "Virksomhedens navn",
+    "companyPlaceholder": "F.eks. Acme Ltd.",
+    "categoryLabel": "Industri / kategori",
+    "categoryPlaceholder": "F.eks. Tech, Food...",
+    "websiteLabel": "Websted (valgfrit)",
+    "pitchLabel": "Meddelelse til arrangøren (valgfrit)",
+    "pitchPlaceholder": "Beskriv din virksomhed, hvad du vil fremvise...",
+    "boothLabel": "Foretrukket stand (valgfrit)",
+    "submit": "Send min ansøgning",
+    "submitting": "Sende...",
+    "successTitle": "Ansøgning sendt!",
+    "successSubtitle": "Arrangøren vil gennemgå det. Du vil blive underrettet om deres beslutning.",
+    "goToMyBooth": "Vis min stand",
+    "alreadyApplied": "Du har allerede ansøgt om dette show.",
+    "loginRequired": "Log ind for at søge om en stand.",
+    "login": "Log ind",
+    "errorSubmit": "Kunne ikke sende programmet.",
+    "ctaTitle": "Køre en bås til dette show?",
+    "ctaSubtitle": "Anvend om få sekunder.",
+    "ctaButton": "Bliv udstiller"
+  },
+  "myBoothMobile": {
+    "eyebrow": "UDØVELSE",
+    "title": "Min stand",
+    "empty": "Ingen stand reservation.",
+    "show": "Vis",
+    "accepted": "Vilkår accepteret.",
+    "acceptError": "Kunne ikke acceptere.",
+    "salesTitle": "Delegeret salg",
+    "commission": "EventEz commission",
+    "hostShare": "Organizer share",
+    "net": "Hvad du har",
+    "createEvent": "Opret min begivenhed",
+    "acceptCta": "Jeg accepterer disse vilkår",
+    "statusPaid": "Betalt",
+    "statusPartial": "Indskud betalt",
+    "statusPending": "At betale",
+    "amountDue": "Booth beløb",
+    "amountRemaining": "Resterende betaling",
+    "payBooth": "Betal for min stand",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kort",
+    "paymentInitiated": "Betaling påbegyndt. Bekræft det på din telefon.",
+    "payError": "Kunne ikke indlede bodens betaling.",
+    "captureLeads": "Optag kontakter",
+    "viewLeads": "Mine kontakter"
+  },
+  "leadCapture": {
+    "title": "Fange en kontakt",
+    "hint": "Point på QR koden på gæstens skilt.",
+    "permissionTitle": "Tillad kameraadgang",
+    "permissionBody": "Kameraet bruges kun til at læse QR-koden for besøgende, der indvilligede i at blive kontaktet.",
+    "permissionCta": "Tænd kameraet",
+    "manualEntry": "Type referencen i stedet",
+    "manualPlaceholder": "Badge reference",
+    "unnamed": "Kontakt gemt",
+    "alreadyKnown": "Allerede opfyldt - rekord opdateret.",
+    "qualify": "Kvalificer denne kontakt",
+    "rating_hot": "Hot",
+    "rating_warm": "Varm",
+    "rating_cold": "Koldt",
+    "notesPlaceholder": "Hvad du talte om (valgfrit)",
+    "next": "Næste kontakt",
+    "retry": "Scan igen",
+    "noConsentTitle": "Denne besøgende er ikke enig",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Badge ikke anerkendt",
+    "notFoundBody": "Dette skilt tilhører ikke denne begivenhed. Kontroller referencen trykt under QR-koden.",
+    "errorTitle": "Scan mislykkedes",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Denne besøgende har ikke indvilliget i at blive kontaktet.",
+    "a11yNotFound": "Badge ikke anerkendt.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "I dag",
+    "yesterday": "I går",
+    "justNow": "Lige nu",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Sender",
+    "failed": "Kunne ikke sende",
+    "sent": "Sendt",
+    "delivered": "Leveret",
+    "read": "Læs"
+  },
+  "myLeads": {
+    "title": "Mine kontakter",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Unavngiven kontakt",
+    "emptyTitle": "Ingen kontakter endnu",
+    "emptyBody": "Scan skiltet på besøgende, der kommer forbi din bås. Du kan derefter eksportere den fulde liste som CSV.",
+    "errorTitle": "Kunne ikke indlæse",
+    "errorBody": "Dine kontakter er reddet. Tjek din forbindelse og prøv igen."
+  },
+  "myDataExhibitors": {
+    "title": "Mine data hos udstillere",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Slet",
+    "eraseAll": "Slet alle",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Dine kontaktoplysninger er blevet slettet.",
+    "eraseError": "Sletningen gik ikke igennem.",
+    "confirmCta": "Slet",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Slet mine data fra alle udstillere?",
+    "confirmAllBody": "Dit navn, e-mail og telefonnummer vil blive slettet på hver børsnoteret virksomhed. Det kan ikke gøres om.",
+    "emptyTitle": "Ingen virksomhed har dine kontaktoplysninger",
+    "emptyBody": "Udstillere kan kun gemme dine oplysninger ved at scanne dit skilt, og kun hvis du tillod det til denne begivenhed."
+  },
+  "visio": {
+    "expandCall": "Udvid videoopkald",
+    "endCall": "Endekald",
+    "endCallConfirmTitle": "Efterlade opkaldet?",
+    "endCallConfirmMessage": "Du er ved at forlade det igangværende møde.",
+    "minimize": "Minimér",
+    "liveNow": "LIVE",
+    "join": "Deltag",
+    "view": "Vis",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Vis",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Ændr størrelse"
+  },
+  "organize": {
+    "favorites": "Mine favoritter",
+    "eyebrow": "Organizer rum",
+    "title": "Organiser",
+    "liveNow": "Lev nu",
+    "nextEvent": "Næste begivenhed",
+    "registered": "registreret",
+    "scan": "Scan",
+    "scanA11y": "Scan billetter til denne begivenhed",
+    "boxOffice": "Kartotek",
+    "boxOfficeA11y": "Åbn boks kontor for denne begivenhed",
+    "viewStats": "Vis statistik",
+    "availableBalance": "Disponibel saldo",
+    "walletA11y": "Åbn min tegnebog",
+    "noActiveEvent": "Ingen begivenhed kørende",
+    "noActiveEventHint": "Opret en begivenhed eller udgiv et udkast for at se det her.",
+    "noStaffEventHint": "Begivenheder, hvor du er en del af holdet vil dukke op her.",
+    "createEvent": "Opret en begivenhed",
+    "myEvents": "Mine begivenheder",
+    "teamEvents": "Begivenheder I personale",
+    "analytics": "Analytics",
+    "loadError": "Kunne ikke laste din plads. Tjek din forbindelse."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Du er med.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Om en uge",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Døre er åbne",
+    "onNow": "Happening now",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Billet tilgængelig offline",
+    "offlinePending": "Åbn billetten én gang for at holde den offline",
+    "sayImGoing": "Sig, jeg går.",
+    "showTicket": "Vis min billet",
+    "directions": "Retninger",
+    "viewTicket": "Vis billet",
+    "goThere": "Gå",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibrér kompasset: Tegn en figur 8 med telefonen",
+    "compassHint": "Følg pilen til stedet"
+  },
+  "onSite": {
+    "eyebrow": "Du er på stedet",
+    "now": "Nu",
+    "next": "Next · {{time}}",
+    "qa": "Live Q & A",
+    "plan": "Kort & sted",
+    "networking": "Netværksarbejde"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Du var der.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Først at ankomme",
+    "question": "Hvad synes du?",
+    "thanks": "Tak for din vurdering.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Del til historien",
+    "later": "Senere"
+  },
+  "yearInReview": {
+    "eyebrow": "Dit år",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "begivenhed deltog",
+    "s1Line_other": "deltagelse i arrangementer",
+    "citiesEyebrow": "På vej",
+    "categoryEyebrow": "Din slags begivenhed",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Det hele startede med",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Altid til tiden",
+    "arrivalsLine_one": "tid først til at ankomme",
+    "arrivalsLine_other": "gange først at ankomme",
+    "organizerEyebrow": "Din arrangør",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Del mit kort",
+    "tapHint": "Tryk på for at fortsætte"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Første deltager",
+      "someone": "Nogen",
+      "share": "Del for at øge salget",
+      "view": "Vis",
+      "soldOutTitle": "Solgt ud",
+      "soldOutLine": "hver billet er væk"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "LØST",
+      "online": "LIVE"
+    },
+    "share": {
+      "cta": "Del begivenheden",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Delt",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Besøgt",
+      "approved": "Godkendt",
+      "sent": "Sendt",
+      "verifying": "Kontrol med operatøren",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Udbetaling mislykkedes"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Venue næsten fuld",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Skiftets afslutning",
+      "validated": "Checket ind",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Afvist",
+      "syncing": "Synkronisering...",
+      "synced": "Synkroniserede",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Vis live ops",
+      "resume": "Genoptag",
+      "close": "Afslut"
+    },
+    "recap": {
+      "title": "Genoptag",
+      "eyebrow": "EVENTMODTAGERE",
+      "attended": "Afholdt",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Indtægter",
+      "rating": "Gennemsnitlig vurdering",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Ingen anmeldelser endnu",
+      "best": "Standardisering",
+      "latest": "Sidste anmeldelser",
+      "thank": "Tak deltagere",
+      "funds": "Vis fonde",
+      "error": "Genoptag utilgængelig lige nu.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Vis rekap"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Stoppet lige nu",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Booked in the last hour",
+    "lastSaleToday": "Stokes i dag",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Solgt ud",
+    "soldOutCta": "Solgt ud · ingen pladser tilbage",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Dine forbindelser, der skal",
+    "someone": "Nogen",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 timer",
+    "seatHeldTitle": "Der er plads til dig",
+    "seatHeldBody": "Book før nedtællingen slutter: derefter går det til den næste person.",
+    "seatHeldCta": "Bestil min plads",
+    "seatHeldExpired": "Tiden er gået: sædet gik til den næste person.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Vis alle",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reaktioner",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "En af dine forbindelser er ankommet",
+    "connectionArrivedCta": "Besked dem",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Levende salg",
+    "checkinPushed": "Levende ankomst"
+  },
+  "reminders": {
+    "channelName": "Begivenhedspåmindelser",
+    "dayBeforeTitle": "Påmindelse: i morgen",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Påmindelse: om 1 time",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Oplev",
+    "discoverSubtitle": "Begivenheder i nærheden af dig",
+    "tickets": "Mine billetter",
+    "scan": "Scan en billet"
+  },
+  "ongoing": {
+    "channelName": "Begivenhedsdag",
+    "eventFallback": "Din begivenhed",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Starter snart",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "På nu · din billet er klar",
+    "scannerTitle": "Scanner i tjeneste"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Fortryd den sidste handling?",
+      "confirm": "Fortryd",
+      "keep": "Behold",
+      "failed": "Undo gik ikke igennem. Tjek din forbindelse og prøv igen.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Flyt samtalen ud af arkivet."
+    },
+    "report": {
+      "title": "Rapportér et problem",
+      "subtitle": "Test build: skærmbilledet, skærmen og versionen sendes med din besked.",
+      "noNote": "Rapport uden kommentarer",
+      "blur": "Slør",
+      "noShot": "Ingen skærmbillede tilgængelig på denne skærm.",
+      "placeholder": "Hvad skete der?",
+      "send": "Send",
+      "sent": "Tak, Deres betænkning er sendt.",
+      "unavailable": "Kan ikke sende: fejlsporing er ikke aktiv på denne bygning."
+    },
+    "applause": {
+      "hint": "Hold ud at klappe længere.",
+      "a11y": "Langvarigt bifald"
+    },
+    "hush": {
+      "title": "Mic og kamera slukket, mens telefonen var med ansigtet nedad",
+      "reactivate": "Tryk på for at tænde dem igen"
+    },
+    "lighter": {
+      "button": "Lettere",
+      "off": "Sluk den.",
+      "alone": "Løft telefonen, flammen følger dine bevægelser.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Overrask mig",
+      "chipA11y": "Foreslår en tilfældig begivenhed",
+      "again": "En anden",
+      "none": "Ingen kommende begivenhed at foreslå lige nu."
+    },
+    "bump": {
+      "settingTitle": "Swap kontakter ved at ryste",
+      "settingSubtitle": "På stedet, når din billet er scannet: ryst på samme tid som en anden for at finde hinanden. Din omtrentlige placering bruges i et par sekunder til at matche dig og er aldrig gemt. Intet sker uden din bekræftelse. Fra som standard.",
+      "button": "Swap ved at ryste",
+      "nearbyButton": "Se mig omkring",
+      "hint": "Ryst telefonen på samme tid som den anden person.",
+      "title": "Swap- kontakter",
+      "searching": "Leder du efter folk der ryster i nærheden af dig...",
+      "none": "Ingen fundet. Ryst på samme tidspunkt som den anden person, så prøv igen.",
+      "pick": "Vælg den rigtige person. Intet deles uden dit samtykke.",
+      "connect": "Forbindelse?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Venter på deres bekræftelse",
+      "connected": "Forbundet",
+      "openSettings": "Åbn indstillinger",
+      "error": {
+        "disabled": "Tænd \"Swap- kontakter ved at ryste\" i dine indstillinger.",
+        "notCheckedIn": "Fås, når din billet er scannet ved indgangen.",
+        "clockSkew": "Din telefons ur er slukket. Sæt den til automatisk og prøv igen.",
+        "rateLimited": "For mange forsøg. Prøv igen om et øjeblik.",
+        "expired": "Byttet udløb. Start forfra.",
+        "noLocation": "Placering er nødvendig for at finde personen i nærheden af dig.",
+        "generic": "Byttet gik ikke igennem. Prøv igen."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Gem begivenheden"
+    },
+    "torch": {
+      "onA11y": "Tænd for faklen",
+      "offA11y": "Sluk faklen",
+      "hint": "Dobbelt- tryk på viewfinder for at tænde eller slukke for faklen."
+    },
+    "dragSelect": {
+      "select": "Vælg",
+      "hint": "Eller træk to fingre ned af listen for at markere flere deltagere.",
+      "message": "Brev de valgte deltagere",
+      "export": "Eksportér markeringen",
+      "exportError": "Eksportering af markeringen mislykkedes.",
+      "csvName": "Navn",
+      "csvEmail": "E- mail",
+      "csvReference": "Henvisning",
+      "csvStatus": "Status",
+      "csvDate": "Registreret"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Henter dine billetter...",
+      "favorites": "Henter dine favoritter...",
+      "notifications": "Hent dine beskeder...",
+      "messages": "Hent dine samtaler...",
+      "search": "Leder du efter matchende begivenheder...",
+      "event": "Forbereder begivenhedssiden..."
+    },
+    "mobileMoney": {
+      "sent": "Din betalingsanmodning er sendt til din operatør.",
+      "pin": "Godkend det med din PIN på telefonen, i din operatørs prompt.",
+      "operator": "Det kan tage lidt tid. Det er normalt. Bliv på denne side.",
+      "once": "Du vil kun blive sigtet én gang, selvom ventetiden fortsætter."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Dine billetter vises her, så snart du tilmelder dig en begivenhed.",
+        "v1": "En koncert, en konference, et værksted? Det hele starter med en begivenhed.",
+        "v2": "Din næste udflugt er måske allerede online."
+      },
+      "favorites": {
+        "v0": "Tryk på hjertet på en begivenhed for at finde den her og høre om ændringer.",
+        "v1": "Følg en begivenhed, så du aldrig går glip af dens nyheder.",
+        "v2": "Et hjerte er nok til at holde en begivenhed ved hånden."
+      },
+      "notifications": {
+        "v0": "Nyheder fra de begivenheder og arrangører, du følger, vil dukke op her.",
+        "v1": "Følg en begivenhed for at blive underrettet om, hvad der er nyt.",
+        "v2": "Vi siger til, så snart der sker noget."
+      },
+      "messages": {
+        "v0": "Mødte nogen til et arrangement? Scan deres kode for at forbinde.",
+        "v1": "Dine event forbindelser viser sig her: En kode scanning er nok.",
+        "v2": "Swap kontaktoplysninger på stedet ved at scanne en deltagers kode."
+      },
+      "discover": {
+        "v0": "En søgeordssøgning finder nogle gange, hvad hjemmesiden ikke viser endnu.",
+        "v1": "Søg efter by eller kategori: nye begivenheder ankommer hver uge."
+      },
+      "exploreAction": "Se hvad der er på",
+      "scanAction": "Scan en kode",
+      "searchAction": "Søg efter en begivenhed",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Bredde til 50 km omkring dig",
+      "clearFilters": "Ryd filtre"
+    },
+    "greeting": {
+      "when": {
+        "today": "i dag",
+        "tomorrow": "i morgen",
+        "dayAfter": "i overmorgen"
+      },
+      "there": "på stedet",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Tillykke! Hav en dejlig dag.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Glædelig nationaldag!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Velkommen tilbage",
+      "subtitle_one": "En ny ting siden dit sidste besøg.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Og en mere fra hvad du følger.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Skjul",
+      "reason": {
+        "followed_organizer": "Organizer du følger",
+        "new_edition": "Ny udgave af en begivenhed du deltog i",
+        "other": "Ny"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "For dig · based on your taste",
+      "forYouTitle": "Du kan måske også lide",
+      "loginCtaTitle": "Anbefalinger skræddersyet til dig"
+    },
+    "settings": {
+      "ritualsEyebrow": "LITTLE TOUCHES",
+      "ritualsTitle": "Små rør",
+      "ritualsSubtitle": "Et ord på din fødselsdag, din konto jubilæum eller national dag, en gang i løbet af dagen. Din alder er aldrig vist, ingen anmeldelse.",
+      "forgetEyebrow": "ANBEFALINGER",
+      "forgetTitle": "Glem mine præferencer",
+      "forgetSubtitle": "Slet hvad der fulgte efter begivenheder, registreringer og søgninger lært dine anbefalinger.",
+      "forgetConfirmTitle": "Har du glemt dine præferencer?",
+      "forgetConfirmMessage": "Dine anbefalinger vil starte forfra. Dine billetter, favoritter og følger ændrer sig ikke.",
+      "forgetDone": "Færdig: dine anbefalinger starter fra bunden.",
+      "forgetUnavailable": "Denne mulighed er ikke tilgængelig endnu. Intet blev slettet.",
+      "forgetError": "Dine præferencer kunne ikke slettes. De er uændrede; prøv venligst igen om et øjeblik."
+    },
+    "goingCard": {
+      "title": "Mens du venter, forberede dit \"Jeg går\" kort",
+      "subtitle": "Den vil være klar til at dele, så snart betalingen er bekræftet.",
+      "tintLabel": "Baggrund",
+      "messageLabel": "Meddelelse",
+      "messages": {
+        "going": "Jeg går.",
+        "meetThere": "Kan du se det?",
+        "seeYou": "Mød mig der"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Dine kortaftryk, mens du venter.",
+      "ready": "Dit kort er klar",
+      "share": "Del mit kort",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

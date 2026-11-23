@@ -41,6 +41,7 @@
     "close": "Nära",
     "clear": "Clear",
     "back": "Tillbaka",
+    "home": "Hemsidan",
     "next": "Nästa Nästa",
     "previous": "Föregående",
     "search": "Sök efter Sök",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Koden är felaktig eller utgången",
     "loginError": "Login fel",
     "registerError": "Registreringsfel",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Redovisning finns redan",
     "registerEmailExistsDetail": "Ett konto finns redan med detta e-postmeddelande. Vill du logga in?",
     "registerEmailExistsConfirm": "Logga in",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Efternamn krävs",
     "emailRequired": "E-post krävs",
     "emailInvalid": "Ogiltig e-post",
+    "passwordRequired": "Lösenord krävs",
     "passwordTooShort": "Lösenord för kort (endast 0 § tecken)",
+    "confirmPasswordRequired": "Lösenordsbekräftelse krävs",
     "passwordsDontMatch": "Lösenord matchar inte",
+    "usernameRequired": "Användarnamn krävs",
     "usernameTooShort": "Användarnamn för kort (Enstaka tecken minst)",
     "usernameInvalid": "Ogiltigt användarnamn",
+    "phoneRequired": "Telefonnummer krävs",
     "phoneInvalid": "Ogiltigt telefonnummer",
     "minLength": "Åtminstone ||0 tecken",
     "maxLength": "Maximal □0 tecken"
@@ -449,7 +461,8 @@
     "saved": "Sparad",
     "messages": "Meddelanden",
     "tickets": "Biljetter",
-    "profile": "Profil"
+    "profile": "Profil",
+    "organize": "Organisera"
   },
   "languagePicker": {
     "eyebrow": "Välkommen",
@@ -492,6 +505,7 @@
     "viewAction": "Utsikt",
     "viewEvent": "Visa händelse",
     "share": "Dela",
+    "scrollToTop": "Tillbaka till Top",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Gratis, inga strängar",
     "freeBadge": "Gratis",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Du är alla inställda!",
     "notifyOnBody": "Vi kommer att låta dig veta så snart de första händelserna går live.",
     "notifyOffTitle": "Aviseringar av",
-    "notifyOffBody": "Aktivera meddelanden i inställningar som ska varnas."
+    "notifyOffBody": "Aktivera meddelanden i inställningar som ska varnas.",
+    "organizersEyebrow": "Organisatörer",
+    "organizersTitle": "Folket bakom scenen",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Verifierad organisatör",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Prisnivåer",
@@ -604,7 +624,10 @@
     "invisibleHint": "Du är osynlig - aktiveras också.",
     "message": "Meddelande",
     "connected": "Ansluten",
-    "empty": "Ingen är synlig ännu. Bli först med att slå på ditt nätverk!"
+    "empty": "Ingen är synlig ännu. Bli först med att slå på ditt nätverk!",
+    "scanOptInTitle": "Låt utställare skanna mitt märke",
+    "scanOptInSubtitle": "Utställningsföretag kommer att kunna spara ditt namn och kontaktuppgifter genom att skanna ditt märke, så att de kan följa upp efter händelsen.",
+    "scanOptInWithdrawNote": "Du kan stänga av detta när som helst. Kontakter som redan sparats av utställare raderas inte automatiskt - du kan begära att deras radering raderas från dina sekretessinställningar."
   },
   "eventDetails": {
     "eyebrow": "EVENT",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online event",
     "meetingId": "Möte ID:",
     "meetingPasscode": "Passcode:",
+    "liveEngagement": "Live Q & A och omröstningar",
     "joinEvent": "Gå med event",
     "joinOnline": "Gå med online",
     "registered": "Registrerad",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Dela på WhatsApp",
     "closePreviewA11y": "Nära förhandsvisning",
     "invalidCode": "Ogiltig åtkomstkod",
+    "accessButton": "Enter",
+    "pendingPaymentBanner": "Slutföra din betalning för att bekräfta din registrering",
+    "onlineInfoAfterRegistration": "Anslutningsuppgifter kommer att finnas tillgängliga när du registrerar dig",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Förstoring",
+    "playCoverVideo": "Spela video",
+    "videoPlayA11y": "Spela video med ljud",
+    "videoUnmuteA11y": "Unmute",
+    "videoMuteA11y": "Mute",
+    "videoExpandA11y": "Expandera video till fullscreen",
     "imagesCount": "||0= / ¤",
     "videoConference": "Videokonferensplattform",
     "openLinkError": "Kunde inte öppna händelselänken",
@@ -675,7 +708,28 @@
     "registeredStatus": "Registrerad",
     "pendingStatus": "I väntan",
     "priceLabel": "Prispris",
-    "fromLabel": "Börjar från"
+    "fromLabel": "Börjar från",
+    "waitlistJoinedDetail": "Du har gått med i väntelistan. Vi kommer att meddela dig så snart en plats öppnas.",
+    "waitlistLeftMsg": "Du har lämnat väntelistan",
+    "waitlistLeaveError": "Kunde inte lämna väntelistan",
+    "waitlistJoinError": "Kan inte gå med i väntelistan",
+    "waitlistLeaveTitle": "Lämna väntelistan",
+    "waitlistLeaveConfirm": "Är du säker på att du vill lämna väntelistan?",
+    "whatsappNotInstalled": "WhatsApp är inte installerat på den här enheten",
+    "reviewRatingRange": "Välj ett betyg mellan 1 och 5",
+    "reviewThanksTitle": "Tack!",
+    "reviewSubmitted": "Din recension lämnades in framgångsrikt",
+    "loginRequiredTitle": "Inloggning krävs",
+    "loginRequiredReview": "Logga in för att lämna en recension",
+    "reviewSubmitError": "Kunde inte lämna in din recension",
+    "loginRequiredWaitlist": "Logga in för att gå med i väntelistan",
+    "invitationGateDesc": "Detta evenemang är reserverat för inbjudna gäster. Om du fick en inbjudan, vänligen acceptera det för att få tillgång.",
+    "codeGateDesc": "Ange koden för att se hela detaljerna",
+    "giftRegistryCta": "Presentregistret",
+    "giftRegistrySubtitle": "Se listan och chip i om du känner det",
+    "cancelReasonTitle": "Anledning till avbokning",
+    "visioEnded": "Denna händelses videokonferens har avslutats.",
+    "videoPauseA11y": "Pausa video"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Dina tidigare händelser kommer att visas här",
     "scanQR": "Skanna QR-kod",
     "showQR": "Visa QR-kod",
+    "viewQR": "Visa QR",
+    "receivedTransfers": "mottagna överföringar",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Din QR-kod",
     "qrSubtitle": "Visa denna kod vid ingången",
     "ticketDetails": "Biljettinformation",
@@ -930,7 +987,10 @@
     "monthNovember": "November",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "Tryck för att visa QR-kod",
-    "searchTitleRefVenue": "Title, ref, arena..."
+    "searchTitleRefVenue": "Title, ref, arena...",
+    "pendingPayment": "Betalning i väntan",
+    "pendingExpired": "Event avslutad",
+    "statusExpired": "Förfallna"
   },
   "payment": {
     "title": "Betalning",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Tillbaka",
     "paymentGenericError": "Ett fel inträffade under betalning",
     "paymentErrorTitle": "Betalningsfel",
+    "paymentBlockedTitle": "Kortbetalning blockerad",
     "paymentCancelledTitle": "Betalning inställd",
     "paymentNoPaymentInProgress": "Ingen pågående betalning för att verifiera",
     "paymentVerifyingTitle": "Verifiera...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Fortsätt vänta",
     "paymentProcessing": "Processing",
     "paymentTitle": "Betalning",
+    "checkoutStep": "STEP 3 / 3 • PAYMENT",
+    "noDoubleCharge": "Du debiteras bara en gång, även om skärmen snurrar ett tag.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Jag accepterar",
+    "termsLinkFull": "försäljnings- och återbetalningspolicy",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Urval",
     "paymentStepRecap": "Recap",
     "paymentMethodFallback": "Betalning",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Betalning",
     "myPaymentsFilterCompleted": "Fullbordad",
     "myPaymentsFilterPending": "I väntan",
-    "myPaymentsFilterFailed": "Misslyckades"
+    "myPaymentsFilterFailed": "Misslyckades",
+    "finalizeEndedTitle": "Denna händelse har avslutats",
+    "finalizeEndedBody": "Du kan inte längre slutföra din registrering: händelsen är redan över. Du blev inte debiterad.",
+    "finalizeClosedTitle": "Registrering stängd",
+    "finalizeClosedBody": "Registreringsperioden för detta evenemang har upphört.",
+    "finalizeSoldOutTitle": "Biljetter som säljs ut",
+    "finalizeSoldOutBody": "De biljetter du hade reserverat är inte längre tillgängliga. Din bokning löpte ut. Du blev inte debiterad.",
+    "finalizeBackToEvent": "Tillbaka till event",
+    "paymentPushSentTitle": "Bekräfta på din telefon",
+    "paymentPushSentMessage": "En betalningsförfrågan skickades till din telefon. Godkänn det (Mobile Money PIN) för att slutföra.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Återbetalning begärd"
   },
   "memories": {
     "title": "Mina minnen",
@@ -1235,7 +1313,11 @@
     "recapShare": "Dela min recap",
     "recapEvents": "händelser levde",
     "recapCities": "städer",
-    "recapFirst": "gånger anlänt #1"
+    "recapFirst": "gånger anlänt #1",
+    "oneYearAgo": "För ett år sedan var du där.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Lång press för en överraskning",
+    "firstNote": "Först att komma. Dörrarna var knappt öppna."
   },
   "profile": {
     "title": "Profil",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Logga ut",
     "logoutInProgress": "Logga ut...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Min QR-kod"
+    "myQRTitle": "Min QR-kod",
+    "refundsMenu": "Min återbetalning",
+    "refundsSubtitle": "Spåra där dina pengar står",
+    "shareProfileButton": "Dela min profil",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Min arrangörsprofil",
+    "shareOrganizerA11y": "Dela min organisationsprofil",
+    "viewPublicProfileA11y": "Visa min offentliga profil",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Sluta följa?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Följer",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Inga resultat",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Upptäck händelser",
+    "followSearchPlaceholder": "Sök en arrangör"
   },
   "editProfile": {
     "title": "Redigera profil",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Adress",
     "sectionOrganization": "Organisation",
     "sectionSecurity": "Säkerhet",
-    "qrShareSubtitle": "Skanna denna kod för att dela din profil"
+    "qrShareSubtitle": "Skanna denna kod för att dela din profil",
+    "countryPlaceholder": "Välj ett land",
+    "orgLogoLabel": "Logotyp",
+    "orgLogoAdd": "Lägg till en logo",
+    "orgLogoChange": "Ändra logotyp",
+    "orgWebsiteLabel": "Webbplats",
+    "orgDescriptionLabel": "Offentlig beskrivning",
+    "orgDescriptionPlaceholder": "Introducera din organisation..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Tema",
     "themeDialogSubtitle": "Välj ditt tema",
     "timezoneDialogTitle": "Timezone",
+    "timezoneDetected": "upptäckt",
     "timezoneDialogSubtitle": "Välj din tidszon",
     "preferencesTitle": "Föreställningar",
     "headerEyebrow": "Inställningar",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Bekräftelser och återbetalningar",
     "rowNewConversations": "Nya konversationer",
     "rowMarketing": "Rekommendationer och kampanjer",
+    "rowSocialEyebrow": "Social social social social",
+    "rowSocial": "Social aktivitet",
+    "rowSocialDesc": "Nya följare, påminnelser, granska förfrågningar",
+    "newRegistrationsEyebrow": "Organizer",
+    "newRegistrationsTitle": "Nya registreringar",
+    "newRegistrationsDescription": "Hur ofta du är mailad när någon registrerar sig för dina händelser",
+    "newRegistrationsFreq": {
+      "realtime": "Realtid",
+      "hourly": "Timme",
+      "daily": "Dagligen",
+      "off": "Off Off Off"
+    },
+    "quietHoursEyebrow": "Stör inte",
+    "quietHoursTitle": "Tyst timmar",
+    "quietHoursDescription": "Pausa icke-essentiella push / SMS-meddelanden över natten. Viktiga varningar kommer alltid igenom.",
+    "quietHoursFrom": "Från",
+    "quietHoursTo": "Fram till",
     "rowSounds": "Låter vid viktiga ögonblick",
     "rowSoundsSubtitle": "Spelar ett ljud på betalningsbekräftelse eller QR-skanning",
     "rowTwoFA": "Tvåfaktorsautentisering",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Fakturor",
     "shortcutTaxes": "Skatter",
     "shortcutMyEvents": "Mina händelser",
-    "shortcutHelp": "Hjälp Hjälp"
+    "shortcutHelp": "Hjälp Hjälp",
+    "rowMyDataAtExhibitors": "Mina data som innehas av utställare",
+    "rowLiveBanner": "Live events banner",
+    "rowLiveBannerSubtitle": "Visa en banner för att delta i ett evenemang som för närvarande är live.",
+    "pushPermissionTitle": "Meddelanden är avstängda för denna enhet",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Låt mina kontakter veta",
+    "rowShareAttendanceSubtitle": "Dina anslutningar kan se att du deltar i ett evenemang. Av som standard; aldrig för inbjudan-bara händelser.",
+    "rowNotifyMemories": "\"För ett år sedan\" meddelanden",
+    "rowNotifyMemoriesSubtitle": "På de flesta en påminnelse en vecka, på årsdagen av en händelse du deltog.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "En privat recap av ditt år, i december. Ingen annan ser det.",
+    "madeInDouala": "Tillverkad i Douala, med omsorg.",
+    "madeInDoualaSub": "Tack för att du för dina händelser till liv med oss.",
+    "rowUiSounds": "Interface ljud",
+    "rowUiSoundsSubtitle": "Mycket subtila ljud på bekräftelser och inkommande meddelanden. Av som standard.",
+    "vibrationsEyebrow": "Touch",
+    "rowVibrations": "Vibrationer",
+    "rowVibrationsSubtitle": "Haptisk feedback på viktiga åtgärder: betalning, skanning, favoriter.",
+    "rowMotionGestures": "Motion gester",
+    "rowMotionGesturesSubtitle": "Skaka, vända eller håll ut din telefon för vissa åtgärder. En knapp är alltid tillgänglig också.",
+    "notificationsEyebrowOngoing": "Meddelanden",
+    "rowOngoingEvent": "Pinned biljett på evenemangsdag",
+    "rowOngoingEventSubtitle": "En tyst anmälan, 3 h före och under evenemanget, med din biljett och riktningar.",
+    "rowNotificationSounds": "Notifieringsljud",
+    "rowNotificationSoundsSubtitle": "Välj ljudet för varje kategori (stora ögonblick, försäljning, meddelanden ...) i dina telefoninställningar"
   },
   "messages": {
     "title": "Meddelanden",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Sök en kontakt...",
     "searchEyebrow": "Search",
     "searchHint": "Typ för att söka",
-    "noOneFound": "Ingen hittade"
+    "noOneFound": "Ingen hittade",
+    "myConnectionsSection": "Mina anslutningar",
+    "searchResultsSection": "Resultat",
+    "noConnectionsEyebrow": "Nätverk",
+    "noConnectionsTitle": "Inga anslutningar än",
+    "noConnectionsCta": "Anslut via QR",
+    "emptyEyebrowArchived": "ARCHIVED",
+    "emptyEyebrowEmpty": "EMPTY INBOX",
+    "archivedEmptyDesc": "Dina arkiverade samtal kommer att landa här.",
+    "noConversationsDesc": "Starta ett nytt meddelande - vi hittar någon att prata med.",
+    "attachmentPreview": "[Attachment]",
+    "noMatchingMessage": "Inget matchande meddelande"
   },
   "notifications": {
     "title": "Meddelanden",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Vad är nytt",
     "typePendingModeration": "Att granska",
     "typeModerationReminder": "Moderationskö",
+    "typeNewFollower": "Ny följare",
+    "typeFollowedOrganizerNewEvent": "Nytt evenemang",
+    "typeFollowRegistered": "En anslutning går",
+    "typeConnectionsAtEvent": "Dina anslutningar",
+    "eyebrowNetwork": "Nätverk",
+    "eyebrowSoon": "SÅ",
+    "eyebrowReminder": "Reminder",
+    "eyebrowModeration": "Moderation",
+    "eyebrowToReview": "Att återuppliva",
+    "eyebrowDiscovery": "Discover",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "Vad är nytt",
+    "filterReadTab": "Läs mer",
+    "groupToday": "Idag",
+    "groupYesterday": "Igår",
+    "tabAll": "Allt allt",
+    "tabNetwork": "Nätverk",
     "typeDefault": "Anmälan",
     "filterAllTab": "Allt allt",
     "filterUnreadTab": "Olästa",
@@ -1739,7 +1919,26 @@
     "statTotal": "Totalt",
     "statUnread": "Unread",
     "statToday": "Idag",
-    "viewDetails": "Visa detaljer"
+    "viewDetails": "Visa detaljer",
+    "actions": {
+      "showTicket": "Visa min biljett",
+      "directions": "Vägbeskrivning",
+      "going": "Jag ska",
+      "viewTicket": "Visa biljett",
+      "reply": "Svar",
+      "replyPlaceholder": "Ditt budskap...",
+      "replySubmit": "Skicka",
+      "markRead": "Mark som läst",
+      "joinLive": "Gå med",
+      "payNow": "Betala nu",
+      "writeTo": "Meddela dem",
+      "viewEvent": "Visa händelse",
+      "viewTickets": "Visa mina biljetter",
+      "viewRefund": "Visa återbetalning",
+      "viewProfile": "Visa profil",
+      "summaryTitle": "Meddelanden",
+      "summaryBody": "Nya meddelanden"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Hantera min plan",
     "exportTitle": "Export",
     "exportSubtitle": "Dina data",
-    "settingsLink": "Inställningar"
+    "settingsLink": "Inställningar",
+    "greetingNight": "Ha en trevlig kväll"
   },
   "following": {
     "title": "Mina favoriter",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Inbjudan minskade.",
     "declineError": "Kunde inte minska inbjudan.",
     "declineButton": "Decline",
+    "declineConfirmTitle": "Decline inbjudan",
+    "declineConfirmMessage": "Är du säker på att du vill minska denna inbjudan?",
     "fromLabel": "Från",
     "toLabel": "Rättvisa",
     "organizerFallback": "Organizer",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Upload misslyckades",
     "downloadFailed": "Ladda ner misslyckad",
     "tryAgain": "Försök igen",
-    "contactSupport": "Kontakta support"
+    "contactSupport": "Kontakta support",
+    "timeout": "Begäran tog för lång tid. Kontrollera din anslutning och försök igen.",
+    "validation": "Vissa detaljer är ogiltiga. Fixa de markerade fälten och försök igen.",
+    "fields": {
+      "title": "Titel",
+      "subtitle": "Subtitle",
+      "message": "Meddelande",
+      "image": "Bild",
+      "cta_label": "Button etikett",
+      "cta_url": "Button Link",
+      "link_url": "Länk",
+      "target_event": "Target event",
+      "country": "Landet",
+      "city": "Staden City",
+      "radius_km": "Radius",
+      "placement": "Placering",
+      "priority": "Prioritet",
+      "severity": "Allvar",
+      "audience": "Audience",
+      "platform": "Plattform",
+      "valid_from": "Giltigt från",
+      "valid_until": "Giltigt tills"
+    },
+    "http": {
+      "badRequest": "Vi kunde inte behandla din begäran. Vänligen kontrollera dina uppgifter och försök igen.",
+      "unauthorized": "Din session har gått ut. Vänligen logga in igen.",
+      "forbidden": "Du har inte tillstånd att göra detta.",
+      "notFound": "Vi kunde inte hitta vad du letade efter.",
+      "conflict": "Denna åtgärd strider mot det nuvarande tillståndet. Förfriska och försök igen.",
+      "tooManyRequests": "För många försök. Vänta ett ögonblick och försök igen.",
+      "server": "Våra servrar har problem just nu. Försök igen om några minuter.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Detta e-postmeddelande är redan kopplat till ett konto. Logga in eller använd en annan adress.",
+      "usernameTaken": "Det användarnamnet är redan taget, välj en annan.",
+      "weakPassword": "Välj ett lösenord på minst 8 tecken blanda bokstäver och siffror.",
+      "invalidCredentials": "Felaktig e-post eller lösenord. Försök igen eller återställa ditt lösenord.",
+      "resetLinkExpired": "Denna återställningslänk har gått ut. Begär en ny.",
+      "otpInvalid": "Denna kod är felaktig eller har gått ut. Kontrollera det eller begära en ny.",
+      "otpSendFailed": "Vi kunde inte skicka SMS-koden. Kontrollera ditt nummer och försök igen, eller logga in med din e-post.",
+      "paymentMethodUnsupported": "Denna betalningsmetod är inte tillgänglig för denna händelse. Vänligen välj en annan.",
+      "paymentFailed": "Din betalning kunde inte slutföras. Du har inte blivit debiterad. Försök igen eller använd en annan metod.",
+      "paymentNetwork": "Anslutningen sjönk under betalning. Kontrollera ditt internet och försök igen - du kommer inte att debiteras två gånger.",
+      "paymentTimeout": "Din betalning tar längre tid än väntat. Betala inte igen - kontrollera dina biljetter om några minuter eller kontakta support om ingenting kommer.",
+      "paymentVerifyFailed": "Vi kunde inte bekräfta din betalning ännu. Om du debiterades visas dina biljetter kort - kolla igen om några minuter.",
+      "refundFailed": "Din återbetalningsförfrågan kunde inte skickas. Försök igen, eller kontakta support.",
+      "insufficientBalance": "Otillräcklig balans för denna operation.",
+      "payoutLocked": "Denna utbetalning kan inte längre ändras eftersom behandlingen redan har börjat. Kontakta support om detta är ett misstag.",
+      "planLimitReached": "Du har nått din plan gräns. Uppgradera din plan att fortsätta.",
+      "countryNotSupported": "Betalningar är inte tillgängliga i detta land än. Du kan skapa evenemanget i ett land eller kontakta oss."
+    },
+    "tickets": {
+      "offline": "Du är offline just nu. Biljetter du redan har laddat vistelse tillgänglig offline. Försök igen när du är tillbaka online.",
+      "timeout": "Dina biljetter tar ett tag att ladda. Ingenting går förlorat: de är säkert räddade. Försök igen i ett ögonblick.",
+      "server": "Våra servrar har en kort hicka. Dina biljetter är säkra på vår sida. Försök igen om några minuter.",
+      "notFound": "Vi hittar inte denna biljett. Dina andra biljetter påverkas inte. Skicka listan eller kontrollera din bekräftelse e-post.",
+      "forbidden": "Denna biljett tillhör ett annat konto. Dina egna biljetter är orörda. Logga in med det konto som används för köpet."
+    },
+    "messages": {
+      "offline": "Du är offline just nu. Dina meddelanden är inte förlorade: i väntan kommer de att gå ut när du är tillbaka online. Försök igen när nätverket återvänder.",
+      "timeout": "Messaging är långsamt att svara. Dina meddelanden är inte förlorade. Försök igen i ett ögonblick.",
+      "server": "Messaging har en kort hicka på vår sida. Dina samtal är intakta. Försök igen om några minuter.",
+      "notFound": "Detta samtal existerar inte längre. Dina andra konversationer påverkas inte. Gå tillbaka till dina meddelanden.",
+      "forbidden": "Du har inte längre tillgång till detta samtal. Dina andra samtal är fortfarande tillgängliga. Gå tillbaka till dina meddelanden."
+    },
+    "event": {
+      "offline": "Du är offline, så vi kan inte visa den här händelsen. Dina biljetter är tillgängliga offline. Försök igen när du är tillbaka online.",
+      "timeout": "Denna händelse sida tar ett tag att ladda. Ingenting har förändrats på din sida. Försök igen i ett ögonblick.",
+      "server": "En kort hicka håller oss från att visa denna händelse. Dina biljetter och registreringar påverkas inte. Försök igen om några minuter.",
+      "notFound": "Denna händelse är inte längre online: arrangören kan ha tagit bort den. Alla biljetter du har kvar i \"Mina biljetter\". Fler händelser väntar i Discover.",
+      "forbidden": "Denna händelse är privat. Ditt konto är inte problemet. Fråga arrangören om en inbjudan att få tillgång till."
+    },
+    "upload": {
+      "offline": "Uppladdningen kunde inte starta: du är offline. Din fil är fortfarande på din telefon. Försök igen när du är tillbaka online.",
+      "timeout": "Uppladdningen tog för lång tid. Din fil är fortfarande på din telefon. Försök igen, helst på Wi-Fi eller med en lättare fil.",
+      "server": "Servern kunde inte ta emot filen. Det är fortfarande säkert på din telefon. Försök igen om några minuter.",
+      "notFound": "Uppladdningsdestinationen finns inte längre. Din fil är fortfarande säker på din telefon. Uppfriska skärmen och försök igen.",
+      "forbidden": "Du får inte ladda upp den här filen här. Det är fortfarande säkert på din telefon. Kontrollera att du är inloggad med rätt konto.",
+      "tooLarge": "Den här filen är för stor för att ladda upp. Det är fortfarande säkert på din telefon. Välj en lättare fil eller skörda bilden."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Grattis!",
     "successMessage": "Du är nu en arrangör. Skapa ditt första event!",
     "errorTitle": "Fel",
-    "errorGeneric": "Ett fel inträffade"
+    "errorGeneric": "Ett fel inträffade",
+    "labelWebsite": "Webbplats (valfritt)",
+    "labelDescription": "Beskrivning (valfritt)",
+    "placeholderDescription": "Introducera din organisation..."
   },
   "verificationForm": {
     "pdfOpenError": "Kunde inte öppna dokumentet.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hybrid",
     "priceAny": "Allt allt",
     "priceFree": "Gratis gratis",
-    "pricePaid": "Betalt"
+    "pricePaid": "Betalt",
+    "shareSearch": "Dela denna sökning",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filter",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINCE",
     "contactA11y": "Kontaktarrangör",
+    "connectA11y": "Anslut",
+    "connectedA11y": "Redan ansluten",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Kunde inte ansluta. Försök igen.",
     "bioEyebrow": "BIO",
     "bioTitle": "Om",
     "linksEyebrow": "ENDAST",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Publicerade händelser",
     "loadingEvents": "Loading...",
     "noEvents": "Inga händelser publicerade",
-    "freeBadge": "Gratis"
+    "freeBadge": "Gratis",
+    "tabs": {
+      "upcoming": "Kommande",
+      "past": "Förflutet"
+    }
   },
   "sessionDetails": {
     "title": "Session",
@@ -3223,7 +3518,12 @@
     "codeLabel": "Kod",
     "emptyEyebrow": "KOMMER",
     "emptyTitle": "Ingen kod ännu",
-    "emptySubtitle": "Dina hänvisningskoder visas här så snart de är tillgängliga."
+    "emptySubtitle": "Dina hänvisningskoder visas här så snart de är tillgängliga.",
+    "generateCta": "Generera min kod",
+    "generating": "Generera...",
+    "generateSuccess": "Referralkod skapad!",
+    "generateError": "Kunde inte generera koden. Försök igen.",
+    "copySuccess": "Referral länk kopierad"
   },
   "teamManagement": {
     "eyebrow": "Team",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Visa analys",
     "perm_view_registrations": "Visa registreringslista",
     "perm_edit_event": "Redigera händelsen",
-    "perm_manage_team": "Bjud in andra gruppmedlemmar"
+    "perm_manage_team": "Bjud in andra gruppmedlemmar",
+    "role_co_organizer": "Co-organizer",
+    "role_moderator": "Moderator",
+    "role_scanner": "Scanner",
+    "role_analyst": "Analytiker",
+    "status_pending": "I väntan",
+    "status_accepted": "Aktiv",
+    "status_declined": "Declined",
+    "status_revoked": "Återkallad",
+    "status_expired": "Förfallna"
   },
   "myTeamEvents": {
     "eyebrow": "Behind the SCENES",
@@ -3276,8 +3585,10 @@
     "willAttend": "Jag ska vara där",
     "wontAttend": "Jag kan inte göra det",
     "partySize": "Antal extra gäster",
+    "partySizeHint": "Förutom dig. 2 om du tar med 2 personer.",
     "dietary": "Kostkrav / allergier",
     "note": "Ett ord för paret",
+    "noteOptional": "Ett ord för paret (valfritt)",
     "submit": "Skicka mitt svar",
     "thanksAccepted": "Tack! Din närvaro bekräftas.",
     "thanksDeclined": "Tack för att låta oss veta.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Ditt namn",
     "giftMethod": "Betalningsmetod",
     "giftPay": "Bidrag",
-    "giftError": "Betalningen kunde inte börja."
+    "giftThanks": "Tack för ditt bidrag!",
+    "giftRedirectNote": "Du kommer att omdirigeras till en säker betalningssida. Detta är normalt.",
+    "giftError": "Betalningen kunde inte börja.",
+    "rsvpSubmitError": "Ditt svar kunde inte skickas. Försök igen.",
+    "summaryTitle": "Ditt svar",
+    "summaryAccepted": "Du bekräftade din närvaro.",
+    "summaryDeclined": "Du avböjde inbjudan.",
+    "summaryPartySize": "Gäster med dig",
+    "summaryHeadcount": "Säten reserverade",
+    "summaryDietary": "Kostbehov",
+    "summaryTable": "Ditt bord",
+    "summaryTablePending": "Din tabell delas före evenemanget."
   },
   "teamInvitation": {
     "eyebrow": "Invandrare",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Läs-bara diskussioner. Spara dina meddelanden.",
     "mutedLockMessage": "Du har blivit dämpad i denna diskussion av arrangören.",
     "postingLockMessage": "Endast arrangören kan publicera i denna diskussion.",
-    "defaultUserName": "Denna användare"
+    "defaultUserName": "Denna användare",
+    "someFilesQueuedForRetry": "Vissa filer kommer att förbittas när anslutningen är tillbaka.",
+    "retrySend": "Retry",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Scroll till botten",
+    "tapToLoadImage": "Tryck för att ladda",
+    "reply": "Svar",
+    "react": "Reagera",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Läs bara konversation.",
+    "headerCollapseA11y": "Göm banner",
+    "headerExpandA11y": "Visa banner",
+    "headerCollapseLabel": "Hide",
+    "headerExpandLabel": "Event detaljer"
   },
   "scanForm": {
     "loading": "Loading...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderator",
     "roleAdmin": "Admin",
     "fallbackEvent": "Event",
-    "fallbackUnknownUser": "Användare"
+    "fallbackUnknownUser": "Användare",
+    "statusUnknown": "Okänd status"
   },
   "refundRequest": {
     "watermarkBack": "BACK",
     "watermarkOops": "OOPS",
     "loadError": "Kunde inte ladda betalningsuppgifter",
     "paymentNotFound": "Betalning som inte hittats",
+    "blockedNotOwner": "Denna betalning är inte kopplad till ditt konto, så du kan inte begära återbetalning för det.",
+    "blockedNotCompleted": "Endast bekräftade betalningar kan återbetalas. Denna betalning är inte i ett återbetalningsbart tillstånd.",
+    "blockedAlreadyRequested": "En återbetalningsbegäran pågår redan för denna betalning.",
+    "blockedGeneric": "Denna betalning är inte berättigad till återbetalning just nu.",
     "back": "Tillbaka",
     "closeA11y": "Nära",
     "eyebrow": "Refund • återgång",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Access code (tillval)",
       "accessCodeHint": "Besökare måste ange denna kod för att se detaljerna",
       "accessCodePlaceholder": "Lämna tomt för ingen kod",
-      "featuredInfo": "Du kan begära att presentera ditt evenemang efter skapandet av \"Mina händelser\"."
+      "accessCodeKeepPlaceholder": "Ny kod (lämna tom för att hålla den aktuella)",
+      "accessCodeActive": "En åtkomstkod är aktiv.",
+      "accessCodeWillBeRemoved": "Koden tas bort när du sparar.",
+      "accessCodeRemove": "Ta bort kod",
+      "accessCodeUndoRemove": "Undo",
+      "featuredInfo": "Du kan begära att presentera ditt evenemang efter skapandet av \"Mina händelser\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Datum och plats",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Välj på karta",
       "mapHint": "Visa händelsen på kartan och aktivera navigering",
       "virtualLocationTitle": "Virtuell plats",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Inbyggd videokonferens - rummet skapas automatiskt, ingen extern länk behövs.",
       "platformLabel": "Plattform",
       "platformPlaceholder": "Zoom, Google Meet, Teams",
       "connectionUrlLabel": "Anslutningslänk",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Försäljning start",
       "salesEndLabel": "Försäljningsänd",
       "visibleLabel": "Synlig",
+      "accessModeLabel": "Tillgång beviljad av denna biljett",
+      "accessInPerson": "Personligen",
+      "accessOnline": "Online Online Online",
+      "accessBoth": "Båda båda",
       "visibleDesc": "Visa denna biljett offentligt",
       "addAnotherTicket": "Lägg till en annan biljett",
       "registrationFormTitle": "Registreringsformulär (valfritt)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Nära menyn",
       "cancel": "Avbokning"
+    },
+    "venuePicker": {
+      "label": "Använd en sparad plats",
+      "hint": "Fälten fylls i automatiskt. Du kan justera dem efteråt."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Event typ breakdown",
       "sourcePaymentMethods": "Betalningsmetoder",
       "sourceGeographical": "Geografisk uppdelning"
-    }
+    },
+    "widgetDataUnavailable": "Data otillgänglig."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Föregående",
       "next": "Nästa Nästa",
       "selectDatePlaceholder": "Välj ett datum",
-      "selectTimePlaceholder": "Välj en tid"
+      "selectTimePlaceholder": "Välj en tid",
+      "selectPlaceholder": "Välj...",
+      "searchPlaceholder": "Sök..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Biljetter tillade framgångsrikt",
     "alreadyRegisteredConfirmTitle": "Redan registrerad",
     "alreadyRegisteredConfirmMessage": "Du är redan registrerad för detta evenemang.",
-    "createRegistrationError": "Kunde inte skapa registreringen"
+    "createRegistrationError": "Kunde inte skapa registreringen",
+    "accessMode": {
+      "in_person": "Person endast",
+      "online": "Online Access",
+      "hybrid": "I person + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Endast en plats kvar",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Inköp pausade",
+    "suspendedByIncident": "Inköp pausas tillfälligt på grund av en incident. Följ uppdateringar på sidan Status."
   },
   "registrationDetails": {
     "headerInscription": "Min registrering",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Avbokad",
     "statusInscriptionRejected": "Avvisad",
     "statusInscriptionValidated": "Validerad",
-    "statusInscriptionUnknown": "Okänd"
+    "statusInscriptionUnknown": "Okänd",
+    "pdfEyebrow": "REGISTRATION SUMMARY",
+    "pdfDate": "Datum",
+    "pdfPlace": "Venue",
+    "pdfReference": "Referens",
+    "pdfStatus": "Status",
+    "pdfQrHint": "Visa denna QR-kod vid ingången",
+    "pdfShareDialog": "Dela sammanfattning",
+    "pdfError": "Kan inte generera PDF just nu.",
+    "pdfA11y": "Export sammanfattning som PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET · ||",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR-koden skannas vid ingången",
     "tipArriveLines": "Anländer i tid för att hoppa över linjerna",
     "validatedTitle": "Biljett validerad",
+    "stampValidated": "Incheckad",
     "validatedAt": "Inträde på □0 i Õ1",
     "paymentPendingTitle": "Betalning i väntan",
     "paymentPendingDesc": "Slutför din betalning för att bekräfta",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "bekräftad",
     "statusPending": "I väntan",
     "statusCancelled": "Avbokad",
-    "statusValidated": "Validerad"
+    "statusValidated": "Validerad",
+    "pdfOnline": "Online event",
+    "statusUnknown": "Okänd status",
+    "presentHint": "Tryck för att förstora koden, långt tryck för bevis på giltighet.",
+    "presentA11yAction": "Förstora koden för kontrollen",
+    "proofA11yAction": "Visa bevis på giltighet",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Tillbaka till biljetten",
+    "presentExitHint": "Tryck för att gå tillbaka"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Vill du ta bort denna biljett från offline cache?",
     "showQR": "Visa QR",
     "hideQR": "Göm QR",
-    "pastBadge": "Förflutet"
+    "pastBadge": "Förflutet",
+    "download": "Ladda ner biljett",
+    "pdfEyebrow": "Ticket",
+    "pdfReference": "Referens",
+    "pdfType": "Biljetttyp",
+    "pdfQuantity": "Kvantitet",
+    "pdfDate": "Datum",
+    "pdfShareDialog": "Spara / dela biljett",
+    "pdfError": "Kan inte generera PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Överföringar",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Besök",
     "similarEventsEyebrow": "Rekommendationer",
     "similarEventsTitle": "Liknande händelser",
-    "similarEventA11y": "Visa ||0"
+    "similarEventA11y": "Visa ||0",
+    "virtualLiveNow": "Live nu",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Gå med live",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Videosamtal otillgängligt",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Livet har inte börjat ännu",
+    "virtualWaitingHostNote": "Du kommer att kunna gå så snart arrangören öppnar rummet.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Huvudrum",
+      "session": "Session",
+      "breakout": "Breakout",
+      "networking": "Nätverk",
+      "workshop": "Workshop"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Försäljningen slutade",
+    "ticketsSaleNotStarted": "Till salu snart",
+    "peekSave": "Spara",
+    "peekUnsave": "Ta bort från sparad",
+    "peekShare": "Dela",
+    "peekOpen": "Öppet Öppet Öppet",
+    "peekA11yHint": "Håll för en förhandsvisning",
+    "swipeSave": "Släpp för att spara",
+    "swipeUnsave": "Släpp att ta bort",
+    "swipeHint": "Swipe för att spara",
+    "swipeRemoved": "Ta bort från sparad",
+    "swipeUndo": "Undo",
+    "swipeRemove": "Ta bort",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Sunny spells",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "rain": "Regn",
+      "snow": "Snö snö",
+      "showers": "Dusch",
+      "thunderstorm": "Åskväder",
+      "variable": "Föränderlig"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Välj format",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "När denna arrangör publicerar en ny händelse",
     "followPrefsSave": "Spara preferenser",
     "followPrefsSaveA11y": "Spara preferenser",
-    "inAppToastA11y": "□0. Õ. ¤ Tryck för att öppna."
+    "inAppToastA11y": "□0. Õ. ¤ Tryck för att öppna.",
+    "webviewVisioTitle": "Videosamtal",
+    "webviewOfflineTitle": "Du är offline",
+    "webviewOfflineBody": "Din enhet förlorade sin anslutning. Samtalet kommer att återupptas så snart nätverket är tillbaka.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Långsam anslutning detekteras - video kan försämras och använda dina data."
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Kamera krävs",
     "permissionSubtitle": "För att skanna en QR behöver EventEz tillgång till kameran.",
     "permissionGrant": "Tillåt kamera"
+  },
+  "media": {
+    "sheetTitle": "Vad vill du göra?",
+    "saveToGallery": "Spara till galleri",
+    "share": "Dela",
+    "savedToGallery": "Sparad till galleri",
+    "permissionDeniedTitle": "Tillstånd nekas",
+    "permissionDeniedMessage": "Aktivera fotoåtkomst i Inställningar för att spara.",
+    "sharingUnavailable": "Delning är inte tillgänglig på denna enhet.",
+    "downloadFailed": "Ladda ner misslyckades. Försök igen.",
+    "genericError": "Något gick fel. Försök igen."
   },
   "componentsMessages": {
     "inputJoinFile": "Bifoga en fil",
@@ -5127,7 +5585,7 @@
     "messages": "MESSAGES",
     "suggestions": "Sjukdomar",
     "theme": "Temat",
-    "timezoneSoon": "TIMEZONE SOON",
+    "timezone": "Tidszon",
     "soundEffects": "SOUND EFFECTS",
     "authSoon": "AUTHENTICATION · SOON",
     "connectionsSoon": "Föreskrifter · SOON",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · Sparas",
     "tabMessages": "03 MESSAGES",
     "tabTickets": "04 · Tickets",
-    "tabProfile": "05 · PROFILE"
+    "tabProfile": "05 · PROFILE",
+    "push": "Push",
+    "privacy": "Sekretess",
+    "memories": "Minnen",
+    "yearInReview": "År i granskning"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "□0 utvalda",
-      "selectedCount_plural": "□0 utvalda",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Godkänna",
       "reject": "Reject",
       "checkIn": "Incheckning"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promo-koder",
         "linkSessions": "Länka biljetter till sessioner",
         "addPhotos": "Lägg till bilder",
+        "startLive": "Go live",
         "volunteers": "Volontärer",
         "sponsors": "Sponsorer",
         "seatingPlans": "Sittande planer",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplicera",
         "cancelEvent": "Avbryt händelse",
         "cancelEventDesc": "Meddela registranter",
-        "deleteDesc": "Irreversibel handling"
+        "deleteDesc": "Irreversibel handling",
+        "invite": "Inbjud gäster",
+        "inviteDescInviteOnly": "Det enda sättet att ge tillgång till denna inbjudningsbara händelse",
+        "duplicatePastDesc": "Börja från en redigerbar kopia",
+        "remindInvites": "Påminn gäster",
+        "weddingGuests": "Gäster och RSVP",
+        "weddingGifts": "Registrering och gåvor",
+        "weddingTables": "Seating plan"
       },
       "emptyEyebrowResults": "Inga resolutioner",
       "emptyEyebrowCatalog": "EMPTY CATALOGG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "T.ex. hälsoförhållanden, arena otillgänglig...",
       "keepBtn": "Håll",
       "cancelEventBtn": "Avbryt händelse",
+      "cancelHolding": "Håll...",
       "recurrenceEyebrow": "Rörelse",
       "recurrenceModalTitle": "Schemalägga \"mitt\"",
       "recurrenceModalBody": "Skapa flera händelser från denna händelse. Varje händelse är en oberoende ny händelse du kan justera.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Denna händelse är live. Om du ändrar kritiska fält (titel, datum, plats, typ, kapacitet), kommer den att skickas tillbaka till validering och tillfälligt dold till omgodkännande.",
       "editValidatedConfirm": "Redigera ändå",
       "actionEditValidated": "Redigera (omvalidering möjlig)",
-      "actionEditValidatedDesc": "Kritiska fält → omvärdering"
+      "actionEditValidatedDesc": "Kritiska fält → omvärdering",
+      "inviteEyebrow": "Invandrare",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "E-post separerade med kommatecken eller ny linje",
+      "inviteMessagePlaceholder": "Personligt budskap (valfritt)",
+      "inviteSendBtn": "Skicka inbjudningar",
+      "inviteEmptyTitle": "Ingen e-post",
+      "inviteEmptyMessage": "Ange minst en e-postadress.",
+      "inviteInvalidTitle": "Ogiltiga e-postmeddelanden",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Inbjudningar skickade",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Kunde inte skicka inbjudningar.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Ingen gäst att påminna just nu.",
+      "remindErrorTitle": "Påminnelse misslyckades",
+      "remindErrorMessage": "Minnen kunde inte skickas. Försök igen.",
+      "remindPendingProgress": "Skicka påminnelser...",
+      "loadError": "Kunde inte ladda dina händelser. Kolla din anslutning."
     },
     "volunteer": {
       "tabReceived": "Mottagen (håll)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Ogiltig kod: förväntad UUID eller referenskod (8-20 tecken A-Z/0-9).",
       "sessionRecapTitle": "Session sammanfattning",
       "sessionRecapBody": "□0 skannar i Õ1 min\n✓ ¤2 | validerad\n¤3 misslyckades",
-      "sessionRecapQueue": "|| ¤0 queued offline"
+      "sessionRecapQueue": "|| ¤0 queued offline",
+      "manualModeBanner": "Manuellt läge - 1 kran per person",
+      "manualModeA11y": "Manuellt läge på. Tryck för att aktivera automatisk incheckning på.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Dessa personer gick in medan nätverket var nere. Kontrollera med ditt team.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Accepterad offline via denna telefon, avvisad på synkronisering. Om en annan agent skannade samtidigt kom dessa personer in två gånger.",
+      "voice": {
+        "valid": "Giltig biljett",
+        "validWarning": "Giltigt, behöver kontrollera",
+        "alreadyCheckedIn": "Redan checkat in",
+        "refused": "Biljett vägrade",
+        "enabled": "Röstmeddelanden om",
+        "toggleOn": "Röstmeddelanden om",
+        "toggleOff": "Röstmeddelanden av",
+        "toggleA11y": "Turn scan resultat röstmeddelanden på eller av"
+      }
     },
     "liveOps": {
       "live": "Livet",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "Din impakt",
       "headerTitle": "Analytics",
+      "errorTitle": "Analytics otillgänglig",
+      "errorBody": "Kunde inte ladda data. Kontrollera din anslutning och försök igen.",
       "eventLabel": "EVENT",
       "kpiViews": "Utsikt",
       "kpiRegistrations": "Registreringar",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Ditt evenemang har visats ||0 gånger",
       "insightViewsNone": "Dela ditt event för att få fler vyer",
       "insightRegistered_one": "□0 Person registrerad",
-      "insightRegistered_other": "□0 personer registrerade"
+      "insightRegistered_other": "□0 personer registrerade",
+      "actionBoxOffice": "Box kontor"
     },
     "sessionsLink": {
       "headerEyebrow": "ACCESS - SESSIONS",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsorer kommer att visas här när ett partnerskap läggs till."
     },
     "eventCreate": {
+      "aiAppliedMessage": "AI-förslag har tillämpats på formuläret",
+      "aiTitleSuggestionsTitle": "Titel förslag",
+      "aiPricingSuggestionsTitle": "AI prissättning förslag",
+      "aiTicketsCreated": "Biljetter skapade från AI förslag",
+      "aiDescGenerated": "Beskrivning genererad av AI",
+      "aiNeedTitleFirst": "Lägg till en titel först så att AI kan generera en beskrivning.",
+      "galleryPermissionTitle": "Tillstånd krävs",
+      "galleryPermissionMessage": "Vänligen tillåta åtkomst till ditt fotobibliotek",
+      "videoTooLargeTitle": "Video för stor",
+      "videoTooLargeMessage": "Videon måste vara under 20 MB.",
       "unsupportedCountryTitle": "Land som inte är tillgängligt",
       "unsupportedCountryMessage": "EventEz kan inte bearbeta betalningar i detta land än. Skapandet av händelser kommer att avvisas. Stödda länder: NotchPay, CinetPay och Stripe (46 länder).",
       "draftFoundTitle": "Draft hittade",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Event inlämnat framgångsrikt",
       "viewMyEvents": "Visa mina händelser",
       "createAnother": "Skapa en annan",
+      "submittedStamp": "I recension",
+      "submittedEyebrow": "Inlämnad för granskning",
+      "submittedBody": "Vårt team granskar ditt event. Du kommer att meddelas så snart det går live.",
+      "submittedCtaEyebrow": "Dashboard",
       "edit": "Edit",
       "saved": "Sparad",
       "back": "Tillbaka",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Biljett ”0°” max per order måste vara ≥ min",
         "fieldLabelRequired": "Field #0 etikett krävs",
         "fieldOptionsRequired": "Alternativen krävs för fältet \"Δ0\"."
-      }
+      },
+      "loadFailedBlocksSave": "Eventdata kan inte laddas. Ladda om sidan innan du sparar, annars skulle din aktuella information vara överskriven."
     },
     "eventRegistrations": {
       "title": "Registreringar",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF export, instrumentpaneler",
       "linkMyEventsTitle": "Mina händelser",
       "linkMyEventsSub": "Statistik per händelse"
+    },
+    "boxOffice": {
+      "openTitle": "Öppna tills",
+      "openingFloatHelp": "Hur mycket förändring gav arrangören dig att börja med? Utan det kommer kvällens räkning vara fel.",
+      "openDrawer": "Öppna tills",
+      "openError": "Tills kunde inte öppnas",
+      "openErrorDetail": "Kontrollera din anslutning och försök igen.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Nära",
+      "cash": "Cash",
+      "momo": "Mobila pengar",
+      "giveBack": "GIVE BACK",
+      "saleError": "Försäljningen registrerades inte",
+      "saleErrorDetail": "Gå inte in i försäljningen: försök igen, det kommer inte att debiteras två gånger.",
+      "a11y": {
+        "drawerOpened": "Till öppnade",
+        "openingFloatInput": "Öppnande float mängd",
+        "openDrawer": "Öppna tills",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Nära till",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Ta mobila pengar",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "För att han aldrig",
+      "cashOnlyHint": "Kontant bara - Mobilpengar är inte i väskan.",
+      "openingFloat": "Öppnande float",
+      "salesCount": "försäljning",
+      "countedLabel": "Jag räknade",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Detta blockerar inte. Bara förklara varför nedan.",
+      "reasonLabel": "Förklaring (valfritt)",
+      "reasonPlaceholder": "Jag gav 500 för mycket förändring",
+      "confirmClose": "Nära min till",
+      "closedTitle": "Till stängd",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Stängning misslyckades",
+      "closeErrorDetail": "Försök igen kort.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Räknat belopp",
+        "reasonInput": "Varians förklaring",
+        "confirmClose": "Bekräfta stängning",
+        "closed": "Till stängd"
+      }
+    },
+    "documents": {
+      "title": "Dokument för print",
+      "a11y": "Skrivbara dokument",
+      "badges": "Attendee Badges",
+      "badgesHint": "A6 format, 4 per A4-sida",
+      "attendanceSheet": "Sign-in Sheet",
+      "attendanceSheetHint": "Att logga in på receptionen - redo före evenemanget",
+      "certificates": "Deltagande certifikat",
+      "certificatesHint": "Efter händelsen, för incheckade deltagare"
+    },
+    "weddingGuests": {
+      "title": "Gäster och RSVP",
+      "empty": "Inga gäster ännu.",
+      "remindOne": "Påminnelse",
+      "remindOneSent": "Påminnelse skickad",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Kunde inte skicka påminnelse",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Redigera RSVP",
+      "editRsvpTitle": "Redigera RSVP",
+      "rsvpUpdated": "RSVP uppdaterad",
+      "rsvpError": "Kan inte rädda RSVP",
+      "partySize": "Partistorlek",
+      "dietary": "Dietära krav",
+      "dietaryPlaceholder": "Vegetarian, glutenfri...",
+      "note": "Note",
+      "stats": {
+        "invited": "Inbjuden",
+        "accepted": "bekräftad",
+        "pending": "I väntan",
+        "headcount": "Headcount"
+      },
+      "status": {
+        "pending": "I väntan",
+        "accepted": "bekräftad",
+        "declined": "Declined",
+        "cancelled": "Avbokad"
+      }
+    },
+    "weddingGifts": {
+      "title": "Registrering och gåvor",
+      "noRegistry": "Inget presentregister för denna händelse.",
+      "create": "Skapa register",
+      "registryCreated": "Registrering skapad",
+      "registryUpdated": "Registrering uppdaterad",
+      "editRegistry": "Redigera registret",
+      "registryTitle": "Registreringstitel",
+      "registryDescription": "Meddelande till gäster",
+      "visible": "Registrera synlig",
+      "hidden": "Dold",
+      "totalRaised": "Total upphöjd",
+      "share": "Dela",
+      "addItem": "Lägg till en present",
+      "newItem": "Ny gåva",
+      "editItem": "Edit present",
+      "itemName": "Namnnamn",
+      "itemKind": "Typ",
+      "targetAmount": "Målbelopp",
+      "externalUrl": "Extern länk (valfritt)",
+      "itemAdded": "Gift tillsatt",
+      "itemUpdated": "Present uppdaterad",
+      "itemDeleted": "Present raderad",
+      "deleteItemTitle": "Ta bort denna gåva",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Reserverad",
+      "noItems": "Inga gåvor ännu. Lägg till en.",
+      "kind": {
+        "gift": "Gift (item)",
+        "cash_fund": "Cash fond"
+      },
+      "error": "Något gick fel"
+    },
+    "weddingTables": {
+      "title": "Seating plan",
+      "noTables": "Inga tabeller ännu. Skapa en.",
+      "addTable": "Lägg till en tabell",
+      "newTable": "Nytt bord",
+      "editTable": "Redigera bord",
+      "name": "Tabellnamn",
+      "namePlaceholder": "Tabell 1, Familj...",
+      "capacity": "Säten",
+      "created": "Tabell skapad",
+      "updated": "Tabell uppdaterad",
+      "deleted": "Tabell bort",
+      "deleteTitle": "Delete bord",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Full Full Full Full Full Full Full",
+      "tableEmpty": "Ingen vid denna tabell",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Alla bekräftade gäster sitter.",
+      "createFirst": "Skapa ett bord först för att sitta dina gäster.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Gäst sittande",
+      "unassign": "Ta bort",
+      "unassigned": "Gäst bort",
+      "capacityError": "Inte tillräckligt med platser vid detta bord.",
+      "error": "Något gick fel"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Händelser",
       "kpiRevenue": "Intäkter",
       "kpiVerifications": "Verifieringar",
+      "activityChartTitle": "Plattformsaktivitet",
+      "activityChartSubtitle": "Revisionsåtgärder under de senaste 7 dagarna",
       "quickActions": "QUICK ACTIONS",
       "recentActivity": "REGENT ACTIVITY",
       "noActivity": "Ny verksamhet",
       "viewAllAudit": "Visa alla revisionsloggar",
       "actions": {
         "users": "Användare",
+        "verifications": "Verifieringar",
         "subscriptions": "Prenumerationer",
         "audit": "Revision",
         "announcements": "Tillkännagivanden",
@@ -6369,6 +7066,30 @@
         "settings": "Inställningar",
         "treasury": "Treasury"
       }
+    },
+    "verifications": {
+      "watermark": "KYCK",
+      "guardTitle": "Begränsad åtkomst",
+      "eyebrow": "Moderation",
+      "title": "Verifieringsförfrågningar",
+      "typeOrg": "Organisation",
+      "typeIndividual": "Enskilda",
+      "noDocuments": "Inga dokument som tillhandahålls",
+      "approve": "Godkänna",
+      "reject": "Reject",
+      "approveTitle": "Godkänn kontroll",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Bekräfta att godkänna denna verifiering",
+      "approveSuccess": "Organisatör verifierad",
+      "rejectTitle": "Avvisa begäran",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Anledning för avslag...",
+      "rejectReasonRequired": "En anledning krävs.",
+      "rejectSuccess": "Begäran avvisas",
+      "actionError": "Åtgärden misslyckades. Försök igen.",
+      "loadError": "Kunde inte ladda kontrollförfrågningar.",
+      "emptyTitle": "Inga pågående förfrågningar",
+      "emptySubtitle": "Nya arrangörsverifieringsförfrågningar visas här."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Kan inte ladda användaren",
       "roleSection": "Role",
       "actionsSection": "Åtgärder",
+      "profileSection": "Förtroende",
+      "fieldFirstName": "Förnamn",
+      "fieldLastName": "efternamn",
+      "fieldEmail": "E-post",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Företag",
+      "saveProfile": "Spara profil",
+      "profileUpdated": "Profil uppdaterad",
+      "profileUpdateError": "Kunde inte uppdatera profilen.",
+      "emailRequired": "E-post krävs.",
       "infoSection": "Information",
       "active": "Aktiv",
       "inactive": "Inaktiv",
@@ -6670,6 +7401,21 @@
       "title": "Audit loggar",
       "target": "Mål",
       "user": "Användare #||0",
+      "detail": {
+        "guardTitle": "Log Detail",
+        "eyebrow": "Audit log",
+        "title": "Log Detail",
+        "action": "Action",
+        "target": "Mål",
+        "user": "Användare",
+        "system": "Systemsystem",
+        "timestamp": "Timestamp",
+        "ip": "IP-adress",
+        "userAgent": "Enhet / webbläsare",
+        "changes": "Förändringar",
+        "metadata": "Detaljer",
+        "loadError": "Kunde inte ladda denna logg."
+      },
       "stats": {
         "total": "Totalt totalt"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Gästens e-post",
     "delegateError": "Kunde inte skicka inbjudan.",
     "toCompleteBadge": "□0 för att slutföra"
+  },
+  "shareCard": {
+    "eyebrow": "Jag ska vara där",
+    "button": "Dela till story",
+    "dialogTitle": "Dela min plats",
+    "cta": "Boka din plats",
+    "errorTitle": "Dela",
+    "errorMessage": "Kunde inte generera kortet just nu."
+  },
+  "badges": {
+    "verified": "Verifierad",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "Exhibitor",
+    "title": "Ansök om en bås",
+    "lead": "Introducera ditt företag att köra en monter på denna show. Arrangören kommer att granska din begäran.",
+    "companyLabel": "Företagsnamn",
+    "companyPlaceholder": "t ex Acme Ltd",
+    "categoryLabel": "Industri / kategori",
+    "categoryPlaceholder": "Teknik, mat...",
+    "websiteLabel": "Webbplats (valfritt)",
+    "pitchLabel": "Meddelande till arrangören (valfritt)",
+    "pitchPlaceholder": "Beskriv ditt företag, vad du kommer att visa...",
+    "boothLabel": "Preferred Booth (valfritt)",
+    "submit": "Skicka min applikation",
+    "submitting": "Skicka...",
+    "successTitle": "Ansökan skickad!",
+    "successSubtitle": "Arrangören kommer att granska den. Du kommer att meddelas om deras beslut.",
+    "goToMyBooth": "Visa min bås",
+    "alreadyApplied": "Du har redan ansökt om denna show.",
+    "loginRequired": "Logga in för att ansöka om en monter.",
+    "login": "Logga in",
+    "errorSubmit": "Kunde inte skicka ansökan.",
+    "ctaTitle": "Kör en monter på denna show?",
+    "ctaSubtitle": "Applicera på sekunder.",
+    "ctaButton": "Bli en utställare"
+  },
+  "myBoothMobile": {
+    "eyebrow": "Exhibitor",
+    "title": "Min bås",
+    "empty": "Ingen montering.",
+    "show": "Visa",
+    "accepted": "Villkor accepterade.",
+    "acceptError": "Kunde inte acceptera.",
+    "salesTitle": "Delegerad försäljning",
+    "commission": "EventEz commission",
+    "hostShare": "Organizer share",
+    "net": "Vad du håller",
+    "createEvent": "Skapa mitt event",
+    "acceptCta": "Jag accepterar dessa villkor",
+    "statusPaid": "Betalt",
+    "statusPartial": "Insättning Betalda",
+    "statusPending": "Att betala",
+    "amountDue": "Booth mängd",
+    "amountRemaining": "Återstående att betala",
+    "payBooth": "Betala för min monter",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kort",
+    "paymentInitiated": "Betalning initierat. Bekräfta det på din telefon.",
+    "payError": "Kunde inte initiera monterbetalningen.",
+    "captureLeads": "Fånga kontakter",
+    "viewLeads": "Mina kontakter"
+  },
+  "leadCapture": {
+    "title": "Fånga en kontakt",
+    "hint": "Peka på QR-koden på besökarens märke.",
+    "permissionTitle": "Tillåt kameraåtkomst",
+    "permissionBody": "Kameran används endast för att läsa märke QR-koden för besökare som gick med på att kontaktas.",
+    "permissionCta": "Slå på kameran",
+    "manualEntry": "Skriv referensen istället",
+    "manualPlaceholder": "Badge referens",
+    "unnamed": "Kontakt sparad",
+    "alreadyKnown": "Redan träffats - rekord uppdaterad.",
+    "qualify": "Kvalificera denna kontakt",
+    "rating_hot": "Hot",
+    "rating_warm": "Varmt",
+    "rating_cold": "Kallt",
+    "notesPlaceholder": "Vad du pratade om (valfritt)",
+    "next": "Nästa kontakt",
+    "retry": "Skanna igen",
+    "noConsentTitle": "Denna besökare har inte kommit överens om",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Badge inte erkänd",
+    "notFoundBody": "Detta märke hör inte till denna händelse. Kontrollera referensen tryckt under QR-koden.",
+    "errorTitle": "Scan misslyckades",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Denna besökare har inte kommit överens om att kontaktas.",
+    "a11yNotFound": "Badge inte erkänd.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Idag idag idag",
+    "yesterday": "Igår",
+    "justNow": "Just nu",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Skicka",
+    "failed": "Misslyckades med att skicka",
+    "sent": "Sent",
+    "delivered": "Levereras",
+    "read": "Läs mer"
+  },
+  "myLeads": {
+    "title": "Mina kontakter",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Unnamed kontakt",
+    "emptyTitle": "Ingen kontakt ännu",
+    "emptyBody": "Skanna märket av besökare som stannar vid din monter. Du kan sedan exportera hela listan som CSV.",
+    "errorTitle": "Kunde inte ladda",
+    "errorBody": "Dina kontakter är säkert sparade. Kontrollera din anslutning och försök igen."
+  },
+  "myDataExhibitors": {
+    "title": "Mina data som innehas av utställare",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Radera",
+    "eraseAll": "Radera alla",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Dina kontaktuppgifter raderas.",
+    "eraseError": "Raseringen gick inte igenom.",
+    "confirmCta": "Radera",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Radera mina data som innehas av varje utställare?",
+    "confirmAllBody": "Ditt namn, e-post och telefonnummer raderas på varje noterat företag. Detta kan inte vara ogjort.",
+    "emptyTitle": "Inget företag håller dina kontaktuppgifter",
+    "emptyBody": "Utställare kan bara spara dina uppgifter genom att skanna ditt märke, och endast om du tillät det för den händelsen."
+  },
+  "visio": {
+    "expandCall": "Expand video call",
+    "endCall": "End call",
+    "endCallConfirmTitle": "Lämna samtalet?",
+    "endCallConfirmMessage": "Du ska lämna det pågående mötet.",
+    "minimize": "Minimera",
+    "liveNow": "Livet",
+    "join": "Gå med",
+    "view": "Utsikt",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Utsikt",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Resize"
+  },
+  "organize": {
+    "favorites": "Mina favoriter",
+    "eyebrow": "Organizer rymd",
+    "title": "Organisera",
+    "liveNow": "Live nu",
+    "nextEvent": "Nästa event",
+    "registered": "registrerat registrerat",
+    "scan": "Scan",
+    "scanA11y": "Skanna biljetter för detta evenemang",
+    "boxOffice": "Box kontor",
+    "boxOfficeA11y": "Öppna box office för detta evenemang",
+    "viewStats": "Visa statistik",
+    "availableBalance": "Tillgänglig balans",
+    "walletA11y": "Öppna min plånbok",
+    "noActiveEvent": "Ingen händelse som kör",
+    "noActiveEventHint": "Skapa ett evenemang eller publicera ett utkast för att se det här.",
+    "noStaffEventHint": "Evenemang där du är en del av laget kommer att dyka upp här.",
+    "createEvent": "Skapa en händelse",
+    "myEvents": "Mina händelser",
+    "teamEvents": "Händelser jag personal",
+    "analytics": "Analytics",
+    "loadError": "Kunde inte ladda ditt utrymme. Kolla din anslutning."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Du är i",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "På en vecka",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Dörrar är öppna",
+    "onNow": "Händer nu",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Biljett tillgänglig offline",
+    "offlinePending": "Öppna biljetten en gång för att hålla den offline",
+    "sayImGoing": "Säg att jag ska",
+    "showTicket": "Visa min biljett",
+    "directions": "Vägbeskrivning",
+    "viewTicket": "Visa biljett",
+    "goThere": "Gå",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibrera kompassen: rita en figur 8 med din telefon",
+    "compassHint": "Följ pilen till arenan"
+  },
+  "onSite": {
+    "eyebrow": "Du är på plats",
+    "now": "Numera nu",
+    "next": "Next · {{time}}",
+    "qa": "Live Q & A",
+    "plan": "Map & Plats",
+    "networking": "Nätverk"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Du var där",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Först att komma",
+    "question": "Vad tänkte du?",
+    "thanks": "Tack för ditt betyg.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Dela till story",
+    "later": "Senare"
+  },
+  "yearInReview": {
+    "eyebrow": "Ditt år",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "Evenemanget deltog",
+    "s1Line_other": "händelser som deltog",
+    "citiesEyebrow": "På vägen",
+    "categoryEyebrow": "Din typ av händelse",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Allt började med",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Alltid i tid",
+    "arrivalsLine_one": "tid först för att komma",
+    "arrivalsLine_other": "tider först att komma",
+    "organizerEyebrow": "Din arrangör",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Dela mitt kort",
+    "tapHint": "Tryck för att fortsätta"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Första deltagaren",
+      "someone": "Någon",
+      "share": "Dela för att öka försäljningen",
+      "view": "Utsikt",
+      "soldOutTitle": "Säljs ut",
+      "soldOutLine": "Varje biljett är borta"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Sold out",
+      "online": "Livet"
+    },
+    "share": {
+      "cta": "Dela evenemanget",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Delad",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Begäran",
+      "approved": "Godkänd",
+      "sent": "Sent",
+      "verifying": "Kontrollera med operatören",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Utbetalning misslyckades"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Venue nästan full",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Slut på skift",
+      "validated": "Incheckad",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Vägrar",
+      "syncing": "Synkronisera...",
+      "synced": "Synkroniserad",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Visa live ops",
+      "resume": "Återkomma",
+      "close": "Finish"
+    },
+    "recap": {
+      "title": "Recap",
+      "eyebrow": "EVENT RECAP",
+      "attended": "Att delta",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Intäkter",
+      "rating": "Genomsnittlig rating",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Inga recensioner ännu",
+      "best": "Standout översyn",
+      "latest": "Senaste recensioner",
+      "thank": "Tacka deltagare",
+      "funds": "Visa medel",
+      "error": "Recap otillgänglig just nu.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Visa recap"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Bokat just nu",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Bokat i sista timmen",
+    "lastSaleToday": "Bokat idag",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Säljs ut",
+    "soldOutCta": "Säljs ut - inga platser kvar",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Dina anslutningar som går",
+    "someone": "Någon",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online Online Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "En plats hålls för dig",
+    "seatHeldBody": "Boka innan nedräkningen slutar: efter det går det till nästa person.",
+    "seatHeldCta": "Boka mitt säte",
+    "seatHeldExpired": "Tiden är uppe: sätet gick till nästa person.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Visa alla",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reaktioner",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "En av dina anslutningar har kommit",
+    "connectionArrivedCta": "Meddela dem",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Levande försäljning",
+    "checkinPushed": "Live ankomst"
+  },
+  "reminders": {
+    "channelName": "Event påminnelser",
+    "dayBeforeTitle": "Påminnelse: I morgon",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Påminnelse: om 1 timme",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "upptäcka",
+    "discoverSubtitle": "Händelser nära dig",
+    "tickets": "mina biljetter",
+    "scan": "Skanna en biljett"
+  },
+  "ongoing": {
+    "channelName": "Event Day",
+    "eventFallback": "Ditt event",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Börja snart",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Nu är din biljett klar",
+    "scannerTitle": "Scanner i tjänst"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Ångra den sista åtgärden?",
+      "confirm": "Undo",
+      "keep": "Håll",
+      "failed": "Undo gick inte igenom. Kontrollera din anslutning och försök igen.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Flytta samtalet ur arkivet."
+    },
+    "report": {
+      "title": "Rapportera ett problem",
+      "subtitle": "Test build: skärmdumpen, skärmen och versionen skickas med ditt meddelande.",
+      "noNote": "Rapportera utan en kommentar",
+      "blur": "Blur",
+      "noShot": "Ingen skärmdump tillgänglig på den här skärmen.",
+      "placeholder": "Vad hände?",
+      "send": "Skicka",
+      "sent": "Tack, din rapport har skickats.",
+      "unavailable": "Kan inte skicka: felspårning är inte aktiv på denna byggnad."
+    },
+    "applause": {
+      "hint": "Håll att applådera längre.",
+      "a11y": "Lång applåder"
+    },
+    "hush": {
+      "title": "Mic och kamera avstängd medan telefonen stod ner",
+      "reactivate": "Tryck för att vända dem tillbaka på"
+    },
+    "lighter": {
+      "button": "Ljusare",
+      "off": "Sätt ut det",
+      "alone": "Höj din telefon, flamman följer dina drag.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Överraska mig",
+      "chipA11y": "Föreslå en slumpmässig händelse",
+      "again": "Ännu en annan",
+      "none": "Ingen kommande händelse att föreslå just nu."
+    },
+    "bump": {
+      "settingTitle": "Swap kontakter genom att skaka",
+      "settingSubtitle": "På plats, när din biljett skannas: skaka samtidigt som någon annan att hitta varandra. Din ungefärliga plats används i några sekunder för att matcha dig och lagras aldrig. Ingenting händer utan din bekräftelse. Av som standard.",
+      "button": "Swap by shaking",
+      "nearbyButton": "Titta omkring mig",
+      "hint": "Skaka telefonen samtidigt som den andra personen.",
+      "title": "Swap kontakter",
+      "searching": "Söker folk skakar nära dig...",
+      "none": "Ingen hittade. Skaka på samma ögonblick som den andra personen, försök sedan igen.",
+      "pick": "Välj rätt person. Ingenting delas utan ditt samtycke.",
+      "connect": "Anslut?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Väntar på deras bekräftelse",
+      "connected": "Ansluten",
+      "openSettings": "Öppna inställningar",
+      "error": {
+        "disabled": "Slå på \"Swap kontakter genom att skaka\" i dina inställningar.",
+        "notCheckedIn": "Tillgänglig när din biljett har skannats vid ingången.",
+        "clockSkew": "Din telefons klocka är avstängd. Ställ in den till automatisk och försök igen.",
+        "rateLimited": "För många försök. Försök igen i en minut.",
+        "expired": "Swappen gick ut. Börja igen.",
+        "noLocation": "Plats behövs för att hitta personen nära dig.",
+        "generic": "Swappen gick inte igenom. Försök igen."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Spara evenemanget"
+    },
+    "torch": {
+      "onA11y": "Vänd facklan på",
+      "offA11y": "Vänd facklan av",
+      "hint": "Dubbeltappa sökaren för att stänga facklan på eller av."
+    },
+    "dragSelect": {
+      "select": "Välj Välj",
+      "hint": "Eller dra två fingrar ner listan för att kryssa flera deltagare.",
+      "message": "Meddelande de valda deltagarna",
+      "export": "Exportera valet",
+      "exportError": "Exportera valet misslyckades.",
+      "csvName": "Namnnamn",
+      "csvEmail": "E-post",
+      "csvReference": "Referens",
+      "csvStatus": "Status",
+      "csvDate": "Registrerad"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Fånga dina biljetter...",
+      "favorites": "Fånga dina favoriter...",
+      "notifications": "Fånga dina meddelanden...",
+      "messages": "Fånga dina konversationer...",
+      "search": "Letar efter matchande händelser...",
+      "event": "Förbered händelsesidan..."
+    },
+    "mobileMoney": {
+      "sent": "Din betalningsförfrågan har skickats till din operatör.",
+      "pin": "Godkänn det med din PIN-kod på din telefon, i din operatörs omedelbara.",
+      "operator": "Operatörsbekräftelse kan ta lite tid. Det är normalt, snälla stanna på denna sida.",
+      "once": "Du kommer bara att debiteras en gång, även om väntan fortsätter."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Dina biljetter visas här så fort du registrerar dig för ett evenemang.",
+        "v1": "En konsert, en konferens, en workshop? Allt börjar med en händelse.",
+        "v2": "Din nästa utflykt kan redan vara online."
+      },
+      "favorites": {
+        "v0": "Tryck på hjärtat på en händelse för att hitta den här och höra om förändringar.",
+        "v1": "Följ en händelse så att du aldrig missar nyheterna.",
+        "v2": "Ett hjärta räcker för att hålla en händelse till hands."
+      },
+      "notifications": {
+        "v0": "Nyheter från de händelser och arrangörer du följer kommer att dyka upp här.",
+        "v1": "Följ en händelse som ska meddelas om vad som är nytt.",
+        "v2": "Vi kommer att låta dig veta så snart något händer."
+      },
+      "messages": {
+        "v0": "Möt någon på ett event? Skanna deras kod för att ansluta.",
+        "v1": "Dina evenemangsanslutningar dyker upp här: en kodskanning räcker.",
+        "v2": "Byt kontaktuppgifter på plats genom att skanna en deltagares kod."
+      },
+      "discover": {
+        "v0": "En sökordssökning hittar ibland vad hemsidan inte visar ännu.",
+        "v1": "Sök efter stad eller kategori: nya evenemang anländer varje vecka."
+      },
+      "exploreAction": "Se vad som är på",
+      "scanAction": "Skanna en kod",
+      "searchAction": "Sök efter ett event",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Widen till 50 km runt dig",
+      "clearFilters": "Tydliga filter"
+    },
+    "greeting": {
+      "when": {
+        "today": "idag idag idag",
+        "tomorrow": "I morgon",
+        "dayAfter": "Dagen efter morgondagen"
+      },
+      "there": "på plats",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Glad födelsedag! Ha en härlig dag.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Lycklig nationell dag!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Välkommen tillbaka",
+      "subtitle_one": "En ny sak sedan ditt senaste besök.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Och en mer från det du följer.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Hide",
+      "reason": {
+        "followed_organizer": "Organisatör du följer",
+        "new_edition": "Ny utgåva av en händelse du deltog",
+        "other": "Nytt nytt"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "För dig · Baserad på din smak",
+      "forYouTitle": "Du kanske också gillar",
+      "loginCtaTitle": "Rekommendationer skräddarsydda för dig"
+    },
+    "settings": {
+      "ritualsEyebrow": "LITTLE TOUCHES",
+      "ritualsTitle": "Små rör",
+      "ritualsSubtitle": "Ett ord på din födelsedag, ditt konto årsdag eller nationell dag, en gång under dagen. Din ålder visas aldrig, ingen anmälan.",
+      "forgetEyebrow": "Rekommendationer",
+      "forgetTitle": "Glöm mina preferenser",
+      "forgetSubtitle": "Radera vad som följde händelser, registreringar och sökningar lärde dina rekommendationer.",
+      "forgetConfirmTitle": "Glöm dina preferenser?",
+      "forgetConfirmMessage": "Dina rekommendationer börjar från början. Dina biljetter, favoriter och följer ändras inte.",
+      "forgetDone": "Done: Dina rekommendationer börjar från början.",
+      "forgetUnavailable": "Detta alternativ är inte tillgängligt ännu. Inget raderades.",
+      "forgetError": "Dina preferenser kunde inte raderas. De är oförändrade, försök igen på ett ögonblick."
+    },
+    "goingCard": {
+      "title": "När du väntar, förbered ditt \"Jag går\" kort",
+      "subtitle": "Det kommer att vara redo att dela så snart betalningen bekräftas.",
+      "tintLabel": "Bakgrund",
+      "messageLabel": "Meddelande",
+      "messages": {
+        "going": "Jag ska gå",
+        "meetThere": "Se er själva?",
+        "seeYou": "Träffa mig där"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Ditt kort skriver ut medan du väntar.",
+      "ready": "Ditt kort är redo",
+      "share": "Dela mitt kort",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

@@ -41,6 +41,7 @@
     "close": "Sulje",
     "clear": "Tyhjennä",
     "back": "Takaisin",
+    "home": "Alkuun",
     "next": "Seuraava",
     "previous": "Edellinen",
     "search": "Etsi",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Koodi on virheellinen tai vanhentunut",
     "loginError": "Kirjautumisvirhe",
     "registerError": "Kirjautumisvirhe",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Tili on jo olemassa",
     "registerEmailExistsDetail": "Tili on jo olemassa tällä sähköpostilla. Haluatko kirjautua sisään?",
     "registerEmailExistsConfirm": "Kirjaudu sisään",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Sukunimi vaaditaan",
     "emailRequired": "Sähköpostia tarvitaan",
     "emailInvalid": "Virheellinen sähköposti",
+    "passwordRequired": "Salasana vaaditaan",
     "passwordTooShort": "Salasana liian lyhyt (vähintään ...)",
+    "confirmPasswordRequired": "Salasanan vahvistus vaaditaan",
     "passwordsDontMatch": "Salasanat eivät täsmää",
+    "usernameRequired": "Käyttäjätunnus vaaditaan",
     "usernameTooShort": "Käyttäjätunnus on liian lyhyt (vähintään ...)",
     "usernameInvalid": "Virheellinen käyttäjänimi",
+    "phoneRequired": "Puhelinnumero vaaditaan",
     "phoneInvalid": "Virheellinen puhelinnumero",
     "minLength": "Vähintään",
     "maxLength": "Enintään ...0..."
@@ -449,7 +461,8 @@
     "saved": "Tallennettu",
     "messages": "Viestit",
     "tickets": "Liput",
-    "profile": "Profiili"
+    "profile": "Profiili",
+    "organize": "Järjestä"
   },
   "languagePicker": {
     "eyebrow": "TERVETULOA",
@@ -492,6 +505,7 @@
     "viewAction": "Näytä",
     "viewEvent": "Näytä tapahtuma",
     "share": "Osuus",
+    "scrollToTop": "Takaisin huipulle",
     "freeEyebrow": "ZERO KUSTANNUKSET",
     "freeTitle": "Vapaa, ei naruja",
     "freeBadge": "VAPAA",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Olet valmis!",
     "notifyOnBody": "Ilmoitamme heti, kun ensimmäiset tapahtumat alkavat.",
     "notifyOffTitle": "Ilmoitukset poistettu",
-    "notifyOffBody": "Valitse asetukset."
+    "notifyOffBody": "Valitse asetukset.",
+    "organizersEyebrow": "Järjestäjät",
+    "organizersTitle": "Ihmiset rikospaikan takana",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Varmennettu järjestäjä",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Hintaluokat",
@@ -598,13 +618,16 @@
   "attendees": {
     "title": "Kuka täällä on?",
     "eyebrow": "NÄKYMÄT",
-    "count": "",
+    "count": "{{count}} people to meet",
     "optInTitle": "Tee minusta näkyvä",
     "optInSubtitle": "Näyttäydy hakemistossa, jotta muut osallistujat voivat viestittää sinulle.",
     "invisibleHint": "Sinäkin olet näkymätön.",
     "message": "Viesti",
     "connected": "Yhdistetty",
-    "empty": "Kukaan ei ole vielä näkyvissä. Ole ensimmäinen, joka käynnistää verkostosi!"
+    "empty": "Kukaan ei ole vielä näkyvissä. Ole ensimmäinen, joka käynnistää verkostosi!",
+    "scanOptInTitle": "Antaa näytteilleasettajien skannata virkamerkkini",
+    "scanOptInSubtitle": "Näyttelyyritykset voivat tallentaa nimesi ja yhteystiedot skannaamalla virkamerkkisi, jotta ne voivat seurata tapahtuman jälkeen.",
+    "scanOptInWithdrawNote": "Voit sammuttaa tämän milloin tahansa. Näyttelijöiden tallentamia yhteystietoja ei poisteta automaattisesti."
   },
   "eventDetails": {
     "eyebrow": "TAPAHTUMA",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online-tapahtuma",
     "meetingId": "Kokoustunniste:",
     "meetingPasscode": "Salasana:",
+    "liveEngagement": "Live Q&A ja kyselyt",
     "joinEvent": "Liity tapahtumaan",
     "joinOnline": "Liity online",
     "registered": "Rekisteröity",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Jaa WhatsApp",
     "closePreviewA11y": "Sulje esikatselu",
     "invalidCode": "Virheellinen hakukoodi",
+    "accessButton": "Sisään",
+    "pendingPaymentBanner": "Täydennä maksu vahvistaa rekisteröitymisen",
+    "onlineInfoAfterRegistration": "Yhteystiedot ovat saatavilla rekisteröitymisen jälkeen",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Suurenna",
+    "playCoverVideo": "Pelaa videota",
+    "videoPlayA11y": "Pelaa videota äänellä",
+    "videoUnmuteA11y": "Ei muttia",
+    "videoMuteA11y": "Mykkä",
+    "videoExpandA11y": "Laajenna videota kokoruutuun",
     "imagesCount": "...",
     "videoConference": "Videoneuvottelufoorumi",
     "openLinkError": "Tapahtumalinkkiä ei voitu avata",
@@ -675,7 +708,28 @@
     "registeredStatus": "Rekisteröity",
     "pendingStatus": "Odotetaan",
     "priceLabel": "Hinta",
-    "fromLabel": "alkaen"
+    "fromLabel": "alkaen",
+    "waitlistJoinedDetail": "Olet liittynyt tarjoilijalistalle. Ilmoitamme, kun paikka aukeaa.",
+    "waitlistLeftMsg": "Jätit tarjoilijalistan",
+    "waitlistLeaveError": "Odotuslistaa ei voitu jättää",
+    "waitlistJoinError": "Odotuslistalle ei voi liittyä",
+    "waitlistLeaveTitle": "Jätä tarjoilijalista",
+    "waitlistLeaveConfirm": "Haluatko varmasti lähteä tarjoilijalistalta?",
+    "whatsappNotInstalled": "WhatsApp ei ole asennettu tähän laitteeseen",
+    "reviewRatingRange": "Valitse luokitus välillä 1 ja 5",
+    "reviewThanksTitle": "Kiitos!",
+    "reviewSubmitted": "Arvostelusi toimitettiin onnistuneesti",
+    "loginRequiredTitle": "Kirjautuminen vaaditaan",
+    "loginRequiredReview": "Kirjaudu sisään jättääksesi arvioinnin",
+    "reviewSubmitError": "Arvostelua ei voitu toimittaa",
+    "loginRequiredWaitlist": "Kirjaudu sisään liittyäksesi tarjoilulistalle",
+    "invitationGateDesc": "Tämä tapahtuma on varattu kutsuvieraille. Jos sait kutsun, hyväksy se päästäksesi käsiksi.",
+    "codeGateDesc": "Anna koodi nähdäksesi täydelliset tiedot",
+    "giftRegistryCta": "Lahjarekisteri",
+    "giftRegistrySubtitle": "Katso lista ja siru jos haluat",
+    "cancelReasonTitle": "Peruutuksen syy",
+    "visioEnded": "Tämä tapahtuma on päättynyt.",
+    "videoPauseA11y": "Keskeytä video"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Menneet tapahtumat näkyvät täällä.",
     "scanQR": "Skannaa QR-koodi",
     "showQR": "Näytä QR- koodi",
+    "viewQR": "Näytä QR",
+    "receivedTransfers": "Vastaanotetut siirrot",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "QR-koodisi",
     "qrSubtitle": "Näytä tämä koodi sisäänkäynnille",
     "ticketDetails": "Lipun tiedot",
@@ -930,7 +987,10 @@
     "monthNovember": "MARRASKUU",
     "monthDecember": "JOULUKUU",
     "tapToShowQR": "Napauta nähdäksesi QR-koodin",
-    "searchTitleRefVenue": "Nimi, tuomari, paikka..."
+    "searchTitleRefVenue": "Nimi, tuomari, paikka...",
+    "pendingPayment": "Vireillä olevat maksut",
+    "pendingExpired": "Tapahtuma päättyi",
+    "statusExpired": "Vanhentunut"
   },
   "payment": {
     "title": "Maksu",
@@ -995,7 +1055,7 @@
     "filterCompleted": "Valmis",
     "filterPending": "Odotetaan",
     "filterFailed": "Virhe",
-    "fxIndicatorLabel": "",
+    "fxIndicatorLabel": "≈ {{amount}} {{currency}} (indicative rate)",
     "fxIndicatorNote": "Pankkisi muuntaa tarkan määrän.",
     "failedEyebrowError": "MAKSUVIRHE",
     "failedHookTitle": "Jokin meni pieleen.",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Takaisin",
     "paymentGenericError": "Virhe tapahtui maksun aikana",
     "paymentErrorTitle": "Maksuvirhe",
+    "paymentBlockedTitle": "Kortin maksu estetty",
     "paymentCancelledTitle": "Peruutetut maksut",
     "paymentNoPaymentInProgress": "Ei meneillään olevaa tarkastusta",
     "paymentVerifyingTitle": "Varmistan...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Jatka odottamista",
     "paymentProcessing": "Jalostus",
     "paymentTitle": "Maksu",
+    "checkoutStep": "VAIHE 3 / 3 • MAKSU",
+    "noDoubleCharge": "Olet ladattu vain kerran, vaikka näyttö pyörii jonkin aikaa.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Hyväksyn",
+    "termsLinkFull": "myyntiehdot ja palautuspolitiikka",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Valinta",
     "paymentStepRecap": "Yhteenveto",
     "paymentMethodFallback": "Maksu",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Maksu",
     "myPaymentsFilterCompleted": "Valmis",
     "myPaymentsFilterPending": "Odotetaan",
-    "myPaymentsFilterFailed": "Virhe"
+    "myPaymentsFilterFailed": "Virhe",
+    "finalizeEndedTitle": "Tämä tapahtuma on päättynyt",
+    "finalizeEndedBody": "Et voi enää suorittaa rekisteröitymistäsi: tapahtuma on jo ohi. Sinua ei syytetty.",
+    "finalizeClosedTitle": "Rekisteröinti suljettu",
+    "finalizeClosedBody": "Tapahtuman ilmoittautumisaika on päättynyt.",
+    "finalizeSoldOutTitle": "Liput loppuunmyyty",
+    "finalizeSoldOutBody": "Varaamasi liput eivät ole enää saatavilla. Varauksenne päättyi. Sinua ei syytetty.",
+    "finalizeBackToEvent": "Takaisin tapahtumaan",
+    "paymentPushSentTitle": "Vahvista puhelimessa",
+    "paymentPushSentMessage": "Puhelimeen lähetettiin maksupyyntö. Hyväksyy sen (Mobile Money PIN) valmiiksi.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Tuen määrä"
   },
   "memories": {
     "title": "Muistoni",
@@ -1235,7 +1313,11 @@
     "recapShare": "Jaa kertaukseni",
     "recapEvents": "Tapahtumat",
     "recapCities": "kaupungit",
-    "recapFirst": "ajat saapuivat # 1"
+    "recapFirst": "ajat saapuivat # 1",
+    "oneYearAgo": "Olit siellä vuosi sitten.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Pitkä lehdistö yllätyksen toivossa",
+    "firstNote": "Ensimmäinen saapuu. Ovet olivat tuskin auki."
   },
   "profile": {
     "title": "Profiili",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Kirjaudu ulos",
     "logoutInProgress": "Kirjaudun ulos...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "QR-koodini"
+    "myQRTitle": "QR-koodini",
+    "refundsMenu": "Palautukseni",
+    "refundsSubtitle": "Seuraa, missä rahasi ovat.",
+    "shareProfileButton": "Jaa profiilini",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Järjestäjäprofiilini",
+    "shareOrganizerA11y": "Jaa organisaatioprofiilini",
+    "viewPublicProfileA11y": "Katso julkista profiiliani",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Seuraamatta?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Seuraava",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Ei tuloksia",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Etsi tapahtumia",
+    "followSearchPlaceholder": "Etsi järjestäjää"
   },
   "editProfile": {
     "title": "Muokkaa profiilia",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Osoite",
     "sectionOrganization": "Organisaatio",
     "sectionSecurity": "Turvallisuus",
-    "qrShareSubtitle": "Skannaa tämä koodi jakaaksesi profiilisi"
+    "qrShareSubtitle": "Skannaa tämä koodi jakaaksesi profiilisi",
+    "countryPlaceholder": "Valitse maa",
+    "orgLogoLabel": "Tunnus",
+    "orgLogoAdd": "Lisää logo",
+    "orgLogoChange": "Vaihda tunnusta",
+    "orgWebsiteLabel": "Verkkosivusto",
+    "orgDescriptionLabel": "Julkinen kuvaus",
+    "orgDescriptionPlaceholder": "Esittele organisaatiosi..."
   },
   "settings": {
     "whoCanContactCurrent": "SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Teema",
     "themeDialogSubtitle": "Valitse teema",
     "timezoneDialogTitle": "Aikavyöhyke",
+    "timezoneDetected": "havaittu",
     "timezoneDialogSubtitle": "Valitse aikavyöhyke",
     "preferencesTitle": "Asetukset",
     "headerEyebrow": "ASETUKSET",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Vahvistus ja palautukset",
     "rowNewConversations": "Uudet keskustelut",
     "rowMarketing": "Suositukset ja kampanjat",
+    "rowSocialEyebrow": "Sosiaalinen",
+    "rowSocial": "Sosiaalinen toiminta",
+    "rowSocialDesc": "Uudet seuraajat, muistutukset, tarkistuspyynnöt",
+    "newRegistrationsEyebrow": "Järjestäjä",
+    "newRegistrationsTitle": "Uudet rekisteröinnit",
+    "newRegistrationsDescription": "Kuinka usein sinulle lähetetään sähköpostia, kun joku ilmoittautuu tapahtumiin",
+    "newRegistrationsFreq": {
+      "realtime": "Reaaliaikainen",
+      "hourly": "Tunti",
+      "daily": "Vuorokausi",
+      "off": "Pois"
+    },
+    "quietHoursEyebrow": "Älä häiritse",
+    "quietHoursTitle": "Hiljaiset tunnit",
+    "quietHoursDescription": "Keskeytä ei-tärkeät työntö/SMS-ilmoitukset yön yli. Tärkeät hälytykset tulevat aina.",
+    "quietHoursFrom": "alkaen",
+    "quietHoursTo": "asti",
     "rowSounds": "Äänet keskeisillä hetkillä",
     "rowSoundsSubtitle": "Soittaa äänen maksuvahvistuksen tai QR skannauksen yhteydessä",
     "rowTwoFA": "Kaksitekijän tunnistus",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Laskut",
     "shortcutTaxes": "Verot",
     "shortcutMyEvents": "Omat tapahtumat",
-    "shortcutHelp": "Ohje"
+    "shortcutHelp": "Ohje",
+    "rowMyDataAtExhibitors": "Näyttelijöiden hallussa olevat tietoni",
+    "rowLiveBanner": "Live-tapahtumien banneri",
+    "rowLiveBannerSubtitle": "Näytä banneri osallistua tapahtumaan, joka on tällä hetkellä livenä.",
+    "pushPermissionTitle": "Ilmoitukset ovat pois päältä tämän laitteen osalta",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Kerro yhteyksistäni.",
+    "rowShareAttendanceSubtitle": "Yhteytesi näkevät, että osallistut tapahtumaan. Oletuksena pois; ei koskaan kutsu vain tapahtumia.",
+    "rowNotifyMemories": "Vuosi sitten",
+    "rowNotifyMemoriesSubtitle": "Enintään yksi muistutus viikossa tapahtuman vuosipäivänä, johon osallistuit.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Vuosikertasi joulukuussa. Kukaan muu ei näe sitä.",
+    "madeInDouala": "Doualassa, huolella.",
+    "madeInDoualaSub": "Kiitos, että herätit meidät henkiin.",
+    "rowUiSounds": "Liitäntääänet",
+    "rowUiSoundsSubtitle": "Hyvin hienovaraisia ääniä vahvistuksista ja tulevista ilmoituksista. Poissa oletusarvoisesti.",
+    "vibrationsEyebrow": "TOUCH",
+    "rowVibrations": "Tärinät",
+    "rowVibrationsSubtitle": "Haptic palautetta avaintoiminnot: maksu, skannaus, suosikkeja.",
+    "rowMotionGestures": "Esitys",
+    "rowMotionGesturesSubtitle": "Ravista, käännä tai pidä puhelintasi. Nappi on aina saatavilla myös.",
+    "notificationsEyebrowOngoing": "Ilmoitukset",
+    "rowOngoingEvent": "Pinnoitettu lippu tapahtumapäivänä",
+    "rowOngoingEventSubtitle": "Hiljainen ilmoitus, 3 tuntia ennen tapahtumaa ja sen aikana, lippu ja ohjeet.",
+    "rowNotificationSounds": "Ilmoitusäänet",
+    "rowNotificationSoundsSubtitle": "Valitse jokaisen luokan ääni (isoja hetkiä, myynti, viestit...) puhelimen asetuksista"
   },
   "messages": {
     "title": "Viestit",
@@ -1674,7 +1826,7 @@
     "headerInbox": "Sähköposti",
     "headerEyebrow": "VAIHTOEHDOT",
     "headerEyebrowAllRead": "LUE",
-    "headerEyebrowUnread": "",
+    "headerEyebrowUnread": "{{count}} UNREAD",
     "liveOn": "Live-yhteys aktiivinen",
     "liveReconnecting": "Yhdistäminen",
     "searchPlaceholder": "Etsi keskustelu tai viesti...",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Etsi yhteyshenkilö...",
     "searchEyebrow": "HAKU",
     "searchHint": "Haettava tyyppi",
-    "noOneFound": "Kukaan ei löytänyt"
+    "noOneFound": "Kukaan ei löytänyt",
+    "myConnectionsSection": "Minun yhteyteni",
+    "searchResultsSection": "Tulokset",
+    "noConnectionsEyebrow": "VERKOSTO",
+    "noConnectionsTitle": "Ei yhteyksiä vielä",
+    "noConnectionsCta": "Yhdistä QR:n kautta",
+    "emptyEyebrowArchived": "ARKISTO",
+    "emptyEyebrowEmpty": "PAKOLLINEN INBOX",
+    "archivedEmptyDesc": "Arkistoidut keskustelunne laskeutuvat tänne.",
+    "noConversationsDesc": "Aloita uusi viesti.",
+    "attachmentPreview": "[Liittyy]",
+    "noMatchingMessage": "Ei vastaavaa viestiä"
   },
   "notifications": {
     "title": "Ilmoitukset",
@@ -1700,7 +1863,7 @@
     "paymentSuccess": "Maksu onnistui",
     "paymentFailed": "Maksu epäonnistui",
     "eventCancelled": "Se on peruttu.",
-    "eventUpdated": "",
+    "eventUpdated": "{{event}} has been updated",
     "moderationApproved": "Tapahtumasi on hyväksytty",
     "moderationRejected": "Tapahtumasi on hylätty",
     "settings": "Ilmoitusten asetukset",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Mitä uutta?",
     "typePendingModeration": "Uudelleentarkastelu",
     "typeModerationReminder": "Kohtuullisuusjono",
+    "typeNewFollower": "Uusi seuraaja",
+    "typeFollowedOrganizerNewEvent": "Uusi tapahtuma",
+    "typeFollowRegistered": "Yhteys on menossa.",
+    "typeConnectionsAtEvent": "Yhteydet",
+    "eyebrowNetwork": "VERKOSTO",
+    "eyebrowSoon": "Pian",
+    "eyebrowReminder": "REMINDER",
+    "eyebrowModeration": "MODEROINTI",
+    "eyebrowToReview": "TARKASTELUA",
+    "eyebrowDiscovery": "KESKUSTELU",
+    "eyebrowUrgent": "KIIREELLINEN",
+    "eyebrowWhatsNew": "Mitä uutta?",
+    "filterReadTab": "Lue",
+    "groupToday": "TÄNÄÄN",
+    "groupYesterday": "Eilen",
+    "tabAll": "Kaikki",
+    "tabNetwork": "Verkko",
     "typeDefault": "Ilmoittaminen",
     "filterAllTab": "Kaikki",
     "filterUnreadTab": "Ei lue",
@@ -1739,7 +1919,26 @@
     "statTotal": "YHTEENSÄ",
     "statUnread": "TURVAPAIKKA",
     "statToday": "TÄNÄÄN",
-    "viewDetails": "Näytä tiedot"
+    "viewDetails": "Näytä tiedot",
+    "actions": {
+      "showTicket": "Näytä lippuni",
+      "directions": "Suunnat",
+      "going": "Minä menen.",
+      "viewTicket": "Näytä lippu",
+      "reply": "Vastaus",
+      "replyPlaceholder": "Viestisi...",
+      "replySubmit": "Lähetä",
+      "markRead": "Merkitse luetuksi",
+      "joinLive": "Liity",
+      "payNow": "Maksa nyt",
+      "writeTo": "Viestitä heille",
+      "viewEvent": "Näytä tapahtuma",
+      "viewTickets": "Näytä lippuni",
+      "viewRefund": "Näytä tuki",
+      "viewProfile": "Näytä profiili",
+      "summaryTitle": "Viestit",
+      "summaryBody": "Uudet viestit"
+    }
   },
   "dashboard": {
     "title": "Levy",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Hallitse suunnitelmaani",
     "exportTitle": "Vie",
     "exportSubtitle": "Tietosi",
-    "settingsLink": "Asetukset"
+    "settingsLink": "Asetukset",
+    "greetingNight": "Hauskaa iltaa."
   },
   "following": {
     "title": "Suosikkini",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Kutsu epäonnistui.",
     "declineError": "En voinut kieltäytyä kutsusta.",
     "declineButton": "Poista",
+    "declineConfirmTitle": "Hylkää kutsu",
+    "declineConfirmMessage": "Haluatko varmasti kieltäytyä kutsusta?",
     "fromLabel": "MISTÄ",
     "toLabel": "APUAINEISTA",
     "organizerFallback": "Järjestä",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Lähetys epäonnistui",
     "downloadFailed": "Lataus epäonnistui",
     "tryAgain": "Yritä uudelleen",
-    "contactSupport": "Yhteystuki"
+    "contactSupport": "Yhteystuki",
+    "timeout": "Pyyntö kesti liian kauan. Tarkista yhteys ja yritä uudelleen.",
+    "validation": "Jotkut yksityiskohdat ovat virheellisiä. Korjaa korostuneet kentät ja yritä uudelleen.",
+    "fields": {
+      "title": "Osasto",
+      "subtitle": "Tekstitys",
+      "message": "Viesti",
+      "image": "Kuva",
+      "cta_label": "Painike",
+      "cta_url": "Nappilinkki",
+      "link_url": "Yhteystiedot",
+      "target_event": "Kohdetapahtuma",
+      "country": "Maa",
+      "city": "Kaupunki",
+      "radius_km": "Säde",
+      "placement": "Paikka",
+      "priority": "Painopiste",
+      "severity": "Vakavuus",
+      "audience": "Yleisö",
+      "platform": "Alusta",
+      "valid_from": "Voimassa alkaen",
+      "valid_until": "Voimassa kunnes"
+    },
+    "http": {
+      "badRequest": "Emme voineet käsitellä pyyntöäsi. Tarkistakaa yksityiskohdat ja yrittäkää uudelleen.",
+      "unauthorized": "Istuntonne on päättynyt. Kirjautukaa uudestaan.",
+      "forbidden": "Sinulla ei ole lupaa tähän.",
+      "notFound": "Emme löytäneet etsimääsi.",
+      "conflict": "Tämä toiminta on ristiriidassa nykyisen valtion kanssa. Päivitä ja yritä uudelleen.",
+      "tooManyRequests": "Liikaa yrityksiä. Odottakaa hetki ja yrittäkää uudelleen.",
+      "server": "Palvelimillamme on ongelmia. Yritä uudelleen muutaman minuutin päästä.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Tämä sähköposti on jo linkitetty tiliin. Kirjaudu sisään tai käytä toista osoitetta.",
+      "usernameTaken": "Valitse toinen käyttäjätunnus.",
+      "weakPassword": "Valitse salasana, jossa on vähintään 8 merkkiä kirjaimia ja numeroita sekoittaen.",
+      "invalidCredentials": "Virheellinen sähköposti tai salasana. Yritä uudelleen tai nollaa salasanasi.",
+      "resetLinkExpired": "Tämä nollauslinkki on vanhentunut. Pyydän uutta.",
+      "otpInvalid": "Koodi on virheellinen tai se on vanhentunut. Tarkista tai pyydä uutta.",
+      "otpSendFailed": "Emme voineet lähettää koodia. Tarkista numerosi ja yritä uudelleen tai kirjaudu sisään sähköpostilla.",
+      "paymentMethodUnsupported": "Tämä maksutapa ei ole käytettävissä tähän tapahtumaan. Valitse toinen.",
+      "paymentFailed": "Maksuasi ei voitu maksaa loppuun. Sinua ei ole syytetty. Yritä uudelleen tai käytä toista menetelmää.",
+      "paymentNetwork": "Yhteys katkesi maksun aikana. Tarkista internet ja yritä uudelleen ... sinua ei veloiteta kahdesti.",
+      "paymentTimeout": "Maksunne kestää odotettua kauemmin. Älä maksa uudelleen . Tarkista lippusi muutamassa minuutissa, tai ota yhteyttä tukeen, jos mitään ei tule.",
+      "paymentVerifyFailed": "Emme voineet vahvistaa maksuasi. Jos olet veloitettu, lippusi ilmestyvät pian . Tarkista uudelleen muutamassa minuutissa.",
+      "refundFailed": "Palautuspyyntöäsi ei voitu lähettää. Yritä uudelleen tai ota yhteyttä tukeen.",
+      "insufficientBalance": "Tässä operaatiossa ei ole riittävää tasapainoa.",
+      "payoutLocked": "Tätä maksua ei voida enää muuttaa, koska käsittely on jo alkanut. Ota yhteyttä tukeen, jos tämä on virhe.",
+      "planLimitReached": "Olet saavuttanut suunnitelmasi rajan. Päivitä suunnitelmasi.",
+      "countryNotSupported": "Maksuja ei ole vielä saatavilla. Voit luoda tapahtuman tuetussa maassa tai ottaa meihin yhteyttä."
+    },
+    "tickets": {
+      "offline": "Olet pois päältä. Liput, jotka olet jo ladannut, pysyvät vapaana. Yritä uudelleen, kun olet taas verkossa.",
+      "timeout": "Lippujen lataaminen vie aikaa. Mikään ei mene hukkaan: ne on pelastettu turvallisesti. Yritä uudelleen hetken päästä.",
+      "server": "Palvelimillamme on pieni hikka. Lippunne ovat turvassa puolellamme. Yritä uudelleen muutaman minuutin päästä.",
+      "notFound": "Emme löydä lippua. Muut liput ovat kunnossa. Päivitä lista tai tarkista vahvistus sähköposti.",
+      "forbidden": "Tämä lippu kuuluu toiselle tilille. Omiin lippuihisi ei kosketa. Kirjaudu sisään ostossa käytetyllä tilillä."
+    },
+    "messages": {
+      "offline": "Olet pois päältä. Viestisi eivät ole hukassa: odottamattomat lähtevät, kun olet taas verkossa. Yritä uudelleen, kun verkko palaa.",
+      "timeout": "Viestinanto on hidasta. Viestisi eivät ole hukassa. Yritä uudelleen hetken päästä.",
+      "server": "Meillä on pieni ongelma. Keskustelunne ovat koskemattomia. Yritä uudelleen muutaman minuutin päästä.",
+      "notFound": "Tätä keskustelua ei enää ole. Muilla keskusteluillasi ei ole vaikutusta. Palatkaa viesteihinne.",
+      "forbidden": "Sinulla ei ole enää pääsyä tähän keskusteluun. Muut keskustelusi ovat yhä käytettävissä. Palatkaa viesteihinne."
+    },
+    "event": {
+      "offline": "Olet poissa verkosta, joten emme voi näyttää tätä. Lippunne pysyvät vapaana. Yritä uudelleen, kun olet taas verkossa.",
+      "timeout": "Tämä tapahtuma sivu kestää aikaa ladata. Mikään ei ole muuttunut puolellasi. Yritä uudelleen hetken päästä.",
+      "server": "Pieni hikka estää meitä näyttämästä tätä tapahtumaa. Liput ja rekisteriotteet eivät vaikuta. Yritä uudelleen muutaman minuutin päästä.",
+      "notFound": "Tämä tapahtuma ei ole enää verkossa: järjestäjä on saattanut poistaa sen. Kaikki liput, jotka sinulla on \"Minun lippuni.\" Lisää tapahtumia odottaa Discover.",
+      "forbidden": "Tämä on yksityinen tapahtuma. Tilisi ei ole ongelma. Pyydä järjestäjältä kutsua päästä käsiksi."
+    },
+    "upload": {
+      "offline": "Lataus ei voinut käynnistyä. Tiedostosi on yhä puhelimessasi. Yritä uudelleen, kun olet taas verkossa.",
+      "timeout": "Lataus kesti liian kauan. Tiedostosi on yhä puhelimessasi. Kokeile uudelleen, ihanteellisesti Wi-Fi tai kevyempi tiedosto.",
+      "server": "Palvelin ei saanut tiedostoa. Puhelimessasi on yhä turvallista. Yritä uudelleen muutaman minuutin päästä.",
+      "notFound": "Lataa kohde ei ole enää olemassa. Tiedostosi ovat yhä turvassa puhelimessasi. Päivitä näyttö ja yritä uudelleen.",
+      "forbidden": "Et saa ladata tätä tiedostoa tänne. Puhelimessasi on yhä turvallista. Tarkista, että olet kirjautunut oikeaan tiliin.",
+      "tooLarge": "Tämä tiedosto on liian suuri ladattavaksi. Puhelimessasi on yhä turvallista. Valitse kevyempi tiedosto tai rajata kuva."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Virhe",
@@ -2009,14 +2291,14 @@
     "minutesAgo": "...min sitten",
     "hoursAgo": "... sitten",
     "daysAgo": "Päivä sitten",
-    "daysAgo_other": "",
+    "daysAgo_other": "{{count}} days ago",
     "weeksAgo": "wk sitten",
     "monthsAgo": "... kuukautta sitten",
     "yearsAgo": "... vuosi sitten",
-    "yearsAgo_other": "",
+    "yearsAgo_other": "{{count}} years ago",
     "in": "Julkaisussa",
     "ago": "Name",
-    "duration": "",
+    "duration": "{{hours}}h {{minutes}}min",
     "durationMinutes": "vähintään",
     "durationHours": "H"
   },
@@ -2085,7 +2367,7 @@
       "notifications_prefs": "Ilmoitukset",
       "reviews_ratings": "Arvostelut ja luokitukset"
     },
-    "articleLabel": "",
+    "articleLabel": "ARTICLE {{num}}",
     "faq": {
       "account": {
         "createAccount": {
@@ -2499,7 +2781,7 @@
     "guarantee4Sub": "Eurooppalainen vaatimustenmukaisuus",
     "tocEyebrow": "NAVIGOINTI • TOC",
     "tocTitle": "Sisältö",
-    "articleLabel": "",
+    "articleLabel": "ARTICLE {{num}}",
     "finalEyebrow": "TAPAHTUMAT",
     "finalText": "Tietonne on suojattu. Otamme yksityisyytesi vakavasti."
   },
@@ -2508,13 +2790,13 @@
     "headerTitle": "Käyttöehdot",
     "heroEyebrow": "OIKEUDELLINEN ASIAKIRJA · TOS",
     "heroTitle": "Säännöt\nSe sitoo meitä.",
-    "heroSections": "",
+    "heroSections": "{{count}} sections",
     "heroReadingTime": "~ 5 min lue",
     "heroDateLabel": "VIIMEKSI PÄIVITETTY",
     "heroDateValue": "25. HUHTIKUU 2026",
     "tocEyebrow": "NAVIGOINTI • TOC",
     "tocTitle": "Sisältö",
-    "articleLabel": "",
+    "articleLabel": "ARTICLE {{num}}",
     "acceptEyebrow": "SOPIMUS",
     "acceptText": "Käyttämällä EventEz, hyväksyt nämä ehdot."
   },
@@ -2572,7 +2854,10 @@
     "successTitle": "Onneksi olkoon!",
     "successMessage": "Olet nyt järjestäjä. Luo ensimmäinen tapahtumasi!",
     "errorTitle": "Virhe",
-    "errorGeneric": "Tapahtui virhe"
+    "errorGeneric": "Tapahtui virhe",
+    "labelWebsite": "Verkkosivusto (vapaaehtoinen)",
+    "labelDescription": "Kuvaus (vapaaehtoinen)",
+    "placeholderDescription": "Esittele organisaatiosi..."
   },
   "verificationForm": {
     "pdfOpenError": "Asiakirjaa ei voitu avata.",
@@ -2601,7 +2886,7 @@
     "statusRejectedDescWithReason": "Syy: Voit esittää uuden pyynnön.",
     "statusRejectedDesc": "Voit tehdä uuden pyynnön korjattuine asiakirjoineen.",
     "progressEyebrow": "Progress",
-    "progressDocs": "",
+    "progressDocs": "{{filled}} / {{total}} documents",
     "docSectionEyebrow": "TÄRKEIMMÄT ASIAKIRJAT",
     "docSectionTitle": "Lataa asiakirjat",
     "uploadButton": "Lataa tiedosto",
@@ -2733,14 +3018,16 @@
     "locHybrid": "Hybridi",
     "priceAny": "Kaikki",
     "priceFree": "Vapaa",
-    "pricePaid": "Maksettu"
+    "pricePaid": "Maksettu",
+    "shareSearch": "Jaa tämä haku",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Suodattimet",
     "centerOnMe": "Keskity minuun",
     "reset": "Nollaa",
     "radiusTitle": "Hakusäde",
-    "radiusUnit": "",
+    "radiusUnit": "{{value}} km",
     "eventTypeLabel": "Tapahtumatyyppi",
     "eventTypeAll": "Kaikki",
     "eventTypeBilletterie": "Lippu",
@@ -2760,7 +3047,7 @@
     "applyFilters": "Käytä suodattimia",
     "eventsCount_one": "Tapahtuma",
     "eventsCount_other": "Tapahtumat",
-    "eventsInRadius": "",
+    "eventsInRadius": " within {{radius}} km",
     "emptyTitle": "Ei tapahtumia lähellä",
     "emptyDesc": "Laajenna hakusädettä tai palaa pian.",
     "emptyFilteredTitle": "Ei tapahtumia täällä.",
@@ -2779,6 +3066,10 @@
     "statsRating": "KILPAILU",
     "statsSince": "MYÖHEMMIN",
     "contactA11y": "Yhteystiedot",
+    "connectA11y": "Yhdistä",
+    "connectedA11y": "Yhdistetty",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "En saanut yhteyttä. Yritä uudestaan.",
     "bioEyebrow": "BIO",
     "bioTitle": "Tietoja",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Julkaistut tapahtumat",
     "loadingEvents": "Ladataan...",
     "noEvents": "Ei tapahtumia julkaistu",
-    "freeBadge": "VAPAA"
+    "freeBadge": "VAPAA",
+    "tabs": {
+      "upcoming": "Tuleva",
+      "past": "Edellinen"
+    }
   },
   "sessionDetails": {
     "title": "Istunto",
@@ -3127,7 +3422,7 @@
   "componentsMaps": {
     "yourPosition": "Sijaintisi",
     "free": "Vapaa",
-    "priceFcfa": ""
+    "priceFcfa": "{{amount}} FCFA"
   },
   "followingEvents": {
     "eyebrow": "KOKOELMA",
@@ -3223,7 +3518,12 @@
     "codeLabel": "KOODI",
     "emptyEyebrow": "TULU",
     "emptyTitle": "Ei vielä koodia",
-    "emptySubtitle": "Lähetyskoodinne tulevat heti kun ne ovat saatavilla."
+    "emptySubtitle": "Lähetyskoodinne tulevat heti kun ne ovat saatavilla.",
+    "generateCta": "Luo koodini",
+    "generating": "Luodaan...",
+    "generateSuccess": "Viestikoodi luotu!",
+    "generateError": "En saanut koodia aikaan. Yritä uudestaan.",
+    "copySuccess": "Viestin kopioitu linkki"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Näytä analytiikka",
     "perm_view_registrations": "Näytä rekisteröintiluettelo",
     "perm_edit_event": "Muokkaa tapahtumaa",
-    "perm_manage_team": "Kutsu muita ryhmän jäseniä"
+    "perm_manage_team": "Kutsu muita ryhmän jäseniä",
+    "role_co_organizer": "Yhteisorganisoija",
+    "role_moderator": "Moderaattori",
+    "role_scanner": "Skanneri",
+    "role_analyst": "Analyytikko",
+    "status_pending": "Odotetaan",
+    "status_accepted": "Aktiivinen",
+    "status_declined": "Hylätty",
+    "status_revoked": "Peruttu",
+    "status_expired": "Vanhentunut"
   },
   "myTeamEvents": {
     "eyebrow": "KESKEIDEN PUOLESTA",
@@ -3276,8 +3585,10 @@
     "willAttend": "Tulen sinne.",
     "wontAttend": "En pääse.",
     "partySize": "Lisävieraiden määrä",
+    "partySizeHint": "Sinun lisäksesi. Esimerkiksi 2, jos tuot kaksi ihmistä.",
     "dietary": "Ruokavaliovaatimukset / allergiat",
     "note": "Sana parille",
+    "noteOptional": "Sana parille (valinnainen)",
     "submit": "Lähetä vastaukseni",
     "thanksAccepted": "Kiitos! Läsnäolonne on varmistettu.",
     "thanksDeclined": "Kiitos, että kerroit.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Nimi",
     "giftMethod": "Maksutapa",
     "giftPay": "Osallistu",
-    "giftError": "Maksu ei voinut alkaa."
+    "giftThanks": "Kiitos panoksestanne!",
+    "giftRedirectNote": "Sinut ohjataan turvalliselle maksusivulle. Tämä on normaalia.",
+    "giftError": "Maksu ei voinut alkaa.",
+    "rsvpSubmitError": "Vastauksiasi ei voitu lähettää. Yritä uudestaan.",
+    "summaryTitle": "Vastauksenne",
+    "summaryAccepted": "Vahvistit läsnäolosi.",
+    "summaryDeclined": "Kieltäydyit kutsusta.",
+    "summaryPartySize": "Vieraita kanssasi.",
+    "summaryHeadcount": "Istuimet varattu",
+    "summaryDietary": "Ruokavalion tarpeet",
+    "summaryTable": "Pöytänne.",
+    "summaryTablePending": "Pöytänne jaetaan ennen tapahtumaa."
   },
   "teamInvitation": {
     "eyebrow": "PYYNTÖ",
@@ -3350,7 +3672,7 @@
     "participantsUnlimited": "Rajoittamattomat osallistujat",
     "participantsUpTo": "Osallistujat / tapahtuma",
     "switchToPlan": "Siirry tähän suunnitelmaan",
-    "commissionReminder": "",
+    "commissionReminder": "{{fee}} per ticket on all plans",
     "confirmChangeTitle": "Vahvista muutos",
     "confirmUpgrade": "Haluatko päivittää ...",
     "confirmDowngrade": "Haluatko siirtyä ",
@@ -3606,12 +3928,26 @@
     "voicePreviewDeleteA11y": "Poista nauhoitus",
     "voicePreviewSendA11y": "Lähetä viesti",
     "pendingQueueSingular": "1 viesti vireillä",
-    "pendingQueuePlural": "",
+    "pendingQueuePlural": "{{count}} messages pending",
     "pendingQueueSyncing": "Lähetetään...",
     "readOnlyLockMessage": "Lue vain. Säästä viestisi.",
     "mutedLockMessage": "Järjestäjä on vaiennut teidät.",
     "postingLockMessage": "Vain järjestäjä voi kirjoittaa tähän keskusteluun.",
-    "defaultUserName": "käyttäjä"
+    "defaultUserName": "käyttäjä",
+    "someFilesQueuedForRetry": "Jotkut tiedostot suuttuvat, kun yhteys palaa.",
+    "retrySend": "Uudelleen",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Vieritä alas",
+    "tapToLoadImage": "Napauta ladattavaa",
+    "reply": "Vastaus",
+    "react": "React",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Vain lukemista.",
+    "headerCollapseA11y": "Piilota juliste",
+    "headerExpandA11y": "Näytä banneri",
+    "headerCollapseLabel": "Piilota",
+    "headerExpandLabel": "Tapahtuman tiedot"
   },
   "scanForm": {
     "loading": "Ladataan...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderaattori",
     "roleAdmin": "Hallinto",
     "fallbackEvent": "Tapahtuma",
-    "fallbackUnknownUser": "Käyttäjä"
+    "fallbackUnknownUser": "Käyttäjä",
+    "statusUnknown": "Tuntematon tila"
   },
   "refundRequest": {
     "watermarkBack": "Back",
     "watermarkOops": "ÖLJYSIEMENKASVIT",
     "loadError": "Maksutietoja ei voitu ladata",
     "paymentNotFound": "Maksua ei havaittu",
+    "blockedNotOwner": "Tämä maksu ei ole yhteydessä tiliisi, joten et voi pyytää palautusta.",
+    "blockedNotCompleted": "Ainoastaan vahvistetut maksut voidaan palauttaa. Maksua ei voi palauttaa.",
+    "blockedAlreadyRequested": "Maksua koskeva palautuspyyntö on jo vireillä.",
+    "blockedGeneric": "Tätä maksua ei voi palauttaa juuri nyt.",
     "back": "Takaisin",
     "closeA11y": "Sulje",
     "eyebrow": "REFUND",
@@ -3768,8 +4109,8 @@
     "emptyMessage": "Palautuspyyntösi näkyvät tässä.",
     "justNow": "Juuri nyt",
     "minutesAgo": "...min sitten",
-    "hoursAgo": "",
-    "daysAgo": ""
+    "hoursAgo": "{{count}} h ago",
+    "daysAgo": "{{count}} d ago"
   },
   "componentsOrganizer": {
     "templatePicker": {
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Pääsykoodi (vapaaehtoinen)",
       "accessCodeHint": "Vierailijoiden täytyy syöttää tämä koodi nähdäksesi yksityiskohdat",
       "accessCodePlaceholder": "Jätä tyhjä kooditta",
-      "featuredInfo": "Voit pyytää tapahtumasi esille luomisen jälkeen \"My tapahtumia\" ."
+      "accessCodeKeepPlaceholder": "Uusi koodi (jätä tyhjäksi säilyttääksesi nykyisen koodin)",
+      "accessCodeActive": "Koodi on toiminnassa.",
+      "accessCodeWillBeRemoved": "Koodi poistetaan, kun tallennat.",
+      "accessCodeRemove": "Poista koodi",
+      "accessCodeUndoRemove": "Peru",
+      "featuredInfo": "Voit pyytää tapahtumasi esille luomisen jälkeen \"My tapahtumia\" .",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Päivämäärä ja paikka",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Valitse kartalta",
       "mapHint": "Näytä tapahtuma kartalla ja mahdollistaa navigointi",
       "virtualLocationTitle": "Virtuaalipaikka",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Sisäänrakennettu videoneuvottelu ",
       "platformLabel": "Alusta",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Joukkueet",
       "connectionUrlLabel": "Yhteys",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Myynti alkaa",
       "salesEndLabel": "Myynti loppu",
       "visibleLabel": "Näkyvä",
+      "accessModeLabel": "Tämän lipun kautta myönnetty pääsy",
+      "accessInPerson": "Henkilökohtaisesti",
+      "accessOnline": "Verkko",
+      "accessBoth": "Molemmat",
       "visibleDesc": "Näytä lippu julkisesti",
       "addAnotherTicket": "Lisää toinen lippu",
       "registrationFormTitle": "Rekisteröintilomake (vapaaehtoinen)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Sulje valikko",
       "cancel": "Peruuta"
+    },
+    "venuePicker": {
+      "label": "Käytä tallennettua paikkaa",
+      "hint": "Kentät täytetään automaattisesti. Voit säätää niitä myöhemmin."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Tapahtumatyypin erittely",
       "sourcePaymentMethods": "Maksutavat",
       "sourceGeographical": "Maantieteellinen jakautuminen"
-    }
+    },
+    "widgetDataUnavailable": "Tietoa ei ole saatavilla."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Edellinen",
       "next": "Seuraava",
       "selectDatePlaceholder": "Valitse päivämäärä",
-      "selectTimePlaceholder": "Valitse aika"
+      "selectTimePlaceholder": "Valitse aika",
+      "selectPlaceholder": "Valitse",
+      "searchPlaceholder": "Etsi..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Liput lisätty onnistuneesti",
     "alreadyRegisteredConfirmTitle": "Jo rekisteröity",
     "alreadyRegisteredConfirmMessage": "Olet jo ilmoittautunut tähän tapahtumaan.",
-    "createRegistrationError": "Rekisteröintiä ei voitu luoda"
+    "createRegistrationError": "Rekisteröintiä ei voitu luoda",
+    "accessMode": {
+      "in_person": "Vain henkilökohtaisesti",
+      "online": "Verkkokäyttö",
+      "hybrid": "Henkilökohtaisesti + verkossa"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Vain yksi paikka jäljellä.",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Ostot tauko",
+    "suspendedByIncident": "Ostot keskeytetään väliaikaisesti tapahtuman vuoksi. Seuraa päivityksiä tila-sivulla."
   },
   "registrationDetails": {
     "headerInscription": "Minun rekisteröintini",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Peruttu",
     "statusInscriptionRejected": "Hylättiin.",
     "statusInscriptionValidated": "Validoitu",
-    "statusInscriptionUnknown": "Tuntematon"
+    "statusInscriptionUnknown": "Tuntematon",
+    "pdfEyebrow": "YHTEENVETO",
+    "pdfDate": "Päivämäärä",
+    "pdfPlace": "Paikka",
+    "pdfReference": "Viite",
+    "pdfStatus": "Tila",
+    "pdfQrHint": "Näytä tämä QR-koodi sisäänkäynnille",
+    "pdfShareDialog": "Jaa yhteenveto",
+    "pdfError": "PDF-tiedostoa ei voitu tuottaa juuri nyt.",
+    "pdfA11y": "Vie yhteenveto PDF:nä"
   },
   "qrCode": {
     "headerEyebrow": "LIPUT ·",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "QR-koodi skannataan sisäänkäynnille.",
     "tipArriveLines": "Saavu ajoissa ohittaa linjat",
     "validatedTitle": "Lippu vahvistettu",
+    "stampValidated": "Kirjautunut sisään",
     "validatedAt": "Syötetty osoitteeseen:",
     "paymentPendingTitle": "Vireillä olevat maksut",
     "paymentPendingDesc": "Täydennä maksu vahvistaa",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Vahvistettu",
     "statusPending": "Odotetaan",
     "statusCancelled": "Peruttu",
-    "statusValidated": "Validoitu"
+    "statusValidated": "Validoitu",
+    "pdfOnline": "Online-tapahtuma",
+    "statusUnknown": "Tuntematon tila",
+    "presentHint": "Napauta suurentaaksesi koodin, pitkä painallus todisteeksi voimassaolosta.",
+    "presentA11yAction": "Suurenna shekin koodi",
+    "proofA11yAction": "Näytä todiste voimassaolosta",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Takaisin lippuun",
+    "presentExitHint": "Napauta palataksesi"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Haluatko poistaa tämän lipun offline-välimuistista?",
     "showQR": "Näytä QR",
     "hideQR": "Piilota QR",
-    "pastBadge": "Edellinen"
+    "pastBadge": "Edellinen",
+    "download": "Nouda lippu",
+    "pdfEyebrow": "LIPUT",
+    "pdfReference": "Viite",
+    "pdfType": "Lipputyyppi",
+    "pdfQuantity": "Määrä",
+    "pdfDate": "Päivämäärä",
+    "pdfShareDialog": "Tallenna / jaa lippu",
+    "pdfError": "PDF-tiedostoa ei voitu luoda."
   },
   "pendingTransfers": {
     "headerTitle": "Siirrot",
@@ -4675,7 +5072,7 @@
     "socialFallbackActor": "Joku",
     "socialFallbackAction": "Teki jotain",
     "socialJustNow": "Juuri nyt",
-    "socialMinutesAgo": "",
+    "socialMinutesAgo": "{{count}}min ago",
     "socialHoursAgo": "... sitten",
     "socialDaysAgo": "TXXX",
     "socialLoading": "Ladataan...",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Vierailu",
     "similarEventsEyebrow": "SUOSITUKSET",
     "similarEventsTitle": "Samanlaisia tapahtumia",
-    "similarEventA11y": "Näytä"
+    "similarEventA11y": "Näytä",
+    "virtualLiveNow": "Elä nyt",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Liity elävänä",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Videopuhelu ei saatavilla",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Elämä ei ole vielä alkanut",
+    "virtualWaitingHostNote": "Voit liittyä, kun järjestäjä avaa huoneen.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Päähuone",
+      "session": "Istunto",
+      "breakout": "Breakout",
+      "networking": "Verkostoituminen",
+      "workshop": "Työpaja"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Myynti päättyi",
+    "ticketsSaleNotStarted": "Myydään pian",
+    "peekSave": "Tallenna",
+    "peekUnsave": "Poista tallennetusta",
+    "peekShare": "Osuus",
+    "peekOpen": "Avaa",
+    "peekA11yHint": "Odota esikatselua",
+    "swipeSave": "Julkaisu tallennettavaksi",
+    "swipeUnsave": "Poista poistettava",
+    "swipeHint": "Pyyhi tallennukseen",
+    "swipeRemoved": "Poistettu tallennetusta",
+    "swipeUndo": "Peru",
+    "swipeRemove": "Poista",
+    "weather": {
+      "sunny": "Sunny.",
+      "partlySunny": "Aurinkoiset loitsut",
+      "cloudy": "Pilvinen",
+      "fog": "Sumu",
+      "rain": "Sade",
+      "snow": "Lumi",
+      "showers": "Suihku",
+      "thunderstorm": "Ukkosmyrskyt",
+      "variable": "Muutettavissa"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Valitse muoto",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Kun tämä järjestäjä julkaisee uuden tapahtuman",
     "followPrefsSave": "Tallenna asetukset",
     "followPrefsSaveA11y": "Tallenna asetukset",
-    "inAppToastA11y": "Napauta avataksesi."
+    "inAppToastA11y": "Napauta avataksesi.",
+    "webviewVisioTitle": "Videopuhelu",
+    "webviewOfflineTitle": "Olet pois päältä.",
+    "webviewOfflineBody": "Laitteesi yhteys katkesi. Puhelu jatkuu heti kun verkko palaa.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Hidas yhteys havaittu video voi heikentyä ja käyttää tietojasi."
   },
   "messageRequests": {
     "eyebrow": "SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Kamera vaaditaan",
     "permissionSubtitle": "Voit skannata QR, EventEz tarvitsee pääsyn kameraan.",
     "permissionGrant": "Salli kamera"
+  },
+  "media": {
+    "sheetTitle": "Mitä haluaisit tehdä?",
+    "saveToGallery": "Tallenna galleriaan",
+    "share": "Osuus",
+    "savedToGallery": "Tallennettuna galleriaan",
+    "permissionDeniedTitle": "Lupa evätty",
+    "permissionDeniedMessage": "Ota kuva käyttöön Asetuksissa tallentaaksesi.",
+    "sharingUnavailable": "Jakamista ei ole saatavilla tällä laitteella.",
+    "downloadFailed": "Lataus epäonnistui. Yritä uudestaan.",
+    "genericError": "Jokin meni pieleen. Yritä uudestaan."
   },
   "componentsMessages": {
     "inputJoinFile": "Liitä tiedosto",
@@ -5025,7 +5483,7 @@
     "relativeMin": "...min sitten",
     "relativeHour": "... sitten",
     "relativeYesterday": "eilen",
-    "relativeDays": "",
+    "relativeDays": "{{count}} days ago",
     "relativeWeeks": "Viikot sitten",
     "relativeMonths": "... kuukautta sitten",
     "groupPermissionsUpdated": "Toimiluvat päivitetty",
@@ -5127,7 +5585,7 @@
     "messages": "VIESTIT",
     "suggestions": "OPETUS",
     "theme": "TEEMA",
-    "timezoneSoon": "AIKAKAUSI · PiAN",
+    "timezone": "AIKAALUE",
     "soundEffects": "ÄÄNIVAIKUTUKSET",
     "authSoon": "AUThentication · Pian",
     "connectionsSoon": "YHTEYDET · Pian",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · SAVED",
     "tabMessages": "03 · VIESTIT",
     "tabTickets": "04 · LIPUT",
-    "tabProfile": "05 · PROFIILI"
+    "tabProfile": "05 · PROFIILI",
+    "push": "Työnnä",
+    "privacy": "Yksityisyys",
+    "memories": "Muistot",
+    "yearInReview": "Tarkasteluvuosi"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Valittu",
-      "selectedCount_plural": "Valittu",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Hyväksyvät",
       "reject": "Hylkää",
       "checkIn": "Lähtöselvitys"
@@ -5197,8 +5659,8 @@
       "newDraft": "Uusi luonnos",
       "relativeNow": "Juuri nyt",
       "relativeMin": "...min sitten",
-      "relativeHour": "",
-      "relativeDay": ""
+      "relativeHour": "{{count}} h ago",
+      "relativeDay": "{{count}} d ago"
     },
     "booths": {
       "eyebrow": "KAUPPA",
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promokoodit",
         "linkSessions": "Linkkiliput istuntoihin",
         "addPhotos": "Lisää kuvia",
+        "startLive": "Mene elävänä.",
         "volunteers": "Vapaaehtoiset",
         "sponsors": "Sponsorit",
         "seatingPlans": "Istuinsuunnitelmat",
@@ -5636,7 +6099,14 @@
         "duplicate": "Kaksinkertaista",
         "cancelEvent": "Peruuta tapahtuma",
         "cancelEventDesc": "Ilmoita rekisteröijille",
-        "deleteDesc": "Peruuttamaton toiminta"
+        "deleteDesc": "Peruuttamaton toiminta",
+        "invite": "Kutsu vieraat",
+        "inviteDescInviteOnly": "Ainoa tapa myöntää pääsy tähän kutsun ainoa tapahtuma",
+        "duplicatePastDesc": "Aloita muokattavasta kopiosta",
+        "remindInvites": "Muistuta vieraita",
+        "weddingGuests": "Vieraat ja vastaajat",
+        "weddingGifts": "Kirjaa & lahjat",
+        "weddingTables": "Istuinpaikkasuunnitelma"
       },
       "emptyEyebrowResults": "EI TULOSTA",
       "emptyEyebrowCatalog": "PAKOLLINEN CATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Esimerkiksi terveysolot, paikka ei ole käytettävissä...",
       "keepBtn": "Säilytä",
       "cancelEventBtn": "Peruuta tapahtuma",
+      "cancelHolding": "Odota...",
       "recurrenceEyebrow": "MUUTOSEHDOTUS",
       "recurrenceModalTitle": "Luettelo",
       "recurrenceModalBody": "Luo useita tapahtumia tästä tapahtumasta. Jokainen tapahtuma on itsenäinen uusi tapahtuma voit säätää.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Tämä tapahtuma on suora. Jos vaihdat kriittisiä kenttiä (nimike, päivämäärät, sijainti, tyyppi, kapasiteetti), se lähetetään validointiin ja väliaikaisesti piilotetaan kunnes uudelleen hyväksyntä.",
       "editValidatedConfirm": "Muokkaa kuitenkin",
       "actionEditValidated": "Muokkaa (uudelleenvalidointi on mahdollista)",
-      "actionEditValidatedDesc": "Kriittiset kentät → Validointi uudelleen"
+      "actionEditValidatedDesc": "Kriittiset kentät → Validointi uudelleen",
+      "inviteEyebrow": "KEHITYS",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Sähköpostit erotettu pilkulla tai uudella rivillä",
+      "inviteMessagePlaceholder": "Henkilökohtainen viesti (valinnainen)",
+      "inviteSendBtn": "Lähetä kutsut",
+      "inviteEmptyTitle": "Ei sähköpostia",
+      "inviteEmptyMessage": "Anna vähintään yksi sähköpostiosoite.",
+      "inviteInvalidTitle": "Virheelliset sähköpostit",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Lähetetyt kutsut",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Ei voinut lähettää kutsuja.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Ei ole vieraita muistuttamassa.",
+      "remindErrorTitle": "Muistutus epäonnistui",
+      "remindErrorMessage": "Muistutuksia ei voitu lähettää. Yritä uudestaan.",
+      "remindPendingProgress": "Lähettää muistutuksia...",
+      "loadError": "En voinut ladata tapahtumiasi. Tarkista yhteytesi."
     },
     "volunteer": {
       "tabReceived": "Vastaanotettu (",
@@ -5897,7 +6388,7 @@
       "offlineTitle": "Offline · jonossa",
       "offlineA11y": "Offline, skannaus(s) jonossa",
       "syncingTitle": "Synkronoi...",
-      "syncCount": "",
+      "syncCount": "{{count}} scan(s) to sync",
       "syncCountA11y": "Synkronoi skannaus",
       "manualBtn": "Manuaalinen merkintä",
       "manualBtnA11y": "Anna viite käsin",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Virheellinen koodi: odotettu UUID tai viitekoodi (8-20 merkkiä A-Z/0-9).",
       "sessionRecapTitle": "Istuntojen yhteenveto",
       "sessionRecapBody": "Validoitu\nEi onnistunut",
-      "sessionRecapQueue": "Jonossa offline"
+      "sessionRecapQueue": "Jonossa offline",
+      "manualModeBanner": "Manuaalinen tila ",
+      "manualModeA11y": "Manuaalinen tila päällä. Napauta käynnistääksesi automaattisen lähtöselvityksen.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Nämä ihmiset tulivat, kun verkko oli kaatunut. Kysy tiimiltäsi.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Puhelimesta ei saatu yhteyttä. Jos toinen agentti skannasi samaan aikaan, he pääsivät sisään kahdesti.",
+      "voice": {
+        "valid": "Voimassa oleva lippu",
+        "validWarning": "Voimassa, on tarkistettava",
+        "alreadyCheckedIn": "Kirjauduin jo sisään",
+        "refused": "Lippu hylätty",
+        "enabled": "Äänitiedotuksia",
+        "toggleOn": "Äänitiedotuksia",
+        "toggleOff": "Ääntä koskevat ilmoitukset pois",
+        "toggleA11y": "Sammuta skannaustulosääniilmoitukset päällä tai pois päältä"
+      }
     },
     "liveOps": {
       "live": "Elä",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "VAIKUTUS",
       "headerTitle": "Analytiikka",
+      "errorTitle": "Analytiikka ei saatavilla",
+      "errorBody": "En voinut ladata tietoja. Tarkista yhteys ja yritä uudelleen.",
       "eventLabel": "TAPAHTUMA",
       "kpiViews": "Näkymät",
       "kpiRegistrations": "Rekisteröinti",
@@ -5980,7 +6501,7 @@
       "kpiRevenue": "Tulot",
       "predictionTitle": "Ennuste",
       "predictionLabel": "Arvioitu läsnäolo D-päivänä",
-      "predictionValue": "",
+      "predictionValue": "≈ {{count}} people",
       "predictionConfidence": "Luottamus: %",
       "performance": "Suorituskyky",
       "capacityUsed": "Käytetty kapasiteetti",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Tilaisuutesi on nähty ...",
       "insightViewsNone": "Jaa tapahtumasi saadaksesi lisää näköaloja",
       "insightRegistered_one": "Henkilö, joka on rekisteröity",
-      "insightRegistered_other": "Henkilöt, jotka on rekisteröity"
+      "insightRegistered_other": "Henkilöt, jotka on rekisteröity",
+      "actionBoxOffice": "Postilokero"
     },
     "sessionsLink": {
       "headerEyebrow": "Pääsy • ISTUNNOT",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsorit tulevat tänne, kun kumppanuus lisätään."
     },
     "eventCreate": {
+      "aiAppliedMessage": "AI-ehdotuksia on sovellettu lomakkeeseen",
+      "aiTitleSuggestionsTitle": "Otsikkoehdotukset",
+      "aiPricingSuggestionsTitle": "Tekoälyn hinnoittelua koskevat ehdotukset",
+      "aiTicketsCreated": "Tekoälyn ehdotuksista luodut liput",
+      "aiDescGenerated": "AI:n tuottama kuvaus",
+      "aiNeedTitleFirst": "Lisää otsikko ensin, jotta tekoäly voi luoda kuvauksen.",
+      "galleryPermissionTitle": "Lupa vaaditaan",
+      "galleryPermissionMessage": "Salli pääsy kuvakirjastoosi",
+      "videoTooLargeTitle": "Video liian suuri",
+      "videoTooLargeMessage": "Videon täytyy olla alle 20 Mt.",
       "unsupportedCountryTitle": "Maa ei saatavilla",
       "unsupportedCountryMessage": "EventEz ei voi vielä käsitellä maksuja tässä maassa ( Tapahtuman luominen hylätään. Tuetut maat: NotchPay, CinetPay ja Stripe (46 maata).",
       "draftFoundTitle": "Luonnos löytyi",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Tapahtuma toimitettu onnistuneesti",
       "viewMyEvents": "Katso tapahtumiani",
       "createAnother": "Luo toinen",
+      "submittedStamp": "Tarkastelu",
+      "submittedEyebrow": "Tarkastelua varten toimitettu",
+      "submittedBody": "Ryhmämme arvioi tapahtumaasi. Saatte ilmoituksen heti kun se lähtee.",
+      "submittedCtaEyebrow": "Levy",
       "edit": "Muuta",
       "saved": "Tallennettu",
       "back": "Takaisin",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Lipun ",
         "fieldLabelRequired": "Kenttä #",
         "fieldOptionsRequired": "Kenttään ..."
-      }
+      },
+      "loadFailedBlocksSave": "Tapahtumatietoja ei voitu ladata. Lataa sivu uudelleen ennen tallennusta, muuten nykyiset tietosi korvattaisiin."
     },
     "eventRegistrations": {
       "title": "Rekisteröinti",
@@ -6159,7 +6696,7 @@
       "rejectReasonRequired": "Ilmoittakaa hylkäämisen syy.",
       "bulkApproveSuccess": "Hyväksyttiin",
       "bulkApproveError": "Rekisteröintejä ei voitu hyväksyä",
-      "bulkRejectSuccess": "",
+      "bulkRejectSuccess": "{{count}} registration(s) rejected",
       "bulkRejectError": "Rekisteröintejä ei voitu hylätä",
       "bulkRejectPromptTitle": "Hylkäämisen syy",
       "bulkRejectPromptMessage": "Ilmoittakaa hylkäämisen syy.",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF-vienti, kojelauta",
       "linkMyEventsTitle": "Minun tapahtumani",
       "linkMyEventsSub": "Tilastot tapahtumaa kohti"
+    },
+    "boxOffice": {
+      "openTitle": "Avaa kassa",
+      "openingFloatHelp": "Kuinka paljon muutosta järjestäjä antoi sinulle? Ilman sitä tämän illan lasku on väärä.",
+      "openDrawer": "Avaa kassa",
+      "openError": "Kassakaappia ei voitu avata",
+      "openErrorDetail": "Tarkista yhteys ja yritä uudelleen.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Sulje",
+      "cash": "Käteisraha",
+      "momo": "Mobiiliraha",
+      "giveBack": "ANNA JÄLLEEN",
+      "saleError": "Myyntiä ei kirjattu",
+      "saleErrorDetail": "Älä palaa myyntiin: yritä uudelleen, sitä ei veloiteta kahdesti.",
+      "a11y": {
+        "drawerOpened": "Avattu",
+        "openingFloatInput": "Likvidien varojen avaaminen",
+        "openDrawer": "Avaa kassa",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Sulje kassa",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Ota mobiiliraha",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "KÄSITTELY",
+      "cashOnlyHint": "Käteistä vain Mobile Money ei ole laukussa.",
+      "openingFloat": "Avausfloat",
+      "salesCount": "Myynti",
+      "countedLabel": "Laskin.",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Tämä ei ole este. Selitä miksi.",
+      "reasonLabel": "Selitys (vapaaehtoinen)",
+      "reasonPlaceholder": "Annoin 500 liikaa kolikoita.",
+      "confirmClose": "Sulje kassani",
+      "closedTitle": "Suljettu",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Sulkeminen epäonnistui",
+      "closeErrorDetail": "Yrittäkää pian uudestaan.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Laskennallinen määrä",
+        "reasonInput": "Varianssin selitys",
+        "confirmClose": "Vahvista sulkeminen",
+        "closed": "Suljettu"
+      }
+    },
+    "documents": {
+      "title": "Tulostettavat asiakirjat",
+      "a11y": "Tulostettavat asiakirjat",
+      "badges": "Virkamerkit",
+      "badgesHint": "A6-muoto, 4 per A4-sivu",
+      "attendanceSheet": "Kirjautumissivu",
+      "attendanceSheetHint": "Allekirjoita vastaanoton vastaanotossa valmis ennen tapahtumaa",
+      "certificates": "Osallistumistodistukset",
+      "certificatesHint": "Tapahtuman jälkeen ilmoittautuneet osallistujat"
+    },
+    "weddingGuests": {
+      "title": "Vieraat ja vastaajat",
+      "empty": "Ei vieraita vielä.",
+      "remindOne": "Muistuta",
+      "remindOneSent": "Muistutus lähetetty",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Muistutusta ei voitu lähettää",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Muokkaa vastausta",
+      "editRsvpTitle": "Muokkaa vastausta",
+      "rsvpUpdated": "RAVP päivitetty",
+      "rsvpError": "Vastausta ei voitu tallentaa",
+      "partySize": "Juhlan koko",
+      "dietary": "Ruokavaliovaatimukset",
+      "dietaryPlaceholder": "Kasvisruokaa, gluteenitonta...",
+      "note": "Huomautus",
+      "stats": {
+        "invited": "Kutsuttu",
+        "accepted": "Vahvistettu",
+        "pending": "Odotetaan",
+        "headcount": "Henkilöstömäärä"
+      },
+      "status": {
+        "pending": "Odotetaan",
+        "accepted": "Vahvistettu",
+        "declined": "Hylätty",
+        "cancelled": "Peruttu"
+      }
+    },
+    "weddingGifts": {
+      "title": "Kirjaa & lahjat",
+      "noRegistry": "Ei lahjarekisteriä tähän tapahtumaan.",
+      "create": "Luo rekisteri",
+      "registryCreated": "Luotu rekisteri",
+      "registryUpdated": "Rekisteri päivitetty",
+      "editRegistry": "Muokkaa kirjaa",
+      "registryTitle": "Rekisterin nimi",
+      "registryDescription": "Viesti vieraille",
+      "visible": "Näkyvä rekisteri",
+      "hidden": "Piilotettu",
+      "totalRaised": "Korotukset yhteensä",
+      "share": "Osuus",
+      "addItem": "Lisää lahja",
+      "newItem": "Uusi lahja",
+      "editItem": "Muokkaa lahjaa",
+      "itemName": "Nimi",
+      "itemKind": "Tyyppi",
+      "targetAmount": "Tavoitemäärä",
+      "externalUrl": "Ulkoinen yhteys (valinnainen)",
+      "itemAdded": "Lahja lisätty",
+      "itemUpdated": "Lahja päivitetty",
+      "itemDeleted": "Lahja poistettu",
+      "deleteItemTitle": "Poista tämä lahja",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Varattu",
+      "noItems": "Ei lahjoja vielä. Lisää yksi.",
+      "kind": {
+        "gift": "Lahja (kohta)",
+        "cash_fund": "Raharahasto"
+      },
+      "error": "Jokin meni pieleen."
+    },
+    "weddingTables": {
+      "title": "Istuinpaikkasuunnitelma",
+      "noTables": "Ei pöytiä vielä. Luo sellainen.",
+      "addTable": "Lisää taulukko",
+      "newTable": "Uusi taulukko",
+      "editTable": "Muokkaa taulukkoa",
+      "name": "Taulukon nimi",
+      "namePlaceholder": "Pöytä 1, perhe...",
+      "capacity": "Istuimet",
+      "created": "Taulukko luotu",
+      "updated": "Taulukko päivitetty",
+      "deleted": "Taulukko poistettu",
+      "deleteTitle": "Poista taulukko",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Täysi",
+      "tableEmpty": "Ei kukaan tässä pöydässä.",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Kaikki vieraat istuvat.",
+      "createFirst": "Luo pöytä ensin istua vieraita.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Vieras istuu",
+      "unassign": "Poista",
+      "unassigned": "Vieraat poistettu",
+      "capacityError": "Tässä pöydässä ei ole tarpeeksi paikkoja.",
+      "error": "Jokin meni pieleen."
     }
   },
   "moderation": {
@@ -6305,7 +6999,7 @@
     "statPending": "RAHOITUS",
     "statBilletterie": "LIPUT",
     "statInscription": "KIRJAAMINEN",
-    "overdueBannerCount": "",
+    "overdueBannerCount": "{{count}} overdue event(s)",
     "overdueBannerText": "· yli 24h odottamassa. Priorisoi heidät tapaamaan SLA:ta.",
     "emptyTitle": "Ei vireillä olevia tapahtumia",
     "emptyTextFiltered": "Mikään tapahtuma ei vastaa kriteerejäsi.",
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Tapahtumat",
       "kpiRevenue": "Tulot",
       "kpiVerifications": "Tarkastukset",
+      "activityChartTitle": "Alusta",
+      "activityChartSubtitle": "Tarkastustoimet viimeksi kuluneiden 7 päivän aikana",
       "quickActions": "NYKYISET TOIMET",
       "recentActivity": "VIRKISTYSTOIMINTA",
       "noActivity": "Ei viimeaikaisia toimia",
       "viewAllAudit": "Näytä kaikki tarkastuslokit",
       "actions": {
         "users": "Käyttäjät",
+        "verifications": "Tarkastukset",
         "subscriptions": "Tilaukset",
         "audit": "Tarkastus",
         "announcements": "Ilmoitukset",
@@ -6369,6 +7066,30 @@
         "settings": "Asetukset",
         "treasury": "Valtiovarainministeriö"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Rajoitettu pääsy",
+      "eyebrow": "Kohtuullisuus",
+      "title": "Tarkastuspyynnöt",
+      "typeOrg": "Organisaatio",
+      "typeIndividual": "Henkilö",
+      "noDocuments": "Asiakirjaa ei toimitettu",
+      "approve": "Hyväksyvät",
+      "reject": "Hylkää",
+      "approveTitle": "Hyväksyttävä tarkastus",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Vahvista tämän tarkistuksen hyväksyminen",
+      "approveSuccess": "Järjestäjä todennettu",
+      "rejectTitle": "Hylkää pyyntö",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Hylkäämisen syy...",
+      "rejectReasonRequired": "Syytä tarvitaan.",
+      "rejectSuccess": "Pyyntö hylätty",
+      "actionError": "Toiminta epäonnistui. Yritä uudestaan.",
+      "loadError": "En pystynyt lataamaan tarkistuspyyntöjä.",
+      "emptyTitle": "Ei vireillä olevia pyyntöjä",
+      "emptySubtitle": "Täällä on uusia organisaatiovarmennuspyyntöjä."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6458,10 +7179,10 @@
         "verifySuccess": "Käyttäjät",
         "deactivateTitle": "Poista valinta käytöstä",
         "deactivateConfirm": "Sulkekaa tilit? Käyttäjät eivät enää voi kirjautua sisään.",
-        "deactivateSuccess": "",
+        "deactivateSuccess": "{{count}} account(s) deactivated",
         "activateTitle": "Ota valinta uudelleen käyttöön",
         "activateConfirm": "Otako tili uudelleen käyttöön?",
-        "activateSuccess": "",
+        "activateSuccess": "{{count}} account(s) reactivated",
         "partial": "Osittainen toiminta",
         "partialDetail": "Jalostettu, hylätty. Yritä myöhemmin epäonnistuneille käyttäjille.",
         "selected_one": "Valittu",
@@ -6478,6 +7199,16 @@
       "loadError": "Käyttäjää ei voitu ladata",
       "roleSection": "ROOLI",
       "actionsSection": "TOIMET",
+      "profileSection": "PROFIILI",
+      "fieldFirstName": "Etunimi",
+      "fieldLastName": "Sukunimi",
+      "fieldEmail": "Sähköposti",
+      "fieldPhone": "Puhelin",
+      "fieldCompany": "Yritys",
+      "saveProfile": "Tallenna profiili",
+      "profileUpdated": "Profiili päivitetty",
+      "profileUpdateError": "En voinut päivittää profiilia.",
+      "emailRequired": "Tarvitaan sähköpostia.",
       "infoSection": "TIEDOTE",
       "active": "Aktiivinen",
       "inactive": "Inaktiivinen",
@@ -6670,6 +7401,21 @@
       "title": "Tarkastuslokit",
       "target": "Kohde",
       "user": "Käyttäjä",
+      "detail": {
+        "guardTitle": "Lokitiedot",
+        "eyebrow": "Tarkastusloki",
+        "title": "Lokitiedot",
+        "action": "Toiminto",
+        "target": "Kohde",
+        "user": "Käyttäjä",
+        "system": "Järjestelmä",
+        "timestamp": "Aikaleima",
+        "ip": "IP- osoite",
+        "userAgent": "Laite / selain",
+        "changes": "Muutokset",
+        "metadata": "Yksityiskohdat",
+        "loadError": "En voinut ladata tätä lokia."
+      },
       "stats": {
         "total": "Yhteensä"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Vieraan sähköposti",
     "delegateError": "Kutsua ei voitu lähettää.",
     "toCompleteBadge": "Täynnä"
+  },
+  "shareCard": {
+    "eyebrow": "Olen siellä.",
+    "button": "Jaa tarina",
+    "dialogTitle": "Jaa paikkani",
+    "cta": "Varaa paikkasi →",
+    "errorTitle": "Osuus",
+    "errorMessage": "Korttia ei voitu luoda juuri nyt."
+  },
+  "badges": {
+    "verified": "Varmennettu",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Hae kojua",
+    "lead": "Esittele firmasi johtamaan show'ta. Järjestäjä tarkistaa pyyntösi.",
+    "companyLabel": "Yrityksen nimi",
+    "companyPlaceholder": "esim. Acme Ltd",
+    "categoryLabel": "Teollisuus/luokka",
+    "categoryPlaceholder": "Esimerkiksi Tech, Food...",
+    "websiteLabel": "Verkkosivusto (vapaaehtoinen)",
+    "pitchLabel": "Viesti järjestäjälle (valinnainen)",
+    "pitchPlaceholder": "Kuvaile yritystäsi.",
+    "boothLabel": "Suosittu pöytä (valinnainen)",
+    "submit": "Lähetä hakemukseni",
+    "submitting": "Lähetetään...",
+    "successTitle": "Hakemus lähetetty!",
+    "successSubtitle": "Järjestäjä tarkistaa sen. Teille ilmoitetaan heidän päätöksestään.",
+    "goToMyBooth": "Näytä koppini",
+    "alreadyApplied": "Olet jo hakenut ohjelmaan.",
+    "loginRequired": "Kirjaudu sisään hakemaan kojua.",
+    "login": "Kirjaudu sisään",
+    "errorSubmit": "Hakemusta ei voitu lähettää.",
+    "ctaTitle": "Pyöritätkö koppia?",
+    "ctaSubtitle": "Levitä sekunneissa.",
+    "ctaButton": "Tule näytteilleasettajaksi"
+  },
+  "myBoothMobile": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Koppini",
+    "empty": "Ei varausta.",
+    "show": "Näytä",
+    "accepted": "Hyväksyn ehdot.",
+    "acceptError": "En voi hyväksyä sitä.",
+    "salesTitle": "Valtuutettu myynti",
+    "commission": "EventEz commission",
+    "hostShare": "Järjestäjien osuus",
+    "net": "Mitä pidät",
+    "createEvent": "Luo tapahtumani",
+    "acceptCta": "Hyväksyn nämä ehdot.",
+    "statusPaid": "Maksettu",
+    "statusPartial": "Maksettu talletus",
+    "statusPending": "Maksaminen",
+    "amountDue": "Boothin määrä",
+    "amountRemaining": "Jäljellä olevat maksut",
+    "payBooth": "Maksa kopistani",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kortti",
+    "paymentInitiated": "Maksu aloitettu. Vahvista se puhelimessasi.",
+    "payError": "Koppimaksua ei voitu käynnistää.",
+    "captureLeads": "Ota yhteystiedot",
+    "viewLeads": "Kontaktini"
+  },
+  "leadCapture": {
+    "title": "Ota yhteystieto",
+    "hint": "Osoita QR-koodia vierailijan virkamerkille.",
+    "permissionTitle": "Salli kameran käyttö",
+    "permissionBody": "Kameraa käytetään vain lukemaan merkki QR koodi vierailijoille, jotka suostuivat ottamaan yhteyttä.",
+    "permissionCta": "Laita kamera päälle",
+    "manualEntry": "Kirjoita viite sen sijaan",
+    "manualPlaceholder": "Virkamerkin viite",
+    "unnamed": "Yhteystiedot tallennettu",
+    "alreadyKnown": "Tapasin jo ennätys päivitetty.",
+    "qualify": "Määrittele tämä yhteyshenkilö",
+    "rating_hot": "Kuuma",
+    "rating_warm": "Lämmin",
+    "rating_cold": "Kylmä",
+    "notesPlaceholder": "Mistä puhuitte (valinnainen)",
+    "next": "Seuraava",
+    "retry": "Skannaa uudelleen",
+    "noConsentTitle": "Tämä vierailija ei ole suostunut",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Virkamerkkiä ei tunnistettu",
+    "notFoundBody": "Tämä virkamerkki ei kuulu tähän tapahtumaan. Tarkista QR-koodilla painettu viite.",
+    "errorTitle": "Etsi",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Vierailija ei ole suostunut ottamaan yhteyttä.",
+    "a11yNotFound": "Virkamerkkiä ei tunnistettu.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Tänään",
+    "yesterday": "Eilen",
+    "justNow": "Juuri nyt",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Lähetetään",
+    "failed": "Lähetys epäonnistui",
+    "sent": "Lähetetty",
+    "delivered": "Annettu",
+    "read": "Lue"
+  },
+  "myLeads": {
+    "title": "Kontaktini",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Nimeämätön yhteyshenkilö",
+    "emptyTitle": "Ei vielä yhteyksiä",
+    "emptyBody": "Skannaa koppisi luona käyvien merkki. Voit sitten viedä koko luettelon CSV.",
+    "errorTitle": "En voinut ladata",
+    "errorBody": "Kontaktisi ovat tallessa. Tarkista yhteys ja yritä uudelleen."
+  },
+  "myDataExhibitors": {
+    "title": "Näyttelijöiden hallussa olevat tietoni",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Poista",
+    "eraseAll": "Poista kaikki",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Yhteystietosi on poistettu.",
+    "eraseError": "Poistaminen ei mennyt läpi.",
+    "confirmCta": "Poista",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Pyyhitkö jokaisen näytteilleasettajan hallussa olevat tietoni?",
+    "confirmAllBody": "Nimesi, sähköpostisi ja puhelinnumerosi poistetaan jokaisesta pörssiyhtiöstä. Tätä ei voi perua.",
+    "emptyTitle": "Yksikään yritys ei pidä yhteystietojasi",
+    "emptyBody": "Näyttelyt voivat tallentaa tietosi vain skannaamalla virkamerkkisi, ja vain jos sallit sen siihen tapahtumaan."
+  },
+  "visio": {
+    "expandCall": "Laajenna videopuhelu",
+    "endCall": "Päätä puhelu",
+    "endCallConfirmTitle": "Jätitkö puhelun?",
+    "endCallConfirmMessage": "Olet lähdössä kokouksesta.",
+    "minimize": "Minimoi",
+    "liveNow": "Elä",
+    "join": "Liity",
+    "view": "Näytä",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Näytä",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Muuta kokoa"
+  },
+  "organize": {
+    "favorites": "Suosikkini",
+    "eyebrow": "Järjestäjän tila",
+    "title": "Järjestä",
+    "liveNow": "Elä nyt",
+    "nextEvent": "Seuraava tapahtuma",
+    "registered": "rekisteröity",
+    "scan": "Etsi",
+    "scanA11y": "Skannaa liput tähän tapahtumaan",
+    "boxOffice": "Postilokero",
+    "boxOfficeA11y": "Avaa lipputoimisto tähän tapahtumaan",
+    "viewStats": "Näytä tilastot",
+    "availableBalance": "Käytettävissä oleva saldo",
+    "walletA11y": "Avaa lompakkoni.",
+    "noActiveEvent": "Ei tapahtumia",
+    "noActiveEventHint": "Luo tapahtuma tai julkaise luonnos nähdäksesi sen täällä.",
+    "noStaffEventHint": "Tapahtumat, joissa kuulut joukkueeseen, tulevat tänne.",
+    "createEvent": "Luo tapahtuma",
+    "myEvents": "Minun tapahtumani",
+    "teamEvents": "Tapahtumat I Henkilökunta",
+    "analytics": "Analytiikka",
+    "loadError": "En voinut ladata tilaasi. Tarkista yhteytesi."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Olet mukana",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Viikon päästä",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Ovet ovat auki",
+    "onNow": "Nyt tapahtuu.",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Lippu saatavilla offline",
+    "offlinePending": "Avaa lippu kerran pitää se pois päältä",
+    "sayImGoing": "Sano, että lähden.",
+    "showTicket": "Näytä lippuni",
+    "directions": "Suunnat",
+    "viewTicket": "Näytä lippu",
+    "goThere": "Mene.",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibroi kompassi: piirrä kuva 8 puhelimella",
+    "compassHint": "Seuraa nuolta tapahtumapaikalle"
+  },
+  "onSite": {
+    "eyebrow": "Olet paikalla.",
+    "now": "Nyt",
+    "next": "Next · {{time}}",
+    "qa": "Elävä Q&A",
+    "plan": "Kartta & paikka",
+    "networking": "Verkostoituminen"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Olit siellä.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Ensimmäinen saapuu",
+    "question": "Mitä pidit?",
+    "thanks": "Kiitos arvostelustasi.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Jaa tarina",
+    "later": "Myöhemmin"
+  },
+  "yearInReview": {
+    "eyebrow": "Vuosi",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "tapahtumaan osallistui",
+    "s1Line_other": "osallistui tapahtumia",
+    "citiesEyebrow": "Tiellä",
+    "categoryEyebrow": "Sinunlaisesi.",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Kaikki alkoi",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Aina ajoissa",
+    "arrivalsLine_one": "ensimmäinen saapumisaika",
+    "arrivalsLine_other": "kerrat ensimmäinen saapua",
+    "organizerEyebrow": "Järjestäjä",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Jaa korttini",
+    "tapHint": "Jatka napauttamalla"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Ensimmäinen osallistuja",
+      "someone": "Joku",
+      "share": "Osuus myynnin lisäämiseksi",
+      "view": "Näytä",
+      "soldOutTitle": "Myyty loppuun",
+      "soldOutLine": "Jokainen lippu on poissa."
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "MYYTY",
+      "online": "Elä"
+    },
+    "share": {
+      "cta": "Jaa tapahtuma",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Jaettu",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Pyydetty",
+      "approved": "Hyväksytty",
+      "sent": "Lähetetty",
+      "verifying": "Tarkistaminen toimijan kanssa",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Palautus epäonnistui"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Paikka lähes täynnä",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Työvuoron päättyminen",
+      "validated": "Kirjautunut sisään",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Tahti",
+      "refused": "Hylätty",
+      "syncing": "Synkronoidaan...",
+      "synced": "Synkronoitu",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Näytä live-ops",
+      "resume": "Jatka",
+      "close": "Viimeistely"
+    },
+    "recap": {
+      "title": "Yhteenveto",
+      "eyebrow": "TAPAHTUMAJÄRJESTYS",
+      "attended": "Osallistunut",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Tulot",
+      "rating": "Keskiarvosana",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Ei arvosteluja vielä",
+      "best": "Standout-arviointi",
+      "latest": "Viimeisimmät arvioinnit",
+      "thank": "Kiitos osallistujille",
+      "funds": "Näytä varat",
+      "error": "Kertamaksu ei ole käytettävissä.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Näytä yhteenveto"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Varattu juuri nyt",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Varattu viimeisen tunnin aikana",
+    "lastSaleToday": "Varattu tänään",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Myyty loppuun",
+    "soldOutCta": "Myyty loppuun · ei istuimia jäljellä",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Sinun yhteyksiä, jotka ovat menossa",
+    "someone": "Joku",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Verkko",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "Sinulle on varattu paikka.",
+    "seatHeldBody": "Kirja ennen lähtölaskentaa päättyy: sen jälkeen se menee seuraavalle henkilölle.",
+    "seatHeldCta": "Varaa paikkani.",
+    "seatHeldExpired": "Aika loppui: paikka meni seuraavalle henkilölle.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Näytä kaikki",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reaktiot",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Yksi yhteyksistäsi on saapunut.",
+    "connectionArrivedCta": "Viestitä heille",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Elävien tuotteiden myynti",
+    "checkinPushed": "Live-saapuminen"
+  },
+  "reminders": {
+    "channelName": "Tapahtumamuistutukset",
+    "dayBeforeTitle": "Muistutus: huomenna",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Muistutus: tunnin kuluttua",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Etsi",
+    "discoverSubtitle": "Tapahtumat lähelläsi",
+    "tickets": "Lippuni",
+    "scan": "Etsi lippu"
+  },
+  "ongoing": {
+    "channelName": "Tapahtumapäivä",
+    "eventFallback": "Tapahtumasi",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Alkaen pian",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Nyt · lippusi on valmis",
+    "scannerTitle": "Skanneri työvuorossa"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Peruitko viimeisen toimen?",
+      "confirm": "Peru",
+      "keep": "Säilytä",
+      "failed": "Peruminen ei mennyt läpi. Tarkista yhteys ja yritä uudelleen.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Siirrä keskustelu pois arkistosta."
+    },
+    "report": {
+      "title": "Ilmoita ongelmasta",
+      "subtitle": "Testirakenne: kuvakaappaus, näyttö ja versio lähetetään viestin mukana.",
+      "noNote": "Raportti ilman huomautuksia",
+      "blur": "Suhahdus",
+      "noShot": "Näytöllä ei ole kuvakaappausta.",
+      "placeholder": "Mitä tapahtui?",
+      "send": "Lähetä",
+      "sent": "Kiitos, raporttinne on lähetetty.",
+      "unavailable": "Ei voi lähettää: virheseuranta ei ole aktiivinen tässä rakennuksessa."
+    },
+    "applause": {
+      "hint": "Taputtakaa pidempään.",
+      "a11y": "Pitkät suosionosoitukset"
+    },
+    "hush": {
+      "title": "Mikki ja kamera sammuivat, kun puhelin oli kasvot alaspäin.",
+      "reactivate": "Käynnistä ne uudelleen"
+    },
+    "lighter": {
+      "button": "Kevyempi",
+      "off": "Sammuta se.",
+      "alone": "Nosta puhelin, liekki seuraa liikkeitäsi.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Yllätä minut",
+      "chipA11y": "Ehdota satunnaista tapahtumaa",
+      "again": "Toinen",
+      "none": "Ei tule tapahtumaa ehdottaakseen juuri nyt."
+    },
+    "bump": {
+      "settingTitle": "Vaihda kontaktit ravistamalla",
+      "settingSubtitle": "Paikan päällä, kun lippu on skannattu: ravista samaan aikaan kuin joku muu löytää toisiaan. Arvioitua sijaintiasi käytetään muutaman sekunnin ajan vastaamaan sinua eikä sitä koskaan tallenneta. Mitään ei tapahdu ilman vahvistusta. Poissa oletusarvoisesti.",
+      "button": "Vaihda ravistamalla",
+      "nearbyButton": "Katso ympärilleni.",
+      "hint": "Ravista puhelintasi samalla kun toinen henkilö.",
+      "title": "Vaihda yhteystietoja",
+      "searching": "Etsin ihmisiä, jotka tärisevät lähelläsi.",
+      "none": "Kukaan ei löytänyt. Ravista samalla hetkellä toisen henkilön kanssa ja yritä sitten uudelleen.",
+      "pick": "Valitse oikea henkilö. Mitään ei jaeta ilman suostumustasi.",
+      "connect": "Yhteys?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Odottaa vahvistusta",
+      "connected": "Yhdistetty",
+      "openSettings": "Avaa asetukset",
+      "error": {
+        "disabled": "Käynnistä ... aaltokoskettimet ravistamalla.",
+        "notCheckedIn": "Saatavana, kun lippusi on skannattu sisäänkäynnin luona.",
+        "clockSkew": "Puhelimesi kello on pois päältä. Aseta se automaattiseksi ja yritä uudelleen.",
+        "rateLimited": "Liikaa yrityksiä. Yritä uudestaan hetken päästä.",
+        "expired": "Vaihto päättyi. Aloita alusta.",
+        "noLocation": "Sijainti tarvitaan löytää henkilö lähelläsi.",
+        "generic": "Vaihto ei mennyt läpi. Yritä uudelleen."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Tallenna tapahtuma"
+    },
+    "torch": {
+      "onA11y": "Laita soihtu päälle",
+      "offA11y": "Sammuta soihtu",
+      "hint": "Tuplata etsin kytkeä soihtu päälle tai pois."
+    },
+    "dragSelect": {
+      "select": "Valitse",
+      "hint": "Tai vedä kaksi sormea listalle rastittaa useita osallistujia.",
+      "message": "Viesti valituille osallistujille",
+      "export": "Vie valinta",
+      "exportError": "Valinnan vienti epäonnistui.",
+      "csvName": "Nimi",
+      "csvEmail": "Sähköposti",
+      "csvReference": "Viite",
+      "csvStatus": "Tila",
+      "csvDate": "Rekisteröity"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Haen liput...",
+      "favorites": "Haen suosikkejasi.",
+      "notifications": "Haetaan ilmoituksiasi...",
+      "messages": "Haetaan keskustelusi...",
+      "search": "Etsitään sopivia tapahtumia...",
+      "event": "Tapahtumasivun valmistelu..."
+    },
+    "mobileMoney": {
+      "sent": "Maksupyyntösi on lähetetty operaattorillesi.",
+      "pin": "Hyväksy se PIN puhelimessasi, operaattorissasi nopeasti.",
+      "operator": "Keskusvahvistus voi kestää. Se on normaalia, pysykää tällä sivulla.",
+      "once": "Saat syytteen vain kerran, vaikka odotus jatkuisi."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Lippusi tulevat tänne heti kun olet ilmoittautunut tapahtumaan.",
+        "v1": "Konsertti, konferenssi, työpaja? Kaikki alkaa tapahtumasta.",
+        "v2": "Seuraava retki voi olla jo verkossa."
+      },
+      "favorites": {
+        "v0": "Napauta sydäntä tapahtumassa löytääksesi sen täältä ja kuullaksesi muutoksista.",
+        "v1": "Seuraa tapahtumaa, jotta et koskaan unohda sen uutisia.",
+        "v2": "Yksi sydän riittää pitämään tapahtuman hallinnassa."
+      },
+      "notifications": {
+        "v0": "Uutiset seuraamistasi tapahtumista ja järjestäjistä ilmestyy tänne.",
+        "v1": "Seuraa tapahtumaa, josta on ilmoitettava.",
+        "v2": "Ilmoitamme heti, kun jotain tapahtuu."
+      },
+      "messages": {
+        "v0": "Tapasitko jonkun tapahtumassa? Skannaa koodi.",
+        "v1": "Tapahtumayhteytesi näkyvät täällä: yksi koodiluotaus riittää.",
+        "v2": "Vaihda yhteystiedot paikan päällä skannaamalla osallistujan koodi."
+      },
+      "discover": {
+        "v0": "Avainsanahaku löytää joskus sen, mitä kotisivu ei vielä näytä.",
+        "v1": "Etsi kaupungin tai luokan mukaan: uusia tapahtumia saapuu joka viikko."
+      },
+      "exploreAction": "Katso mitä",
+      "scanAction": "Etsi koodi",
+      "searchAction": "Etsi tapahtumaa",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Widen 50 km ympärilläsi",
+      "clearFilters": "Tyhjennä suodattimet"
+    },
+    "greeting": {
+      "when": {
+        "today": "tänään",
+        "tomorrow": "huomenna",
+        "dayAfter": "ylihuomenna"
+      },
+      "there": "paikalla",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Hyvää syntymäpäivää! Hyvää päivänjatkoa.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Hyvää kansallispäivää!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Tervetuloa takaisin",
+      "subtitle_one": "Yksi uusi asia sitten viime vierailusi.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Ja vielä yksi siitä, mitä seuraat.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Piilota",
+      "reason": {
+        "followed_organizer": "Järjestäjä, jota seuraat",
+        "new_edition": "Uusi painos tapahtumasta, johon osallistuit",
+        "other": "Uusi"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "SINULLE · PERUSTUU TASTEEN",
+      "forYouTitle": "Saatat myös pitää",
+      "loginCtaTitle": "Sinulle räätälöidyt suositukset"
+    },
+    "settings": {
+      "ritualsEyebrow": "Pientä kosketusta.",
+      "ritualsTitle": "Pieni kosketus",
+      "ritualsSubtitle": "Sana syntymäpäivänäsi, tilivuosipäivänäsi tai kansallispäivänäsi kerran päivässä. Ikääsi ei koskaan näytetä.",
+      "forgetEyebrow": "SUOSITUKSET",
+      "forgetTitle": "Unohda mieltymykseni",
+      "forgetSubtitle": "Poistaa tapahtumia, rekisteröinnit ja haut opetti suosituksia.",
+      "forgetConfirmTitle": "Unohditko mieltymyksesi?",
+      "forgetConfirmMessage": "Suosituksesi alkavat alusta. Lippunne, suosikkinne ja seuraatte.",
+      "forgetDone": "Tehty: suositukset alkavat alusta.",
+      "forgetUnavailable": "Tämä vaihtoehto ei ole vielä käytettävissä. Mitään ei pyyhitty pois.",
+      "forgetError": "Niitä ei voitu pyyhkiä. Ne ovat muuttumattomia; yrittäkää uudelleen hetken kuluttua."
+    },
+    "goingCard": {
+      "title": "Kun odotat, valmistele sinun ...",
+      "subtitle": "Se on valmis jakamaan heti, kun maksu on vahvistettu.",
+      "tintLabel": "Tausta",
+      "messageLabel": "Viesti",
+      "messages": {
+        "going": "-Mennään.",
+        "meetThere": "Nähdään siellä.",
+        "seeYou": "Tavataan siellä."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Korttisi jäljet odotellessasi.",
+      "ready": "Korttisi on valmis",
+      "share": "Jaa korttini",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }

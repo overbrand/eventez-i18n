@@ -41,6 +41,7 @@
     "close": "Κλείσιμο",
     "clear": "Καθαρισμός",
     "back": "Πίσω",
+    "home": "Σπίτι",
     "next": "Επόμενο",
     "previous": "Προηγούμενο",
     "search": "Αναζήτηση",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Ο κωδικός είναι λανθασμένος ή έχει λήξει",
     "loginError": "Σφάλμα σύνδεσης",
     "registerError": "Σφάλμα εγγραφής",
+    "googleUnavailableExpoGo": "Google η σύνδεση απαιτεί την πλήρη κατασκευή εφαρμογών (μη διαθέσιμη στην Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Το Play Services δεν είναι διαθέσιμο σε αυτή τη συσκευή.",
+    "appleOnlyIOS": "Apple Η σύνδεση είναι διαθέσιμη μόνο στο iOS.",
+    "appleUnavailableDevice": "Apple Η σύνδεση δεν είναι διαθέσιμη σε αυτή τη συσκευή.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Ο λογαριασμός υπάρχει ήδη",
     "registerEmailExistsDetail": "Ένας λογαριασμός υπάρχει ήδη με αυτό το email. Θέλεις να υπογράψεις;",
     "registerEmailExistsConfirm": "Υπογραφή",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Απαιτείται επώνυμο",
     "emailRequired": "Απαιτείται ηλεκτρονικό ταχυδρομείο",
     "emailInvalid": "Μη έγκυρο email",
+    "passwordRequired": "Απαιτείται κωδικός πρόσβασης",
     "passwordTooShort": "Κωδικός πρόσβασης πολύ σύντομος ({{min}} ελάχιστοι χαρακτήρες)",
+    "confirmPasswordRequired": "Απαιτείται επιβεβαίωση κωδικού πρόσβασης",
     "passwordsDontMatch": "Οι κωδικοί πρόσβασης δεν ταιριάζουν.",
+    "usernameRequired": "Απαιτείται όνομα χρήστη",
     "usernameTooShort": "Όνομα χρήστη πολύ μικρό ({{min}} ελάχιστοι χαρακτήρες)",
     "usernameInvalid": "Μη έγκυρο όνομα χρήστη",
+    "phoneRequired": "Απαιτείται αριθμός τηλεφώνου",
     "phoneInvalid": "Μη έγκυρος αριθμός τηλεφώνου",
     "minLength": "Τουλάχιστον {{min}} χαρακτήρες",
     "maxLength": "Μέγιστη {{max}}1 χαρακτήρες"
@@ -449,7 +461,8 @@
     "saved": "Αποθήκευση",
     "messages": "Μηνύματα",
     "tickets": "Εισιτήρια",
-    "profile": "Προφίλ"
+    "profile": "Προφίλ",
+    "organize": "Οργανώστε"
   },
   "languagePicker": {
     "eyebrow": "Καλώς ήρθατε.",
@@ -492,6 +505,7 @@
     "viewAction": "Προβολή",
     "viewEvent": "Προβολή γεγονότος",
     "share": "Μερίδιο",
+    "scrollToTop": "Επιστροφή στην κορυφή",
     "freeEyebrow": "ΚΟΣΤΟΣ ΖΗΡΟ",
     "freeTitle": "Ελεύθερος, χωρίς χορδές",
     "freeBadge": "ΕΛΕΥΘΕΡΗ",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Είσαι έτοιμος!",
     "notifyOnBody": "Θα σας ενημερώσουμε μόλις βγουν τα πρώτα γεγονότα ζωντανά.",
     "notifyOffTitle": "Απενεργοποιήσεις",
-    "notifyOffBody": "Ενεργοποίηση ειδοποιήσεων στις ρυθμίσεις για ειδοποίηση."
+    "notifyOffBody": "Ενεργοποίηση ειδοποιήσεων στις ρυθμίσεις για ειδοποίηση.",
+    "organizersEyebrow": "Διοργανωτές",
+    "organizersTitle": "Οι άνθρωποι πίσω από τη σκηνή",
+    "organizersTitleWithCity": "Οργάνωση σε {{city}}",
+    "organizerVerified": "Επαληθευμένος οργανωτής",
+    "organizerEventCount": "{{count}} εκδήλωση",
+    "organizerEventCount_other": "{{count}} γεγονότα"
   },
   "pricingTiers": {
     "title": "Βαθμίδες τιμών",
@@ -604,7 +624,10 @@
     "invisibleHint": "Είσαι αόρατος — ανάβεις για να σε δουν και εσύ.",
     "message": "Μήνυμα",
     "connected": "Σύνδεση",
-    "empty": "Κανείς δεν είναι ορατός ακόμα. Να είσαι ο πρώτος που θα ενεργοποιήσει το δίκτυό σου!"
+    "empty": "Κανείς δεν είναι ορατός ακόμα. Να είσαι ο πρώτος που θα ενεργοποιήσει το δίκτυό σου!",
+    "scanOptInTitle": "Άσε τους εκθέτες να σαρώσουν το σήμα μου.",
+    "scanOptInSubtitle": "Οι εταιρείες επίδειξης θα είναι σε θέση να αποθηκεύσουν το όνομα και τα στοιχεία επικοινωνίας σας με σάρωση του σήματος σας, έτσι ώστε να μπορούν να παρακολουθήσουν μετά την εκδήλωση.",
+    "scanOptInWithdrawNote": "Μπορείς να το κλείσεις ανά πάσα στιγμή. Οι επαφές που έχουν ήδη αποθηκευτεί από τους εκθέτες δεν διαγράφονται αυτόματα — μπορείτε να ζητήσετε τη διαγραφή τους από τις ρυθμίσεις απορρήτου σας."
   },
   "eventDetails": {
     "eyebrow": "ΕΚΔΗΛΩΣΗ",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online event",
     "meetingId": "ID συνάντησης:",
     "meetingPasscode": "Κωδικός πρόσβασης:",
+    "liveEngagement": "Ζώντα Q&A και δημοσκοπήσεις",
     "joinEvent": "Συμμετοχή σε εκδήλωση",
     "joinOnline": "Συμμετοχή στο διαδίκτυο",
     "registered": "Εγγεγραμμένα",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Μερίδιο στο WhatsApp",
     "closePreviewA11y": "Κλείσιμο προεπισκόπησης",
     "invalidCode": "Μη έγκυρος κωδικός πρόσβασης",
+    "accessButton": "Είσοδος",
+    "pendingPaymentBanner": "Συμπληρώστε την πληρωμή σας για να επιβεβαιώσετε την εγγραφή σας",
+    "onlineInfoAfterRegistration": "Λεπτομέρειες σύνδεσης θα είναι διαθέσιμα μετά την εγγραφή σας",
+    "alsoOnlineVia": "Διατίθεται επίσης online μέσω {{platform}}1",
     "imageEnlarge": "Μεγέθυνση",
+    "playCoverVideo": "Αναπαραγωγή βίντεο",
+    "videoPlayA11y": "Αναπαραγωγή βίντεο με ήχο",
+    "videoUnmuteA11y": "Αναίρεση",
+    "videoMuteA11y": "Μούτρο",
+    "videoExpandA11y": "Ανάπτυξη βίντεο σε πλήρη οθόνη",
     "imagesCount": "{{current}} / {{total}}",
     "videoConference": "Πλατφόρμα τηλεδιάσκεψης",
     "openLinkError": "Δεν μπόρεσε να ανοίξει το link",
@@ -675,7 +708,28 @@
     "registeredStatus": "Εγγεγραμμένα",
     "pendingStatus": "Σε αναμονή",
     "priceLabel": "Τιμή",
-    "fromLabel": "Έναρξη από"
+    "fromLabel": "Έναρξη από",
+    "waitlistJoinedDetail": "Μπήκες στη λίστα αναμονής. Θα σας ειδοποιήσουμε μόλις ανοίξει μια θέση.",
+    "waitlistLeftMsg": "Έχετε αφήσει τη λίστα αναμονής",
+    "waitlistLeaveError": "Αδυναμία εξόδου της λίστας αναμονής",
+    "waitlistJoinError": "Αδυναμία ένταξης στη λίστα αναμονής",
+    "waitlistLeaveTitle": "Αφήστε τη λίστα αναμονής",
+    "waitlistLeaveConfirm": "Σίγουρα θέλεις να φύγεις από τη λίστα αναμονής;",
+    "whatsappNotInstalled": "Το WhatsApp δεν είναι εγκατεστημένο σε αυτή τη συσκευή",
+    "reviewRatingRange": "Παρακαλώ επιλέξτε μια βαθμολογία μεταξύ 1 και 5",
+    "reviewThanksTitle": "Ευχαριστώ!",
+    "reviewSubmitted": "Η κριτική σας υποβλήθηκε επιτυχώς",
+    "loginRequiredTitle": "Απαιτείται υπογραφή",
+    "loginRequiredReview": "Συνδεθείτε για να αφήσετε μια κριτική",
+    "reviewSubmitError": "Αδυναμία υποβολής της κριτικής σας",
+    "loginRequiredWaitlist": "Συνδεθείτε για να μπείτε στη λίστα αναμονής",
+    "invitationGateDesc": "Αυτή η εκδήλωση προορίζεται για προσκεκλημένους επισκέπτες. Αν λάβατε πρόσκληση, παρακαλούμε δεχθείτε την για να αποκτήσετε πρόσβαση.",
+    "codeGateDesc": "Εισάγετε τον κωδικό για να δείτε τις πλήρεις λεπτομέρειες",
+    "giftRegistryCta": "Μητρώο δώρων",
+    "giftRegistrySubtitle": "Δείτε τη λίστα και πατήστε αν θέλετε",
+    "cancelReasonTitle": "Λόγος ακύρωσης",
+    "visioEnded": "Το βίντεο συνέδριο της εκδήλωσης έχει λήξει.",
+    "videoPauseA11y": "Παύση βίντεο"
   },
   "events": {
     "videoBadge": "Βίντεο",
@@ -823,6 +877,9 @@
     "noPastMessage": "Τα γεγονότα του παρελθόντος σας θα εμφανιστούν εδώ",
     "scanQR": "Σάρωση κώδικα QR",
     "showQR": "Εμφάνιση κώδικα QR",
+    "viewQR": "Προβολή QR",
+    "receivedTransfers": "Ληφθείσες μεταβιβάσεις",
+    "myTicketsFiltersActive": "Φίλτρα ({{count}} ενεργό)",
     "qrTitle": "Ο κωδικός QR σας",
     "qrSubtitle": "Εμφάνιση αυτού του κώδικα στην είσοδο",
     "ticketDetails": "Στοιχεία εισιτηρίου",
@@ -930,7 +987,10 @@
     "monthNovember": "ΝΟΕΜΒΡΙΟΣ",
     "monthDecember": "ΔΕΚΕΜΒΡΙΟΣ",
     "tapToShowQR": "Πατήστε για την προβολή του κώδικα QR",
-    "searchTitleRefVenue": "Τίτλος, διαιτητής, τόπος..."
+    "searchTitleRefVenue": "Τίτλος, διαιτητής, τόπος...",
+    "pendingPayment": "Πληρωμή που εκκρεμεί",
+    "pendingExpired": "Λήξη γεγονότος",
+    "statusExpired": "Λήξη"
   },
   "payment": {
     "title": "Πληρωμή",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Πίσω",
     "paymentGenericError": "Συνέβη ένα σφάλμα κατά την πληρωμή",
     "paymentErrorTitle": "Σφάλμα πληρωμής",
+    "paymentBlockedTitle": "Αποκλεισμένη πληρωμή κάρτας",
     "paymentCancelledTitle": "Η πληρωμή ακυρώθηκε",
     "paymentNoPaymentInProgress": "Καμία τρέχουσα πληρωμή για επαλήθευση",
     "paymentVerifyingTitle": "Επαλήθευση...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Συνέχεια αναμονής",
     "paymentProcessing": "Επεξεργασία",
     "paymentTitle": "Πληρωμή",
+    "checkoutStep": "ΒΗΜΑ 3 / 3 • ΠΛΗΡΩΜΗ",
+    "noDoubleCharge": "Θα χρεωθείς μόνο μια φορά, ακόμα και αν η οθόνη γυρίσει για λίγο.",
+    "biometricConfirm": "Επιβεβαιώστε την πληρωμή των {{amount}}1",
+    "termsAcceptPrefix": "Δέχομαι την",
+    "termsLinkFull": "Όροι πώλησης και πολιτική επιστροφής",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Επιλογή",
     "paymentStepRecap": "Ανακεφαλαίωση",
     "paymentMethodFallback": "Πληρωμή",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Πληρωμή",
     "myPaymentsFilterCompleted": "Ολοκληρώθηκε",
     "myPaymentsFilterPending": "Σε αναμονή",
-    "myPaymentsFilterFailed": "Αποτυχία"
+    "myPaymentsFilterFailed": "Αποτυχία",
+    "finalizeEndedTitle": "Το γεγονός αυτό έληξε",
+    "finalizeEndedBody": "Δεν μπορείτε πλέον να ολοκληρώσετε την εγγραφή σας: η εκδήλωση έχει ήδη τελειώσει. Δεν κατηγορήθηκες.",
+    "finalizeClosedTitle": "Η εγγραφή έκλεισε",
+    "finalizeClosedBody": "Η περίοδος εγγραφής για το γεγονός αυτό έχει λήξει.",
+    "finalizeSoldOutTitle": "Τα εισιτήρια πουλήθηκαν.",
+    "finalizeSoldOutBody": "Τα εισιτήρια που είχατε κρατήσει δεν είναι πλέον διαθέσιμα. Η κράτησή σας έληξε. Δεν κατηγορήθηκες.",
+    "finalizeBackToEvent": "Επιστροφή στο γεγονός",
+    "paymentPushSentTitle": "Επιβεβαίωση στο τηλέφωνό σας",
+    "paymentPushSentMessage": "Μια αίτηση πληρωμής στάλθηκε στο τηλέφωνό σας. Εγκρίνετε το (Mobile Money PIN) για να ολοκληρωθεί.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Αίτηση επιστροφής"
   },
   "memories": {
     "title": "Οι αναμνήσεις μου",
@@ -1235,7 +1313,11 @@
     "recapShare": "Μοιράσου την ανακεφαλαίωσή μου",
     "recapEvents": "γεγονότα που έζησαν",
     "recapCities": "πόλεις",
-    "recapFirst": "φορές έφτασε # 1"
+    "recapFirst": "φορές έφτασε # 1",
+    "oneYearAgo": "Πριν ένα χρόνο, ήσουν εκεί.",
+    "nextEdition": "Η νέα έκδοση πωλείται · {{title}}",
+    "firstHint": "Μακρύς Τύπος για μια έκπληξη",
+    "firstNote": "Πρώτα να φτάσει. Οι πόρτες ήταν μόλις και μετά βίας ανοιχτές."
   },
   "profile": {
     "title": "Προφίλ",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Υπογραφή",
     "logoutInProgress": "Υπογράφω...",
     "appVersion": "ΓεγονόςEz v1.0.0",
-    "myQRTitle": "Ο κωδικός QR μου"
+    "myQRTitle": "Ο κωδικός QR μου",
+    "refundsMenu": "Οι επιστροφές μου",
+    "refundsSubtitle": "Να παρακολουθείς πού βρίσκονται τα λεφτά σου.",
+    "shareProfileButton": "Μοιραστείτε το προφίλ μου",
+    "shareOrganizerMessage": "{{name}} στο EventEz: {{url}}",
+    "shareOrganizerTitle": "Το προφίλ του οργανωτή μου",
+    "shareOrganizerA11y": "Μοιραστείτε το προφίλ οργανωτή μου",
+    "viewPublicProfileA11y": "Δείτε το δημόσιο προφίλ μου",
+    "orgEventsCount_one": "{{count}} εκδήλωση",
+    "orgEventsCount_other": "{{count}} γεγονότα",
+    "unfollowConfirmTitle": "Να μην ακολουθώ;",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} εκδήλωση",
+    "followedEventCount_other": "{{count}} γεγονότα",
+    "followingPill": "Ακολουθεί",
+    "followedCount_one": "{{formatted}} ακολουθούμενο",
+    "followedCount_other": "{{formatted}} ακολουθούμενο",
+    "followSearchEmptyTitle": "Κανένα αποτέλεσμα",
+    "followSearchEmptyText": "Δεν ακολούθησαν αγώνες διοργανωτών «{{query}}».",
+    "followDiscoverCta": "Ανακαλύψτε γεγονότα",
+    "followSearchPlaceholder": "Αναζήτηση ενός οργανωτή"
   },
   "editProfile": {
     "title": "Επεξεργασία προφίλ",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Διεύθυνση",
     "sectionOrganization": "Οργάνωση",
     "sectionSecurity": "Ασφάλεια",
-    "qrShareSubtitle": "Σαρώστε αυτόν τον κώδικα για να μοιραστείτε το προφίλ σας"
+    "qrShareSubtitle": "Σαρώστε αυτόν τον κώδικα για να μοιραστείτε το προφίλ σας",
+    "countryPlaceholder": "Επιλέξτε μια χώρα",
+    "orgLogoLabel": "Λογότυπο",
+    "orgLogoAdd": "Προσθήκη λογότυπου",
+    "orgLogoChange": "Τροποποίηση λογότυπου",
+    "orgWebsiteLabel": "Ιστοσελίδα",
+    "orgDescriptionLabel": "Δημόσια περιγραφή",
+    "orgDescriptionPlaceholder": "Σύστησε την οργάνωσή σου..."
   },
   "settings": {
     "whoCanContactCurrent": "ΑΝΤΙ-ΣΠΑΜ",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Θέμα",
     "themeDialogSubtitle": "Επιλογή θέματος",
     "timezoneDialogTitle": "Ζώνη ώρας",
+    "timezoneDetected": "ανιχνεύθηκε",
     "timezoneDialogSubtitle": "Επιλέξτε την ζώνη ώρας σας",
     "preferencesTitle": "Προτιμήσεις",
     "headerEyebrow": "ΚΑΘΟΡΙΣΜΟΣ",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Επιβεβαιώσεις & επιστροφές",
     "rowNewConversations": "Νέες συζητήσεις",
     "rowMarketing": "Συστάσεις & προσφορές",
+    "rowSocialEyebrow": "Κοινωνική",
+    "rowSocial": "Κοινωνική δραστηριότητα",
+    "rowSocialDesc": "Νέοι ακόλουθοι, υπενθυμίσεις, αιτήματα αναθεώρησης",
+    "newRegistrationsEyebrow": "Οργανωτής",
+    "newRegistrationsTitle": "Νέες εγγραφές",
+    "newRegistrationsDescription": "Πόσο συχνά σας στέλνουν email όταν κάποιος εγγραφεί για τα γεγονότα σας",
+    "newRegistrationsFreq": {
+      "realtime": "Σε πραγματικό χρόνο",
+      "hourly": "Ωριαία",
+      "daily": "Καθημερινά",
+      "off": "Κλείσιμο"
+    },
+    "quietHoursEyebrow": "Μην ενοχλείτε.",
+    "quietHoursTitle": "Ώρες ησυχίας",
+    "quietHoursDescription": "Παύση μη ουσιωδών ειδοποιήσεις ώθηση / SMS σε μια νύχτα. Πάντα έρχονται σημαντικές ειδοποιήσεις.",
+    "quietHoursFrom": "Από",
+    "quietHoursTo": "Μέχρι",
     "rowSounds": "Ακούγεται σε στιγμές-κλειδιά",
     "rowSoundsSubtitle": "Αναπαραγωγή ήχου κατά την επιβεβαίωση πληρωμής ή σάρωση QR",
     "rowTwoFA": "Ταυτοποίηση δύο συντελεστών",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Τιμολόγια",
     "shortcutTaxes": "Φόροι",
     "shortcutMyEvents": "Τα Γεγονότα μου",
-    "shortcutHelp": "Βοήθεια"
+    "shortcutHelp": "Βοήθεια",
+    "rowMyDataAtExhibitors": "Τα δεδομένα μου κρατούνται από εκθέτες",
+    "rowLiveBanner": "banner ζωντανών εκδηλώσεων",
+    "rowLiveBannerSubtitle": "Εμφάνιση ενός banner για να συμμετάσχετε σε ένα γεγονός που είναι σήμερα ζωντανό.",
+    "pushPermissionTitle": "Οι ειδοποιήσεις ακυρώνονται για αυτή τη συσκευή",
+    "pushPermissionMessage": "Οι ρυθμίσεις του συστήματός σας μπλοκάρουν EventEz ειδοποιήσεις. Άνοιγμα ρυθμίσεων συστήματος για να τους επιτραπεί.",
+    "rowShareAttendance": "Ενημέρωσε τις διασυνδέσεις μου.",
+    "rowShareAttendanceSubtitle": "Οι διασυνδέσεις σου μπορούν να δουν ότι παρακολουθείς μια εκδήλωση. Εκτός προεπιλογής; ποτέ για εκδηλώσεις μόνο πρόσκλησης.",
+    "rowNotifyMemories": "Γνωστοποιήσεις “Πριν από ένα χρόνο”",
+    "rowNotifyMemoriesSubtitle": "Το πολύ μία υπενθύμιση την εβδομάδα, στην επέτειο μιας εκδήλωσης που παρακολουθήσατε.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Μια ιδιωτική ανακεφαλαίωση του έτους σας, τον Δεκέμβριο. Κανείς άλλος δεν το βλέπει.",
+    "madeInDouala": "Φτιαγμένο στην Ντουάλα, με προσοχή.",
+    "madeInDoualaSub": "Ευχαριστώ που έφερες τα γεγονότα στη ζωή μαζί μας.",
+    "rowUiSounds": "Ήχοι διεπαφής",
+    "rowUiSoundsSubtitle": "Πολύ διακριτικοί ήχοι σε επιβεβαιώσεις και εισερχόμενες ειδοποιήσεις. Από προεπιλογή.",
+    "vibrationsEyebrow": "ΟΥΧΙ",
+    "rowVibrations": "Δονήσεις",
+    "rowVibrationsSubtitle": "Haptic feedback on key actions: πληρωμή, σάρωση, favorites.",
+    "rowMotionGestures": "Χειρονομίες κίνησης",
+    "rowMotionGesturesSubtitle": "Ανακινήστε, αναποδογυρίστε ή κρατήστε το τηλέφωνό σας για κάποιες ενέργειες. Ένα κουμπί είναι πάντα διαθέσιμο.",
+    "notificationsEyebrowOngoing": "Κοινοποιήσεις",
+    "rowOngoingEvent": "Καρφωμένο εισιτήριο την ημέρα εκδήλωσης",
+    "rowOngoingEventSubtitle": "Μια ήσυχη ειδοποίηση, 3 ώρες πριν και κατά τη διάρκεια της εκδήλωσης, με το εισιτήριο και τις οδηγίες σας.",
+    "rowNotificationSounds": "Ήχοι ειδοποίησης",
+    "rowNotificationSoundsSubtitle": "Επιλέξτε τον ήχο για κάθε κατηγορία (μεγάλες στιγμές, πωλήσεις, μηνύματα...) στις ρυθμίσεις του τηλεφώνου σας"
   },
   "messages": {
     "title": "Μηνύματα",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Αναζήτηση επαφής...",
     "searchEyebrow": "Αναζήτηση",
     "searchHint": "Τύπος αναζήτησης",
-    "noOneFound": "Δεν βρέθηκε κανείς."
+    "noOneFound": "Δεν βρέθηκε κανείς.",
+    "myConnectionsSection": "Οι διασυνδέσεις μου",
+    "searchResultsSection": "Αποτελέσματα",
+    "noConnectionsEyebrow": "ΔΙΚΤΥΟ",
+    "noConnectionsTitle": "Καμία σύνδεση ακόμα",
+    "noConnectionsCta": "Σύνδεση μέσω QR",
+    "emptyEyebrowArchived": "ΑΡΧΕΙΟ",
+    "emptyEyebrowEmpty": "ΑΝΕΡΓΙΑ ΙΝΒΟΧ",
+    "archivedEmptyDesc": "Οι αρχειοθετημένες συζητήσεις σου θα έρθουν εδώ.",
+    "noConversationsDesc": "Ξεκινήστε ένα νέο μήνυμα — θα βρούμε κάποιον να μιλήσουμε.",
+    "attachmentPreview": "[Επικόλληση]",
+    "noMatchingMessage": "Κανένα αντίστοιχο μήνυμα"
   },
   "notifications": {
     "title": "Κοινοποιήσεις",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Τι νέα;",
     "typePendingModeration": "Για επανεξέταση",
     "typeModerationReminder": "Σειρά μέτρησης",
+    "typeNewFollower": "Νέος ακόλουθος",
+    "typeFollowedOrganizerNewEvent": "Νέα εκδήλωση",
+    "typeFollowRegistered": "Μια σύνδεση πηγαίνει",
+    "typeConnectionsAtEvent": "Οι συνδέσεις σας",
+    "eyebrowNetwork": "ΔΙΚΤΥΟ",
+    "eyebrowSoon": "ΣΙΤΟΣ",
+    "eyebrowReminder": "ΥΠΟΛΟΓΙΣΜΟΣ",
+    "eyebrowModeration": "ΣΥΓΧΡΟΝΙΣΜΟΣ",
+    "eyebrowToReview": "ΕΠΙΣΚΟΠΗΣΗ",
+    "eyebrowDiscovery": "ΑΝΑΚΤΗΣΗ",
+    "eyebrowUrgent": "ΕΠΕΙΓΟΝ",
+    "eyebrowWhatsNew": "ΤΙ ΝΕΑ",
+    "filterReadTab": "Ανάγνωση",
+    "groupToday": "ΣΗΜΕΡΑ",
+    "groupYesterday": "Χτες",
+    "tabAll": "Όλα",
+    "tabNetwork": "Δίκτυο",
     "typeDefault": "Κοινοποίηση",
     "filterAllTab": "Όλα",
     "filterUnreadTab": "Μη αναγνωσμένο",
@@ -1739,7 +1919,26 @@
     "statTotal": "ΣΥΝΟΛΟ",
     "statUnread": "ΑΝΟΙΓΜΑ",
     "statToday": "ΣΗΜΕΡΑ",
-    "viewDetails": "Προβολή λεπτομερειών"
+    "viewDetails": "Προβολή λεπτομερειών",
+    "actions": {
+      "showTicket": "Δείξε το εισιτήριό μου",
+      "directions": "Οδηγίες",
+      "going": "Φεύγω.",
+      "viewTicket": "Προβολή εισιτηρίου",
+      "reply": "Απάντηση",
+      "replyPlaceholder": "Το μήνυμά σας...",
+      "replySubmit": "Αποστολή",
+      "markRead": "Σημείωση ως αναγνωσμένο",
+      "joinLive": "Συμμετοχή",
+      "payNow": "Πλήρωσε τώρα.",
+      "writeTo": "Μηνύματα.",
+      "viewEvent": "Προβολή γεγονότος",
+      "viewTickets": "Δείτε τα εισιτήριά μου",
+      "viewRefund": "Προβολή επιστροφής",
+      "viewProfile": "Προβολή προφίλ",
+      "summaryTitle": "Μηνύματα",
+      "summaryBody": "Νέα μηνύματα"
+    }
   },
   "dashboard": {
     "title": "Επιτραπέζιος πίνακας",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Διαχείριση του σχεδίου μου",
     "exportTitle": "Εξαγωγή",
     "exportSubtitle": "Τα δεδομένα σας",
-    "settingsLink": "Settings"
+    "settingsLink": "Settings",
+    "greetingNight": "Καλό βράδυ."
   },
   "following": {
     "title": "Τα αγαπημένα μου",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Η πρόσκληση απορρίφθηκε.",
     "declineError": "Δεν μπορούσα να αρνηθώ την πρόσκληση.",
     "declineButton": "Παρακώλυση",
+    "declineConfirmTitle": "Παρακώλυση πρόσκλησης",
+    "declineConfirmMessage": "Σίγουρα θέλεις να αρνηθείς την πρόσκληση;",
     "fromLabel": "ΑΠΟ",
     "toLabel": "ΕΚΔΟΧΩΝ",
     "organizerFallback": "Οργανωτής",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Αποτυχία αποστολής",
     "downloadFailed": "Αποτυχία λήψης",
     "tryAgain": "Προσπάθησε ξανά.",
-    "contactSupport": "Υποστήριξη επαφής"
+    "contactSupport": "Υποστήριξη επαφής",
+    "timeout": "Το αίτημα άργησε πολύ. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
+    "validation": "Μερικές λεπτομέρειες είναι άκυρες. Φτιάξτε τα τονισμένα πεδία και προσπαθήστε ξανά.",
+    "fields": {
+      "title": "Τίτλος",
+      "subtitle": "Υπότιτλος",
+      "message": "Μήνυμα",
+      "image": "Εικόνα",
+      "cta_label": "Ετικέτα κουμπιού",
+      "cta_url": "Σύνδεση κουμπιού",
+      "link_url": "Δεσμός",
+      "target_event": "Στοχευμένη εκδήλωση",
+      "country": "Χώρες",
+      "city": "Πόλη",
+      "radius_km": "Ακτίνα",
+      "placement": "Τοποθέτηση",
+      "priority": "Προτεραιότητα",
+      "severity": "Σοβαρότητα",
+      "audience": "Κοινό",
+      "platform": "Πλατφόρμα",
+      "valid_from": "Ισχύει από",
+      "valid_until": "Ισχύει έως"
+    },
+    "http": {
+      "badRequest": "Δεν μπορούσαμε να επεξεργαστούμε το αίτημά σου. Παρακαλώ ελέγξτε τα στοιχεία σας και προσπαθήστε ξανά.",
+      "unauthorized": "Η συνεδρία σου έληξε. Παρακαλώ υπογράψτε ξανά.",
+      "forbidden": "Δεν έχεις άδεια να το κάνεις αυτό.",
+      "notFound": "Δεν μπορέσαμε να βρούμε αυτό που έψαχνες.",
+      "conflict": "Αυτή η δράση έρχεται σε σύγκρουση με το σημερινό κράτος. Ξαναπροσπάθησε.",
+      "tooManyRequests": "Πολλές προσπάθειες. Παρακαλώ περιμένετε ένα λεπτό και προσπαθήστε ξανά.",
+      "server": "Οι σέρβερ μας έχουν πρόβλημα τώρα. Παρακαλώ προσπαθήστε ξανά σε λίγα λεπτά.",
+      "updating": "EventEz ενημερώνει. Παρακαλώ προσπαθήστε ξανά σε λίγα δευτερόλεπτα."
+    },
+    "codes": {
+      "emailTaken": "Αυτό το email είναι ήδη συνδεδεμένο με ένα λογαριασμό. Υπογραφή ή χρήση άλλης διεύθυνσης.",
+      "usernameTaken": "Αυτό το όνομα χρήστη έχει ήδη ληφθεί, παρακαλώ επιλέξτε ένα άλλο.",
+      "weakPassword": "Επιλέξτε έναν κωδικό πρόσβασης τουλάχιστον 8 χαρακτήρων που αναμιγνύουν γράμματα και αριθμούς.",
+      "invalidCredentials": "Λάθος email ή κωδικός πρόσβασης. Δοκιμάστε ξανά ή επαναφέρετε τον κωδικό σας.",
+      "resetLinkExpired": "Αυτός ο σύνδεσμος επαναφοράς έχει λήξει. Ζήτα ένα καινούργιο.",
+      "otpInvalid": "Ο κωδικός αυτός είναι λανθασμένος ή έχει λήξει. Ελέγξτε το ή ζητήστε ένα νέο.",
+      "otpSendFailed": "Δεν μπορούσαμε να στείλουμε τον κωδικό SMS. Ελέγξτε τον αριθμό σας και προσπαθήστε ξανά, ή συνδεθείτε με το email σας.",
+      "paymentMethodUnsupported": "Αυτή η μέθοδος πληρωμής δεν είναι διαθέσιμη για αυτό το γεγονός. Σε παρακαλώ, διάλεξε άλλη.",
+      "paymentFailed": "Η πληρωμή σου δεν μπορούσε να ολοκληρωθεί. Δεν έχεις κατηγορηθεί. Δοκιμάστε ξανά ή χρησιμοποιήστε άλλη μέθοδο.",
+      "paymentNetwork": "Η σύνδεση έπεσε κατά τη διάρκεια της πληρωμής. Ελέγξτε το διαδίκτυο σας και προσπαθήστε ξανά — δεν θα χρεωθείτε δύο φορές.",
+      "paymentTimeout": "Η πληρωμή σου αργεί περισσότερο από όσο αναμενόταν. Μην πληρώσετε ξανά — ελέγξτε τα εισιτήριά σας σε λίγα λεπτά, ή επικοινωνήστε με την υποστήριξη αν δεν έρθει τίποτα.",
+      "paymentVerifyFailed": "Δεν μπορέσαμε να επιβεβαιώσουμε την πληρωμή σου ακόμα. Αν χρεωθείτε, τα εισιτήριά σας θα εμφανιστούν σύντομα — ελέγξτε ξανά σε λίγα λεπτά.",
+      "refundFailed": "Η αίτηση επιστροφής σου δεν μπορούσε να σταλεί. Παρακαλώ προσπαθήστε ξανά, ή επικοινωνήστε με την υποστήριξη.",
+      "insufficientBalance": "Ανεπαρκής ισορροπία για την επιχείρηση αυτή.",
+      "payoutLocked": "Αυτή η πληρωμή δεν μπορεί πλέον να αλλάξει επειδή η επεξεργασία έχει ήδη ξεκινήσει. Επικοινωνήστε με την υποστήριξη αν αυτό είναι λάθος.",
+      "planLimitReached": "Έφτασες στα όρια του σχεδίου σου. Αναβάθμισε το σχέδιό σου να συνεχίσεις.",
+      "countryNotSupported": "Οι πληρωμές δεν είναι διαθέσιμες ακόμα σε αυτή τη χώρα. Μπορείτε να δημιουργήσετε το γεγονός σε μια υποστηριζόμενη χώρα, ή να επικοινωνήσετε μαζί μας."
+    },
+    "tickets": {
+      "offline": "Είσαι εκτός λειτουργίας τώρα. Εισιτήρια που έχετε ήδη φορτώσει παραμένουν διαθέσιμα εκτός σύνδεσης. Ξαναπροσπάθησε μόλις ξαναμπείς στο ίντερνετ.",
+      "timeout": "Τα εισιτήριά σας αργούν να φορτώσουν. Τίποτα δεν χάνεται: σώζονται με ασφάλεια. Προσπάθησε ξανά σε ένα λεπτό.",
+      "server": "Οι σέρβερ μας έχουν ένα σύντομο πρόβλημα. Τα εισιτήριά σας είναι ασφαλή με το μέρος μας. Προσπάθησε ξανά σε λίγα λεπτά.",
+      "notFound": "Δεν μπορούμε να βρούμε αυτό το εισιτήριο. Τα άλλα σου εισιτήρια δεν επηρεάζονται. Ανανέωση της λίστας ή ελέγξτε το email επιβεβαίωσης.",
+      "forbidden": "Αυτό το εισιτήριο ανήκει σε άλλο λογαριασμό. Τα δικά σου εισιτήρια είναι ανέγγιχτα. Συνδεθείτε με το λογαριασμό που χρησιμοποιείται για την αγορά."
+    },
+    "messages": {
+      "offline": "Είσαι εκτός λειτουργίας τώρα. Τα μηνύματά σας δεν χάνονται: εν αναμονή αυτών θα βγουν μόλις είστε πίσω στο διαδίκτυο. Δοκιμάστε ξανά όταν επιστρέψει το δίκτυο.",
+      "timeout": "Τα μηνύματα αργούν να απαντήσουν. Τα μηνύματά σου δεν χάθηκαν. Προσπάθησε ξανά σε ένα λεπτό.",
+      "server": "Το μήνυμα είναι ότι έχουμε ένα σύντομο λόξυγγα στο πλευρό μας. Οι συζητήσεις σου είναι άθικτες. Προσπάθησε ξανά σε λίγα λεπτά.",
+      "notFound": "Αυτή η συζήτηση δεν υπάρχει πια. Οι άλλες συζητήσεις σας δεν επηρεάζονται. Επιστρέψτε στα μηνύματά σας.",
+      "forbidden": "Δεν έχεις πλέον πρόσβαση σε αυτή τη συζήτηση. Οι άλλες συζητήσεις σας είναι ακόμα διαθέσιμες. Επιστρέψτε στα μηνύματά σας."
+    },
+    "event": {
+      "offline": "Είσαι εκτός σύνδεσης, οπότε δεν μπορούμε να δείξουμε αυτό το γεγονός. Τα εισιτήριά σας είναι διαθέσιμα εκτός σύνδεσης. Ξαναπροσπάθησε μόλις ξαναμπείς στο ίντερνετ.",
+      "timeout": "Αυτή η σελίδα εκδηλώσεων αργεί να φορτώσει. Τίποτα δεν έχει αλλάξει με το μέρος σου. Προσπάθησε ξανά σε ένα λεπτό.",
+      "server": "Ένας σύντομος λόξυγκας μας εμποδίζει να δείξουμε αυτό το γεγονός. Τα εισιτήρια και οι άδειες σας δεν επηρεάζονται. Προσπάθησε ξανά σε λίγα λεπτά.",
+      "notFound": "Αυτή η εκδήλωση δεν είναι πλέον σε απευθείας σύνδεση: ο διοργανωτής μπορεί να το έχει αφαιρέσει. Οποιαδήποτε εισιτήρια έχετε διαμονή σε \"Τα εισιτήριά μου\". Περισσότερα γεγονότα περιμένουν στο Discover.",
+      "forbidden": "Αυτή η εκδήλωση είναι ιδιωτική. Ο λογαριασμός σου δεν είναι το θέμα. Ζητήστε από τον οργανωτή μια πρόσκληση για να αποκτήσετε πρόσβαση."
+    },
+    "upload": {
+      "offline": "Το ανέβασμα δεν μπορούσε να ξεκινήσει: είσαι εκτός σύνδεσης. Ο φάκελός σου είναι ακόμα στο τηλέφωνό σου. Ξαναπροσπάθησε μόλις ξαναμπείς στο ίντερνετ.",
+      "timeout": "Το ανέβασμα άργησε πολύ. Ο φάκελός σου είναι ακόμα στο τηλέφωνό σου. Δοκιμάστε ξανά, ιδανικά σε Wi-Fi ή με ελαφρύτερο αρχείο.",
+      "server": "Ο διακομιστής δεν μπορούσε να λάβει το αρχείο. Είναι ακόμα ασφαλές στο τηλέφωνό σου. Προσπάθησε ξανά σε λίγα λεπτά.",
+      "notFound": "Ο προορισμός αποστολής δεν υπάρχει πλέον. Ο φάκελός σου είναι ακόμα ασφαλής στο τηλέφωνό σου. Ανανέωση της οθόνης και προσπαθήστε ξανά.",
+      "forbidden": "Δεν επιτρέπεται να ανεβάσετε αυτό το αρχείο εδώ. Είναι ακόμα ασφαλές στο τηλέφωνό σου. Ελέγξτε ότι είστε συνδεδεμένοι με το σωστό λογαριασμό.",
+      "tooLarge": "Αυτό το αρχείο είναι πολύ μεγάλο για αποστολή. Είναι ακόμα ασφαλές στο τηλέφωνό σου. Επιλέξτε ένα ελαφρύτερο αρχείο ή κόψτε την εικόνα."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Ανεμοστρόβιλος",
@@ -2572,7 +2854,10 @@
     "successTitle": "Συγχαρητήρια!",
     "successMessage": "Τώρα είσαι οργανωτής. Δημιουργήστε το πρώτο σας event!",
     "errorTitle": "Σφάλμα",
-    "errorGeneric": "Συνέβη ένα σφάλμα"
+    "errorGeneric": "Συνέβη ένα σφάλμα",
+    "labelWebsite": "Ιστοσελίδα (προαιρετικό)",
+    "labelDescription": "Περιγραφή (προαιρετικό)",
+    "placeholderDescription": "Σύστησε την οργάνωσή σου..."
   },
   "verificationForm": {
     "pdfOpenError": "Αδυναμία ανοίγματος του εγγράφου.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Υβριδικό",
     "priceAny": "Όλα",
     "priceFree": "Δωρεάν",
-    "pricePaid": "Πληρωμένο"
+    "pricePaid": "Πληρωμένο",
+    "shareSearch": "Μοιραστείτε αυτή την αναζήτηση",
+    "shareMessage": "Δείτε αυτά τα γεγονότα στο EventEz"
   },
   "map": {
     "filtersTitle": "Φίλτρα",
@@ -2779,6 +3066,10 @@
     "statsRating": "ΤΑΞΙΝΟΜΗΣΗ",
     "statsSince": "ΑΠΟ",
     "contactA11y": "Διοργανωτής επαφών",
+    "connectA11y": "Σύνδεση",
+    "connectedA11y": "Ήδη συνδεδεμένος",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Δεν μπορούσα να συνδεθώ. Παρακαλώ προσπαθήστε ξανά.",
     "bioEyebrow": "ΒΙΟ",
     "bioTitle": "Σχετικά",
     "linksEyebrow": "ΙΣΤΟΣΕΛΙΔΑ",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Δημοσιευμένες εκδηλώσεις",
     "loadingEvents": "Φόρτωση...",
     "noEvents": "Δεν δημοσιεύθηκαν γεγονότα",
-    "freeBadge": "ΕΛΕΥΘΕΡΗ"
+    "freeBadge": "ΕΛΕΥΘΕΡΗ",
+    "tabs": {
+      "upcoming": "Προσεχώς",
+      "past": "Παρελθόν"
+    }
   },
   "sessionDetails": {
     "title": "Συνεδρία",
@@ -3223,7 +3518,12 @@
     "codeLabel": "ΚΩΔΙΚΟΣ",
     "emptyEyebrow": "ΕΙΜΑΣΤΕ",
     "emptyTitle": "Δεν υπάρχει ακόμα κωδικός.",
-    "emptySubtitle": "Οι κωδικοί παραπομπής θα εμφανιστούν εδώ μόλις είναι διαθέσιμοι."
+    "emptySubtitle": "Οι κωδικοί παραπομπής θα εμφανιστούν εδώ μόλις είναι διαθέσιμοι.",
+    "generateCta": "Δημιουργία του κώδικα μου",
+    "generating": "Δημιουργία...",
+    "generateSuccess": "Κώδικας αναφοράς δημιουργήθηκε!",
+    "generateError": "Δεν μπορούσε να δημιουργήσει τον κώδικα. Παρακαλώ προσπαθήστε ξανά.",
+    "copySuccess": "Αντιγραφή συνδέσμου αναφοράς"
   },
   "teamManagement": {
     "eyebrow": "ΟΜΑΔΑ",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Προβολή αναλύσεων",
     "perm_view_registrations": "Προβολή λίστας εγγραφών",
     "perm_edit_event": "Επεξεργασία του γεγονότος",
-    "perm_manage_team": "Προσκαλέστε άλλα μέλη της ομάδας"
+    "perm_manage_team": "Προσκαλέστε άλλα μέλη της ομάδας",
+    "role_co_organizer": "Συνδιοργανωτής",
+    "role_moderator": "Συντονιστής",
+    "role_scanner": "Σαρωτής",
+    "role_analyst": "Αναλυτής",
+    "status_pending": "Σε αναμονή",
+    "status_accepted": "Ενεργό",
+    "status_declined": "Μείωση",
+    "status_revoked": "Απορρίφθηκε",
+    "status_expired": "Λήξη"
   },
   "myTeamEvents": {
     "eyebrow": "Πίσω από τις σκιές",
@@ -3276,8 +3585,10 @@
     "willAttend": "Θα είμαι εκεί.",
     "wontAttend": "Δεν μπορώ να τα καταφέρω.",
     "partySize": "Αριθμός επιπλέον επισκεπτών",
+    "partySizeHint": "Εκτός από σένα. Π.χ. 2 αν φέρνεις 2 άτομα.",
     "dietary": "Διατροφικές απαιτήσεις / αλλεργίες",
     "note": "Μια λέξη για το ζευγάρι.",
+    "noteOptional": "Μια λέξη για το ζευγάρι (προαιρετική)",
     "submit": "Στείλε την απάντησή μου.",
     "thanksAccepted": "Ευχαριστώ! Η παρουσία σας επιβεβαιώθηκε.",
     "thanksDeclined": "Ευχαριστώ που μας ενημέρωσες.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Το όνομά σου.",
     "giftMethod": "Μέθοδος πληρωμής",
     "giftPay": "Συμβολή",
-    "giftError": "Η πληρωμή δεν μπορούσε να ξεκινήσει."
+    "giftThanks": "Σας ευχαριστώ για τη συμβολή σας!",
+    "giftRedirectNote": "Θα μεταφερθείς σε ασφαλή σελίδα πληρωμής. Αυτό είναι φυσιολογικό.",
+    "giftError": "Η πληρωμή δεν μπορούσε να ξεκινήσει.",
+    "rsvpSubmitError": "Η απάντησή σου δεν μπορούσε να σταλεί. Παρακαλώ προσπαθήστε ξανά.",
+    "summaryTitle": "Η απάντησή σας",
+    "summaryAccepted": "Επιβεβαίωσες την παρουσία σου.",
+    "summaryDeclined": "Αρνήθηκες την πρόσκληση.",
+    "summaryPartySize": "Επισκέπτες μαζί σας",
+    "summaryHeadcount": "Διατηρούμενες θέσεις",
+    "summaryDietary": "Οι διατροφικές ανάγκες",
+    "summaryTable": "Το τραπέζι σου",
+    "summaryTablePending": "Το τραπέζι σας θα μοιραστεί πριν την εκδήλωση."
   },
   "teamInvitation": {
     "eyebrow": "ΕΡΕΥΝΑ",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Συζήτηση μόνο για ανάγνωση. Αποθήκευση μηνυμάτων σας.",
     "mutedLockMessage": "Έχετε βουβή σε αυτή τη συζήτηση από τον οργανωτή.",
     "postingLockMessage": "Μόνο ο διοργανωτής μπορεί να δημοσιεύσει σε αυτή τη συζήτηση.",
-    "defaultUserName": "αυτός ο χρήστης"
+    "defaultUserName": "αυτός ο χρήστης",
+    "someFilesQueuedForRetry": "Κάποια αρχεία θα δυσανασχετήσουν μόλις επιστρέψει η σύνδεση.",
+    "retrySend": "Επανάληψη",
+    "newMessagesBadge_one": "{{count}} νέο μήνυμα",
+    "newMessagesBadge_other": "{{count}} νέα μηνύματα",
+    "scrollToBottom": "Κύλιση στο κάτω μέρος",
+    "tapToLoadImage": "Πατήστε για φόρτωση",
+    "reply": "Απάντηση",
+    "react": "Αντίδραση",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Συζήτηση μόνο για ανάγνωση.",
+    "headerCollapseA11y": "Απόκρυψη banner",
+    "headerExpandA11y": "Εμφάνιση banner",
+    "headerCollapseLabel": "Απόκρυψη",
+    "headerExpandLabel": "Λεπτομέρειες γεγονότων"
   },
   "scanForm": {
     "loading": "Φόρτωση...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Συντονιστής",
     "roleAdmin": "Διαχειριστής",
     "fallbackEvent": "Γεγονός",
-    "fallbackUnknownUser": "Χρήστης"
+    "fallbackUnknownUser": "Χρήστης",
+    "statusUnknown": "Άγνωστη κατάσταση"
   },
   "refundRequest": {
     "watermarkBack": "ΠΙΣΩ",
     "watermarkOops": "ΟΠΣ",
     "loadError": "Αδυναμία φόρτωσης λεπτομερειών πληρωμής",
     "paymentNotFound": "Η πληρωμή δε βρέθηκε",
+    "blockedNotOwner": "Αυτή η πληρωμή δεν συνδέεται με το λογαριασμό σας, οπότε δεν μπορείτε να ζητήσετε επιστροφή χρημάτων.",
+    "blockedNotCompleted": "Μόνο οι επιβεβαιωμένες πληρωμές μπορούν να επιστραφούν. Η πληρωμή δεν επιστρέφεται.",
+    "blockedAlreadyRequested": "Μια αίτηση επιστροφής είναι ήδη σε εξέλιξη για την πληρωμή αυτή.",
+    "blockedGeneric": "Αυτή η πληρωμή δεν είναι επιλέξιμη για επιστροφή χρημάτων τώρα.",
     "back": "Πίσω",
     "closeA11y": "Κλείσιμο",
     "eyebrow": "ΕΠΙΣΤΡΟΦΗ • ΕΠΙΣΤΡΟΦΗ",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Κωδικός πρόσβασης (προαιρετικό)",
       "accessCodeHint": "Οι επισκέπτες θα πρέπει να εισάγετε αυτόν τον κώδικα για να δείτε τις λεπτομέρειες",
       "accessCodePlaceholder": "Κενό χωρίς κωδικό",
-      "featuredInfo": "Μπορείτε να ζητήσετε να παρουσιάσει την εκδήλωση σας μετά τη δημιουργία από \"Τα γεγονότα μου."
+      "accessCodeKeepPlaceholder": "Νέος κωδικός (αφήστε κενό για να κρατήσετε τον τρέχοντα)",
+      "accessCodeActive": "Ένας κωδικός πρόσβασης είναι ενεργός.",
+      "accessCodeWillBeRemoved": "Ο κώδικας θα αφαιρεθεί όταν αποθηκεύσετε.",
+      "accessCodeRemove": "Αφαίρεση κώδικα",
+      "accessCodeUndoRemove": "Αναίρεση",
+      "featuredInfo": "Μπορείτε να ζητήσετε να παρουσιάσει την εκδήλωση σας μετά τη δημιουργία από \"Τα γεγονότα μου.",
+      "categorySuggestion": "Πρόταση: {{name}}"
     },
     "step2": {
       "title": "Ημερομηνία και τόπος",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Επιλογή στο χάρτη",
       "mapHint": "Για την εμφάνιση του γεγονότος στο χάρτη και την ενεργοποίηση πλοήγησης",
       "virtualLocationTitle": "Εικονική τοποθεσία",
+      "eventezVisioLabel": "Χρήση EventEz Βίντεο",
+      "eventezVisioHint": "Ενσωματωμένη τηλεδιάσκεψη — το δωμάτιο δημιουργείται αυτόματα, δεν χρειάζεται εξωτερική σύνδεση.",
       "platformLabel": "Πλατφόρμα",
       "platformPlaceholder": "Πρώην: Zoom, Google Meet, Ομάδες",
       "connectionUrlLabel": "Σύνδεση",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Έναρξη πωλήσεων",
       "salesEndLabel": "Τέλος πωλήσεων",
       "visibleLabel": "Ορατή",
+      "accessModeLabel": "Πρόσβαση που παρέχεται από το παρόν εισιτήριο",
+      "accessInPerson": "Προσωπικά",
+      "accessOnline": "Σύνδεση",
+      "accessBoth": "Και τα δύο",
       "visibleDesc": "Εμφάνιση αυτού του εισιτηρίου δημοσίως",
       "addAnotherTicket": "Προσθήκη νέου εισιτηρίου",
       "registrationFormTitle": "Έντυπο εγγραφής (προαιρετικό)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Κλείσιμο μενού",
       "cancel": "Ακύρωση"
+    },
+    "venuePicker": {
+      "label": "Χρήση αποθηκευμένου χώρου",
+      "hint": "Τα πεδία συμπληρώνονται αυτόματα. Μπορείτε να τα ρυθμίσετε μετά."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Ανάλυση τύπου γεγονότων",
       "sourcePaymentMethods": "Μέθοδοι πληρωμής",
       "sourceGeographical": "Γεωγραφική κατανομή"
-    }
+    },
+    "widgetDataUnavailable": "Δεδομένα μη διαθέσιμα."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Προηγούμενο",
       "next": "Επόμενο",
       "selectDatePlaceholder": "Επιλέξτε μια ημερομηνία",
-      "selectTimePlaceholder": "Επιλέξτε μια ώρα"
+      "selectTimePlaceholder": "Επιλέξτε μια ώρα",
+      "selectPlaceholder": "Επιλογή...",
+      "searchPlaceholder": "Αναζήτηση..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Τα εισιτήρια προστέθηκαν με επιτυχία",
     "alreadyRegisteredConfirmTitle": "Ήδη καταχωρισμένη",
     "alreadyRegisteredConfirmMessage": "Είστε ήδη εγγεγραμμένοι για αυτό το γεγονός.",
-    "createRegistrationError": "Αδυναμία δημιουργίας της εγγραφής"
+    "createRegistrationError": "Αδυναμία δημιουργίας της εγγραφής",
+    "accessMode": {
+      "in_person": "Μόνο αυτοπροσώπως",
+      "online": "Πρόσβαση στο διαδίκτυο",
+      "hybrid": "Προσωπικά + σε απευθείας σύνδεση"
+    },
+    "limitStock": "Μόνο {{max}}Έμειναν εισιτήρια αυτού του τύπου.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Μόνο ένα μέρος έμεινε.",
+    "onlyNLeft_other": "Μόνο {{count}} θέσεις αριστερά",
+    "ctaSuspended": "Διακοπή αγορών",
+    "suspendedByIncident": "Οι αγορές παύουν προσωρινά λόγω περιστατικού. Ακολουθήστε ενημερώσεις στη σελίδα Status."
   },
   "registrationDetails": {
     "headerInscription": "Η εγγραφή μου.",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Ακύρωση",
     "statusInscriptionRejected": "Απορρίπτεται",
     "statusInscriptionValidated": "Επικυρωμένο",
-    "statusInscriptionUnknown": "Άγνωστο"
+    "statusInscriptionUnknown": "Άγνωστο",
+    "pdfEyebrow": "ΠΕΡΙΛΗΨΗ ΚΑΤΑΓΡΑΦΗΣ",
+    "pdfDate": "Ημερομηνία",
+    "pdfPlace": "Χώρος",
+    "pdfReference": "Βάση",
+    "pdfStatus": "Κατάσταση",
+    "pdfQrHint": "Εμφάνιση αυτού του κώδικα QR στην είσοδο",
+    "pdfShareDialog": "Κοινοποίηση περίληψης",
+    "pdfError": "Αδυναμία δημιουργίας του PDF αυτή τη στιγμή.",
+    "pdfA11y": "Εξαγωγή περίληψης ως PDF"
   },
   "qrCode": {
     "headerEyebrow": "ΤΙΚΕΤ · {{ref}}",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "Ο κωδικός QR θα σαρωθεί στην είσοδο.",
     "tipArriveLines": "Φτάνουμε στην ώρα μας για να παρακάμψουμε τις γραμμές",
     "validatedTitle": "Επικυρωμένο εισιτήριο",
+    "stampValidated": "Το έλεγξα.",
     "validatedAt": "Εισήλθε στις {{date}} στις {{time}}1",
     "paymentPendingTitle": "Πληρωμή που εκκρεμεί",
     "paymentPendingDesc": "Συμπληρώστε την πληρωμή σας για να επιβεβαιώσετε",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Επιβεβαίωση",
     "statusPending": "Σε αναμονή",
     "statusCancelled": "Ακύρωση",
-    "statusValidated": "Επικυρωμένο"
+    "statusValidated": "Επικυρωμένο",
+    "pdfOnline": "Σε απευθείας σύνδεση εκδήλωση",
+    "statusUnknown": "Άγνωστη κατάσταση",
+    "presentHint": "Πατήστε για να διευρύνετε τον κώδικα, για απόδειξη εγκυρότητας.",
+    "presentA11yAction": "Μεγέθυνση του κώδικα για τον έλεγχο",
+    "proofA11yAction": "Εμφάνιση απόδειξης εγκυρότητας",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Πίσω στο εισιτήριο.",
+    "presentExitHint": "Πατήστε για να επιστρέψετε"
   },
   "offlineTickets": {
     "headerTitle": "Χωρίς σύνδεση",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Θέλετε να αφαιρέσετε αυτό το εισιτήριο από την offline cache;",
     "showQR": "Εμφάνιση QR",
     "hideQR": "Απόκρυψη QR",
-    "pastBadge": "Παρελθόν"
+    "pastBadge": "Παρελθόν",
+    "download": "Λήψη εισιτηρίου",
+    "pdfEyebrow": "ΤΙΚΕΤ",
+    "pdfReference": "Βάση",
+    "pdfType": "Τύπος εισιτηρίου",
+    "pdfQuantity": "Ποσότητα",
+    "pdfDate": "Ημερομηνία",
+    "pdfShareDialog": "Αποθήκευση / κοινή χρήση εισιτηρίου",
+    "pdfError": "Αδυναμία δημιουργίας του PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Μεταφορές",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Επίσκεψη",
     "similarEventsEyebrow": "ΣΥΣΤΑΣΕΙΣ",
     "similarEventsTitle": "Παρόμοια γεγονότα",
-    "similarEventA11y": "Προβολή {{title}}"
+    "similarEventA11y": "Προβολή {{title}}",
+    "virtualLiveNow": "Ζήσε τώρα.",
+    "virtualLiveParticipants": "{{count}} σε απευθείας σύνδεση",
+    "virtualJoinLive": "Συμμετοχή ζωντανά",
+    "virtualStartsInMinutes": "Αρχίζει σε {{count}}1 λεπτά",
+    "virtualUnavailableTitle": "Μη διαθέσιμη βιντεοκλήση",
+    "virtualUnavailableNote": "EventEz Το βίντεο δεν είναι ακόμα ενεργό για αυτό το γεγονός. Ο διοργανωτής θα μοιραστεί το σύνδεσμο σύνδεσης.",
+    "virtualWaitingHostTitle": "Το live δεν έχει ξεκινήσει ακόμα.",
+    "virtualWaitingHostNote": "Θα είστε σε θέση να ενταχθούν μόλις ο οργανωτής ανοίγει το δωμάτιο.",
+    "viewCount": "{{count}} προβολή",
+    "viewCount_other": "{{count}} απόψεις",
+    "roomType": {
+      "main": "Κεντρικό δωμάτιο",
+      "session": "Συνεδρία",
+      "breakout": "Ξεμπλοκάρισμα",
+      "networking": "Δικτύωση",
+      "workshop": "Εργαστήρι"
+    },
+    "waitlistPosition": "Θέση {{position}} στην ουρά",
+    "ticketsClosesIn_days": "Κλείνει σε {{count}}δ",
+    "ticketsClosesIn_hours": "Κλείνει σε {{count}}h",
+    "ticketsClosesIn_minutes": "Κλείνει σε {{count}}min",
+    "ticketsSaleEnded": "Τέλος πωλήσεων",
+    "ticketsSaleNotStarted": "Με έκπτωση σύντομα.",
+    "peekSave": "Αποθήκευση",
+    "peekUnsave": "Αφαίρεση από το αποθηκευμένο",
+    "peekShare": "Μερίδιο",
+    "peekOpen": "Άνοιγμα",
+    "peekA11yHint": "Κρατήστε για μια προεπισκόπηση",
+    "swipeSave": "Απελευθέρωση για αποθήκευση",
+    "swipeUnsave": "Απελευθέρωση για αφαίρεση",
+    "swipeHint": "Περιστροφή για αποθήκευση",
+    "swipeRemoved": "Αφαίρεση από το αποθηκευμένο",
+    "swipeUndo": "Αναίρεση",
+    "swipeRemove": "Αφαίρεση",
+    "weather": {
+      "sunny": "Ηλιόλουστη",
+      "partlySunny": "Ηλιοφάνεια",
+      "cloudy": "Σύννεφα",
+      "fog": "Ομίχλη",
+      "rain": "Βροχή",
+      "snow": "Χιόνι",
+      "showers": "Ντους",
+      "thunderstorm": "Καταιγίδες",
+      "variable": "Αλλαγές"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Επιλογή μορφής",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Όταν αυτός ο οργανωτής δημοσιεύει μια νέα εκδήλωση",
     "followPrefsSave": "Αποθήκευση προτιμήσεων",
     "followPrefsSaveA11y": "Αποθήκευση προτιμήσεων",
-    "inAppToastA11y": "Πατήστε για να ανοίξετε."
+    "inAppToastA11y": "Πατήστε για να ανοίξετε.",
+    "webviewVisioTitle": "Βίντεο κλήσης",
+    "webviewOfflineTitle": "Είσαι εκτός σύνδεσης.",
+    "webviewOfflineBody": "Η συσκευή σου έχασε τη σύνδεσή της. Η κλήση θα συνεχιστεί μόλις επιστρέψει το δίκτυο.",
+    "webviewReconnectingIn": "Επανασύνδεση σε {{seconds}}s...",
+    "webviewSlowNetwork": "Ανιχνεύθηκε αργή σύνδεση — το βίντεο μπορεί να υποβαθμιστεί και να χρησιμοποιήσει τα δεδομένα σας."
   },
   "messageRequests": {
     "eyebrow": "ΑΝΤΙ-ΣΠΑΜ",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Απαιτείται φωτογραφική μηχανή",
     "permissionSubtitle": "Για να σαρώσετε ένα QR, το EventEz χρειάζεται πρόσβαση στην κάμερα.",
     "permissionGrant": "Επίτρεψε φωτογραφική μηχανή"
+  },
+  "media": {
+    "sheetTitle": "Τι θα ήθελες να κάνεις;",
+    "saveToGallery": "Αποθήκευση στη συλλογή",
+    "share": "Μερίδιο",
+    "savedToGallery": "Αποθηκευμένη στη συλλογή",
+    "permissionDeniedTitle": "Άρνηση αδείας",
+    "permissionDeniedMessage": "Ενεργοποίηση πρόσβασης φωτογραφιών στις Settings για αποθήκευση.",
+    "sharingUnavailable": "Η κοινή χρήση δεν είναι διαθέσιμη σε αυτή τη συσκευή.",
+    "downloadFailed": "Η λήψη απέτυχε. Παρακαλώ προσπαθήστε ξανά.",
+    "genericError": "Κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά."
   },
   "componentsMessages": {
     "inputJoinFile": "Επισύναψη αρχείου",
@@ -5127,7 +5585,7 @@
     "messages": "ΜΗΝΥΜΑΤΑ",
     "suggestions": "ΠΡΟΤΑΣΕΙΣ",
     "theme": "ΘΕΜΑ",
-    "timezoneSoon": "ΧΡΟΝΟΛΟΓΙΑ",
+    "timezone": "ΧΡΟΝΙΚΗ ΖΩΝΗ",
     "soundEffects": "ΗΧΗΤΙΚΕΣ ΕΝΕΡΓΕΙΕΣ",
     "authSoon": "ΙΣΧΥΟΣ · ΣΙΓΟΝΙΑ",
     "connectionsSoon": "ΣΥΓΚΕΝΤΡΩΣΕΙΣ · Σύντομα",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · ΣΩΘΗΚΕ",
     "tabMessages": "03 · ΜΗΝΥΜΑΤΑ",
     "tabTickets": "04 · ΕΙΣΙΤΗΡΙΑ",
-    "tabProfile": "05 · ΕΠΑΓΓΕΛΜΑ"
+    "tabProfile": "05 · ΕΠΑΓΓΕΛΜΑ",
+    "push": "Σπρώξε.",
+    "privacy": "Ιδιωτικότητα",
+    "memories": "Αναμνήσεις",
+    "yearInReview": "Έτος σε επανεξέταση"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "{{count}} επιλεγμένο",
-      "selectedCount_plural": "{{count}} επιλεγμένο",
+      "selectedCount_other": "{{count}} επιλέχθηκε",
       "approve": "Εφαρμογή",
       "reject": "Απόρριψη",
       "checkIn": "Έλεγχος εισόδου"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Κωδικοί promo",
         "linkSessions": "Σύνδεση εισιτηρίων σε συνεδρίες",
         "addPhotos": "Προσθήκη φωτογραφιών",
+        "startLive": "Πήγαινε να ζήσεις.",
         "volunteers": "Εθελοντές",
         "sponsors": "Χορηγοί",
         "seatingPlans": "Σχέδια θέσεων",
@@ -5636,7 +6099,14 @@
         "duplicate": "Αντίγραφο",
         "cancelEvent": "Ακύρωση γεγονότος",
         "cancelEventDesc": "Εγγεγραμμένοι καταχωρίζοντες",
-        "deleteDesc": "Μη αναστρέψιμη δράση"
+        "deleteDesc": "Μη αναστρέψιμη δράση",
+        "invite": "Πρόσκληση επισκεπτών",
+        "inviteDescInviteOnly": "Ο μόνος τρόπος για να δοθεί πρόσβαση σε αυτό το γεγονός μόνο πρόσκληση",
+        "duplicatePastDesc": "Έναρξη από επεξεργάσιμο αντίγραφο",
+        "remindInvites": "Υπενθύμισε στους επισκέπτες",
+        "weddingGuests": "Φιλοξενούμενοι & RSVP",
+        "weddingGifts": "Μητρώο & δώρα",
+        "weddingTables": "Σχέδιο θέσεων"
       },
       "emptyEyebrowResults": "ΟΧΙ ΑΠΟΤΕΛΕΣΜΑΤΑ",
       "emptyEyebrowCatalog": "ΑΔΕΙΓΜΑ ΚΑΤΑΛΟΓΙΑ",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Π.χ. συνθήκες υγείας, χώρος μη διαθέσιμος...",
       "keepBtn": "Διατήρηση",
       "cancelEventBtn": "Ακύρωση γεγονότος",
+      "cancelHolding": "Περίμενε...",
       "recurrenceEyebrow": "ΕΠΑΝΑΛΗΨΗ",
       "recurrenceModalTitle": "Πρόγραμμα \" 0\"",
       "recurrenceModalBody": "Δημιουργία πολλαπλών εμφανίσεων από αυτό το γεγονός. Κάθε περιστατικό είναι ένα ανεξάρτητο νέο γεγονός που μπορείτε να ρυθμίσετε.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Αυτή η εκδήλωση είναι ζωντανή. Εάν αλλάξετε κρίσιμα πεδία (τίτλος, ημερομηνίες, τοποθεσία, τύπος, χωρητικότητα), θα σταλεί πίσω στην επικύρωση και προσωρινά κρυμμένο μέχρι την επαναέγκριση.",
       "editValidatedConfirm": "Επεξεργασία ούτως ή άλλως",
       "actionEditValidated": "Επεξεργασία (πιθανή επανεπικύρωση)",
-      "actionEditValidatedDesc": "Κρίσιμα πεδία → επανεπικύρωση"
+      "actionEditValidatedDesc": "Κρίσιμα πεδία → επανεπικύρωση",
+      "inviteEyebrow": "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ",
+      "inviteTitle": "Πρόσκληση σε “{{title}}”",
+      "inviteBody": "Κάθε άτομο λαμβάνει ένα e-mail πρόσκλησης (με ένα σύνδεσμο για να αποδεχθεί). Εάν έχουν ήδη λογαριασμό EventEz, λαμβάνουν επίσης μια κοινοποίηση in-app.",
+      "inviteEmailsPlaceholder": "Emails χωρισμένα με κόμμα ή νέα γραμμή",
+      "inviteMessagePlaceholder": "Προσωπικό μήνυμα (προαιρετικό)",
+      "inviteSendBtn": "Αποστολή προσκλήσεων",
+      "inviteEmptyTitle": "Χωρίς email",
+      "inviteEmptyMessage": "Εισάγετε τουλάχιστον μία διεύθυνση email.",
+      "inviteInvalidTitle": "Μη έγκυρα emails",
+      "inviteInvalidMessage": "Παρακαλούμε ελέγξτε αυτές τις διευθύνσεις: {{emails}}",
+      "inviteSentTitle": "Προσκλήσεις που αποστέλλονται",
+      "inviteSentMessage": "{{count}} αποστέλλεται πρόσκληση.",
+      "inviteError": "Αδυναμία αποστολής προσκλήσεων.",
+      "remindSent": "{{sent}} αποστολή υπενθύμισης.",
+      "remindSentWithSkipped": "{{sent}} υπενθυμίσεις που αποστέλλονται, {{skipped}} παραλείπονται.",
+      "remindNone": "Κανένας καλεσμένος να το θυμίσει τώρα.",
+      "remindErrorTitle": "Αποτυχία υπενθύμισης",
+      "remindErrorMessage": "Οι υπενθυμίσεις δεν μπορούσαν να σταλούν. Παρακαλώ προσπαθήστε ξανά.",
+      "remindPendingProgress": "Αποστολή υπενθυμίσεων...",
+      "loadError": "Δεν μπορούσα να φορτώσω τα γεγονότα. Έλεγξε τη σύνδεσή σου."
     },
     "volunteer": {
       "tabReceived": "Ελήφθη ({{count}}1)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Μη έγκυρος κωδικός: αναμενόμενο UUID ή κωδικός αναφοράς (8-20 χαρακτήρες A-Z/0-9).",
       "sessionRecapTitle": "Περίληψη συνεδρίας",
       "sessionRecapBody": "{{scanned}} σάρωση(-εις) σε {{minutes}} min\n✓ {{success}} επικυρωμένο\n✗ {{failed}} απέτυχε",
-      "sessionRecapQueue": "⏳ {{count}} σε σειρά εκτός σύνδεσης"
+      "sessionRecapQueue": "⏳ {{count}} σε σειρά εκτός σύνδεσης",
+      "manualModeBanner": "Χειροκίνητη λειτουργία — 1 βρύση ανά άτομο",
+      "manualModeA11y": "Χειροκίνητη λειτουργία σε λειτουργία. Πατήστε για να ενεργοποιήσετε το αυτόματο check-in ξανά.",
+      "rejectedTitle_one": "{{count}} η σάρωση απορρίπτεται με συγχρονισμό",
+      "rejectedTitle_other": "{{count}} οι σαρώσεις απορρίφθηκαν με συγχρονισμό",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} εισιτήρια που έχουν ήδη ελεγχθεί (διπλή εγγραφή)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Αυτοί οι άνθρωποι μπήκαν ενώ το δίκτυο ήταν εκτός. Ρώτα την ομάδα σου.",
+      "conflictTitle_one": "{{count}} σύγκρουση εισόδου",
+      "conflictTitle_other": "{{count}} διενέξεις εισόδου",
+      "conflictDuplicate_one": "• {{count}} εισιτήριο που έχει ήδη σαρωθεί αλλού (διπλή είσοδος)",
+      "conflictDuplicate_other": "• {{count}} εισιτήρια που έχουν ήδη σαρωθεί αλλού (διπλή είσοδος)",
+      "conflictNotFound_one": "• {{count}} εισιτήριο άγνωστο στον εξυπηρετητή",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Αποδεκτή εκτός σύνδεσης από αυτό το τηλέφωνο, απορρίπτεται κατά τον συγχρονισμό. Αν κάποιος άλλος πράκτορας έκανε σάρωση ταυτόχρονα, αυτοί οι άνθρωποι μπήκαν δύο φορές.",
+      "voice": {
+        "valid": "Έγκυρο εισιτήριο",
+        "validWarning": "Ισχύει, χρειάζεται έλεγχος",
+        "alreadyCheckedIn": "Έχει ήδη ελεγχθεί",
+        "refused": "Άρνηση εισιτηρίου",
+        "enabled": "Ανακοινώσεις φωνής σε",
+        "toggleOn": "Ανακοινώσεις φωνής σε",
+        "toggleOff": "Οι φωνητικές ανακοινώσεις ακυρώνονται",
+        "toggleA11y": "Ενεργοποίηση ή απενεργοποίηση φωνητικών ανακοινώσεων αποτελεσμάτων σάρωσης"
+      }
     },
     "liveOps": {
       "live": "ΖΩΝΤΑ",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "Η ΕΠΙΔΡΑΣΗ ΣΑΣ",
       "headerTitle": "Αναλυτικοί",
+      "errorTitle": "Αναλυτικά μη διαθέσιμα",
+      "errorBody": "Δεν μπορούσα να φορτώσω τα δεδομένα. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
       "eventLabel": "ΕΚΔΗΛΩΣΗ",
       "kpiViews": "Προβολές",
       "kpiRegistrations": "Καταχωρίσεις",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Η εκδήλωση σας έχει προβληθεί {{count}} φορές",
       "insightViewsNone": "Μοιραστείτε την εκδήλωση σας για να πάρετε περισσότερες προβολές",
       "insightRegistered_one": "{{count}} εγγεγραμμένο πρόσωπο",
-      "insightRegistered_other": "{{count}} άτομα εγγεγραμμένα"
+      "insightRegistered_other": "{{count}} άτομα εγγεγραμμένα",
+      "actionBoxOffice": "Τετραγωνίδιο"
     },
     "sessionsLink": {
       "headerEyebrow": "ΠΡΟΣΒΑΣΗ • ΣΥΝΟΛΙΚΕΣ ΕΚΔΟΣΕΙΣ",
@@ -6077,6 +6599,16 @@
       "emptyText": "Οι χορηγοί θα εμφανιστούν εδώ όταν προστεθεί μια εταιρική σχέση."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Στο έντυπο έχουν εφαρμοστεί προτάσεις AI",
+      "aiTitleSuggestionsTitle": "Προτάσεις τίτλου",
+      "aiPricingSuggestionsTitle": "AI προτάσεις τιμολόγησης",
+      "aiTicketsCreated": "Εισιτήρια που δημιουργήθηκαν από τις προτάσεις της AI",
+      "aiDescGenerated": "Περιγραφή που παράγεται από την AI",
+      "aiNeedTitleFirst": "Προσθέστε πρώτα έναν τίτλο για να μπορεί η AI να δημιουργήσει μια περιγραφή.",
+      "galleryPermissionTitle": "Απαιτούμενη άδεια",
+      "galleryPermissionMessage": "Παρακαλώ, αφήστε την πρόσβαση στη βιβλιοθήκη φωτογραφιών σας",
+      "videoTooLargeTitle": "Βίντεο πολύ μεγάλο",
+      "videoTooLargeMessage": "Το βίντεο πρέπει να είναι κάτω από 20 MB.",
       "unsupportedCountryTitle": "Χώρα μη διαθέσιμη",
       "unsupportedCountryMessage": "Το EventEz δεν μπορεί να επεξεργαστεί πληρωμές σε αυτή τη χώρα ακόμα ({{country}}). Η δημιουργία γεγονότων θα απορριφθεί. Υποστηριγμένες χώρες: NotchPay, CinetPay και Stripe (46 χώρες).",
       "draftFoundTitle": "Βρέθηκε σχέδιο",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Το συμβάν υποβλήθηκε επιτυχώς",
       "viewMyEvents": "Δείτε τα γεγονότα μου",
       "createAnother": "Δημιουργία ενός άλλου",
+      "submittedStamp": "Σε επανεξέταση",
+      "submittedEyebrow": "Υποβλήθηκε για επανεξέταση",
+      "submittedBody": "Η ομάδα μας εξετάζει την εκδήλωση σας. Θα ειδοποιηθείς μόλις βγει ζωντανά.",
+      "submittedCtaEyebrow": "Επιτραπέζιος πίνακας",
       "edit": "Επεξεργασία",
       "saved": "Αποθήκευση",
       "back": "Πίσω",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Εισιτήριο “{{label}}” μέγιστο ανά παραγγελία πρέπει να είναι ≥ το λεπτό",
         "fieldLabelRequired": "Το πεδίο #{{n}} απαιτείται ετικέτα",
         "fieldOptionsRequired": "Για το πεδίο “{{label}}” απαιτούνται επιλογές"
-      }
+      },
+      "loadFailedBlocksSave": "Τα δεδομένα γεγονότων δεν ήταν δυνατό να φορτωθούν. Επαναφόρτωση της σελίδας πριν την αποθήκευση, διαφορετικά οι τρέχουσες πληροφορίες σας θα αντικατασταθούν."
     },
     "eventRegistrations": {
       "title": "Καταχωρίσεις",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, εξαγωγή PDF, ταμπλό",
       "linkMyEventsTitle": "Τα γεγονότα μου",
       "linkMyEventsSub": "Στατιστικά ανά γεγονός"
+    },
+    "boxOffice": {
+      "openTitle": "Ανοίξτε το ταμείο",
+      "openingFloatHelp": "Πόσες αλλαγές σου έδωσε ο διοργανωτής για αρχή; Χωρίς αυτό, η αποψινή καταμέτρηση θα είναι λάθος.",
+      "openDrawer": "Ανοίξτε το ταμείο",
+      "openError": "Το ταμείο δεν μπορούσε να ανοίξει.",
+      "openErrorDetail": "Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
+      "counter": "{{count}} πωλήσεις · {{amount}} {{currency}}",
+      "close": "Κλείσιμο",
+      "cash": "Μετρητά",
+      "momo": "Κινητά χρήματα",
+      "giveBack": "Δώσε πίσω",
+      "saleError": "Η πώληση δεν καταγράφηκε",
+      "saleErrorDetail": "Μην ξαναμπείτε στην πώληση: προσπαθήστε ξανά, δεν θα χρεωθεί δύο φορές.",
+      "a11y": {
+        "drawerOpened": "Μέχρι να ανοίξει",
+        "openingFloatInput": "Ποσό ανοίγματος επίπλευσης",
+        "openDrawer": "Ανοίξτε το ταμείο",
+        "counter": "{{count}} πωλήσεις, {{amount}} {{currency}} στην till",
+        "closeDrawer": "Κλείστε το ταμείο",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} προστίθεται",
+        "remove": "Αφαίρεση {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Πάρτε Κινητά Χρήματα",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} πωλήσεις που εκκρεμούν · {{amount}} {{currency}}",
+      "toSettle": "{{count}} πώληση(-εις) για διακανονισμό — πατήστε για να δείτε"
+    },
+    "cashDrawer": {
+      "expectedLabel": "ΓΙΑ ΝΑ ΠΑΡΕΤΕ",
+      "cashOnlyHint": "Μόνο μετρητά — Κινητά Χρήματα δεν είναι στην τσάντα σας.",
+      "openingFloat": "Άνοιγμα πλωτού",
+      "salesCount": "Πωλήσεις",
+      "countedLabel": "Τα μέτρησα.",
+      "shortBy": "{{amount}} {{currency}} λείπει",
+      "overBy": "{{amount}} {{currency}} πάνω",
+      "varianceHint": "Αυτό δεν εμποδίζει. Απλά εξηγήστε γιατί παρακάτω.",
+      "reasonLabel": "Επεξήγηση (προαιρετική)",
+      "reasonPlaceholder": "Π.χ. έδωσα 500 πάρα πολλά ψιλά",
+      "confirmClose": "Κλείσε το στόμα μου.",
+      "closedTitle": "Μέχρι το κλείσιμο",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Αποτυχία κλεισίματος",
+      "closeErrorDetail": "Παρακαλώ προσπαθήστε ξανά σύντομα.",
+      "a11y": {
+        "expected": "Για να παραδώσει: {{amount}} {{currency}}1",
+        "countedInput": "Μετρημένο ποσό",
+        "reasonInput": "Επεξήγηση μεταβλητότητας",
+        "confirmClose": "Επιβεβαίωση κλεισίματος",
+        "closed": "Μέχρι το κλείσιμο"
+      }
+    },
+    "documents": {
+      "title": "Έγγραφα προς εκτύπωση",
+      "a11y": "Εκτυπώσιμα έγγραφα",
+      "badges": "Εμπορεύματα παρευρισκομένων",
+      "badgesHint": "A6 μορφή, 4 ανά σελίδα A4",
+      "attendanceSheet": "Φύλλο εισόδου",
+      "attendanceSheetHint": "Να υπογράψετε στη ρεσεψιόν — έτοιμη πριν από την εκδήλωση",
+      "certificates": "Πιστοποιητικά συμμετοχής",
+      "certificatesHint": "Μετά την εκδήλωση, για τους συμμετέχοντες που έχουν κάνει check-in"
+    },
+    "weddingGuests": {
+      "title": "Φιλοξενούμενοι & RSVP",
+      "empty": "Δεν έχει καλεσμένους ακόμα.",
+      "remindOne": "Υπενθύμιση",
+      "remindOneSent": "Αποστολή υπενθύμισης",
+      "remindSent": "{{sent}} υπενθυμίσεις που αποστέλλονται",
+      "remindSentWithSkipped": "{{sent}} αποστέλλεται, {{skipped}} παραλείπεται",
+      "remindError": "Αδυναμία αποστολής υπενθύμισης",
+      "remindPending": "Υπενθύμιση {{count}} σε εκκρεμότητα",
+      "editRsvp": "Επεξεργασία RSVP",
+      "editRsvpTitle": "Επεξεργασία RSVP",
+      "rsvpUpdated": "Ενημέρωση του RSVP",
+      "rsvpError": "Αδυναμία αποθήκευσης του RSVP",
+      "partySize": "Μέγεθος μέρους",
+      "dietary": "Διαιτητικές απαιτήσεις",
+      "dietaryPlaceholder": "Χορτοφαγική, χωρίς γλουτένη...",
+      "note": "Σημείωση",
+      "stats": {
+        "invited": "Προσκληθέν",
+        "accepted": "Επιβεβαίωση",
+        "pending": "Σε αναμονή",
+        "headcount": "Αριθμός κεφαλών"
+      },
+      "status": {
+        "pending": "Σε αναμονή",
+        "accepted": "Επιβεβαίωση",
+        "declined": "Μείωση",
+        "cancelled": "Ακύρωση"
+      }
+    },
+    "weddingGifts": {
+      "title": "Μητρώο & δώρα",
+      "noRegistry": "Δεν υπάρχει μητρώο δώρων για αυτό το γεγονός.",
+      "create": "Δημιουργία μητρώου",
+      "registryCreated": "Δημιουργία μητρώου",
+      "registryUpdated": "Ενημέρωση μητρώου",
+      "editRegistry": "Επεξεργασία μητρώου",
+      "registryTitle": "Τίτλος μητρώου",
+      "registryDescription": "Μήνυμα προς τους επισκέπτες",
+      "visible": "Ορατή εγγραφή",
+      "hidden": "Κρυμμένο",
+      "totalRaised": "Σύνολο",
+      "share": "Μερίδιο",
+      "addItem": "Προσθήκη ενός δώρου",
+      "newItem": "Νέο δώρο",
+      "editItem": "Επεξεργασία δώρου",
+      "itemName": "Όνομα",
+      "itemKind": "Τύπος",
+      "targetAmount": "Ποσό στόχου",
+      "externalUrl": "Εξωτερικός σύνδεσμος (προαιρετικό)",
+      "itemAdded": "Προστέθηκε δώρο",
+      "itemUpdated": "Ενημέρωση δώρου",
+      "itemDeleted": "Διαγραφή δώρου",
+      "deleteItemTitle": "Διαγραφή αυτού του δώρου",
+      "deleteItemMessage": "Αφαίρεση “{{name}}” από το μητρώο;",
+      "reserved": "Δεσμευμένο",
+      "noItems": "Κανένα δώρο ακόμα. Πρόσθεσε ένα.",
+      "kind": {
+        "gift": "Δώρο (στοιχείο)",
+        "cash_fund": "Ταμειακές ροές"
+      },
+      "error": "Κάτι πήγε στραβά."
+    },
+    "weddingTables": {
+      "title": "Σχέδιο θέσεων",
+      "noTables": "Δεν έχει τραπέζια ακόμα. Δημιουργήστε ένα.",
+      "addTable": "Προσθήκη πίνακα",
+      "newTable": "Νέος πίνακας",
+      "editTable": "Επεξεργασία πίνακα",
+      "name": "Όνομα πίνακα",
+      "namePlaceholder": "Τραπέζι 1, Οικογένεια...",
+      "capacity": "Καθίσματα",
+      "created": "Δημιουργία πίνακα",
+      "updated": "Ενημερώθηκε ο πίνακας",
+      "deleted": "Διαγράφεται ο πίνακας",
+      "deleteTitle": "Διαγραφή πίνακα",
+      "deleteMessage": "Διαγραφή “{{name}}”; Οι επισκέπτες θα είναι χωρίς διορισμό.",
+      "occupancy": "{{taken}}/{{capacity}} καθίσματα",
+      "available": "{{n}} κάθισμα(-α)",
+      "full": "Πλήρης",
+      "tableEmpty": "Κανείς σε αυτό το τραπέζι.",
+      "unassignedTitle": "Προς το κάθισμα ({{count}}1)",
+      "allSeated": "Όλοι οι επιβεβαιωμένοι επισκέπτες κάθονται.",
+      "createFirst": "Δημιουργήστε ένα τραπέζι πρώτα για να καθίσετε τους καλεσμένους σας.",
+      "assignGuest": "Θέση {{name}}1",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Επισκέπτης καθισμένος",
+      "unassign": "Αφαίρεση",
+      "unassigned": "Απομακρυνθείτε",
+      "capacityError": "Δεν υπάρχουν αρκετές θέσεις σε αυτό το τραπέζι.",
+      "error": "Κάτι πήγε στραβά."
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Γεγονότα",
       "kpiRevenue": "Έσοδα",
       "kpiVerifications": "Επαλήθευση",
+      "activityChartTitle": "Δραστηριότητα πλατφόρμας",
+      "activityChartSubtitle": "Ενέργειες ελέγχου κατά τις τελευταίες 7 ημέρες",
       "quickActions": "ΒΕΒΑΙΩΣΕΙΣ",
       "recentActivity": "ΠΡΟΣΦΑΤΗ ΔΡΑΣΤΗΡΙΟΤΗΤΑ",
       "noActivity": "Καμία πρόσφατη δραστηριότητα",
       "viewAllAudit": "Προβολή όλων των αρχείων καταγραφής ελέγχου",
       "actions": {
         "users": "Χρήστες",
+        "verifications": "Επαλήθευση",
         "subscriptions": "Συνδρομές",
         "audit": "Έλεγχος",
         "announcements": "Ανακοινώσεις",
@@ -6369,6 +7066,30 @@
         "settings": "Settings",
         "treasury": "Ταμείο"
       }
+    },
+    "verifications": {
+      "watermark": "ΚΥΚ",
+      "guardTitle": "Περιορισμένη πρόσβαση",
+      "eyebrow": "Μέτρηση",
+      "title": "Αιτήματα επαλήθευσης",
+      "typeOrg": "Οργάνωση",
+      "typeIndividual": "Ατομικό",
+      "noDocuments": "Δεν υποβλήθηκαν έγγραφα",
+      "approve": "Εφαρμογή",
+      "reject": "Απόρριψη",
+      "approveTitle": "Έλεγχος έγκρισης",
+      "approveMessage": "Επιβεβαίωση έγκρισης {{name}} ως πιστοποιημένος οργανωτής;",
+      "approveBio": "Επιβεβαίωση έγκρισης της επαλήθευσης",
+      "approveSuccess": "Επαλήθευση οργανωτή",
+      "rejectTitle": "Απόρριψη αίτησης",
+      "rejectMessage": "Αναφέρατε έναν λόγο απόρριψης {{name}}. Θα μοιραστεί με το χρήστη.",
+      "rejectReasonPlaceholder": "Λόγος απόρριψης...",
+      "rejectReasonRequired": "Απαιτείται ένας λόγος.",
+      "rejectSuccess": "Αίτημα απορρίπτεται",
+      "actionError": "Η δράση απέτυχε. Παρακαλώ προσπαθήστε ξανά.",
+      "loadError": "Δεν μπορούσα να φορτώσω αιτήματα επαλήθευσης.",
+      "emptyTitle": "Χωρίς εκκρεμείς αιτήσεις",
+      "emptySubtitle": "Νέες αιτήσεις επαλήθευσης οργανωτή θα εμφανιστούν εδώ."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Αδυναμία φόρτωσης του χρήστη",
       "roleSection": "ΡΟΛΟΣ",
       "actionsSection": "ΔΡΑΣΕΙΣ",
+      "profileSection": "ΕΠΑΓΓΕΛΜΑ",
+      "fieldFirstName": "Όνομα",
+      "fieldLastName": "Επώνυμο",
+      "fieldEmail": "Ηλεκτρονικό ταχυδρομείο",
+      "fieldPhone": "Τηλέφωνο",
+      "fieldCompany": "Εταιρεία",
+      "saveProfile": "Αποθήκευση προφίλ",
+      "profileUpdated": "Ενημέρωση προφίλ",
+      "profileUpdateError": "Δεν μπόρεσα να ενημερώσω το προφίλ.",
+      "emailRequired": "Απαιτείται ηλεκτρονικό ταχυδρομείο.",
       "infoSection": "ΠΛΗΡΟΦΟΡΙΕΣ",
       "active": "Ενεργό",
       "inactive": "Μη ενεργό",
@@ -6670,6 +7401,21 @@
       "title": "Καταγραφές ελέγχου",
       "target": "Στόχος",
       "user": "Χρήστης #{{id}}",
+      "detail": {
+        "guardTitle": "Στοιχεία καταγραφής",
+        "eyebrow": "Ημερολόγιο ελέγχου",
+        "title": "Στοιχεία καταγραφής",
+        "action": "Δράση",
+        "target": "Στόχος",
+        "user": "Χρήστης",
+        "system": "Σύστημα",
+        "timestamp": "Χρονοσφραγίδα",
+        "ip": "Διεύθυνση IP",
+        "userAgent": "Συσκευή / περιηγητής",
+        "changes": "Μεταβολές",
+        "metadata": "Λεπτομέρειες",
+        "loadError": "Δεν μπορούσα να φορτώσω αυτό το ημερολόγιο."
+      },
       "stats": {
         "total": "Σύνολο"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Το email του επισκέπτη",
     "delegateError": "Αδυναμία αποστολής της πρόσκλησης.",
     "toCompleteBadge": "{{n}} για συμπλήρωση"
+  },
+  "shareCard": {
+    "eyebrow": "Θα είμαι εκεί.",
+    "button": "Μοιραστείτε στην ιστορία",
+    "dialogTitle": "Μοιραστείτε τη θέση μου",
+    "cta": "Κλείστε τη θέση σας →",
+    "errorTitle": "Μερίδιο",
+    "errorMessage": "Αδυναμία δημιουργίας της κάρτας αυτή τη στιγμή."
+  },
+  "badges": {
+    "verified": "Επαληθευμένο",
+    "pioneer": "Σκαπανέας",
+    "verifiedHint": "Ταυτότητα οργανωτή επαληθεύτηκε από EventEz",
+    "pioneerHint": "Ιδρυτικό μέλος: δοκιμασμένο EventEz πριν την εκτόξευση"
+  },
+  "exhibitApply": {
+    "eyebrow": "ΕΚΘΕΤΗΣ",
+    "title": "Αίτηση για θάλαμο",
+    "lead": "Παρουσιάστε την εταιρεία σας να διευθύνει ένα περίπτερο σε αυτό το σόου. Ο οργανωτής θα επανεξετάσει το αίτημά σας.",
+    "companyLabel": "Επωνυμία εταιρείας",
+    "companyPlaceholder": "Π.χ. Acme Ltd",
+    "categoryLabel": "Βιομηχανία / κατηγορία",
+    "categoryPlaceholder": "π.χ. τεχνολογία, τρόφιμα...",
+    "websiteLabel": "Ιστοσελίδα (προαιρετικό)",
+    "pitchLabel": "Μήνυμα προς τον οργανωτή (προαιρετικό)",
+    "pitchPlaceholder": "Περιγράψτε την επιχείρησή σας, τι θα παρουσιάσετε...",
+    "boothLabel": "Προτιμώμενο περίπτερο (προαιρετικό)",
+    "submit": "Αποστολή της αίτησής μου",
+    "submitting": "Αποστολή...",
+    "successTitle": "Η αίτηση εστάλη!",
+    "successSubtitle": "Ο οργανωτής θα το επανεξετάσει. Θα ενημερωθείς για την απόφασή τους.",
+    "goToMyBooth": "Προβολή του θαλάμου μου",
+    "alreadyApplied": "Έχετε ήδη κάνει αίτηση σε αυτό το σόου.",
+    "loginRequired": "Υπογράψτε για να υποβάλετε αίτηση για θάλαμο.",
+    "login": "Υπογραφή",
+    "errorSubmit": "Αδυναμία αποστολής της αίτησης.",
+    "ctaTitle": "Να διευθύνεις ένα περίπτερο σε αυτό το σόου;",
+    "ctaSubtitle": "Εφαρμόστε σε δευτερόλεπτα.",
+    "ctaButton": "Γίνε εκθέτης."
+  },
+  "myBoothMobile": {
+    "eyebrow": "ΕΚΘΕΤΗΣ",
+    "title": "Το τραπέζι μου.",
+    "empty": "Δεν υπάρχει κράτηση για τραπέζι.",
+    "show": "Εμφάνιση",
+    "accepted": "Δεκτοί όροι.",
+    "acceptError": "Αδύνατη η αποδοχή.",
+    "salesTitle": "Κατ' εξουσιοδότηση πωλήσεις",
+    "commission": "EventEz προμήθεια",
+    "hostShare": "Μερίδιο οργανωτή",
+    "net": "Τι κρατάς;",
+    "createEvent": "Δημιουργία της εκδήλωσης μου",
+    "acceptCta": "Δέχομαι αυτούς τους όρους.",
+    "statusPaid": "Πληρωμή",
+    "statusPartial": "Καταβληθείσα προκαταβολή",
+    "statusPending": "Για να πληρώσει",
+    "amountDue": "Ποσό θαλάμου",
+    "amountRemaining": "Απομένουν να πληρώσουν",
+    "payBooth": "Πληρώστε για το τραπέζι μου.",
+    "payMtn": "MTN Κινητά χρήματα",
+    "payOrange": "Orange Money",
+    "payCard": "Κάρτα",
+    "paymentInitiated": "Η πληρωμή ξεκίνησε. Επιβεβαίωσέ το στο τηλέφωνό σου.",
+    "payError": "Αδυναμία εκκίνησης της πληρωμής του θαλάμου.",
+    "captureLeads": "Λήψη επαφών",
+    "viewLeads": "Οι επαφές μου"
+  },
+  "leadCapture": {
+    "title": "Σύλληψη επαφής",
+    "hint": "Σημείωσε τον κωδικό QR στο σήμα του επισκέπτη.",
+    "permissionTitle": "Επίτρεψε πρόσβαση στην κάμερα",
+    "permissionBody": "Η κάμερα χρησιμοποιείται μόνο για να διαβάσει τον κωδικό σήματος QR των επισκεπτών που συμφώνησαν να επικοινωνήσετε.",
+    "permissionCta": "Άνοιξε την κάμερα.",
+    "manualEntry": "Τύπος της αναφοράς",
+    "manualPlaceholder": "Αναφορά σήματος",
+    "unnamed": "Αποθήκευση επαφής",
+    "alreadyKnown": "Ήδη συναντήθηκαν — τα αρχεία επικαιροποιήθηκαν.",
+    "qualify": "Προσδιορισμός αυτής της επαφής",
+    "rating_hot": "Ζεστό",
+    "rating_warm": "Ζεστό",
+    "rating_cold": "Κρύο",
+    "notesPlaceholder": "Τι μιλήσατε για (προαιρετικό)",
+    "next": "Επόμενη επαφή",
+    "retry": "Σάρωση ξανά",
+    "noConsentTitle": "Αυτός ο επισκέπτης δεν έχει συμφωνήσει",
+    "noConsentBody": "Ζητήστε τους να ανοίξουν την εφαρμογή EventEz, μεταβείτε στην εκδήλωση, τότε \"Ποιος είναι εδώ\", και να επιτρέψει στους εκθέτες να αποθηκεύσουν τα στοιχεία επικοινωνίας τους. Στη συνέχεια, μπορείτε να σαρώσετε ξανά.",
+    "notFoundTitle": "Το σήμα δεν αναγνωρίζεται",
+    "notFoundBody": "Αυτό το σήμα δεν ανήκει σε αυτό το γεγονός. Ελέγξτε την αναφορά που τυπώνεται στον κωδικό QR.",
+    "errorTitle": "Αποτυχία σάρωσης",
+    "a11yCaptured": "Αποθηκευμένη επαφή: {{name}}1",
+    "a11yNoConsent": "Αυτός ο επισκέπτης δεν έχει συμφωνήσει να επικοινωνήσει μαζί του.",
+    "a11yNotFound": "Το σήμα δεν αναγνωρίζεται.",
+    "a11yCount": "{{count}} αποθηκευμένες επαφές"
+  },
+  "messageTime": {
+    "today": "Σήμερα",
+    "yesterday": "Χτες",
+    "justNow": "Μόλις τώρα.",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}η",
+    "daysShort": "{{count}}δ"
+  },
+  "messageStatus": {
+    "sending": "Αποστολή",
+    "failed": "Αποτυχία αποστολής",
+    "sent": "Αποστολή",
+    "delivered": "Παραδόθηκε",
+    "read": "Ανάγνωση"
+  },
+  "myLeads": {
+    "title": "Οι επαφές μου",
+    "count": "{{count}} αποθηκευμένη επαφή",
+    "count_other": "{{count}} αποθηκευμένες επαφές",
+    "unnamed": "Ανώνυμος επαφή",
+    "emptyTitle": "Καμία επαφή ακόμα",
+    "emptyBody": "Σαρώστε το σήμα των επισκεπτών που περνούν από το τραπέζι σας. Στη συνέχεια, μπορείτε να εξάγετε τον πλήρη κατάλογο ως CSV.",
+    "errorTitle": "Δεν μπορούσα να φορτώσω.",
+    "errorBody": "Οι επαφές σου σώθηκαν με ασφάλεια. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά."
+  },
+  "myDataExhibitors": {
+    "title": "Τα δεδομένα μου κρατούνται από εκθέτες",
+    "intro": "{{count}} Η εταιρεία κρατά τα στοιχεία επικοινωνίας σας από μια σάρωση σήματος.",
+    "intro_other": "{{count}} οι εταιρείες κρατούν τα στοιχεία επικοινωνίας σας από μια σάρωση σήματος.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Σβήσιμο",
+    "eraseAll": "Σβήσε τα πάντα",
+    "eraseOneA11y": "Σβήσε τα δεδομένα μου που κρατούνται από τον {{company}}",
+    "erased": "Τα στοιχεία επικοινωνίας σας έχουν σβηστεί.",
+    "eraseError": "Η διαγραφή δεν πέρασε.",
+    "confirmCta": "Σβήσιμο",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Το όνομα, το email και ο αριθμός τηλεφώνου σας θα διαγραφούν. {{company}} θα κρατήσει μόνο τον αριθμό επαφής του, χωρίς κανένα τρόπο για να φτάσετε. Αυτό δεν μπορεί να αναιρεθεί.",
+    "confirmAllTitle": "Να σβήσω τα δεδομένα μου από κάθε εκθέτη;",
+    "confirmAllBody": "Το όνομα, το email και ο αριθμός τηλεφώνου σας θα διαγραφούν σε κάθε εισηγμένη εταιρεία. Αυτό δεν μπορεί να αναιρεθεί.",
+    "emptyTitle": "Καμία εταιρεία δεν κατέχει τα στοιχεία επικοινωνίας σας",
+    "emptyBody": "Οι εκθέτες μπορούν να αποθηκεύσουν τα στοιχεία σας μόνο σαρώνοντας το σήμα σας, και μόνο αν το επιτρέψετε για αυτό το γεγονός."
+  },
+  "visio": {
+    "expandCall": "Επέκταση κλήσης βίντεο",
+    "endCall": "Τέλος κλήσης",
+    "endCallConfirmTitle": "Να αφήσω το τηλεφώνημα;",
+    "endCallConfirmMessage": "Είσαι έτοιμος να φύγεις από την εν εξελίξει συνάντηση.",
+    "minimize": "Ελαχιστοποίηση",
+    "liveNow": "ΖΩΝΤΑ",
+    "join": "Συμμετοχή",
+    "view": "Προβολή",
+    "liveBannerA11y": "{{title}} είναι live, πατήστε για να ενταχθείτε",
+    "seeAll": "Προβολή",
+    "liveMultiTitle": "{{count}} γεγονότα σε εξέλιξη",
+    "liveBannerMultiA11y": "{{count}} ζωντανά γεγονότα, πατήστε για τη λίστα",
+    "resizeBubble": "Αλλαγή μεγέθους"
+  },
+  "organize": {
+    "favorites": "Τα αγαπημένα μου",
+    "eyebrow": "Χώρος οργανωτή",
+    "title": "Οργανώστε",
+    "liveNow": "Ζήσε τώρα.",
+    "nextEvent": "Επόμενο γεγονός",
+    "registered": "καταχωρισμένη",
+    "scan": "Σάρωση",
+    "scanA11y": "Σάρωση εισιτηρίων για αυτό το γεγονός",
+    "boxOffice": "Τετραγωνίδιο",
+    "boxOfficeA11y": "Άνοιγμα του box office για αυτό το γεγονός",
+    "viewStats": "Προβολή στατιστικών",
+    "availableBalance": "Διαθέσιμο υπόλοιπο",
+    "walletA11y": "'νοιξε το πορτοφόλι μου.",
+    "noActiveEvent": "Χωρίς εκτέλεση γεγονότος",
+    "noActiveEventHint": "Δημιουργήστε ένα γεγονός ή δημοσιεύστε ένα προσχέδιο για να το δείτε εδώ.",
+    "noStaffEventHint": "Γεγονότα όπου είσαι μέρος της ομάδας θα εμφανιστούν εδώ.",
+    "createEvent": "Δημιουργία ενός γεγονότος",
+    "myEvents": "Τα γεγονότα μου",
+    "teamEvents": "Εκδηλώσεις Ι προσωπικό",
+    "analytics": "Αναλυτικοί",
+    "loadError": "Δεν μπορούσα να φορτώσω τον χώρο σου. Έλεγξε τη σύνδεσή σου."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Είσαι μέσα.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Σε μια βδομάδα.",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Σήμερα · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Οι πόρτες είναι ανοιχτές.",
+    "onNow": "Συμβαίνει τώρα.",
+    "startsAt": "Αρχίζει από {{time}}1",
+    "offlineReady": "Διαθέσιμα εισιτήρια εκτός σύνδεσης",
+    "offlinePending": "Ανοίξτε το εισιτήριο για να το κρατήσετε εκτός σύνδεσης.",
+    "sayImGoing": "Πες ότι φεύγω.",
+    "showTicket": "Δείξε το εισιτήριό μου",
+    "directions": "Οδηγίες",
+    "viewTicket": "Προβολή εισιτηρίου",
+    "goThere": "Πήγαινε.",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "Ο χώρος είναι {{distance}} μακριά",
+    "compassCalibrate": "Βαθμονομήστε την πυξίδα: σχεδιάστε ένα σχήμα 8 με το τηλέφωνό σας",
+    "compassHint": "Ακολουθήστε το βέλος στο χώρο"
+  },
+  "onSite": {
+    "eyebrow": "Είσαι εδώ.",
+    "now": "Τώρα.",
+    "next": "Επόμενο · {{time}}",
+    "qa": "Ζωντανή Q&A",
+    "plan": "Χάρτης & τόπου",
+    "networking": "Δικτύωση"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Ήσουν εκεί.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Πρώτα να φτάσει",
+    "question": "Πώς σου φάνηκε;",
+    "thanks": "Ευχαριστώ για την αξιολόγηση.",
+    "rateA11y_one": "{{count}} αστέρι",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Μοιραστείτε στην ιστορία",
+    "later": "Αργότερα."
+  },
+  "yearInReview": {
+    "eyebrow": "Η χρονιά σου",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "συμμετοχή σε εκδήλωση",
+    "s1Line_other": "Παρευρέθηκαν εκδηλώσεις",
+    "citiesEyebrow": "Στο δρόμο",
+    "categoryEyebrow": "Το είδος της εκδήλωσης σας",
+    "season": "Ο μήνας σας: {{month}}",
+    "firstEyebrow": "Όλα ξεκίνησαν με",
+    "lastLine": "και τελείωσε με {{title}}1",
+    "arrivalsEyebrow": "Πάντα στην ώρα τους.",
+    "arrivalsLine_one": "ώρα για πρώτη άφιξη",
+    "arrivalsLine_other": "φορές πρώτα να φτάσει",
+    "organizerEyebrow": "Ο οργανωτής σας",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Αγαπημένο: {{title}}1",
+    "share": "Μοιράσου την κάρτα μου",
+    "tapHint": "Πατήστε για να συνεχίσετε"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Πρώτος συμμετέχων",
+      "someone": "Κάποιος.",
+      "share": "Μοιραστείτε για την ενίσχυση των πωλήσεων",
+      "view": "Προβολή",
+      "soldOutTitle": "Πουλήθηκε.",
+      "soldOutLine": "Όλα τα εισιτήρια χάθηκαν."
+    },
+    "chip": {
+      "count": "{{count}} καταχωρισμένη"
+    },
+    "stamp": {
+      "soldOut": "ΣΩΛΗΝΑ",
+      "online": "ΖΩΝΤΑ"
+    },
+    "share": {
+      "cta": "Μοιραστείτε το γεγονός",
+      "done": "Κοινή χρήση μέσω {{app}}1",
+      "doneGeneric": "Κοινή χρήση",
+      "message": "{{title}} — βιβλίο εδώ: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} από {{when}}1",
+      "yesterday": "χθες {{time}}"
+    },
+    "payout": {
+      "requested": "Αιτήθηκε",
+      "approved": "Εγκεκριμένο",
+      "sent": "Αποστολή",
+      "verifying": "Έλεγχος με τον αερομεταφορέα",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Αποτυχία πληρωμής"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Διατίθεται σε {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Οι πόρτες ανοίγουν στις {{time}}1",
+      "peak": "Κορυφή · {{count}} καταχωρήσεις / 15 λεπτά",
+      "nearlyFull": "Χώρος σχεδόν πλήρης",
+      "newCount": "+{{count}} νέα"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Τέλος βάρδιας",
+      "validated": "Το έλεγξα.",
+      "cadence": "{{value}}/ελάχ.",
+      "cadenceLabel": "Καρύδες",
+      "refused": "Απόρριψη",
+      "syncing": "Συγχρονισμός...",
+      "synced": "Συγχρονισμός",
+      "pending": "{{count}} σαρώσεις που περιμένουν να συγχρονιστούν",
+      "viewLiveOps": "Προβολή ζωντανών επιχειρήσεων",
+      "resume": "Συνέχιση",
+      "close": "Τέλος"
+    },
+    "recap": {
+      "title": "Ανακεφαλαίωση",
+      "eyebrow": "ΑΝΑΚΛΗΣΗ ΕΚΔΗΛΩΣΕΩΝ",
+      "attended": "Παρευρέθηκε",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% συμμετοχή",
+      "revenue": "Έσοδα",
+      "rating": "Μέση βαθμολογία",
+      "reviews": "{{count}} αξιολογήσεις",
+      "noReviews": "Καμία αξιολόγηση ακόμα",
+      "best": "Επανεξέταση αναμονής",
+      "latest": "Τελευταίες κριτικές",
+      "thank": "Ευχαριστώ τους παρευρισκόμενους",
+      "funds": "Προβολή κεφαλαίων",
+      "error": "Ανακεφαλαίωση δεν είναι διαθέσιμη τώρα.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Προβολή ανακεφαλαίωσης"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} πρόσωπο εξετάζει αυτό το γεγονός",
+    "watching_other": "{{count}} ο κόσμος εξετάζει αυτή την εκδήλωση",
+    "watchingAtLeast": "{{count}}+ οι άνθρωποι εξετάζουν αυτή την εκδήλωση",
+    "lastSaleJustNow": "Μόλις έκλεισα.",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Γράφτηκε την τελευταία ώρα.",
+    "lastSaleToday": "Γράφτηκε σήμερα",
+    "onSite": "{{count}} άνθρωποι ήδη εδώ",
+    "onSiteAtLeast": "{{count}}+ άτομα ήδη εδώ",
+    "soldOut": "Πουλήθηκε.",
+    "soldOutCta": "Δεν έχουν απομείνει θέσεις",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} και {{name2}} πηγαίνουν",
+    "connectionsMany_one": "{{name}} και {{count}} των συνδέσεων σας πηγαίνουν",
+    "connectionsMany_other": "{{name}} και {{count}} των συνδέσεων σας πηγαίνουν",
+    "connectionsA11y": "Οι διασυνδέσεις σου που πηγαίνουν",
+    "someone": "Κάποιος.",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} θα πάνε",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} και {{count}} άλλοι πηγαίνουν",
+    "registeredCount_one": "{{count}} εγγεγραμμένο πρόσωπο",
+    "registeredCount_other": "{{count}} άτομα εγγεγραμμένα",
+    "online": "Σύνδεση",
+    "repliesWithin": "Συνήθως απαντήσεις μέσα σε {{duration}}",
+    "durMinutes": "{{count}}1 λεπτά",
+    "durHours_one": "{{count}} ώρα",
+    "durHours_other": "{{count}} ώρες",
+    "durDay": "24 ώρες",
+    "seatHeldTitle": "Μια θέση κρατιέται για σένα.",
+    "seatHeldBody": "Βιβλίο πριν τελειώσει η αντίστροφη μέτρηση: μετά από αυτό, πηγαίνει στο επόμενο άτομο.",
+    "seatHeldCta": "Κλείσε τη θέση μου.",
+    "seatHeldExpired": "Τέλος χρόνου: η θέση πήγε στο επόμενο άτομο.",
+    "seatHeldA11y": "Χρόνος που απομένει για κράτηση: {{time}}",
+    "cityPulse": "{{count}} κρατήσεις σε {{city}} σήμερα",
+    "cityPulseAtLeast": "{{count}}+ κρατήσεις σε {{city}} σήμερα",
+    "cityLive_one": "{{count}} ζωντανή εκδήλωση",
+    "cityLive_other": "{{count}} ζωντανές εκδηλώσεις",
+    "sessionAttendance": "{{count}} παρόν · {{rate}}% του δωματίου",
+    "liveAround_one": "{{count}} ζήσε γύρω σου",
+    "liveAround_other": "{{count}} ζήσε γύρω σου",
+    "liveAroundAll": "Εμφάνιση όλων",
+    "reactionA11y": "Αντιδράστε με {{emoji}}1",
+    "reactionsTitle": "Αντιδράσεις",
+    "connectionArrived": "{{name}} έφτασε",
+    "connectionArrivedFallback": "Μια από τις διασυνδέσεις σας έφτασε.",
+    "connectionArrivedCta": "Μηνύματα.",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} σε 1 λεπτό",
+    "saleLive": "Ζώντες πωλήσεις",
+    "checkinPushed": "Ζωντανή άφιξη"
+  },
+  "reminders": {
+    "channelName": "Υπενθυμίσεις γεγονότων",
+    "dayBeforeTitle": "Υπενθύμιση: αύριο",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Υπενθύμιση: σε 1 ώρα",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Ανακαλύψτε",
+    "discoverSubtitle": "Γεγονότα κοντά σου",
+    "tickets": "Τα εισιτήριά μου",
+    "scan": "Σαρώστε ένα εισιτήριο"
+  },
+  "ongoing": {
+    "channelName": "Ημέρα γεγονότος",
+    "eventFallback": "Η εκδήλωση σας",
+    "beforeBodyAt": "Ξεκινώντας σύντομα · {{place}}",
+    "beforeBody": "Ξεκινώντας σύντομα.",
+    "duringSession": "Τώρα: {{session}}",
+    "duringBody": "Στο τώρα · το εισιτήριό σας είναι έτοιμο",
+    "scannerTitle": "Σαρωτής σε υπηρεσία"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Να αναιρέσω την τελευταία πράξη;",
+      "confirm": "Αναίρεση",
+      "keep": "Διατήρηση",
+      "failed": "Η αναίρεση δεν πέρασε. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
+      "unfollow": "Βάλτε “{{title}}” πίσω στα αγαπημένα σας.",
+      "archive": "Βγάλε τη συζήτηση από το αρχείο."
+    },
+    "report": {
+      "title": "Αναφορά προβλήματος",
+      "subtitle": "Δημιουργία δοκιμής: το screenshot, η οθόνη και η έκδοση αποστέλλονται με το μήνυμά σας.",
+      "noNote": "Έκθεση χωρίς σχόλια",
+      "blur": "Θολούρα",
+      "noShot": "Δεν υπάρχει διαθέσιμο στιγμιότυπο οθόνης σε αυτή την οθόνη.",
+      "placeholder": "Τι συνέβη;",
+      "send": "Αποστολή",
+      "sent": "Σας ευχαριστώ, η αναφορά σας έχει σταλεί.",
+      "unavailable": "Δεν μπορώ να στείλω: η παρακολούθηση σφαλμάτων δεν είναι ενεργή σε αυτό το κτίριο."
+    },
+    "applause": {
+      "hint": "Κράτα το χειροκρότημα για περισσότερο.",
+      "a11y": "Μακρά χειροκροτήματα"
+    },
+    "hush": {
+      "title": "Το μικρόφωνο και η κάμερα έκλεισαν ενώ το τηλέφωνο ήταν μπρούμυτα.",
+      "reactivate": "Πατήστε για να τα ενεργοποιήσετε ξανά"
+    },
+    "lighter": {
+      "button": "Αναπτήρας",
+      "off": "Σβήστο.",
+      "alone": "Σήκωσε το τηλέφωνό σου, η φλόγα ακολουθεί τις κινήσεις σου.",
+      "count_one": "{{count}} αναπτήρα",
+      "count_other": "{{count}} Αναπτήρες επάνω"
+    },
+    "surprise": {
+      "chip": "Κάνε μου έκπληξη.",
+      "chipA11y": "Πρόταση ενός τυχαίου γεγονότος",
+      "again": "Άλλο ένα",
+      "none": "Δεν υπάρχει επερχόμενο γεγονός να προτείνει αυτή τη στιγμή."
+    },
+    "bump": {
+      "settingTitle": "Εναλλαγή επαφών με ανακίνηση",
+      "settingSubtitle": "Επί τόπου, μόλις σαρωθεί το εισιτήριό σας: ανακινήστε ταυτόχρονα με κάποιον άλλο για να βρείτε ο ένας τον άλλον. Η κατά προσέγγιση τοποθεσία σας χρησιμοποιείται για μερικά δευτερόλεπτα για να σας ταιριάζει και δεν αποθηκεύεται ποτέ. Τίποτα δεν συμβαίνει χωρίς την επιβεβαίωσή σας. Από προεπιλογή.",
+      "button": "Εναλλαγή με ανακίνηση",
+      "nearbyButton": "Κοίτα γύρω μου.",
+      "hint": "Κούνα το τηλέφωνό σου ταυτόχρονα με το άλλο άτομο.",
+      "title": "Ανταλλαγή επαφών",
+      "searching": "Ψάχνω για ανθρώπους που τρέμουν κοντά σου...",
+      "none": "Δεν βρέθηκε κανείς. Ανακινήστε την ίδια στιγμή με το άλλο άτομο, στη συνέχεια, προσπαθήστε ξανά.",
+      "pick": "Διάλεξε το σωστό άτομο. Τίποτα δεν μοιράζεται χωρίς τη συγκατάθεσή σας.",
+      "connect": "Να συνδεθώ;",
+      "connectA11y": "Σύνδεση με {{name}}1",
+      "waiting": "Περιμένοντας την επιβεβαίωσή τους",
+      "connected": "Σύνδεση",
+      "openSettings": "Άνοιγμα ρυθμίσεων",
+      "error": {
+        "disabled": "Ενεργοποιήστε το “Swap contacts κουνώντας” στις ρυθμίσεις σας.",
+        "notCheckedIn": "Διατίθεται μόλις σαρωθεί το εισιτήριό σας στην είσοδο.",
+        "clockSkew": "Το ρολόι του τηλεφώνου σου είναι κλειστό. Ρυθμίστε το αυτόματο και προσπαθήστε ξανά.",
+        "rateLimited": "Πολλές προσπάθειες. Προσπάθησε ξανά σε ένα λεπτό.",
+        "expired": "Η ανταλλαγή έληξε. Ξεκίνα πάλι.",
+        "noLocation": "Η τοποθεσία είναι απαραίτητη για να βρείτε το άτομο κοντά σας.",
+        "generic": "Η ανταλλαγή δεν έγινε. Προσπάθησε ξανά."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Αποθήκευση του γεγονότος"
+    },
+    "torch": {
+      "onA11y": "Άναψε το φακό.",
+      "offA11y": "Κλείσε το φακό.",
+      "hint": "Διπλό άνοιγμα του προβολέα για να ενεργοποιήσετε ή να απενεργοποιήσετε το φακό."
+    },
+    "dragSelect": {
+      "select": "Επιλογή",
+      "hint": "Ή σύρετε δύο δάχτυλα κάτω από τη λίστα για να ενεργοποιήσετε αρκετούς συμμετέχοντες.",
+      "message": "Μήνυμα των επιλεγμένων συμμετεχόντων",
+      "export": "Εξαγωγή της επιλογής",
+      "exportError": "Η εξαγωγή της επιλογής απέτυχε.",
+      "csvName": "Όνομα",
+      "csvEmail": "Ηλεκτρονικό ταχυδρομείο",
+      "csvReference": "Βάση",
+      "csvStatus": "Κατάσταση",
+      "csvDate": "Εγγεγραμμένα"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Παίρνω τα εισιτήριά σου...",
+      "favorites": "Φέρνοντας τα αγαπημένα σας...",
+      "notifications": "Παίρνω τις ειδοποιήσεις σας...",
+      "messages": "Παίρνω τις συζητήσεις σου...",
+      "search": "Ψάχνω για ταιριαστά γεγονότα...",
+      "event": "Προετοιμασία της σελίδας..."
+    },
+    "mobileMoney": {
+      "sent": "Η αίτηση πληρωμής σας έχει σταλεί στο χειριστή σας.",
+      "pin": "Να το εγκρίνετε με το PIN σας στο τηλέφωνό σας, στην προτροπή του χειριστή σας.",
+      "operator": "Επιβεβαίωση χειριστή μπορεί να πάρει λίγο χρόνο. Αυτό είναι φυσιολογικό, παρακαλώ μείνετε σε αυτή τη σελίδα.",
+      "once": "Θα χρεωθείτε μόνο μία φορά, ακόμα κι αν συνεχιστεί η αναμονή."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Τα εισιτήριά σας θα εμφανιστούν εδώ μόλις εγγραφείτε για μια εκδήλωση.",
+        "v1": "Συναυλία, συνέδριο, εργαστήριο; Όλα ξεκινούν με ένα γεγονός.",
+        "v2": "Η επόμενη έξοδος μπορεί να είναι ήδη online."
+      },
+      "favorites": {
+        "v0": "Πατήστε την καρδιά σε ένα γεγονός για να το βρείτε εδώ και να ακούσετε για τις αλλαγές.",
+        "v1": "Ακολούθησε ένα γεγονός για να μην χάσεις ποτέ τα νέα του.",
+        "v2": "Μια καρδιά είναι αρκετή για να κρατήσει ένα γεγονός στο χέρι."
+      },
+      "notifications": {
+        "v0": "Τα νέα από τις εκδηλώσεις και τους διοργανωτές που ακολουθείτε θα εμφανιστούν εδώ.",
+        "v1": "Ακολουθήστε ένα γεγονός που θα ενημερωθεί για το τι είναι νέο.",
+        "v2": "Θα σας ενημερώσουμε μόλις συμβεί κάτι."
+      },
+      "messages": {
+        "v0": "Συνάντησες κάποιον σε εκδήλωση; Σαρώστε τον κωδικό τους για σύνδεση.",
+        "v1": "Οι συνδέσεις σας δείχνουν εδώ: μια σάρωση κώδικα είναι αρκετή.",
+        "v2": "Εναλλαγή στοιχείων επικοινωνίας επί τόπου με σάρωση του κώδικα ενός συμμετέχοντα."
+      },
+      "discover": {
+        "v0": "Μια αναζήτηση λέξεων-κλειδιών βρίσκει μερικές φορές αυτό που η αρχική σελίδα δεν δείχνει ακόμα.",
+        "v1": "Αναζήτηση ανά πόλη ή κατηγορία: νέες εκδηλώσεις φτάνουν κάθε εβδομάδα."
+      },
+      "exploreAction": "Δείτε τι παίζει",
+      "scanAction": "Σαρώστε έναν κώδικα",
+      "searchAction": "Αναζήτηση ενός γεγονότος",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Διεύρυνση σε 50 χιλιόμετρα γύρω σας",
+      "clearFilters": "Καθαρισμός φίλτρων"
+    },
+    "greeting": {
+      "when": {
+        "today": "σήμερα",
+        "tomorrow": "αύριο",
+        "dayAfter": "μεθαύριο"
+      },
+      "there": "επί τόπου",
+      "weather": {
+        "rain": "Αναμένεται βροχή {{when}} σε {{city}} για “{{title}}”: φέρτε μια ομπρέλα.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Καταιγίδες πιθανές {{when}} σε {{city}} για “{{title}}”: φέρτε κάτι να καλύψει.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Αναμένονται νεφελώδεις καιρικές συνθήκες {{when}} σε {{city}} για “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} νέα εκδήλωση από διοργανωτές που ακολουθείτε.",
+        "v0_other": "{{count}} νέες εκδηλώσεις από διοργανωτές που ακολουθείτε.",
+        "v1_one": "Οργανωτές που ακολουθείτε δημοσιευμένο {{count}} εκδήλωση.",
+        "v1_other": "Οργανωτές που ακολουθείτε δημοσιεύονται {{count}} εκδηλώσεις."
+      },
+      "ritual": {
+        "birthday": "Χρόνια πολλά! Καλή σας μέρα.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} χρόνια σε EventEz ήδη. Σας ευχαριστώ για την εμπιστοσύνη σας.",
+        "nationalDay": "Καλή εθνική μέρα!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Καλώς ήρθες πίσω.",
+      "subtitle_one": "Κάτι καινούριο από την τελευταία σου επίσκεψη.",
+      "subtitle_other": "{{count}} νέα πράγματα από την τελευταία σας επίσκεψη.",
+      "more_one": "Και ένα ακόμα από αυτό που ακολουθείς.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Απόκρυψη",
+      "reason": {
+        "followed_organizer": "Οργανωτής ακολουθείτε",
+        "new_edition": "Νέα έκδοση μιας εκδήλωσης που παρακολουθήσατε",
+        "other": "Νέο"
+      },
+      "byOrganizer": "κατά {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "ΓΙΑ ΣΑΣ · ΒΑΣΙΣΜΕΝΟΣ ΣΤΗΝ ΤΑΣΤΑ ΣΑΣ",
+      "forYouTitle": "Μπορεί και να σου αρέσει.",
+      "loginCtaTitle": "Συστάσεις προσαρμοσμένες σε εσάς"
+    },
+    "settings": {
+      "ritualsEyebrow": "Μικρές αγγαρείες",
+      "ritualsTitle": "Μικρές πινελιές",
+      "ritualsSubtitle": "Μια λέξη για τα γενέθλιά σου, την επέτειο του λογαριασμού σου ή την εθνική σου μέρα, μια φορά την ημέρα. Η ηλικία σου δεν εμφανίζεται ποτέ, ούτε ειδοποιείται.",
+      "forgetEyebrow": "ΣΥΣΤΑΣΕΙΣ",
+      "forgetTitle": "Ξέχνα τις προτιμήσεις μου.",
+      "forgetSubtitle": "Σβήνει ό, τι ακολούθησε γεγονότα, εγγραφές και αναζητήσεις δίδαξε τις συστάσεις σας.",
+      "forgetConfirmTitle": "Ξέχασες τις προτιμήσεις σου;",
+      "forgetConfirmMessage": "Οι συστάσεις σας θα ξεκινήσουν από το μηδέν. Τα εισιτήριά σας, τα αγαπημένα σας και τα επόμενα δεν αλλάζουν.",
+      "forgetDone": "Έγινε: οι συστάσεις σας ξεκινούν από το μηδέν.",
+      "forgetUnavailable": "Αυτή η επιλογή δεν είναι διαθέσιμη ακόμα. Τίποτα δεν διαγράφηκε.",
+      "forgetError": "Οι προτιμήσεις σας δεν μπορούν να διαγραφούν. Είναι αμετάβλητα. Παρακαλώ προσπαθήστε ξανά σε ένα λεπτό."
+    },
+    "goingCard": {
+      "title": "Όσο περιμένετε, ετοιμάστε την κάρτα “Θα πάω” σας",
+      "subtitle": "Θα είναι έτοιμο να μοιραστεί μόλις επιβεβαιωθεί η πληρωμή.",
+      "tintLabel": "Ιστορικό",
+      "messageLabel": "Μήνυμα",
+      "messages": {
+        "going": "ΠΑΩ",
+        "meetThere": "Θα σε δω εκεί;",
+        "seeYou": "Συνάντησέ με εκεί."
+      },
+      "tintA11y": "Χρώμα {{index}}",
+      "printing": "Τα αποτυπώματα της κάρτας σου όσο περιμένεις.",
+      "ready": "Η κάρτα σας είναι έτοιμη.",
+      "share": "Μοιράσου την κάρτα μου",
+      "backdropA11y": "Εικονογραφημένο φόντο {{index}}"
+    }
   }
 }

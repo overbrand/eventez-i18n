@@ -41,6 +41,7 @@
     "close": "Bezárás",
     "clear": "Tiszta",
     "back": "Vissza",
+    "home": "Tartalom",
     "next": "Következő",
     "previous": "Előző",
     "search": "Keresés",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "A kód hibás vagy lejárt.",
     "loginError": "Bejelentkezési hiba",
     "registerError": "Feliratkozási hiba",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Számla már létezik",
     "registerEmailExistsDetail": "Egy fiók már létezik ezzel az e-mailben. Szeretne jelentkezni?",
     "registerEmailExistsConfirm": "Jelentkezz be!",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Vezetéknév szükséges",
     "emailRequired": "E-mail szükséges",
     "emailInvalid": "Érvénytelen e-mail",
+    "passwordRequired": "Jelszó szükséges",
     "passwordTooShort": "Túl rövid jelszó (legalább 0 karakter)",
+    "confirmPasswordRequired": "Jelszó megerősítés szükséges",
     "passwordsDontMatch": "A jelszavak nem egyeznek.",
+    "usernameRequired": "Felhasználónév szükséges",
     "usernameTooShort": "Túl rövid felhasználónév (legalább 0 karakter)",
     "usernameInvalid": "Érvénytelen felhasználónév",
+    "phoneRequired": "Telefonszám szükséges",
     "phoneInvalid": "Érvénytelen telefonszám",
     "minLength": "Legalább 0 karakter",
     "maxLength": "Maximális érték0"
@@ -449,7 +461,8 @@
     "saved": "Mentett",
     "messages": "Üzenetek",
     "tickets": "Jegyek",
-    "profile": "Profil"
+    "profile": "Profil",
+    "organize": "Szervezés"
   },
   "languagePicker": {
     "eyebrow": "Isten hozott!",
@@ -492,6 +505,7 @@
     "viewAction": "Nézet",
     "viewEvent": "Esemény megtekintése",
     "share": "Megosztás",
+    "scrollToTop": "Vissza a tetejére",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Ingyenes, nincsenek húrok",
     "freeBadge": "SZABAD",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Minden kész!",
     "notifyOnBody": "Értesítjük, amint az első események elkezdődnek.",
     "notifyOffTitle": "Értesítések kikapcsolva",
-    "notifyOffBody": "Értesítések engedélyezése a figyelmeztetendő beállításokban."
+    "notifyOffBody": "Értesítések engedélyezése a figyelmeztetendő beállításokban.",
+    "organizersEyebrow": "Szervezők",
+    "organizersTitle": "Az emberek a színpad mögött",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Ellenőrzött szervező",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Árszintek",
@@ -604,7 +624,10 @@
     "invisibleHint": "Láthatatlan vagy - kapcsold be magad is.",
     "message": "Üzenet",
     "connected": "Csatlakozás",
-    "empty": "Még senki sem látható. Legyél az első, aki bekapcsolja a hálózatodat!"
+    "empty": "Még senki sem látható. Legyél az első, aki bekapcsolja a hálózatodat!",
+    "scanOptInTitle": "A kiállítók vizsgálják meg a jelvényemet.",
+    "scanOptInSubtitle": "A kiállító cégek a jelvénye letapogatásával képesek lesznek megmenteni a nevét és az elérhetőségét, így nyomon követhetik az eseményt.",
+    "scanOptInWithdrawNote": "Bármikor kikapcsolhatod. A kiállítók által már elmentett kapcsolatok nem törlődnek automatikusan - kérheti a törlésüket az adatvédelmi beállításokból."
   },
   "eventDetails": {
     "eyebrow": "EST",
@@ -628,6 +651,7 @@
     "onlineEvent": "Online esemény",
     "meetingId": "Találkozó azonosítója:",
     "meetingPasscode": "Jelszó:",
+    "liveEngagement": "Élő K + F és felmérések",
     "joinEvent": "Csatlakozás",
     "joinOnline": "Csatlakozás online",
     "registered": "Nyilvántartásba véve",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Megosztás WhatsApp",
     "closePreviewA11y": "Preview bezárása",
     "invalidCode": "Érvénytelen hozzáférési kód",
+    "accessButton": "Belépés",
+    "pendingPaymentBanner": "Teljesítse be a kifizetést, hogy megerősítse a regisztráció",
+    "onlineInfoAfterRegistration": "A kapcsolat adatai a regisztráció után érhetők el",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Nagyítás",
+    "playCoverVideo": "Videó lejátszása",
+    "videoPlayA11y": "Videó lejátszása hanggal",
+    "videoUnmuteA11y": "Néma",
+    "videoMuteA11y": "Néma",
+    "videoExpandA11y": "A videó teljes képernyőre való kiterjesztése",
     "imagesCount": "- 1",
     "videoConference": "Videokonferencia platform",
     "openLinkError": "Nem sikerült megnyitni az esemény linket",
@@ -675,7 +708,28 @@
     "registeredStatus": "Nyilvántartásba véve",
     "pendingStatus": "Függőben",
     "priceLabel": "Ár",
-    "fromLabel": "Kezdve"
+    "fromLabel": "Kezdve",
+    "waitlistJoinedDetail": "Csatlakoztál a várólistához. Értesítjük, amint megnyílik a hely.",
+    "waitlistLeftMsg": "Otthagytad a várólistát.",
+    "waitlistLeaveError": "Nem sikerült elhagyni a várólistát",
+    "waitlistJoinError": "Nem sikerült csatlakozni a várólistához",
+    "waitlistLeaveTitle": "Hagyja el a várólistát!",
+    "waitlistLeaveConfirm": "Biztos, hogy itt akarod hagyni a várólistát?",
+    "whatsappNotInstalled": "WhatsApp nincs telepítve ezen az eszközön",
+    "reviewRatingRange": "Válassza ki az 1 és 5 közötti besorolást",
+    "reviewThanksTitle": "Köszönöm!",
+    "reviewSubmitted": "Az értékelést sikeresen benyújtották",
+    "loginRequiredTitle": "Jelzés",
+    "loginRequiredReview": "Bejelentkezés a felülvizsgálat elhagyására",
+    "reviewSubmitError": "Nem sikerült benyújtani az értékelést",
+    "loginRequiredWaitlist": "Jelentkezzen be a várólistára",
+    "invitationGateDesc": "Ez az esemény a meghívott vendégek számára van fenntartva. Ha meghívást kapott, kérjük, fogadja el, hogy hozzáférhessen.",
+    "codeGateDesc": "Adja meg a kódot, hogy a teljes részleteket",
+    "giftRegistryCta": "Ajándékjegyzék",
+    "giftRegistrySubtitle": "Nézd meg a listát és a chipet, ha úgy érzed.",
+    "cancelReasonTitle": "A törlés oka",
+    "visioEnded": "Az eseménynek vége.",
+    "videoPauseA11y": "A videó szüneteltetése"
   },
   "events": {
     "videoBadge": "Videó",
@@ -823,6 +877,9 @@
     "noPastMessage": "A múltbéli események itt jelennek meg.",
     "scanQR": "A QR scan kódja",
     "showQR": "QR-kód megjelenítése",
+    "viewQR": "QR",
+    "receivedTransfers": "Kapott átutalások",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Az Ön QR kódja",
     "qrSubtitle": "A kód megjelenítése a bejáratnál",
     "ticketDetails": "Jegyadatok",
@@ -930,7 +987,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "Koppintson a QR kód megtekintéséhez",
-    "searchTitleRefVenue": "Cím, bíró, helyszín..."
+    "searchTitleRefVenue": "Cím, bíró, helyszín...",
+    "pendingPayment": "A kifizetés folyamatban van",
+    "pendingExpired": "Az esemény véget ért",
+    "statusExpired": "Lejárt"
   },
   "payment": {
     "title": "Kifizetés",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Vissza",
     "paymentGenericError": "Hiba történt a fizetés során",
     "paymentErrorTitle": "Kifizetési hiba",
+    "paymentBlockedTitle": "Kártya fizetés blokkolva",
     "paymentCancelledTitle": "A kifizetés törlése",
     "paymentNoPaymentInProgress": "Nincs folyamatban lévő kifizetés",
     "paymentVerifyingTitle": "Ellenőrzés...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Várakozás",
     "paymentProcessing": "Felfeldolgozás",
     "paymentTitle": "Kifizetés",
+    "checkoutStep": "3 / 3. lépés • KIFIZETÉS",
+    "noDoubleCharge": "Csak egyszer töltik fel, akkor is, ha a képernyő forog egy ideig.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Elfogadom a",
+    "termsLinkFull": "az értékesítés feltételei és a visszatérítési politika",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Kiválasztás",
     "paymentStepRecap": "Felülvizsgálat",
     "paymentMethodFallback": "Kifizetés",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Kifizetés",
     "myPaymentsFilterCompleted": "Befejezve",
     "myPaymentsFilterPending": "Függőben",
-    "myPaymentsFilterFailed": "Nem sikerült"
+    "myPaymentsFilterFailed": "Nem sikerült",
+    "finalizeEndedTitle": "Ez az esemény véget ért.",
+    "finalizeEndedBody": "Nem fejezheti be a regisztrációt: az eseménynek már vége. Nem vádolták meg.",
+    "finalizeClosedTitle": "Nyilvántartásba vétel lezárva",
+    "finalizeClosedBody": "Az esemény bejegyzési időszaka lejárt.",
+    "finalizeSoldOutTitle": "Elkelt jegyek",
+    "finalizeSoldOutBody": "A lefoglalt jegyek már nem állnak rendelkezésre. A foglalása lejárt. Nem vádolták meg.",
+    "finalizeBackToEvent": "Vissza az eseményhez",
+    "paymentPushSentTitle": "Erősítse meg a telefonján",
+    "paymentPushSentMessage": "Egy fizetési kérelmet küldtek a telefonodra. Jóváhagyása (Mobile Money PIN) befejezéséhez.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "A kért visszatérítés"
   },
   "memories": {
     "title": "Az emlékeim",
@@ -1235,7 +1313,11 @@
     "recapShare": "Ossza meg az összefoglalómat.",
     "recapEvents": "események",
     "recapCities": "városok",
-    "recapFirst": "Az idők megérkeztek # 1"
+    "recapFirst": "Az idők megérkeztek # 1",
+    "oneYearAgo": "Egy éve még ott voltál.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Hosszú sajtó egy meglepetéshez",
+    "firstNote": "Először érkezik. Az ajtók alig voltak nyitva."
   },
   "profile": {
     "title": "Profil",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Kijelentkezés",
     "logoutInProgress": "Aláírás...",
     "appVersion": "Etz v1.0.0",
-    "myQRTitle": "A QR kódom."
+    "myQRTitle": "A QR kódom.",
+    "refundsMenu": "A visszatérítésem.",
+    "refundsSubtitle": "Nyomon követni, ahol a pénz áll",
+    "shareProfileButton": "Ossza meg a profilomat.",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "A szervező profilom",
+    "shareOrganizerA11y": "Ossza meg a szervező profilomat",
+    "viewPublicProfileA11y": "Tekintse meg a nyilvános profilomat",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Követni?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Következő",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Nincs eredmény",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Felderítő események",
+    "followSearchPlaceholder": "Keresés szervező"
   },
   "editProfile": {
     "title": "A profil szerkesztése",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Cím",
     "sectionOrganization": "Szervezet",
     "sectionSecurity": "Biztonság",
-    "qrShareSubtitle": "Keresse meg ezt a kódot a profil megosztásához"
+    "qrShareSubtitle": "Keresse meg ezt a kódot a profil megosztásához",
+    "countryPlaceholder": "Válasszon ki egy országot",
+    "orgLogoLabel": "Logó",
+    "orgLogoAdd": "Logó hozzáadása",
+    "orgLogoChange": "A logó módosítása",
+    "orgWebsiteLabel": "Honlap",
+    "orgDescriptionLabel": "Nyilvános leírás",
+    "orgDescriptionPlaceholder": "Mutassák be a szervezetüket..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Téma",
     "themeDialogSubtitle": "Válassza ki a témát",
     "timezoneDialogTitle": "Időzóna",
+    "timezoneDetected": "kimutatva",
     "timezoneDialogSubtitle": "Válassza ki az időzónát",
     "preferencesTitle": "Előirányzatok",
     "headerEyebrow": "SETTINGS",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Megerősítések és visszatérítések",
     "rowNewConversations": "Új beszélgetések",
     "rowMarketing": "Ajánlások és promóciók",
+    "rowSocialEyebrow": "Szociális",
+    "rowSocial": "Társadalmi tevékenység",
+    "rowSocialDesc": "Új követők, emlékeztetők, felülvizsgálati kérelmek",
+    "newRegistrationsEyebrow": "Szervező",
+    "newRegistrationsTitle": "Új nyilvántartásba vétel",
+    "newRegistrationsDescription": "Milyen gyakran ír e-mailt, ha valaki regisztrál az eseményekre",
+    "newRegistrationsFreq": {
+      "realtime": "Valós idejű",
+      "hourly": "Óra",
+      "daily": "Napi",
+      "off": "Ki"
+    },
+    "quietHoursEyebrow": "Ne zavarjon.",
+    "quietHoursTitle": "Csendes órák",
+    "quietHoursDescription": "A nem alapvető lökés / SMS értesítések szüneteltetése egy éjszaka alatt. Fontos figyelmeztető jelzések mindig jönnek.",
+    "quietHoursFrom": "A",
+    "quietHoursTo": "Amíg",
     "rowSounds": "Hangok a kulcspillanatokban",
     "rowSoundsSubtitle": "Hang lejátszása a fizetés visszaigazolásakor vagy QR letapogatásakor",
     "rowTwoFA": "Kétfaktoros hitelesítés",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Számlák",
     "shortcutTaxes": "Adók",
     "shortcutMyEvents": "Eseményeim",
-    "shortcutHelp": "Segítség"
+    "shortcutHelp": "Segítség",
+    "rowMyDataAtExhibitors": "Az adataim a kiállítók birtokában vannak.",
+    "rowLiveBanner": "Élő események banner",
+    "rowLiveBannerSubtitle": "Megjelenít egy banner csatlakozni egy esemény, amely jelenleg élő.",
+    "pushPermissionTitle": "Értesítések kikapcsolva erre az eszközre",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Tudasd a kapcsolataimmal.",
+    "rowShareAttendanceSubtitle": "A kapcsolataid láthatják, hogy részt veszel egy eseményen. Alapértelmezés szerint kikapcsolva; soha nem csak meghívásra.",
+    "rowNotifyMemories": "\"Egy évvel ezelőtt\" értesítések",
+    "rowNotifyMemoriesSubtitle": "Heti legfeljebb egy emlékeztető egy esemény évfordulóján.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Egy privát összefoglalót az évről, decemberben. Senki más nem látja.",
+    "madeInDouala": "Dougalában készült, óvatosan.",
+    "madeInDoualaSub": "Köszönjük, hogy elhozta velünk az eseményeket.",
+    "rowUiSounds": "Interface hangok",
+    "rowUiSoundsSubtitle": "Nagyon finom hangok megerősítések és bejövő értesítések. Alapértelmezés szerint kikapcsolva.",
+    "vibrationsEyebrow": "Érintés",
+    "rowVibrations": "Rezgések",
+    "rowVibrationsSubtitle": "Hapticus visszajelzés a fő tevékenységekről: fizetés, scan, kedvencek.",
+    "rowMotionGestures": "Mozgási gesztusok",
+    "rowMotionGesturesSubtitle": "Rázza, fordítsa meg, vagy tartsa a telefont néhány cselekvés. Egy gomb is mindig elérhető.",
+    "notificationsEyebrowOngoing": "Értesítések",
+    "rowOngoingEvent": "Pinted ticket on event day",
+    "rowOngoingEventSubtitle": "Egy csendes bejelentés, 3 órával az esemény előtt és alatt, a jegyet és az utasításokat.",
+    "rowNotificationSounds": "Értesítési hangok",
+    "rowNotificationSoundsSubtitle": "Válassza ki az egyes kategóriákhoz tartozó hangot (nagy pillanatok, eladások, üzenetek...) a telefon beállításaiban"
   },
   "messages": {
     "title": "Üzenetek",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Keressen egy kapcsolatot...",
     "searchEyebrow": "MEGFIGYELÉS",
     "searchHint": "A keresendő típus",
-    "noOneFound": "Senki sem találta meg."
+    "noOneFound": "Senki sem találta meg.",
+    "myConnectionsSection": "A kapcsolataim.",
+    "searchResultsSection": "Eredmények",
+    "noConnectionsEyebrow": "HÁLÓZAT",
+    "noConnectionsTitle": "Még nincs kapcsolat",
+    "noConnectionsCta": "Csatlakozás QR-en keresztül",
+    "emptyEyebrowArchived": "ARCHIVED",
+    "emptyEyebrowEmpty": "KIBOCSÁTÁS",
+    "archivedEmptyDesc": "Az archivált beszélgetéseik itt fognak landolni.",
+    "noConversationsDesc": "Kezdj egy új üzenetet, találunk valakit, akivel beszélhetünk.",
+    "attachmentPreview": "[Csatolás]",
+    "noMatchingMessage": "Nincs egyező üzenet"
   },
   "notifications": {
     "title": "Értesítések",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Mi újság?",
     "typePendingModeration": "Felülvizsgálat",
     "typeModerationReminder": "Mérsékelési sor",
+    "typeNewFollower": "Új követő",
+    "typeFollowedOrganizerNewEvent": "Új esemény",
+    "typeFollowRegistered": "Kapcsolat van.",
+    "typeConnectionsAtEvent": "A kapcsolatok",
+    "eyebrowNetwork": "HÁLÓZAT",
+    "eyebrowSoon": "Hamarosan.",
+    "eyebrowReminder": "MEGJEGYZÉS",
+    "eyebrowModeration": "MÓDOSÍTÁS",
+    "eyebrowToReview": "FELÜLVIZSGÁLAT",
+    "eyebrowDiscovery": "DISCOVER",
+    "eyebrowUrgent": "VÉSZHELYZET",
+    "eyebrowWhatsNew": "Mi újság?",
+    "filterReadTab": "Olvassa el",
+    "groupToday": "NAP",
+    "groupYesterday": "KEDD",
+    "tabAll": "Valamennyi",
+    "tabNetwork": "Hálózat",
     "typeDefault": "Értesítés",
     "filterAllTab": "Valamennyi",
     "filterUnreadTab": "Olvasatlan",
@@ -1739,7 +1919,26 @@
     "statTotal": "ÖSSZESEN",
     "statUnread": "FELADAT",
     "statToday": "NAP",
-    "viewDetails": "Részletek megtekintése"
+    "viewDetails": "Részletek megtekintése",
+    "actions": {
+      "showTicket": "Mutasd a jegyem!",
+      "directions": "Irányok",
+      "going": "Megyek.",
+      "viewTicket": "Jegy megtekintése",
+      "reply": "Válasz",
+      "replyPlaceholder": "Az üzeneted...",
+      "replySubmit": "Küldés",
+      "markRead": "Jelölje olvasottnak",
+      "joinLive": "Csatlakozás",
+      "payNow": "Fizess most!",
+      "writeTo": "Üzenj nekik!",
+      "viewEvent": "Esemény megtekintése",
+      "viewTickets": "A jegyeim megtekintése",
+      "viewRefund": "Visszatérítés megtekintése",
+      "viewProfile": "A profil megtekintése",
+      "summaryTitle": "Üzenetek",
+      "summaryBody": "Új üzenetek"
+    }
   },
   "dashboard": {
     "title": "Hajódeszka",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Kezelje a tervem.",
     "exportTitle": "Exportálás",
     "exportSubtitle": "Az Ön adatai",
-    "settingsLink": "Beállítások"
+    "settingsLink": "Beállítások",
+    "greetingNight": "Szép estét!"
   },
   "following": {
     "title": "A kedvenceim.",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "A meghívót elutasították.",
     "declineError": "Nem utasíthattam el a meghívást.",
     "declineButton": "Megszakítás",
+    "declineConfirmTitle": "A meghívás elutasítása",
+    "declineConfirmMessage": "Biztos, hogy vissza akarod utasítani a meghívást?",
     "fromLabel": "KIRÁLYSÁG",
     "toLabel": "RECIPIENT",
     "organizerFallback": "Szervező",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Feltöltés sikertelen",
     "downloadFailed": "Letöltés nem sikerült",
     "tryAgain": "Próbáld újra.",
-    "contactSupport": "Kapcsolattartó támogatás"
+    "contactSupport": "Kapcsolattartó támogatás",
+    "timeout": "A kérés túl sokáig tartott. Ellenőrizze a kapcsolatot, és próbálja újra.",
+    "validation": "Néhány részlet érvénytelen. Javítsa meg a kiemelt mezőket, és próbálja újra.",
+    "fields": {
+      "title": "Cím",
+      "subtitle": "Felirat",
+      "message": "Üzenet",
+      "image": "Kép",
+      "cta_label": "Gombcímke",
+      "cta_url": "Gombkapcsolat",
+      "link_url": "Kapcsolat",
+      "target_event": "Célesemény",
+      "country": "Ország",
+      "city": "Város",
+      "radius_km": "Radiusz",
+      "placement": "Elhelyezés",
+      "priority": "Prioritás",
+      "severity": "Súlyosság",
+      "audience": "Közönség",
+      "platform": "Platform",
+      "valid_from": "Érvényes",
+      "valid_until": "Érvényes"
+    },
+    "http": {
+      "badRequest": "Nem tudtuk feldolgozni a kérését. Kérjük, ellenőrizze a részleteket, és próbálja újra.",
+      "unauthorized": "A foglalkozása lejárt. Kérem, jelentkezzen újra.",
+      "forbidden": "Erre nincs engedélye.",
+      "notFound": "Nem találtuk meg, amit keresett.",
+      "conflict": "Ez az intézkedés ellentétes a jelenlegi állammal. Frissítsd fel és próbáld újra.",
+      "tooManyRequests": "Túl sok próbálkozás. Kérem, várjon egy percet, és próbálja újra.",
+      "server": "A szervereinknek most gondjaik vannak. Kérem, próbálja meg pár perc múlva.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Ez az e-mail már kapcsolódik egy fiókhoz. Jelentkezzen be, vagy használjon másik címet.",
+      "usernameTaken": "A felhasználónév már foglalt, válasszon egy másikat.",
+      "weakPassword": "Válassza ki a jelszót legalább 8 karakter keverő betűk és számok.",
+      "invalidCredentials": "Hibás e-mail vagy jelszó. Próbálja újra, vagy állítsa vissza a jelszót.",
+      "resetLinkExpired": "Ez az újraindító link lejárt. Kérek egy újat.",
+      "otpInvalid": "Ez a kód hibás vagy lejárt. Ellenőrizze, vagy kérjen egy újat.",
+      "otpSendFailed": "Nem tudtuk elküldeni az SMS-kódot. Ellenőrizze a számát, és próbálja újra, vagy jelentkezzen be az e-mail.",
+      "paymentMethodUnsupported": "Ez a fizetési mód nem elérhető erre az eseményre. Kérlek, válassz másikat.",
+      "paymentFailed": "A fizetésed nem fejeződött be. Nem vádolták meg. Próbálja újra, vagy használjon más módszert.",
+      "paymentNetwork": "A kapcsolat csökkent fizetés közben. Ellenőrizze az internetet, és próbálja újra - akkor nem kerül kétszer.",
+      "paymentTimeout": "A fizetése tovább tart, mint vártuk. Ne fizessen többet - ellenőrizze a jegyeket néhány perc múlva, vagy lépjen kapcsolatba a támogatással, ha semmi nem érkezik.",
+      "paymentVerifyFailed": "Még nem tudtuk megerősíteni a fizetését. Ha feltöltötték, a jegyei hamarosan megjelennek - néhány perc múlva ellenőrizze újra.",
+      "refundFailed": "A visszaigénylését nem lehetett elküldeni. Kérjük, próbálja újra, vagy lépjen kapcsolatba támogatás.",
+      "insufficientBalance": "Nem megfelelő egyensúly ehhez a művelethez.",
+      "payoutLocked": "Ez a kifizetés már nem módosítható, mert a feldolgozás már elkezdődött. Lépjen kapcsolatba a támogatással, ha hibát követ el.",
+      "planLimitReached": "Elérte a terv határát. Frissítse a tervét a folytatásra.",
+      "countryNotSupported": "Ebben az országban még nem lehet fizetni. Létrehozhatja az eseményt egy támogatott országban, vagy kapcsolatba léphet velünk."
+    },
+    "tickets": {
+      "offline": "Most offline vagy. A jegyek, amiket már megtöltöttél, nem kapcsolhatók. Próbáld újra, ha újra online vagy.",
+      "timeout": "A jegyeid egy darabig eltartanak, míg megpakolnak. Semmi sem veszett el: biztonságban vannak. Próbáld újra egy pillanat alatt.",
+      "server": "A szervereink csuklanak. A jegyeid biztonságban vannak a mi oldalunkon. Próbáld újra pár perc múlva.",
+      "notFound": "Nem találjuk a jegyet. A többi jegyet nem érinti. Frissítse a listát, vagy ellenőrizze a megerősítő e-mail.",
+      "forbidden": "Ez a jegy egy másik számlához tartozik. A jegyeid érintetlenek. Jelentkezzen be a vásárláshoz használt számlára."
+    },
+    "messages": {
+      "offline": "Most offline vagy. Az üzeneteid nem vesztek el: a függőben lévők kimennek, amint újra online leszel. Próbálja újra, ha a hálózat visszatér.",
+      "timeout": "Az üzenet lassan reagál. Az üzeneteid nem vesztek el. Próbáld újra egy pillanat alatt.",
+      "server": "Az üzenetekben van egy kis bökkenő. A beszélgetéseik sértetlenek. Próbáld újra pár perc múlva.",
+      "notFound": "Ez a beszélgetés már nem létezik. A többi beszélgetésed nem befolyásolja. Menj vissza az üzeneteidhez.",
+      "forbidden": "Már nincs hozzáférése ehhez a beszélgetéshez. A többi beszélgetésed még mindig elérhető. Menj vissza az üzeneteidhez."
+    },
+    "event": {
+      "offline": "Te offline vagy, így nem mutathatjuk meg ezt az eseményt. A jegyeid offline maradnak. Próbáld újra, ha újra online vagy.",
+      "timeout": "Ez az eseményoldal egy ideig tart betölteni. Semmi sem változott a te oldaladon. Próbáld újra egy pillanat alatt.",
+      "server": "Egy kis bökkenő miatt nem mutathatjuk meg ezt az eseményt. A jegyeiket és a regisztrációjukat nem érinti. Próbáld újra pár perc múlva.",
+      "notFound": "Ez az esemény már nem online: a szervező lehet, hogy eltávolította. Minden jegy a \"Jegyek\" -ban marad. Még több esemény vár a Discover-ben.",
+      "forbidden": "Ez az esemény privát. Nem az ön számlájáról van szó. Kérj a szervezőtől egy meghívót, hogy hozzáférjen."
+    },
+    "upload": {
+      "offline": "A feltöltés nem indult el: offline vagy. Az aktád még mindig a telefonodon van. Próbáld újra, ha újra online vagy.",
+      "timeout": "A feltöltés túl sokáig tartott. Az aktád még mindig a telefonodon van. Próbálja újra, ideális esetben a WiFi vagy egy könnyebb fájl.",
+      "server": "A szerver nem kaphatta meg a fájlt. Még mindig biztonságos a telefonodon. Próbáld újra pár perc múlva.",
+      "notFound": "A feltöltési cél már nem létezik. Az aktája még mindig biztonságos a telefonján. Frissítse fel a képernyőt, és próbálja újra.",
+      "forbidden": "Nem töltheted fel ezt a fájlt. Még mindig biztonságos a telefonodon. Ellenőrizze, hogy a megfelelő számlával jelentkezett-e be.",
+      "tooLarge": "Ez a fájl túl nagy a feltöltéshez. Még mindig biztonságos a telefonodon. Válasszon egy könnyebb fájlt, vagy vetse be a képet."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glitch",
@@ -2572,7 +2854,10 @@
     "successTitle": "Gratulálok!",
     "successMessage": "Most már szervező vagy. Hozd létre az első eseményt!",
     "errorTitle": "Hiba",
-    "errorGeneric": "Hiba történt"
+    "errorGeneric": "Hiba történt",
+    "labelWebsite": "Honlap (nem kötelező)",
+    "labelDescription": "Leírás (nem kötelező)",
+    "placeholderDescription": "Mutassák be a szervezetüket..."
   },
   "verificationForm": {
     "pdfOpenError": "Nem sikerült megnyitni a dokumentumot.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Hibrid",
     "priceAny": "Valamennyi",
     "priceFree": "Ingyenes",
-    "pricePaid": "Kifizetett"
+    "pricePaid": "Kifizetett",
+    "shareSearch": "A keresés megosztása",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Szűrők",
@@ -2779,6 +3066,10 @@
     "statsRating": "RATING",
     "statsSince": "SINCE",
     "contactA11y": "Kapcsolattartó szervező",
+    "connectA11y": "Csatlakozás",
+    "connectedA11y": "Már csatlakoztatva",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Nem tudtam kapcsolódni. Kérem, próbálja újra.",
     "bioEyebrow": "BIO",
     "bioTitle": "Körülbelül",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Megjelent események",
     "loadingEvents": "Betöltés...",
     "noEvents": "Nem jelent meg esemény",
-    "freeBadge": "SZABAD"
+    "freeBadge": "SZABAD",
+    "tabs": {
+      "upcoming": "Közeledik.",
+      "past": "Előző"
+    }
   },
   "sessionDetails": {
     "title": "Munkamenet",
@@ -3223,7 +3518,12 @@
     "codeLabel": "Kód",
     "emptyEyebrow": "JÖVŐ",
     "emptyTitle": "Még nincs kód.",
-    "emptySubtitle": "A beterjesztési kódok itt jelennek meg, amint rendelkezésre állnak."
+    "emptySubtitle": "A beterjesztési kódok itt jelennek meg, amint rendelkezésre állnak.",
+    "generateCta": "A kódom létrehozása",
+    "generating": "Generáció...",
+    "generateSuccess": "Beutalási kód létrehozva!",
+    "generateError": "Nem tudtam létrehozni a kódot. Kérem, próbálja újra.",
+    "copySuccess": "A hivatkozások másolása"
   },
   "teamManagement": {
     "eyebrow": "Csapat",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Analytics megtekintése",
     "perm_view_registrations": "A regisztráció listájának megtekintése",
     "perm_edit_event": "Az esemény szerkesztése",
-    "perm_manage_team": "Más csapattagok meghívása"
+    "perm_manage_team": "Más csapattagok meghívása",
+    "role_co_organizer": "Társszervező",
+    "role_moderator": "Moderátor",
+    "role_scanner": "Szkenner",
+    "role_analyst": "Analyst",
+    "status_pending": "Függőben",
+    "status_accepted": "Aktív",
+    "status_declined": "Elutasítva",
+    "status_revoked": "Visszavonva",
+    "status_expired": "Lejárt"
   },
   "myTeamEvents": {
     "eyebrow": "Mögötted.",
@@ -3276,8 +3585,10 @@
     "willAttend": "Ott leszek.",
     "wontAttend": "Nem tudom megcsinálni.",
     "partySize": "Extra vendégek száma",
+    "partySizeHint": "Melletted. Például 2, ha 2 embert hozol.",
     "dietary": "Étrendi követelmények / allergia",
     "note": "Egy szó a párra.",
+    "noteOptional": "Egy szó a párra (nem kötelező)",
     "submit": "Küld el a válaszom.",
     "thanksAccepted": "Köszönöm! A látogatása megerősítve.",
     "thanksDeclined": "Kösz, hogy szóltál.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "A neved",
     "giftMethod": "Kifizetési módszer",
     "giftPay": "Hozzájárulás",
-    "giftError": "A fizetés nem kezdődött el."
+    "giftThanks": "Köszönöm a közreműködését!",
+    "giftRedirectNote": "Átirányítjuk egy biztonságos fizetési oldalra. Ez normális.",
+    "giftError": "A fizetés nem kezdődött el.",
+    "rsvpSubmitError": "A válaszát nem lehetett elküldeni. Kérem, próbálja újra.",
+    "summaryTitle": "Az Ön válasza",
+    "summaryAccepted": "Megerősítette a jelenlétét.",
+    "summaryDeclined": "Visszautasítottad a meghívást.",
+    "summaryPartySize": "Vendégek",
+    "summaryHeadcount": "Foglalt ülések",
+    "summaryDietary": "Diétás szükségletek",
+    "summaryTable": "Az asztalod.",
+    "summaryTablePending": "Az asztalát megosztjuk az esemény előtt."
   },
   "teamInvitation": {
     "eyebrow": "BEVEZETÉS",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Csak egy beszélgetés. Tartsd meg az üzeneteidet.",
     "mutedLockMessage": "A szervező elnémított téged ebben a vitában.",
     "postingLockMessage": "Ebben a vitában csak a szervező írhat.",
-    "defaultUserName": "ez a felhasználó"
+    "defaultUserName": "ez a felhasználó",
+    "someFilesQueuedForRetry": "Néhány fájl neheztelni fog, ha a kapcsolat visszatér.",
+    "retrySend": "Újratöltés",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Tekerd lefelé",
+    "tapToLoadImage": "A betöltéshez kopp",
+    "reply": "Válasz",
+    "react": "Reakció",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Csak egy beszélgetés.",
+    "headerCollapseA11y": "A banner elrejtése",
+    "headerExpandA11y": "A banner megjelenítése",
+    "headerCollapseLabel": "Elrejtés",
+    "headerExpandLabel": "Az esemény adatai"
   },
   "scanForm": {
     "loading": "Betöltés...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderátor",
     "roleAdmin": "Admin",
     "fallbackEvent": "Esemény",
-    "fallbackUnknownUser": "Felhasználó"
+    "fallbackUnknownUser": "Felhasználó",
+    "statusUnknown": "Ismeretlen állapot"
   },
   "refundRequest": {
     "watermarkBack": "Vissza",
     "watermarkOops": "OOPS",
     "loadError": "Nem sikerült betölteni a fizetési adatokat",
     "paymentNotFound": "A kifizetés nem található",
+    "blockedNotOwner": "Ez a fizetés nem kapcsolódik a számlájához, ezért nem kérhet visszatérítést.",
+    "blockedNotCompleted": "Csak a visszaigazolt kifizetéseket lehet visszafizetni. Ez a fizetés nem visszatéríthető.",
+    "blockedAlreadyRequested": "A visszatérítés iránti kérelem már folyamatban van e kifizetés tekintetében.",
+    "blockedGeneric": "Ez a fizetés jelenleg nem jogosult visszatérítésre.",
     "back": "Vissza",
     "closeA11y": "Bezárás",
     "eyebrow": "REFUND • REFUND",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Hozzáférési kód (nem kötelező)",
       "accessCodeHint": "A látogatóknak be kell írniuk ezt a kódot a részletek megtekintéséhez",
       "accessCodePlaceholder": "Ha nincs kód, üresen kell hagyni",
-      "featuredInfo": "Kérheti, hogy a rendezvény után létrehozása \"Én események\"."
+      "accessCodeKeepPlaceholder": "Új kód (üresen hagyni, hogy az aktuális maradjon)",
+      "accessCodeActive": "A hozzáférési kód aktív.",
+      "accessCodeWillBeRemoved": "A kódot eltávolítjuk, ha megmented.",
+      "accessCodeRemove": "A kód törlése",
+      "accessCodeUndoRemove": "Visszavonás",
+      "featuredInfo": "Kérheti, hogy a rendezvény után létrehozása \"Én események\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Dátum és hely",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Válasszon a térképen",
       "mapHint": "Az esemény megjelenítése a térképen és navigáció engedélyezése",
       "virtualLocationTitle": "Virtuális helyszín",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Épített videokonferencia - a terem automatikusan létrejön, nincs szükség külső kapcsolatra.",
       "platformLabel": "Platform",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Csapatok",
       "connectionUrlLabel": "Kapcsolat",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Értékesítés kezdete",
       "salesEndLabel": "Értékesítés vége",
       "visibleLabel": "Látható",
+      "accessModeLabel": "A jegy által biztosított hozzáférés",
+      "accessInPerson": "Személyesen",
+      "accessOnline": "Online",
+      "accessBoth": "Mindkettő",
       "visibleDesc": "A jegy megjelenítése nyilvánosan",
       "addAnotherTicket": "Új jegy hozzáadása",
       "registrationFormTitle": "Nyilvántartási formanyomtatvány (nem kötelező)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "A menü bezárása",
       "cancel": "Törlés"
+    },
+    "venuePicker": {
+      "label": "Mentett helyszín használata",
+      "hint": "A mezők automatikusan kitöltik. Majd utána beállítod őket."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Az esemény típusa szerinti bontás",
       "sourcePaymentMethods": "Fizetési módszerek",
       "sourceGeographical": "Földrajzi bontás"
-    }
+    },
+    "widgetDataUnavailable": "Az adatok nem állnak rendelkezésre."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Előző",
       "next": "Következő",
       "selectDatePlaceholder": "Dátum kiválasztása",
-      "selectTimePlaceholder": "Időválasztás"
+      "selectTimePlaceholder": "Időválasztás",
+      "selectPlaceholder": "Válassza ki...",
+      "searchPlaceholder": "Keresés..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Jegyek hozzáadása sikeresen",
     "alreadyRegisteredConfirmTitle": "Már regisztrálva",
     "alreadyRegisteredConfirmMessage": "Te már regisztráltál erre az eseményre.",
-    "createRegistrationError": "Nem sikerült létrehozni a regisztráció"
+    "createRegistrationError": "Nem sikerült létrehozni a regisztráció",
+    "accessMode": {
+      "in_person": "Csak személyesen",
+      "online": "Online hozzáférés",
+      "hybrid": "Személyesen + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Csak egy hely maradt.",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Megállt a vásárlás.",
+    "suspendedByIncident": "A vásárlások átmenetileg szünetelnek egy incidens miatt. Kövesse a frissítéseket a Status oldalon."
   },
   "registrationDetails": {
     "headerInscription": "A regisztrációm.",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Törölve",
     "statusInscriptionRejected": "Elutasítva",
     "statusInscriptionValidated": "Jóváhagyás",
-    "statusInscriptionUnknown": "Ismeretlen"
+    "statusInscriptionUnknown": "Ismeretlen",
+    "pdfEyebrow": "NYILVÁNTARTÁSBA VÉTEL ÖSSZEFOGLALÁSA",
+    "pdfDate": "Időpont",
+    "pdfPlace": "Helyszín",
+    "pdfReference": "Hivatkozás",
+    "pdfStatus": "Állapot",
+    "pdfQrHint": "A QR-kód megjelenítése a bejáratnál",
+    "pdfShareDialog": "Megosztás",
+    "pdfError": "Nem sikerült létrehozni a PDF most.",
+    "pdfA11y": "Az összefoglaló exportálása PDF-ben"
   },
   "qrCode": {
     "headerEyebrow": "TICKET",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "A QR kódot letapogatják a bejáratnál.",
     "tipArriveLines": "Érkezzen időben, hogy kihagyja a sorokat",
     "validatedTitle": "Hitelesített jegy",
+    "stampValidated": "Bejelentkezés",
     "validatedAt": "Bejegyzés időpontja:",
     "paymentPendingTitle": "A kifizetés folyamatban van",
     "paymentPendingDesc": "Teljesítse a kifizetést, hogy megerősítse",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Megerősítve",
     "statusPending": "Függőben",
     "statusCancelled": "Törölve",
-    "statusValidated": "Jóváhagyás"
+    "statusValidated": "Jóváhagyás",
+    "pdfOnline": "Online esemény",
+    "statusUnknown": "Ismeretlen állapot",
+    "presentHint": "Koppintsunk a kód nagyítására, és hosszú nyomással bizonyítsuk az érvényességet.",
+    "presentA11yAction": "Az ellenőrzés kódjának nagyítása",
+    "proofA11yAction": "Az érvényesség igazolása",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Vissza a jegyhez",
+    "presentExitHint": "Koppintsunk a visszaútra"
   },
   "offlineTickets": {
     "headerTitle": "Offline",
@@ -4448,7 +4837,15 @@
     "removeMessage": "El akarod távolítani ezt a jegyet az offline gyorsítótárból?",
     "showQR": "QR megjelenítése",
     "hideQR": "QR elrejtése",
-    "pastBadge": "Előző"
+    "pastBadge": "Előző",
+    "download": "Jegy letöltése",
+    "pdfEyebrow": "TIKET",
+    "pdfReference": "Hivatkozás",
+    "pdfType": "Jegytípus",
+    "pdfQuantity": "Mennyiség",
+    "pdfDate": "Időpont",
+    "pdfShareDialog": "Mentési / megosztási jegy",
+    "pdfError": "Nem sikerült létrehozni a PDF-et."
   },
   "pendingTransfers": {
     "headerTitle": "Átcsoportosítás",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Látogatás",
     "similarEventsEyebrow": "AJÁNLÁSOK",
     "similarEventsTitle": "Hasonló események",
-    "similarEventA11y": "nézet"
+    "similarEventA11y": "nézet",
+    "virtualLiveNow": "Élj most!",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Csatlakozz élőben!",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Videohívás nem elérhető",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Az élő még nem kezdődött el.",
+    "virtualWaitingHostNote": "Amint a szervező kinyitja a szobát, csatlakozhat.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Fő szoba",
+      "session": "Munkamenet",
+      "breakout": "Kitörés",
+      "networking": "Hálózatépítés",
+      "workshop": "Műhely"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Az értékesítés befejeződött",
+    "ticketsSaleNotStarted": "Hamarosan eladják.",
+    "peekSave": "Mentés",
+    "peekUnsave": "Eltávolítás a mentésből",
+    "peekShare": "Megosztás",
+    "peekOpen": "Megnyitás",
+    "peekA11yHint": "Tartsa az előnézetet",
+    "swipeSave": "Mentés engedélyezése",
+    "swipeUnsave": "Eltávolítás engedélyezése",
+    "swipeHint": "Törlés a mentéshez",
+    "swipeRemoved": "Eltávolítva",
+    "swipeUndo": "Visszavonás",
+    "swipeRemove": "Eltávolítás",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Sunny spell",
+      "cloudy": "Felhők",
+      "fog": "Köd",
+      "rain": "Eső",
+      "snow": "Hó",
+      "showers": "Zuhanyzók",
+      "thunderstorm": "Vihar",
+      "variable": "Változó"
+    }
   },
   "componentsCommon": {
     "exportTitle": "A formátum kiválasztása",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Amikor ez a szervező kiad egy új eseményt",
     "followPrefsSave": "A beállítások mentése",
     "followPrefsSaveA11y": "A beállítások mentése",
-    "inAppToastA11y": "\"0\", \"1\", \"Tap to open\"."
+    "inAppToastA11y": "\"0\", \"1\", \"Tap to open\".",
+    "webviewVisioTitle": "Videohívás",
+    "webviewOfflineTitle": "Te offline vagy",
+    "webviewOfflineBody": "Az eszköz elvesztette a kapcsolatot. A hívás folytatódik, amint a hálózat visszatér.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Lassú kapcsolat észlelve - videó lehet degradálni, és használja az adatokat."
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Kamera szükséges",
     "permissionSubtitle": "Egy QR szkenneléséhez a kamerához kell hozzáférni.",
     "permissionGrant": "Kamera engedélyezése"
+  },
+  "media": {
+    "sheetTitle": "Mit szeretnél csinálni?",
+    "saveToGallery": "Mentés a galériába",
+    "share": "Megosztás",
+    "savedToGallery": "Mentett galéria",
+    "permissionDeniedTitle": "Engedély megtagadva",
+    "permissionDeniedMessage": "Engedélyezze a fényképekhez való hozzáférést a beállításokban.",
+    "sharingUnavailable": "Ezen az eszközön nincs megosztás.",
+    "downloadFailed": "A letöltés nem sikerült. Kérem, próbálja újra.",
+    "genericError": "Valami rosszul sült el. Kérem, próbálja újra."
   },
   "componentsMessages": {
     "inputJoinFile": "Fájl csatolása",
@@ -5127,7 +5585,7 @@
     "messages": "ÜZEMEK",
     "suggestions": "TÁMOGATÁSOK",
     "theme": "TEME",
-    "timezoneSoon": "TIMEZONE",
+    "timezone": "IDŐZON",
     "soundEffects": "Hanghatások",
     "authSoon": "MEGERŐSÍTÉS",
     "connectionsSoon": "Connections · SOON",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 · SAVED",
     "tabMessages": "03 · ÜZENET",
     "tabTickets": "04 · TECKET",
-    "tabProfile": "05 · PROFILE"
+    "tabProfile": "05 · PROFILE",
+    "push": "Nyomd!",
+    "privacy": "Adatvédelem",
+    "memories": "Memóriák",
+    "yearInReview": "Felülvizsgált év"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "A kiválasztott",
-      "selectedCount_plural": "A kiválasztott",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Jóváhagyás",
       "reject": "Elutasítás",
       "checkIn": "Bejelentkezés"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Promóciós kódok",
         "linkSessions": "Menetjegyek az ülésekre",
         "addPhotos": "Képek hozzáadása",
+        "startLive": "Menj élőben!",
         "volunteers": "Önkéntesek",
         "sponsors": "Támogatók",
         "seatingPlans": "Ülési tervek",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplikáció",
         "cancelEvent": "Esemény törlése",
         "cancelEventDesc": "A regisztrálók értesítése",
-        "deleteDesc": "Visszafordíthatatlan hatás"
+        "deleteDesc": "Visszafordíthatatlan hatás",
+        "invite": "Vendégek meghívása",
+        "inviteDescInviteOnly": "Az egyetlen mód, hogy hozzáférést biztosítsunk ehhez a meghíváshoz.",
+        "duplicatePastDesc": "Egy szerkeszthető másolatból indul",
+        "remindInvites": "Emlékeztető vendégek",
+        "weddingGuests": "Vendégek és válaszok",
+        "weddingGifts": "Regiszter & ajándékok",
+        "weddingTables": "Ülési terv"
       },
       "emptyEyebrowResults": "Nincs eredmény",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Például egészségi állapotok, helyszín nem elérhető...",
       "keepBtn": "Tartsa",
       "cancelEventBtn": "Esemény törlése",
+      "cancelHolding": "Várj...",
       "recurrenceEyebrow": "MEGISMERÉS",
       "recurrenceModalTitle": "\"0\" menetrend",
       "recurrenceModalBody": "Többszörös események létrehozása az eseményből. Minden esemény egy független új esemény lehet beállítani.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Ez az esemény élő. Ha megváltoztatjuk a kritikus mezőket (cím, dátumok, hely, típus, kapacitás), azt visszaküldjük a validáláshoz, és ideiglenesen elrejtjük, amíg újra jóvá nem hagyjuk.",
       "editValidatedConfirm": "Szerkesztés",
       "actionEditValidated": "Szerkesztés (újraérvényesítés lehetséges)",
-      "actionEditValidatedDesc": "Kritikus mezők → újraérvényesítés"
+      "actionEditValidatedDesc": "Kritikus mezők → újraérvényesítés",
+      "inviteEyebrow": "BEVEZETÉSEK",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "E-mailek vesszővel vagy új vonallal elválasztva",
+      "inviteMessagePlaceholder": "Személyes üzenet (nem kötelező)",
+      "inviteSendBtn": "Meghívások küldése",
+      "inviteEmptyTitle": "Nincs e-mail",
+      "inviteEmptyMessage": "Adjon meg legalább egy e-mail címet.",
+      "inviteInvalidTitle": "Érvénytelen e-mail",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Elküldött meghívók",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Nem tudtam meghívókat küldeni.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Nincs vendég, akire emlékezhetnék.",
+      "remindErrorTitle": "Az emlékeztető nem sikerült",
+      "remindErrorMessage": "Az emlékeztetőket nem lehetett elküldeni. Kérem, próbálja újra.",
+      "remindPendingProgress": "Emlékeztetőket küld...",
+      "loadError": "Nem tudtam betölteni az eseményeket. Ellenőrizd a kapcsolatod."
     },
     "volunteer": {
       "tabReceived": "Átvétel (0)",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Érvénytelen kód: várható UUID vagy hivatkozási kód (8- 20 karakter A- Z / 0- 9).",
       "sessionRecapTitle": "Az ülés összefoglalása",
       "sessionRecapBody": "- 1 perc\n2.\nA 3.",
-      "sessionRecapQueue": "- 0, 4, 4, 4, 4."
+      "sessionRecapQueue": "- 0, 4, 4, 4, 4.",
+      "manualModeBanner": "Kézi üzemmód - 1 csapolás fejenként",
+      "manualModeA11y": "Kézi üzemmód bekapcsolva. Koppintsunk az automatikus bejelentkezés bekapcsolásához.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Ezek az emberek akkor léptek be, amikor a csatorna nem működött. Egyeztess a csapatoddal.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Elfogadta offline ez a telefon, elutasítva szinkronban. Ha egy másik ügynök is szkennelt, ezek az emberek kétszer is bejutottak.",
+      "voice": {
+        "valid": "Érvényes jegy",
+        "validWarning": "Érvényes, ellenőrizni kell",
+        "alreadyCheckedIn": "Már bejelentkeztem.",
+        "refused": "A jegy elutasítása",
+        "enabled": "Hanghirdetések",
+        "toggleOn": "Hanghirdetések",
+        "toggleOff": "Hanghirdetések kikapcsolva",
+        "toggleA11y": "A letapogatás eredménye hang bejelentések be- vagy kikapcsolása"
+      }
     },
     "liveOps": {
       "live": "ÉLŐ",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "A HATÁS",
       "headerTitle": "Analitikai módszerek",
+      "errorTitle": "Analitikai módszerek nem állnak rendelkezésre",
+      "errorBody": "Nem tudtam betölteni az adatokat. Ellenőrizze a kapcsolatot, és próbálja újra.",
       "eventLabel": "EST",
       "kpiViews": "Nézetek",
       "kpiRegistrations": "Nyilvántartások",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "A rendezvény megtekintésre került.",
       "insightViewsNone": "Ossza meg eseményét, hogy több megtekintés",
       "insightRegistered_one": "A nyilvántartásba vett személy",
-      "insightRegistered_other": "A regisztrált személyek"
+      "insightRegistered_other": "A regisztrált személyek",
+      "actionBoxOffice": "Box office"
     },
     "sessionsLink": {
       "headerEyebrow": "HOZZÁFÉRÉS • ÜLÉSEK",
@@ -6077,6 +6599,16 @@
       "emptyText": "A szponzorok akkor jelennek meg itt, amikor partnerséget kötnek."
     },
     "eventCreate": {
+      "aiAppliedMessage": "A nyomtatványra az MI-javaslatokat alkalmazták",
+      "aiTitleSuggestionsTitle": "Címjavaslatok",
+      "aiPricingSuggestionsTitle": "A MI árképzési javaslatai",
+      "aiTicketsCreated": "Az MI javaslatokból létrehozott jegyek",
+      "aiDescGenerated": "Az MI által generált leírás",
+      "aiNeedTitleFirst": "Először adjunk hozzá egy címet, hogy az MI elkészíthesse a leírást.",
+      "galleryPermissionTitle": "Engedély szükséges",
+      "galleryPermissionMessage": "Kérjük, engedjen hozzáférést a fotókönyvtárához",
+      "videoTooLargeTitle": "A videó túl nagy",
+      "videoTooLargeMessage": "A videónak 20 MB alatt kell lennie.",
       "unsupportedCountryTitle": "Ország nem áll rendelkezésre",
       "unsupportedCountryMessage": "Ebben az országban még nem dolgozható fel a fizetés (0). A rendezvény létrehozását elutasítják. Támogatott országok: NotchPay, CinetPay és Stripe (46 ország).",
       "draftFoundTitle": "Megtalált tervezet",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Sikeresen benyújtott esemény",
       "viewMyEvents": "Az események megtekintése",
       "createAnother": "Egy másik létrehozása",
+      "submittedStamp": "Felülvizsgálat",
+      "submittedEyebrow": "Felülvizsgálatra benyújtott",
+      "submittedBody": "A csapatunk felülvizsgálja az eseményt. Értesítjük, amint élesben lesz.",
+      "submittedCtaEyebrow": "Hajódeszka",
       "edit": "Szerkesztés",
       "saved": "Mentett",
       "back": "Vissza",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Ticket \"n.m.\" max per order legyen ≥ min",
         "fieldLabelRequired": "Mező #",
         "fieldOptionsRequired": "Opciók szükségesek a \"\" 0 \"mező esetében"
-      }
+      },
+      "loadFailedBlocksSave": "Az eseményadatokat nem lehetett betölteni. Újratölti az oldalt a megtakarítás előtt, különben a jelenlegi információ felülíródik."
     },
     "eventRegistrations": {
       "title": "Nyilvántartások",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF export, műszerfal",
       "linkMyEventsTitle": "Az én eseményeim",
       "linkMyEventsSub": "Stats per event"
+    },
+    "boxOffice": {
+      "openTitle": "Nyisd ki a kasszát!",
+      "openingFloatHelp": "Mennyi változást adott neked a szervező? Enélkül a ma esti számolás rossz lesz.",
+      "openDrawer": "Nyisd ki a kasszát!",
+      "openError": "A kasszát nem lehetett kinyitni.",
+      "openErrorDetail": "Ellenőrizze a kapcsolatot, és próbálja újra.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Bezárás",
+      "cash": "Készpénz",
+      "momo": "Mobil pénz",
+      "giveBack": "Add vissza!",
+      "saleError": "Az eladást nem rögzítették.",
+      "saleErrorDetail": "Ne adja vissza az eladást: próbálja újra, nem kerül kétszer felszámításra.",
+      "a11y": {
+        "drawerOpened": "Felbontás előtt",
+        "openingFloatInput": "Nyitó úszó összeg",
+        "openDrawer": "Nyisd ki a kasszát!",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Zárja le a kasszát",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Vegye mobil pénz",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "MEGFELELNI",
+      "cashOnlyHint": "Csak készpénz - Mobil pénz nincs a táskádban.",
+      "openingFloat": "Nyitó úszó",
+      "salesCount": "Értékesítés",
+      "countedLabel": "Megszámoltam.",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Ez nem blokkolás. Csak magyarázd meg, miért lent.",
+      "reasonLabel": "Magyarázat (nem kötelező)",
+      "reasonPlaceholder": "Például 500-at adtam túl sok apróra.",
+      "confirmClose": "Zárd be a kasszát!",
+      "closedTitle": "Zárásig",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "A zárás sikertelen",
+      "closeErrorDetail": "Kérem, próbálja újra.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Számolt összeg",
+        "reasonInput": "Változás magyarázata",
+        "confirmClose": "Zárás megerősítése",
+        "closed": "Zárásig"
+      }
+    },
+    "documents": {
+      "title": "Nyomtatandó dokumentumok",
+      "a11y": "Nyomtatható dokumentumok",
+      "badges": "Attendee-jelvények",
+      "badgesHint": "A6 formátum, 4 / A4 oldal",
+      "attendanceSheet": "Jelölőlap",
+      "attendanceSheetHint": "Aláírás a recepción - kész az esemény előtt",
+      "certificates": "Részvételi igazolások",
+      "certificatesHint": "A rendezvény után, ellenõrzés esetén"
+    },
+    "weddingGuests": {
+      "title": "Vendégek és válaszok",
+      "empty": "Még nincsenek vendégek.",
+      "remindOne": "Emlékeztetés",
+      "remindOneSent": "Elküldött emlékeztető",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Nem sikerült emlékeztetőt küldeni",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Válasz szerkesztése",
+      "editRsvpTitle": "Válasz szerkesztése",
+      "rsvpUpdated": "A visszajelzés aktualizálása",
+      "rsvpError": "Nem sikerült elmenteni az üzenetet",
+      "partySize": "A felek mérete",
+      "dietary": "Étrendi követelmények",
+      "dietaryPlaceholder": "Vegetáriánus, gluténmentes...",
+      "note": "Megjegyzés",
+      "stats": {
+        "invited": "Meghívott",
+        "accepted": "Megerősítve",
+        "pending": "Függőben",
+        "headcount": "létszám"
+      },
+      "status": {
+        "pending": "Függőben",
+        "accepted": "Megerősítve",
+        "declined": "Elutasítva",
+        "cancelled": "Törölve"
+      }
+    },
+    "weddingGifts": {
+      "title": "Regiszter & ajándékok",
+      "noRegistry": "Nincs ajándékjegyzék erre az eseményre.",
+      "create": "Nyilvántartás létrehozása",
+      "registryCreated": "Létrehozott nyilvántartás",
+      "registryUpdated": "Nyilvántartó frissítése",
+      "editRegistry": "Regisztrálás szerkesztése",
+      "registryTitle": "Nyilvántartási cím",
+      "registryDescription": "Üzenet a vendégeknek",
+      "visible": "Nyilvántartó",
+      "hidden": "Rejtett",
+      "totalRaised": "Összesen",
+      "share": "Megosztás",
+      "addItem": "Ajándék hozzáadása",
+      "newItem": "Új ajándék",
+      "editItem": "Ajándék szerkesztése",
+      "itemName": "Név",
+      "itemKind": "Típus",
+      "targetAmount": "Célösszeg",
+      "externalUrl": "Külső hivatkozás (nem kötelező)",
+      "itemAdded": "Hozzáadott ajándék",
+      "itemUpdated": "Frissített ajándék",
+      "itemDeleted": "Ajándék törölve",
+      "deleteItemTitle": "Az ajándék törlése",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Fenntartva",
+      "noItems": "Még nincs ajándék. Adj hozzá egyet.",
+      "kind": {
+        "gift": "Ajándék (tétel)",
+        "cash_fund": "Készpénzalap"
+      },
+      "error": "Valami rosszul sült el."
+    },
+    "weddingTables": {
+      "title": "Ülési terv",
+      "noTables": "Még nincs asztal. Hozzon létre egyet.",
+      "addTable": "táblázat hozzáadása",
+      "newTable": "Új táblázat",
+      "editTable": "Táblázat módosítása",
+      "name": "táblázat",
+      "namePlaceholder": "Egyes asztal, Család...",
+      "capacity": "Ülések",
+      "created": "Létrehozott táblázat",
+      "updated": "táblázat",
+      "deleted": "Törölt táblázat",
+      "deleteTitle": "Törlés táblázat",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Teljes",
+      "tableEmpty": "Senki nincs az asztalnál.",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Minden vendég leült.",
+      "createFirst": "Hozzon létre egy asztalt a vendégek ülésére.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Foglalt vendég",
+      "unassign": "Eltávolítás",
+      "unassigned": "Eltávolított vendég",
+      "capacityError": "Nincs elég hely az asztalnál.",
+      "error": "Valami rosszul sült el."
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Események",
       "kpiRevenue": "Bevételek",
       "kpiVerifications": "Ellenőrzések",
+      "activityChartTitle": "A platform tevékenysége",
+      "activityChartSubtitle": "Ellenőrzési intézkedések az elmúlt 7 napban",
       "quickActions": "TEVÉKENYSÉG",
       "recentActivity": "RESTIVITÁS",
       "noActivity": "Nincs közelmúltbeli tevékenység",
       "viewAllAudit": "Az összes ellenőrzési napló megtekintése",
       "actions": {
         "users": "Felhasználók",
+        "verifications": "Ellenőrzések",
         "subscriptions": "Előfizetés",
         "audit": "Ellenőrzés",
         "announcements": "Bejelentések",
@@ -6369,6 +7066,30 @@
         "settings": "Beállítások",
         "treasury": "Pénzügyminisztérium"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Korlátozott hozzáférés",
+      "eyebrow": "Mérsékelt",
+      "title": "Ellenőrző kérelmek",
+      "typeOrg": "Szervezet",
+      "typeIndividual": "Egyéni",
+      "noDocuments": "Nincs benyújtott dokumentum",
+      "approve": "Jóváhagyás",
+      "reject": "Elutasítás",
+      "approveTitle": "Ellenőrzés jóváhagyása",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Az ellenőrzés jóváhagyása",
+      "approveSuccess": "Szervező hitelesítve",
+      "rejectTitle": "Elutasítás",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Az elutasítás oka...",
+      "rejectReasonRequired": "Okra van szükség.",
+      "rejectSuccess": "A kérelem elutasítása",
+      "actionError": "Az akció megbukott. Kérem, próbálja újra.",
+      "loadError": "Nem tudtam kitölteni a kéréseket.",
+      "emptyTitle": "Nincs folyamatban lévő kérelem",
+      "emptySubtitle": "Új szervező hitelesítési kérések jelennek meg itt."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Nem sikerült betölteni a felhasználót",
       "roleSection": "ROLE",
       "actionsSection": "FELLÉPÉSEK",
+      "profileSection": "PROFILE",
+      "fieldFirstName": "Keresztnév",
+      "fieldLastName": "Vezetéknév",
+      "fieldEmail": "E-mail",
+      "fieldPhone": "Telefon",
+      "fieldCompany": "Vállalat",
+      "saveProfile": "A profil mentése",
+      "profileUpdated": "A profil frissítése",
+      "profileUpdateError": "Nem tudtam frissíteni a profilt.",
+      "emailRequired": "E-mail szükséges.",
       "infoSection": "INFORMÁCIÓK",
       "active": "Aktív",
       "inactive": "Inaktív",
@@ -6670,6 +7401,21 @@
       "title": "Ellenőrzési naplók",
       "target": "Cél",
       "user": "Felhasználószám:",
+      "detail": {
+        "guardTitle": "Naplóbejegyzés",
+        "eyebrow": "Ellenőrzési napló",
+        "title": "Naplóbejegyzés",
+        "action": "Intézkedés",
+        "target": "Cél",
+        "user": "Felhasználó",
+        "system": "Rendszer",
+        "timestamp": "Időbélyegző",
+        "ip": "IP-cím",
+        "userAgent": "Eszköz / böngésző",
+        "changes": "Változások",
+        "metadata": "Részletek",
+        "loadError": "Nem tudtam betölteni."
+      },
       "stats": {
         "total": "Összesen"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Vendég e-mail",
     "delegateError": "Nem sikerült elküldeni a meghívót.",
     "toCompleteBadge": "A teljes mennyiség"
+  },
+  "shareCard": {
+    "eyebrow": "Ott leszek.",
+    "button": "Megosztás",
+    "dialogTitle": "Ossza meg a helyem.",
+    "cta": "Foglaljon helyet →",
+    "errorTitle": "Megosztás",
+    "errorMessage": "Jelenleg nem sikerült létrehozni a kártyát."
+  },
+  "badges": {
+    "verified": "Ellenőrzött",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "KIBOCSÁTÓ",
+    "title": "Alkalmazás standra",
+    "lead": "Mutassák be a cégüket, hogy vezessenek egy standot ebben a műsorban. A szervező felülvizsgálja a kérését.",
+    "companyLabel": "Vállalat neve",
+    "companyPlaceholder": "pl. Acme Ltd",
+    "categoryLabel": "Ipar / kategória",
+    "categoryPlaceholder": "pl. Tech, Food...",
+    "websiteLabel": "Honlap (nem kötelező)",
+    "pitchLabel": "Üzenet a szervezőnek (nem kötelező)",
+    "pitchPlaceholder": "Írd le az üzletedet, mit mutatsz be...",
+    "boothLabel": "Az előnyben részesített stand (nem kötelező)",
+    "submit": "Küldje el a jelentkezésemet.",
+    "submitting": "Küldés...",
+    "successTitle": "Kérelem elküldve!",
+    "successSubtitle": "A szervező átnézi. Értesítjük a döntésükről.",
+    "goToMyBooth": "A standom megtekintése",
+    "alreadyApplied": "Már jelentkeztél erre a műsorra.",
+    "loginRequired": "Jelentkezzen be bokszra.",
+    "login": "Jelentkezz be!",
+    "errorSubmit": "Nem sikerült elküldeni az alkalmazást.",
+    "ctaTitle": "Egy standot vezetni ebben a műsorban?",
+    "ctaSubtitle": "Másodpercek múlva jelentkezz.",
+    "ctaButton": "Legyen kiállító"
+  },
+  "myBoothMobile": {
+    "eyebrow": "KIBOCSÁTÓ",
+    "title": "A standom.",
+    "empty": "Nincs asztalfoglalás.",
+    "show": "Megjelenítés",
+    "accepted": "Feltételek elfogadva.",
+    "acceptError": "Nem tudtam elfogadni.",
+    "salesTitle": "Felhatalmazáson alapuló értékesítés",
+    "commission": "EventEz commission",
+    "hostShare": "Szervező megosztás",
+    "net": "Mit tartasz meg?",
+    "createEvent": "Az esemény létrehozása",
+    "acceptCta": "Elfogadom ezeket a feltételeket.",
+    "statusPaid": "Kifizetett",
+    "statusPartial": "Kifizetett betét",
+    "statusPending": "Fizetni",
+    "amountDue": "Booth összeg",
+    "amountRemaining": "Fizetni kell.",
+    "payBooth": "Fizesd ki a standomat!",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kártya",
+    "paymentInitiated": "Fizetés megkezdve. Erősítse meg a telefonján.",
+    "payError": "Nem sikerült elindítani a postafiók kifizetését.",
+    "captureLeads": "Rögzítőkapcsolatok",
+    "viewLeads": "A kapcsolataim."
+  },
+  "leadCapture": {
+    "title": "Kapcsolat rögzítése",
+    "hint": "A látogató jelvényének QR kódja.",
+    "permissionTitle": "A kamerákhoz való hozzáférés engedélyezése",
+    "permissionBody": "A fényképezőgép csak arra szolgál, hogy elolvassa a jelvény QR kódot a látogatók, akik beleegyeztek, hogy lépjen kapcsolatba.",
+    "permissionCta": "Kapcsold be a kamerát.",
+    "manualEntry": "A hivatkozás helyett írja be",
+    "manualPlaceholder": "Jelvényhivatkozás",
+    "unnamed": "A kapcsolat mentve",
+    "alreadyKnown": "Már találkoztunk - rekord frissítve.",
+    "qualify": "A kapcsolat minősítése",
+    "rating_hot": "Forró",
+    "rating_warm": "Meleg",
+    "rating_cold": "Hideg",
+    "notesPlaceholder": "Amiről beszélt (nem kötelező)",
+    "next": "Következő kapcsolat",
+    "retry": "Szkennelés újra",
+    "noConsentTitle": "A látogató nem egyezett bele.",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "Nem ismert",
+    "notFoundBody": "Ez a jelvény nem tartozik ehhez az eseményhez. Ellenőrizze a QR kód alatt nyomtatott hivatkozást.",
+    "errorTitle": "A scan nem sikerült",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Ez a látogató nem egyezett bele, hogy felvegyék vele a kapcsolatot.",
+    "a11yNotFound": "A jelvényt nem ismerik el.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Ma",
+    "yesterday": "Tegnap",
+    "justNow": "Épp most.",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Küldés",
+    "failed": "Nem sikerült elküldeni",
+    "sent": "Elküldött",
+    "delivered": "Szállított",
+    "read": "Olvassa el"
+  },
+  "myLeads": {
+    "title": "A kapcsolataim.",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Névtelen kapcsolat",
+    "emptyTitle": "Még nincs kapcsolat",
+    "emptyBody": "Kutassák át a látogatók jelvényét, akik a fülkéjük előtt állnak. Ezután exportálhatod a teljes listát CSV-ként.",
+    "errorTitle": "Nem tudtam betölteni.",
+    "errorBody": "A kapcsolatai biztonságban vannak. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  "myDataExhibitors": {
+    "title": "Az adataim a kiállítók birtokában vannak.",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "Törlés",
+    "eraseAll": "Törlés",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Az elérhetőségét törölték.",
+    "eraseError": "A törlés nem ment át.",
+    "confirmCta": "Törlés",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Töröljem az adataimat minden kiállítóról?",
+    "confirmAllBody": "Az Ön nevét, e-mailjét és telefonszámát minden tőzsdén jegyzett cégnél törölni fogják. Ezt nem lehet visszacsinálni.",
+    "emptyTitle": "Egy cég sem tartja nyilván az elérhetőségét.",
+    "emptyBody": "A kiállítók csak akkor menthetik meg a részleteket, ha letapogatják a jelvényét, és csak akkor, ha megengedte neki."
+  },
+  "visio": {
+    "expandCall": "Videohívás kiterjesztése",
+    "endCall": "Vége",
+    "endCallConfirmTitle": "Hagyjam ott a hívást?",
+    "endCallConfirmMessage": "Most fogod elhagyni a megbeszélést.",
+    "minimize": "Minimalizálás",
+    "liveNow": "ÉLŐ",
+    "join": "Csatlakozás",
+    "view": "Nézet",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Nézet",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Átméretezés"
+  },
+  "organize": {
+    "favorites": "A kedvenceim.",
+    "eyebrow": "Szervezőtér",
+    "title": "Szervezés",
+    "liveNow": "Élj most!",
+    "nextEvent": "Következő esemény",
+    "registered": "bejegyzett",
+    "scan": "Keresés",
+    "scanA11y": "Keresés erre az eseményre",
+    "boxOffice": "Box office",
+    "boxOfficeA11y": "Nyissa meg a postafiókot erre az eseményre",
+    "viewStats": "Statisztikák megtekintése",
+    "availableBalance": "Rendelkezésre álló egyenleg",
+    "walletA11y": "Nyisd ki a tárcámat!",
+    "noActiveEvent": "Nincs esemény",
+    "noActiveEventHint": "Hozzon létre egy eseményt, vagy tegyen közzé egy vázlatot, hogy lássa itt.",
+    "noStaffEventHint": "Az események, ahol a csapat tagja vagy, itt fognak megjelenni.",
+    "createEvent": "Esemény létrehozása",
+    "myEvents": "Az én eseményeim",
+    "teamEvents": "Események",
+    "analytics": "Analitikai módszerek",
+    "loadError": "Nem volt elég hely. Ellenőrizd a kapcsolatod."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Benne vagy.",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Egy hét múlva.",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Ajtók nyitva",
+    "onNow": "Most történik.",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "A jegy elérhető offline",
+    "offlinePending": "Nyisd ki a jegyet egyszer, hogy offline maradjon.",
+    "sayImGoing": "Mondd, hogy megyek.",
+    "showTicket": "Mutasd a jegyem!",
+    "directions": "Irányok",
+    "viewTicket": "Jegy megtekintése",
+    "goThere": "Menj!",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibrálja az iránytűt: rajzoljon egy 8-as alakot a telefonjával",
+    "compassHint": "Kövesse a nyilat a helyszínre"
+  },
+  "onSite": {
+    "eyebrow": "A helyszínen vagy.",
+    "now": "Most",
+    "next": "Next · {{time}}",
+    "qa": "Élő Q & A",
+    "plan": "Térkép és helyszín",
+    "networking": "Hálózatépítés"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Ott voltál.",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Első érkezés",
+    "question": "Mit gondolsz?",
+    "thanks": "Köszönöm a minősítést.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Megosztás",
+    "later": "Később."
+  },
+  "yearInReview": {
+    "eyebrow": "A te éved",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "részt vett esemény",
+    "s1Line_other": "részt vett események",
+    "citiesEyebrow": "Útban",
+    "categoryEyebrow": "A te eseted.",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Minden azzal kezdődött, hogy",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Mindig időben.",
+    "arrivalsLine_one": "érkezési idő",
+    "arrivalsLine_other": "az érkezők száma",
+    "organizerEyebrow": "A szervező",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Ossza meg a kártyámat.",
+    "tapHint": "Koppintsunk a folytatáshoz"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Első résztvevő",
+      "someone": "Valaki",
+      "share": "Részesedés az értékesítés fellendítéséhez",
+      "view": "Nézet",
+      "soldOutTitle": "Eladva",
+      "soldOutLine": "Minden jegy eltűnt."
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "ELOLDVA",
+      "online": "ÉLŐ"
+    },
+    "share": {
+      "cta": "Az esemény megosztása",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Megosztva",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Kérelmezett",
+      "approved": "Jóváhagyva",
+      "sent": "Elküldött",
+      "verifying": "Ellenőrzés az üzemben tartóval",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "A kifizetés sikertelen"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "A helyszín majdnem teljes",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Műszak vége",
+      "validated": "Bejelentkezés",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Elutasítva",
+      "syncing": "Szinkronizálás...",
+      "synced": "Synced",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Élő műveletek megtekintése",
+      "resume": "Folytatás",
+      "close": "Befejezés"
+    },
+    "recap": {
+      "title": "Összefoglalás",
+      "eyebrow": "EST RECAP",
+      "attended": "Részvétel",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Bevételek",
+      "rating": "Átlagos minősítés",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Még nincs értékelés",
+      "best": "Felkészülés felülvizsgálata",
+      "latest": "Utolsó értékelések",
+      "thank": "Köszönet a résztvevőknek.",
+      "funds": "Pénztár megtekintése",
+      "error": "A felvétel most nem elérhető.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Új nézet"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Most foglaltam le.",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Foglalt az elmúlt órában",
+    "lastSaleToday": "Ma foglaltam le.",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Eladva",
+    "soldOutCta": "Eladva · nem maradt hely",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "A kapcsolataid, akik",
+    "someone": "Valaki",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 óra",
+    "seatHeldTitle": "Egy helyet tartanak neked.",
+    "seatHeldBody": "Mielőtt a visszaszámlálás véget ér, foglalj helyet, és utána a következő személy kapja meg.",
+    "seatHeldCta": "Foglalj helyet.",
+    "seatHeldExpired": "Lejárt az idő: az ülés a következő személyre szállt.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Az összes megjelenítése",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Reakciók",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Megérkezett az egyik kapcsolatod.",
+    "connectionArrivedCta": "Üzenj nekik!",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Élő értékesítés",
+    "checkinPushed": "Élő érkezés"
+  },
+  "reminders": {
+    "channelName": "Eseményemlékeztetők",
+    "dayBeforeTitle": "Emlékeztető: holnap",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Emlékeztető: 1 óra múlva",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Felderítés",
+    "discoverSubtitle": "Események a közeledben",
+    "tickets": "A jegyeim.",
+    "scan": "Keresés"
+  },
+  "ongoing": {
+    "channelName": "A rendezvény napja",
+    "eventFallback": "Az esemény",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Hamarosan kezdődik.",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "A jegyed készen áll",
+    "scannerTitle": "Szkenner szolgálatban"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Visszavonod az utolsó akciót?",
+      "confirm": "Visszavonás",
+      "keep": "Tartsa",
+      "failed": "A visszavonás nem történt meg. Ellenőrizze a kapcsolatot, és próbálja újra.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Vidd ki a beszélgetést az archívumból."
+    },
+    "report": {
+      "title": "Jelents egy problémát.",
+      "subtitle": "Test build: a screenshot, a képernyőt és a verziót elküldjük az üzenetével.",
+      "noNote": "Jelentés megjegyzés nélkül",
+      "blur": "Homály",
+      "noShot": "Nincs képernyőkép elérhető ezen a képernyőn.",
+      "placeholder": "Mi történt?",
+      "send": "Küldés",
+      "sent": "Köszönöm, a jelentését elküldtük.",
+      "unavailable": "Nem lehet elküldeni: a hibakövetés nem aktív ezen az épületen."
+    },
+    "applause": {
+      "hint": "Tapsolj tovább.",
+      "a11y": "Hosszú taps"
+    },
+    "hush": {
+      "title": "A mikrofon és a kamera kikapcsolt, miközben a telefon arccal lefelé volt.",
+      "reactivate": "Koppints rá, hogy visszakapcsold."
+    },
+    "lighter": {
+      "button": "Világító",
+      "off": "Oltsd el!",
+      "alone": "Emeld fel a telefonod, a láng követi a mozdulataidat.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Lepj meg!",
+      "chipA11y": "Véletlenszerű esemény",
+      "again": "Egy másik",
+      "none": "Nincs közelgő esemény, amit javasolhatnék."
+    },
+    "bump": {
+      "settingTitle": "Kapcsolatok cseréje rázással",
+      "settingSubtitle": "A helyszínen, miután a jegyet szkennelt: rázza egy időben valaki más, hogy megtalálja egymást. A hozzávetőleges helyét használja néhány másodpercig, hogy megfeleljen Önnek, és soha nem tárolja. Semmi sem történik a megerősítés nélkül. Alapértelmezés szerint kikapcsolva.",
+      "button": "Rázással cserélhető",
+      "nearbyButton": "Nézz körül!",
+      "hint": "Rázza fel a telefonját ugyanakkor, mint a másik személy.",
+      "title": "Kapcsolatok cseréje",
+      "searching": "Olyan embereket keresek, akik remegnek a közeledben...",
+      "none": "Senki sem találta meg. Rázza fel ugyanabban a pillanatban, mint a másik személy, majd próbálja újra.",
+      "pick": "Válaszd ki a megfelelő embert. Semmi sincs megosztva a beleegyezésed nélkül.",
+      "connect": "Kapcsolat?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Várjuk a megerősítést.",
+      "connected": "Csatlakozás",
+      "openSettings": "Beállítások megnyitása",
+      "error": {
+        "disabled": "Kapcsolja be a \"Swap kapcsolatok rázással\" beállításokat.",
+        "notCheckedIn": "Amint letapogatták a jegyét a bejáratnál.",
+        "clockSkew": "Ki van kapcsolva a telefonod órája. Állítsa automatára és próbálja újra.",
+        "rateLimited": "Túl sok próbálkozás. Próbáld újra egy perc múlva.",
+        "expired": "A csere lejárt. Kezdjük újra.",
+        "noLocation": "A helyszín szükséges, hogy megtaláljuk a közeli személyt.",
+        "generic": "A csere nem ment át. Próbáld újra."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Az esemény mentése"
+    },
+    "torch": {
+      "onA11y": "Kapcsold be a lámpát!",
+      "offA11y": "Kapcsold ki a lámpát!",
+      "hint": "Duplán koppintson a keresőre, hogy ki vagy be tudja kapcsolni a fáklyát."
+    },
+    "dragSelect": {
+      "select": "Kijelölés",
+      "hint": "Vagy húzzon le két ujjat, hogy több résztvevőt jelöljön.",
+      "message": "A kiválasztott résztvevők üzenete",
+      "export": "A kiválasztás exportálása",
+      "exportError": "A kiválasztás exportálása sikertelen.",
+      "csvName": "Név",
+      "csvEmail": "E-mail",
+      "csvReference": "Hivatkozás",
+      "csvStatus": "Állapot",
+      "csvDate": "Nyilvántartásba véve"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "A jegyeid rendezése...",
+      "favorites": "A kedvenceid...",
+      "notifications": "A bejelentéseidet...",
+      "messages": "A beszélgetéseiteket...",
+      "search": "Egyező eseményeket keresek...",
+      "event": "Az esemény oldal előkészítése..."
+    },
+    "mobileMoney": {
+      "sent": "A fizetési kérelmet elküldtük a kezelőjének.",
+      "pin": "Alkalmazza a PIN-kóddal a telefonján, a kezelője parancsára.",
+      "operator": "Az operátori megerősítés eltarthat egy darabig. Ez normális, kérlek maradj ezen az oldalon.",
+      "once": "Csak egyszer fogják megvádolni, még akkor is, ha a várakozás folytatódik."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "A jegyek itt jelennek meg, amint regisztrálnak egy eseményre.",
+        "v1": "Egy koncert, egy konferencia, egy műhely? Minden egy eseménnyel kezdődik.",
+        "v2": "A következő kiruccanásod már online lehet."
+      },
+      "favorites": {
+        "v0": "Koppintson a szívre egy eseményen, hogy megtalálja itt, és hallani a változásokat.",
+        "v1": "Kövess egy eseményt, hogy soha ne hagyd ki a híreket.",
+        "v2": "Egy szív elég egy esemény megtartásához."
+      },
+      "notifications": {
+        "v0": "Az Ön által követett események és szervezők hírei itt jelennek meg.",
+        "v1": "Kövess egy eseményt, amit értesítesz az újdonságról.",
+        "v2": "Értesítjük, amint történik valami."
+      },
+      "messages": {
+        "v0": "Találkoztál valakivel egy rendezvényen? Keresse meg a kódjukat a csatlakozáshoz.",
+        "v1": "Az eseménykapcsolatok itt jelennek meg: egy kód letapogatás elég.",
+        "v2": "Cserélje ki az elérhetőségeket a helyszínen a résztvevő kódjának letapogatásával."
+      },
+      "discover": {
+        "v0": "Egy kulcsszó keresés néha megtalálja, amit a kezdőlap még nem mutat.",
+        "v1": "Keresés város vagy kategória szerint: új események érkeznek minden héten."
+      },
+      "exploreAction": "Nézd, mi van benne.",
+      "scanAction": "Kód keresése",
+      "searchAction": "Esemény keresése",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Szélesség 50 km körül",
+      "clearFilters": "Szűrők törlése"
+    },
+    "greeting": {
+      "when": {
+        "today": "ma",
+        "tomorrow": "holnap",
+        "dayAfter": "holnapután"
+      },
+      "there": "a helyszínen",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Boldog születésnapot! Szép napot.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Boldog nemzeti napot!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Üdv újra itt.",
+      "subtitle_one": "Egy új dolog az utolsó látogatása óta.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "És még egyet abból, amit követsz.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Elrejtés",
+      "reason": {
+        "followed_organizer": "Organizer you follow",
+        "new_edition": "Egy esemény új kiadása, amin részt vett",
+        "other": "Új"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "A TAZÁD ALAPJÁN",
+      "forYouTitle": "Talán te is szeretnéd.",
+      "loginCtaTitle": "Ajánlások az Ön számára"
+    },
+    "settings": {
+      "ritualsEyebrow": "Little touches",
+      "ritualsTitle": "Kis érintések",
+      "ritualsSubtitle": "Egy szó a születésnapodon, a számla évfordulódon vagy a nemzeti napon, egyszer a nap folyamán. A korodat nem mutatják, nincs bejelentés.",
+      "forgetEyebrow": "AJÁNLÁSOK",
+      "forgetTitle": "Felejtsd el a preferenciáimat.",
+      "forgetSubtitle": "Törli az eseményeket követő eseményeket, regisztrációkat és kereséseket megtanította az Ön ajánlásait.",
+      "forgetConfirmTitle": "Felejtsük el a preferenciákat?",
+      "forgetConfirmMessage": "Az ajánlásaid a semmiből kezdődnek. A jegyeid, kedvenceid és követőid nem változnak.",
+      "forgetDone": "Kész: az ajánlásaid a nulláról kezdődnek.",
+      "forgetUnavailable": "Ez a lehetőség még nem áll rendelkezésre. Semmit sem töröltek.",
+      "forgetError": "A preferenciáit nem lehet törölni. Ezek nem változtak, egy pillanat és újra megpróbáljuk."
+    },
+    "goingCard": {
+      "title": "Amíg vársz, készítsd elő a \"Megyek\" kártyádat.",
+      "subtitle": "Készen áll a megosztásra, amint a kifizetés megerősítést nyer.",
+      "tintLabel": "Háttér",
+      "messageLabel": "Üzenet",
+      "messages": {
+        "going": "Megyek.",
+        "meetThere": "Ott találkozunk?",
+        "seeYou": "Ott találkozunk."
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "A kártyád lenyomata, amíg vársz.",
+      "ready": "A kártyája készen áll.",
+      "share": "Ossza meg a kártyámat.",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }
