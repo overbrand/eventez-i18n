@@ -41,6 +41,7 @@
     "close": "Klon",
     "clear": "WANITA",
     "back": "Amerika Serikat",
+    "home": "Rumah",
     "next": "Next",
     "previous": "Sebelumnya",
     "search": "Cari",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Kode engarkiarki salah atau luput",
     "loginError": "Kesalahan log masuk",
     "registerError": "Galat pendaftaran",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "Tidak ada token yang diterima dari Google. Tolong coba lagi.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "Tidak ada tanda pengenal yang diterima dari Apple. Tolong coba lagi.",
     "registerEmailExistsTitle": "Nama akun sudah ada",
     "registerEmailExistsDetail": "Sebuah akun sudah ada dengan email ini. Kau mau mendaftar?",
     "registerEmailExistsConfirm": "Sign in",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Nama terakhir diperlukan",
     "emailRequired": "Email diperlukan",
     "emailInvalid": "E-mail tidak sah",
+    "passwordRequired": "Kata sandi password diperlukan",
     "passwordTooShort": "Kata sandi terlalu pendek ({{min}} karakter minimum)",
+    "confirmPasswordRequired": "Kepastian kata sandi katalaluan diperlukan",
     "passwordsDontMatch": "Kata Sandi kata sandi tidak cocok",
+    "usernameRequired": "Nama pengguna diperlukan",
     "usernameTooShort": "Nama pengguna terlalu pendek ({{min}} karakter minimum)",
     "usernameInvalid": "Nama pengguna tidak sah",
+    "phoneRequired": "Nomor telepon genggam diperlukan",
     "phoneInvalid": "Nomor telepon tidak sah",
     "minLength": "Setidaknya aksara {{min}}",
     "maxLength": "Karakter maksimum {{max}}"
@@ -449,7 +461,8 @@
     "saved": "Diselamatkan",
     "messages": "Mesej",
     "tickets": "Tiket",
-    "profile": "Profile"
+    "profile": "Profile",
+    "organize": "Memorganisasi"
   },
   "languagePicker": {
     "eyebrow": "SEJARAH",
@@ -492,6 +505,7 @@
     "viewAction": "Pandangan",
     "viewEvent": "Acara View",
     "share": "Kongsi",
+    "scrollToTop": "♪ Kembali ke puncak ♪",
     "freeEyebrow": "ZERO COST",
     "freeTitle": "Bebas, tanpa tali",
     "freeBadge": "UMUM",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Kau sudah siap!",
     "notifyOnBody": "Kami akan memberitahu Anda segera setelah acara pertama pergi hidup.",
     "notifyOffTitle": "Pemberitahuan palsu dimatikan",
-    "notifyOffBody": "pemilahan pemberitahuan dalam pengaturan harus disiagakan."
+    "notifyOffBody": "pemilahan pemberitahuan dalam pengaturan harus disiagakan.",
+    "organizersEyebrow": "Penyusun:",
+    "organizersTitle": "Orang-orang di belakang TKP",
+    "organizersTitleWithCity": "Organisasi dalam {{city}}",
+    "organizerVerified": "Penyelenggara Terverifikasi",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Harga ton",
@@ -604,7 +624,10 @@
     "invisibleHint": "Kamu tidak kelihatan — mulai terlihat juga.",
     "message": "Pesan",
     "connected": "Terhubung",
-    "empty": "Tidak ada yang terlihat belum. Jadilah yang pertama menghidupkan jaringan Anda!"
+    "empty": "Tidak ada yang terlihat belum. Jadilah yang pertama menghidupkan jaringan Anda!",
+    "scanOptInTitle": "\\\"Biarkan para pameran memindai lencanaku\\\"",
+    "scanOptInSubtitle": "Perusahaan ekshibisi akan dapat menyimpan nama dan rincian kontak Anda dengan memindai lencana Anda, sehingga mereka dapat menindaklanjuti setelah acara tersebut.",
+    "scanOptInWithdrawNote": "Kau bisa mematikan ini kapan saja. Kenalan yang sudah disimpan oleh para ekshibitor tidak dihapus secara otomatis — Anda dapat meminta kepastian mereka dari pengaturan privasi Anda."
   },
   "eventDetails": {
     "eyebrow": "EVENT",
@@ -628,6 +651,7 @@
     "onlineEvent": "Peristiwa Online",
     "meetingId": "ID Pertemuan:",
     "meetingPasscode": "Kode sandi:",
+    "liveEngagement": "jajak pendapat dan siaran suara Live Q&A",
     "joinEvent": "Sertai acara",
     "joinOnline": "TiadaJoin online",
     "registered": "Didaftarkan",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Kongsi pada WhatsApp",
     "closePreviewA11y": "Pratonton",
     "invalidCode": "Kode akses tidak sah",
+    "accessButton": "Enter",
+    "pendingPaymentBanner": "Melengkapi pembayaran Anda untuk mengkonfirmasi pendaftaran Anda",
+    "onlineInfoAfterRegistration": "Rincian sambungan akan tersedia setelah Anda mendaftar",
+    "alsoOnlineVia": "Juga tersedia online melalui {{platform}}",
     "imageEnlarge": "Besarkan",
+    "playCoverVideo": "Video Main",
+    "videoPlayA11y": "Mainkan video dengan suara",
+    "videoUnmuteA11y": "♪ Unmute",
+    "videoMuteA11y": "Yehon Mute",
+    "videoExpandA11y": "Kembangkan video ke layar penuh",
     "imagesCount": "{{current}} / {{total}}",
     "videoConference": "Platform konsultasi Video",
     "openLinkError": "Tak dapat membuka taut acara",
@@ -675,7 +708,28 @@
     "registeredStatus": "Didaftarkan",
     "pendingStatus": "Ditunda",
     "priceLabel": "Amerika Serikat",
-    "fromLabel": "Mula dari"
+    "fromLabel": "Mula dari",
+    "waitlistJoinedDetail": "Kau telah bergabung dengan daftar tunggu. Kami akan memberitahu Anda segera setelah tempat terbuka.",
+    "waitlistLeftMsg": "Kau meninggalkan daftar tunggu",
+    "waitlistLeaveError": "Tak dapat meninggalkan daftar tunggu",
+    "waitlistJoinError": "Tidak dapat bergabung dengan daftar tunggu",
+    "waitlistLeaveTitle": "Tinggalkan daftar tunggu",
+    "waitlistLeaveConfirm": "Kau yakin ingin meninggalkan daftar tunggu?",
+    "whatsappNotInstalled": "WhatsApp tidak dipasang pada perangkat ini",
+    "reviewRatingRange": "Sila pilih rating antara 1 dan 5",
+    "reviewThanksTitle": "Terima kasih!",
+    "reviewSubmitted": "Ulasan Anda berhasil diajukan",
+    "loginRequiredTitle": "Diperlukan sign-in",
+    "loginRequiredReview": "Sign in untuk meninggalkan ulasan",
+    "reviewSubmitError": "Tidak dapat mengajukan ulasan Anda",
+    "loginRequiredWaitlist": "Sign in untuk bergabung dengan daftar tunggu",
+    "invitationGateDesc": "Acara ini disediakan untuk tamu undangan. Jika Anda menerima undangan, silakan menerimanya untuk mendapatkan akses.",
+    "codeGateDesc": "Masukkan kode untuk melihat rincian lengkap",
+    "giftRegistryCta": "Gift registry",
+    "giftRegistrySubtitle": "Lihat daftar dan chip jika Anda merasa seperti itu",
+    "cancelReasonTitle": "Alasan untuk pembatalan",
+    "visioEnded": "Konferensi video acara ini telah berakhir.",
+    "videoPauseA11y": "Jeda video"
   },
   "events": {
     "videoBadge": "Video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Kejadian masa lalumu akan muncul di sini.",
     "scanQR": "Kode QR Pindai UKM",
     "showQR": "Tunjukkan kode QR",
+    "viewQR": "Lihat pula QR",
+    "receivedTransfers": "Transfer yang diterima oleh fax",
+    "myTicketsFiltersActive": "Filter-filters ({{count}} aktif)",
     "qrTitle": "Kode QR Anda",
     "qrSubtitle": "Tunjukkan kode ini di pintu masuk",
     "ticketDetails": "Rincian tiket",
@@ -930,7 +987,10 @@
     "monthNovember": "NOVEMBER",
     "monthDecember": "DECEMBER",
     "tapToShowQR": "Sap untuk melihat kode QR",
-    "searchTitleRefVenue": "Gelar, wasit, tempat..."
+    "searchTitleRefVenue": "Gelar, wasit, tempat...",
+    "pendingPayment": "Pembayaran yupping",
+    "pendingExpired": "Peristiwa Lenyap",
+    "statusExpired": "Luput"
   },
   "payment": {
     "title": "Bayaran berbayar",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Amerika Serikat",
     "paymentGenericError": "Terjadi galat ketika pembayaran",
     "paymentErrorTitle": "Kesalahan pembayaran yuran [P]",
+    "paymentBlockedTitle": "Pembayaran kartu palsu diblokir",
     "paymentCancelledTitle": "Bayaran yuran dibatalkan",
     "paymentNoPaymentInProgress": "Tidak ada pembayaran sedang berlangsung untuk memverifikasi",
     "paymentVerifyingTitle": "Mengesahkan...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Teruskan menunggu",
     "paymentProcessing": "Pemrosesan Pemrosesan",
     "paymentTitle": "Bayaran berbayar",
+    "checkoutStep": "1 / 3  • PATAS",
+    "noDoubleCharge": "Anda hanya akan dikenakan sekali, bahkan jika layar berputar untuk sementara waktu.",
+    "biometricConfirm": "Konfirmasi pembayaran {{amount}}",
+    "termsAcceptPrefix": "Aku menerima",
+    "termsLinkFull": "Istilah penjualan dan kebijakan pengembalian dana",
+    "termsAcceptSuffixDot": ".",
     "paymentStepSelection": "Pemilihan",
     "paymentStepRecap": "Amerika",
     "paymentMethodFallback": "Bayaran berbayar",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Bayaran berbayar",
     "myPaymentsFilterCompleted": "Selesai",
     "myPaymentsFilterPending": "Ditunda",
-    "myPaymentsFilterFailed": "Gagal"
+    "myPaymentsFilterFailed": "Gagal",
+    "finalizeEndedTitle": "Acara ini telah berakhir",
+    "finalizeEndedBody": "Anda tidak dapat lagi menyelesaikan pendaftaran Anda: acara sudah berakhir. Kau tidak dituntut.",
+    "finalizeClosedTitle": "Pendaftaran ditutup",
+    "finalizeClosedBody": "Masa pendaftaran untuk acara ini telah berakhir.",
+    "finalizeSoldOutTitle": "Tiket tiket terjual habis",
+    "finalizeSoldOutBody": "Tiket yang kau punya sudah tidak tersedia lagi. reservasimu sudah habis. Kau tidak dituntut.",
+    "finalizeBackToEvent": "Khamis Kembali ke Peristiwa",
+    "paymentPushSentTitle": "Konfirmasi pada telepon Anda",
+    "paymentPushSentMessage": "Permintaan pembayaran telah dikirim ke teleponmu. Mintalah (Mobile Money PIN) untuk diselesaikan.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Permintaan Pengulangan Utang"
   },
   "memories": {
     "title": "Kenangan indahku",
@@ -1235,7 +1313,11 @@
     "recapShare": "Kongsi Kongsi rekap saya",
     "recapEvents": "peristiwa-peristiwa yang hidup",
     "recapCities": "Fijikota",
-    "recapFirst": "Kali pertama tiba #1"
+    "recapFirst": "Kali pertama tiba #1",
+    "oneYearAgo": "Setahun yang lalu, kau ada di sana.",
+    "nextEdition": "Edisi barunya dijual · {{title}}",
+    "firstHint": "Wartawan panjang untuk kejutan",
+    "firstNote": "Pertama tiba. Pintu hampir tidak terbuka."
   },
   "profile": {
     "title": "Profile",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Daftar keluar",
     "logoutInProgress": "Signing keluar...",
     "appVersion": "EventEz v1.0.0",
-    "myQRTitle": "Kode QR Saya"
+    "myQRTitle": "Kode QR Saya",
+    "refundsMenu": "Uang kembalianku",
+    "refundsSubtitle": "Trek di mana uang Anda berdiri",
+    "shareProfileButton": "Kongsi Kongsi profilku",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "Profil penyelenggara saya",
+    "shareOrganizerA11y": "Kongsi dengan profil penyelenggaraku.",
+    "viewPublicProfileA11y": "Lihat profil publikku",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "Tidak mengikuti?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Mengikuti",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Tidak ada hasil",
+    "followSearchEmptyText": "2 followed Tidak ada penyelenggara yang mengikuti pertandingan “{{query}}”.",
+    "followDiscoverCta": "Temu kejadian",
+    "followSearchPlaceholder": "Cari sebuah penyelenggara"
   },
   "editProfile": {
     "title": "profile",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Alamat",
     "sectionOrganization": "Organisasi",
     "sectionSecurity": "Keamanan",
-    "qrShareSubtitle": "Memindai kode ini untuk berbagi profil Anda"
+    "qrShareSubtitle": "Memindai kode ini untuk berbagi profil Anda",
+    "countryPlaceholder": "Tidak.",
+    "orgLogoLabel": "Logo",
+    "orgLogoAdd": "Logo",
+    "orgLogoChange": "logo perubahan",
+    "orgWebsiteLabel": "Website",
+    "orgDescriptionLabel": "Keterangan Publik",
+    "orgDescriptionPlaceholder": "Perkenalkan organisasimu..."
   },
   "settings": {
     "whoCanContactCurrent": "ANTI-SPAM",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Tema",
     "themeDialogSubtitle": "Pilih tema Anda",
     "timezoneDialogTitle": "Zone Timezone",
+    "timezoneDetected": "tidak terdeteksi",
     "timezoneDialogSubtitle": "Pilih zona waktu Anda",
     "preferencesTitle": "Keutamaan Anjuta",
     "headerEyebrow": "SETINGS",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Konfirmasi dan pengembalian uang",
     "rowNewConversations": "Perbincangan baru",
     "rowMarketing": "Saran saran & promosi",
+    "rowSocialEyebrow": "Sosial",
+    "rowSocial": "Aktivitas sosial",
+    "rowSocialDesc": "Pengikut baru, pengingat, permintaan ulasan",
+    "newRegistrationsEyebrow": "Organisasi",
+    "newRegistrationsTitle": "Pendaftaran baru",
+    "newRegistrationsDescription": "Seberapa sering Anda email ketika seseorang mendaftar untuk acara Anda",
+    "newRegistrationsFreq": {
+      "realtime": "Waktu Nyata",
+      "hourly": "Setiap Jam",
+      "daily": "Harian",
+      "off": "Perancis"
+    },
+    "quietHoursEyebrow": "Jangan mengganggu",
+    "quietHoursTitle": "Jam diam-diam",
+    "quietHoursDescription": "Jeda jeda non-esensial push/SMS pemberitahuan semalam. Peringatan penting selalu datang melalui.",
+    "quietHoursFrom": "Dari",
+    "quietHoursTo": "Sampai",
     "rowSounds": "Bunyikan suara di saat-saat penting",
     "rowSoundsSubtitle": "Mainkan suara saat konfirmasi pembayaran atau scan QR",
     "rowTwoFA": "Otentikasi dua-faktur",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "voices",
     "shortcutTaxes": "Pajak Pertambahan Nilai",
     "shortcutMyEvents": "Peristiwa Saya",
-    "shortcutHelp": "Bantuan"
+    "shortcutHelp": "Bantuan",
+    "rowMyDataAtExhibitors": "Dataku dipegang oleh para pameran",
+    "rowLiveBanner": "Panji acara hidup",
+    "rowLiveBannerSubtitle": "Tampilkan spanduk untuk bergabung dengan acara yang saat ini disiarkan langsung.",
+    "pushPermissionTitle": "Pemberitahuan palsu dimatikan untuk perangkat ini",
+    "pushPermissionMessage": "Sistem pengaturan blok EventEz pemberitahuan. Pengaturan sistem terbuka untuk memungkinkan mereka.",
+    "rowShareAttendance": "Beritahu koneksiku",
+    "rowShareAttendanceSubtitle": "koneksi Anda dapat melihat Anda menghadiri acara. Off secara default; tidak pernah untuk undangan-hanya acara.",
+    "rowNotifyMemories": "Pemberitahuan “Setahun yang lalu”",
+    "rowNotifyMemoriesSubtitle": "Pada paling banyak satu peringatan seminggu, pada hari ulang tahun acara yang Anda hadiri.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "A rekap swasta tahun Anda, pada bulan Desember. Tak ada orang lain yang melihatnya.",
+    "madeInDouala": "Buatan Douala, dengan hati-hati.",
+    "madeInDoualaSub": "Terima kasih untuk membawa acara Anda untuk hidup dengan kami.",
+    "rowUiSounds": "Suara antarmuka",
+    "rowUiSoundsSubtitle": "Suara yang sangat halus pada konfirmasi dan pemberitahuan masuk. Secara default.",
+    "vibrationsEyebrow": "TUNUCH",
+    "rowVibrations": "Vibrations",
+    "rowVibrationsSubtitle": "Maklum balas haptic pada tindakan kunci: pembayaran, pemindaian, favorit.",
+    "rowMotionGestures": "Gerakan gerak isyarat",
+    "rowMotionGesturesSubtitle": "Shake, flip atau memegang telepon Anda untuk beberapa tindakan. Tombol A selalu tersedia juga.",
+    "notificationsEyebrowOngoing": "Pemberitahuan palsu",
+    "rowOngoingEvent": "Tiket yang dipine pada hari acara",
+    "rowOngoingEventSubtitle": "Notifikasi yang tenang, 3 h sebelum dan selama acara, dengan tiket dan arah Anda.",
+    "rowNotificationSounds": "Suara notifikasi",
+    "rowNotificationSoundsSubtitle": "Ambil suara untuk setiap kategori (saat-saat besar, penjualan, pesan...) dalam pengaturan telepon Anda"
   },
   "messages": {
     "title": "Mesej",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Cari kenalan...",
     "searchEyebrow": "SEARCH",
     "searchHint": "Jenis Ogos untuk dicari",
-    "noOneFound": "Tidak ada yang ditemukan"
+    "noOneFound": "Tidak ada yang ditemukan",
+    "myConnectionsSection": "Tak ada koneksiku.",
+    "searchResultsSection": "Hasil",
+    "noConnectionsEyebrow": "NETWORKING",
+    "noConnectionsTitle": "belum ada koneksi",
+    "noConnectionsCta": "Sambung melalui QR",
+    "emptyEyebrowArchived": "ARKIBZA",
+    "emptyEyebrowEmpty": "EMPTY INBOX",
+    "archivedEmptyDesc": "Perbincangan arsipmu akan mendarat di sini.",
+    "noConversationsDesc": "Kita akan mencari seseorang untuk diajak bicara.",
+    "attachmentPreview": "[Lampiran]",
+    "noMatchingMessage": "Tidak ada pesan yang cocok dengan bagan"
   },
   "notifications": {
     "title": "Pemberitahuan palsu",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Apa yang baru",
     "typePendingModeration": "Lanjut",
     "typeModerationReminder": "Antrian sederhana",
+    "typeNewFollower": "pengikut baru",
+    "typeFollowedOrganizerNewEvent": "Acara baru",
+    "typeFollowRegistered": "Hubungan akan berjalan",
+    "typeConnectionsAtEvent": "Sambungan Anda",
+    "eyebrowNetwork": "NETWORK",
+    "eyebrowSoon": "SOON",
+    "eyebrowReminder": "PENYIAR",
+    "eyebrowModeration": "PENDUDUK",
+    "eyebrowToReview": "BAHASA",
+    "eyebrowDiscovery": "♪ DiscoVER ♪",
+    "eyebrowUrgent": "URGENT",
+    "eyebrowWhatsNew": "APA YANG BARU",
+    "filterReadTab": "Bacalah",
+    "groupToday": "Hari ini",
+    "groupYesterday": "YESTERDAY",
+    "tabAll": "Semua",
+    "tabNetwork": "Jaringan",
     "typeDefault": "Pemberitahuan notifikasi",
     "filterAllTab": "Semua",
     "filterUnreadTab": "Tidak dibaca",
@@ -1739,7 +1919,26 @@
     "statTotal": "TOTAL",
     "statUnread": "ASIN",
     "statToday": "Hari ini",
-    "viewDetails": "Lihat rincian"
+    "viewDetails": "Lihat rincian",
+    "actions": {
+      "showTicket": "Tunjukkan tiketku",
+      "directions": "Arah",
+      "going": "Aku akan pergi",
+      "viewTicket": "Tiket untuk melihat",
+      "reply": "UMUM",
+      "replyPlaceholder": "Pesanmu...",
+      "replySubmit": "Kirim",
+      "markRead": "Tandai sebagai baca",
+      "joinLive": "Join",
+      "payNow": "Bayar sekarang",
+      "writeTo": "Mesej kepada mereka",
+      "viewEvent": "Acara View",
+      "viewTickets": "Lihat tiketku",
+      "viewRefund": "Pemulihan gambar Ukur",
+      "viewProfile": "Profil View profile",
+      "summaryTitle": "Mesej",
+      "summaryBody": "Pesan baru"
+    }
   },
   "dashboard": {
     "title": "Papan Dash",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Urus rencanaku.",
     "exportTitle": "Ekspor",
     "exportSubtitle": "Datamu",
-    "settingsLink": "Pengaturan"
+    "settingsLink": "Pengaturan",
+    "greetingNight": "Selamat malam"
   },
   "following": {
     "title": "Favoritku",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Permintaan maaf ditolak.",
     "declineError": "Tak bisa menolak undangan.",
     "declineButton": "beredar",
+    "declineConfirmTitle": "Undangan tidak wajar",
+    "declineConfirmMessage": "Anda yakin ingin menolak undangan ini?",
     "fromLabel": "ROM",
     "toLabel": "SEJARAH",
     "organizerFallback": "Organisasi",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Gagal memuat-naik",
     "downloadFailed": "Gagal untuk memuat turun",
     "tryAgain": "Cuba lagi",
-    "contactSupport": "Dukungan hubungan Course"
+    "contactSupport": "Dukungan hubungan Course",
+    "timeout": "Permintaan itu terlalu lama. Periksa koneksimu dan coba lagi.",
+    "validation": "Beberapa rincian tidak sah. Baiki bidang yang disorot dan coba lagi.",
+    "fields": {
+      "title": "Gelaran",
+      "subtitle": "Subtitle",
+      "message": "Pesan",
+      "image": "Imej",
+      "cta_label": "Button label",
+      "cta_url": "Link Button Button",
+      "link_url": "Link",
+      "target_event": "Peristiwa Target Target",
+      "country": "Negara",
+      "city": "Kota",
+      "radius_km": "Radius",
+      "placement": "Austria",
+      "priority": "(Prioritas)",
+      "severity": "Keparahan",
+      "audience": "Penonton",
+      "platform": "Platform",
+      "valid_from": "Kesahihan dari",
+      "valid_until": "Kesahihan sampai sah"
+    },
+    "http": {
+      "badRequest": "Kami tak bisa memproses permintaanmu. Tolong periksa rinciannya dan coba lagi.",
+      "unauthorized": "Sesimu sudah berakhir. Tolong masuk lagi.",
+      "forbidden": "Kau tak punya izin untuk melakukan ini.",
+      "notFound": "Kami tidak bisa menemukan apa yang kau cari.",
+      "conflict": "Tindakan ini bertentangan dengan keadaan saat ini. Setelah itu coba lagi.",
+      "tooManyRequests": "Terlalu banyak upaya. Mohon tunggu sebentar dan coba lagi.",
+      "server": "Server kami mengalami masalah sekarang. Tolong coba lagi dalam beberapa menit.",
+      "updating": "EventEz adalah pembaruan. Silakan coba lagi dalam beberapa detik."
+    },
+    "codes": {
+      "emailTaken": "Email ini sudah dikaitkan dengan akun. Tanda tangan di atau menggunakan alamat lain.",
+      "usernameTaken": "Nama itu sudah diambil, silakan pilih yang lain.",
+      "weakPassword": "Memilih kata sandi minimal 8 karakter pencampuran huruf dan angka.",
+      "invalidCredentials": "Email atau password salah. Coba lagi atau atur ulang kata sandi Anda.",
+      "resetLinkExpired": "Link reset ini sudah berakhir. Permintaan yang baru.",
+      "otpInvalid": "Kode ini tidak benar atau telah berakhir. Periksa atau minta yang baru.",
+      "otpSendFailed": "Kami tidak bisa mengirim kode SMS. Periksa nomor Anda dan coba lagi, atau tanda tangan dengan email Anda.",
+      "paymentMethodUnsupported": "Metode pembayaran ultah ini tidak tersedia untuk acara ini. Tolong pilih yang lain.",
+      "paymentFailed": "Pembayaranmu tak bisa diselesaikan. Kau belum dituntut. Coba lagi atau gunakan metode lain.",
+      "paymentNetwork": "Koneksi terputus selama pembayaran. Anda tidak akan dikenakan biaya dua kali.",
+      "paymentTimeout": "Pembayaranmu butuh waktu lebih lama dari yang diharapkan. Jangan bayar lagi — periksa tiket Anda dalam beberapa menit, atau hubungi dukungan jika tidak ada yang tiba.",
+      "paymentVerifyFailed": "Kami belum bisa mengkonfirmasi pembayaranmu. Jika Anda dikenakan biaya, tiket Anda akan muncul tidak lama lagi — cek lagi dalam beberapa menit.",
+      "refundFailed": "Permintaan pengembalian uangmu tidak bisa dikirim. Silakan coba lagi, atau dukungan kontak.",
+      "insufficientBalance": "Tidak cukup keseimbangan untuk operasi ini.",
+      "payoutLocked": "Pembayaran lunas ini tidak lagi dapat diubah karena pengolahan sudah dimulai. Kontak Kontak kontak jika ini adalah kesalahan.",
+      "planLimitReached": "Kau sudah mencapai batas rencanamu. Kau harus melanjutkan rencanamu.",
+      "countryNotSupported": "Pembayaran gaji belum tersedia di negara ini. Anda dapat membuat acara di negara yang didukung, atau menghubungi kami."
+    },
+    "tickets": {
+      "offline": "Kau sedang offline sekarang. Tiket yang sudah kau muatkan di luar sana. Coba lagi setelah kau kembali online.",
+      "timeout": "Tiketmu mengambil waktu untuk mengisi. Mereka selamat. Coba lagi sebentar lagi.",
+      "server": "Server kami memiliki cegukan singkat. Tiketmu aman di pihak kami. Coba lagi dalam beberapa menit.",
+      "notFound": "Kita tidak bisa menemukan tiket ini. Tiketmu yang lain tidak terpengaruh. Segarkan daftar atau periksa email konfirmasi Anda.",
+      "forbidden": "Tiket ini milik rekening lain. Tiketmu sendiri tak tersentuh. Tanda tangan dengan akun yang digunakan untuk pembelian."
+    },
+    "messages": {
+      "offline": "Kau sedang offline sekarang. Pesan-pesan Anda tidak hilang: yang tertunda akan keluar setelah Anda kembali online. Coba lagi ketika jaringan kembali.",
+      "timeout": "Messaging adalah lambat untuk merespon. Pesanmu tidak hilang. Coba lagi sebentar lagi.",
+      "server": "Messaging adalah memiliki cegukan singkat di pihak kita. Percakapanmu masih utuh. Coba lagi dalam beberapa menit.",
+      "notFound": "Percakapan ini sudah tidak ada lagi. Percakapanmu yang lain tidak terpengaruh. Kembali ke pesanmu.",
+      "forbidden": "Anda tidak lagi memiliki akses ke percakapan ini. Percakapanmu yang lain masih tersedia. Kembali ke pesanmu."
+    },
+    "event": {
+      "offline": "Kau sedang offline, jadi kita tidak bisa menunjukkan acara ini. Tiket Lupa Anda tetap tersedia offline. Coba lagi setelah kau kembali online.",
+      "timeout": "Halaman acara ini mengambil waktu untuk memuat. Tak ada yang berubah di pihakmu. Coba lagi sebentar lagi.",
+      "server": "Sebuah cegukan singkat adalah menjaga kita dari menunjukkan acara ini. Tiket dan pendaftaranmu tidak terpengaruh. Coba lagi dalam beberapa menit.",
+      "notFound": "Acara ini tidak lagi online: penyelenggara mungkin telah menghapusnya. Setiap tiket Anda telah tinggal di \"My tiket\". Lebih banyak kejadian sedang menunggu di Discover.",
+      "forbidden": "Acara ini bersifat pribadi. Akunmu bukan masalah. Tanya penyelenggara undangan untuk mendapatkan akses."
+    },
+    "upload": {
+      "offline": "Muat naik tidak dapat dimulai: Anda sedang offline. Berkasmu masih ada di ponselmu. Coba lagi setelah kau kembali online.",
+      "timeout": "Uploadnya terlalu lama. Berkasmu masih ada di ponselmu. Coba lagi, idealnya di Wi-Fi atau dengan file yang lebih ringan.",
+      "server": "Server tidak bisa menerima file. Ini masih aman di ponselmu. Coba lagi dalam beberapa menit.",
+      "notFound": "Tujuan upload sudah tidak ada lagi. Berkasmu masih aman di ponselmu. Segarkan layar dan coba lagi.",
+      "forbidden": "Kau tak boleh mengunggah file ini di sini. Ini masih aman di ponselmu. Periksa bahwa Anda menandatangani dengan akun yang tepat.",
+      "tooLarge": "Berkas ini terlalu besar untuk diunggah. Ini masih aman di ponselmu. Ada yang memilih berkas yang lebih ringan atau gambarnya dipotong."
+    }
   },
   "errorBoundary": {
     "eyebrow": "♪ Glitch ♪",
@@ -2572,7 +2854,10 @@
     "successTitle": "Tahniah!",
     "successMessage": "Kau sekarang seorang penyelenggara. Ciptakan acara pertamamu!",
     "errorTitle": "Error",
-    "errorGeneric": "Terjadi galat"
+    "errorGeneric": "Terjadi galat",
+    "labelWebsite": "Situs web (opsional)",
+    "labelDescription": "Keterangan (opsional)",
+    "placeholderDescription": "Perkenalkan organisasimu..."
   },
   "verificationForm": {
     "pdfOpenError": "Tak dapat membuka dokumen.",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Alfred Hybrid",
     "priceAny": "Semua",
     "priceFree": "Bebas",
-    "pricePaid": "Dibayar"
+    "pricePaid": "Dibayar",
+    "shareSearch": "Kongsi pencarian ini",
+    "shareMessage": "Lihatlah peristiwa ini di EventEz"
   },
   "map": {
     "filtersTitle": "Tapisan",
@@ -2779,6 +3066,10 @@
     "statsRating": "MENGERANG",
     "statsSince": "SINCE",
     "contactA11y": "Penyelenggara kontak New York",
+    "connectA11y": "Sambungkan",
+    "connectedA11y": "IDD sudah terhubung",
+    "connectSuccess": "Kau sekarang terhubung ke {{name}}",
+    "connectError": "Tak bisa terhubung. Tolong coba lagi.",
     "bioEyebrow": "♪ BIO ♪",
     "bioTitle": "Perihal",
     "linksEyebrow": "ONLINE",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Diterbitkan",
     "loadingEvents": "Memuatkan...",
     "noEvents": "Tidak ada peristiwa yang diterbitkan",
-    "freeBadge": "UMUM"
+    "freeBadge": "UMUM",
+    "tabs": {
+      "upcoming": "Kekejipan",
+      "past": "Masa Lalu"
+    }
   },
   "sessionDetails": {
     "title": "Sesi",
@@ -3223,7 +3518,12 @@
     "codeLabel": "CODE",
     "emptyEyebrow": "COMING",
     "emptyTitle": "Tidak ada kode belum",
-    "emptySubtitle": "Kode referensi Anda akan muncul di sini segera setelah mereka tersedia."
+    "emptySubtitle": "Kode referensi Anda akan muncul di sini segera setelah mereka tersedia.",
+    "generateCta": "Aku telah menemukan kodeku.",
+    "generating": "Menjana...",
+    "generateSuccess": "Kode referral buatan!",
+    "generateError": "Tak bisa menghasilkan kodenya. Tolong coba lagi.",
+    "copySuccess": "Taut referral tidak resmi disalin"
   },
   "teamManagement": {
     "eyebrow": "TEAM",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Paparan analitik",
     "perm_view_registrations": "Daftar pendaftaran View vision",
     "perm_edit_event": "Tak ada acara lain",
-    "perm_manage_team": "Jemput anggota tim lain"
+    "perm_manage_team": "Jemput anggota tim lain",
+    "role_co_organizer": "Organizer",
+    "role_moderator": "Moderator",
+    "role_scanner": "Memindai",
+    "role_analyst": "Analisa analisa",
+    "status_pending": "Ditunda",
+    "status_accepted": "Active",
+    "status_declined": "Ditolak",
+    "status_revoked": "Batal",
+    "status_expired": "Luput"
   },
   "myTeamEvents": {
     "eyebrow": "SUDAH SUDAH",
@@ -3276,8 +3585,10 @@
     "willAttend": "Aku akan ke sana",
     "wontAttend": "Aku tidak bisa membuatnya",
     "partySize": "Nomor tamu tambahan",
+    "partySizeHint": "Selain dirimu. E.g. 2 jika kau membawa 2 orang.",
     "dietary": "Keperluan makanan / alergi",
     "note": "Sebuah kata untuk pasangan",
+    "noteOptional": "Kata untuk pasangan (opsional)",
     "submit": "Kirim respon saya",
     "thanksAccepted": "Terima kasih! Kehadiranmu sudah dikonfirmasi.",
     "thanksDeclined": "Terima kasih sudah memberitahu kami.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Namamu",
     "giftMethod": "Metode pembayaran biaya",
     "giftPay": "Kontributor",
-    "giftError": "Pembayaran tidak bisa dimulai."
+    "giftThanks": "Terima kasih atas kontribusimu!",
+    "giftRedirectNote": "Kau akan dialihkan ke halaman pembayaran aman. Ini normal.",
+    "giftError": "Pembayaran tidak bisa dimulai.",
+    "rsvpSubmitError": "Responmu tidak bisa dikirim. Tolong coba lagi.",
+    "summaryTitle": "Jawabanmu",
+    "summaryAccepted": "Kau mengkonfirmasi kehadiranmu.",
+    "summaryDeclined": "Kau menolak undangannya.",
+    "summaryPartySize": "Tetamu dengan Anda",
+    "summaryHeadcount": "Kursi dibuat",
+    "summaryDietary": "kebutuhan Dieter",
+    "summaryTable": "Meja Anda",
+    "summaryTablePending": "Mejamu akan dibagikan sebelum acara."
   },
   "teamInvitation": {
     "eyebrow": "PENDIDIKAN",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Diskusi baca-saja. Simpan pesanmu.",
     "mutedLockMessage": "Anda telah bisu dalam diskusi ini oleh penyelenggara.",
     "postingLockMessage": "Hanya penyelenggara yang dapat memposting dalam diskusi ini.",
-    "defaultUserName": "Name"
+    "defaultUserName": "Name",
+    "someFilesQueuedForRetry": "Beberapa file akan marah setelah koneksi kembali.",
+    "retrySend": "Cuba lagi",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Scroll ke bawah",
+    "tapToLoadImage": "Sapu untuk memuat",
+    "reply": "UMUM",
+    "react": "React",
+    "reactionToggleA11y": "Reaksi {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Percakapan baca-saja.",
+    "headerCollapseA11y": "Sembunyikan panji",
+    "headerExpandA11y": "{Y:",
+    "headerCollapseLabel": "Sorok",
+    "headerExpandLabel": "Rincian peristiwa"
   },
   "scanForm": {
     "loading": "Memuatkan...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Moderator",
     "roleAdmin": "Admin",
     "fallbackEvent": "Peristiwa",
-    "fallbackUnknownUser": "Pengguna"
+    "fallbackUnknownUser": "Pengguna",
+    "statusUnknown": "Status tak diketahui Tak diketahui"
   },
   "refundRequest": {
     "watermarkBack": "BACK",
     "watermarkOops": "OOPS",
     "loadError": "Tak dapat memuatkan rincian pembayaran",
     "paymentNotFound": "Pembayaran pajak tidak ditemukan",
+    "blockedNotOwner": "pembayaran ini tidak terkait dengan rekening Anda, sehingga Anda tidak dapat meminta pengembalian uang untuk itu.",
+    "blockedNotCompleted": "Pembayaran yang dikonfirmasi hanya dapat didanai kembali. Upah ini tidak dalam keadaan dikembalikan.",
+    "blockedAlreadyRequested": "Permintaan pengembalian uang sudah berlangsung untuk pembayaran ini.",
+    "blockedGeneric": "Pembayaran ini tidak memenuhi syarat untuk pengembalian uang sekarang.",
     "back": "Amerika Serikat",
     "closeA11y": "Klon",
     "eyebrow": "RESFUND • REFUND",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Kode akses (opsional)",
       "accessCodeHint": "Pengunjung akan perlu untuk memasukkan kode ini untuk melihat rincian",
       "accessCodePlaceholder": "Jangan biarkan kosong tanpa kode.",
-      "featuredInfo": "Anda dapat meminta untuk menampilkan acara Anda setelah penciptaan dari - acara saya -"
+      "accessCodeKeepPlaceholder": "Kode baru (meninggalkan kosong untuk menyimpan yang sekarang)",
+      "accessCodeActive": "Kode aksesnya aktif.",
+      "accessCodeWillBeRemoved": "Kodenya akan dihapus saat kau selamatkan.",
+      "accessCodeRemove": "Kode code",
+      "accessCodeUndoRemove": "ASUD",
+      "featuredInfo": "Anda dapat meminta untuk menampilkan acara Anda setelah penciptaan dari - acara saya -",
+      "categorySuggestion": "Saran: {{name}}"
     },
     "step2": {
       "title": "Tarikh dan Tempat",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Pilih di peta",
       "mapHint": "Untuk menampilkan peristiwa di peta dan mengaktifkan navigasi",
       "virtualLocationTitle": "Lokasi virtual virtual",
+      "eventezVisioLabel": "Gunakan EventEz Video",
+      "eventezVisioHint": "Konferencing video yang dibuat secara otomatis, tanpa link eksternal.",
       "platformLabel": "Platform",
       "platformPlaceholder": "Ex: Zoom, Google Meet, Teams",
       "connectionUrlLabel": "Sambungan sambungan VPN",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Mula penjualan",
       "salesEndLabel": "Penjualan akhir",
       "visibleLabel": "Tampak",
+      "accessModeLabel": "Akses diberikan oleh tiket ini",
+      "accessInPerson": "Orang",
+      "accessOnline": "Daring",
+      "accessBoth": "Keduanya",
       "visibleDesc": "Melayangkan tiket ini ke publik",
       "addAnotherTicket": "Tambah tiket lain",
       "registrationFormTitle": "Formulir pendaftaran (opsional)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Tutup menu",
       "cancel": "Batal"
+    },
+    "venuePicker": {
+      "label": "Guna tempat penyimpanan",
+      "hint": "Bidang-bidang mengisi secara otomatis. Kau bisa menyesuaikan mereka setelah itu."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Gangguan jenis peristiwa",
       "sourcePaymentMethods": "Metode pembayaran gaji",
       "sourceGeographical": "Kehancuran geografi"
-    }
+    },
+    "widgetDataUnavailable": "TLS tidak Ada"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Sebelumnya",
       "next": "Next",
       "selectDatePlaceholder": "Pilih tanggal",
-      "selectTimePlaceholder": "♪ Pilih waktu ♪"
+      "selectTimePlaceholder": "♪ Pilih waktu ♪",
+      "selectPlaceholder": "Pilih...",
+      "searchPlaceholder": "Cari..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Tiket tiket ditambahkan dengan sukses",
     "alreadyRegisteredConfirmTitle": "Sudah terdaftar",
     "alreadyRegisteredConfirmMessage": "Anda sudah terdaftar untuk acara ini.",
-    "createRegistrationError": "Tak dapat membuat pendaftaran"
+    "createRegistrationError": "Tak dapat membuat pendaftaran",
+    "accessMode": {
+      "in_person": "Hanya secara pribadi",
+      "online": "Akses Online",
+      "hybrid": "[ Gambar di hlm."
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Hanya satu tempat tersisa",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Pembelian Bekukan",
+    "suspendedByIncident": "Pembelian untuk sementara waktu dihentikan karena insiden. Follow update pada halaman Status."
   },
   "registrationDetails": {
     "headerInscription": "Pendaftaranku",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Batal",
     "statusInscriptionRejected": "Ditolak",
     "statusInscriptionValidated": "Disahkan",
-    "statusInscriptionUnknown": "Tak diketahui"
+    "statusInscriptionUnknown": "Tak diketahui",
+    "pdfEyebrow": "SUMMARY REGISTRASI",
+    "pdfDate": "Tarikh",
+    "pdfPlace": "Venue",
+    "pdfReference": "Rujukan",
+    "pdfStatus": "Status",
+    "pdfQrHint": "Tunjukkan kode QR ini di pintu masuk",
+    "pdfShareDialog": "Ringkasan Kongsi",
+    "pdfError": "Tidak bisa menghasilkan PDF sekarang.",
+    "pdfA11y": "Ringkasan ekspor sebagai PDF"
   },
   "qrCode": {
     "headerEyebrow": "TICKET · {{ref}}",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "Kode QR akan dipindai di pintu masuk",
     "tipArriveLines": "Tiba tepat waktu untuk melewati garis",
     "validatedTitle": "Tiket tiket disahkan",
+    "stampValidated": "Dicek di",
     "validatedAt": "Dimasukkan pada {{date}} di {{time}}",
     "paymentPendingTitle": "Pembayaran yupping",
     "paymentPendingDesc": "Lengkapi pembayaran Anda untuk mengkonfirmasi",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "Dipastikan",
     "statusPending": "Ditunda",
     "statusCancelled": "Batal",
-    "statusValidated": "Disahkan"
+    "statusValidated": "Disahkan",
+    "pdfOnline": "Peristiwa Online",
+    "statusUnknown": "Status tak diketahui Tak diketahui",
+    "presentHint": "Tap untuk memperbesar kode, tekanan panjang untuk bukti validitas.",
+    "presentA11yAction": "Besarkan kode untuk cek",
+    "proofA11yAction": "Tunjukkan bukti keabsahan",
+    "proofClockA11y": "Tiket langsung, itu adalah {{time}}",
+    "presentExitA11y": "Kembali ke tiket",
+    "presentExitHint": "Kapur untuk kembali"
   },
   "offlineTickets": {
     "headerTitle": "LUAR",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Adakah anda ingin menghapus tiket ini dari cache luar talian?",
     "showQR": "Show QR",
     "hideQR": "Sorok QR",
-    "pastBadge": "Masa Lalu"
+    "pastBadge": "Masa Lalu",
+    "download": "Tiket Download",
+    "pdfEyebrow": "KEHAK TICKET",
+    "pdfReference": "Rujukan",
+    "pdfType": "Tipe tiket",
+    "pdfQuantity": "Kuantitas",
+    "pdfDate": "Tarikh",
+    "pdfShareDialog": "Simpan / berbagi tiket",
+    "pdfError": "Tidak dapat menghasilkan PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Transfer",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Lawati",
     "similarEventsEyebrow": "PERINGATAN",
     "similarEventsTitle": "Kejadian serupa",
-    "similarEventA11y": "View {{title}}"
+    "similarEventA11y": "View {{title}}",
+    "virtualLiveNow": "Hidup sekarang",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Join live",
+    "virtualStartsInMinutes": "Mulai dalam {{count}} min",
+    "virtualUnavailableTitle": "TLS tidak tersedia",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Hidup belum dimulai.",
+    "virtualWaitingHostNote": "Anda akan dapat bergabung segera setelah penyelenggara membuka ruangan.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Kamar utama",
+      "session": "Sesi",
+      "breakout": "Breakout",
+      "networking": "Networking",
+      "workshop": "Workshop"
+    },
+    "waitlistPosition": "Posisi {{position}} di antrian",
+    "ticketsClosesIn_days": "Kloses in {{count}}d",
+    "ticketsClosesIn_hours": "Kloses in {{count}}h",
+    "ticketsClosesIn_minutes": "Kloses in {{count}}min",
+    "ticketsSaleEnded": "Penjualan berakhir",
+    "ticketsSaleNotStarted": "Dijual segera",
+    "peekSave": "Simpan",
+    "peekUnsave": "Mengeluarkan dari disimpan",
+    "peekShare": "Kongsi",
+    "peekOpen": "Open",
+    "peekA11yHint": "Tunggu sebentar.",
+    "swipeSave": "Melepaskan untuk menyelamatkan",
+    "swipeUnsave": "Dilepaskan untuk dibuang",
+    "swipeHint": "Swipe untuk menyelamatkan",
+    "swipeRemoved": "Mengeluarkan dari disimpan",
+    "swipeUndo": "ASUD",
+    "swipeRemove": "Mengeluarkan",
+    "weather": {
+      "sunny": "Sunny",
+      "partlySunny": "Mantra mantra mantra",
+      "cloudy": "Awan",
+      "fog": "Kabus",
+      "rain": "Rain",
+      "snow": "Snow",
+      "showers": "Showers",
+      "thunderstorm": "Ribut Petir",
+      "variable": "[ Gambar di hlm."
+    }
   },
   "componentsCommon": {
     "exportTitle": "Pilih format",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Ketika penyelenggara ini menerbitkan acara baru",
     "followPrefsSave": "Simpan preferensi",
     "followPrefsSaveA11y": "Simpan preferensi",
-    "inAppToastA11y": "Buka pintunya."
+    "inAppToastA11y": "Buka pintunya.",
+    "webviewVisioTitle": "Video panggilan",
+    "webviewOfflineTitle": "Anda sedang offline",
+    "webviewOfflineBody": "Perangkatmu kehilangan koneksinya. Panggilan akan dilanjutkan segera setelah jaringan kembali.",
+    "webviewReconnectingIn": "Kembali terhubung di {{seconds}}s...",
+    "webviewSlowNetwork": "Sambungan yang lambat terdeteksi — video mungkin terdegradasi dan menggunakan data Anda."
   },
   "messageRequests": {
     "eyebrow": "ANTI-SPAM",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Perlu kamera",
     "permissionSubtitle": "Untuk memindai QR, EventEz perlu akses ke kamera.",
     "permissionGrant": "Kamera"
+  },
+  "media": {
+    "sheetTitle": "Apa yang ingin kau lakukan?",
+    "saveToGallery": "Simpan ke galeri",
+    "share": "Kongsi",
+    "savedToGallery": "Disimpan ke galeri",
+    "permissionDeniedTitle": "Kebenaran ditolak",
+    "permissionDeniedMessage": "Memungkinkan akses foto dalam Pengaturan untuk menyimpan.",
+    "sharingUnavailable": "Sharing tidak tersedia pada perangkat ini.",
+    "downloadFailed": "Muat turun KOSONG gagal. Tolong coba lagi.",
+    "genericError": "Ada yang tak beres. Tolong coba lagi."
   },
   "componentsMessages": {
     "inputJoinFile": "Lampirkan sebuah berkas",
@@ -5127,7 +5585,7 @@
     "messages": "PELAYARAN AGAMA",
     "suggestions": "BERSATU",
     "theme": "TEM",
-    "timezoneSoon": "TIMEZONE PILIHAN",
+    "timezone": "WAKTU ZONE",
     "soundEffects": "MENEMUKAN EFFEK",
     "authSoon": "AUTHENTIKASI · SOON",
     "connectionsSoon": "KONNEKSI KONDA MASUK",
@@ -5153,7 +5611,11 @@
     "tabSaved": "PASAL",
     "tabMessages": "PASAL",
     "tabTickets": "0 · TIKET",
-    "tabProfile": "PASAL DEFAIL"
+    "tabProfile": "PASAL DEFAIL",
+    "push": "Tolak",
+    "privacy": "Kerahsiaan",
+    "memories": "Kenangan",
+    "yearInReview": "Tahun pertama dalam ulasan"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": " dipilih",
-      "selectedCount_plural": " dipilih",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Approve",
       "reject": "Tolak",
       "checkIn": "Periksa"
@@ -5622,6 +6084,7 @@
         "discountCodes": "Kode-kode promo vache",
         "linkSessions": "Tiket Link ke sesi",
         "addPhotos": "Tambah foto-foto",
+        "startLive": "♪ Go live ♪",
         "volunteers": "Sukarelawan",
         "sponsors": "Sponsor",
         "seatingPlans": "Rencana Seating",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplikasi",
         "cancelEvent": "Peristiwa Batal",
         "cancelEventDesc": "Beritahu registrasi",
-        "deleteDesc": "Tindakan yang tidak dapat direversibel"
+        "deleteDesc": "Tindakan yang tidak dapat direversibel",
+        "invite": "Tamu undangan",
+        "inviteDescInviteOnly": "Satu-satunya cara untuk memberikan akses ke acara ini hanya undangan",
+        "duplicatePastDesc": "Keluarkan dari salinan yang dapat disunting",
+        "remindInvites": "Tamu tamu pamukan",
+        "weddingGuests": "Tamu Tego & RSVP",
+        "weddingGifts": "Hadiah Registry &",
+        "weddingTables": "Rencana Seating"
       },
       "emptyEyebrowResults": "Tidak ada alasan",
       "emptyEyebrowCatalog": "EMPTY CATALOG",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Kondisi kesehatan E.g., tidak tersedia...",
       "keepBtn": "Jaga",
       "cancelEventBtn": "Peristiwa Batal",
+      "cancelHolding": "Tunggu dulu...",
       "recurrenceEyebrow": "KENASAN",
       "recurrenceModalTitle": "Schedule\"\" \" \" \" \" \" \" \".",
       "recurrenceModalBody": "Ada beberapa kejadian dari peristiwa ini. Setiap kejadian adalah acara baru independen Anda dapat menyesuaikan.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Acara ini disiarkan langsung. Jika Anda mengubah bidang kritis (judul, tanggal, lokasi, tipe, kapasitas), itu akan dikirim kembali ke validasi dan disembunyikan sementara sampai re-approval.",
       "editValidatedConfirm": "Fijiworld. kgm",
       "actionEditValidated": "Suntingan fasiltas (mungkin divalidasi ulang)",
-      "actionEditValidatedDesc": "Bidang kritis → revalidasi"
+      "actionEditValidatedDesc": "Bidang kritis → revalidasi",
+      "inviteEyebrow": "INVITASI",
+      "inviteTitle": "Jemput \\\"{{title}}\\\"",
+      "inviteBody": "Setiap orang menerima email undangan (dengan link untuk menerima). Jika mereka sudah memiliki akun EventEz, mereka juga mendapatkan pemberitahuan in-app.",
+      "inviteEmailsPlaceholder": "Email dipisahkan oleh koma atau baris baru",
+      "inviteMessagePlaceholder": "Pesan pribadi (opsional)",
+      "inviteSendBtn": "Kirim undangan",
+      "inviteEmptyTitle": "Tidak ada email",
+      "inviteEmptyMessage": "Masukkan setidaknya satu alamat email.",
+      "inviteInvalidTitle": "E-mail tidak sah",
+      "inviteInvalidMessage": "Silakan periksa alamat ini: {{emails}}",
+      "inviteSentTitle": "Jemputan dikirim",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Tak bisa mengirim undangan.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Tidak ada tamu untuk diingatkan sekarang.",
+      "remindErrorTitle": "Peringatan gagal",
+      "remindErrorMessage": "Pengingat tidak bisa dikirim. Tolong coba lagi.",
+      "remindPendingProgress": "Pengirim pengingat...",
+      "loadError": "Tak bisa memuatkan acaramu. Periksa koneksimu."
     },
     "volunteer": {
       "tabReceived": "Diterima ({{count}})",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Kode invalid: diduga UUID atau kode referensi (8-20 aksara A-Z/0-9).",
       "sessionRecapTitle": "Ringkasan Session homoseksual",
       "sessionRecapBody": "0 scan dalam {{minutes}} min\n✓ 2 tervalidasi\n✗ {{failed}} gagal",
-      "sessionRecapQueue": "⏳ {{count}} dibaris gilir offline"
+      "sessionRecapQueue": "⏳ {{count}} dibaris gilir offline",
+      "manualModeBanner": "Mode Manual Oman — 1 ketukan per orang",
+      "manualModeA11y": "Mode Manual visual menyala. Sapu untuk menghidupkan otomatis check-in kembali.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• Tiket {{count}} sudah diperiksa (masukan ganda)",
+      "rejectedAlreadyUsed_other": "• Tiket {{count}} sudah diperiksa (masukan ganda)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Orang-orang ini masuk saat jaringannya rusak. Periksa timmu.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• Tiket {{count}} sudah dipindai di tempat lain (masukan ganda)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Diterima offline oleh ponsel ini, ditolak saat disinkronisasi. Jika agen lain memindai pada saat yang sama, orang-orang ini masuk dua kali.",
+      "voice": {
+        "valid": "Tiket sah",
+        "validWarning": "Valid, perlu diperiksa",
+        "alreadyCheckedIn": "Sudah diperiksa dalam",
+        "refused": "Tiketnya ditolak",
+        "enabled": "Pengumuman suara pada",
+        "toggleOn": "Pengumuman suara pada",
+        "toggleOff": "Suara pengumuman off",
+        "toggleA11y": "Mematikan pemindaian hasil pengumuman suara hidup atau mati"
+      }
     },
     "liveOps": {
       "live": "HIDUP",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "SUDAH ANDA",
       "headerTitle": "Analitik",
+      "errorTitle": "Tidak tersedia",
+      "errorBody": "Tak bisa memuat datanya. Periksa koneksimu dan coba lagi.",
       "eventLabel": "EVENT",
       "kpiViews": "Pandangan",
       "kpiRegistrations": "Pendaftaran",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "Peristiwamu telah dilihat {{count}} kali",
       "insightViewsNone": "Kongsi acara Anda untuk mendapatkan lebih banyak tampilan",
       "insightRegistered_one": "Orang yang terdaftar",
-      "insightRegistered_other": "Orang yang terdaftar"
+      "insightRegistered_other": "Orang yang terdaftar",
+      "actionBoxOffice": "Box office"
     },
     "sessionsLink": {
       "headerEyebrow": "AKSES  • SESSI",
@@ -6077,6 +6599,16 @@
       "emptyText": "Sponsor akan muncul di sini ketika kemitraan ditambahkan."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Saran - saran AI dari berbagai saran telah diterapkan dalam bentuk",
+      "aiTitleSuggestionsTitle": "Saran-sarannya untuk Gelaran",
+      "aiPricingSuggestionsTitle": "Saran - saran yang menarik",
+      "aiTicketsCreated": "Tiket yang dibuat dari saran AI",
+      "aiDescGenerated": "Keterangan yang dihasilkan oleh AI",
+      "aiNeedTitleFirst": "Tambahkan judul terlebih dahulu sehingga AI dapat menghasilkan deskripsi.",
+      "galleryPermissionTitle": "Perlukan izin ke pengguna",
+      "galleryPermissionMessage": "Tolong ijinkan akses ke perpustakaan foto Anda",
+      "videoTooLargeTitle": "Video video terlalu besar",
+      "videoTooLargeMessage": "Videonya pasti dibawah 20 MB.",
       "unsupportedCountryTitle": "Negara bagian yang tidak tersedia",
       "unsupportedCountryMessage": "EventEz tidak dapat memproses pembayaran di negara ini belum ({{country}}). Ciptaan peristiwa pertama akan ditolak. Negara-negara yang didukung: NotchPay, CinetPay dan Stripe (46 negara).",
       "draftFoundTitle": "Draf ditemukan",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Peristiwa homoseksual berhasil diajukan",
       "viewMyEvents": "Lihat peristiwaku",
       "createAnother": "Buat yang lain",
+      "submittedStamp": "Dalam ulasan",
+      "submittedEyebrow": "Diserahkan untuk ditinjau",
+      "submittedBody": "Tim kami sedang meninjau acaramu. Kau akan diberitahu segera setelah siaran langsung.",
+      "submittedCtaEyebrow": "Papan Dash",
       "edit": "Edit",
       "saved": "Diselamatkan",
       "back": "Amerika Serikat",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Tiket Tiket \\\"{{label}}\\\" maksimal per pesanan harus ≥ min min min min min                                  min                                              max                                         max   max max max max max max max max max max max max max max max max max max max  max max                                                                                             ",
         "fieldLabelRequired": "Field field #{{n}} label diperlukan",
         "fieldOptionsRequired": "Pilihan tidak lazim diperlukan untuk bidang “{{label}}”"
-      }
+      },
+      "loadFailedBlocksSave": "Data peristiwa tidak dapat dimuat. Muat ulang halaman sebelum disimpan, jika tidak informasi saat ini akan ditulis-ganti."
     },
     "eventRegistrations": {
       "title": "Pendaftaran",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, ekspor PDF, dashboard",
       "linkMyEventsTitle": "Peristiwaku",
       "linkMyEventsSub": "Stats per acara"
+    },
+    "boxOffice": {
+      "openTitle": "Buka saja",
+      "openingFloatHelp": "Berapa banyak perubahan yang diberikan penyelenggara Anda untuk memulai dengan? Tanpa itu, hitungan malam ini akan salah.",
+      "openDrawer": "Buka saja",
+      "openError": "Sampai tidak bisa dibuka",
+      "openErrorDetail": "Periksa koneksimu dan coba lagi.",
+      "counter": "{{count}} penjualan · {{amount}} {{currency}}",
+      "close": "Klon",
+      "cash": "Tunai",
+      "momo": "Uang Ponsel",
+      "giveBack": "GIVE KEMBALI",
+      "saleError": "Penjualan tidak tercatat",
+      "saleErrorDetail": "Jangan masuk kembali ke penjualan: coba lagi, tidak akan dikenakan biaya dua kali.",
+      "a11y": {
+        "drawerOpened": "Til dibuka",
+        "openingFloatInput": "Pengumpulan float Pembukaan",
+        "openDrawer": "Buka saja",
+        "counter": "{{count}} penjualan, {{amount}} {{currency}} dalam sampai",
+        "closeDrawer": "Tutup sampai",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Pelanggan memberikan {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Uang Mobil",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Selase yang disimpan secara luring, {{amount}} {{currency}}. Ini akan sinkron ketika jaringan kembali."
+      },
+      "pendingSales": "penjualan {{count}} tertunda · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "TANDA THAND OVER",
+      "cashOnlyHint": "Uang tunai saja — Uang tunai tidak ada dalam tas Anda.",
+      "openingFloat": "Air apung terbuka",
+      "salesCount": "Penjualan",
+      "countedLabel": "Kuhitung",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Ini tidak menghalangi. Hanya menjelaskan mengapa di bawah ini.",
+      "reasonLabel": "Penjelasan (opsional)",
+      "reasonPlaceholder": "E.g. Aku memberi 500 terlalu banyak perubahan",
+      "confirmClose": "Dekati aku sampai",
+      "closedTitle": "Till ditutup",
+      "closedMessage": "{{amount}} {{currency}} diserahkan.",
+      "closeError": "penutupan gagal",
+      "closeErrorDetail": "Tolong coba lagi sebentar lagi.",
+      "a11y": {
+        "expected": "Untuk menyerahkan: {{amount}} {{currency}}",
+        "countedInput": "Jumlah dihitung",
+        "reasonInput": "Penjelasan variasi",
+        "confirmClose": "Mengesahkan penutupan",
+        "closed": "Till ditutup"
+      }
+    },
+    "documents": {
+      "title": "Dokumen untuk dicetak",
+      "a11y": "Dokumen yang dapat dicetak",
+      "badges": "Para calon peserta",
+      "badgesHint": "Format A6A6, 4 per A4 page",
+      "attendanceSheet": "Lembaran sign-in",
+      "attendanceSheetHint": "Untuk menandatangani di meja depan — siap sebelum acara",
+      "certificates": "Sertifikat kehadiran",
+      "certificatesHint": "Peserta yang diperiksa"
+    },
+    "weddingGuests": {
+      "title": "Tamu Tego & RSVP",
+      "empty": "Belum ada tamu.",
+      "remindOne": "♪ Ingatkan ♪",
+      "remindOneSent": "Peringatan Peringatan!!",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Tidak dapat mengirim pengingat",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Sila Jawab",
+      "editRsvpTitle": "Sila Jawab",
+      "rsvpUpdated": "Sila Jawab Diperbarui",
+      "rsvpError": "Tak dapat menyimpan RSVP",
+      "partySize": "Ukuran partai",
+      "dietary": "Persyaratan untuk makan",
+      "dietaryPlaceholder": "Vegetarian, bebas gluten...",
+      "note": "Catatan",
+      "stats": {
+        "invited": "Diundang",
+        "accepted": "Dipastikan",
+        "pending": "Ditunda",
+        "headcount": "Amerika"
+      },
+      "status": {
+        "pending": "Ditunda",
+        "accepted": "Dipastikan",
+        "declined": "Ditolak",
+        "cancelled": "Batal"
+      }
+    },
+    "weddingGifts": {
+      "title": "Hadiah Registry &",
+      "noRegistry": "Tidak ada pendaftaran hadiah untuk acara ini.",
+      "create": "Neuburg Cipta registry",
+      "registryCreated": "Registry diciptakan",
+      "registryUpdated": "Registry diperbarui",
+      "editRegistry": "edit registry",
+      "registryTitle": "Gelar Registry",
+      "registryDescription": "Pesan untuk tamu",
+      "visible": "Yosip tidak terlihat",
+      "hidden": "Disembunyikan",
+      "totalRaised": "Dibesarkan total",
+      "share": "Kongsi",
+      "addItem": "♪ Tambahkan hadiah ♪",
+      "newItem": "Hadiah baru",
+      "editItem": "Hadiah edit",
+      "itemName": "Nama",
+      "itemKind": "Jenis",
+      "targetAmount": "Target:",
+      "externalUrl": "Pautan eksternal (opsional)",
+      "itemAdded": "Hadiah berhadiah ditambah",
+      "itemUpdated": "Hadiah update",
+      "itemDeleted": "Hadiah berhadiah telah dihapuskan",
+      "deleteItemTitle": "\\\"Menghapus hadiah ini\\\"",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Rizald",
+      "noItems": "Belum ada hadiah. Tambahkan satu.",
+      "kind": {
+        "gift": "Gift (item)",
+        "cash_fund": "Dana tunai"
+      },
+      "error": "Ada yang tidak beres."
+    },
+    "weddingTables": {
+      "title": "Rencana Seating",
+      "noTables": "Tidak ada meja belum. Buat satu.",
+      "addTable": "Ada tabel",
+      "newTable": "Tabel baru",
+      "editTable": "Tabel edit <dir>",
+      "name": "Nama Tabel osis",
+      "namePlaceholder": "Tabel 1, Keluarga...",
+      "capacity": "Laut",
+      "created": "Meja dibuat",
+      "updated": "Tabel update",
+      "deleted": "Tabel nama dihapus",
+      "deleteTitle": "Tabel teks",
+      "deleteMessage": "Hapus “{{name}}”? Tamu akan tidak ditugaskan.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Full",
+      "tableEmpty": "Tidak ada seorang pun di meja ini",
+      "unassignedTitle": "Untuk kursi ({{count}})",
+      "allSeated": "Semua tamu dikonfirmasi telah duduk.",
+      "createFirst": "Buat meja pertama untuk duduk tamu Anda.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Para tamu yang duduk",
+      "unassign": "Mengeluarkan",
+      "unassigned": "Tetamu dihapus",
+      "capacityError": "Tak cukup kursi di meja ini.",
+      "error": "Ada yang tidak beres."
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Peristiwa",
       "kpiRevenue": "Revenue",
       "kpiVerifications": "Pengesahan",
+      "activityChartTitle": "Aktivitas platform",
+      "activityChartSubtitle": "Audit tindakan selama 7 hari terakhir",
       "quickActions": "AKSI - AKSI QUICK",
       "recentActivity": "KEGIATAN BARU",
       "noActivity": "Tidak ada aktivitas baru-baru ini",
       "viewAllAudit": "Log masuk",
       "actions": {
         "users": "Pengguna",
+        "verifications": "Pengesahan",
         "subscriptions": "Langganan",
         "audit": "Audit",
         "announcements": "Pengumuman",
@@ -6369,6 +7066,30 @@
         "settings": "Pengaturan",
         "treasury": "Perbendaharaan"
       }
+    },
+    "verifications": {
+      "watermark": "KYC",
+      "guardTitle": "Akses terbatas",
+      "eyebrow": "Moderasi",
+      "title": "Permintaan pengesahan",
+      "typeOrg": "Organisasi",
+      "typeIndividual": "Individu",
+      "noDocuments": "Dokumen tidak disediakan",
+      "approve": "Approve",
+      "reject": "Tolak",
+      "approveTitle": "Verifikasi permintaan",
+      "approveMessage": "Konfirmasi konfirmasi menyetujui {{name}} sebagai penyelenggara diverifikasi?",
+      "approveBio": "Konfirmasi untuk menyetujui pengesahan ini",
+      "approveSuccess": "KOrganizer disahkan",
+      "rejectTitle": "Permintaan tolak",
+      "rejectMessage": "Dia menyediakan alasan untuk menolak {{name}}. Ini akan dibagi dengan pengguna.",
+      "rejectReasonPlaceholder": "Alasan untuk penolakan...",
+      "rejectReasonRequired": "Alasan yang diperlukan.",
+      "rejectSuccess": "Permintaan diminta ditolak",
+      "actionError": "Tindakan gagal. Tolong coba lagi.",
+      "loadError": "Tidak dapat memuat permintaan verifikasi.",
+      "emptyTitle": "Tidak ada permintaan tertunda",
+      "emptySubtitle": "Permintaan pengesahan penyelenggara baru akan muncul di sini."
     },
     "platformSettings": {
       "watermark": "CFG",
@@ -6478,6 +7199,16 @@
       "loadError": "Tidak boleh muat pengguna",
       "roleSection": "ROLE",
       "actionsSection": "AKSI AKSI",
+      "profileSection": "PROFIL",
+      "fieldFirstName": "Nama depan",
+      "fieldLastName": "Nama belakang",
+      "fieldEmail": "Email",
+      "fieldPhone": "Telepon",
+      "fieldCompany": "Perusahaan",
+      "saveProfile": "Profil",
+      "profileUpdated": "Profil diperbarui",
+      "profileUpdateError": "Tak dapat memperbarui profil.",
+      "emailRequired": "Email diperlukan.",
       "infoSection": "INFORMASI",
       "active": "Active",
       "inactive": "Tidak aktif",
@@ -6670,6 +7401,21 @@
       "title": "Log log log log audit",
       "target": "Target",
       "user": "User #{{id}}",
+      "detail": {
+        "guardTitle": "Catatan detail",
+        "eyebrow": "Log Log Audit",
+        "title": "Catatan detail",
+        "action": "Aksi",
+        "target": "Target",
+        "user": "Pengguna",
+        "system": "Sistem",
+        "timestamp": "Timestamp",
+        "ip": "Alamat IP",
+        "userAgent": "Perangkat / browser",
+        "changes": "Mengeluarkan perubahan",
+        "metadata": "Perincian",
+        "loadError": "Tak dapat memuat log ini."
+      },
       "stats": {
         "total": "Total"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "E-mail Tamu Memo",
     "delegateError": "Tak bisa mengirim undangan.",
     "toCompleteBadge": "{{n}} selesai"
+  },
+  "shareCard": {
+    "eyebrow": "Aku akan kesana",
+    "button": "Kongsi untuk cerita",
+    "dialogTitle": "Kongsi Kongsi tempatku",
+    "cta": "Bukukan tempatmu →",
+    "errorTitle": "Kongsi",
+    "errorMessage": "Aku tak bisa menghasilkan kartunya sekarang."
+  },
+  "badges": {
+    "verified": "Disahkan",
+    "pioneer": "Pioneer",
+    "verifiedHint": "Identitas organisasiwan disahkan oleh EventEz",
+    "pioneerHint": "Anggota pendiri: diuji EventEz sebelum peluncuran"
+  },
+  "exhibitApply": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Terapkan untuk sebuah pondok",
+    "lead": "Perkenalkan perusahaan Anda untuk menjalankan stan di acara ini. Penyelenggara akan meninjau permintaanmu.",
+    "companyLabel": "Nama perusahaan",
+    "companyPlaceholder": "(c.g. Acme Ltd)",
+    "categoryLabel": "Industri / kategori",
+    "categoryPlaceholder": "Tech, Food...",
+    "websiteLabel": "Situs web (opsional)",
+    "pitchLabel": "Pesan kepada penyelenggara (pilihan)",
+    "pitchPlaceholder": "Apa yang akan kau tunjukkan...",
+    "boothLabel": "stan (opsional)",
+    "submit": "Kirim aplikasi saya",
+    "submitting": "Mengeluarkan...",
+    "successTitle": "Aplikasi yang dikirim!",
+    "successSubtitle": "Penyelenggara akan meninjaunya. Kau akan diberitahu keputusan mereka.",
+    "goToMyBooth": "Lihat stanku",
+    "alreadyApplied": "Kau sudah mendaftar untuk acara ini.",
+    "loginRequired": "Tanda tangan di untuk mendaftar untuk sebuah stan.",
+    "login": "Sign in",
+    "errorSubmit": "Tak bisa mengirim aplikasi.",
+    "ctaTitle": "Di acara ini?",
+    "ctaSubtitle": "Terapkan dalam hitungan detik.",
+    "ctaButton": "Menjadi pameran"
+  },
+  "myBoothMobile": {
+    "eyebrow": "EXHIBITOR",
+    "title": "Rumahku",
+    "empty": "Tidak ada reservasi.",
+    "show": "Amerika Serikat",
+    "accepted": "Terma-terminologi diterima.",
+    "acceptError": "Tak bisa diterima.",
+    "salesTitle": "Ditugaskan penjualan",
+    "commission": "EventEz commission",
+    "hostShare": "Bagian Penyusun",
+    "net": "Apa yang Anda simpan",
+    "createEvent": "Ciptakan acaraku",
+    "acceptCta": "Aku menerima syarat ini",
+    "statusPaid": "Dibayar",
+    "statusPartial": "Deposit dibayar",
+    "statusPending": "Untuk membayar",
+    "amountDue": "Jumlah Pondok Booth",
+    "amountRemaining": "Sisa untuk membayar",
+    "payBooth": "Bayaran untuk pondok saya",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kad",
+    "paymentInitiated": "Pembayaran gaji dimulai. Konfirmasikan di ponselmu.",
+    "payError": "Tidak bisa memulai pembayaran stan.",
+    "captureLeads": "kontak kontak Tangkapan",
+    "viewLeads": "Kenalanku"
+  },
+  "leadCapture": {
+    "title": "[ Gambar di hlm.",
+    "hint": "Arahkan kode QR pada lencana pengunjung.",
+    "permissionTitle": "Izinkan akses kamera",
+    "permissionBody": "Kamera ini hanya digunakan untuk membaca kode lencana QR pengunjung yang setuju untuk dihubungi.",
+    "permissionCta": "Ada kamera di kamera.",
+    "manualEntry": "Sebaliknya ketikkan referensi",
+    "manualPlaceholder": "Referensi badge lema",
+    "unnamed": "Kenalan telah disimpan",
+    "alreadyKnown": "Sudah pernah bertemu — rekaman diperbarui.",
+    "qualify": "Memurnikan kontak ini",
+    "rating_hot": "Yoi Hot",
+    "rating_warm": "Amerika Syarikat",
+    "rating_cold": "Cold",
+    "notesPlaceholder": "Apa yang Anda bicarakan (opsional)",
+    "next": "Kenalan berikutnya",
+    "retry": "Memindai lagi",
+    "noConsentTitle": "Tamu ini belum setuju.",
+    "noConsentBody": "Minta mereka untuk membuka aplikasi EventEz, pergi ke acara, lalu \"siapa di sini\", dan mengizinkan para pameran untuk menyimpan rincian kontak mereka. Kau kemudian bisa memindai lagi.",
+    "notFoundTitle": "Lencana tidak dikenal",
+    "notFoundBody": "Lencana ini bukan milik acara ini. Periksa referensi yang dicetak di bawah kode QR.",
+    "errorTitle": "Hasil scan gagal",
+    "a11yCaptured": "Kontak disimpan: {{name}}",
+    "a11yNoConsent": "Pengunjung ini belum setuju untuk dihubungi.",
+    "a11yNotFound": "Lencana tidak dikenal.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Hari Ini",
+    "yesterday": "Kemarin",
+    "justNow": "Baru saja",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "KEMBALI",
+    "failed": "Gagal untuk mengirim",
+    "sent": "Dikirim",
+    "delivered": "Dibebaskan",
+    "read": "Bacalah"
+  },
+  "myLeads": {
+    "title": "Kenalanku",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Kontak tak bernama",
+    "emptyTitle": "Belum ada kontak",
+    "emptyBody": "Memindai lencana pengunjung yang mampir ke pondokmu. Anda kemudian dapat mengekspor daftar lengkap sebagai CSV.",
+    "errorTitle": "Tak dapat memuat",
+    "errorBody": "Kontakmu selamat. Periksa koneksimu dan coba lagi."
+  },
+  "myDataExhibitors": {
+    "title": "Dataku dipegang oleh para pameran",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Dipindai pada {{date}}",
+    "erase": "Padamkan",
+    "eraseAll": "Hapus semua",
+    "eraseOneA11y": "Hapus data saya dipegang oleh {{company}}",
+    "erased": "Rincian kontakmu telah dihapus.",
+    "eraseError": "Penghapusan itu tidak berhasil.",
+    "confirmCta": "Padamkan",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Kau menghapus dataku dari setiap pameran?",
+    "confirmAllBody": "Namamu, email dan nomor telepon akan dihapus di setiap perusahaan yang terdaftar. Ini tidak boleh dibatalkan.",
+    "emptyTitle": "Tidak ada perusahaan yang memegang rincian kontak Anda",
+    "emptyBody": "Pembuangan hanya dapat menyimpan rincian Anda dengan memindai lencana Anda, dan hanya jika Anda mengizinkannya untuk acara itu."
+  },
+  "visio": {
+    "expandCall": "Kembangkan panggilan video",
+    "endCall": "Panggilan akhir",
+    "endCallConfirmTitle": "Tinggalkan panggilan?",
+    "endCallConfirmMessage": "Kau akan meninggalkan pertemuan yang sedang berlangsung.",
+    "minimize": "Minimalkan",
+    "liveNow": "HIDUP",
+    "join": "Join",
+    "view": "Pandangan",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Pandangan",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Ubahsaiz"
+  },
+  "organize": {
+    "favorites": "Favoritku",
+    "eyebrow": "Ruang Penyusun",
+    "title": "Memorganisasi",
+    "liveNow": "Hidup sekarang",
+    "nextEvent": "Peristiwa berikutnya",
+    "registered": "terdaftar",
+    "scan": "Memindai",
+    "scanA11y": "Pindai tiket untuk acara ini",
+    "boxOffice": "Box office",
+    "boxOfficeA11y": "Buka box office untuk acara ini",
+    "viewStats": "stats View",
+    "availableBalance": "Keseimbangan yang Ada",
+    "walletA11y": "Buka dompetku",
+    "noActiveEvent": "Tidak ada acara berjalan",
+    "noActiveEventHint": "Buat sebuah acara atau terbitkan draft untuk melihatnya di sini.",
+    "noStaffEventHint": "Peristiwa dimana kau bagian dari tim akan muncul di sini.",
+    "createEvent": "Cipta suatu peristiwa",
+    "myEvents": "Peristiwaku",
+    "teamEvents": "Peristiwa I staff",
+    "analytics": "Analitik",
+    "loadError": "Tak bisa memuat ruangmu. Periksa koneksimu."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Kau masuk",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Minggu ini",
+    "tomorrow": "Hari Esok · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Pintu terbuka",
+    "onNow": "Terjadi sekarang",
+    "startsAt": "Mulai dari {{time}}",
+    "offlineReady": "Ticket tersedia offline",
+    "offlinePending": "Buka tiket sekali untuk tetap offline",
+    "sayImGoing": "Aku akan pergi",
+    "showTicket": "Tunjukkan tiketku",
+    "directions": "Arah",
+    "viewTicket": "Tiket untuk melihat",
+    "goThere": "Pergi",
+    "quickAction": "Tiketku {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kalibrasi kompas: gambarkan angka 8 dengan ponselmu",
+    "compassHint": "Ikuti anak panah ke tempat"
+  },
+  "onSite": {
+    "eyebrow": "Anda berada di situs",
+    "now": "Sekarang",
+    "next": "· {{time}}",
+    "qa": "LiveVietnam Q&A",
+    "plan": "[ Gambar di hlm.",
+    "networking": "Networking"
+  },
+  "ambience": {
+    "program": "Sesi · {{count}}"
+  },
+  "attended": {
+    "title": "Kau ada di sana",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Pertama untuk tiba",
+    "question": "Apa yang kau pikirkan?",
+    "thanks": "Terima kasih atas ratingmu.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Kongsi untuk cerita",
+    "later": "Kemudian"
+  },
+  "yearInReview": {
+    "eyebrow": "Tahunmu",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "Acara tahun 1995 dihadiri",
+    "s1Line_other": "Acara-acara yang dihadiri",
+    "citiesEyebrow": "Di jalan",
+    "categoryEyebrow": "♪ Jenis acaramu ♪",
+    "season": "Bulanmu: {{month}}",
+    "firstEyebrow": "Ini semua dimulai dengan",
+    "lastLine": "Dan berakhir dengan {{title}}",
+    "arrivalsEyebrow": "Selalu tepat waktu",
+    "arrivalsLine_one": "Waktu pertama kali tiba",
+    "arrivalsLine_other": "Kali kali pertama tiba",
+    "organizerEyebrow": "Penyelenggaramu",
+    "finalEyebrow": "♪ My EventEz {{year}}",
+    "favoriteLine": "Favorit: {{title}}",
+    "share": "Kongsi kartuku",
+    "tapHint": "Sapu untuk melanjutkan"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Peserta pertama",
+      "someone": "Somebody",
+      "share": "Kongsi untuk meningkatkan penjualan",
+      "view": "Pandangan",
+      "soldOutTitle": "Dijual habis",
+      "soldOutLine": "Setiap tiket hilang"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "KELUAR",
+      "online": "HIDUP"
+    },
+    "share": {
+      "cta": "Kongsi acara",
+      "done": "Dikongsi melalui {{app}}",
+      "doneGeneric": "Kongsi",
+      "message": "{{title}} — buku di sini: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "ORANG diminta",
+      "approved": "Disetujui",
+      "sent": "Dikirim",
+      "verifying": "Sedang memeriksa dengan operator",
+      "sentTo": "Dibayar menjadi {{method}} {{tail}} · {{time}}",
+      "failed": "Payout gagal"
+    },
+    "released": {
+      "chip": "Dikeluarkan · {{title}}",
+      "chipMany": "Dikeluarkan · {{amount}}",
+      "inHours": "Tersedia dalam {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Pintu terbuka di {{time}}",
+      "peak": "Hari Raya Puncak · {{count}} entri / 15 min",
+      "nearlyFull": "Venue hampir penuh",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Akhir shift",
+      "validated": "Dicek di",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Pace",
+      "refused": "Menolak",
+      "syncing": "Penselarasan...",
+      "synced": "diterjemahkan",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "View ops live",
+      "resume": "Sambung kembali",
+      "close": "Selesai"
+    },
+    "recap": {
+      "title": "Amerika",
+      "eyebrow": "RESAP KELAYAN",
+      "attended": "Dihadiri",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Revenue",
+      "rating": "Peringkat rata-rata rata-rata",
+      "reviews": "{{count}} review",
+      "noReviews": "Belum ada ulasan",
+      "best": "review",
+      "latest": "Ulasan terkini",
+      "thank": "Pratemuan Terima kasih",
+      "funds": "Dana View",
+      "error": "Recap tidak tersedia sekarang.",
+      "soldOutAt": "Dijual di {{date}}",
+      "cta": "View recap"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Dibukukan tadi",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Dibukukan dalam jam terakhir",
+    "lastSaleToday": "Dibukukan hari ini",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Dijual habis",
+    "soldOutCta": "Terjual habis · tidak ada kursi tersisa",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Sambungan Anda yang akan",
+    "someone": "Somebody",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Daring",
+    "repliesWithin": "Biasanya membalas dalam {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "24 h",
+    "seatHeldTitle": "Sebuah kursi sedang diadakan untuk Anda",
+    "seatHeldBody": "Buku sebelum hitung mundur berakhir: setelah itu, itu pergi ke orang berikutnya.",
+    "seatHeldCta": "Buku kursi saya",
+    "seatHeldExpired": "Waktu sudah habis: kursi pergi ke orang berikutnya.",
+    "seatHeldA11y": "Waktu tersisa untuk buku: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ pemesanan dalam {{city}} hari ini",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Semua",
+    "reactionA11y": "♪ React with {{emoji}}",
+    "reactionsTitle": "Reaksi Orang - Orang",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Salah satu koneksi Anda telah tiba",
+    "connectionArrivedCta": "Mesej kepada mereka",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} dalam 1 min",
+    "saleLive": "Penjualan live penjualan",
+    "checkinPushed": "Kedatangan langsung"
+  },
+  "reminders": {
+    "channelName": "Pengingat Acara",
+    "dayBeforeTitle": "Peringatan: besok",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Peringatan: dalam 1 jam",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "\\\"{{title}}\\\" dimulai segera pada {{location}}."
+  },
+  "quickActions": {
+    "discover": "Discover",
+    "discoverSubtitle": "Peristiwa kecil di dekatmu",
+    "tickets": "Tiketku",
+    "scan": "Memindai tiket"
+  },
+  "ongoing": {
+    "channelName": "Hari peristiwa",
+    "eventFallback": "Acaramu",
+    "beforeBodyAt": "{{place}}",
+    "beforeBody": "Tak lama kemudian, belum lama kemudian,",
+    "duringSession": "Sekarang: {{session}}",
+    "duringBody": "Pada sekarang · tiket Anda siap",
+    "scannerTitle": "Penindas sedang bertugas"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Tidak melakukan tindakan terakhir?",
+      "confirm": "ASUD",
+      "keep": "Jaga",
+      "failed": "Undodon tidak pergi melalui. Periksa koneksimu dan coba lagi.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Pindahkan percakapan keluar dari arsip."
+    },
+    "report": {
+      "title": "Melaporkan masalah",
+      "subtitle": "build Test: screenshot, layar dan versi dikirim dengan pesan Anda.",
+      "noNote": "Laporan tanpa komentar",
+      "blur": "Kaburkan Kabur",
+      "noShot": "Cekupan skrin tidak tersedia pada layar ini.",
+      "placeholder": "Apa yang terjadi?",
+      "send": "Kirim",
+      "sent": "Terima kasih, laporanmu telah dikirim.",
+      "unavailable": "Tidak dapat mengirim: pelacakan kesalahan tidak aktif pada bangunan ini."
+    },
+    "applause": {
+      "hint": "Pegangan untuk bertepuk tangan lebih lama.",
+      "a11y": "Tepuk tangan panjang"
+    },
+    "hush": {
+      "title": "Hei, Mic dan kamera dimatikan saat ponselnya mati.",
+      "reactivate": "Sapu untuk menghidupkan mereka kembali"
+    },
+    "lighter": {
+      "button": "Terang",
+      "off": "♪ Singkirkan itu ♪",
+      "alone": "Angkat teleponmu, api mengikuti gerakanmu.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "Kejutkan aku",
+      "chipA11y": "Cadangkan sebuah acara acak",
+      "again": "ORANG LAIN",
+      "none": "Tidak ada acara mendatang yang disarankan sekarang."
+    },
+    "bump": {
+      "settingTitle": "Silih kontak dengan gemetar",
+      "settingSubtitle": "Di situs, setelah tiket Anda dipindai: kocok pada waktu yang sama dengan orang lain untuk menemukan satu sama lain. Perkiraan lokasi Anda digunakan untuk beberapa detik untuk mencocokkan Anda dan tidak pernah disimpan. Tak ada yang terjadi tanpa konfirmasimu. Secara default.",
+      "button": "Swap dengan gemetar",
+      "nearbyButton": "Lihat sekelilingku",
+      "hint": "Shake telepon Anda di waktu yang sama dengan orang lain.",
+      "title": "Silih kontak",
+      "searching": "Mencari orang gemetar di dekatmu...",
+      "none": "Tak ada yang ditemukan. Shake pada saat yang sama dengan orang lain, kemudian mencoba lagi.",
+      "pick": "Ambil orang yang tepat. Tak ada yang dibagi tanpa persetujuanmu.",
+      "connect": "Sambungkan?",
+      "connectA11y": "Berhubung dengan {{name}}",
+      "waiting": "Mereka menunggu konfirmasi.",
+      "connected": "Terhubung",
+      "openSettings": "Tetapan Terbuka",
+      "error": {
+        "disabled": "Kobei menyalakan “Swap kontak dengan gemetar” dalam pengaturan Anda.",
+        "notCheckedIn": "Ada setelah tiket Anda telah dipindai di pintu masuk.",
+        "clockSkew": "Jam ponselmu mati. Kau harus otomatis dan coba lagi.",
+        "rateLimited": "Terlalu banyak upaya. Coba lagi dalam satu menit.",
+        "expired": "Swapnya sudah habis. Mulai lagi.",
+        "noLocation": "Lokasi dibutuhkan untuk menemukan orang di dekatmu.",
+        "generic": "Swapnya tidak berhasil. Coba lagi."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Simpan peristiwa itu"
+    },
+    "torch": {
+      "onA11y": "Menyalakan obor pada",
+      "offA11y": "Mematikan obor",
+      "hint": "Double-tap viewfinder untuk menyalakan atau mematikan obor."
+    },
+    "dragSelect": {
+      "select": "♪ Pilih ♪",
+      "hint": "Atau menyeret dua jari ke bawah daftar untuk mengentang beberapa peserta.",
+      "message": "Mesej kepada para peserta yang dipilih",
+      "export": "Pemilihan:",
+      "exportError": "Gagal mengekspor hasil seleksi.",
+      "csvName": "Nama",
+      "csvEmail": "Email",
+      "csvReference": "Rujukan",
+      "csvStatus": "Status",
+      "csvDate": "Didaftarkan"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Mengambil tiketmu...",
+      "favorites": "Mengambil kesukaanmu...",
+      "notifications": "Mengutip pemberitahuan anda...",
+      "messages": "Mengambil percakapanmu...",
+      "search": "Buat sebuah acara yang cocok...",
+      "event": "Kemudiakan halaman acara..."
+    },
+    "mobileMoney": {
+      "sent": "Permintaan pembayaranmu telah dikirim ke operatormu.",
+      "pin": "Mintalah PIN di ponsel Anda, sesuai dengan permintaan operator Anda.",
+      "operator": "Operator konfirmasi dapat mengambil sedikit waktu. Itu normal, silakan tinggal di halaman ini.",
+      "once": "Anda hanya akan dikenakan biaya sekali, bahkan jika menunggu berlangsung."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Tiket Anda akan muncul di sini segera setelah Anda mendaftar untuk acara.",
+        "v1": "Konser konser, konferensi, lokakarya? Semuanya dimulai dengan sebuah acara.",
+        "v2": "Anda berikutnya keluar mungkin sudah online."
+      },
+      "favorites": {
+        "v0": "Jap jantung pada suatu peristiwa untuk menemukannya di sini dan mendengar tentang perubahan.",
+        "v1": "Ikuti sebuah acara sehingga Anda tidak pernah melewatkan beritanya.",
+        "v2": "Satu hati sudah cukup untuk menjaga acara di tangan."
+      },
+      "notifications": {
+        "v0": "Berita dari acara dan penyelenggara yang kau ikuti akan muncul di sini.",
+        "v1": "Ikutilah suatu peristiwa untuk memberitahukan apa yang baru.",
+        "v2": "Kami akan memberi tahu Anda segera setelah sesuatu terjadi."
+      },
+      "messages": {
+        "v0": "Bertemu seseorang di acara? Memindai kode mereka untuk terhubung.",
+        "v1": "Sambungan acara Anda muncul di sini: satu scan kode sudah cukup.",
+        "v2": "Rincian kontak Swap Swap di lokasi dengan memindai kode seorang peserta."
+      },
+      "discover": {
+        "v0": "Sebuah pencarian kata kunci kadang - kadang menemukan apa yang belum diperlihatkan di halaman utama.",
+        "v1": "Pencarian oleh kota atau kategori: acara baru tiba setiap minggu."
+      },
+      "exploreAction": "Lihat apa yang ada",
+      "scanAction": "Memindai kode",
+      "searchAction": "Cari suatu peristiwa",
+      "didYouMean": "Apa maksudmu \\\"{{term}}\\\"?",
+      "widen": "Widen ke 50 km di sekitar Anda",
+      "clearFilters": "Filter yang jelas"
+    },
+    "greeting": {
+      "when": {
+        "today": "Hari ini hari ini",
+        "tomorrow": "Besok besok",
+        "dayAfter": "Besok lusa"
+      },
+      "there": "Situs di situs",
+      "weather": {
+        "rain": "Hujan diharapkan {{when}} dalam {{city}} untuk {{title}}: membawa payung.",
+        "rainProb": "Kemungkinan besar Rain ({{prob}}%) {{when}} dalam {{city}} untuk \\\"{{title}}\\\": membawa payung.",
+        "storm": "Badai mungkin {{when}} dalam {{city}} untuk {{title}}: membawa sesuatu untuk ditutup.",
+        "clear": "Cuaca cuaca cuaca baik diperkirakan {{when}} dalam {{city}} untuk “{{title}}”, {{temp}}°.",
+        "cloudy": "Cuaca mendung diperkirakan {{when}} dalam {{city}} untuk \\\"{{title}}\\\", {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organisasiwan yang Anda ikuti diterbitkan {{count}} acara.",
+        "v1_other": "Organisasiwan yang Anda ikuti diterbitkan {{count}} acara."
+      },
+      "ritual": {
+        "birthday": "Selamat ulang tahun! Semoga harimu menyenangkan.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Hari bahagia nasional!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "Selamat datang kembali",
+      "subtitle_one": "Satu hal baru sejak kunjungan terakhirmu.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Dan satu lagi dari apa yang kau ikuti.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "Sorok",
+      "reason": {
+        "followed_organizer": "Anda mengikuti",
+        "new_edition": "Edisi baru dari sebuah acara yang Anda hadiri",
+        "other": "New"
+      },
+      "byOrganizer": "{{name}}"
+    },
+    "reco": {
+      "becauseOne": "Karena kau suka {{first}}",
+      "becauseTwo": "Karena kau suka {{first}} dan {{second}}",
+      "forYouEyebrow": "UNTUK ANDA · BASED PADA TASTE ANDA",
+      "forYouTitle": "Anda mungkin juga suka",
+      "loginCtaTitle": "Saran palsu disesuaikan untuk Anda"
+    },
+    "settings": {
+      "ritualsEyebrow": "♪ Little touches ♪",
+      "ritualsTitle": "Sedikit sentuhan",
+      "ritualsSubtitle": "Sebuah kata pada hari ulang tahun Anda, ulang tahun ulang tahun akun atau hari nasional, sekali di siang hari. Usiamu tidak pernah ditunjukkan, tidak ada pemberitahuan.",
+      "forgetEyebrow": "PERINGATAN",
+      "forgetTitle": "Lupakan seleraku",
+      "forgetSubtitle": "Menghapus apa yang terjadi selanjutnya, pendaftaran dan pencarian mengajarkan rekomendasi Anda.",
+      "forgetConfirmTitle": "Lupa seleramu?",
+      "forgetConfirmMessage": "Saranmu akan dimulai dari awal. Tiket, favorit, dan berikut Anda tidak berubah.",
+      "forgetDone": "Selesai: rekomendasi Anda mulai dari awal.",
+      "forgetUnavailable": "Pilihan ini belum tersedia. Tak ada yang terhapus.",
+      "forgetError": "Hasratmu tak bisa dihapus. Mereka tidak berubah, silakan coba lagi sebentar lagi."
+    },
+    "goingCard": {
+      "title": "Sementara Anda menunggu, siapkan kartu \\\"Aku akan\\\" Anda",
+      "subtitle": "Ini akan siap untuk berbagi segera setelah pembayaran dikonfirmasi.",
+      "tintLabel": "Latar Belakang",
+      "messageLabel": "Pesan",
+      "messages": {
+        "going": "AKU AKAN",
+        "meetThere": "Kau lihat?",
+        "seeYou": "MEETE ME ADA"
+      },
+      "tintA11y": "Warna {{index}}",
+      "printing": "Sidik jarimu saat kau menunggu.",
+      "ready": "Kartumu sudah siap.",
+      "share": "Kongsi kartuku",
+      "backdropA11y": "Ilustrasi latar belakang {{index}}"
+    }
   }
 }

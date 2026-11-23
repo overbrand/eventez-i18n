@@ -41,6 +41,7 @@
     "close": "বন্ধ",
     "clear": "পরিষ্কার",
     "back": "পূর্ববর্তী",
+    "home": "হোম",
     "next": "পরবর্তী",
     "previous": "পূর্ববর্তী",
     "search": "অনুসন্ধান",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "কোডের সঠিক নয় অথবা ভুল",
     "loginError": "লগ-ইন ত্রুটি",
     "registerError": "স্বাক্ষর সংক্রান্ত ত্রুটি",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "অ্যাকাউন্ট বর্তমানে উপস্থিত রয়েছে",
     "registerEmailExistsDetail": "এই ইমেল সহ একটি অ্যাকাউন্ট বর্তমানে উপস্থিত রয়েছে। আপনি কি সাইন ইন করতে চান?",
     "registerEmailExistsConfirm": "সাইন ইন করুন",
@@ -436,10 +444,14 @@
     "lastNameRequired": "নাম আবশ্যক",
     "emailRequired": "ই-মেইল আবশ্যক",
     "emailInvalid": "অবৈধ ই-মেইল",
+    "passwordRequired": "পাসওয়ার্ড প্রয়োজন",
     "passwordTooShort": "পাসওয়ার্ড অত্যন্ত ছোট। (ডিফল্ট অক্ষর সহ)",
+    "confirmPasswordRequired": "পাসওয়ার্ড নিশ্চায়ন প্রয়োজন",
     "passwordsDontMatch": "পাসওয়ার্ডগুলি মিলছে না",
+    "usernameRequired": "ব্যবহারকারীর নাম উল্লেখ করা আবশ্যক",
     "usernameTooShort": "ব্যবহারকারীর নাম অত্যন্ত সংক্ষিপ্ত। (ডিফল্ট অক্ষর ব্যবহার করা যাবে না)",
     "usernameInvalid": "ব্যবহারকারীর নাম বৈধ নয়",
+    "phoneRequired": "ফোন নম্বর প্রয়োজন",
     "phoneInvalid": "অবৈধ ফোন নম্বর",
     "minLength": "অক্ষরের ছাঁদ অন্ততঃ",
     "maxLength": "সর্বোচ্চ অক্ষরবিশিষ্ট অক্ষর"
@@ -449,7 +461,8 @@
     "saved": "সংরক্ষিত",
     "messages": "বার্তা",
     "tickets": "টিকেট",
-    "profile": "প্রোফাইল"
+    "profile": "প্রোফাইল",
+    "organize": "সংগঠিত করুন"
   },
   "languagePicker": {
     "eyebrow": "বিবিধ বিষয়",
@@ -492,6 +505,7 @@
     "viewAction": "প্রদর্শন",
     "viewEvent": "অনুষ্ঠান প্রদর্শন",
     "share": "যৌথ ব্যবহার",
+    "scrollToTop": "পূর্ববর্তী",
     "freeEyebrow": "মিলিতা",
     "freeTitle": "মুক্ত, কোন স্ট্রিং নেই",
     "freeBadge": "মুক্ত",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "সব ঠিক আছে!",
     "notifyOnBody": "প্রথম ইভেন্টের সরাসরি খবর আমরা তোমাকে জানাবো।",
     "notifyOffTitle": "সূচনাবার্তা",
-    "notifyOffBody": "বিজ্ঞপ্তি প্রদানের জন্য শব্দ সক্রিয় করা হবে।"
+    "notifyOffBody": "বিজ্ঞপ্তি প্রদানের জন্য শব্দ সক্রিয় করা হবে।",
+    "organizersEyebrow": "সংগঠক",
+    "organizersTitle": "ঘটনাস্থলের লোকজন",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "সংগঠক",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "প্রাইস টাই",
@@ -604,7 +624,10 @@
     "invisibleHint": "( ২ করি.",
     "message": "বার্তা",
     "connected": "পরিচিতির সাথে সংযোগ করা হয়েছে",
-    "empty": "এখনো কেউ দেখা যাচ্ছে না। প্রথমে নেটওয়ার্ক চালু কর!"
+    "empty": "এখনো কেউ দেখা যাচ্ছে না। প্রথমে নেটওয়ার্ক চালু কর!",
+    "scanOptInTitle": "প্রদর্শনী আমার ব্যাজ স্ক্যান করা যাক",
+    "scanOptInSubtitle": "কোম্পানিকে প্রদর্শন করে আপনার নাম এবং যোগাযোগ রক্ষা করতে পারবেন আপনার ব্যাজ স্ক্যান করে, যাতে তারা অনুষ্ঠান পরবর্তী অনুষ্ঠান অনুসরণ করতে পারে।",
+    "scanOptInWithdrawNote": "যে কোনো সময় এটা বন্ধ করা যাবে। প্রদর্শন ব্যবস্থা দ্বারা সংরক্ষিত পরিচিতি মুছে ফেলা হবে না - ব্যক্তিগত বৈশিষ্ট্য থেকে তাদের মুছে ফেলা হবে ।"
   },
   "eventDetails": {
     "eyebrow": "সক্রিয়",
@@ -628,6 +651,7 @@
     "onlineEvent": "অন-লাইন ইভেন্ট",
     "meetingId": "সভার ID:",
     "meetingPasscode": "পাসওয়ার্ড কোড:",
+    "liveEngagement": "লাইভ প্রশ্ন এবং ভোট",
     "joinEvent": "যোগ দিন",
     "joinOnline": "অন-লাইন অবস্থায় যোগ দিন",
     "registered": "নিবন্ধিত",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "হোয়াটসঅ্যাপ শেয়ার করুন",
     "closePreviewA11y": "প্রাকমুদ্রণ বন্ধ করুন",
     "invalidCode": "অবৈধ কোড",
+    "accessButton": "লিখুন",
+    "pendingPaymentBanner": "নিবন্ধন করতে আপনার পেমেন্ট সম্পন্ন করুন",
+    "onlineInfoAfterRegistration": "আপনার অ্যাকাউন্টের বিস্তারিত তথ্য উপলব্ধ থাকবে",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "বড় করুন",
+    "playCoverVideo": "ভিডিও চালান",
+    "videoPlayA11y": "শব্দ সহযোগে ভিডিও বাজানো হবে",
+    "videoUnmuteA11y": "শব্দ চালু",
+    "videoMuteA11y": "নিঃশব্দ",
+    "videoExpandA11y": "সম্পূর্ণ পর্দায় প্রদর্শন বন্ধ করা হবে",
     "imagesCount": "যোগাসন /  কেবল১ / ১",
     "videoConference": "ভিডিও লিনজ প্ল্যাটফর্ম",
     "openLinkError": "ইভেন্ট লিংক খোলা যায়নি",
@@ -675,7 +708,28 @@
     "registeredStatus": "নিবন্ধিত",
     "pendingStatus": "অসমাপ্ত",
     "priceLabel": "মূল্য",
-    "fromLabel": "আরম্ভ করা হচ্ছে"
+    "fromLabel": "আরম্ভ করা হচ্ছে",
+    "waitlistJoinedDetail": "আপনি তালিকা রুমে যোগ দিয়েছেন। আমরা আপনাকে খবর দেব যখন একটা স্পট খোলা হবে।",
+    "waitlistLeftMsg": "আপনি তালিকা থেকে চলে গেছেন",
+    "waitlistLeaveError": "রুমের তালিকা তৈরি করা যায়নি",
+    "waitlistJoinError": "অপেক্ষা তালিকায় যোগ করা যায়নি",
+    "waitlistLeaveTitle": "তালিকা থেকে প্রস্থান করুন",
+    "waitlistLeaveConfirm": "আপনি কি নিশ্চিতরূপে ডিভাইসটি মুছে ফেলতে ইচ্ছুক ?",
+    "whatsappNotInstalled": "এই ডিভাইসের মধ্যে হোয়াটসঅ্যাপ ইনস্টল করা হয়নি",
+    "reviewRatingRange": "দয়া করে ১ ও ৫ এর মধ্যে রেটিং বেছে নিন",
+    "reviewThanksTitle": "ধন্যবাদ!",
+    "reviewSubmitted": "সাফল্যের সাথে পর্যালোচনা করা হয়েছে",
+    "loginRequiredTitle": "স্বাক্ষর আবশ্যক",
+    "loginRequiredReview": "পর্যালোচনা থেকে প্রস্থান করুন",
+    "reviewSubmitError": "আপনার নোট পুনরায় লোড করা যায়নি",
+    "loginRequiredWaitlist": "তালিকার মধ্যে যোগ দিন",
+    "invitationGateDesc": "এই অনুষ্ঠান অতিথিদের জন্য সংরক্ষিত। আপনি যদি কোনো আমন্ত্রণ পেয়ে থাকেন, অনুগ্রহ করে তা গ্রহণ করুন।",
+    "codeGateDesc": "বিস্তারিত বিবরণ দেখতে এই কোড লিখুন",
+    "giftRegistryCta": "উপহার রেজিস্ট্রি",
+    "giftRegistrySubtitle": "আপনার পছন্দ হলে লিস্ট এবং চিপের তালিকা দেখুন",
+    "cancelReasonTitle": "বাতিল করার কারণ",
+    "visioEnded": "এই অনুষ্ঠানের ভিডিও কনফারেন্স শেষ হয়েছে।",
+    "videoPauseA11y": "ভিডিও স্থগিত করুন"
   },
   "events": {
     "videoBadge": "ভিডিও",
@@ -823,6 +877,9 @@
     "noPastMessage": "আপনার আগের অনুসূচীগুলি মুছে ফেলুন",
     "scanQR": "কি-রিংয়ের কোড স্ক্যান করুন",
     "showQR": "কিউ- টি কোড দেখাও",
+    "viewQR": "ফাইল দেখাও",
+    "receivedTransfers": "পরিবহণ প্রাপ্ত হয়েছে",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "আপনার QR কোড",
     "qrSubtitle": "প্রবেশ পথে এই কোড প্রদর্শন করো",
     "ticketDetails": "টিকেট সংক্রান্ত বিবরণ",
@@ -930,7 +987,10 @@
     "monthNovember": "নভেম্বর",
     "monthDecember": "ডিসেম্বর",
     "tapToShowQR": "কিউ- র কোড দেখার জন্য Tep",
-    "searchTitleRefVenue": "শিরোনাম, টাকা, স্থান ..."
+    "searchTitleRefVenue": "শিরোনাম, টাকা, স্থান ...",
+    "pendingPayment": "মূল্য প্রদান করা হচ্ছে",
+    "pendingExpired": "সমাপ্ত হচ্ছে",
+    "statusExpired": "মেয়াদ উত্তীর্ণ"
   },
   "payment": {
     "title": "প্রদানের মেয়াদ",
@@ -1127,6 +1187,7 @@
     "paymentBack": "পূর্ববর্তী",
     "paymentGenericError": "পরিশোধ করার সময় একটি ত্রুটি দেখা দিয়েছে",
     "paymentErrorTitle": "পরিশোধের ত্রুটি",
+    "paymentBlockedTitle": "কার্ডের পরিশোধ ব্লক",
     "paymentCancelledTitle": "বাতিল করা হয়েছে",
     "paymentNoPaymentInProgress": "নিশ্চিত করার জন্য কোনো চলমান পরিশোধ নেই",
     "paymentVerifyingTitle": "যাচাই করা হচ্ছে...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "এগিয়ে চলুন",
     "paymentProcessing": "প্রসেস করা হচ্ছে",
     "paymentTitle": "প্রদানের মেয়াদ",
+    "checkoutStep": "অক্টোবর - ডিসেম্বর",
+    "noDoubleCharge": "শুধুমাত্র একবারই চার্জ করা হবে, যদি পর্দার স্পিন থাকে।",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "আমি গ্রহণ",
+    "termsLinkFull": "বিক্রয় ও পরিশোধন নীতির নীতি",
+    "termsAcceptSuffixDot": ". .",
     "paymentStepSelection": "নির্বাচন",
     "paymentStepRecap": "ডি-কোড",
     "paymentMethodFallback": "প্রদানের মেয়াদ",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "প্রদানের মেয়াদ",
     "myPaymentsFilterCompleted": "সম্পন্ন",
     "myPaymentsFilterPending": "অসমাপ্ত",
-    "myPaymentsFilterFailed": "ব্যর্থ"
+    "myPaymentsFilterFailed": "ব্যর্থ",
+    "finalizeEndedTitle": "এই অনুসূচীটি সমাপ্ত হয়েছে",
+    "finalizeEndedBody": "আপনি আর আপনার নিবন্ধন শেষ করতে পারবেন না: ইভেন্ট ইতোমধ্যে শেষ। আপনার চার্জ করা হয়নি।",
+    "finalizeClosedTitle": "নিবন্ধন বন্ধ হয়েছে",
+    "finalizeClosedBody": "এই অনুষ্ঠানের নিবন্ধনের মেয়াদ শেষ হয়েছে।",
+    "finalizeSoldOutTitle": "টিকেট বিক্রি হয়ে গেছে",
+    "finalizeSoldOutBody": "আপনি যে টিকিটটা দিয়েছেন তা আর পাওয়া যাচ্ছে না। তোমার ডায়মনেশনের মেয়াদ. আপনার চার্জ করা হয়নি।",
+    "finalizeBackToEvent": "যে বর্ষপঞ্জিতে প্রত্যাবর্তন করা হবে",
+    "paymentPushSentTitle": "আপনার ফোন নিশ্চিত করুন",
+    "paymentPushSentMessage": "তোমার কাছে একটা পেমেন্টের অনুরোধ ছিল. সম্পূর্ণ করার জন্য এই যন্ত্রটি ব্যবহার করুন।",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "পুনরায় অনুরোধ করা হয়েছে"
   },
   "memories": {
     "title": "আমার স্মৃতি",
@@ -1235,7 +1313,11 @@
     "recapShare": "আমার পাসওয়ার্ড শেয়ার করুন",
     "recapEvents": "ইভেন্ট",
     "recapCities": "শহর",
-    "recapFirst": "সময় এসেছে 1 ="
+    "recapFirst": "সময় এসেছে 1 =",
+    "oneYearAgo": "এক বছর আগে, তুমি সেখানে ছিলে।",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "সারপ্রাইজের জন্য লম্বা প্রেস",
+    "firstNote": "প্রথমে আসতে হবে। দরজা খোলা ছিল না."
   },
   "profile": {
     "title": "প্রোফাইল",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "সাইন আউট করুন",
     "logoutInProgress": "স্বাক্ষর করা হচ্ছে...",
     "appVersion": "ইভেন্টEz v10.",
-    "myQRTitle": "মাইQR কোড"
+    "myQRTitle": "মাইQR কোড",
+    "refundsMenu": "আমার বলি",
+    "refundsSubtitle": "যেখানে আপনার টাকা অবস্থান ট্র্যাক করুন",
+    "shareProfileButton": "আমার প্রোফাইল শেয়ার করুন",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "আমার সংগঠক প্রোফাইল",
+    "shareOrganizerA11y": "আমার সংগঠক প্রোফাইল শেয়ার করুন",
+    "viewPublicProfileA11y": "আমার পাবলিক প্রোফাইল প্রদর্শন",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "পাশ্ববর্তী?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "অনুসরণ",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "কোনো ফলাফল প্রাপ্ত হয়নি",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "ইভেন্ট অনুসন্ধান করা হবে",
+    "followSearchPlaceholder": "একটি সংগঠক অনুসন্ধান করুন"
   },
   "editProfile": {
     "title": "প্রোফাইল সম্পাদনা",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "ঠিকানা",
     "sectionOrganization": "প্রতিষ্ঠান",
     "sectionSecurity": "সুরক্ষা",
-    "qrShareSubtitle": "আপনার প্রোফাইল শেয়ারের জন্য এই কোড স্ক্যান করুন"
+    "qrShareSubtitle": "আপনার প্রোফাইল শেয়ারের জন্য এই কোড স্ক্যান করুন",
+    "countryPlaceholder": "একটি দেশ নির্বাচন করুন",
+    "orgLogoLabel": "প্রতীকচিহ্ন",
+    "orgLogoAdd": "একটি আইকন যোগ করুন",
+    "orgLogoChange": "লোগো পরিবর্তন করো",
+    "orgWebsiteLabel": "ওয়েব সাইট",
+    "orgDescriptionLabel": "পাবলিক",
+    "orgDescriptionPlaceholder": "পরিচয় দাও..."
   },
   "settings": {
     "whoCanContactCurrent": "বিশ্ব নিরীক্ষা",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "থিম",
     "themeDialogSubtitle": "থিম বেছে নিন",
     "timezoneDialogTitle": "সময়-অঞ্চল",
+    "timezoneDetected": "সনাক্ত হয়েছে",
     "timezoneDialogSubtitle": "সময়ের অঞ্চল নির্বাচন করুন",
     "preferencesTitle": "পছন্দ",
     "headerEyebrow": "চিৎকার",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "নিশ্চিত & করো",
     "rowNewConversations": "নতুন কথোপকথন",
     "rowMarketing": "সুপারিশ ও পদোন্নতি",
+    "rowSocialEyebrow": "সামাজিক",
+    "rowSocial": "সামাজিক কর্ম",
+    "rowSocialDesc": "নতুন অনুসারী, তাগাদার অনুরোধ",
+    "newRegistrationsEyebrow": "সংগঠক",
+    "newRegistrationsTitle": "নতুন নিবন্ধন",
+    "newRegistrationsDescription": "যখন কেউ আপনার ঘটনার নিবন্ধন করে তখন আপনি কিভাবে ইমেইল করা হয়",
+    "newRegistrationsFreq": {
+      "realtime": "রিযেল টাইম",
+      "hourly": "প্রতি ঘন্টায়",
+      "daily": "দিন",
+      "off": "বন্ধ"
+    },
+    "quietHoursEyebrow": "বিরক্ত করো না",
+    "quietHoursTitle": "ঘন্টা",
+    "quietHoursDescription": "অ-বিফলহীন/এসএস-এস-এস রাতের মধ্যে বিরতি প্রদান করে । গুরুত্বপূর্ণ সতর্কতা সবসময় আসছে।",
+    "quietHoursFrom": "প্রেরক",
+    "quietHoursTo": "পর্যন্ত",
     "rowSounds": "সময় মত শব্দ",
     "rowSoundsSubtitle": "স্বয়ংক্রিয়ভাবে পরিচয় করিয়ে দিলে শব্দ বাজাও অথবাQRI স্ক্যানের মাধ্যমে শব্দ বাজাও",
     "rowTwoFA": "প্রক্সি অনুমোদনের অনুমোদন",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "ভয়েস",
     "shortcutTaxes": "নিক্তি",
     "shortcutMyEvents": "আমার ঘটনাসমূহ",
-    "shortcutHelp": "সাহায্য"
+    "shortcutHelp": "সাহায্য",
+    "rowMyDataAtExhibitors": "প্রদর্শনীতে আমার তথ্য",
+    "rowLiveBanner": "লাইভ ইভেন্ট ব্যানার",
+    "rowLiveBannerSubtitle": "ইভেন্টে যোগ দেওয়ার জন্য একটি ব্যানার দেখান ।",
+    "pushPermissionTitle": "এই ডিভাইসের জন্য সূচনাবার্তা প্রদর্শন করা হচ্ছে",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "আমার সংযোগ বিচ্ছিন্ন করা যাক",
+    "rowShareAttendanceSubtitle": "আপনার সংযোগ দেখতে পাচ্ছেন আপনি অনুষ্ঠানে যাচ্ছেন। ডিফল্টরূপে, শুধুমাত্র ইভেন্টের জন্য।",
+    "rowNotifyMemories": "\"এক বছর আগে\" বিজ্ঞপ্তি",
+    "rowNotifyMemoriesSubtitle": "এক সপ্তাহে আপনি একটা অনুষ্ঠানে উপস্থিত ছিলেন।",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "ডিসেম্বর মাসে। আর কেউ দেখতে পাবে না।",
+    "madeInDouala": "দুওলা তৈরি, যত্ন নিয়ে।",
+    "madeInDoualaSub": "তোমাকে আমাদের সাথে নিয়ে আসার জন্য ধন্যবাদ।",
+    "rowUiSounds": "ইন্টারফেস সংক্রান্ত শব্দ",
+    "rowUiSoundsSubtitle": "বিজ্ঞপ্তি প্রদানের ক্ষেত্রে খুবই সূক্ষ্ম শব্দ। স্বাভাবিকের মধ্যে।",
+    "vibrationsEyebrow": "এত তাড়াতাড়ি",
+    "rowVibrations": "কম্পন",
+    "rowVibrationsSubtitle": "কী কাজ করার ক্ষেত্রে Haptic প্রতিক্রিয়া: অর্থ, স্ক্যান, প্রিয়।",
+    "rowMotionGestures": "দৃশ্যমান ইঙ্গিত",
+    "rowMotionGesturesSubtitle": "চাপ দিন অথবা কিছু কাজের জন্য আপনার ফোন ধরে রাখুন। বাটন সবসময়ই পাওয়া যায় ।",
+    "notificationsEyebrowOngoing": "সূচনাবার্তা",
+    "rowOngoingEvent": "ঘটনার দিন পিনিং টিকিট",
+    "rowOngoingEventSubtitle": "৩ ঘন্টা আগে এবং অনুষ্ঠানের সময়, টিকেট এবং দিক দিয়ে।",
+    "rowNotificationSounds": "সূচনামূলক শব্দ",
+    "rowNotificationSoundsSubtitle": "প্রতিটি শ্রেণীর শব্দ বাছাই করুন (প্রতিটি সময়, বিক্রয়, বার্তা...)"
   },
   "messages": {
     "title": "বার্তা",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "পরিচিতি অনুসন্ধান...",
     "searchEyebrow": "চুল",
     "searchHint": "অনুসন্ধান করার জন্য লিখুন",
-    "noOneFound": "কাউকে পাওয়া যায়নি"
+    "noOneFound": "কাউকে পাওয়া যায়নি",
+    "myConnectionsSection": "আমার সংযোগ",
+    "searchResultsSection": "ফলাফল",
+    "noConnectionsEyebrow": "উত্তর",
+    "noConnectionsTitle": "সংযোগ বর্তমানে সক্রিয়",
+    "noConnectionsCta": "QRP এর মাধ্যমে সংযোগ",
+    "emptyEyebrowArchived": "আর্কাইভ",
+    "emptyEyebrowEmpty": "EMTP চিত্র",
+    "archivedEmptyDesc": "তোমার আর্কাইভের কথোপকথন এখানে হবে।",
+    "noConversationsDesc": "নতুন বার্তা শুরু করুন — আমরা কারো সাথে কথা বলতে পারবো।",
+    "attachmentPreview": "[ চিৎকার ]",
+    "noMatchingMessage": "বার্তার কোনো সংযুক্তি নেই"
   },
   "notifications": {
     "title": "সূচনাবার্তা",
@@ -1724,6 +1887,23 @@
     "typeWinback": "নতুন কি",
     "typePendingModeration": "পর্যালোচনা",
     "typeModerationReminder": "মাঝারি সীমা",
+    "typeNewFollower": "নতুন অনুসারী",
+    "typeFollowedOrganizerNewEvent": "নতুন অনুষ্ঠান",
+    "typeFollowRegistered": "একটি সংযোগ যাচ্ছে",
+    "typeConnectionsAtEvent": "আপনার সংযোগ",
+    "eyebrowNetwork": "উত্তর",
+    "eyebrowSoon": "মুন",
+    "eyebrowReminder": "দ্বন্দ্ব",
+    "eyebrowModeration": "মণ্ডলী",
+    "eyebrowToReview": "শেষ পর্যন্ত",
+    "eyebrowDiscovery": "ডিস্ক তৈরি করুন",
+    "eyebrowUrgent": "কনফিগারেশন",
+    "eyebrowWhatsNew": "নতুন কী",
+    "filterReadTab": "পড়ো",
+    "groupToday": "বর্তমানে",
+    "groupYesterday": "হ্যাঁ...",
+    "tabAll": "সকল",
+    "tabNetwork": "নেটওয়ার্ক",
     "typeDefault": "বিজ্ঞপ্তি",
     "filterAllTab": "সকল",
     "filterUnreadTab": "অপঠিত",
@@ -1739,7 +1919,26 @@
     "statTotal": "টরেটো",
     "statUnread": "কেনিয়া",
     "statToday": "বর্তমানে",
-    "viewDetails": "বিস্তারিত দেখুন"
+    "viewDetails": "বিস্তারিত দেখুন",
+    "actions": {
+      "showTicket": "আমার টিকেট দেখাও",
+      "directions": "গতিপথ",
+      "going": "আমি যাচ্ছি",
+      "viewTicket": "প্রদর্শন টিকেট",
+      "reply": "প্রত্যুত্তর",
+      "replyPlaceholder": "আপনার বার্তা...",
+      "replySubmit": "প্রেরণ",
+      "markRead": "সমস্ত বার্তা পড়া-হয়েছে হিসাবে চিহ্নিত করা হবে",
+      "joinLive": "যোগ দিন",
+      "payNow": "এখন দেন",
+      "writeTo": "বার্তা",
+      "viewEvent": "অনুষ্ঠান প্রদর্শন",
+      "viewTickets": "আমার টিকেট প্রদর্শন",
+      "viewRefund": "সাহায্যের প্রদর্শন",
+      "viewProfile": "প্রদর্শন প্রোফাইল প্রদর্শন",
+      "summaryTitle": "বার্তা",
+      "summaryBody": "নতুন বার্তা"
+    }
   },
   "dashboard": {
     "title": "ড্যাশবোর্ড",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "আমার পরিকল্পনা পরিচালনা করুন",
     "exportTitle": "এক্সপোর্ট করুন",
     "exportSubtitle": "আপনার তথ্য",
-    "settingsLink": "বৈশিষ্ট্য"
+    "settingsLink": "বৈশিষ্ট্য",
+    "greetingNight": "সন্ধ্যা শুভ হোক"
   },
   "following": {
     "title": "আমার প্রিয়",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "আমন্ত্রণ প্রত্যাখ্যান করা হয়েছে।",
     "declineError": "আমন্ত্রণ প্রত্যাহার করতে ব্যর্থ।",
     "declineButton": "প্রত্যাখ্যান করুন ( D)",
+    "declineConfirmTitle": "আমন্ত্রণ প্রত্যাখ্যান করুন",
+    "declineConfirmMessage": "আপনি কি নিশ্চিতরূপে এই আমন্ত্রণ প্রত্যাহার করতে ইচ্ছুক?",
     "fromLabel": "প্রেরক",
     "toLabel": "RECV:",
     "organizerFallback": "সংগঠক",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "আপলোড ব্যর্থ",
     "downloadFailed": "ডাউনলোড করতে ব্যর্থ",
     "tryAgain": "পুনরায় প্রচেষ্টা করুন",
-    "contactSupport": "পরিচিতির সমর্থন"
+    "contactSupport": "পরিচিতির সমর্থন",
+    "timeout": "অনুরোধটা অনেক সময় নিয়েছে। আপনার সংযোগ পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।",
+    "validation": "কিছু বর্ণনা অবৈধ। চিহ্নিত ক্ষেত্র সংশোধন করে আবার চেষ্টা করুন।",
+    "fields": {
+      "title": "শিরোনাম",
+      "subtitle": "অনুবাদলিপি",
+      "message": "বার্তা",
+      "image": "ছবি",
+      "cta_label": "বাটনের লেবেল",
+      "cta_url": "বাটনের লিংক",
+      "link_url": "লিংক",
+      "target_event": "উদ্দিষ্ট বস্তু",
+      "country": "দেশ",
+      "city": "শহর",
+      "radius_km": "ব্যাসার্ধ",
+      "placement": "স্থাপনা (l)",
+      "priority": "অগ্রগণ্য",
+      "severity": "গুরুত্ব: (v)",
+      "audience": "জায়েন্ট (Kings Audience)",
+      "platform": "প্ল্যাটফর্ম",
+      "valid_from": "চিহ্নিত মাত্রা থেকে প্রাপ্ত বৈধ নয়",
+      "valid_until": "চিহ্নিত সময়ের অবধি বৈধ"
+    },
+    "http": {
+      "badRequest": "আমরা তোমার অনুরোধ ঠিক করতে পারি নি। অনুগ্রহ করে আপনার বিস্তারিত তথ্য পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।",
+      "unauthorized": "আপনার সেশানের মেয়াদ পূর্ণ হয়েছে। দয়া করে আবার সাইন ইন করুন।",
+      "forbidden": "আপনার এই কাজ করার অনুমতি নেই।",
+      "notFound": "তুমি যা খুঁজছিলে আমরা তা খুঁজে পাইনি।",
+      "conflict": "বর্তমান অবস্থা সহ এই কর্ম। পুনরায় লোড করুন।",
+      "tooManyRequests": "অনেক প্রচেষ্টা। অনুগ্রহ করে প্রতীক্ষা করুন।",
+      "server": "আমাদের সার্ভার এখন সমস্যা হচ্ছে. দয়া করে আবার চেষ্টা করুন।",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "এই ই-মেইল অ্যাকাউন্টের সাথে একটি অ্যাকাউন্ট বর্তমানে উপস্থিত রয়েছে। সাইন ইন করুন অথবা অন্য ঠিকানা ব্যবহার করুন।",
+      "usernameTaken": "অনুগ্রহ করে অন্য একটি নাম নির্বাচন করুন।",
+      "weakPassword": "অন্তত ৮ অক্ষর বিশিষ্ট লগ-ইন করে তা নির্বাচন করুন।",
+      "invalidCredentials": "ভুল ই-মেইল অথবা পাসওয়ার্ড পাসওয়ার্ড পুনরায় চেষ্টা করুন অথবা পুনরায় চেষ্টা করুন।",
+      "resetLinkExpired": "এই সার্ভারের সাথে পুনরায় সংযোগ স্থাপন করা হয়েছে । নতুন একটার জন্য অনুরোধ করছি।",
+      "otpInvalid": "এই কোডের সঠিক নয় অথবা এর মেয়াদ উত্তীর্ণ হয়েছে। এটা চেক করুন অথবা একটি নতুন অনুরোধ করুন।",
+      "otpSendFailed": "আমরা এসএমএস কোড পাঠাতে পারিনি। আপনার নাম লিখে আবার চেষ্টা করুন অথবা ইমেইলে স্বাক্ষর করুন।",
+      "paymentMethodUnsupported": "এই ইভেন্টের জন্য কোনো অর্থ প্রদান করা হয়নি। অনুগ্রহ করে অন্য একটি নাম নির্বাচন করুন।",
+      "paymentFailed": "তোমার পেমেন্ট শেষ হয়নি. তোমার চার্জ করা হয়নি. পুনরায় চেষ্টা করুন অথবা অন্য পদ্ধতি ব্যবহার করুন।",
+      "paymentNetwork": "টাকার বিনিময়ে সংযোগ বিচ্ছিন্ন হয়েছে। আপনার ইন্টারনেট পরীক্ষা করুন এবং আবার চেষ্টা করুন – আপনার দুইবার চার্জ করা হবে না।",
+      "paymentTimeout": "তোমার পেমেন্টটা প্রত্যাশার চেয়েও বেশি সময় নিচ্ছে। আর কোনো টাকা দিও না - কয়েক মিনিটের মধ্যে টিকিট চেক করো, অথবা কোনো কিছুই না থাকলে যোগাযোগ করো।",
+      "paymentVerifyFailed": "আমরা এখনো আপনাদের পেমেন্ট নিশ্চিত করতে পারিনি। আপনার বিরুদ্ধে যদি অভিযোগ করা হয়, তাহলে আপনার টিকিট খুব শীঘ্র দেখা যাবে — কয়েক মিনিটের মধ্যে আবার চেক করুন ।",
+      "refundFailed": "আপনার পরিশোধন অনুরোধ জানানো যায়নি. অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন অথবা পরিচিতি করুন।",
+      "insufficientBalance": "এই অপারেশনের জন্য পর্যাপ্ত ভারসাম্য নেই.",
+      "payoutLocked": "এই টাকা আর পরিবর্তন করা যাবে না কারণ প্রক্রিয়া ইতোমধ্যে শুরু হয়েছে। যদি এটা ভুল হয়, তাহলে যোগাযোগ করুন ।",
+      "planLimitReached": "তুমি তোমার পরিকল্পনার সীমা অতিক্রম করেছ। আপনার পরিকল্পনা আপগ্রেড করুন।",
+      "countryNotSupported": "এই দেশে এখনো কোন কর প্রদান করা হয় নি। একটি সমর্থিত দেশে আপনি ইভেন্ট তৈরি করতে পারেন অথবা আমাদের সাথে যোগাযোগ করতে পারেন।"
+    },
+    "tickets": {
+      "offline": "তুমি এখন অফলাইন। অফলাইন অবস্থায় ব্যবহারের জন্য প্রস্তুত করা হয়েছে। আবার চেষ্টা করো।",
+      "timeout": "তোমার টিকিট লোড করতে অনেক সময় লাগবে। কিছু হারিয়ে যায় নি: এগুলো নিরাপদ। আবার চেষ্টা করো।",
+      "server": "আমাদের সার্ভার একটি সংক্ষিপ্ত আঘাত হচ্ছে. আপনার টিকিট আমাদের পক্ষে নিরাপদ। কয়েক মিনিটের মধ্যে আবার চেষ্টা করবে।",
+      "notFound": "আমরা টিকিটটা খুঁজে পাচ্ছি না। তোমার অন্য টিকিটগুলো নষ্ট হয়নি। তালিকা নতুন করে প্রদর্শন ও পরীক্ষা করুন ।",
+      "forbidden": "এই টিকিট অন্য অ্যাকাউন্টের জন্য। তোমার নিজের টিকেটও নেই. এটা কেনার জন্য ব্যবহার করা হয়েছে।"
+    },
+    "messages": {
+      "offline": "তুমি এখন অফলাইন। আপনার বার্তা এখনো হারিয়ে যায়নি: আশা করা যাচ্ছে যখন আপনি অনলাইনে আছেন। নেটওয়ার্ক ফিরে গেলে পুনরায় চেষ্টা করুন।",
+      "timeout": "মেসেজিং সাড়া দিচ্ছে। আপনার বার্তা এখনো সংরক্ষণ করা হয়নি । আবার চেষ্টা করো।",
+      "server": "মেসেজিং আমাদের পক্ষে একটি সংক্ষিপ্ত আঘাত হচ্ছে. তোমার কথাবার্তা ঠিক আছে. কয়েক মিনিটের মধ্যে আবার চেষ্টা করবে।",
+      "notFound": "এই কথোপকথন বর্তমানে উপস্থিত নেই। আপনার অন্যান্য কথোপকথন প্রভাবিত হয় না. তোমার মেসেজে ফিরে যাও।",
+      "forbidden": "এই কথোপকথনের জন্য আপনার আর প্রবেশাধিকার নেই। আপনার অন্যান্য কথোপকথন এখনও চলছে । তোমার মেসেজে ফিরে যাও।"
+    },
+    "event": {
+      "offline": "তুমি অফলাইন, তাই আমরা এই অনুষ্ঠান দেখাতে পারি না। আপনার টিকিট অফ-লাইন রয়েছে। আবার চেষ্টা করো।",
+      "timeout": "লোড করার সময় এই অনুসূচীটি লোড করা হচ্ছে। তোমার পক্ষে কিছুই পরিবর্তিত হয়নি. আবার চেষ্টা করো।",
+      "server": "এই অনুষ্ঠান আমাদের সামনে তুলে ধরছে। তোমার টিকিট আর নিবন্ধনের ব্যবস্থা নেই। কয়েক মিনিটের মধ্যে আবার চেষ্টা করবে।",
+      "notFound": "এই অনুসূচীটি আর অনলাইনে নেই: সংগঠকরা এটা মুছে ফেলতে পারে। যে কোনো টিকেটে তুমি থাকো \"আমার টিকিট\" আরো ঘটনা অনুসন্ধানের জন্য অপেক্ষা করছে।",
+      "forbidden": "এই ঘটনাটি ব্যক্তিগত। তোমার অ্যাকাউন্টটা কোন ব্যাপার না। প্রবেশাধিকার পাওয়ার জন্য সংগঠকদের জিজ্ঞাসা করুন।"
+    },
+    "upload": {
+      "offline": "আপলোড করা সম্ভব হয়নি: আপনি অফলাইন। আপনার ফাইল এখনও আপনার ফোনে আছে। আবার চেষ্টা করো।",
+      "timeout": "আপলোড করা আপলোড অনেক দেরি হয়ে গেছে। আপনার ফাইল এখনও আপনার ফোনে আছে। আবার চেষ্টা করুন, Wi-Fi বা হালকা ফাইল দিয়ে।",
+      "server": "সার্ভার দ্বারা এই ফাইল গ্রহণ করা যায়নি। এটা এখনো তোমার ফোনে নিরাপদ। কয়েক মিনিটের মধ্যে আবার চেষ্টা করবে।",
+      "notFound": "আপলোড করার গন্তব্যস্থল বর্তমানে উপস্থিত নেই। আপনার ফাইল এখনো আপনার ফোনে নিরাপদ। পর্দা নতুন করে প্রদর্শন ও পুনরায় প্রচেষ্টা করুন।",
+      "forbidden": "আপনি এখানে ফাইল আপলোড করতে অনুমতিপ্রাপ্ত নন । এটা এখনো তোমার ফোনে নিরাপদ। চেক করুন আপনি ডান অ্যাকাউন্টের সাথে সাইন ইন করেছেন কিনা.",
+      "tooLarge": "ফাইলটি আপলোড করার জন্য অত্যাধিক বড় । এটা এখনো তোমার ফোনে নিরাপদ। ছবি তোলার উদ্দেশ্যে একটি হালকা অথবা ফাইলের নাম নির্বাচন করুন।"
+    }
   },
   "errorBoundary": {
     "eyebrow": "গলিচ",
@@ -2572,7 +2854,10 @@
     "successTitle": "অভিনন্দন!",
     "successMessage": "আপনি এখন একটি সংগঠক। প্রথম অনুষ্ঠান তৈরি করুন!",
     "errorTitle": "ত্রুটি",
-    "errorGeneric": "সমস্যা উৎপন্ন হয়েছে"
+    "errorGeneric": "সমস্যা উৎপন্ন হয়েছে",
+    "labelWebsite": "ওয়েবসাইট (ঐচ্ছিক)",
+    "labelDescription": "বিবরণ (ঐচ্ছিক)",
+    "placeholderDescription": "পরিচয় দাও..."
   },
   "verificationForm": {
     "pdfOpenError": "ফাইল খুলতে ব্যর্থ।",
@@ -2733,7 +3018,9 @@
     "locHybrid": "হাইব্রিড",
     "priceAny": "সকল",
     "priceFree": "মুক্ত",
-    "pricePaid": "লউস"
+    "pricePaid": "লউস",
+    "shareSearch": "এই অনুসন্ধানটি শেয়ার করুন",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "ফিল্টার",
@@ -2779,6 +3066,10 @@
     "statsRating": "বিট অনুসারে প্রদর্শন",
     "statsSince": "স্থগিত রাখো",
     "contactA11y": "সংগঠক",
+    "connectA11y": "সংযোগ স্থাপন করুন",
+    "connectedA11y": "বর্তমানে সংযুক্ত রয়েছে",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "সংযোগ স্থাপন করা সম্ভব হয়নি। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
     "bioEyebrow": "বিল্বো",
     "bioTitle": "পরিচিতি",
     "linksEyebrow": "লাইন",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "অনুষ্ঠান সংক্রান্ত তথ্য",
     "loadingEvents": "লোড করা হচ্ছে...",
     "noEvents": "কোনো অনুষ্ঠান উপস্থিত নেই",
-    "freeBadge": "মুক্ত"
+    "freeBadge": "মুক্ত",
+    "tabs": {
+      "upcoming": "আসন্ন",
+      "past": "পূর্বে"
+    }
   },
   "sessionDetails": {
     "title": "সেশান",
@@ -3223,7 +3518,12 @@
     "codeLabel": "ডি.",
     "emptyEyebrow": "বিবিধ বৈশিষ্ট্য ( P)",
     "emptyTitle": "কোনো কোড বর্তমানে উপস্থিত নেই",
-    "emptySubtitle": "যত তাড়াতাড়ি সম্ভব আপনার পদ্ধতি এখানে আসবে."
+    "emptySubtitle": "যত তাড়াতাড়ি সম্ভব আপনার পদ্ধতি এখানে আসবে.",
+    "generateCta": "আমার কোড তৈরী করো",
+    "generating": "প্রস্তুত করা হচ্ছে...",
+    "generateSuccess": "সুনির্দিষ্ট কোড তৈরি!",
+    "generateError": "কোড নির্মাণ করতে ব্যর্থ। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
+    "copySuccess": "পূর্বনির্দিষ্ট লিঙ্ক"
   },
   "teamManagement": {
     "eyebrow": "টিম",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "বিশ্লেষণ",
     "perm_view_registrations": "নিবন্ধন তালিকা প্রদর্শন",
     "perm_edit_event": "অনুষ্ঠান সম্পাদনা করুন",
-    "perm_manage_team": "অংশগ্রহণকারীদেরকে আমন্ত্রণ জানান"
+    "perm_manage_team": "অংশগ্রহণকারীদেরকে আমন্ত্রণ জানান",
+    "role_co_organizer": "কো-ওর্ডিনেট এক্সপ্রেশন",
+    "role_moderator": "মাঝারি তুষার",
+    "role_scanner": "স্ক্যানার",
+    "role_analyst": "বিশ্লেষণ",
+    "status_pending": "অসমাপ্ত",
+    "status_accepted": "সক্রিয়",
+    "status_declined": "প্রত্যাখ্যাত",
+    "status_revoked": "প্রত্যাখ্যাত",
+    "status_expired": "মেয়াদ উত্তীর্ণ"
   },
   "myTeamEvents": {
     "eyebrow": "ব্যাখ্যা করুন ।",
@@ -3276,8 +3585,10 @@
     "willAttend": "আমি সেখানে থাকব",
     "wontAttend": "আমি পারবো না",
     "partySize": "অতিরিক্ত অতিথিদের সংখ্যা",
+    "partySizeHint": "তোমার সাথে. E.g. 2 আপনি ২ মানুষ আনতে যদি.",
     "dietary": "শারীরিক চাহিদা / আ্যলার্জি",
     "note": "এই দম্পতির জন্য একটি শব্দ",
+    "noteOptional": "এই দম্পতির জন্য একটি শব্দ (ঐচ্ছিক)",
     "submit": "আমার উত্তর দিন",
     "thanksAccepted": "ধন্যবাদ! আপনার উপস্থিতি নিশ্চিত।",
     "thanksDeclined": "আমাদের জানার জন্য ধন্যবাদ।",
@@ -3289,7 +3600,18 @@
     "giftYourName": "আপনার নাম",
     "giftMethod": "প্রদানের মেয়াদ",
     "giftPay": "উপহার",
-    "giftError": "পেমেন্ট শুরু করা যাচ্ছে না।"
+    "giftThanks": "আপনাদের অবদানের জন্য ধন্যবাদ!",
+    "giftRedirectNote": "আপনি নিরাপদ পৃষ্ঠায় ফেরত পাঠাতে পারেন। এটা স্বাভাবিক।",
+    "giftError": "পেমেন্ট শুরু করা যাচ্ছে না।",
+    "rsvpSubmitError": "আপনার সাড়া পাঠানো যায়নি. অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
+    "summaryTitle": "আপনার উত্তর",
+    "summaryAccepted": "তুমি তোমার উপস্থিতি নিশ্চিত করেছ।",
+    "summaryDeclined": "তুমি আমন্ত্রণ প্রত্যাখ্যান করেছিলে.",
+    "summaryPartySize": "আপনার সাথে অতিথি",
+    "summaryHeadcount": "স্থান ফাঁকা",
+    "summaryDietary": "ডিট্রিয়ার প্রয়োজন",
+    "summaryTable": "আপনার টেবিল",
+    "summaryTablePending": "এই অনুষ্ঠানে আপনার টেবিল প্রদর্শন করা হবে।"
   },
   "teamInvitation": {
     "eyebrow": "ব্যাখ্যা করুন",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "শুধু আলোচনা. বার্তা সংরক্ষণ করুন...",
     "mutedLockMessage": "সংগঠকদের সাথে এই আলোচনায় আপনি নিঃশব্দ।",
     "postingLockMessage": "শুধুমাত্র সংগঠকরা এই আলোচনায় অংশ নিতে পারেন।",
-    "defaultUserName": "ব্যবহারকারী"
+    "defaultUserName": "ব্যবহারকারী",
+    "someFilesQueuedForRetry": "সংযোগ ফিরে গেলে কিছু ফাইল বিরক্ত হবে।",
+    "retrySend": "পুনরায় চেষ্টা করুন",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "নীচে স্ক্রল করুন",
+    "tapToLoadImage": "লোড করতে ব্যবহৃত ট্যাপ",
+    "reply": "প্রত্যুত্তর",
+    "react": "প্রতিক্রিয়া",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "শুধুমাত্র পাঠযোগ্য কথাবার্তা।",
+    "headerCollapseA11y": "ব্যানার আড়াল করা হবে",
+    "headerExpandA11y": "ব্যানার প্রদর্শন করা হবে",
+    "headerCollapseLabel": "গোপন",
+    "headerExpandLabel": "ইভেন্ট সংক্রান্ত বিবরণ"
   },
   "scanForm": {
     "loading": "লোড করা হচ্ছে...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "মাঝারি তুষার",
     "roleAdmin": "অ্যাডমিন",
     "fallbackEvent": "ইভেন্ট",
-    "fallbackUnknownUser": "ব্যবহারকারী"
+    "fallbackUnknownUser": "ব্যবহারকারী",
+    "statusUnknown": "অজানা অবস্থা"
   },
   "refundRequest": {
     "watermarkBack": "পেছনে",
     "watermarkOops": "অস্বীকৃত",
     "loadError": "লোড করতে ব্যর্থ",
     "paymentNotFound": "পাওয়া যায়নি",
+    "blockedNotOwner": "এই দানটা আপনার অ্যাকাউন্টের সাথে যুক্ত নয়, তাই আপনি এটার জন্য অনুরোধ করতে পারেন না।",
+    "blockedNotCompleted": "শুধু নিশ্চিত করা হয়েছে যে টাকা ফেরত দেওয়া যাবে। এই অর্থ রিফিউজযোগ্য অবস্থায় নেই।",
+    "blockedAlreadyRequested": "এই চার্জের জন্য একটি python অনুরোধ করা হয়েছে।",
+    "blockedGeneric": "এই দান এখন রিসাইকেলের জন্য উপযুক্ত নয়।",
     "back": "পূর্ববর্তী",
     "closeA11y": "বন্ধ",
     "eyebrow": "[ ৩০ পৃষ্ঠার বাক্স]",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "অ্যাক্সেস কোড (ঐচ্ছিক)",
       "accessCodeHint": "এই কোডের বিস্তারিত জানার জন্য গ্রাহকদের এই কোডটি প্রবেশ করতে হবে",
       "accessCodePlaceholder": "কোডের জন্য কোনো ফাঁকা স্থান অবশিষ্ট নেই",
-      "featuredInfo": "\"আমার ইভেন্ট\" থেকে আপনার ইভেন্টটির আয়োজন করতে পারেন।"
+      "accessCodeKeepPlaceholder": "নতুন কোড (আনকে বর্তমানটি রাখতে হলে ফাঁকা রাখা হবে)",
+      "accessCodeActive": "একটি অ্যাক্সেস কোড সক্রিয় ।",
+      "accessCodeWillBeRemoved": "আপনি সংরক্ষণ করার সময় কোড মুছে ফেলা হবে।",
+      "accessCodeRemove": "কোড মুছে ফেলুন",
+      "accessCodeUndoRemove": "পূর্বাবস্থা",
+      "featuredInfo": "\"আমার ইভেন্ট\" থেকে আপনার ইভেন্টটির আয়োজন করতে পারেন।",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "দিন ও তারিখ",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "মানচিত্রের নাম বেছে নিন",
       "mapHint": "মানচিত্র এবং চলাচলের ক্ষেত্রে ইভেন্ট প্রদর্শন করা হবে",
       "virtualLocationTitle": "ভার্চুয়াল অবস্থান",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "বিল্ট-ইন ভিডিও কনফারেন্সের — রুম স্বয়ংক্রিয়ভাবে তৈরি করা হয়েছে, বাইরের কোনো লিঙ্কের প্রয়োজন নেই ।",
       "platformLabel": "প্ল্যাটফর্ম",
       "platformPlaceholder": "এক্স: বড় করে দেখা, গুগল আড্ডা, দল",
       "connectionUrlLabel": "সংযোগ",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "বিক্রয় আরম্ভComment",
       "salesEndLabel": "বিক্রয়",
       "visibleLabel": "দৃশ্যমান",
+      "accessModeLabel": "এই টিকেটের অনুমোদন",
+      "accessInPerson": "ব্যক্তি",
+      "accessOnline": "অন-লাইন",
+      "accessBoth": "উভয়",
       "visibleDesc": "এই টিকেট প্রদর্শন করুন",
       "addAnotherTicket": "একটি নতুন টিকেট যোগ করুন",
       "registrationFormTitle": "নিবন্ধন ফর্ম (ঐচ্ছিক)",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "মেনু বন্ধ করুন",
       "cancel": "বাতিল"
+    },
+    "venuePicker": {
+      "label": "সংরক্ষিত স্থান ব্যবহার করো",
+      "hint": "স্বয়ংক্রিয়ভাবে পূরণ করা ঘর । পরে ওদের মানিয়ে নাও।"
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "ঘটনার ধরন",
       "sourcePaymentMethods": "প্রদানের মেয়াদ",
       "sourceGeographical": "ভৌগলিক স্থানাঙ্ক"
-    }
+    },
+    "widgetDataUnavailable": "তথ্য উপলব্ধ নয় ।"
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "পূর্ববর্তী",
       "next": "পরবর্তী",
       "selectDatePlaceholder": "তারিখ নির্বাচন করুন",
-      "selectTimePlaceholder": "সময় নির্বাচন করুন"
+      "selectTimePlaceholder": "সময় নির্বাচন করুন",
+      "selectPlaceholder": "নির্বাচন করুন ...",
+      "searchPlaceholder": "অনুসন্ধান..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "টিকেট সফলভাবে যোগ করা হয়েছে",
     "alreadyRegisteredConfirmTitle": "নিবন্ধিত হয়েছে",
     "alreadyRegisteredConfirmMessage": "এই অনুষ্ঠানে আপনি ইতিমধ্যেই নিবন্ধন করেছেন।",
-    "createRegistrationError": "নিবন্ধন নিবন্ধন বাতিল করতে ব্যর্থ"
+    "createRegistrationError": "নিবন্ধন নিবন্ধন বাতিল করতে ব্যর্থ",
+    "accessMode": {
+      "in_person": "শুধুমাত্র ব্যক্তি",
+      "online": "অন-লাইন পরিচিতি",
+      "hybrid": "ব্যক্তি + অনলাইন"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "শুধুমাত্র একটি স্থান অবশিষ্ট রয়েছে",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "পেস্ট করুন",
+    "suspendedByIncident": "একটি দুর্ঘটনার কারণে আবর্জনাগুলো সাময়িকভাবে স্থগিত থাকে। অবস্থা আপডেট করো"
   },
   "registrationDetails": {
     "headerInscription": "আমার নিবন্ধন",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "বাতিল করা হয়েছে",
     "statusInscriptionRejected": "প্রত্যাখ্যান করা হয়েছে",
     "statusInscriptionValidated": "সফল",
-    "statusInscriptionUnknown": "অজানা"
+    "statusInscriptionUnknown": "অজানা",
+    "pdfEyebrow": "বিবিধ বৈশিষ্ট্য",
+    "pdfDate": "তারিখ",
+    "pdfPlace": "ভেনু",
+    "pdfReference": "রেফারেন্স",
+    "pdfStatus": "অবস্থা",
+    "pdfQrHint": "প্রবেশ পথে এই কিউ- টি কোড দেখাও",
+    "pdfShareDialog": "শেয়ার সংক্রান্ত সারসংক্ষেপ",
+    "pdfError": "PDF তৈরি করা যায়নি।",
+    "pdfA11y": "PDF হিসেবে সংক্ষিপ্ত তথ্য এক্সপোর্ট করা হবে"
   },
   "qrCode": {
     "headerEyebrow": "টিমোথি",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "প্রবেশের প্রবেশপথে কিউআর কোড স্ক্যান করা হবে",
     "tipArriveLines": "লাইনের শেষে পৌঁছে যাওয়ার সময়",
     "validatedTitle": "টিকেট বৈধ",
+    "stampValidated": "আপডেট পরীক্ষা করা হয়েছে",
     "validatedAt": "Gadu1-এ প্রবেশ করান",
     "paymentPendingTitle": "মূল্য প্রদান করা হচ্ছে",
     "paymentPendingDesc": "আপনার পেমেন্ট সম্পন্ন করতে সম্পন্ন করুন",
@@ -4416,7 +4797,15 @@
     "statusConfirmed": "নিশ্চায়ণ:",
     "statusPending": "অসমাপ্ত",
     "statusCancelled": "বাতিল করা হয়েছে",
-    "statusValidated": "সফল"
+    "statusValidated": "সফল",
+    "pdfOnline": "অন-লাইন ইভেন্ট",
+    "statusUnknown": "অজানা অবস্থা",
+    "presentHint": "কোড বড় করার জন্য, বৈধতার প্রমাণ পাওয়ার জন্য লম্বা-প্রেস।",
+    "presentA11yAction": "চেক- এর জন্য কোড বড় করো",
+    "proofA11yAction": "বৈধতার প্রমাণ প্রদর্শন করা হবে",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "টিকেটে ফিরে যাও",
+    "presentExitHint": "ট্যাপ ফিরে যেতে"
   },
   "offlineTickets": {
     "headerTitle": "অফ-লাইন",
@@ -4448,7 +4837,15 @@
     "removeMessage": "অফ-লাইন ক্যাশে থেকে এই টিকেট মুছে ফেলা হবে কি?",
     "showQR": "তারিখ প্রদর্শন করা হবে",
     "hideQR": "ভুল উত্তর ।",
-    "pastBadge": "পূর্বে"
+    "pastBadge": "পূর্বে",
+    "download": "ডাউনলোডের টিকেট",
+    "pdfEyebrow": "টিইটে",
+    "pdfReference": "রেফারেন্স",
+    "pdfType": "টিকেটের ধরন",
+    "pdfQuantity": "বৈধতা",
+    "pdfDate": "তারিখ",
+    "pdfShareDialog": "/ শেয়ার টিকেট সংরক্ষণ করুন",
+    "pdfError": "PDF নির্মাণ করতে ব্যর্থ।"
   },
   "pendingTransfers": {
     "headerTitle": "বিনিময়",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "পরিদর্শন করুন",
     "similarEventsEyebrow": "প্রকাশক",
     "similarEventsTitle": "সমতুল্য ইভেন্ট",
-    "similarEventA11y": "প্রদর্শন ( V)"
+    "similarEventA11y": "প্রদর্শন ( V)",
+    "virtualLiveNow": "এখন লাইভ",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "যোগ দিন",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "ভিডিও উপলব্ধ নয়",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "লাইভ এখনো চালু হয়নি",
+    "virtualWaitingHostNote": "সংগঠকরা রুম খুলে ফেলার সাথে সাথে আপনি যোগদান করতে পারবেন।",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "প্রধান রুম",
+      "session": "সেশান",
+      "breakout": "ব্রেকআউট",
+      "networking": "নেটওয়ার্ক ব্যবস্থা",
+      "workshop": "কর্মশালা"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "বিক্রয় শেষ",
+    "ticketsSaleNotStarted": "শীঘ্রই বিক্রয়",
+    "peekSave": "সংরক্ষণ",
+    "peekUnsave": "তালিকা থেকে সরিয়ে ফেলুন",
+    "peekShare": "যৌথ ব্যবহার",
+    "peekOpen": "খুলুন",
+    "peekA11yHint": "প্রাকদর্শন",
+    "swipeSave": "সংরক্ষণ করার জন্য রিলিজ",
+    "swipeUnsave": "অপসারণের জন্য রিলিজ",
+    "swipeHint": "সংরক্ষণ করার উদ্দেশ্যে সোয়াইপ করুন",
+    "swipeRemoved": "অপসারিত স্থান থেকে মুছে ফেলা হয়েছে",
+    "swipeUndo": "পূর্বাবস্থা",
+    "swipeRemove": "মুছে ফেলুন",
+    "weather": {
+      "sunny": "সানি",
+      "partlySunny": "সানি বানান",
+      "cloudy": "মেঘলা",
+      "fog": "কুয়াশা",
+      "rain": "বৃষ্টি",
+      "snow": "তুষারপাত",
+      "showers": "তুষারযুক্ত বৃষ্টিপাতweather condition",
+      "thunderstorm": "বজ্রবিদ্যুতসহ ঝোড়ো বৃষ্টি",
+      "variable": "পরিবর্তন সম্ভব"
+    }
   },
   "componentsCommon": {
     "exportTitle": "বিন্যাস বেছে নিন",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "যখন এই সংগঠক একটি নতুন অনুষ্ঠান প্রকাশ করবে",
     "followPrefsSave": "পছন্দসই বৈশিষ্ট্য সংরক্ষণ করুন",
     "followPrefsSaveA11y": "পছন্দসই বৈশিষ্ট্য সংরক্ষণ করুন",
-    "inAppToastA11y": "ছবি নেয়া।"
+    "inAppToastA11y": "ছবি নেয়া।",
+    "webviewVisioTitle": "ভিডিও কল ( V)",
+    "webviewOfflineTitle": "আপনি অফ-লাইন অবস্থায় রয়েছেন",
+    "webviewOfflineBody": "আপনার ডিভাইস তার সংযোগ হারিয়ে ফেলেছে। নেটওয়ার্ক ফিরে আসা মাত্রই কল আবার চালু হবে।",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "ধীর সংযোগ সনাক্ত করা হয়েছে - ভিডিও তথ্য সম্ভবত ডিগ্রেডেড অবস্থায় পড়া সম্ভব এবং আপনার তথ্য ব্যবহার করা যাবে।"
   },
   "messageRequests": {
     "eyebrow": "বিশ্ব নিরীক্ষা",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "ক্যামেরা আবশ্যক",
     "permissionSubtitle": "একটা কিউআরআরসি স্ক্যান করার জন্য, ইভেন্টEz প্রয়োজন ক্যামেরার কাছে।",
     "permissionGrant": "ক্যামেরা অনুমোদন করো"
+  },
+  "media": {
+    "sheetTitle": "আপনি কি করতে ইচ্ছুক?",
+    "saveToGallery": "গ্যালারি সংরক্ষণ করুন",
+    "share": "যৌথ ব্যবহার",
+    "savedToGallery": "সংরক্ষিত সংকলন",
+    "permissionDeniedTitle": "অনুমোদন প্রত্যাখ্যাত",
+    "permissionDeniedMessage": "সংরক্ষণের জন্য ফটোর বৈশিষ্ট্য সক্রিয় করা হবে।",
+    "sharingUnavailable": "এই ডিভাইসের মধ্যে যৌথ ব্যবহার সমর্থিত নয়।",
+    "downloadFailed": "ডাউনলোড করতে ব্যর্থ । অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
+    "genericError": "কিছু একটা হয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
   },
   "componentsMessages": {
     "inputJoinFile": "একটি ফাইল সংযুক্ত করুন",
@@ -5127,7 +5585,7 @@
     "messages": "ঠিকানা",
     "suggestions": "সান্ত্বনা:",
     "theme": "প্রাথমিক",
-    "timezoneSoon": "সময় শেষ",
+    "timezone": "টাইম জিন",
     "soundEffects": "ঠাণ্ডা",
     "authSoon": "মেকআপ",
     "connectionsSoon": "সংযোগ",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 - র",
     "tabMessages": "এই সংখ্যায় আরও রয়েছে:",
     "tabTickets": "০ কে. ডি. ই.",
-    "tabProfile": "মিনিট"
+    "tabProfile": "মিনিট",
+    "push": "ধাক্কা",
+    "privacy": "গোপনীয়তা",
+    "memories": "মেমো",
+    "yearInReview": "পর্যালোচনার বছর"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "পারছেন না",
-      "selectedCount_plural": "পারছেন না",
+      "selectedCount_other": "{{count}} selected",
       "approve": "লিবরো",
       "reject": "বাতিল",
       "checkIn": "বানান পরীক্ষা করুন"
@@ -5622,6 +6084,7 @@
         "discountCodes": "প্রোটো কোড",
         "linkSessions": "সেশন- এর লিঙ্ক- টিকেট",
         "addPhotos": "ফটো যোগ করুন",
+        "startLive": "যাও বেঁচে যাও",
         "volunteers": "স্বেচ্ছাসেবক",
         "sponsors": "নিক্তি",
         "seatingPlans": "স্থান পরিকল্পনা",
@@ -5636,7 +6099,14 @@
         "duplicate": "অনুরূপ",
         "cancelEvent": "ইভেন্ট বাতিল করা হয়েছে",
         "cancelEventDesc": "ঘোষণা",
-        "deleteDesc": "স্বনির্ধারিত কর্ম"
+        "deleteDesc": "স্বনির্ধারিত কর্ম",
+        "invite": "অতিথিকে আমন্ত্রণ জানান",
+        "inviteDescInviteOnly": "শুধুমাত্র এই ইভেন্টের জন্য প্রবেশাধিকার প্রদান করার একমাত্র উপায়",
+        "duplicatePastDesc": "সম্পাদনযোগ্য কপি আরম্ভ করুন",
+        "remindInvites": "অতিথিকে মনে করিয়ে দিন",
+        "weddingGuests": "অতিথি ও RSVP",
+        "weddingGifts": "বিভিন্ন উপহার",
+        "weddingTables": "প্ল্যানিং"
       },
       "emptyEyebrowResults": "কোন কিছু নয়",
       "emptyEyebrowCatalog": "অবস্থান:",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "স্বাস্থ্য অবস্থা, স্থানগুলো ...",
       "keepBtn": "রাখো",
       "cancelEventBtn": "ইভেন্ট বাতিল করা হয়েছে",
+      "cancelHolding": "দাঁড়াও...",
       "recurrenceEyebrow": "বিপর্যয়",
       "recurrenceModalTitle": "নির্ধারিত প্রতিলিপি নির্মাণ করুন",
       "recurrenceModalBody": "এই অনুষ্ঠান থেকে একাধিক অনুষ্ঠান নির্মাণ করুন। প্রতিটি সংঘটন একটি স্বাধীন নতুন ইভেন্ট যা আপনি মানিয়ে নিতে পারেন।",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "এই অনুসূচীটি লাইভ। যদি আপনি জটিল ঘর পরিবর্তন করেন, তাহলে অবস্থান, ধরন, ক্ষমতার পরিবর্তন, এবং অস্থায়ীভাবে গোপন রাখা হবে ।",
       "editValidatedConfirm": "তথাপি সম্পাদনা করা হবে",
       "actionEditValidated": "সম্পাদন করো (অল্প-বৈজ্ঞানিক)",
-      "actionEditValidatedDesc": "সংকটপূর্ণ ঘর Country"
+      "actionEditValidatedDesc": "সংকটপূর্ণ ঘর Country",
+      "inviteEyebrow": "ব্যাখ্যা করুন",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "কমা চিহ্ন দ্বারা বিভাজিত করে পৃথক পংক্তি বিভাজন",
+      "inviteMessagePlaceholder": "ব্যক্তিগত বার্তা (ঐচ্ছিক)",
+      "inviteSendBtn": "সভার আমন্ত্রনপত্র প্রেরণ করুন",
+      "inviteEmptyTitle": "ই-মেইল",
+      "inviteEmptyMessage": "একটি ই-মেইল ঠিকানা লিখুন।",
+      "inviteInvalidTitle": "অবৈধ ই-মেইল",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "বার্তা পাঠানো হয়েছে",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "কোনো প্রাপক উল্লেখ করা যায়নি।",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "কোন অতিথিকে এই মুহূর্তে মনে করিয়ে দিতে হবে না।",
+      "remindErrorTitle": "তাগাদা!",
+      "remindErrorMessage": "অ্যালার্ম প্রেরণ করা যায়নি। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
+      "remindPendingProgress": "অ্যালার্ম পাঠানো হচ্ছে...",
+      "loadError": "ইভেন্ট লোড করা যায়নি। আপনার যোগাযোগ পরীক্ষা করুন।"
     },
     "volunteer": {
       "tabReceived": "(%s) প্রাপ্ত",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "অবৈধ কোড: UUID অথবা রেফারেন্স কোড (8--20/0-9)।",
       "sessionRecapTitle": "সেশন সারসংক্ষেপ",
       "sessionRecapBody": "Gadu11 মিনিটের মধ্যে স্বয়ংক্রিয়ভাবে স্ক্যান করা হবে(s)\nথাকব কি না\nথাকা যাচ্ছে না",
-      "sessionRecapQueue": "যোগ করো"
+      "sessionRecapQueue": "যোগ করো",
+      "manualModeBanner": "ম্যানুয়াল মোড — প্রত্যেক ব্যক্তির জন্য ১",
+      "manualModeA11y": "ব্যবহারকারী দ্বারা. স্বয়ংক্রিয় চেক চালু করতে ট্যাপ।",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "নেটওয়ার্ক বন্ধ হওয়ার সময় এই লোকেরা প্রবেশ করেছিল। তোমার টিমকে চেক করো.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "অফ-লাইন অবস্থায় এই ফোন দ্বারা গ্রহণ করা হয়েছে। অন্য একজন এজেন্টও একই সময়ে স্ক্যান করছিল, এরা দুইবার এসেছে।",
+      "voice": {
+        "valid": "বৈধ টিকেট",
+        "validWarning": "বৈধতা পরীক্ষা করা আবশ্যক",
+        "alreadyCheckedIn": "পূর্বেই পরীক্ষা করা হয়েছে",
+        "refused": "টিকেট প্রত্যাখ্যান করা হয়েছে",
+        "enabled": "ভয়েস ঘোষণা",
+        "toggleOn": "ভয়েস ঘোষণা",
+        "toggleOff": "ভয়েস ঘোষণা দিচ্ছে",
+        "toggleA11y": "স্ক্যান ফলাফল ফলাফল ঘোষণা চালু বা বন্ধ করুন"
+      }
     },
     "liveOps": {
       "live": "রক",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "তোমার IPAD",
       "headerTitle": "বিশ্লেষণ",
+      "errorTitle": "বিশ্লেষণ ব্যবস্থা উপলব্ধ নয়",
+      "errorBody": "তথ্য লোড করা যায়নি। আপনার সংযোগ পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।",
       "eventLabel": "সক্রিয়",
       "kpiViews": "প্রদর্শন বিন্যাস",
       "kpiRegistrations": "নিবন্ধন",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "আপনার ইভেন্টটি দেখা যাচ্ছে না  ফেলেছে",
       "insightViewsNone": "আরও বিবরণ পেতে আপনার অনুষ্ঠান শেয়ার করুন",
       "insightRegistered_one": "MD5 নিবন্ধিত ব্যক্তি",
-      "insightRegistered_other": "যোগ দিতে পারেন"
+      "insightRegistered_other": "যোগ দিতে পারেন",
+      "actionBoxOffice": "বক্স অফিস"
     },
     "sessionsLink": {
       "headerEyebrow": "বঙ্গানুবাদে",
@@ -6077,6 +6599,16 @@
       "emptyText": "পার্টনারদের সাথে সহযোগিতার সময় এখানে দেখা যাবে।"
     },
     "eventCreate": {
+      "aiAppliedMessage": "অ্যাপ্লেটের মধ্যে প্রয়োগ করা হয়েছে",
+      "aiTitleSuggestionsTitle": "শিরোনাম",
+      "aiPricingSuggestionsTitle": "ভ্রমণ পরামর্শ",
+      "aiTicketsCreated": "AI পরামর্শ থেকে টিকেট",
+      "aiDescGenerated": "AI দ্বারা নির্মিত বিবরণ",
+      "aiNeedTitleFirst": "আগে একটি শিরোনাম যোগ করো যাতে AI একটি বর্ণনা তৈরি করতে পারে।",
+      "galleryPermissionTitle": "অনুমতি প্রয়োজন",
+      "galleryPermissionMessage": "অনুগ্রহ করে আপনার ফটোর লাইব্রেরিতে অনুমতি দিন",
+      "videoTooLargeTitle": "ভিডিওর মাপ অত্যাধিক বড়",
+      "videoTooLargeMessage": "ভিডিওটা ২০ মেগাবাইটের নিচে হতে হবে।",
       "unsupportedCountryTitle": "দেশ উপলব্ধ নয়",
       "unsupportedCountryMessage": "এই দেশে ইয কোন প্রক্রিয়া এখনো অর্থ প্রদান করতে পারে না (০. অনুষ্ঠান বাতিল করা হবে। সমর্থিত দেশ: নকোর, সিনেট সিনেট এবং স্ট্রাইপ (৪৬টি দেশে)।",
       "draftFoundTitle": "খসড়া পাওয়া গিয়েছে",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "ঘটনা সফলভাবে বর্ণনা করা হয়েছে",
       "viewMyEvents": "আমার অনুষ্ঠান প্রদর্শন করা হবে",
       "createAnother": "একটি নতুন নির্মাণ করুন",
+      "submittedStamp": "পর্যালোচনা",
+      "submittedEyebrow": "পরিমার্জনার জন্য প্রেরণ করা হয়েছে",
+      "submittedBody": "আমাদের দল আপনার অনুষ্ঠান পর্যালোচনা করছে। এটা চলতেই থাকবে।",
+      "submittedCtaEyebrow": "ড্যাশবোর্ড",
       "edit": "সম্পাদনা",
       "saved": "সংরক্ষিত",
       "back": "পূর্ববর্তী",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "টিকেট \"08\", মিনিট অনুযায়ী সর্বোচ্চ মান হতে হবে",
         "fieldLabelRequired": "ক্ষেত্র # ধারণ করা আবশ্যক",
         "fieldOptionsRequired": "হেডারের জন্য বিকল্পের মান উল্লেখ করা আবশ্যক"
-      }
+      },
+      "loadFailedBlocksSave": "ঘটনার তথ্য লোড করা যায়নি। সংরক্ষণ না করা পাতাটি নতুন করে পড়ো"
     },
     "eventRegistrations": {
       "title": "নিবন্ধন",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, PDF এক্সপোর্ট, ড্যাশবোর্ড",
       "linkMyEventsTitle": "আমার অনুষ্ঠান",
       "linkMyEventsSub": "প্রতি সেকেন্ডে পরিসংখ্যান"
+    },
+    "boxOffice": {
+      "openTitle": "মুক্ত না হওয়া পর্যন্ত",
+      "openingFloatHelp": "সংগঠক আপনি কত পরিবর্তন করেছেন? এটা ছাড়া আজকের হিসাব ভুল হবে।",
+      "openDrawer": "মুক্ত না হওয়া পর্যন্ত",
+      "openError": "শেষ পর্যন্ত খোলা যায়নি",
+      "openErrorDetail": "আপনার সংযোগ পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "বন্ধ",
+      "cash": "ক্যাশ",
+      "momo": "মোবাইল টাকা",
+      "giveBack": "গেবন",
+      "saleError": "বিক্রয় করা হয়নি",
+      "saleErrorDetail": "বিক্রির ক্ষেত্রে পুনরায় বিক্রয় করবেন না: আবার চেষ্টা করুন, দুইবার চার্জ করা হবে না।",
+      "a11y": {
+        "drawerOpened": "আরম্ভের আগ পর্যন্ত",
+        "openingFloatInput": "পুনরায় লোড করা হচ্ছে",
+        "openDrawer": "মুক্ত না হওয়া পর্যন্ত",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "পর্যন্ত বন্ধ রাখো",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "টাকা নাও",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "প্রস্তাবিত",
+      "cashOnlyHint": "শুধু টাকাই আপনার ব্যাগে নেই ।",
+      "openingFloat": "খোলা হচ্ছে",
+      "salesCount": "বিক্রয়",
+      "countedLabel": "গণনা",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "এটা প্রতিরোধ করা যাচ্ছে না। কেন?",
+      "reasonLabel": "ব্যাখ্যা (প)",
+      "reasonPlaceholder": "E.g. আমি ৫০০ পরিবর্তন করেছি",
+      "confirmClose": "আমার শেষ পর্যন্ত বন্ধ রাখো",
+      "closedTitle": "পুনরায় আরম্ভ না হওয়া পর্যন্ত",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "বন্ধ করতে ব্যর্থ",
+      "closeErrorDetail": "দয়া করে পুনরায় চেষ্টা করুন।",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "গণনা করা পরিমাপ",
+        "reasonInput": "ভ্যারেন্স ব্যাখ্যা:",
+        "confirmClose": "বন্ধ করার প্রক্রিয় নিশ্চিত করুন",
+        "closed": "পুনরায় আরম্ভ না হওয়া পর্যন্ত"
+      }
+    },
+    "documents": {
+      "title": "প্রিন্ট কর্মের উদ্দেশ্যে ডকুমেন্ট",
+      "a11y": "প্রিন্ট করার যোগ্য নথি",
+      "badges": "অংশগ্রহণকারী ব্যাজ",
+      "badgesHint": "এ.৬ ফরম্যাট, প্রতি পৃষ্ঠায় ৪-৪",
+      "attendanceSheet": "সাইন ইন-ইন শীটে",
+      "attendanceSheetHint": "সামনের ডেস্কে সাইন করতে — অনুষ্ঠানের আগে প্রস্তুত",
+      "certificates": "সার্টিফিকেট পাঠানো",
+      "certificatesHint": "অনুষ্ঠান শেষে, অংশগ্রহণকারীদের জন্য পরীক্ষা করা হয়েছে"
+    },
+    "weddingGuests": {
+      "title": "অতিথি ও RSVP",
+      "empty": "কোন অতিথি নেই।",
+      "remindOne": "স্মরণ ব্যবস্থা",
+      "remindOneSent": "তাগাদা!",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "বার্তা প্রেরণ করতে ব্যর্থ",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "RSVP সম্পাদনা",
+      "editRsvpTitle": "RSVP সম্পাদনা",
+      "rsvpUpdated": "আর-র তথ্য আপডেট করা হয়েছে",
+      "rsvpError": "সংরক্ষণ করতে ব্যর্থ",
+      "partySize": "দলের মাপ",
+      "dietary": "মৃত্যুর মূল চাহিদা",
+      "dietaryPlaceholder": "নিরামিষভোজী, আলো-মুক্ত...",
+      "note": "নোট",
+      "stats": {
+        "invited": "অদৃশ্য",
+        "accepted": "নিশ্চায়ণ:",
+        "pending": "অসমাপ্ত",
+        "headcount": "হেডস্‌"
+      },
+      "status": {
+        "pending": "অসমাপ্ত",
+        "accepted": "নিশ্চায়ণ:",
+        "declined": "প্রত্যাখ্যাত",
+        "cancelled": "বাতিল করা হয়েছে"
+      }
+    },
+    "weddingGifts": {
+      "title": "বিভিন্ন উপহার",
+      "noRegistry": "এই অনুষ্ঠানের জন্য কোন উপহার নিবন্ধন করা হয়নি।",
+      "create": "রেজিস্ট্রি নির্মাণ করুন",
+      "registryCreated": "রেজিস্ট্রি তৈরি করা হয়েছে",
+      "registryUpdated": "আপডেট করা হয়েছে",
+      "editRegistry": "রেজিস্ট্রি সম্পাদনা করুন",
+      "registryTitle": "রেজিস্ট্রিের শিরোনাম",
+      "registryDescription": "অতিথিকে বার্তা",
+      "visible": "দৃশ্যমান তালিকা",
+      "hidden": "আড়ালে",
+      "totalRaised": "সর্বমোট প্রেরিত",
+      "share": "যৌথ ব্যবহার",
+      "addItem": "একটি উপহার যোগ করুন",
+      "newItem": "নতুন উপহার",
+      "editItem": "উপহার সম্পাদনা",
+      "itemName": "নাম",
+      "itemKind": "ধরন",
+      "targetAmount": "কর্মের পরিমাণ",
+      "externalUrl": "বহিস্থিত লিংক (ঐচ্ছিক)",
+      "itemAdded": "উপহার যোগ করুন",
+      "itemUpdated": "উপহার আপডেট করা হয়েছে",
+      "itemDeleted": "উপহার মুছে ফেলুন",
+      "deleteItemTitle": "এই উপহারটি মুছে ফেলুন",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "সংরক্ষিত",
+      "noItems": "কোন উপহার নেই। একটা যোগ করো।",
+      "kind": {
+        "gift": "উপহার (আইটেম)",
+        "cash_fund": "ক্যাশ ফান্ড"
+      },
+      "error": "কিছু একটা সমস্যা হয়েছে"
+    },
+    "weddingTables": {
+      "title": "প্ল্যানিং",
+      "noTables": "এখনো টেবিল নেই। একটা তৈরি করো।",
+      "addTable": "টেবিল যোগ করুন",
+      "newTable": "নতুন টেবিল",
+      "editTable": "টেবিল সম্পাদনা করুন",
+      "name": "টেবিলের নাম",
+      "namePlaceholder": "টেবিল ১, পরিবার...",
+      "capacity": "স্থান",
+      "created": "টেবিল নির্মাণ করুন",
+      "updated": "টেবিল আপডেট করা হয়েছে",
+      "deleted": "টেবিল মুছে ফেলুন",
+      "deleteTitle": "টেবিল মুছে ফেলুন",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "সম্পূর্ণ",
+      "tableEmpty": "এই টেবিলে কেউ নেই",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "সবাই নিশ্চিত হয়েছেন অতিথিরা বসে আছেন।",
+      "createFirst": "আপনার অতিথিদের বসার জন্য একটি টেবিল তৈরি করুন।",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "অতিথি বসুন",
+      "unassign": "মুছে ফেলুন",
+      "unassigned": "অতিথি মুছে ফেলা হয়েছে",
+      "capacityError": "এই টেবিলে যথেষ্ট সিট নেই।",
+      "error": "কিছু একটা সমস্যা হয়েছে"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "ঘটনাসমূহ",
       "kpiRevenue": "Revenu",
       "kpiVerifications": "কর্মের প্রগতি",
+      "activityChartTitle": "প্ল্যাটফর্ম কর্ম",
+      "activityChartSubtitle": "গত ৭ দিনের জন্য অতিরিক্ত কাজ",
       "quickActions": "কুত্তি",
       "recentActivity": "মনিটর",
       "noActivity": "কোনো কর্ম হয়নি",
       "viewAllAudit": "সকল অডিট লগ প্রদর্শন করে",
       "actions": {
         "users": "ব্যবহারকারী",
+        "verifications": "কর্মের প্রগতি",
         "subscriptions": "সাবস্ক্রিপশন",
         "audit": "তালিকা",
         "announcements": "ঘোষণা",
@@ -6369,6 +7066,30 @@
         "settings": "বৈশিষ্ট্য",
         "treasury": "টরুরিName"
       }
+    },
+    "verifications": {
+      "watermark": "কে- সিName",
+      "guardTitle": "প্রবেশাধিকার প্রত্যাখ্যাত হয়েছে",
+      "eyebrow": "মাঝারি তুষার",
+      "title": "অনুমোদনের অনুরোধ",
+      "typeOrg": "প্রতিষ্ঠান",
+      "typeIndividual": "ব্যক্তিবিশেষ",
+      "noDocuments": "কোন দস্তাবেজ নেই",
+      "approve": "লিবরো",
+      "reject": "বাতিল",
+      "approveTitle": "অ্যাপ্লিকেশন সঞ্চালনকারী",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "এই যাচাই সমর্থন নিশ্চিত করার জন্য",
+      "approveSuccess": "সংগঠক যাচাই করা হয়নি",
+      "rejectTitle": "অনুরোধ প্রত্যাখ্যান করা হয়েছে",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "প্রত্যাখ্যানের কারণ...",
+      "rejectReasonRequired": "একটি কারণ প্রয়োজন।",
+      "rejectSuccess": "অনুরোধ প্রত্যাখ্যান করা হয়েছে",
+      "actionError": "কর্ম বিফল হয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।",
+      "loadError": "অনুরোধ লোড করা যায়নি।",
+      "emptyTitle": "কোনো অনুরোধ নেই",
+      "emptySubtitle": "নতুন সংগঠক পরীক্ষা অনুরোধ এখানে দেখা যাবে।"
     },
     "platformSettings": {
       "watermark": "সি- এফ- জিName",
@@ -6478,6 +7199,16 @@
       "loadError": "ব্যবহারকারীকে অনুমোদন প্রদান করতে ব্যর্থ",
       "roleSection": "গোলমেল",
       "actionsSection": "নুকুস",
+      "profileSection": "সংক্ষিপ্ত বর্ণনা",
+      "fieldFirstName": "নাম",
+      "fieldLastName": "পদবি",
+      "fieldEmail": "ই-মেইল",
+      "fieldPhone": "ফোন",
+      "fieldCompany": "কোম্পানি",
+      "saveProfile": "প্রোফাইল সংরক্ষণ করুন",
+      "profileUpdated": "প্রোফাইল আপডেট করা হয়েছে",
+      "profileUpdateError": "প্রোফাইল আপডেট করতে ব্যর্থ।",
+      "emailRequired": "ই-মেইল আবশ্যক।",
       "infoSection": "ব্যাখ্যা করুন",
       "active": "সক্রিয়",
       "inactive": "নিষ্ক্রিয়",
@@ -6670,6 +7401,21 @@
       "title": "RECole লগ",
       "target": "লক্ষ্য",
       "user": "ব্যবহারকারীর নাম # কিছুতেই",
+      "detail": {
+        "guardTitle": "অতিরিক্ত বিবরণ প্রদর্শন করুন",
+        "eyebrow": "আওয়াজের লগ",
+        "title": "অতিরিক্ত বিবরণ প্রদর্শন করুন",
+        "action": "কাজ",
+        "target": "লক্ষ্য",
+        "user": "ব্যবহারকারী",
+        "system": "সিস্টেম",
+        "timestamp": "সময়",
+        "ip": "IP ঠিকানা",
+        "userAgent": "ডিভাইস / ব্রাউজার",
+        "changes": "পরিবর্তন",
+        "metadata": "বিবরণ",
+        "loadError": "এই লগ-ইন লোড করতে ব্যর্থ।"
+      },
       "stats": {
         "total": "সর্বমোট"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "অতিথির ই-মেইল",
     "delegateError": "আমন্ত্রণ পাঠাতে ব্যর্থ।",
     "toCompleteBadge": "সম্পূর্ণ করতে  যোগ করুন"
+  },
+  "shareCard": {
+    "eyebrow": "আমি আসছি",
+    "button": "গল্প শেয়ার করুন",
+    "dialogTitle": "আমার স্পট শেয়ার করুন",
+    "cta": "আপনার স্পট  পক্ষে বই",
+    "errorTitle": "যৌথ ব্যবহার",
+    "errorMessage": "কার্ড তৈরি করতে ব্যর্থ ।"
+  },
+  "badges": {
+    "verified": "যাচাই করা হয়নি",
+    "pioneer": "অগ্রগামী",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "চিত্র",
+    "title": "বুথে প্রয়োগ করুন",
+    "lead": "তোমার কোম্পানিকে এই অনুষ্ঠানে একটা বুথ চালাতে বলো। সংগঠক আপনার অনুরোধ পর্যালোচনা করবে।",
+    "companyLabel": "কোম্পানির নাম",
+    "companyPlaceholder": "উদাহরণ",
+    "categoryLabel": "শিল্পবিদ্যা / বিভাগ",
+    "categoryPlaceholder": "উদাহরণ, টেক, খাদ্য...",
+    "websiteLabel": "ওয়েবসাইট (ঐচ্ছিক)",
+    "pitchLabel": "বার্তা প্রাপকদের নাম লিখুন",
+    "pitchPlaceholder": "আপনার কাজ বর্ণনা করুন, আপনি কি করবেন...",
+    "boothLabel": "পছন্দের বুথ (ঐচ্ছিক)",
+    "submit": "অ্যাপ্লিকেশন পাঠিয়ে দিন",
+    "submitting": "প্রেরিত হচ্ছে...",
+    "successTitle": "অ্যাপলিকেশন পাঠানো হয়েছে!",
+    "successSubtitle": "সংগঠকরা এটা পর্যালোচনা করবে। তোমাকে তাদের সিদ্ধান্তের জন্য জানানো হবে।",
+    "goToMyBooth": "আমার বুথ দেখুন",
+    "alreadyApplied": "এটি পূর্বে ব্যবহৃত হয়েছে ।",
+    "loginRequired": "একটি বুথে সাইন করুন।",
+    "login": "সাইন ইন করুন",
+    "errorSubmit": "অ্যাপ্লিকেশন সঞ্চালন করতে ব্যর্থ",
+    "ctaTitle": "এই শোতে একটা বুথ চালান?",
+    "ctaSubtitle": "কয়েক সেকেন্ড লাগবে।",
+    "ctaButton": "একটা প্রদর্শনী হবে"
+  },
+  "myBoothMobile": {
+    "eyebrow": "চিত্র",
+    "title": "আমার বুথ",
+    "empty": "কোন বুথ নেই।",
+    "show": "প্রদর্শন",
+    "accepted": "সম্রাজ্য গ্রহণ করেছে.",
+    "acceptError": "গ্রহণ করা যায়নি।",
+    "salesTitle": "বন্টন করা হয়েছে",
+    "commission": "EventEz commission",
+    "hostShare": "সংগঠক অনুযায়ী শেয়ার",
+    "net": "কি আপনি রাখা",
+    "createEvent": "আমার অনুষ্ঠান তৈরি করা হবে",
+    "acceptCta": "আমি এই শর্ত মেনে নেই",
+    "statusPaid": "লউস",
+    "statusPartial": "দেনা পরিশোধ",
+    "statusPending": "টাকা দিতে",
+    "amountDue": "বুথ",
+    "amountRemaining": "অবশিষ্ট",
+    "payBooth": "আমার বুথে টাকা দে",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "কার্ড",
+    "paymentInitiated": "পেমেন্ট চালু হয়েছে. এটা তোমার ফোনে বলো।",
+    "payError": "বুথের পেমেন্ট শুরু করা যায়নি.",
+    "captureLeads": "পরিচিতি আটক করুন",
+    "viewLeads": "আমার পরিচিতি"
+  },
+  "leadCapture": {
+    "title": "একটি পরিচিতি নির্বাচন করুন",
+    "hint": "অতিথির ব্যাজে লেখা কিউআর কোড।",
+    "permissionTitle": "ক্যামেরা ব্যবহার অনুমোদন করুন",
+    "permissionBody": "ক্যামেরাটি শুধুমাত্র গ্রাহকের ব্যাজ কিউআর কোড পড়ার জন্য ব্যবহার করা হয় যারা যোগাযোগ করতে রাজি হয়।",
+    "permissionCta": "ক্যামেরা চালু করুন",
+    "manualEntry": "রেফারেন্সের পরিবর্তে ধরন লিখুন",
+    "manualPlaceholder": "ত্রুটিপূর্ণ রেফারেন্স",
+    "unnamed": "সংরক্ষিত পরিচিতি",
+    "alreadyKnown": "ইতিমধ্যে দেখা গেছে — রেকর্ড আপডেট করা হয়েছে ।",
+    "qualify": "এই পরিচিতিটিকে নিশ্চিত করুন",
+    "rating_hot": "হট",
+    "rating_warm": "উষ্ণ",
+    "rating_cold": "কোল্ড",
+    "notesPlaceholder": "আপনি কি (ঐচ্ছিক) সম্পর্কে কথা বলেছেন",
+    "next": "পরবর্তী পরিচিতি",
+    "retry": "পুনরায় স্ক্যান করুন",
+    "noConsentTitle": "এই অতিথি একমত নন",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "সনাক্ত করা যায়নি",
+    "notFoundBody": "এই ব্যাজ এই অনুষ্ঠানের অংশ নয়। কিউআর কোডের মধ্যে ছাপানো রেফারেন্সটা চেক করো ।",
+    "errorTitle": "স্ক্যান করতে ব্যর্থ",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "এই অতিথি সাথে যোগাযোগ করতে রাজি হয়নি.",
+    "a11yNotFound": "ব্যাজ সনাক্ত করা যায়নি।",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "আজ",
+    "yesterday": "গতকাল",
+    "justNow": "এখন",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "ছোট থেকে বড়",
+    "failed": "বার্তা পাঠাতে ব্যর্থ",
+    "sent": "প্রেরণ করা বস্তু",
+    "delivered": "প্রেরিত হয়েছে",
+    "read": "পড়ো"
+  },
+  "myLeads": {
+    "title": "আমার পরিচিতি",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "নামবিহীন পরিচিতি",
+    "emptyTitle": "কোনো পরিচিতি নেই",
+    "emptyBody": "যারা আপনার বুথ বন্ধ করে দিয়েছে তাদের ব্যাজ স্ক্যান করুন। আপনি তালিকার মধ্যে ইম্পোর্ট করতে পারেন।",
+    "errorTitle": "লোড করা যায়নি",
+    "errorBody": "আপনার পরিচিতি সুরক্ষিত আছে। আপনার সংযোগ পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।"
+  },
+  "myDataExhibitors": {
+    "title": "প্রদর্শনীতে আমার তথ্য",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "মুছে ফেলুন",
+    "eraseAll": "মুছে ফেলুন",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "আপনার পরিচিতি মুছে ফেলা হয়েছে।",
+    "eraseError": "পূ.",
+    "confirmCta": "মুছে ফেলুন",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "প্রত্যেক প্রদর্শনী দ্বারা আমার তথ্য মুছে ফেলা?",
+    "confirmAllBody": "তোমার নাম, ইমেইল আর ফোন নাম্বার সব লিস্টেই মুছে যাবে। এই কাজ নাকচ করা যাবে না।",
+    "emptyTitle": "আপনার পরিচিত ব্যক্তিদের তালিকা",
+    "emptyBody": "প্রদর্শনীকারীরা আপনার এই ব্যাজ স্ক্যানের মাধ্যমে আপনার বিস্তারিত তথ্য সংরক্ষণ করতে পারবে, আর যদি আপনি সেটা দিতে পারেন।"
+  },
+  "visio": {
+    "expandCall": "ভিডিও কল প্রসারণ",
+    "endCall": "সমাপ্তি",
+    "endCallConfirmTitle": "কল ছেড়ে দাও?",
+    "endCallConfirmMessage": "আপনি চলমান মিটিং ছেড়ে যাচ্ছেন.",
+    "minimize": "ছোট করুন",
+    "liveNow": "রক",
+    "join": "যোগ দিন",
+    "view": "প্রদর্শন",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "প্রদর্শন",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "মাপ পরিবর্তন"
+  },
+  "organize": {
+    "favorites": "আমার প্রিয়",
+    "eyebrow": "সংগঠক দ্বারা ব্যবহৃত স্থান",
+    "title": "সংগঠিত করুন",
+    "liveNow": "এখন লাইভ",
+    "nextEvent": "পরবর্তী অনুষ্ঠান",
+    "registered": "নিবন্ধিত",
+    "scan": "স্ক্যান করুন",
+    "scanA11y": "এই অনুষ্ঠানের জন্য টিকেট স্ক্যান করুন",
+    "boxOffice": "বক্স অফিস",
+    "boxOfficeA11y": "এই অনুষ্ঠানের জন্য বক্স অফিস খুলুন",
+    "viewStats": "পরিসংখ্যান প্রদর্শন করা হবে",
+    "availableBalance": "উপস্থিতbalance",
+    "walletA11y": "আমার মানিব্যাগ খোলো",
+    "noActiveEvent": "চলছে না",
+    "noActiveEventHint": "এখানে একটি অনুষ্ঠান তৈরি করুন অথবা একটি খসড়া প্রকাশ করুন।",
+    "noStaffEventHint": "...যেখানে তুমি টিমের সদস্য ছিলে সেখানে দেখা যাবে.",
+    "createEvent": "নতুন অনুষ্ঠান নির্মাণ করুন",
+    "myEvents": "আমার অনুষ্ঠান",
+    "teamEvents": "ঘটনা হচ্ছে আমার স্টাফ",
+    "analytics": "বিশ্লেষণ",
+    "loadError": "আপনার স্থান লোড করা যায়নি। আপনার যোগাযোগ পরীক্ষা করুন।"
+  },
+  "moments": {
+    "checkin": {
+      "entered": "আপনি ভিতরে",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "এক সপ্তাহে",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "ডালা খোলা রয়েছেmarker",
+    "onNow": "এখন হচ্ছে",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "অফ-লাইন অবস্থায় উপলব্ধ নেই",
+    "offlinePending": "টিকিট একবার বন্ধ করে দাও",
+    "sayImGoing": "বল আমি যাচ্ছি",
+    "showTicket": "আমার টিকেট দেখাও",
+    "directions": "গতিপথ",
+    "viewTicket": "প্রদর্শন টিকেট",
+    "goThere": "যান",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "কম্পাসের তুলনা করুন: আপনার ফোন দিয়ে ৮ নম্বর আঁকা",
+    "compassHint": "স্থানের তীর অনুসরণ করুন"
+  },
+  "onSite": {
+    "eyebrow": "আপনি সাইট",
+    "now": "এখন",
+    "next": "Next · {{time}}",
+    "qa": "লাইভ কিউ আরআরএ",
+    "plan": "মানচিত্র স্থান",
+    "networking": "নেটওয়ার্ক ব্যবস্থা"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "তুমি সেখানে ছিলে",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "প্রথমে আসতে হবে",
+    "question": "আপনি কী মনে করেছিলেন?",
+    "thanks": "রেটিংের জন্য ধন্যবাদ।",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "গল্প শেয়ার করুন",
+    "later": "পরে ( L)"
+  },
+  "yearInReview": {
+    "eyebrow": "আপনার বছর",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "প্রেরণ করা হয়েছে",
+    "s1Line_other": "ঘটনা আহরণ করা হয়েছে",
+    "citiesEyebrow": "পথে",
+    "categoryEyebrow": "আপনার ধরনের অনুষ্ঠান",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "সবকিছু শুরু হয়েছে",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "সর্বদা সময়",
+    "arrivalsLine_one": "প্রথমবার আসতে",
+    "arrivalsLine_other": "প্রথমবার আসা",
+    "organizerEyebrow": "আপনার সংগঠক",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "আমার কার্ড শেয়ার করা হবে",
+    "tapHint": "তাইপে চলতে থাকে"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "প্রথম অংশগ্রহণকারী",
+      "someone": "পরিচিত ব্যক্তি",
+      "share": "বিক্রয় বাড়ানোর জন্যে শেয়ার করুন",
+      "view": "প্রদর্শন",
+      "soldOutTitle": "আউট আউট",
+      "soldOutLine": "প্রত্যেক টিকিট শেষ"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "শেষ পর্যন্ত বাইরে",
+      "online": "রক"
+    },
+    "share": {
+      "cta": "যৌথ ব্যবহার করা হবে",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "শেয়ার করা",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "অনুরোধ করা হয়েছে",
+      "approved": "অনুমোদিত",
+      "sent": "প্রেরণ করা বস্তু",
+      "verifying": "অপারেটর পরীক্ষা করা হচ্ছে",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "কাজ ব্যর্থ হয়েছে"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "ভেনু প্রায় পূর্ণ",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "স্থানান্তরের সমাপ্তি",
+      "validated": "আপডেট পরীক্ষা করা হয়েছে",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "স্থগিত রাখো",
+      "refused": "অবনিত করা হয়েছে",
+      "syncing": "সুসংগত করা হচ্ছে...",
+      "synced": "সুসংগত করা হয়েছে",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "কাজের তথ্য প্রদর্শন করুন",
+      "resume": "পুনরারম্ভ হয়েছে",
+      "close": "সম্পন্ন"
+    },
+    "recap": {
+      "title": "ডি-কোড",
+      "eyebrow": "এ-ভিডি রি-স্কোপ",
+      "attended": "যোগ দেওয়া হয়েছে",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Revenu",
+      "rating": "গড় হার",
+      "reviews": "{{count}} reviews",
+      "noReviews": "কোনো পর্যালোচনা অনুপস্থিত",
+      "best": "পর্যালোচনা ব্যবস্থা",
+      "latest": "সর্বশেষ পর্যালোচনা",
+      "thank": "ধন্যবাদ অংশগ্রহণকারীদেরকে",
+      "funds": "তহবিল প্রদর্শন",
+      "error": "এখন আর না।",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Picks প্রদর্শন করুন"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "এখন শুধু বুক",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "গত এক ঘন্টায় লিখিত",
+    "lastSaleToday": "আজ বই",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "আউট আউট",
+    "soldOutCta": "Salut sond এখানে কোন আসন নেই",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "আপনার সংযোগ সক্রিয় করা হচ্ছে",
+    "someone": "পরিচিত ব্যক্তি",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "অন-লাইন",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "২৪ ঘন্টা",
+    "seatHeldTitle": "আপনার জন্য একটি আসন রাখা হয়",
+    "seatHeldBody": "গণনা শেষ হওয়ার আগে বই শেষ হয়: এরপর পরের জনের কাছে যায় ।",
+    "seatHeldCta": "আমার সিট বুক",
+    "seatHeldExpired": "সময় শেষ: সিটটি পরের ব্যক্তির কাছে যায়।",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "সমস্ত প্রদর্শন করা হবে",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "প্রতিক্রিয়া",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "আপনার একটি সংযোগ উপস্থিত হয়েছেName",
+    "connectionArrivedCta": "বার্তা",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "লাইভ বিক্রয়",
+    "checkinPushed": "লাইভ আগমন"
+  },
+  "reminders": {
+    "channelName": "অ্যালার্মের অনুসূচী",
+    "dayBeforeTitle": "তাগাদা!",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "তাগাদা!",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "অনুসন্ধান",
+    "discoverSubtitle": "আপনার কাছাকাছি ঘটনা ঘটেছে",
+    "tickets": "আমার টিকেট",
+    "scan": "একটি টিকেট স্ক্যান করুন"
+  },
+  "ongoing": {
+    "channelName": "দিন",
+    "eventFallback": "আপনার অনুষ্ঠান",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "শীঘ্রই আরম্ভ হবে",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "এখন তোমার টিকেট রেডি",
+    "scannerTitle": "দায়িত্বের উপর স্ক্যানার"
+  },
+  "gestures": {
+    "undo": {
+      "title": "শেষ কাজটি বাতিল করা হবে কি?",
+      "confirm": "পূর্বাবস্থা",
+      "keep": "রাখো",
+      "failed": "বাতিল করা হয়নি। আপনার সংযোগ পরীক্ষা করে পুনরায় প্রচেষ্টা করুন।",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "আর্কাইভ থেকে কথোপকথন সরিয়ে ফেলুন।"
+    },
+    "report": {
+      "title": "একটি সমস্যা প্রতিবেদন করুন",
+      "subtitle": "পরীক্ষা করুন: স্ক্রিন-শট, পর্দা এবং সংস্করণ আপনার বার্তার প্রতি প্রেরিত হয়েছে ।",
+      "noNote": "কোনো মন্তব্য না করেই রিপোর্ট করুন",
+      "blur": "Bluer",
+      "noShot": "বর্তমান পর্দার একটি ছবি গ্রহণ করা হবে না।",
+      "placeholder": "কি হয়েছে?",
+      "send": "প্রেরণ",
+      "sent": "ধন্যবাদ, আপনার রিপোর্ট পাঠানো হয়েছে.",
+      "unavailable": "প্রেরণ করতে ব্যর্থ: ত্রুটির ট্র্যাক এই বিল্ডে সক্রিয় নয়।"
+    },
+    "applause": {
+      "hint": "আরো কিছুক্ষণের জন্য হাততালি দাও।",
+      "a11y": "দীর্ঘ জয়"
+    },
+    "hush": {
+      "title": "মিকি এবং ক্যামেরা বন্ধ হয় যখন ফোন বন্ধ হয়ে যায়",
+      "reactivate": "তাই তারা ফিরে যেতে"
+    },
+    "lighter": {
+      "button": "লাইটার",
+      "off": "ওটা রেখে দে",
+      "alone": "তোমার ফোন উঠাও, তোমার চাল অনুসরণ করবে।",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "আমাকে অবাক করে দাও",
+      "chipA11y": "এলোমেলো ইভেন্ট",
+      "again": "অন্য",
+      "none": "এখনই কোন নতুন অনুষ্ঠান না বলার জন্য।"
+    },
+    "bump": {
+      "settingTitle": "চলমান অবস্থায় পাঠানো পরিচিতি",
+      "settingSubtitle": "এই সাইটে, একবার আপনার টিকিট স্ক্যান করা হবে: একই সাথে অন্য কাউকে খুঁজে বের করার মত একই সাথে আঘাত করা। আপনার অবস্থান আপনার সাথে কয়েক সেকেন্ডের জন্য ব্যবহার করা হয় এবং এটি সংরক্ষণ করা হয় না। তোমার নিশ্চিত না করেই কিছুই ঘটে না। স্বাভাবিকের মধ্যে।",
+      "button": "কম্পনের মাত্রা বৃদ্ধি করা",
+      "nearbyButton": "আমার চারপাশে তাকাও",
+      "hint": "একই সময়ে আপনার ফোন শকুন অন্য ব্যক্তির মত.",
+      "title": "নতুন পরিচিতি",
+      "searching": "আপনার কাছাকাছি মানুষ কাঁপছে...",
+      "none": "খুঁজে পাওয়া যায়নি। একই মুহূর্তে অন্য জনের মত কাঁপুনি, তারপর আবার চেষ্টা করুন।",
+      "pick": "সঠিক ব্যক্তিকে নাও। তোমার সম্মতি ছাড়া কিছুই শেয়ার করা হয়নি।",
+      "connect": "সংযোগ স্থাপন করা হচ্ছে?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "নিশ্চিত করার অপেক্ষায়",
+      "connected": "পরিচিতির সাথে সংযোগ করা হয়েছে",
+      "openSettings": "বৈশিষ্ট্য খুলুন",
+      "error": {
+        "disabled": "আপনার সেটিং-এ \"এসওয়াপি\" পরিচিতি চালু করুন।",
+        "notCheckedIn": "আপনার টিকিট একবার স্ক্যান করা হয়েছে.",
+        "clockSkew": "তোমার ফোনের সময় শেষ। স্বয়ংক্রিয়রূপে এটি নির্ধারণ করে পুনরায় প্রচেষ্টা করুন।",
+        "rateLimited": "অনেক প্রচেষ্টা। আবার চেষ্টা করো।",
+        "expired": "swap'র মেয়াদ উত্তীর্ণ হয়েছে। আবার শুরু করো।",
+        "noLocation": "আপনার কাছের কাউকে খুঁজে বের করার জন্য অবস্থান প্রয়োজন।",
+        "generic": "ভ্রম এখনো বের হয়নি। আবার চেষ্টা করো।"
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "ইভেন্ট সংরক্ষণ করুন"
+    },
+    "torch": {
+      "onA11y": "চালু কর",
+      "offA11y": "আগুন জ্বালাও",
+      "hint": "স্টর্সটা চালু করো বা বন্ধ করো।"
+    },
+    "dragSelect": {
+      "select": "নির্বাচন করুন",
+      "hint": "অথবা কয়েকজন অংশগ্রহণকারীদের চিহ্নিত করার জন্য তালিকা দুটি আঙ্গুল টেনে আনুন।",
+      "message": "নির্বাচিত বার্তার প্রেরকের জন্য একটি প্রত্যুত্তর লিখুন",
+      "export": "নির্বাচিত অংশ এক্সপোর্ট করুন",
+      "exportError": "ফাইল ইম্পোর্ট করা হচ্ছে",
+      "csvName": "নাম",
+      "csvEmail": "ই-মেইল",
+      "csvReference": "রেফারেন্স",
+      "csvStatus": "অবস্থা",
+      "csvDate": "নিবন্ধিত"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "আপনার টিকেট পেতে ...",
+      "favorites": "তোমার প্রিয়দের...",
+      "notifications": "আপনার সূচনাবার্তা প্রাপ্ত করা হচ্ছে...",
+      "messages": "আলাপন প্রাপ্ত করা হচ্ছে...",
+      "search": "মিল অনুসন্ধান...",
+      "event": "ইভেন্ট পেজ প্রস্তুত করা হচ্ছে..."
+    },
+    "mobileMoney": {
+      "sent": "আপনার পেমেন্টের অনুরোধ জানানো হয়েছে.",
+      "pin": "আপনার ফোনে আপনার PIN আছে, অপারেটরের প্রম্পটে।",
+      "operator": "অপারেটর নিশ্চিত করতে একটু সময় লাগবে। এটা স্বাভাবিক, দয়া করে এই পাতায় থাকুন।",
+      "once": "অপেক্ষা করা হলেও তোমাকে একবারই চার্জ করা হবে।"
+    },
+    "empty": {
+      "tickets": {
+        "v0": "অনুষ্ঠানে নিবন্ধনের পর আপনার টিকিট এখানে আসবে।",
+        "v1": "একটা কনসার্ট, কনফারেন্স, একটা ওয়ার্কশপ? এটা শুরু হয় একটা অনুষ্ঠান দিয়ে।",
+        "v2": "আপনার পরবর্তী আউট ইতিমধ্যেই অনলাইনে আছে."
+      },
+      "favorites": {
+        "v0": "একটি ইভেন্টে হৃৎপিণ্ডে হৃৎপিণ্ড করা এবং পরিবর্তন সম্পর্কে শুনতে।",
+        "v1": "একটা ইভেন্ট অনুসরণ করুন যাতে আপনি এর সংবাদ ভুলে না যান।",
+        "v2": "একটা হৃদয়... ...একটা জিনিস হাতে রাখতে পারে।"
+      },
+      "notifications": {
+        "v0": "ইভেন্ট এবং আয়োজকদের কাছ থেকে সংবাদ আপনারা এখানে পাবেন।",
+        "v1": "( হিতো.",
+        "v2": "কিছু একটা ঘটার সাথে সাথে আমরা আপনাকে জানাবো।"
+      },
+      "messages": {
+        "v0": "কোন অনুষ্ঠান হলে আমাকে বিরক্ত করে? সংযোগের জন্য তাদের কোড স্ক্যান করুন।",
+        "v1": "আপনার ইভেন্ট সংযোগ এখানে দেখানো হল: একটি কোড স্ক্যান যথেষ্ট।",
+        "v2": "অংশগ্রহণকারী'র কোড স্ক্যান করার সময় ওয়েব-সাইটে পরিচিতি তথ্য প্রকাশ করুন।"
+      },
+      "discover": {
+        "v0": "একটি শব্দ সন্ধান করা হয় যা কিনা হোম পেজ এখনো দেখায় না ।",
+        "v1": "সন্ধান করুন শহর অথবা বিভাগ: প্রতি সপ্তাহে নতুন অনুষ্ঠান পাওয়া যাবে।"
+      },
+      "exploreAction": "কি আছে দেখুন",
+      "scanAction": "একটি কোড স্ক্যান করুন",
+      "searchAction": "একটি অনুষ্ঠান অনুসন্ধান করুন",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "প্রায় ৫০ কিলোমিটার দূরে",
+      "clearFilters": "ফিল্টার পরিশ্রুত করুন ( l)"
+    },
+    "greeting": {
+      "when": {
+        "today": "আজ",
+        "tomorrow": "আগামীকাল",
+        "dayAfter": "কালকের দিন"
+      },
+      "there": "অবস্থান",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "শুভ জন্মদিন! দিনটা ভালো কাটুক।",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "শুভ জাতীয় দিবস!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "স্বাগতম বার্তা",
+      "subtitle_one": "তোমার শেষ দেখার পর একটা নতুন জিনিস।",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "আর আপনি যা করলেন তার থেকে আরো একটা।",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "গোপন",
+      "reason": {
+        "followed_organizer": "সংগঠকদের অনুসরণ করো",
+        "new_edition": "একটি অনুষ্ঠানে নতুন সংস্করণ",
+        "other": "নতুন"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "আপনার প্রতিদ্বন্দ্বিতা",
+      "forYouTitle": "তুমিও হয়তো পছন্দ করতে পারো",
+      "loginCtaTitle": "আপনাকে পরামর্শ দেওয়া হয়েছে"
+    },
+    "settings": {
+      "ritualsEyebrow": "অনেক মজা",
+      "ritualsTitle": "সামান্য স্পর্শ",
+      "ritualsSubtitle": "আপনার জন্মদিনে, আপনার হিসাব দিবস বা জাতীয় দিবসের বার্ষিকী, দিনে একবার। তোমার বয়স কখনই দেখা যায় না, কোন ঘোষণা নেই।",
+      "forgetEyebrow": "প্রকাশক",
+      "forgetTitle": "পছন্দ",
+      "forgetSubtitle": "এরপর কী ঘটেছিল, তা বের করে আপনার পরামর্শগুলো খুঁজে বের করুন ।",
+      "forgetConfirmTitle": "তুমি পছন্দ করো না?",
+      "forgetConfirmMessage": "তোমার সুপারিশ থেকে শুরু হবে. আপনার টিকিট, প্রিয় এবং অনুসরণ করে পরিবর্তন হয় না।",
+      "forgetDone": "সম্পন্ন: আপনার সুপারিশ বাতিল করা হয়.",
+      "forgetUnavailable": "এই বিকল্পটি এখনো উপলব্ধ নয়। কিছুই মুছে যায় নি।",
+      "forgetError": "আপনার পছন্দের তথ্য মুছে ফেলা যায়নি। অপরিবর্তিত রয়েছে; অনুগ্রহ করে কিছুক্ষণ পরে পুনরায় চেষ্টা করুন ।"
+    },
+    "goingCard": {
+      "title": "যখন আপনি অপেক্ষা করবেন, আপনার 'আমি' কার্ড প্রস্তুত করুন",
+      "subtitle": "পেমেন্ট নিশ্চিত হওয়ার সাথে সাথে তা শেয়ার করা হবে।",
+      "tintLabel": "পটভূমি",
+      "messageLabel": "বার্তা",
+      "messages": {
+        "going": "আমি যাচ্ছি",
+        "meetThere": "দেখতে পাচ্ছ?",
+        "seeYou": "আমাকে সেখানে নিয়ে গেছে"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "আপনার কার্ড প্রিন্ট হচ্ছে.",
+      "ready": "আপনার কার্ড প্রস্তুত",
+      "share": "আমার কার্ড শেয়ার করা হবে",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }
