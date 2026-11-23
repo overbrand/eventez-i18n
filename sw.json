@@ -41,6 +41,7 @@
     "close": "Karibu",
     "clear": "wazi wazi wazi wazi",
     "back": "Kurudi nyuma",
+    "home": "nyumbani",
     "next": "Baadaye",
     "previous": "Kabla ya",
     "search": "Utafutaji wa Kutafuta",
@@ -166,6 +167,13 @@
     "invalidCodeDetail": "Utaratibu huu si sahihi au umefutwa",
     "loginError": "Hitilafu ya Hitilafu",
     "registerError": "Makosa ya ishara",
+    "googleUnavailableExpoGo": "Google sign-in requires the full app build (unavailable in Expo Go).",
+    "googleNoToken": "No token received from Google. Please try again.",
+    "googleInProgress": "A Google sign-in is already in progress.",
+    "googlePlayServicesUnavailable": "Google Play Services is not available on this device.",
+    "appleOnlyIOS": "Apple sign-in is only available on iOS.",
+    "appleUnavailableDevice": "Apple sign-in isn't available on this device.",
+    "appleNoToken": "No identity token received from Apple. Please try again.",
     "registerEmailExistsTitle": "Tayari akaunti",
     "registerEmailExistsDetail": "Akaunti tayari iko na barua pepe hii. Je, ungependa kuingia?",
     "registerEmailExistsConfirm": "Ingia katika kuingia",
@@ -436,10 +444,14 @@
     "lastNameRequired": "Jina la mwisho ni lazima",
     "emailRequired": "Email inahitajika",
     "emailInvalid": "Email ya kipekee",
+    "passwordRequired": "Password inahitajika",
     "passwordTooShort": "Password fupi sana ( characters0 characters characters minimum)",
+    "confirmPasswordRequired": "Uthibitisho wa nenosiri unahitajika",
     "passwordsDontMatch": "Password hazifanani",
+    "usernameRequired": "Jina la mtumiaji inahitajika",
     "usernameTooShort": "Jina la mtumiaji ni fupi sana ( characters0 characters characters minimum)",
     "usernameInvalid": "Jina la mtumiaji",
+    "phoneRequired": "Namba ya simu inahitajika",
     "phoneInvalid": "Namba ya simu",
     "minLength": "Kuwa na angalau herufi 0",
     "maxLength": "Kiwango cha juu cha 0 characters"
@@ -449,7 +461,8 @@
     "saved": "Kuokoa kuokoa kuokoa",
     "messages": "Ujumbe wa Ujumbe",
     "tickets": "tiketi za ndege",
-    "profile": "Wasifu wa Profile"
+    "profile": "Wasifu wa Profile",
+    "organize": "Kuandaa"
   },
   "languagePicker": {
     "eyebrow": "Furaha ya",
@@ -492,6 +505,7 @@
     "viewAction": "Mtazamo wa Mtazamo",
     "viewEvent": "Mtazamo wa Matukio",
     "share": "Kushiriki",
+    "scrollToTop": "Nyuma ya Juu",
     "freeEyebrow": "Mafuta ya kupikia",
     "freeTitle": "Bure, hakuna kikomo",
     "freeBadge": "Uhuru wa bure",
@@ -507,7 +521,7 @@
     "cityEventsCount": "Matukio ya",
     "cityEventsCountOne": "Tukio la 1",
     "citiesIndexTitle": "Miji yote",
-    "citiesIndexSubtitle": "",
+    "citiesIndexSubtitle": "{{count}} cities, {{total}} events",
     "citiesIndexEmpty": "Lakini mji wenyewe bado hauna tukio lolote. Kuwa wa kwanza kuchapisha.",
     "citiesSearchPlaceholder": "Kutafuta mji ...",
     "citiesNoMatch": "Hakuna mechi ya \" city0\"",
@@ -555,7 +569,7 @@
     "viewList": "Orodha ya",
     "loading": "Matukio ya utekaji ...",
     "headerCityPrefix": "Upotoshwaji wa",
-    "headerCityWithName": "",
+    "headerCityWithName": "DISCOVER · {{city}}",
     "headerTitle": "Nini kinatokea",
     "nearbyTeaserEyebrow": "Kuwa wewe",
     "nearbyTeaserTitle": "Kupata nafasi ya kuona nini kinatokea karibu na wewe",
@@ -569,7 +583,13 @@
     "notifyOnTitle": "Nyote mnaalikwa!",
     "notifyOnBody": "Tutakujulisha mara tu matukio ya kwanza yanapotokea.",
     "notifyOffTitle": "Taarifa ya kuondoka",
-    "notifyOffBody": "Kuwezesha taarifa katika mazingira ya kuwa tahadhari."
+    "notifyOffBody": "Kuwezesha taarifa katika mazingira ya kuwa tahadhari.",
+    "organizersEyebrow": "Waandaaji",
+    "organizersTitle": "Watu nyuma ya pazia",
+    "organizersTitleWithCity": "Organising in {{city}}",
+    "organizerVerified": "Taasisi zilizothibitishwa",
+    "organizerEventCount": "{{count}} event",
+    "organizerEventCount_other": "{{count}} events"
   },
   "pricingTiers": {
     "title": "Bei ya tiers",
@@ -604,7 +624,10 @@
     "invisibleHint": "Wewe pia ni kuangalia kwa ajili ya kuangalia.",
     "message": "Ujumbe wa Ujumbe",
     "connected": "Kuunganisha",
-    "empty": "Hakuna mtu anayeonekana bado. Kuwa wa kwanza kuingia kwenye mtandao wako!"
+    "empty": "Hakuna mtu anayeonekana bado. Kuwa wa kwanza kuingia kwenye mtandao wako!",
+    "scanOptInTitle": "Watangazaji wa skanning yangu",
+    "scanOptInSubtitle": "Kuonyesha makampuni itakuwa na uwezo wa kuokoa jina lako na maelezo ya mawasiliano kwa scanning bege yako, hivyo wanaweza kufuata baada ya tukio.",
+    "scanOptInWithdrawNote": "Unaweza kuacha hii wakati wowote. Mawasiliano tayari yaliyohifadhiwa na waonyeshaji hayajafutwa moja kwa moja - unaweza kuomba uhakikisho wao kutoka kwa mipangilio yako ya faragha."
   },
   "eventDetails": {
     "eyebrow": "Matukio ya",
@@ -628,6 +651,7 @@
     "onlineEvent": "Matukio ya mtandaoni",
     "meetingId": "Mkutano wa ID:",
     "meetingPasscode": "Passcode:",
+    "liveEngagement": "Maisha ya Q & A na uchaguzi",
     "joinEvent": "Kujiunga na Tukio",
     "joinOnline": "Kujiunga na online",
     "registered": "Kujiandikisha",
@@ -667,7 +691,16 @@
     "shareWhatsappA11y": "Kushiriki kwenye WhatsApp",
     "closePreviewA11y": "Maoni ya preview",
     "invalidCode": "Kanuni ya upatikanaji wa",
+    "accessButton": "Kuingia kwa kuingia",
+    "pendingPaymentBanner": "Kamilisha malipo yako ili kuthibitisha usajili wako",
+    "onlineInfoAfterRegistration": "Maelezo ya mawasiliano yatapatikana baada ya kujiandikisha",
+    "alsoOnlineVia": "Also available online via {{platform}}",
     "imageEnlarge": "Kuwa wazi",
+    "playCoverVideo": "Kucheza video",
+    "videoPlayA11y": "Kucheza video kwa sauti",
+    "videoUnmuteA11y": "Kutokuwa na",
+    "videoMuteA11y": "Muuaji",
+    "videoExpandA11y": "Kuongeza video kwa fullscreen",
     "imagesCount": "wa wa wa wa wa wa wa wa wa wa",
     "videoConference": "Mkutano wa Video",
     "openLinkError": "Haiwezi kufungua kiungo cha tukio",
@@ -675,7 +708,28 @@
     "registeredStatus": "Kujiandikisha",
     "pendingStatus": "Matarajio ya",
     "priceLabel": "Bei ya bei",
-    "fromLabel": "Kuanzia kutoka"
+    "fromLabel": "Kuanzia kutoka",
+    "waitlistJoinedDetail": "Umejiunga na kikundi cha kusubiri. Tutawasiliana nawe haraka kama eneo litafunguliwa.",
+    "waitlistLeftMsg": "Umeacha kazi ya kusubiri",
+    "waitlistLeaveError": "Haiwezi kuondoka kwenye orodha ya kusubiri",
+    "waitlistJoinError": "Nimeshindwa kuingia kwenye list",
+    "waitlistLeaveTitle": "Acha orodha ya kusubiri",
+    "waitlistLeaveConfirm": "Je, wewe ni uhakika unataka kuondoka orodha?",
+    "whatsappNotInstalled": "WhatsApp haijawekwa kwenye kifaa hiki",
+    "reviewRatingRange": "Tafadhali chagua kati ya 1 na 5",
+    "reviewThanksTitle": "Shukrani kwa ajili ya!",
+    "reviewSubmitted": "Maoni yako yamewasilishwa kwa ufanisi",
+    "loginRequiredTitle": "Ishara zinazohitajika",
+    "loginRequiredReview": "Bonyeza ili kuacha ukaguzi",
+    "reviewSubmitError": "Haikuweza kuwasilisha maoni yako",
+    "loginRequiredWaitlist": "Kuingia mwenyewe kwa ajili ya waitlist",
+    "invitationGateDesc": "Tukio hili limehifadhiwa kwa wageni walioalikwa. Ikiwa umepokea mwaliko, tafadhali kubali ili kupata upatikanaji.",
+    "codeGateDesc": "Ingiza msimbo ili kuona maelezo kamili",
+    "giftRegistryCta": "Usajili wa zawadi",
+    "giftRegistrySubtitle": "Angalia orodha na chati ikiwa unataka.",
+    "cancelReasonTitle": "Sababu za kufutwa",
+    "visioEnded": "Mkutano huo wa video umemalizika.",
+    "videoPauseA11y": "Kutumia video"
   },
   "events": {
     "videoBadge": "Video ya video",
@@ -823,6 +877,9 @@
     "noPastMessage": "Matukio yako ya zamani yataonekana hapa",
     "scanQR": "Msimbo wa QR",
     "showQR": "Onyesha msimbo wa QR",
+    "viewQR": "Maoni ya QR",
+    "receivedTransfers": "Malipo ya Uhamisho",
+    "myTicketsFiltersActive": "Filters ({{count}} active)",
     "qrTitle": "Msimbo wa QR",
     "qrSubtitle": "Onyesha msimbo huu kwenye mlango",
     "ticketDetails": "Maelezo ya tiketi",
@@ -930,7 +987,10 @@
     "monthNovember": "Siku ya",
     "monthDecember": "Uamuzi wa",
     "tapToShowQR": "Angalia msimbo wa QR",
-    "searchTitleRefVenue": "Mheshimiwa Naibu Spika, eneo la..."
+    "searchTitleRefVenue": "Mheshimiwa Naibu Spika, eneo la...",
+    "pendingPayment": "Malipo ya kusubiri",
+    "pendingExpired": "Tukio la kumalizika",
+    "statusExpired": "Imetolewa"
   },
   "payment": {
     "title": "Malipo ya Malipo",
@@ -1127,6 +1187,7 @@
     "paymentBack": "Kurudi nyuma",
     "paymentGenericError": "Makosa yalifanyika wakati wa malipo",
     "paymentErrorTitle": "Malipo ya makosa",
+    "paymentBlockedTitle": "Malipo ya kadi imefungwa",
     "paymentCancelledTitle": "Malipo yaliyofutwa",
     "paymentNoPaymentInProgress": "Hakuna malipo ya kuthibitisha",
     "paymentVerifyingTitle": "Kuthibitisha ...",
@@ -1135,6 +1196,12 @@
     "paymentContinueWaiting": "Endelea kusubiri",
     "paymentProcessing": "Utengenezaji wa",
     "paymentTitle": "Malipo ya Malipo",
+    "checkoutStep": "Hatua ya 3: Malipo",
+    "noDoubleCharge": "Utakuwa tu kushtakiwa mara moja, hata kama screen spins kwa muda.",
+    "biometricConfirm": "Confirm the payment of {{amount}}",
+    "termsAcceptPrefix": "Ninakubali kuwa",
+    "termsLinkFull": "Masharti ya Uuzaji na Sera ya Kurejesha",
+    "termsAcceptSuffixDot": "...",
     "paymentStepSelection": "Uchaguzi wa Uchaguzi",
     "paymentStepRecap": "Kuondolewa kwa",
     "paymentMethodFallback": "Malipo ya Malipo",
@@ -1218,7 +1285,18 @@
     "myPaymentsFallbackTitle": "Malipo ya Malipo",
     "myPaymentsFilterCompleted": "Imekamilishwa",
     "myPaymentsFilterPending": "Matarajio ya",
-    "myPaymentsFilterFailed": "Kushindwa"
+    "myPaymentsFilterFailed": "Kushindwa",
+    "finalizeEndedTitle": "Tukio hili limeishia",
+    "finalizeEndedBody": "Huwezi tena kukamilisha usajili wako: tukio tayari limeisha. Wewe si kushtakiwa.",
+    "finalizeClosedTitle": "Usajili wa Akaunti imefungwa",
+    "finalizeClosedBody": "Muda wa kujiandikisha kwa ajili ya tukio hili umekwisha.",
+    "finalizeSoldOutTitle": "Tiketi zinauzwa nje",
+    "finalizeSoldOutBody": "Tiketi ambazo umehifadhi hazipatikani tena. Akaunti yako imefutwa. Wewe si kushtakiwa.",
+    "finalizeBackToEvent": "Kurudi kwenye tukio",
+    "paymentPushSentTitle": "Kuthibitisha kwenye simu yako",
+    "paymentPushSentMessage": "Ombi la malipo limetumwa kwa simu yako. Tumia simu ya mkononi (Mobile Money PIN) kukamilisha.",
+    "firstTicket": "Your first EventEz ticket · {{date}}",
+    "refundAlreadyRequested": "Fedha zilizoombwa"
   },
   "memories": {
     "title": "Kumbukumbu zangu",
@@ -1235,7 +1313,11 @@
     "recapShare": "Kuunganisha Recap yangu",
     "recapEvents": "Matukio yaliyoishi",
     "recapCities": "Miji ya miji",
-    "recapFirst": "Wakati umefika wa #1"
+    "recapFirst": "Wakati umefika wa #1",
+    "oneYearAgo": "Mwaka mmoja uliopita, ulikuwa huko.",
+    "nextEdition": "The new edition is on sale · {{title}}",
+    "firstHint": "Habari Kuu kwa mshangao",
+    "firstNote": "wa kwanza kufika. Milango ilikuwa wazi."
   },
   "profile": {
     "title": "Wasifu wa Profile",
@@ -1390,7 +1472,27 @@
     "logoutLabel": "Ishara ya nje",
     "logoutInProgress": "Kuingia kwa...",
     "appVersion": "Uwasilishaji wa V1.0.0",
-    "myQRTitle": "Nambari ya QR"
+    "myQRTitle": "Nambari ya QR",
+    "refundsMenu": "Malipo yangu",
+    "refundsSubtitle": "Tafuta mahali ambapo fedha yako itasimama",
+    "shareProfileButton": "Kushiriki profile yangu",
+    "shareOrganizerMessage": "{{name}} on EventEz: {{url}}",
+    "shareOrganizerTitle": "profile yangu ya",
+    "shareOrganizerA11y": "Shiriki wasifu wangu wa mratibu",
+    "viewPublicProfileA11y": "Angalia profile yangu ya umma",
+    "orgEventsCount_one": "{{count}} event",
+    "orgEventsCount_other": "{{count}} events",
+    "unfollowConfirmTitle": "bila ya kufuata?",
+    "unfollowConfirmMessage": "You will no longer be notified about {{name}}'s upcoming events.",
+    "followedEventCount_one": "{{count}} event",
+    "followedEventCount_other": "{{count}} events",
+    "followingPill": "Kufuatia yafuatayo",
+    "followedCount_one": "{{formatted}} followed",
+    "followedCount_other": "{{formatted}} followed",
+    "followSearchEmptyTitle": "Hakuna matokeo",
+    "followSearchEmptyText": "No followed organizer matches “{{query}}”.",
+    "followDiscoverCta": "Kugundua matukio",
+    "followSearchPlaceholder": "Kutafuta mratibu"
   },
   "editProfile": {
     "title": "Ufafanuzi wa profile",
@@ -1449,7 +1551,14 @@
     "sectionAddress": "Hotuba ya",
     "sectionOrganization": "Shirika la Shirika la",
     "sectionSecurity": "Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama Usalama",
-    "qrShareSubtitle": "Scan msimbo huu kushiriki profile yako"
+    "qrShareSubtitle": "Scan msimbo huu kushiriki profile yako",
+    "countryPlaceholder": "Chagua nchi",
+    "orgLogoLabel": "Logo ya Logo",
+    "orgLogoAdd": "Ongeza alama",
+    "orgLogoChange": "Mabadiliko ya logo",
+    "orgWebsiteLabel": "Tovuti ya WEB",
+    "orgDescriptionLabel": "Maelezo ya Umma",
+    "orgDescriptionPlaceholder": "Kuanzisha kampuni yako ..."
   },
   "settings": {
     "whoCanContactCurrent": "wa wa wa wa wa wa wa",
@@ -1500,6 +1609,7 @@
     "themeDialogTitle": "Mandhari ya Mandhari",
     "themeDialogSubtitle": "Chagua mada yako",
     "timezoneDialogTitle": "Kipindi cha Timezone",
+    "timezoneDetected": "Waliotambuliwa",
     "timezoneDialogSubtitle": "Chagua eneo lako la Timezone",
     "preferencesTitle": "Mapendekezo ya",
     "headerEyebrow": "Maandalizi ya",
@@ -1523,7 +1633,7 @@
     "biometricAccountEyebrow": "Akaunti ya benki",
     "biometricAdminEyebrow": "wa wa wa wa wa wa wa",
     "biometricAdminDescription": "FaceID / fingerprint kwa uthibitisho wa tukio / rejection na vitendo vya mtumiaji",
-    "blockedSection": "",
+    "blockedSection": "{{count}} BLOCKED",
     "blockedSectionNone": "Hakuna mtu",
     "aboutSection": "Kuhusu",
     "dangerZone": "Mchezaji ZONE",
@@ -1543,6 +1653,23 @@
     "rowPaymentConfirmations": "Uthibitisho na marejesho",
     "rowNewConversations": "Mazungumzo mapya",
     "rowMarketing": "Mapendekezo na matangazo",
+    "rowSocialEyebrow": "kijamii kijamii",
+    "rowSocial": "Shughuli za kijamii",
+    "rowSocialDesc": "Wafuasi wapya, kumbukumbu, maombi ya ukaguzi",
+    "newRegistrationsEyebrow": "Maandalizi ya",
+    "newRegistrationsTitle": "Usajili mpya",
+    "newRegistrationsDescription": "Ni mara ngapi wewe ni emailed wakati mtu anajiandikisha kwa ajili ya matukio yako",
+    "newRegistrationsFreq": {
+      "realtime": "Muda halisi",
+      "hourly": "Saa ya saa",
+      "daily": "Gazeti la Daily Daily Daily",
+      "off": "Mbali ya"
+    },
+    "quietHoursEyebrow": "Usiwe na wasiwasi",
+    "quietHoursTitle": "Saa za kupumzika",
+    "quietHoursDescription": "Tumia arifa zisizo muhimu za kushinikiza / SMS usiku. Tahadhari muhimu daima kuja kupitia.",
+    "quietHoursFrom": "Kutoka kwa",
+    "quietHoursTo": "Kabla ya",
     "rowSounds": "Sauti katika nyakati muhimu",
     "rowSoundsSubtitle": "Ina sauti juu ya uthibitisho wa malipo au skanning ya QR",
     "rowTwoFA": "Uthibitishaji wa sababu mbili",
@@ -1586,7 +1713,32 @@
     "shortcutInvoices": "Maombi",
     "shortcutTaxes": "Kodi ya",
     "shortcutMyEvents": "Matukio yangu",
-    "shortcutHelp": "Msaada wa msaada"
+    "shortcutHelp": "Msaada wa msaada",
+    "rowMyDataAtExhibitors": "Maelezo yangu yamehifadhiwa na washirika",
+    "rowLiveBanner": "Matukio ya banner",
+    "rowLiveBannerSubtitle": "Onyesha bendera kujiunga na tukio ambalo linaishi sasa.",
+    "pushPermissionTitle": "Taarifa hizi zinatolewa kwa ajili ya mfumo huu",
+    "pushPermissionMessage": "Your system settings block EventEz notifications. Open system settings to allow them.",
+    "rowShareAttendance": "Acha mawasiliano yangu yajulikane",
+    "rowShareAttendanceSubtitle": "Uhusiano wako unaweza kuona kwamba unahudhuria tukio. Kwa bahati mbaya, si kwa ajili ya matukio tu.",
+    "rowNotifyMemories": "“Mwaka mmoja uliopita” taarifa",
+    "rowNotifyMemoriesSubtitle": "Katika tukio moja kwa wiki, katika kumbukumbu ya tukio wewe walihudhuria.",
+    "rowYearInReview": "My EventEz year",
+    "rowYearInReviewSubtitle": "Uandikishaji wa kibinafsi wa mwaka wako, mnamo Desemba. Hakuna mtu mwingine anayemwona.",
+    "madeInDouala": "Kufanya kazi katika Douala, kwa uangalifu.",
+    "madeInDoualaSub": "Shukrani kwa ajili ya kuleta matukio yako katika maisha yetu.",
+    "rowUiSounds": "Sauti ya interface",
+    "rowUiSoundsSubtitle": "Sauti mbaya sana juu ya uthibitisho na arifa zinazoingia. Kuacha kwa default.",
+    "vibrationsEyebrow": "Kwa hiyo",
+    "rowVibrations": "Vibrations ya",
+    "rowVibrationsSubtitle": "Maoni ya Haptic juu ya vitendo muhimu: malipo, skanning, favorites.",
+    "rowMotionGestures": "Maonyesho ya Motion",
+    "rowMotionGesturesSubtitle": "Piga simu au piga simu yako kwa vitendo. Kuna pia aina ya kifungo inapatikana.",
+    "notificationsEyebrowOngoing": "Taarifa ya",
+    "rowOngoingEvent": "tiketi za ndege kwa siku ya tukio",
+    "rowOngoingEventSubtitle": "Taarifa ya utulivu, 3 h kabla na wakati wa tukio, na tiketi yako na maelekezo.",
+    "rowNotificationSounds": "Sauti ya sauti",
+    "rowNotificationSoundsSubtitle": "Chagua sauti kwa kila kikundi (wakati mkubwa, mauzo, ujumbe ...) katika mipangilio ya simu yako"
   },
   "messages": {
     "title": "Ujumbe wa Ujumbe",
@@ -1683,7 +1835,18 @@
     "contactSearchPlaceholder": "Kutafuta mawasiliano ...",
     "searchEyebrow": "Mkoa wa Pwani",
     "searchHint": "Aina ya Kutafuta",
-    "noOneFound": "Hakuna aliyepatikana"
+    "noOneFound": "Hakuna aliyepatikana",
+    "myConnectionsSection": "Uhusiano wangu",
+    "searchResultsSection": "Matokeo ya matokeo",
+    "noConnectionsEyebrow": "Mawasiliano ya mtandao",
+    "noConnectionsTitle": "Hakuna uhusiano bado",
+    "noConnectionsCta": "Kuunganisha kupitia QR",
+    "emptyEyebrowArchived": "Kwa mujibu wa",
+    "emptyEyebrowEmpty": "Ndani ya Box",
+    "archivedEmptyDesc": "Mazungumzo yako ya siri yataishia hapa.",
+    "noConversationsDesc": "Kuanza ujumbe mpya - sisi kupata mtu wa kuzungumza.",
+    "attachmentPreview": "[Zaidi ...]",
+    "noMatchingMessage": "Hakuna ujumbe wa kulinganisha"
   },
   "notifications": {
     "title": "Taarifa ya",
@@ -1724,6 +1887,23 @@
     "typeWinback": "Nini maana ya mpya",
     "typePendingModeration": "Kwa ajili ya ukaguzi",
     "typeModerationReminder": "Kiwango cha foleni",
+    "typeNewFollower": "Wafuasi wapya",
+    "typeFollowedOrganizerNewEvent": "Tukio jipya",
+    "typeFollowRegistered": "Uhusiano unaendelea",
+    "typeConnectionsAtEvent": "Uhusiano wako",
+    "eyebrowNetwork": "Mtandao wa",
+    "eyebrowSoon": "Siku ya",
+    "eyebrowReminder": "Kumbukumbu ya",
+    "eyebrowModeration": "Utangulizi",
+    "eyebrowToReview": "Kuwa REVIEW",
+    "eyebrowDiscovery": "Upotoshwaji wa",
+    "eyebrowUrgent": "dharura",
+    "eyebrowWhatsNew": "Nini kipya",
+    "filterReadTab": "Kusoma",
+    "groupToday": "Leo hii leo",
+    "groupYesterday": "Siku ya",
+    "tabAll": "Yote kwa yote",
+    "tabNetwork": "Mtandao wa Mtandao",
     "typeDefault": "Taarifa ya",
     "filterAllTab": "Yote kwa yote",
     "filterUnreadTab": "Kutokuwa tayari",
@@ -1739,7 +1919,26 @@
     "statTotal": "Jumla ya jumla",
     "statUnread": "Hali ya dharura",
     "statToday": "Leo hii leo",
-    "viewDetails": "Tazama maelezo"
+    "viewDetails": "Tazama maelezo",
+    "actions": {
+      "showTicket": "Onyesha tiketi yangu",
+      "directions": "Mwelekeo wa",
+      "going": "Mimi kwenda",
+      "viewTicket": "Kuangalia tiketi",
+      "reply": "Majibu",
+      "replyPlaceholder": "Ujumbe wako ...",
+      "replySubmit": "Ujumbe wa",
+      "markRead": "Mark kwa kusoma",
+      "joinLive": "Kujiunga kujiunga",
+      "payNow": "Malipo ya sasa",
+      "writeTo": "Tuma ujumbe kwao",
+      "viewEvent": "Mtazamo wa Matukio",
+      "viewTickets": "Angalia tiketi yangu",
+      "viewRefund": "Maoni ya refund",
+      "viewProfile": "Mtazamo wa profile",
+      "summaryTitle": "Ujumbe wa Ujumbe",
+      "summaryBody": "Ujumbe Mpya"
+    }
   },
   "dashboard": {
     "title": "Dashboard ya",
@@ -1783,7 +1982,8 @@
     "subscriptionSubtitle": "Kusimamia mpango wangu",
     "exportTitle": "Mauzo ya nje",
     "exportSubtitle": "Data yako",
-    "settingsLink": "Mipangilio ya Mipangilio"
+    "settingsLink": "Mipangilio ya Mipangilio",
+    "greetingNight": "Kuwa na jioni nzuri"
   },
   "following": {
     "title": "Kocha wangu favorite",
@@ -1821,6 +2021,8 @@
     "declinedSuccess": "Invitation ilipungua.",
     "declineError": "Haikuweza kukidhi wito huo.",
     "declineButton": "Kupungua kwa",
+    "declineConfirmTitle": "Uteuzi wa",
+    "declineConfirmMessage": "Je, una uhakika kwamba unataka kukataa mwaliko huu?",
     "fromLabel": "Kutoka kwa",
     "toLabel": "Taarifa ya",
     "organizerFallback": "Maandalizi ya",
@@ -1964,7 +2166,87 @@
     "uploadFailed": "Kushindwa kwa",
     "downloadFailed": "Download mchezo kushindwa",
     "tryAgain": "Jaribu tena",
-    "contactSupport": "Msaada wa mawasiliano"
+    "contactSupport": "Msaada wa mawasiliano",
+    "timeout": "Ombi hilo lilichukua muda mrefu. Angalia uhusiano wako na jaribu tena.",
+    "validation": "Baadhi ya maelezo ni batili. Weka maeneo yaliyoonyeshwa na jaribu tena.",
+    "fields": {
+      "title": "Kichwa cha jina",
+      "subtitle": "Kwa mujibu wa",
+      "message": "Ujumbe wa Ujumbe",
+      "image": "Picha",
+      "cta_label": "Lebo ya Button",
+      "cta_url": "Kiungo cha kiungo",
+      "link_url": "Link ya Link Link Link",
+      "target_event": "Tukio la Target",
+      "country": "Nchi ya nchi",
+      "city": "Mji wa City City City",
+      "radius_km": "Radius",
+      "placement": "Ukumbi wa",
+      "priority": "Kabla ya",
+      "severity": "Kuwa mpole",
+      "audience": "Ukaguzi",
+      "platform": "Jukwaa la jukwaa",
+      "valid_from": "Kutoka kwa",
+      "valid_until": "Kuwa makini mpaka"
+    },
+    "http": {
+      "badRequest": "Hatukuweza kukamilisha maombi yako. Tafadhali angalia maelezo yako na jaribu tena.",
+      "unauthorized": "Mkutano wenu umekwisha. Tafadhali ingia tena.",
+      "forbidden": "Huna ruhusa ya kufanya hivyo.",
+      "notFound": "Sikuweza kupata nini walikuwa wanatafuta.",
+      "conflict": "Hatua hii inapingana na hali ya sasa. Jaribu tena na tena.",
+      "tooManyRequests": "majaribio mengi. Tafadhali subiri kidogo na jaribu tena.",
+      "server": "Wateja wetu wana matatizo kwa sasa. Tafadhali jaribu tena katika dakika chache.",
+      "updating": "EventEz is updating. Please try again in a few seconds."
+    },
+    "codes": {
+      "emailTaken": "Barua pepe hii tayari imeunganishwa na akaunti. Kuingia au kutumia anwani nyingine.",
+      "usernameTaken": "Jina la mtumiaji tayari limechukuliwa, tafadhali chagua nyingine.",
+      "weakPassword": "Chagua nenosiri la angalau wahusika wa 8 kuchanganya barua na nambari.",
+      "invalidCredentials": "Barua pepe isiyo sahihi au password. Jaribu tena au upya nywila yako.",
+      "resetLinkExpired": "Kiungo hiki cha upya kimeisha. kuomba kura mpya.",
+      "otpInvalid": "Utaratibu huu si sahihi au umekwisha. Angalia hii au kuomba kazi mpya.",
+      "otpSendFailed": "Nimeshindwa kuingia kwenye sms. Angalia namba yako na jaribu tena, au kuingia na barua pepe yako.",
+      "paymentMethodUnsupported": "Njia hii ya malipo haipatikani kwa tukio hili. Tafadhali chagua nyingine.",
+      "paymentFailed": "Malipo yako hayawezi kukamilika. Wewe si kushtakiwa. Jaribu tena au kutumia mbinu nyingine.",
+      "paymentNetwork": "Uhusiano ulipungua wakati wa malipo. Angalia tovuti yako na jaribu tena - huwezi kushtakiwa mara mbili.",
+      "paymentTimeout": "Malipo yako huchukua muda mrefu kuliko ilivyotarajiwa. Usipe tena - angalia tiketi yako kwa dakika chache, au usaidizi wa mawasiliano ikiwa hakuna kitu kinachowasili.",
+      "paymentVerifyFailed": "Bado hatuwezi kuthibitisha malipo yako. Ikiwa umeshtakiwa, tiketi yako itaonekana hivi karibuni - angalia tena katika dakika chache.",
+      "refundFailed": "Maombi yako ya kurudishiwa pesa hayakukubaliwa. Tafadhali jaribu tena au wasiliana na msaada.",
+      "insufficientBalance": "Kutokuwa na usawa wa kutosha kwa operesheni hii.",
+      "payoutLocked": "Malipo haya hayawezi kubadilishwa tena kwa sababu mchakato tayari umeanza. Msaada wa mawasiliano ikiwa ni makosa.",
+      "planLimitReached": "Umefikia kikomo cha mpango wako. Kuboresha mpango wako wa kuendelea.",
+      "countryNotSupported": "Malipo bado hayapatikani katika nchi hii. Unaweza kuunda tukio katika nchi inayosaidiwa, au wasiliana nasi."
+    },
+    "tickets": {
+      "offline": "Wewe ni offline kwa sasa. Tiketi ambazo tayari umepakia zinapatikana nje ya mtandao. Jaribu tena wakati wewe ni online.",
+      "timeout": "Tiketi yako inachukua muda wa kupakia. Hakuna kilichopotea: ni salama. Jaribu tena kwa wakati mmoja.",
+      "server": "Wafanyakazi wetu wana kazi ya muda mfupi. Tiketi yako ni salama kwa upande wetu. Jaribu tena katika dakika chache.",
+      "notFound": "Hatuwezi kupata tiketi hiyo. Tiketi yako ya pili haijasajiliwa. Badilisha orodha au angalia barua pepe yako ya kuthibitisha.",
+      "forbidden": "Hii ni akaunti nyingine. Tiketi yako haijasajiliwa. Kuingia kwa akaunti kwa ajili ya kununua."
+    },
+    "messages": {
+      "offline": "Wewe ni offline kwa sasa. Ujumbe wako si waliopotea: wanaosubiri kwenda nje baada ya wewe ni nyuma online. Jaribu tena wakati wavuti inarudi.",
+      "timeout": "Kujisikia ni mwepesi wa kujibu. Ujumbe wako haupatikani. Jaribu tena kwa wakati mmoja.",
+      "server": "Kufikiri ni kuwa na hiccup fupi kwa upande wetu. Majadiliano yako ni intact. Jaribu tena katika dakika chache.",
+      "notFound": "Mazungumzo haya hayapo tena. Mazungumzo yako mengine hayahusiani. Rejea ujumbe wako.",
+      "forbidden": "Huwezi tena kuingia kwenye mazungumzo haya. Mazungumzo yako mengine bado yapo. Rejea ujumbe wako."
+    },
+    "event": {
+      "offline": "Wewe ni nje ya mtandao, hivyo hatuwezi kuonyesha tukio hili. Tiketi yako inapatikana nje ya mtandao. Jaribu tena wakati wewe ni online.",
+      "timeout": "Ukurasa huu unachukua muda mwingi kupakia. Hakuna kilichobadilika kwa upande wako. Jaribu tena kwa wakati mmoja.",
+      "server": "Kwa hiyo, ni jambo la muda mfupi tu ambalo linatuzuia kuonyesha tukio hili. Tiketi yako na usajili si walioathirika. Jaribu tena katika dakika chache.",
+      "notFound": "Tukio hili halipo tena mtandaoni: mpangaji anaweza kuliondoa. tiketi yoyote ambayo wewe kukaa katika “barua pepe yangu”. Matukio zaidi yanasubiriwa kwa hamu.",
+      "forbidden": "Tukio hili ni la kibinafsi. Akaunti yako sio tatizo. Waulize waandaaji kwa mwaliko wa kupata."
+    },
+    "upload": {
+      "offline": "Kupakia hakungeweza kuanza: uko nje ya mtandao. Faili yako bado iko kwenye simu yako. Jaribu tena wakati wewe ni online.",
+      "timeout": "Upakiaji huchukua muda mrefu sana. Faili yako bado iko kwenye simu yako. Jaribu tena, vizuri kwenye Wi-Fi au kwa faili nyepesi.",
+      "server": "Mtumiaji hawezi kupokea faili. Ni salama sana kwenye simu yako. Jaribu tena katika dakika chache.",
+      "notFound": "Eneo la kupakia halipo tena. Faili yako ni salama kwenye simu yako. Nenda kwenye skrini na ujaribu tena.",
+      "forbidden": "Wewe si kuruhusiwa kupakia faili hii hapa. Ni salama sana kwenye simu yako. Angalia kwamba umeingia kwenye akaunti sahihi.",
+      "tooLarge": "Faili hii ni kubwa sana kupakia. Ni salama sana kwenye simu yako. Chagua faili nyepesi au kuzalisha picha."
+    }
   },
   "errorBoundary": {
     "eyebrow": "Glück ya",
@@ -2572,7 +2854,10 @@
     "successTitle": "Hongera sana!",
     "successMessage": "Sasa wewe ni mpangaji. Unda tukio lako la kwanza!",
     "errorTitle": "Makosa ya makosa",
-    "errorGeneric": "Makosa yalifanyika"
+    "errorGeneric": "Makosa yalifanyika",
+    "labelWebsite": "Tovuti (ya kawaida)",
+    "labelDescription": "Maelezo (yasiyo ya kawaida)",
+    "placeholderDescription": "Kuanzisha kampuni yako ..."
   },
   "verificationForm": {
     "pdfOpenError": "Haikuweza kufungua akaunti.",
@@ -2641,7 +2926,7 @@
     "heroEyebrow": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi",
     "heroPointsUnit": "wa wa wa wa",
     "tierMaxLabel": "Max LEVEL yazinduliwa",
-    "tierNextLabel": "",
+    "tierNextLabel": "NEXT TIER · {{tier}}",
     "tierMaxValue": "Kwa hivyo",
     "pointsToNext": "wa wa wa wa wa wa",
     "statBadges": "BAADHI ya",
@@ -2733,7 +3018,9 @@
     "locHybrid": "Mchanganyiko wa Hybrid",
     "priceAny": "Yote kwa yote",
     "priceFree": "Uhuru wa bure",
-    "pricePaid": "Malipo ya"
+    "pricePaid": "Malipo ya",
+    "shareSearch": "Shiriki utafutaji huu",
+    "shareMessage": "Check out these events on EventEz"
   },
   "map": {
     "filtersTitle": "Filters ya",
@@ -2779,6 +3066,10 @@
     "statsRating": "Ramana ya",
     "statsSince": "Mara ya kwanza",
     "contactA11y": "Kuwasiliana na mratibu",
+    "connectA11y": "Kuunganisha",
+    "connectedA11y": "Tayari kuunganisha",
+    "connectSuccess": "You're now connected to {{name}}",
+    "connectError": "Haikuweza kuunganisha. Tafadhali jaribu tena.",
     "bioEyebrow": "Kwa hivyo",
     "bioTitle": "Kuhusu kuhusu",
     "linksEyebrow": "Mtandaoni",
@@ -2793,7 +3084,11 @@
     "agendaTitle": "Matukio yaliyochapishwa",
     "loadingEvents": "Udhibiti wa ...",
     "noEvents": "Hakuna matukio yaliyoripotiwa",
-    "freeBadge": "Uhuru wa bure"
+    "freeBadge": "Uhuru wa bure",
+    "tabs": {
+      "upcoming": "Juu ya",
+      "past": "Zamani Zamani Zamani"
+    }
   },
   "sessionDetails": {
     "title": "Mkutano wa",
@@ -3021,7 +3316,7 @@
     "sectionRecipient": "wa wa wa wa wa",
     "sectionQuantity": "Idadi ya",
     "sectionMessage": "Maelezo ya kibinafsi",
-    "labelEmailRequired": "",
+    "labelEmailRequired": "^ Tnn., “juu ya",
     "emailPlaceholder": "Marafiki @example.com",
     "labelFirstNameOptional": "Jina la kwanza · Tarehe ya kuzaliwa",
     "firstNamePlaceholder": "Jina la kwanza la mpokeaji",
@@ -3165,7 +3460,7 @@
       "ya ya ya",
       "ya",
       "wa wa",
-      "cha cha cha",
+      "wa wa wa wa wa",
       "Uamuzi wa"
     ],
     "unfollowConfirmTitle": "Ufuatiliaji wa",
@@ -3223,7 +3518,12 @@
     "codeLabel": "Kanuni ya",
     "emptyEyebrow": "Kuwasiliana",
     "emptyTitle": "Hakuna kodi ya",
-    "emptySubtitle": "Nambari zako za rufaa zitaonekana hapa mara tu zinapatikana."
+    "emptySubtitle": "Nambari zako za rufaa zitaonekana hapa mara tu zinapatikana.",
+    "generateCta": "Kuongeza code yangu",
+    "generating": "Uzalishaji wa...",
+    "generateSuccess": "Kodi ya simu yauzwa!",
+    "generateError": "Haikuweza kuunda mfumo. Tafadhali jaribu tena.",
+    "copySuccess": "Kiungo cha kiungo kilichonakiliwa"
   },
   "teamManagement": {
     "eyebrow": "Kamati ya",
@@ -3257,7 +3557,16 @@
     "perm_view_analytics": "Maoni ya analytics",
     "perm_view_registrations": "Angalia orodha ya usajili",
     "perm_edit_event": "Badilisha Tukio",
-    "perm_manage_team": "Kuwakaribisha wanachama wengine wa timu"
+    "perm_manage_team": "Kuwakaribisha wanachama wengine wa timu",
+    "role_co_organizer": "Shirika la Ushirikiano",
+    "role_moderator": "Usimamizi wa Moderator",
+    "role_scanner": "Scanner ya",
+    "role_analyst": "Wachambuzi wa",
+    "status_pending": "Matarajio ya",
+    "status_accepted": "Kazi ya Active Active",
+    "status_declined": "Kupungua kwa",
+    "status_revoked": "Kubadilishwa",
+    "status_expired": "Imetolewa"
   },
   "myTeamEvents": {
     "eyebrow": "Kwa upande wake Mbunge wa",
@@ -3276,8 +3585,10 @@
     "willAttend": "Nitakuwa hapo",
     "wontAttend": "Siwezi kufanya hivyo",
     "partySize": "Idadi ya wageni wa ziada",
+    "partySizeHint": "Zaidi ya wewe. B2 ikiwa ni pamoja na watu wawili.",
     "dietary": "Mahitaji ya chakula / allergy",
     "note": "Maneno kwa wanandoa",
+    "noteOptional": "Neno kwa ajili ya wanandoa (kinyume)",
     "submit": "Tuma majibu yangu",
     "thanksAccepted": "Shukrani kwa ajili ya! Mkutano wako umethibitishwa.",
     "thanksDeclined": "Shukrani kwa kutufahamisha.",
@@ -3289,7 +3600,18 @@
     "giftYourName": "Majina yako",
     "giftMethod": "Njia ya Malipo",
     "giftPay": "Kushiriki kwa",
-    "giftError": "Malipo hayawezi kuanza."
+    "giftThanks": "Shukrani kwa ajili ya mchango wako!",
+    "giftRedirectNote": "Utakuwa itaelekezwa kwenye ukurasa wa malipo salama. Hii ni ya kawaida.",
+    "giftError": "Malipo hayawezi kuanza.",
+    "rsvpSubmitError": "Majibu yako hayawezi kutumwa. Tafadhali jaribu tena.",
+    "summaryTitle": "Majibu yako",
+    "summaryAccepted": "umethibitisha ushiriki wako.",
+    "summaryDeclined": "Hata hivyo, alikataa wito huo.",
+    "summaryPartySize": "Wageni wako",
+    "summaryHeadcount": "Hifadhi zilizohifadhiwa",
+    "summaryDietary": "Mahitaji ya chakula",
+    "summaryTable": "Orodha yako",
+    "summaryTablePending": "Orodha yako itashirikiwa kabla ya tukio."
   },
   "teamInvitation": {
     "eyebrow": "Uwekezaji",
@@ -3611,7 +3933,21 @@
     "readOnlyLockMessage": "Majadiliano ya kusoma tu. Kuokoa ujumbe wako.",
     "mutedLockMessage": "umejadiliwa katika mjadala huu na Mwenyekiti.",
     "postingLockMessage": "Ni mgombea pekee anayeweza kushiriki katika mjadala huu.",
-    "defaultUserName": "Mtumiaji huyu"
+    "defaultUserName": "Mtumiaji huyu",
+    "someFilesQueuedForRetry": "Baadhi ya faili zitatumwa mara baada ya uunganisho kurudi.",
+    "retrySend": "Resume ya",
+    "newMessagesBadge_one": "{{count}} new message",
+    "newMessagesBadge_other": "{{count}} new messages",
+    "scrollToBottom": "Bonyeza hapa chini",
+    "tapToLoadImage": "Bonyeza ili kupakia",
+    "reply": "Majibu",
+    "react": "Majibu ya",
+    "reactionToggleA11y": "Reaction {{emoji}}, {{count}}",
+    "readOnlyLockMessageShort": "Mazungumzo ya kusoma tu.",
+    "headerCollapseA11y": "Hifadhi ya banner",
+    "headerExpandA11y": "Kuonyesha bendera",
+    "headerCollapseLabel": "ya",
+    "headerExpandLabel": "Maelezo ya Tukio"
   },
   "scanForm": {
     "loading": "Udhibiti wa ...",
@@ -3678,13 +4014,18 @@
     "roleModerator": "Mfumo wa",
     "roleAdmin": "Usimamizi wa",
     "fallbackEvent": "Tukio la Tukio",
-    "fallbackUnknownUser": "Mtumiaji"
+    "fallbackUnknownUser": "Mtumiaji",
+    "statusUnknown": "Hali isiyojulikana"
   },
   "refundRequest": {
     "watermarkBack": "Kurudi nyuma",
     "watermarkOops": "ya ops",
     "loadError": "Haikuweza kupakia maelezo ya malipo",
     "paymentNotFound": "Malipo yasiyopatikana",
+    "blockedNotOwner": "Malipo haya hayahusiani na akaunti yako, kwa hivyo huwezi kuomba marejesho kwa hiyo.",
+    "blockedNotCompleted": "Malipo yaliyothibitishwa tu yanaweza kurejeshwa. Malipo haya hayapatikani katika hali ya kurejeshwa.",
+    "blockedAlreadyRequested": "Ombi la marejesho tayari limekubaliwa kwa malipo haya.",
+    "blockedGeneric": "Malipo haya hayastahili malipo kwa sasa.",
     "back": "Kurudi nyuma",
     "closeA11y": "Karibu",
     "eyebrow": "Kukataa / Kukataa",
@@ -3834,7 +4175,13 @@
       "accessCodeLabel": "Kanuni ya Upatikanaji (Protional)",
       "accessCodeHint": "Wageni watahitaji kuingia msimbo huu ili kuona maelezo",
       "accessCodePlaceholder": "Acha tupu kwa hakuna code",
-      "featuredInfo": "Unaweza kuomba kushiriki tukio lako baada ya uumbaji kutoka \"Matukio Yangu\"."
+      "accessCodeKeepPlaceholder": "Kanuni mpya (acha tupu ili kuweka moja ya sasa)",
+      "accessCodeActive": "Mfumo wa upatikanaji ni kazi.",
+      "accessCodeWillBeRemoved": "Utaratibu utaondolewa wakati wa kuhifadhi.",
+      "accessCodeRemove": "Kuondoa msimbo",
+      "accessCodeUndoRemove": "ya ya",
+      "featuredInfo": "Unaweza kuomba kushiriki tukio lako baada ya uumbaji kutoka \"Matukio Yangu\".",
+      "categorySuggestion": "Suggestion: {{name}}"
     },
     "step2": {
       "title": "Tarehe na mahali",
@@ -3858,6 +4205,8 @@
       "mapChooseLocation": "Chagua kwenye ramani",
       "mapHint": "Kuonyesha tukio kwenye ramani na kuwezesha urambazaji",
       "virtualLocationTitle": "Sehemu ya Virtual",
+      "eventezVisioLabel": "Use EventEz Video",
+      "eventezVisioHint": "Kujengwa katika mkutano wa video - chumba kinaundwa moja kwa moja, hakuna kiungo cha nje kinachohitajika.",
       "platformLabel": "Jukwaa la jukwaa",
       "platformPlaceholder": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ....................................................................",
       "connectionUrlLabel": "Uhusiano wa Link Link",
@@ -3896,6 +4245,10 @@
       "salesStartLabel": "Mauzo ya kuanza",
       "salesEndLabel": "Mwisho wa Mauzo",
       "visibleLabel": "Visible",
+      "accessModeLabel": "Upatikanaji wa tiketi hii",
+      "accessInPerson": "Kwa mtu",
+      "accessOnline": "Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online",
+      "accessBoth": "Wote wawili wawili wawili",
       "visibleDesc": "Onyesha tiketi hii hadharani",
       "addAnotherTicket": "Ongeza tiketi nyingine",
       "registrationFormTitle": "Fomu ya Usajili (Inayopendekezwa)",
@@ -4000,7 +4353,7 @@
       "trackNamePlaceholder": "Mbadala majina: Design, Dev, Biashara",
       "trackDescriptionPlaceholder": "Maelezo mafupi ya kufuatilia (optional)",
       "trackLabel": "Kuunganisha track",
-      "trackPlaceholder": "",
+      "trackPlaceholder": "Track {{index}}",
       "noTrack": "Hakuna hata mmoja",
       "speakersSectionLabel": "Spika wa",
       "speakersHint": "Waambie wasikilizaji wako wafanye kazi.",
@@ -4046,6 +4399,10 @@
     "actionsSheet": {
       "closeA11y": "Karibu menu",
       "cancel": "Kufuta"
+    },
+    "venuePicker": {
+      "label": "Tumia eneo lililohifadhiwa",
+      "hint": "Maeneo hayo yanaunganishwa moja kwa moja. Unaweza kurekebisha yao baadaye."
     }
   },
   "componentsCharts": {
@@ -4086,7 +4443,8 @@
       "sourceEventTypes": "Aina ya Tukio",
       "sourcePaymentMethods": "Mbinu za Malipo",
       "sourceGeographical": "Uharibifu wa kijiografia"
-    }
+    },
+    "widgetDataUnavailable": "Data haiwezi kupatikana."
   },
   "componentsForms": {
     "dynamicFields": {
@@ -4096,7 +4454,9 @@
       "previous": "Kabla ya",
       "next": "Baadaye",
       "selectDatePlaceholder": "Chagua tarehe",
-      "selectTimePlaceholder": "Chagua wakati"
+      "selectTimePlaceholder": "Chagua wakati",
+      "selectPlaceholder": "Uchaguzi wa ...",
+      "searchPlaceholder": "Utafutaji wa ..."
     }
   },
   "ticketPurchase": {
@@ -4197,7 +4557,18 @@
     "ticketsAddedSuccess": "Tiketi zilizoongezwa kwa mafanikio",
     "alreadyRegisteredConfirmTitle": "Tayari kujiandikisha",
     "alreadyRegisteredConfirmMessage": "Tayari umejiandikisha kwa ajili ya tukio hili.",
-    "createRegistrationError": "Haikuweza kufungua akaunti"
+    "createRegistrationError": "Haikuweza kufungua akaunti",
+    "accessMode": {
+      "in_person": "Kwa mtu pekee",
+      "online": "Upatikanaji wa Online",
+      "hybrid": "Mtu mmoja + online"
+    },
+    "limitStock": "Only {{max}} ticket(s) of this type left.",
+    "limitEventCapacity": "Only {{max}} place(s) left for this event.",
+    "onlyNLeft_one": "Sehemu moja tu iliyoachwa",
+    "onlyNLeft_other": "Only {{count}} places left",
+    "ctaSuspended": "Bidhaa zilizohifadhiwa",
+    "suspendedByIncident": "Ununuzi umesimamishwa kwa muda kwa sababu ya tukio. Fuata taarifa kwenye ukurasa wa Status."
   },
   "registrationDetails": {
     "headerInscription": "Usajili wangu",
@@ -4322,7 +4693,16 @@
     "statusInscriptionCancelled": "Kuondolewa",
     "statusInscriptionRejected": "Waliokataliwa",
     "statusInscriptionValidated": "Waliochaguliwa",
-    "statusInscriptionUnknown": "Wasiojulikana"
+    "statusInscriptionUnknown": "Wasiojulikana",
+    "pdfEyebrow": "Mkutano wa dharura",
+    "pdfDate": "Tarehe ya tarehe",
+    "pdfPlace": "Ziara ya",
+    "pdfReference": "Marejeo ya kumbukumbu",
+    "pdfStatus": "Hali ya",
+    "pdfQrHint": "Onyesha msimbo huu wa QR kwenye mlango",
+    "pdfShareDialog": "Muhtasari wa muhtasari",
+    "pdfError": "Haiwezi kupakua faili ya PDF kwa sasa.",
+    "pdfA11y": "Muhtasari wa nje kama PDF"
   },
   "qrCode": {
     "headerEyebrow": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi",
@@ -4387,6 +4767,7 @@
     "tipScanEntrance": "Msimbo wa QR utawekwa kwenye mlango",
     "tipArriveLines": "Kuwasili wakati wa kuruka mistari",
     "validatedTitle": "Tiketi zilizoidhinishwa",
+    "stampValidated": "Kuangalia katika",
     "validatedAt": "Kuingia kwa ed1ed",
     "paymentPendingTitle": "Malipo ya kusubiri",
     "paymentPendingDesc": "Kukamilisha malipo yako kwa kuthibitisha",
@@ -4416,14 +4797,22 @@
     "statusConfirmed": "imethibitishwa",
     "statusPending": "Matarajio ya",
     "statusCancelled": "Kuondolewa",
-    "statusValidated": "Waliochaguliwa"
+    "statusValidated": "Waliochaguliwa",
+    "pdfOnline": "Matukio ya mtandaoni",
+    "statusUnknown": "Hali isiyojulikana",
+    "presentHint": "Bonyeza ili kupanua msimbo, kwa muda mrefu-press kwa ushahidi wa uhalali.",
+    "presentA11yAction": "Kuongeza code kwa ajili ya kuangalia",
+    "proofA11yAction": "Onyesha uthibitisho wa uhalali",
+    "proofClockA11y": "Live ticket, it is {{time}}",
+    "presentExitA11y": "Kurudi kwenye tiketi",
+    "presentExitHint": "Bonyeza hapa kurudi"
   },
   "offlineTickets": {
     "headerTitle": "ya nje",
     "headerEyebrow": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi",
     "online": "Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online",
     "offline": "ya nje",
-    "syncedAt": "",
+    "syncedAt": "Synced {{when}}",
     "qrHint": "Onyesha msimbo huu wa QR kwenye mlango wa tukio",
     "referenceLabel": "Marejeo ya kumbukumbu",
     "ticketTypeLabel": "Aina ya",
@@ -4448,7 +4837,15 @@
     "removeMessage": "Je, unataka kuondoa tiketi hii kutoka cache offline?",
     "showQR": "Kuonyesha QR",
     "hideQR": "Kuonyesha QR",
-    "pastBadge": "Zamani Zamani Zamani"
+    "pastBadge": "Zamani Zamani Zamani",
+    "download": "Download tiketi ya ndege",
+    "pdfEyebrow": "Kwa hiyo",
+    "pdfReference": "Marejeo ya kumbukumbu",
+    "pdfType": "Aina ya tiketi",
+    "pdfQuantity": "Idadi ya",
+    "pdfDate": "Tarehe ya tarehe",
+    "pdfShareDialog": "Hifadhi ya Hifadhi / Kushiriki",
+    "pdfError": "Haiwezi kufuta faili ya PDF."
   },
   "pendingTransfers": {
     "headerTitle": "Uhamiaji",
@@ -4695,7 +5092,7 @@
     "ticketsSoldOutPill": "Kuamka kutoka",
     "ticketsSoldOutText": "Kununuliwa nje",
     "ticketsRemaining": "Mahali pa kukaa",
-    "ticketsRemaining_other": "",
+    "ticketsRemaining_other": "{{count}} seats left",
     "ticketsAvailable": "Bei ya chini inapatikana",
     "ticketsFree": "Uhuru wa bure",
     "waitlistEyebrow": "Kila mmoja",
@@ -4774,7 +5171,52 @@
     "sponsorVisit": "Ziara ya kutembelea",
     "similarEventsEyebrow": "Mawasiliano",
     "similarEventsTitle": "Matukio kama haya",
-    "similarEventA11y": "Maoni ya 0"
+    "similarEventA11y": "Maoni ya 0",
+    "virtualLiveNow": "Kuishi Sasa",
+    "virtualLiveParticipants": "{{count}} online",
+    "virtualJoinLive": "Kujiunga kuishi",
+    "virtualStartsInMinutes": "Starts in {{count}} min",
+    "virtualUnavailableTitle": "Simu ya video haipatikani",
+    "virtualUnavailableNote": "EventEz Video is not active yet for this event. The organizer will share the join link.",
+    "virtualWaitingHostTitle": "Maisha bado hayajaanza",
+    "virtualWaitingHostNote": "Utakuwa na uwezo wa kujiunga haraka kama mratibu kufungua chumba.",
+    "viewCount": "{{count}} view",
+    "viewCount_other": "{{count}} views",
+    "roomType": {
+      "main": "Chumba cha Juu",
+      "session": "Mkutano wa",
+      "breakout": "Kuondoa",
+      "networking": "Mtandao wa Mtandao",
+      "workshop": "Warsha ya Warsha"
+    },
+    "waitlistPosition": "Position {{position}} in the queue",
+    "ticketsClosesIn_days": "Closes in {{count}}d",
+    "ticketsClosesIn_hours": "Closes in {{count}}h",
+    "ticketsClosesIn_minutes": "Closes in {{count}}min",
+    "ticketsSaleEnded": "Mauzo ya mwisho",
+    "ticketsSaleNotStarted": "Kununua kwa haraka",
+    "peekSave": "Kuokoa kuokoa kuokoa",
+    "peekUnsave": "Kuokolewa kutoka kwa kuokolewa",
+    "peekShare": "Kushiriki",
+    "peekOpen": "Ufunguzi wazi",
+    "peekA11yHint": "Weka kwa ajili ya preview",
+    "swipeSave": "Uhuru wa kuokoa",
+    "swipeUnsave": "Kutolewa kwa kuondolewa",
+    "swipeHint": "Hifadhi ya kuhifadhi",
+    "swipeRemoved": "Kuokolewa kutoka kwa kuokolewa",
+    "swipeUndo": "ya ya",
+    "swipeRemove": "Kuondoa",
+    "weather": {
+      "sunny": "Jua la jua",
+      "partlySunny": "Kocha wa Sunny",
+      "cloudy": "Cloudy",
+      "fog": "Taa ya taa",
+      "rain": "Mvua ya mvua",
+      "snow": "theluji",
+      "showers": "Mavazi ya juu",
+      "thunderstorm": "ya mvua",
+      "variable": "Mabadiliko ya"
+    }
   },
   "componentsCommon": {
     "exportTitle": "Chagua format",
@@ -4858,7 +5300,12 @@
     "followPrefsNewEventsSubtitle": "Baada ya uzinduzi huo, Waziri Mkuu amezindua tukio jipya",
     "followPrefsSave": "Kuokoa mapendekezo",
     "followPrefsSaveA11y": "Kuokoa mapendekezo",
-    "inAppToastA11y": "Bonyeza kitufe cha Kuanza."
+    "inAppToastA11y": "Bonyeza kitufe cha Kuanza.",
+    "webviewVisioTitle": "Ujumbe wa video",
+    "webviewOfflineTitle": "Kuwa offline",
+    "webviewOfflineBody": "Simu yako imepoteza uhusiano wake. Simu hiyo itaanza tena mara tu mtandao huo utakaporudishwa.",
+    "webviewReconnectingIn": "Reconnecting in {{seconds}}s…",
+    "webviewSlowNetwork": "Uunganisho wa polepole unaoonekana - video inaweza kuharibiwa na kutumia data yako."
   },
   "messageRequests": {
     "eyebrow": "wa wa wa wa wa wa wa",
@@ -4906,6 +5353,17 @@
     "permissionTitle": "Kamera inahitajika",
     "permissionSubtitle": "Ili kuchanganua QR, EventEz inahitaji kuingia kwenye kamera.",
     "permissionGrant": "Kuruhusu kamera"
+  },
+  "media": {
+    "sheetTitle": "Unapenda kufanya nini?",
+    "saveToGallery": "Hifadhi ya Gallery",
+    "share": "Kushiriki",
+    "savedToGallery": "Kuokolewa kwa Gallery",
+    "permissionDeniedTitle": "Ruhusa ya Kukataliwa",
+    "permissionDeniedMessage": "Kuwezesha upatikanaji wa picha katika mazingira ya kuhifadhi.",
+    "sharingUnavailable": "Kugawana haipatikani kwenye kifaa hiki.",
+    "downloadFailed": "Download mchezo kushindwa. Tafadhali jaribu tena.",
+    "genericError": "Kuna kitu kilikuwa kibaya. Tafadhali jaribu tena."
   },
   "componentsMessages": {
     "inputJoinFile": "Ongeza faili",
@@ -5127,7 +5585,7 @@
     "messages": "Mawasiliano",
     "suggestions": "Matokeo ya",
     "theme": "Thema ya",
-    "timezoneSoon": "Tarehe ya leo",
+    "timezone": "Muda wa kukaa",
     "soundEffects": "Matokeo ya tathmini",
     "authSoon": "Tarehe ya kuzaliwa",
     "connectionsSoon": "Habari za hivi karibuni",
@@ -5153,7 +5611,11 @@
     "tabSaved": "02 - Kuokolewa",
     "tabMessages": "03 - Mawasiliano",
     "tabTickets": "4 · Vyombo vya habari",
-    "tabProfile": "05 - Kuwa na uhakika"
+    "tabProfile": "05 - Kuwa na uhakika",
+    "push": "Push up ya",
+    "privacy": "Faragha ya faragha",
+    "memories": "Kumbukumbu ya kumbukumbu",
+    "yearInReview": "Mwaka wa ukaguzi"
   },
   "organizer": {
     "common": {
@@ -5164,7 +5626,7 @@
     },
     "bulkAction": {
       "selectedCount": "Uchaguzi wa 0",
-      "selectedCount_plural": "Uchaguzi wa 0",
+      "selectedCount_other": "{{count}} selected",
       "approve": "Kuwa tayari",
       "reject": "Kukataa kukataa",
       "checkIn": "Ukaguzi wa Ndani"
@@ -5399,7 +5861,7 @@
       "typesCount_one": "Aina ya",
       "typesCount_other": "Aina za",
       "deliveriesCount_one": "Uwasilishaji wa 0",
-      "deliveriesCount_other": "",
+      "deliveriesCount_other": "{{count}} deliveries",
       "emptyTitle": "Hakuna wavuti",
       "emptyText": "Piga matukio yako ya TukioEz kwa Zapier, Fanya, au ofisi yako ya nyuma kwa wakati halisi.",
       "modalEyebrow": "Ukurasa Mpya wa WEB",
@@ -5622,6 +6084,7 @@
         "discountCodes": "Msaada wa codes",
         "linkSessions": "tiketi kwa ajili ya mikutano",
         "addPhotos": "Ongeza picha",
+        "startLive": "Kuwa hai",
         "volunteers": "Wafanyakazi wa kujitolea",
         "sponsors": "Wadhamini",
         "seatingPlans": "Mipango ya kuhifadhi",
@@ -5636,7 +6099,14 @@
         "duplicate": "Duplicate",
         "cancelEvent": "Kufuta tukio",
         "cancelEventDesc": "Kuwakumbusha watumishi",
-        "deleteDesc": "Hatua ya kurejesha"
+        "deleteDesc": "Hatua ya kurejesha",
+        "invite": "kuwakaribisha wageni",
+        "inviteDescInviteOnly": "Njia pekee ya kutoa ufikiaji wa tukio hili la kukaribisha tu",
+        "duplicatePastDesc": "Anza na nakala ya uhariri",
+        "remindInvites": "Kuwakumbuka wageni",
+        "weddingGuests": "Wageni na RSS",
+        "weddingGifts": "Usajili na zawadi",
+        "weddingTables": "Mpango wa ufugaji"
       },
       "emptyEyebrowResults": "Hakuna matokeo",
       "emptyEyebrowCatalog": "Hali ya hewa",
@@ -5652,6 +6122,7 @@
       "cancelReasonPlaceholder": "Kwa mfano, hali ya afya, mahali ambapo hakuna ...",
       "keepBtn": "Endelea kuwa",
       "cancelEventBtn": "Kufuta tukio",
+      "cancelHolding": "Licha ...",
       "recurrenceEyebrow": "Taarifa ya",
       "recurrenceModalTitle": "Kurasa zilizounganishwa na \"\"0\"",
       "recurrenceModalBody": "Unda matukio mengi kutoka kwa tukio hili. Kila tukio ni tukio jipya la kujitegemea ambalo unaweza kurekebisha.",
@@ -5677,7 +6148,27 @@
       "editValidatedBody": "Tukio hili linaishi. Ikiwa unabadilisha maeneo muhimu (jina, tarehe, eneo, aina, uwezo), itarudishwa kwa uthibitisho na kwa muda wa siri hadi ukubali.",
       "editValidatedConfirm": "Kwa njia yoyote",
       "actionEditValidated": "Tarehe ya kuzaliwa (revalidation inawezekana)",
-      "actionEditValidatedDesc": "Maeneo muhimu ya kurejesha"
+      "actionEditValidatedDesc": "Maeneo muhimu ya kurejesha",
+      "inviteEyebrow": "Mawasiliano",
+      "inviteTitle": "Invite to “{{title}}”",
+      "inviteBody": "Each person receives an invitation email (with a link to accept). If they already have an EventEz account, they also get an in-app notification.",
+      "inviteEmailsPlaceholder": "Barua pepe zilizotenganishwa na comma au line mpya",
+      "inviteMessagePlaceholder": "Ujumbe wa kibinafsi (kinyume)",
+      "inviteSendBtn": "Kutuma maombi",
+      "inviteEmptyTitle": "Hakuna barua pepe",
+      "inviteEmptyMessage": "Ingiza angalau anwani moja ya barua pepe.",
+      "inviteInvalidTitle": "Barua pepe zilizotumwa",
+      "inviteInvalidMessage": "Please check these addresses: {{emails}}",
+      "inviteSentTitle": "Taarifa zilizotumwa",
+      "inviteSentMessage": "{{count}} invitation(s) sent.",
+      "inviteError": "Haikuweza kutuma maombi.",
+      "remindSent": "{{sent}} reminder(s) sent.",
+      "remindSentWithSkipped": "{{sent}} reminder(s) sent, {{skipped}} skipped.",
+      "remindNone": "Hakuna mtu wa kumkumbusha kwa sasa.",
+      "remindErrorTitle": "Kumbukumbu ya kushindwa",
+      "remindErrorMessage": "Kumbukumbu haikuweza kutumwa. Tafadhali jaribu tena.",
+      "remindPendingProgress": "Akitoa kumbukumbu ya ...",
+      "loadError": "Haikuweza kupakia matukio yako. Angalia uhusiano wako."
     },
     "volunteer": {
       "tabReceived": "Waliozaliwa (0 ()",
@@ -5948,7 +6439,35 @@
       "manualCodeInvalid": "Msimbo wa kawaida: UUID inayotarajiwa au msimbo wa kumbukumbu (8-20 wahusika A-Z / 0-9).",
       "sessionRecapTitle": "Muhtasari wa Mkutano",
       "sessionRecapBody": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ....................................................................\n2                                                                                                                                                                                                                                                         \n3                                                                                                                                                                                                                                                       ",
-      "sessionRecapQueue": ""
+      "sessionRecapQueue": "\n⏳ {{count}} queued offline",
+      "manualModeBanner": "Mwongozo - 1 kugusa kwa mtu",
+      "manualModeA11y": "Mfumo wa uendeshaji. Bofya moja kwa moja kurudi kuangalia.",
+      "rejectedTitle_one": "{{count}} scan rejected on sync",
+      "rejectedTitle_other": "{{count}} scans rejected on sync",
+      "rejectedAlreadyUsed_one": "• {{count}} ticket already checked in (duplicate entry)",
+      "rejectedAlreadyUsed_other": "• {{count}} tickets already checked in (duplicate entry)",
+      "rejectedNotFound_one": "• {{count}} ticket not found or invalid",
+      "rejectedNotFound_other": "• {{count}} tickets not found or invalid",
+      "rejectedUnresolved_one": "• {{count}} scan still unsynced after several attempts",
+      "rejectedUnresolved_other": "• {{count}} scans still unsynced after several attempts",
+      "rejectedHint": "Watu hao waliingia wakati mtandao huo ulikuwa chini. Angalia timu yako.",
+      "conflictTitle_one": "{{count}} entry conflict",
+      "conflictTitle_other": "{{count}} entry conflicts",
+      "conflictDuplicate_one": "• {{count}} ticket already scanned elsewhere (double entry)",
+      "conflictDuplicate_other": "• {{count}} tickets already scanned elsewhere (double entry)",
+      "conflictNotFound_one": "• {{count}} ticket unknown to the server",
+      "conflictNotFound_other": "• {{count}} tickets unknown to the server",
+      "conflictHint": "Kukubaliwa nje ya mtandao na simu hii, kukataliwa kwenye sync. Ikiwa mtu mwingine alikuwa akihesabu wakati huo huo, watu hawa walipata mara mbili.",
+      "voice": {
+        "valid": "Tiketi ya bure",
+        "validWarning": "← Mahitaji ya kuangalia",
+        "alreadyCheckedIn": "Tayari uchunguzi wa",
+        "refused": "Tiketi zinakataliwa",
+        "enabled": "Matangazo ya sauti juu ya",
+        "toggleOn": "Matangazo ya sauti juu ya",
+        "toggleOff": "Matangazo ya sauti ya mbali",
+        "toggleA11y": "Badilisha matangazo ya sauti ya sauti kwenye au mbali"
+      }
     },
     "liveOps": {
       "live": "Maisha ya kuishi",
@@ -5973,6 +6492,8 @@
     "eventAnalytics": {
       "headerEyebrow": "Mtazamo wako",
       "headerTitle": "Analytics Analytics Analytics Analytics Analytics",
+      "errorTitle": "Analytics zisizowezekana",
+      "errorBody": "Haikuweza kuhifadhi data. Angalia uhusiano wako na jaribu tena.",
       "eventLabel": "Matukio ya",
       "kpiViews": "Maoni",
       "kpiRegistrations": "Usajili",
@@ -5994,7 +6515,8 @@
       "insightViewsHas": "← Previous Story Umeyaona mambo ya ajabu",
       "insightViewsNone": "Shiriki tukio lako ili kupata maoni zaidi",
       "insightRegistered_one": "Mtu aliyesajiliwa",
-      "insightRegistered_other": "Idadi ya watu waliojiandikisha"
+      "insightRegistered_other": "Idadi ya watu waliojiandikisha",
+      "actionBoxOffice": "Ofisi ya Box"
     },
     "sessionsLink": {
       "headerEyebrow": "Jamii:Mipangilio",
@@ -6077,6 +6599,16 @@
       "emptyText": "Wafadhili watapatikana hapa wakati ushirika utaongezwa."
     },
     "eventCreate": {
+      "aiAppliedMessage": "Mapendekezo hayo yamewasilishwa katika",
+      "aiTitleSuggestionsTitle": "Mapendekezo ya",
+      "aiPricingSuggestionsTitle": "Mapendekezo ya bei",
+      "aiTicketsCreated": "Tiketi zilizoundwa kutoka kwa mapendekezo ya AI",
+      "aiDescGenerated": "Maelezo yaliyotolewa na AI",
+      "aiNeedTitleFirst": "Ongeza kichwa kwanza ili AI inaweza kuzalisha maelezo.",
+      "galleryPermissionTitle": "Ruhusa inahitajika",
+      "galleryPermissionMessage": "Tafadhali kuruhusu upatikanaji wa maktaba yako ya picha",
+      "videoTooLargeTitle": "Video nyingi",
+      "videoTooLargeMessage": "Video inapaswa kuwa chini ya 20 MB.",
       "unsupportedCountryTitle": "Nchi ambayo haijasajiliwa",
       "unsupportedCountryMessage": "Hata hivyo, kampuni hiyo haiwezi kufanya malipo katika nchi hiyo hadi sasa ().0).). Muumba pekee ndiye anayestahili kuabudiwa. Nchi zilizosaidiwa: NotchPay, CinetPay na Stripe (nchi za 46).",
       "draftFoundTitle": "Rasimu ya Katiba Inayopatikana",
@@ -6086,6 +6618,10 @@
       "submitSuccess": "Tukio lililoandaliwa kwa mafanikio",
       "viewMyEvents": "Tazama Matukio Yangu",
       "createAnother": "Kujenga nyingine",
+      "submittedStamp": "Katika ukaguzi",
+      "submittedEyebrow": "Imetolewa kwa ajili ya ukaguzi",
+      "submittedBody": "Timu yetu inaangalia tukio lako. Utatambuliwa mara moja kama unaishi.",
+      "submittedCtaEyebrow": "Dashboard ya",
       "edit": "Edit Edit Edit",
       "saved": "Kuokoa kuokoa kuokoa",
       "back": "Kurudi nyuma",
@@ -6145,7 +6681,8 @@
         "ticketMaxMin": "Tiketi \" the0\" max kwa amri lazima iwe ≥ min",
         "fieldLabelRequired": "Jina la uwanja # label0 is",
         "fieldOptionsRequired": "Uchaguzi unahitajika kwa uwanja \" are0\""
-      }
+      },
+      "loadFailedBlocksSave": "Data ya tukio haiwezi kupakiwa. Reload ukurasa kabla ya kuokoa, vinginevyo habari yako ya sasa itakuwa overwritten."
     },
     "eventRegistrations": {
       "title": "Usajili",
@@ -6253,6 +6790,163 @@
       "linkReportsSub": "CSV, mauzo ya PDF, dashibodi",
       "linkMyEventsTitle": "Matukio yangu",
       "linkMyEventsSub": "Takwimu kwa kila tukio"
+    },
+    "boxOffice": {
+      "openTitle": "Fungua mpaka",
+      "openingFloatHelp": "Je, ni kiasi gani cha mabadiliko ambacho mwajiri anakupa kuanza? Bila kufanya hivyo, matokeo ya leo yatakuwa mabaya.",
+      "openDrawer": "Fungua mpaka",
+      "openError": "Hadi wakati huo hakuweza kufunguliwa",
+      "openErrorDetail": "Angalia uhusiano wako na jaribu tena.",
+      "counter": "{{count}} sales · {{amount}} {{currency}}",
+      "close": "Karibu",
+      "cash": "Fedha taslimu",
+      "momo": "Simu ya Mkono Money",
+      "giveBack": "Kurudi nyuma",
+      "saleError": "Bei ya bidhaa haikutangazwa",
+      "saleErrorDetail": "Usichukue mkopo na kununua mara mbili kwa wiki.",
+      "a11y": {
+        "drawerOpened": "Wakati wa kufungua",
+        "openingFloatInput": "Ufunguzi wa Akaunti",
+        "openDrawer": "Fungua mpaka",
+        "counter": "{{count}} sales, {{amount}} {{currency}} in the till",
+        "closeDrawer": "Karibu mpaka",
+        "tariff": "{{name}}, {{price}} {{currency}}",
+        "added": "{{name}} added",
+        "remove": "Remove {{name}}",
+        "given": "Customer gives {{amount}} {{currency}}",
+        "payCash": "Take {{amount}} {{currency}} in cash",
+        "payMomo": "Kupata fedha za simu",
+        "saleDone": "Sale recorded, {{amount}} {{currency}}",
+        "queuedOffline": "Sale saved offline, {{amount}} {{currency}}. It will sync when the network returns."
+      },
+      "pendingSales": "{{count}} sale(s) pending · {{amount}} {{currency}}",
+      "toSettle": "{{count}} sale(s) to settle — tap to view"
+    },
+    "cashDrawer": {
+      "expectedLabel": "Juu ya Chini",
+      "cashOnlyHint": "Fedha - Fedha za simu sio kwenye mfuko wako.",
+      "openingFloat": "Ufunguzi wa kufungua",
+      "salesCount": "Mauzo ya bidhaa",
+      "countedLabel": "Niliamini kuwa",
+      "shortBy": "{{amount}} {{currency}} missing",
+      "overBy": "{{amount}} {{currency}} over",
+      "varianceHint": "Hii sio kuzuia. Eleza kwa nini hapa chini.",
+      "reasonLabel": "Ufafanuzi (kinyume)",
+      "reasonPlaceholder": "A.W.T.A.W.T.A.T.A.T.A.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.A.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.",
+      "confirmClose": "Karibu mpaka wangu",
+      "closedTitle": "Mpaka imefungwa",
+      "closedMessage": "{{amount}} {{currency}} handed over.",
+      "closeError": "Kushindwa kwa",
+      "closeErrorDetail": "Tafadhali jaribu tena kwa muda mfupi.",
+      "a11y": {
+        "expected": "To hand over: {{amount}} {{currency}}",
+        "countedInput": "Kiasi cha",
+        "reasonInput": "Ufafanuzi tofauti",
+        "confirmClose": "Uthibitisho wa kufunga",
+        "closed": "Mpaka imefungwa"
+      }
+    },
+    "documents": {
+      "title": "Nyaraka za kuchapisha",
+      "a11y": "Nyaraka za kuchapishwa",
+      "badges": "Wakati wa kuchukua badges",
+      "badgesHint": "Muundo wa A6, 4 kwa kila ukurasa wa A4",
+      "attendanceSheet": "Ishara ya Kuingia",
+      "attendanceSheetHint": "Kujiandikisha kwenye dawati la mbele - tayari kabla ya tukio",
+      "certificates": "Vyeti vya kuhudhuria",
+      "certificatesHint": "Baada ya tukio, kwa ajili ya watazamaji"
+    },
+    "weddingGuests": {
+      "title": "Wageni na RSS",
+      "empty": "Hakuna wageni bado.",
+      "remindOne": "Kumbuka kukumbuka",
+      "remindOneSent": "Kumbuka kuwa",
+      "remindSent": "{{sent}} reminder(s) sent",
+      "remindSentWithSkipped": "{{sent}} sent, {{skipped}} skipped",
+      "remindError": "Haiwezi kuwa kumbukumbu.",
+      "remindPending": "Remind {{count}} pending",
+      "editRsvp": "Maoni ya RSS",
+      "editRsvpTitle": "Maoni ya RSS",
+      "rsvpUpdated": "RSS RSS updated",
+      "rsvpError": "Haiwezi kuokoa RSS",
+      "partySize": "Ukubwa wa chama",
+      "dietary": "Mahitaji ya chakula",
+      "dietaryPlaceholder": "Mafuta ya mboga, gluten-bure ...",
+      "note": "Taarifa ya",
+      "stats": {
+        "invited": "Waliopendekezwa",
+        "accepted": "imethibitishwa",
+        "pending": "Matarajio ya",
+        "headcount": "Kichwa cha kichwa"
+      },
+      "status": {
+        "pending": "Matarajio ya",
+        "accepted": "imethibitishwa",
+        "declined": "Kupungua kwa",
+        "cancelled": "Kuondolewa"
+      }
+    },
+    "weddingGifts": {
+      "title": "Usajili na zawadi",
+      "noRegistry": "Hakuna usajili wa zawadi kwa tukio hili.",
+      "create": "Kuunda Usajili",
+      "registryCreated": "Uumbaji wa Uumbaji",
+      "registryUpdated": "Usajili wa updated",
+      "editRegistry": "Usajili wa Usajili",
+      "registryTitle": "Orodha ya majina",
+      "registryDescription": "Ujumbe kwa wageni",
+      "visible": "Uchunguzi wa macho",
+      "hidden": "Waliojeruhiwa",
+      "totalRaised": "Jumla ya",
+      "share": "Kushiriki",
+      "addItem": "Ongeza zawadi",
+      "newItem": "Zawadi Mpya",
+      "editItem": "Zawadi ya Edit",
+      "itemName": "Jina la jina",
+      "itemKind": "Aina ya",
+      "targetAmount": "Kiwango cha Target",
+      "externalUrl": "Kiungo cha nje (kinyume)",
+      "itemAdded": "Zawadi aliongeza",
+      "itemUpdated": "Zawadi ya zawadi updated",
+      "itemDeleted": "Zawadi zilizofutwa",
+      "deleteItemTitle": "Kuondoa zawadi hii",
+      "deleteItemMessage": "Remove “{{name}}” from the registry?",
+      "reserved": "Waliohifadhiwa",
+      "noItems": "Hakuna zawadi bado. Ongeza moja.",
+      "kind": {
+        "gift": "Zawadi (msisitizo)",
+        "cash_fund": "Mfuko wa Fedha"
+      },
+      "error": "Kuna kitu kilienda vibaya"
+    },
+    "weddingTables": {
+      "title": "Mpango wa ufugaji",
+      "noTables": "Hakuna orodha bado. Kujenga moja.",
+      "addTable": "Ongeza kwenye meza",
+      "newTable": "Orodha mpya",
+      "editTable": "Badilisha meza",
+      "name": "Orodha ya majina",
+      "namePlaceholder": "Sehemu ya 1 ya familia ...",
+      "capacity": "wa wa wa wa",
+      "created": "Vifaa vilivyotengenezwa",
+      "updated": "Orodha ya updated",
+      "deleted": "Faili zilizofutwa",
+      "deleteTitle": "Futa orodha",
+      "deleteMessage": "Delete “{{name}}”? Guests will be unassigned.",
+      "occupancy": "{{taken}}/{{capacity}} seats",
+      "available": "{{n}} seat(s)",
+      "full": "Kamili kamili kamili",
+      "tableEmpty": "Hakuna mtu katika orodha hii",
+      "unassignedTitle": "To seat ({{count}})",
+      "allSeated": "Wageni wote waliothibitishwa wamealikwa.",
+      "createFirst": "Unda meza kwanza ili kuweka wageni wako.",
+      "assignGuest": "Seat {{name}}",
+      "assignTo": "Seat {{name}} at…",
+      "assigned": "Wageni waalikwa",
+      "unassign": "Kuondoa",
+      "unassigned": "Wageni waondolewa",
+      "capacityError": "Hakuna viti vya kutosha kwenye meza hii.",
+      "error": "Kuna kitu kilienda vibaya"
     }
   },
   "moderation": {
@@ -6355,12 +7049,15 @@
       "kpiEvents": "Matukio ya Matukio",
       "kpiRevenue": "Mapato ya Mapato",
       "kpiVerifications": "Ukaguzi",
+      "activityChartTitle": "Shughuli za Jukwaa",
+      "activityChartSubtitle": "Matokeo ya uchunguzi katika siku 7 zilizopita",
       "quickActions": "Hatua za haraka",
       "recentActivity": "Hatua ya dharura",
       "noActivity": "Hakuna shughuli za hivi karibuni",
       "viewAllAudit": "Angalia nyaraka zote za ukaguzi",
       "actions": {
         "users": "Watumiaji",
+        "verifications": "Uhakikisho",
         "subscriptions": "Orodha ya",
         "audit": "Ukaguzi",
         "announcements": "Matangazo ya",
@@ -6369,6 +7066,30 @@
         "settings": "Mipangilio ya Mipangilio",
         "treasury": "Hazina ya Fedha"
       }
+    },
+    "verifications": {
+      "watermark": "Kiko",
+      "guardTitle": "Upatikanaji wa ukomo",
+      "eyebrow": "Kiwango cha",
+      "title": "Maombi ya kuthibitisha",
+      "typeOrg": "Shirika la Shirika la",
+      "typeIndividual": "Mtu binafsi",
+      "noDocuments": "Hakuna nyaraka zilizotolewa",
+      "approve": "Kuwa tayari",
+      "reject": "Kukataa kukataa",
+      "approveTitle": "Uthibitisho wa kuthibitisha",
+      "approveMessage": "Confirm approving {{name}} as a verified organizer?",
+      "approveBio": "Kuthibitisha uthibitisho huu",
+      "approveSuccess": "Maandalizi ya kuthibitishwa",
+      "rejectTitle": "Maombi ya kukataliwa",
+      "rejectMessage": "Provide a reason for rejecting {{name}}. It will be shared with the user.",
+      "rejectReasonPlaceholder": "Sababu ya kukataa ...",
+      "rejectReasonRequired": "Sababu inahitajika.",
+      "rejectSuccess": "Maombi yaliyokataliwa",
+      "actionError": "Hatua hiyo ilishindwa. Tafadhali jaribu tena.",
+      "loadError": "Haikuweza kupakia maombi ya ukaguzi.",
+      "emptyTitle": "Hakuna maombi ya kusubiri",
+      "emptySubtitle": "Maombi mapya ya ukaguzi wa ratiba yatatangazwa hapa."
     },
     "platformSettings": {
       "watermark": "wa wa wa wa wa wa",
@@ -6478,6 +7199,16 @@
       "loadError": "Haiwezi kupakia mtumiaji",
       "roleSection": "wa wa",
       "actionsSection": "Hatua za",
+      "profileSection": "Ahadi ya",
+      "fieldFirstName": "Jina la kwanza",
+      "fieldLastName": "Jina la mwisho",
+      "fieldEmail": "Barua pepe",
+      "fieldPhone": "Simu ya Mkono",
+      "fieldCompany": "Kampuni ya Kampuni",
+      "saveProfile": "Hifadhi ya profile",
+      "profileUpdated": "Orodha ya updated",
+      "profileUpdateError": "Haiwezi kuboresha profile yako.",
+      "emailRequired": "Email inahitajika.",
       "infoSection": "Mawasiliano",
       "active": "Kazi ya Active Active",
       "inactive": "Kazi isiyo ya kawaida",
@@ -6670,6 +7401,21 @@
       "title": "Ukaguzi wa logs",
       "target": "Malengo ya Target",
       "user": "Mtumiaji: #",
+      "detail": {
+        "guardTitle": "Maelezo ya kina",
+        "eyebrow": "Ukaguzi wa log",
+        "title": "Maelezo ya kina",
+        "action": "Hatua ya hatua",
+        "target": "Malengo ya Target",
+        "user": "Mtumiaji",
+        "system": "Mfumo wa Mfumo",
+        "timestamp": "Tarehe ya kuzaliwa",
+        "ip": "Anwani ya IP",
+        "userAgent": "Kompyuta / browser",
+        "changes": "Mabadiliko ya mabadiliko",
+        "metadata": "Maelezo zaidi",
+        "loadError": "Haikuweza kupakia faili hii."
+      },
       "stats": {
         "total": "Jumla ya jumla"
       },
@@ -6907,5 +7653,617 @@
     "delegateEmailPlaceholder": "Barua ya Wageni",
     "delegateError": "Haikuwezekana kutuma maombi.",
     "toCompleteBadge": "Kukamilisha"
+  },
+  "shareCard": {
+    "eyebrow": "Nitakuwa hapo",
+    "button": "Kushiriki hadithi",
+    "dialogTitle": "Shiriki maoni yangu",
+    "cta": "Andika anwani yako",
+    "errorTitle": "Kushiriki",
+    "errorMessage": "Haikuweza kufungua akaunti kwa sasa."
+  },
+  "badges": {
+    "verified": "imethibitishwa",
+    "pioneer": "Wafanyakazi wa Pioneer",
+    "verifiedHint": "Organizer identity verified by EventEz",
+    "pioneerHint": "Founding member: tested EventEz before launch"
+  },
+  "exhibitApply": {
+    "eyebrow": "Mwandishi wa",
+    "title": "Kuomba kwa ajili ya kibanda",
+    "lead": "Ingiza kampuni yako kuendesha kibanda katika show hii. Kamati itachunguza maombi yako.",
+    "companyLabel": "Jina la Kampuni",
+    "companyPlaceholder": "Kampuni ya Acme Ltd",
+    "categoryLabel": "Jamii / Jamii",
+    "categoryPlaceholder": "Kwa mfano, teknolojia, chakula ...",
+    "websiteLabel": "Tovuti (ya kawaida)",
+    "pitchLabel": "Ujumbe kwa mratibu (kinyume)",
+    "pitchPlaceholder": "Eleza biashara yako, nini utaonyesha ...",
+    "boothLabel": "Kikoa cha kiwango cha juu (optional)",
+    "submit": "Tuma maombi yangu",
+    "submitting": "Ujumbe wa...",
+    "successTitle": "Maombi yaliyotumwa!",
+    "successSubtitle": "Kamati itafanya tathmini yake. Utatambuliwa kwa uamuzi wako.",
+    "goToMyBooth": "Angalia sanduku langu",
+    "alreadyApplied": "Tayari umejiunga na programu hii.",
+    "loginRequired": "Ingia ili kuomba kibanda.",
+    "login": "Ingia katika kuingia",
+    "errorSubmit": "Haikuweza kutuma maombi.",
+    "ctaTitle": "Je, unashiriki katika show hii?",
+    "ctaSubtitle": "Tumia kwa sekunde.",
+    "ctaButton": "Kuwa mtangazaji"
+  },
+  "myBoothMobile": {
+    "eyebrow": "Mwandishi wa",
+    "title": "Keki yangu",
+    "empty": "Hakuna Ununuzi wa Umma.",
+    "show": "Maonyesho ya show",
+    "accepted": "Masharti yaliyokubaliwa.",
+    "acceptError": "Haikuweza kukubalika.",
+    "salesTitle": "Kuondolewa kwa mauzo",
+    "commission": "EventEz commission",
+    "hostShare": "Ushiriki wa washiriki",
+    "net": "Nini cha kufanya",
+    "createEvent": "Kujenga Tukio Langu",
+    "acceptCta": "Nakubali masharti haya",
+    "statusPaid": "Malipo ya",
+    "statusPartial": "Malipo ya dhamana",
+    "statusPending": "Kwa ajili ya kulipa",
+    "amountDue": "Bei ya hisa",
+    "amountRemaining": "Kuendelea kulipa",
+    "payBooth": "Malipo kwa ajili ya kadi yangu",
+    "payMtn": "MTN Mobile Money",
+    "payOrange": "Orange Money",
+    "payCard": "Kadi ya kadi",
+    "paymentInitiated": "Malipo yameanza. kuthibitisha hilo kwenye simu yako.",
+    "payError": "Haikuweza kufungua akaunti ya benki.",
+    "captureLeads": "Kupata mawasiliano",
+    "viewLeads": "Mawasiliano yangu"
+  },
+  "leadCapture": {
+    "title": "Kupata mawasiliano",
+    "hint": "Angalia msimbo wa QR kwenye ubao wa mgeni.",
+    "permissionTitle": "Kuwezesha upatikanaji wa kamera",
+    "permissionBody": "Kamera hutumiwa tu kusoma msimbo wa QR wa wageni ambao walikubali kuwasiliana.",
+    "permissionCta": "Kuingia kwenye kamera",
+    "manualEntry": "Badala ya kutaja",
+    "manualPlaceholder": "Maelezo ya jumla",
+    "unnamed": "Mawasiliano yaliyohifadhiwa",
+    "alreadyKnown": "Imesasishwa - rekodi iliyosasishwa.",
+    "qualify": "Kuthibitisha mawasiliano haya",
+    "rating_hot": "Moto wa Moto",
+    "rating_warm": "Vita vya",
+    "rating_cold": "Baridi ya baridi",
+    "notesPlaceholder": "Nini wewe majadiliano juu ya?",
+    "next": "Mawasiliano ya baadaye",
+    "retry": "Kusanya tena",
+    "noConsentTitle": "Wageni hawa hawakukubaliana",
+    "noConsentBody": "Ask them to open the EventEz app, go to the event, then \"Who’s here\", and allow exhibitors to save their contact details. You can then scan again.",
+    "notFoundTitle": "ge Hakuna kutambuliwa",
+    "notFoundBody": "Uchafu huu sio wa tukio hili. Angalia maelezo yaliyochapishwa chini ya msimbo wa QR.",
+    "errorTitle": "Uchunguzi washindwa",
+    "a11yCaptured": "Contact saved: {{name}}",
+    "a11yNoConsent": "Hata hivyo, mgeni huyo hakuruhusiwa kuwasiliana.",
+    "a11yNotFound": "Kwa bahati mbaya haijulikani.",
+    "a11yCount": "{{count}} contacts saved"
+  },
+  "messageTime": {
+    "today": "Leo hii leo leo",
+    "yesterday": "Jana usiku",
+    "justNow": "Kwa sasa",
+    "minutesShort": "{{count}}min",
+    "hoursShort": "{{count}}h",
+    "daysShort": "{{count}}d"
+  },
+  "messageStatus": {
+    "sending": "Kutuma",
+    "failed": "Kushindwa kutuma",
+    "sent": "Ujumbe wake",
+    "delivered": "Kutolewa",
+    "read": "Kusoma"
+  },
+  "myLeads": {
+    "title": "Mawasiliano yangu",
+    "count": "{{count}} contact saved",
+    "count_other": "{{count}} contacts saved",
+    "unnamed": "Mawasiliano yasiyo ya lazima",
+    "emptyTitle": "Hakuna mawasiliano bado",
+    "emptyBody": "Angalia beji ya wageni ambao wanasimama kwa kibanda chako. Unaweza kuuza nje orodha kamili kama CSV.",
+    "errorTitle": "Haiwezi kupakia",
+    "errorBody": "Mawasiliano yako yamehifadhiwa salama. Angalia uhusiano wako na jaribu tena."
+  },
+  "myDataExhibitors": {
+    "title": "Maelezo yangu yamehifadhiwa na washirika",
+    "intro": "{{count}} company holds your contact details from a badge scan.",
+    "intro_other": "{{count}} companies hold your contact details from a badge scan.",
+    "capturedOn": "Scanned on {{date}}",
+    "erase": "ya",
+    "eraseAll": "Acha kila kitu",
+    "eraseOneA11y": "Erase my data held by {{company}}",
+    "erased": "Maelezo yako ya mawasiliano yamefutwa.",
+    "eraseError": "Kipindi hicho hakikuishia hapo.",
+    "confirmCta": "ya",
+    "confirmOneTitle": "Erase my data held by {{company}}?",
+    "confirmOneBody": "Your name, email and phone number will be deleted. {{company}} will only keep its contact count, with no way to reach you. This cannot be undone.",
+    "confirmAllTitle": "Inaondoa data yangu iliyohifadhiwa na kila msanii?",
+    "confirmAllBody": "Jina lako, barua pepe na nambari ya simu zitafutwa katika kila kampuni iliyoorodheshwa. Hii haiwezi kupuuzwa.",
+    "emptyTitle": "Hakuna kampuni iliyo na maelezo yako ya mawasiliano",
+    "emptyBody": "Waonyesho wanaweza tu kuokoa maelezo yako kwa skanning badge yako, na tu kama wewe kuruhusiwa kwa tukio hilo."
+  },
+  "visio": {
+    "expandCall": "Kuongeza simu ya video",
+    "endCall": "Mwisho wa wito",
+    "endCallConfirmTitle": "Kuacha wito?",
+    "endCallConfirmMessage": "Wewe ni karibu kuondoka mkutano unaoendelea.",
+    "minimize": "Kupunguza uzito",
+    "liveNow": "Maisha ya kuishi",
+    "join": "Kujiunga kujiunga",
+    "view": "Mtazamo wa Mtazamo",
+    "liveBannerA11y": "{{title}} is live, tap to join",
+    "seeAll": "Mtazamo wa Mtazamo",
+    "liveMultiTitle": "{{count}} events in progress",
+    "liveBannerMultiA11y": "{{count}} live events, tap for the list",
+    "resizeBubble": "Ukusanyaji wa"
+  },
+  "organize": {
+    "favorites": "Kocha wangu favorite",
+    "eyebrow": "Mipangilio ya Space",
+    "title": "Kuandaa",
+    "liveNow": "Kuishi Sasa",
+    "nextEvent": "Matukio ya baadaye",
+    "registered": "Waliojiandikisha kujiandikisha",
+    "scan": "Uchunguzi wa Uchunguzi",
+    "scanA11y": "tiketi za ndege kwa tukio hili",
+    "boxOffice": "Ofisi ya Box",
+    "boxOfficeA11y": "Kufungua ofisi ya sanduku kwa ajili ya tukio hili",
+    "viewStats": "Maoni ya stats",
+    "availableBalance": "Kiwango cha",
+    "walletA11y": "Fungua mkoba wangu",
+    "noActiveEvent": "Hakuna tukio linalotokea",
+    "noActiveEventHint": "Unda tukio au kuchapisha rasimu ya kuona hapa.",
+    "noStaffEventHint": "Matukio ambayo wewe ni sehemu ya timu yatajitokeza hapa.",
+    "createEvent": "Kujenga tukio",
+    "myEvents": "Matukio yangu",
+    "teamEvents": "Matukio ya wafanyakazi",
+    "analytics": "Analytics Analytics Analytics Analytics Analytics",
+    "loadError": "Haikuweza kupakia nafasi yako. Angalia uhusiano wako."
+  },
+  "moments": {
+    "checkin": {
+      "entered": "Wewe ni katika",
+      "rank_one": "#{{count}}",
+      "rank_other": "#{{count}}"
+    }
+  },
+  "ticketClock": {
+    "inAWeek": "Ndani ya wiki moja",
+    "tomorrow": "Tomorrow · {{time}}",
+    "tonight": "Today · {{time}}",
+    "tonightShort": "Tonight · {{time}}",
+    "doors": "Milango ya wazi",
+    "onNow": "yanayotokea sasa",
+    "startsAt": "Starts at {{time}}",
+    "offlineReady": "Tiketi zinapatikana kwa njia ya mtandao",
+    "offlinePending": "Fungua tiketi mara moja ili kuiweka nje ya mtandao",
+    "sayImGoing": "Alisema kuwa tunakwenda",
+    "showTicket": "Onyesha tiketi yangu",
+    "directions": "Mwelekeo wa",
+    "viewTicket": "Kuangalia tiketi",
+    "goThere": "kwenda kuwa",
+    "quickAction": "My ticket · {{title}}",
+    "compassA11y": "The venue is {{distance}} away, at {{hour}} o'clock",
+    "compassA11yNoHeading": "The venue is {{distance}} away",
+    "compassCalibrate": "Kuweka dira: kuchora picha 8 na simu yako",
+    "compassHint": "Fuata maagizo kwa uamilisho"
+  },
+  "onSite": {
+    "eyebrow": "Wewe ni juu ya tovuti",
+    "now": "Sasa sasa hivi",
+    "next": "Next · {{time}}",
+    "qa": "Maisha ya Q & A",
+    "plan": "Ramani & Mahali",
+    "networking": "Mtandao wa Mtandao"
+  },
+  "ambience": {
+    "program": "Programme · {{count}} sessions"
+  },
+  "attended": {
+    "title": "Mlikuwa na",
+    "rank": "#{{rank}} of {{total}} to arrive",
+    "firstArrival": "Mwanzo wa kuwasili",
+    "question": "Ulikuwa unafikiria nini?",
+    "thanks": "Shukrani kwa ajili ya rating yako.",
+    "rateA11y_one": "{{count}} star",
+    "rateA11y_other": "{{count}} stars",
+    "shareStory": "Kushiriki hadithi",
+    "later": "Baadaye baadaye baadaye"
+  },
+  "yearInReview": {
+    "eyebrow": "Mwaka wako",
+    "cta": "Your EventEz {{year}}",
+    "s1Eyebrow": "Your {{year}}",
+    "s1Line_one": "Tukio lililohudhuriwa na",
+    "s1Line_other": "Matukio yaliyohudhuriwa",
+    "citiesEyebrow": "Juu ya barabara",
+    "categoryEyebrow": "Tukio la aina yako",
+    "season": "Your month: {{month}}",
+    "firstEyebrow": "Yote ilianza na",
+    "lastLine": "and ended with {{title}}",
+    "arrivalsEyebrow": "Daima wakati",
+    "arrivalsLine_one": "Mara ya kwanza kufika",
+    "arrivalsLine_other": "Mara ya kwanza kufika",
+    "organizerEyebrow": "Kamati yako",
+    "finalEyebrow": "My EventEz {{year}}",
+    "favoriteLine": "Favorite: {{title}}",
+    "share": "Kushiriki kadi yangu",
+    "tapHint": "Bonyeza hapa kuendelea"
+  },
+  "organizerMoments": {
+    "toast": {
+      "firstTitle": "Mwanzo wa Kuwajibika",
+      "someone": "Mtu mmoja",
+      "share": "Kushiriki katika kukuza mauzo",
+      "view": "Mtazamo wa Mtazamo",
+      "soldOutTitle": "Kununuliwa nje",
+      "soldOutLine": "Kila tiketi ya kuondoka"
+    },
+    "chip": {
+      "count": "{{count}} registered"
+    },
+    "stamp": {
+      "soldOut": "Kuwa tayari",
+      "online": "Maisha ya kuishi"
+    },
+    "share": {
+      "cta": "Shiriki tukio hilo",
+      "done": "Shared via {{app}}",
+      "doneGeneric": "Kushiriki kwa pamoja",
+      "message": "{{title}} — book here: {{url}}"
+    },
+    "since": {
+      "chip": "+{{delta}} since {{when}}",
+      "yesterday": "yesterday {{time}}"
+    },
+    "payout": {
+      "requested": "Imependekezwa",
+      "approved": "Imeidhinishwa",
+      "sent": "Ujumbe wake",
+      "verifying": "Kuangalia kwa operator",
+      "sentTo": "Paid to {{method}} {{tail}} · {{time}}",
+      "failed": "Malipo ya kushindwa"
+    },
+    "released": {
+      "chip": "Released · {{title}}",
+      "chipMany": "Released · {{amount}}",
+      "inHours": "Available in {{count}} h"
+    },
+    "liveOps": {
+      "doors": "Doors opened at {{time}}",
+      "peak": "Peak · {{count}} entries / 15 min",
+      "nearlyFull": "Kupata karibu kamili",
+      "newCount": "+{{count}} new"
+    },
+    "scan": {
+      "hundred": "{{count}} check-ins",
+      "endTitle": "Mwisho wa Mabadiliko",
+      "validated": "Kuangalia katika",
+      "cadence": "{{value}} / min",
+      "cadenceLabel": "Amani ya Bwana",
+      "refused": "Kukataliwa",
+      "syncing": "Kuunganisha ...",
+      "synced": "Kuungana",
+      "pending": "{{count}} scans waiting to sync",
+      "viewLiveOps": "Maoni kwenye Live ops",
+      "resume": "Kurudishwa",
+      "close": "Mwisho wa Mwisho"
+    },
+    "recap": {
+      "title": "Kuondolewa kwa",
+      "eyebrow": "Hali ya dharura",
+      "attended": "Waliohudhuria",
+      "attendedOf": "{{attended}} of {{expected}}",
+      "rate": "{{rate}}% attendance",
+      "revenue": "Mapato ya Mapato",
+      "rating": "Kiwango cha wastani",
+      "reviews": "{{count}} reviews",
+      "noReviews": "Hakuna maoni bado",
+      "best": "Ukaguzi wa",
+      "latest": "Maoni ya Mwisho",
+      "thank": "Shukrani kwa washiriki",
+      "funds": "Tazama Fedha",
+      "error": "Usajili wa sasa haupatikani.",
+      "soldOutAt": "Sold out on {{date}}",
+      "cta": "Maoni ya Recap"
+    }
+  },
+  "liveSignals": {
+    "watching_one": "{{count}} person is looking at this event",
+    "watching_other": "{{count}} people are looking at this event",
+    "watchingAtLeast": "{{count}}+ people are looking at this event",
+    "lastSaleJustNow": "Kitabu cha sasa",
+    "lastSaleMinutes_one": "Booked {{count}} min ago",
+    "lastSaleMinutes_other": "Booked {{count}} min ago",
+    "lastSaleThisHour": "Imeandikwa katika saa ya mwisho",
+    "lastSaleToday": "Kitabu cha leo",
+    "onSite": "{{count}} people already here",
+    "onSiteAtLeast": "{{count}}+ people already here",
+    "soldOut": "Kununuliwa nje",
+    "soldOutCta": "Kuondolewa · Hakuna viti vilivyoachwa",
+    "connectionsOne": "{{name}} is going",
+    "connectionsTwo": "{{name}} and {{name2}} are going",
+    "connectionsMany_one": "{{name}} and {{count}} of your connections are going",
+    "connectionsMany_other": "{{name}} and {{count}} of your connections are going",
+    "connectionsA11y": "Uhusiano wako ambao unakwenda",
+    "someone": "Mtu mmoja",
+    "whoGoingNames_one": "{{names}} is going",
+    "whoGoingNames_other": "{{names}} are going",
+    "whoGoingOthers_one": "{{names}} and {{count}} other are going",
+    "whoGoingOthers_other": "{{names}} and {{count}} others are going",
+    "registeredCount_one": "{{count}} person registered",
+    "registeredCount_other": "{{count}} people registered",
+    "online": "Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online Online",
+    "repliesWithin": "Usually replies within {{duration}}",
+    "durMinutes": "{{count}} min",
+    "durHours_one": "{{count}} hour",
+    "durHours_other": "{{count}} hours",
+    "durDay": "masaa 24 kwa saa",
+    "seatHeldTitle": "Chumba ni kwa ajili yako",
+    "seatHeldBody": "Kitabu kabla ya kuhesabu kumalizika: baada ya hapo, inakwenda kwa mtu mwingine.",
+    "seatHeldCta": "Kitabu changu",
+    "seatHeldExpired": "Muda ni mfupi: nafasi ni kwenda kwa mtu mwingine.",
+    "seatHeldA11y": "Time left to book: {{time}}",
+    "cityPulse": "{{count}} bookings in {{city}} today",
+    "cityPulseAtLeast": "{{count}}+ bookings in {{city}} today",
+    "cityLive_one": "{{count}} event live",
+    "cityLive_other": "{{count}} events live",
+    "sessionAttendance": "{{count}} present · {{rate}}% of the room",
+    "liveAround_one": "{{count}} live around you",
+    "liveAround_other": "{{count}} live around you",
+    "liveAroundAll": "Onyesha kila kitu",
+    "reactionA11y": "React with {{emoji}}",
+    "reactionsTitle": "Majibu ya",
+    "connectionArrived": "{{name}} has arrived",
+    "connectionArrivedFallback": "Moja ya mawasiliano yake yamefika",
+    "connectionArrivedCta": "Tuma ujumbe kwao",
+    "saleOne": "+{{count}} {{ticket}}",
+    "saleWindow": "+{{count}} in 1 min",
+    "saleLive": "Maisha ya Uuzaji",
+    "checkinPushed": "kuwasili kwa"
+  },
+  "reminders": {
+    "channelName": "Matukio ya kukumbukwa",
+    "dayBeforeTitle": "Kumbuka: kesho",
+    "dayBeforeBody": "“{{title}}” starts tomorrow.",
+    "hourBeforeTitle": "Kumbuka: Ndani ya saa moja",
+    "hourBeforeBody": "“{{title}}” starts soon.",
+    "hourBeforeBodyAt": "“{{title}}” starts soon at {{location}}."
+  },
+  "quickActions": {
+    "discover": "Kugundua",
+    "discoverSubtitle": "Matukio yaliyo karibu na wewe",
+    "tickets": "Tiketi yangu",
+    "scan": "Scan ya tiketi"
+  },
+  "ongoing": {
+    "channelName": "Siku ya tukio",
+    "eventFallback": "Matukio yako",
+    "beforeBodyAt": "Starting soon · {{place}}",
+    "beforeBody": "Kuanza haraka",
+    "duringSession": "Now: {{session}}",
+    "duringBody": "Tiketi yako iko tayari",
+    "scannerTitle": "onUchunguzi juu ya wajibu"
+  },
+  "gestures": {
+    "undo": {
+      "title": "Je, si kuchukua hatua ya mwisho?",
+      "confirm": "ya ya",
+      "keep": "Endelea kuwa",
+      "failed": "Umbo hilo halikupita. Angalia uhusiano wako na jaribu tena.",
+      "unfollow": "Put “{{title}}” back in your favourites.",
+      "archive": "Weka mazungumzo nje ya faili."
+    },
+    "report": {
+      "title": "Ripoti ya tatizo",
+      "subtitle": "Mtihani kujenga: screenshot, screen na toleo ni kutumwa na ujumbe wako.",
+      "noNote": "Taarifa bila ya maoni",
+      "blur": "Bluu ya juu",
+      "noShot": "Hakuna picha inayoonekana kwenye skrini hii.",
+      "placeholder": "Nini kilichotokea?",
+      "send": "Ujumbe wa",
+      "sent": "Tunashukuru, taarifa yako imetumwa.",
+      "unavailable": "Haiwezi kutuma: ufuatiliaji wa makosa sio kazi kwenye ujenzi huu."
+    },
+    "applause": {
+      "hint": "Naunga mkono hoja kwa muda mrefu.",
+      "a11y": "Matumizi ya muda mrefu"
+    },
+    "hush": {
+      "title": "Mic na kamera zilizimwa wakati simu hiyo ilipokuwa ikiita",
+      "reactivate": "Bonyeza hapa kuwarudisha nyuma"
+    },
+    "lighter": {
+      "button": "Mwanga zaidi",
+      "off": "Kuweka nje",
+      "alone": "Kuinua simu yako, moto hufuata hatua yako.",
+      "count_one": "{{count}} lighter up",
+      "count_other": "{{count}} lighters up"
+    },
+    "surprise": {
+      "chip": "mshangao wangu",
+      "chipA11y": "Kuonyesha tukio la random",
+      "again": "mwingine mwingine",
+      "none": "Hakuna hatua nyingine ya kupendekeza kwa sasa."
+    },
+    "bump": {
+      "settingTitle": "Kuwasiliana kwa Kuingiliana",
+      "settingSubtitle": "Kwenye tovuti, mara moja tiketi yako ni scanned: shake wakati huo huo kama mtu mwingine kupata kila mmoja. Eneo lako la takriban hutumiwa kwa sekunde chache ili kukulingana na haujawahi kuhifadhiwa. Hakuna kinachotokea bila uthibitisho wako. Kuacha kwa default.",
+      "button": "Kutetemeka kwa shaking",
+      "nearbyButton": "Kuangalia kwa ajili yangu",
+      "hint": "Piga simu yako wakati huo huo kama mtu mwingine.",
+      "title": "Mawasiliano ya mawasiliano",
+      "searching": "Tafuta watu unaowapenda karibu na wewe",
+      "none": "Hakuna aliyepatikana. Jaribu wakati huo huo kama mtu mwingine, kisha jaribu tena.",
+      "pick": "Chagua mtu sahihi. Hakuna kitu kinachoshirikiwa bila idhini yako.",
+      "connect": "Kuunganisha?",
+      "connectA11y": "Connect with {{name}}",
+      "waiting": "Kusubiri uthibitisho wako",
+      "connected": "Kuunganisha",
+      "openSettings": "Mipangilio ya Open",
+      "error": {
+        "disabled": "Nenda kwenye \"Mawasiliano ya Swap kwa kutetemeka\" katika mipangilio yako.",
+        "notCheckedIn": "Inapatikana mara moja tiketi yako imekaguliwa kwenye mlango.",
+        "clockSkew": "Saa ya simu yako ni mbali. Jaribu moja kwa moja na jaribu tena.",
+        "rateLimited": "majaribio mengi. Jaribu tena kwa dakika moja.",
+        "expired": "Mgawanyiko umekwisha. kuanza tena.",
+        "noLocation": "Ni muhimu kutafuta mtu aliye karibu na wewe.",
+        "generic": "Mgawanyiko haukuendelea. Jaribu tena."
+      }
+    },
+    "doubleTapSave": {
+      "a11y": "Kuokoa Tukio"
+    },
+    "torch": {
+      "onA11y": "Nenda kwenye Torch",
+      "offA11y": "Download mchezo Kutoroka",
+      "hint": "Double-tap mtazamaji kugeuza torch juu au mbali."
+    },
+    "dragSelect": {
+      "select": "Kuchagua kuchagua",
+      "hint": "au kuadhimisha na kuvuka kutoka utoto kuingia utu uzima.",
+      "message": "Wajumbe waliochaguliwa",
+      "export": "Kuuza nje ya uteuzi",
+      "exportError": "Matokeo ya uchaguzi yameshindwa.",
+      "csvName": "Jina la jina",
+      "csvEmail": "Barua pepe",
+      "csvReference": "Marejeo ya kumbukumbu",
+      "csvStatus": "Hali ya",
+      "csvDate": "Kujiandikisha"
+    }
+  },
+  "delight": {
+    "loading": {
+      "tickets": "Kununua tiketi yako ...",
+      "favorites": "Kufurahia favorites yako ...",
+      "notifications": "Kuweka matangazo yako ...",
+      "messages": "Mazungumzo yako ...",
+      "search": "Kuangalia kwa ajili ya matukio ya...",
+      "event": "Kuandaa ukurasa wa tukio ..."
+    },
+    "mobileMoney": {
+      "sent": "Ombi lako la malipo limetumwa kwa operator wako.",
+      "pin": "Tumia PIN yako kwenye simu yako, kwa haraka ya mwendeshaji wako.",
+      "operator": "Usajili wa kampuni unaweza kuchukua muda kidogo. Hii ni ya kawaida, tafadhali endelea kwenye ukurasa huu.",
+      "once": "Utakuwa tu kushtakiwa mara moja, hata kama kusubiri kuendelea."
+    },
+    "empty": {
+      "tickets": {
+        "v0": "Tiketi yako itaonekana hapa mara tu unapojiandikisha kwa tukio.",
+        "v1": "Mkutano, mkutano, warsha? Yote huanza na tukio.",
+        "v2": "Sasa, tovuti yako inaweza kuwa online."
+      },
+      "favorites": {
+        "v0": "Bonyeza hapa ili uweze kuona mabadiliko.",
+        "v1": "Fuata tukio ili usisahau habari zake.",
+        "v2": "Moyo mmoja ni wa kutosha kuweka tukio kwa mkono."
+      },
+      "notifications": {
+        "v0": "Habari kutoka kwa waandaaji na waandaaji wanaofuata itaonekana hapa.",
+        "v1": "Fuata tukio ili kujua nini ni mpya.",
+        "v2": "Tutakuambia mara moja ikiwa kuna kitu kitatokea."
+      },
+      "messages": {
+        "v0": "Je, umewahi kukutana na mtu katika tukio? Ingiza msimbo wako wa kuunganisha.",
+        "v1": "Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ....................................................................",
+        "v2": "Badilisha maelezo ya mawasiliano kwenye tovuti kwa skanning msimbo wa attendee."
+      },
+      "discover": {
+        "v0": "Utafutaji wa neno muhimu wakati mwingine hupata kile ukurasa wa nyumbani haujaonyesha bado.",
+        "v1": "Tafuta na mji au jamii: matukio mapya yanawasili kila wiki."
+      },
+      "exploreAction": "Kuona nini juu ya",
+      "scanAction": "Angalia msimbo",
+      "searchAction": "Kutafuta tukio",
+      "didYouMean": "Did you mean “{{term}}”?",
+      "widen": "Urefu wa kilomita 50 karibu na wewe",
+      "clearFilters": "Vipengele vya filters"
+    },
+    "greeting": {
+      "when": {
+        "today": "Leo hii leo leo leo",
+        "tomorrow": "Kesho Kesho Kesho Kesho",
+        "dayAfter": "Siku baada ya kesho"
+      },
+      "there": "kwenye tovuti",
+      "weather": {
+        "rain": "Rain expected {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "rainProb": "Rain likely ({{prob}}%) {{when}} in {{city}} for “{{title}}”: bring an umbrella.",
+        "storm": "Storms possible {{when}} in {{city}} for “{{title}}”: bring something to cover up.",
+        "clear": "Fine weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°.",
+        "cloudy": "Cloudy weather expected {{when}} in {{city}} for “{{title}}”, {{temp}}°."
+      },
+      "news": {
+        "v0_one": "{{count}} new event from organizers you follow.",
+        "v0_other": "{{count}} new events from organizers you follow.",
+        "v1_one": "Organizers you follow published {{count}} event.",
+        "v1_other": "Organizers you follow published {{count}} events."
+      },
+      "ritual": {
+        "birthday": "Furaha ya kuzaliwa! Kuwa na siku njema.",
+        "accountAnniversary_one": "One year on EventEz already. Thank you for your trust.",
+        "accountAnniversary_other": "{{count}} years on EventEz already. Thank you for your trust.",
+        "nationalDay": "Heri ya Siku ya Taifa!",
+        "newYear": "Happy New Year {{year}}! May it bring you wonderful moments."
+      }
+    },
+    "welcomeBack": {
+      "title": "welcome nyuma ya nyuma",
+      "subtitle_one": "Ni jambo jipya tangu ziara yake ya mwisho.",
+      "subtitle_other": "{{count}} new things since your last visit.",
+      "more_one": "Kisha ni juu yako kuamua ni nini unataka.",
+      "more_other": "And {{count}} more from what you follow.",
+      "dismiss": "ya",
+      "reason": {
+        "followed_organizer": "Utaratibu wa kufuata",
+        "new_edition": "Makala inayofuataTaasisi Mpya ya Tukio Ulilohudhuria",
+        "other": "mpya mpya mpya mpya"
+      },
+      "byOrganizer": "by {{name}}"
+    },
+    "reco": {
+      "becauseOne": "Because you like {{first}}",
+      "becauseTwo": "Because you like {{first}} and {{second}}",
+      "forYouEyebrow": "Kwa ajili yako · Kuweka juu ya paa yako",
+      "forYouTitle": "Unaweza pia kupenda",
+      "loginCtaTitle": "Mapendekezo yaliyotolewa na wewe"
+    },
+    "settings": {
+      "ritualsEyebrow": "Viwango vya chini",
+      "ritualsTitle": "Ndogo kugusa",
+      "ritualsSubtitle": "Neno juu ya siku yako ya kuzaliwa, kumbukumbu ya akaunti yako au siku ya kitaifa, mara moja wakati wa siku. Umri wako ni kamwe kuonyeshwa, hakuna taarifa.",
+      "forgetEyebrow": "Mawasiliano",
+      "forgetTitle": "Kusahau mapendekezo yangu",
+      "forgetSubtitle": "Angalia kile kilichofuata matukio, usajili na utafutaji vilifundisha mapendekezo yako.",
+      "forgetConfirmTitle": "Kusahau mapendekezo yako?",
+      "forgetConfirmMessage": "Mapendekezo yako huanza kutoka mwanzo. Tiketi yako, favorites na zifuatazo hazibadilika.",
+      "forgetDone": "Jibu: Mapendekezo yako huanza kutoka mwanzo.",
+      "forgetUnavailable": "Chaguo hili bado halijapatikana. Hakuna kilichoachwa.",
+      "forgetError": "Mapendekezo yako hayawezi kufutwa. Haibadilika, tafadhali jaribu tena."
+    },
+    "goingCard": {
+      "title": "Wakati wa kusubiri, jitayarisha kadi yako ya 'mimi kwenda'",
+      "subtitle": "Itakuwa tayari kushiriki mara tu malipo yatakapothibitishwa.",
+      "tintLabel": "Msingi wa Background",
+      "messageLabel": "Ujumbe wa Ujumbe",
+      "messages": {
+        "going": "Mimi nina kwenda",
+        "meetThere": "Unaona hapo?",
+        "seeYou": "Kukutana na sisi huko"
+      },
+      "tintA11y": "Color {{index}}",
+      "printing": "Kadi yako ya barua pepe wakati wewe ni kusubiri.",
+      "ready": "Barua yako iko tayari",
+      "share": "Kushiriki kadi yangu",
+      "backdropA11y": "Illustrated background {{index}}"
+    }
   }
 }
