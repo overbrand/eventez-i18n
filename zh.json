@@ -6503,6 +6503,10 @@
       "predictionLabel": "D日出席情况估计",
       "predictionValue": "{\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}我还得说 {\\fn黑体\\fs22\\bord1\\shad0\\3aHBE\\4aH00\\fscx67\\fscy66\\2cHFFFFFF\\3cH808080}有人",
       "predictionConfidence": "信心:{{percent}}%.",
+      "predictionConfidenceLevel": "信心:{{level}}",
+      "predictionConfidenceLow": "低级",
+      "predictionConfidenceMedium": "介质",
+      "predictionConfidenceHigh": "高级",
       "performance": "业绩",
       "capacityUsed": "使用的能力",
       "quickActions": "快速行动",
@@ -7694,6 +7698,8 @@
     "ctaButton": "成为参展者"
   },
   "myBoothMobile": {
+    "emptyTitle": "还没有票位",
+    "emptyBody": "一旦组织者接受您的申请, 您的预定位将在此出现 。",
     "eyebrow": "(英语)",
     "title": "我的摊位",
     "empty": "没有预约",

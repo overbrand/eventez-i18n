@@ -6503,6 +6503,10 @@
       "predictionLabel": "Geschätzte Teilnahme am D-Day",
       "predictionValue": "{{count}} Menschen",
       "predictionConfidence": "Vertrauen: {{percent}}%",
+      "predictionConfidenceLevel": "Vertrauen: {{level}}",
+      "predictionConfidenceLow": "niedrig",
+      "predictionConfidenceMedium": "Medium",
+      "predictionConfidenceHigh": "hoch",
       "performance": "Leistung",
       "capacityUsed": "Ausgenutzte Kapazität",
       "quickActions": "Schnelle Aktionen",
@@ -7694,6 +7698,8 @@
     "ctaButton": "Werden Sie Aussteller"
   },
   "myBoothMobile": {
+    "emptyTitle": "Noch keine Booth",
+    "emptyBody": "Ihre Standreservierungen werden hier angezeigt, sobald ein Organisator Ihre Bewerbung akzeptiert hat.",
     "eyebrow": "AUSSCHREIBUNG",
     "title": "Mein Booth",
     "empty": "Keine Kabinenreservierung.",

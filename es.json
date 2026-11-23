@@ -6503,6 +6503,10 @@
       "predictionLabel": "Asistencia estimada en D-día",
       "predictionValue": "♥ gente",
       "predictionConfidence": "Confianza:",
+      "predictionConfidenceLevel": "Confidence: {{level}}",
+      "predictionConfidenceLow": "bajo",
+      "predictionConfidenceMedium": "mediano",
+      "predictionConfidenceHigh": "alto",
       "performance": "Ejecución",
       "capacityUsed": "Capacidad utilizada",
       "quickActions": "Medidas rápidas",
@@ -7694,6 +7698,8 @@
     "ctaButton": "Conviértete en expositor"
   },
   "myBoothMobile": {
+    "emptyTitle": "No standh yet",
+    "emptyBody": "Sus reservas de stand aparecerán aquí una vez que un organizador acepte su solicitud.",
     "eyebrow": "EXHIBITOR",
     "title": "Mi cabaña",
     "empty": "No hay reserva de cabina.",

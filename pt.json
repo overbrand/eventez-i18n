@@ -6503,6 +6503,10 @@
       "predictionLabel": "Assiduidade prevista no dia D",
       "predictionValue": "Pessoas",
       "predictionConfidence": "Confiança:",
+      "predictionConfidenceLevel": "Confidence: {{level}}",
+      "predictionConfidenceLow": "baixo",
+      "predictionConfidenceMedium": "média",
+      "predictionConfidenceHigh": "alto",
       "performance": "Desempenho",
       "capacityUsed": "Capacidade utilizada",
       "quickActions": "Acções rápidas",
@@ -7694,6 +7698,8 @@
     "ctaButton": "Tornar-se um expositor"
   },
   "myBoothMobile": {
+    "emptyTitle": "Ainda não há cabine.",
+    "emptyBody": "As suas reservas de estande aparecerão aqui assim que um organizador aceitar a sua candidatura.",
     "eyebrow": "EXIBIDOR",
     "title": "A minha cabine.",
     "empty": "Não há reserva.",

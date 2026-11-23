@@ -6503,6 +6503,10 @@
       "predictionLabel": "Расчетная посещаемость в день D",
       "predictionValue": "0  люди",
       "predictionConfidence": "Доверие:  0 %",
+      "predictionConfidenceLevel": "Confidence: {{level}}",
+      "predictionConfidenceLow": "низкий",
+      "predictionConfidenceMedium": "средний",
+      "predictionConfidenceHigh": "высокий",
       "performance": "Выступление",
       "capacityUsed": "Используемая мощность",
       "quickActions": "Быстрые действия",
@@ -7694,6 +7698,8 @@
     "ctaButton": "Станьте экспонентом"
   },
   "myBoothMobile": {
+    "emptyTitle": "Еще нет бутона",
+    "emptyBody": "Бронирование вашего стенда появится здесь, как только организатор примет вашу заявку.",
     "eyebrow": "Выставщик",
     "title": "Моя будка",
     "empty": "Нет бронирования.",

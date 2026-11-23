@@ -6503,6 +6503,10 @@
       "predictionLabel": "डी-डे पर अनुमानित उपस्थिति",
       "predictionValue": "A person who has a person of a person.",
       "predictionConfidence": "Confidence: a tumblr.",
+      "predictionConfidenceLevel": "Confidence: {{level}}",
+      "predictionConfidenceLow": "कम",
+      "predictionConfidenceMedium": "मध्यम",
+      "predictionConfidenceHigh": "उच्च",
       "performance": "प्रदर्शन",
       "capacityUsed": "क्षमता का इस्तेमाल किया",
       "quickActions": "त्वरित कार्रवाई",
@@ -7694,6 +7698,8 @@
     "ctaButton": "एक प्रदर्शक बनें"
   },
   "myBoothMobile": {
+    "emptyTitle": "अभी तक कोई बूथ नहीं",
+    "emptyBody": "एक बार जब कोई आयोजक आपके आवेदन को स्वीकार करता है तो आपका बूथ आरक्षण यहां दिखाई देगा।",
     "eyebrow": "सहायक",
     "title": "मेरा बूथ",
     "empty": "कोई बूथ आरक्षण नहीं।",

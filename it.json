@@ -6503,6 +6503,10 @@
       "predictionLabel": "Presenza stimata su D-day",
       "predictionValue": "≈ {{count}} persone",
       "predictionConfidence": "Confidenza: {{percent}}%",
+      "predictionConfidenceLevel": "Confidenza: {{level}}",
+      "predictionConfidenceLow": "basso",
+      "predictionConfidenceMedium": "media",
+      "predictionConfidenceHigh": "alto",
       "performance": "Prestazioni",
       "capacityUsed": "Capacità utilizzata",
       "quickActions": "Azioni rapide",
@@ -7694,6 +7698,8 @@
     "ctaButton": "Diventa un espositore"
   },
   "myBoothMobile": {
+    "emptyTitle": "Ancora nessuna cabina",
+    "emptyBody": "Le prenotazioni del vostro stand verranno visualizzate qui una volta che un organizzatore accetta la vostra applicazione.",
     "eyebrow": "EXHIBITOR",
     "title": "Il mio stand",
     "empty": "Nessuna prenotazione.",

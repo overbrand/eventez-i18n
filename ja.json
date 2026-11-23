@@ -6503,6 +6503,10 @@
       "predictionLabel": "D-dayへの刺激的な出席",
       "predictionValue": "≈ 0 人",
       "predictionConfidence": "公益社団法人 現00%",
+      "predictionConfidenceLevel": "Confidence: {{level}}",
+      "predictionConfidenceLow": "低い",
+      "predictionConfidenceMedium": "メディア",
+      "predictionConfidenceHigh": "高い",
       "performance": "パフォーマンス",
       "capacityUsed": "使用される容量",
       "quickActions": "クイックアクション",
@@ -7694,6 +7698,8 @@
     "ctaButton": "出展者になる"
   },
   "myBoothMobile": {
+    "emptyTitle": "ブースはありません。",
+    "emptyBody": "主催者が申請を承諾した時点で、ブースの予約がここに表示されます。",
     "eyebrow": "パートナー",
     "title": "マイブース",
     "empty": "ブース予約なし",
